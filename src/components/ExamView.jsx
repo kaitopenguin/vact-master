@@ -41,9 +41,22 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
   const [isMobilePaletteOpen, setIsMobilePaletteOpen] = useState(false);
 
   // Filter exams by category
-  const filteredExams = filterCategory === 'all' 
-    ? EXAM_LIST 
-    : EXAM_LIST.filter(e => e.category === filterCategory);
+  let filteredExams = EXAM_LIST;
+  if (filterCategory === 'official') {
+    filteredExams = EXAM_LIST.filter(e => e.category === 'official');
+  } else if (filterCategory === 'moon') {
+    filteredExams = EXAM_LIST.filter(e => e.category === 'moon');
+  } else if (filterCategory === 'moon_1_10') {
+    filteredExams = EXAM_LIST.filter(e => {
+      const match = e.id.match(/vact-moon-de-(\d+)/);
+      return match && parseInt(match[1]) <= 10;
+    });
+  } else if (filterCategory === 'moon_11_25') {
+    filteredExams = EXAM_LIST.filter(e => {
+      const match = e.id.match(/vact-moon-de-(\d+)/);
+      return match && parseInt(match[1]) > 10;
+    });
+  }
 
   // Start exam
   const handleStartExam = (examId, sectionOnly = 'all') => {
@@ -249,10 +262,10 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
           </span>
           {[
             { id: 'all', label: `Tất cả (${EXAM_LIST.length} đề)` },
-            { id: 'official', label: 'Đề chính thức ĐHQG' },
-            { id: 'moon', label: 'Bộ 25 đề Moon.vn' },
-            { id: 'past', label: 'Đề các năm qua' },
-            { id: 'topic', label: 'Luyện cấp tốc' },
+            { id: 'official', label: 'Đề mẫu ĐHQG-HCM' },
+            { id: 'moon', label: 'Toàn bộ 25 đề Moon.vn' },
+            { id: 'moon_1_10', label: 'Đề 01 - 10 (Nền tảng)' },
+            { id: 'moon_11_25', label: 'Đề 11 - 25 (Phân hóa 950+)' },
           ].map(cat => (
             <button
               key={cat.id}
