@@ -9,10 +9,42 @@ export const EXAM_LIST = [
     "title": "Đề Thi Minh Họa V-ACT 2025 Chính Thức (ĐHQG TP.HCM)",
     "year": "2025 - 2026",
     "category": "official",
-    "type": "Đề Mẫu Chính Thức",
+    "type": "Đề Mẫu Chính Thức ĐHQG",
     "durationMinutes": 150,
     "totalQuestions": 120,
     "description": "Trích xuất nguyên bản 120 câu hỏi từ Đề thi Mẫu chính thức do Đại học Quốc gia TP.HCM ban hành theo cấu trúc đổi mới GDPT 2018.",
+    "sections": [
+      {
+        "name": "Tiếng Việt",
+        "count": 30,
+        "score": "300đ"
+      },
+      {
+        "name": "Tiếng Anh",
+        "count": 30,
+        "score": "300đ"
+      },
+      {
+        "name": "Toán học",
+        "count": 30,
+        "score": "300đ"
+      },
+      {
+        "name": "Tư duy khoa học",
+        "count": 30,
+        "score": "300đ"
+      }
+    ]
+  },
+  {
+    "id": "vact-vnno1-2027-lan1",
+    "title": "Đề Thi Thử V-ACT VnNO1 2026/2027 Lần 1 (Độc Quyền Có Đáp Án)",
+    "year": "2026 - 2027",
+    "category": "vnno1",
+    "type": "Đề VnNO1 Thực Chiến",
+    "durationMinutes": 150,
+    "totalQuestions": 120,
+    "description": "Bộ đề thi thử thực chiến độc quyền từ kênh VnNO1 cập nhật ngày 18/11/2026, chuẩn ma trận 1.200 điểm có bảng đáp án chính xác 100%.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -2878,6 +2910,2048 @@ export const QUESTIONS_DATA = {
       ],
       "correctAnswer": 0,
       "explanation": "Phân tích phương pháp giải chi tiết câu 120: Vận dụng kiến thức trọng tâm của phân môn Tư duy khoa học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
+      "difficulty": "Khó"
+    }
+  ],
+  "vact-vnno1-2027-lan1": [
+    {
+      "id": 5001,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“Toàn thân nàng biến thành một thân cây, chân như cắm sâu xuống đất và các ngón chân vươn\ndài ra thành những rễ lớn rễ nhỏ. Mái tóc đẹp đẽ của nàng biến thành những lá cây. Apollon chạy đến\nnơi thì nàng trinh nữ xinh đẹp Daphné đã biến thành một cây nguyệt quế xanh tươi, tự nhiên như đã\nmọc lên từ ngàn xưa và từ ngàn xưa vốn tự nhiên và xanh tươi như vậy.”\n(Nguyễn Văn Khỏa, Thần thoại Hy Lạp)\nNgoại hình của nàng Daphné được miêu tả bởi những biện pháp tu từ nào?",
+      "options": [
+        "A. Ẩn dụ, hoán dụ.",
+        "B. Liệt kê, nhân hóa.",
+        "C. Nhân hóa, hoán dụ.",
+        "D. So sánh, liệt kê."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 1] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5002,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“Ngày ấy thú vật hãy còn làm chủ mặt đất chưa có dấu tích loài người. Một hôm có một cây\nsi bị bão đổ xuống trong đó bay ra hai con chim lớn gọi là Ác-các Ùa-quê (hay Ay và Ua). Chúng\nđến làm tổ ở động Hào và đẻ trăm trứng trong đó có ba cái to lớn dị thường. Nhờ được thần bày cho\ncách ấp, sau 50 ngày 97 trứng nở ra người: 50 người đi về mạn đồng bằng thành người Kinh, còn 47\nngười lần lên mạn ngược sau trở thành tổ tiên các dân Lào, Mường, Mán, Thổ, v.v... Còn lại ba trứng\nấp đủ 100 ngày nở ra ba người: hai trai một gái. Đại-ca, anh cả được tộc trưởng người Kinh và người\nMường Mán rước về làm Lang, nhưng bị yêu tinh đón đường ăn thịt.”\n(Theo Nguyễn Đổng Chi)\nTác phẩm trên thuộc thể loại nào?",
+      "options": [
+        "A. Sử thi.",
+        "B. Thần thoại.",
+        "C. Truyền thuyết.",
+        "D. Truyện truyền kỳ."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 2] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5003,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“Yêu thay miền thôn tịch,\nYêu thay miền thôn tịch!\nCư xử dầu lòng\nNgao du mặc thích\nKhéo chiều người mến cảnh yên hà,\nDễ quyến khách vui miền tuyền thạch.”\n(Nguyễn Hãng, Tịch cư ninh thể phú)\nNội dung chính được thể hiện trong đoạn trích trên là gì?",
+      "options": [
+        "A. Lòng yêu thích sự tự do, không ràng buộc của kẻ ẩn sĩ giữa cảnh thôn dã thênh thang, rộng rãi.",
+        "B. Tình yêu và niềm vui thích của nhân vật trữ tình dành cho miền quê u tịch, tiêu điều, nghèo khó.",
+        "C. Khí phách ngang tàng của bậc anh hùng tráng sĩ giữa tự nhiên rộng lớn, mang chiều kích vũ trụ.",
+        "D. Đời sống cư dân thôn quê mang vẻ đẹp thanh bình, nhộn nhịp, miêu tả qua lối viết giàu nhạc tính."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 3] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5004,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“Tam nguyệt xuân thì trưởng đậu miêu,\nHoàng hồ phì mãn bạch hồ kiêu.\nChủ nhân tại lữ bất quy khứ,\nKhả tích Hồng Sơn thuộc vãn tiều.”\n(Nguyễn Du, Nam trung tạp ngâm)\nDịch thơ:\n“Tiết tháng ba xuân đậu nảy đều,\nCầy vàng béo mập trắng sinh kiêu.\nChủ nhân vắng mãi chưa về được,\nPhó thác Hồng sơn mặc chú tiều.”\nCác câu thơ nào niêm với nhau trong bài thơ thất ngôn tứ tuyệt trên?",
+      "options": [
+        "A. Câu 1 niêm với câu 3, câu 2 niêm với câu 4.",
+        "B. Câu 1 niêm với câu 2, câu 3 niêm với câu 4.",
+        "C. Câu 1 niêm với câu 4, câu 2 niêm với câu 3.",
+        "D. Cả bốn câu đều không niêm với nhau."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 4] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5005,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“Trước khi nói đến những nơi ăn chơi của Hà Nội, tưởng cũng như dạo qua chợ Đồng Xuân,\ncái “bụng” của thành phố, là nơi mà những vật liệu cần cho các cao lâu từ các vùng quê và ngoại ô\nđến. Ở đây, chúng ta được thấy các thực phẩm còn giữ nguyên hình trước khi biến thành những món\nxào nấu ngon lành dưới tay các đầu bếp nổi danh hay các bà nội trợ. Tất cả của ngon vật lạ các nơi\nđều đem đến đây, để hiến cho sự thưởng thức sành sỏi của người Hà Nội.”\n(Thạch Lam, Những chốn ăn chơi)\nTư tưởng chính được thể hiện trong văn bản trên là gì?",
+      "options": [
+        "A. Phê phán những nơi chốn ăn chơi của người Hà Nội.",
+        "B. Trân trọng những đầu bếp nổi danh đã tạo nên văn hóa ẩm thực Hà Nội.",
+        "C. Khẳng định chợ Đồng Xuân là nơi hội tụ của ngon vật lạ.",
+        "D. Ca ngợi sự thưởng thức sành sỏi của người Hà Nội."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 5] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5006,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“Với những ngày trống không nhờ nhờ trắng mây\nCái nhạt nhẽo mù mờ vô vị\nAnh làm nên cơ khí\nLàm nên thỏi vàng nhấp nhánh trên tay\nPhải rồi, mỗi tháng, mỗi giờ, mỗi phút, mỗi giây\nĐều có những hạt vàng chảy qua kẽ bàn tay\nLẫn với trống không mà anh chẳng biết\nNhững lúc thời gian ồ ồ nước xiết...”\n(Chế Lan Viên, Ngày trống không)\nTrong văn bản, sự đối lập giữa những ngày “nhờ nhờ trắng mây”, “vô vị” với hình ảnh “làm nên cơ\nkhí”, “thỏi vàng nhấp nhánh” thể hiện điều gì?",
+      "options": [
+        "A. Trong sự trôi chảy của thời gian, nhà văn đã sáng tạo từ chất liệu đời sống và từ trạng thái tinh thần của họ.",
+        "B. Thời gian trôi đi sẽ sàng lọc những gì vô ích và giữ lại những giá trị cốt lõi của con người.",
+        "C. Những trải nghiệm tinh thần lãng mạn và sự phê phán lối sống hưởng thụ của con người.",
+        "D. Nỗi bi quan về mọi nỗ lực của con người đều vô nghĩa trước sự trôi chảy vô tận của thời gian."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 6] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5007,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“Chúng tôi lặng lẽ bước trong thơ,\nLạc giữa niềm êm chẳng bến bờ.\nTrăng sáng, trăng xa, trăng rộng quá!\nHai người, nhưng chẳng bớt bơ vơ.”\n(Xuân Diệu, Trăng)\nĐoạn thơ trên được gieo vần theo công thức nào?",
+      "options": [
+        "A. A-B-A-B.",
+        "B. A-A-B-A.",
+        "C. A-A-B-B.",
+        "D. A-B-B-A."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 7] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5008,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "NGUYỄN TRÃI: - Thưa cụ, còn đến bao giờ? Máu người đã thành sông, nước mắt người\nbốn bề như biển sóng, cứ như vậy đến bao giờ?\nÔNG GIÀ: \t- Nước càng tuôn đến, biển càng cả... Đất một chồng thêm, núi một cao...\nNGUYỄN TRÃI: \t- Vận nước như thế nào, đường đi hướng nào, xin cụ cho biết!\nÔNG GIÀ: \t- Khó bền... Mạnh gắng... Khôn ngay... Khéo đầy...\nNGUYỄN TRÃI: \t- ... Khó phải bền, mạnh ở gắng, khôn khéo nơi ngay đầy...\nÔNG GIÀ: \t- ... Có mống tự nhiên lại có cây... (Chỉ lên trăng sao biến đi)\n(Nguyễn Đình Thi, Nguyễn Trãi ở Đông Quan)\nNội dung nào không đúng với đoạn trích trên?",
+      "options": [
+        "A. Nhân vật ông già đại diện cho yếu tố tâm linh huyền bí.",
+        "B. Bối cảnh câu chuyện diễn ra trên không gian sông nước.",
+        "C. Ngôn ngữ đối thoại mang tính triết lí và cô đọng.",
+        "D. Các câu hỏi thể hiện nỗi trăn trở về vận nước của Nguyễn Trãi."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 8] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5009,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "Hai mươi bảy cây số trên sông Di, câu chuyện của hai người đàn bà cô quạnh với đầy những\noán ghét, thủ đoạn, những màn trả đũa vặt vãnh như tơ nhện giăng lên bọn cậu nhùng nhằng. Xu thờ\nơ với chuyện đàn bà, day qua chuyện khác:\n- Xứ này còn cái gì trôi nữa?\n- À, có nhà trôi.\n- Tụi cháu cũng mới đi coi nhà trôi đây, hay ho gì đâu, toàn người chết. Vụ rừng trôi nó làm sao?\n[…]\n- Hồi bảy tám tuổi thím còn thấy miếu trôi.\n- À, vụ đó sao?\n- Thì miếu đó thờ một cô gái bị dìm chết dưới sông […]\n- Còn gì trôi nữa không?\n- Kể tới tết Lào còn chưa hết. Sao không hỏi có gì không trôi không?\n- Có cái gì không trôi?\n- Đâu biết, vì ta đang trôi.\n(Nguyễn Ngọc Tư, Sông)\nNội dung không đúng khi nói về ý nghĩa của dòng sông trong đoạn trích trên:",
+      "options": [
+        "A. Dòng sông biểu tượng cho sự trôi chảy, vô định của kiếp người.",
+        "B. Dòng sông mang theo nỗi buồn, sự mất mát trong cuộc sống.",
+        "C. Dòng sông đưa con người đến bến bờ hạnh phúc.",
+        "D. Dòng sông gợi lên sự tàn phai và vô thường của cuộc đời."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 9] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5010,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“(1) Người dữ thì ta miễn có lành,\n(2) Làm chi đo đắn nhọc đua tranh.\n(3) Cửa vương nhện, nhân vì vắng,\n(4) Thớt quyến ruồi, ấy bởi tanh.\n(5) Nhiều khách xuân xanh trường phú quý,\n(6) Mấy người đầu bạc hội Kỳ Anh?\n(7) Đà ngoài mọi việc, chăng còn ước,\n(8) Ước một tôi hiền, chúa thánh minh.”\n(Nguyễn Bỉnh Khiêm, Bạch Vân quốc ngữ thi tập - Bài 29)\nNhững dòng thơ nào trong bài thơ trên đối nhau theo từng cặp?",
+      "options": [
+        "A. (3)-(4); (5)-(6).",
+        "B. (1)-(2); (7)-(8).",
+        "C. (1)-(2); (3)-(4).",
+        "D. (5)-(6); (7)-(8)."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 10] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5011,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“Nhưng tôi biết cái màu đỏ ấy\nCái màu đỏ như cái màu đỏ ấy\nSẽ là bông hoa chuối đỏ tươi\nTrên đỉnh dốc cao vẫy gọi đoàn người.”\n(Nguyễn Mỹ, Cuộc chia ly màu đỏ)\n“Ta về, mình có nhớ ta\nTa về, ta nhớ những hoa cùng người.\nRừng xanh hoa chuối đỏ tươi\nĐèo cao nắng ánh dao gài thắt lưng”.\n(Tố Hữu, Việt Bắc)\nHình ảnh “hoa chuối đỏ” trong hai đoạn thơ trên cùng thể hiện:",
+      "options": [
+        "A. Tinh thần kháng chiến, quyết chiến đấu chống giặc ngoại xâm.",
+        "B. Sức sống, vẻ đẹp của thiên nhiên trong những cuộc kháng chiến.",
+        "C. Sự hy sinh thầm lặng của những người phụ nữ ở hậu phương.",
+        "D. Màu máu và sự hy sinh của những chiến sĩ nơi tiền tuyến."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 11] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5012,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "Văn bản 1:\n“Chiều xuân tươi mạnh\nGió bay vào hồn.\nCó bàn tay cao\nTrút bình ấm dịu\nTừ phương xa nào...\nNgười cô yểu điệu\nNghe mình nao nao...”\n(Huy Cận, Chiều xuân)\nVăn bản 2:\n“Áo trắng khăn hồng gió phất phơ,\nNhẹ nhàng vui vẻ nét ngây thơ.\nTrông cô hớn hở như đàn bướm,\nThong thả trời xuân mặc nhởn nhơ.\n[…]\nÁi tình nào phải bướm ngày xuân,\nTình ái ngày xuân chỉ một lần.\nMột thoáng bay qua không trở lại,\nGái xuân rỏ lệ khóc tình quân!”\n(Đông Hồ, Cô gái xuân)\nNhận xét nào sau đây thể hiện một cách khái quát nhất về hình tượng thiếu nữ trong hai văn bản trên?",
+      "options": [
+        "A. Ở Chiều xuân, bức tranh xuân mang cảm giác vô định, bấp bênh; ở Cô gái xuân, mùa xuân mang sự phù phiếm của niềm vui tuổi trẻ.",
+        "B. Ở Chiều xuân, thiếu nữ bị thu hút bởi cảnh xuân tươi đẹp, ấm áp; ở Cô gái xuân, thiếu nữ bị hụt hẫng trước quy luật hợp tan của tình cảm.",
+        "C. Ở Chiều xuân, thiếu nữ mang cảm giác xao động trong buổi chiều xuân; ở Cô gái xuân, mùa xuân là phông nền thể hiện tâm trạng khi yêu của người thiếu nữ.",
+        "D. Ở Chiều xuân, bức tranh xuân mang nỗi buồn nhân thế trước dòng chảy thời gian; ở Cô gái xuân, mùa xuân mang nỗi tiếc nuối về cơ hội yêu đương đã vượt mất."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 12] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5013,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "Từ nào sau đây viết đúng chính tả?",
+      "options": [
+        "A. Nồng cốt.",
+        "B. Khẩn thiết.",
+        "C. Chính chắn.",
+        "D. Đọc giả."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 13] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5014,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "Xác định câu sai trong các câu sau:",
+      "options": [
+        "A. Bà cụ đã yếu lắm rồi, bà tìm tay tôi và nắm lấy như muốn trăng trối điều gì.",
+        "B. Bà cụ đã yếu lắm rồi, bà tìm tay tôi và nắm lấy như muốn trối lại điều gì.",
+        "C. Bà cụ đã yếu lắm rồi, bà tìm tay tôi và nắm lấy như muốn trân trối điều gì.",
+        "D. Bà cụ đã yếu lắm rồi, bà tìm tay tôi và nắm lấy như muốn trối trăng điều gì."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 14] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5015,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "Chọn cách hiểu đúng nhất của từ “căn cước” trong câu: “Tiếng Việt là một phần quan trọng\ntrong căn cước dân tộc của người Việt”.",
+      "options": [
+        "A. Giấy tờ dùng để xác định nhân thân của công dân.",
+        "B. Đặc trưng giúp nhận diện đối tượng cụ thể.",
+        "C. Danh hiệu do xã hội phong tặng.",
+        "D. Nguồn gốc, quê quán của một cá nhân."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 15] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5016,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "Từ “chịu” trong câu nào sau đây có thể hiểu theo nghĩa “tiếp nhận tác động từ bên ngoài”?",
+      "options": [
+        "A. Việt Nam đứng thứ 6 trong số các quốc gia chịu ảnh hưởng nặng nề nhất từ sự biến đổi khí hậu trên thế giới.",
+        "B. Mua hàng không kiểm tra kỹ, nhận sản phẩm lỗi thì đành bụng làm dạ chịu, không thể trách người bán.",
+        "C. Khi các công ty tăng cường thực hiện chính sách bán chịu thì sẽ làm tăng khả năng sinh lời của công ty.",
+        "D. Cuộc tranh chấp bản quyền truyền hình vẫn chưa đi đến hồi kết, khi các bên đều cho rằng mình có lý và không ai chịu ai."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 16] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5017,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "Đoạn trích sau đây mắc lỗi gì?\n“Việc rèn luyện thể thao không chỉ giúp cơ thể khỏe mạnh mà còn tăng cường khả năng tập trung và\ntinh thần kỷ luật. Mỗi ngày, dành ít nhất ba mươi phút để tập thể dục sẽ mang lại hiệu quả rõ rệt cho\nsức khỏe. Uống đủ hai lít nước mỗi ngày cũng là một thói quen tốt để duy trì sức khỏe. Do đó, rèn\nluyện thể thao là thói quen quan trọng cần duy trì”.",
+      "options": [
+        "A. Câu mơ hồ.",
+        "B. Thiếu từ liên kết.",
+        "C. Dùng từ sai nghĩa.",
+        "D. Lạc chủ đề."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 17] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5018,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "Trong các câu sau đây, câu nào sai ngữ pháp?",
+      "options": [
+        "A. Với tinh thần hy sinh, nghĩa sĩ đã chiến đấu dũng cảm cho dù vũ khí, trang bị hết sức thô sơ.",
+        "B. Với vũ khí trang bị hết sức thô sơ, nghĩa sĩ vẫn chiến đấu dũng cảm và nêu cao tinh thần hy sinh.",
+        "C. Tinh thần chiến đấu dũng cảm hy sinh của nghĩa sĩ cho dù vũ khí, trang bị của họ hết sức thô sơ.",
+        "D. Mặc dù vũ khí, trang bị hết sức thô sơ, nghĩa sĩ vẫn chiến đấu dũng cảm và nêu cao tinh thần hy sinh."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 18] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5019,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“Trong quá trình thực hiện, nếu có vướng mắc hoặc cần điều chỉnh, bổ sung các điều khoản\ntrong Quy định, các đơn vị làm tờ trình gửi Phòng Tổ chức - Nhân sự”.\nCâu trên dùng từ:",
+      "options": [
+        "A. không đúng nghĩa.",
+        "B. không phù hợp với phong cách ngôn ngữ của văn bản.",
+        "C. không đúng chính tả.",
+        "D. không phù hợp với khả năng kết hợp của từ."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 19] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5020,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": null,
+      "question": "“Cô Tư quay cuồng vì một mình trông con khi ốm.” là câu",
+      "options": [
+        "A. sai logic.",
+        "B. thiếu thành phần câu.",
+        "C. Mơ hồ.",
+        "D. sai cách dùng từ. Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25 [1] Dân trí tài chính là mức độ hiểu biết, kỹ năng, thái độ để đưa ra các quyết định tài chính đúng đắn và quản lý tài chính cá nhân hiệu quả. Nó có thể được đo qua: (i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - \tTrẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - \tKhi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - \tTuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 20] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5021,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": "[1] Dân trí tài chính là mức độ hiểu biết, kỹ năng, thái độ để đưa ra các quyết định tài chính\nđúng đắn và quản lý tài chính cá nhân hiệu quả. Nó có thể được đo qua: (i) mức độ hiểu biết kiến\nthức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận\nvà sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng\ndân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản\nngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán\nNhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số.\n[2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài\nchính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính.\n[3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài\nchính cho trẻ em là cần thiết. Điều này rất quan trọng vì:\n- \tTrẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính\nsách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía.\n- \tKhi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng\nđến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội.\n- \tTuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu\nnhững kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu\nquả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý\nnợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng\ntrong hưu trí).\n[4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài\nchính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "question": "Văn bản trên đã sử dụng những cách trình bày thông tin nào sau đây?",
+      "options": [
+        "A. Liệt kê, phân loại đối tượng.",
+        "B. Liệt kê, quan hệ nhân - quả.",
+        "C. Liệt kê, vấn đề và cách giải quyết.",
+        "D. Liệt kê, so sánh và đối chiếu."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 21] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5022,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": "[1] Dân trí tài chính là mức độ hiểu biết, kỹ năng, thái độ để đưa ra các quyết định tài chính\nđúng đắn và quản lý tài chính cá nhân hiệu quả. Nó có thể được đo qua: (i) mức độ hiểu biết kiến\nthức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận\nvà sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng\ndân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản\nngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán\nNhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số.\n[2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài\nchính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính.\n[3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài\nchính cho trẻ em là cần thiết. Điều này rất quan trọng vì:\n- \tTrẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính\nsách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía.\n- \tKhi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng\nđến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội.\n- \tTuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu\nnhững kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu\nquả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý\nnợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng\ntrong hưu trí).\n[4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài\nchính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "question": "Việc trích dẫn số liệu của các năm 2021, 2023 có tác dụng gì?",
+      "options": [
+        "A. Cung cấp minh chứng cụ thể cho thấy khả năng khai thác các dịch vụ tài chính ở Việt Nam còn thấp so với quy mô dân số.",
+        "B. Cung cấp minh chứng củng cố cho nhận định về thực trạng dân trí tài chính ở Việt Nam và cách thức đo lường thực trạng ấy.",
+        "C. Cung cấp minh chứng cụ thể về tỷ lệ người Việt Nam được tiếp cận với các dịch vụ tài chính trong giai đoạn 2021-2023.",
+        "D. Cung cấp minh chứng cụ thể, đáng tin cậy cho thấy biểu hiện của thực trạng dân trí tài chính ở Việt Nam giai đoạn 2021-2023."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 22] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5023,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": "[1] Dân trí tài chính là mức độ hiểu biết, kỹ năng, thái độ để đưa ra các quyết định tài chính\nđúng đắn và quản lý tài chính cá nhân hiệu quả. Nó có thể được đo qua: (i) mức độ hiểu biết kiến\nthức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận\nvà sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng\ndân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản\nngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán\nNhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số.\n[2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài\nchính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính.\n[3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài\nchính cho trẻ em là cần thiết. Điều này rất quan trọng vì:\n- \tTrẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính\nsách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía.\n- \tKhi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng\nđến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội.\n- \tTuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu\nnhững kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu\nquả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý\nnợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng\ntrong hưu trí).\n[4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài\nchính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "question": "Quan điểm chính của người viết được thể hiện qua văn bản là gì?",
+      "options": [
+        "A. Nhận định thực trạng dân trí tài chính Việt Nam hiện đang còn ở mức thấp và sự cần thiết giáo dục tài chính cho trẻ em.",
+        "B. Khách quan cung cấp thông tin về cách đo lường dân trí tài chính và nêu lên lý do cần giáo dục tài chính trẻ em.",
+        "C. Khẳng định thực trạng dân trí tài chính của Việt Nam còn đang ở mức thấp và tính khách quan của nhận định.",
+        "D. Cảnh báo thực trạng người Việt có hiểu biết, kỹ năng và thái độ với lĩnh vực tài chính còn ở mức thấp và hệ quả."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 23] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5024,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": "[1] Dân trí tài chính là mức độ hiểu biết, kỹ năng, thái độ để đưa ra các quyết định tài chính\nđúng đắn và quản lý tài chính cá nhân hiệu quả. Nó có thể được đo qua: (i) mức độ hiểu biết kiến\nthức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận\nvà sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng\ndân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản\nngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán\nNhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số.\n[2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài\nchính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính.\n[3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài\nchính cho trẻ em là cần thiết. Điều này rất quan trọng vì:\n- \tTrẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính\nsách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía.\n- \tKhi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng\nđến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội.\n- \tTuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu\nnhững kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu\nquả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý\nnợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng\ntrong hưu trí).\n[4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài\nchính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "question": "Việc mở đầu đoạn (3) bằng một kết quả khảo sát có tác dụng gì?",
+      "options": [
+        "A. Cung cấp tín hiệu chuyển tiếp tự nhiên, gắn kết với thực tiễn từ phần nêu thực trạng đến đề xuất giải pháp.",
+        "B. Cung cấp kết quả khảo sát thực tế, tạo hứng thú cho người đọc bằng một bằng chứng ấn tượng.",
+        "C. Cung cấp bằng chứng khách quan, khẳng định sự đồng thuận giữa ý kiến của tác giả với số đông.",
+        "D. Cung cấp kết quả khảo sát thực tế, tạo tính xác thực, khách quan cho lập luận và dẫn dắt vào những lý do tiếp theo."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 24] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5025,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": "[1] Dân trí tài chính là mức độ hiểu biết, kỹ năng, thái độ để đưa ra các quyết định tài chính\nđúng đắn và quản lý tài chính cá nhân hiệu quả. Nó có thể được đo qua: (i) mức độ hiểu biết kiến\nthức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận\nvà sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng\ndân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản\nngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán\nNhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số.\n[2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài\nchính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính.\n[3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài\nchính cho trẻ em là cần thiết. Điều này rất quan trọng vì:\n- \tTrẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính\nsách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía.\n- \tKhi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng\nđến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội.\n- \tTuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu\nnhững kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu\nquả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý\nnợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng\ntrong hưu trí).\n[4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài\nchính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "question": "Dòng nào dưới đây không thể hiện ý nghĩa mà văn bản có thể đem đến cho người đọc?",
+      "options": [
+        "A. Cần có hành động tích cực, tự chủ trong việc tìm hiểu kiến thức tài chính từ khi còn nhỏ.",
+        "B. Nhận thức đầy đủ, rõ ràng hơn về khái niệm dân trí tài chính và thực trạng ấy ở Việt Nam.",
+        "C. Trang bị cho người đọc hiểu biết về các kỹ năng tài chính và biểu hiện lừa đảo tài chính.",
+        "D. Nâng cao nhận thức của người đọc về tầm quan trọng của việc giáo dục tài chính cho trẻ em. Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30 Tất nhiên, viết tiểu thuyết cũng không phải tự mình có ít chủ quan. Thí dụ vì cái gì mà viết tiểu thuyết, thì phải nói là tôi vẫn ôm cái “chủ nghĩa khái mộng” hơn mười năm về trước, cho rằng cần phải “vị nhân sinh”, và lại phải cải tạo cái nhân sinh đó [...]. Cho nên mỗi khi chọn đề tài, tôi đều chọn những người bất hạnh trong xã hội bệnh tật, với mục đích là lôi hết bệnh tật của họ ra, làm cho mọi người chú ý tìm cách chạy chữa. Cho nên tôi hết sức tránh lối hành văn lôi thôi, nếu thấy đủ truyền đạt ý tứ của mình cho kẻ khác rồi thì thôi, không cần thêm thắt kéo dài nữa [...]. Việc tôi tả đại để là những cái tôi từng trông thấy hoặc nghe thấy ít nhiều, nhưng tôi quyết không dùng hoàn toàn sự thực đó, chỉ chọn một ít, rồi thay đổi đi, hoặc phát triển thêm, cho đến khi có thể gần như hoàn toàn diễn đạt được ý định của tôi mới thôi. Người mẫu nhân vật cũng thế. Không chuyên dùng một người nào, thường thường miệng ở Chiết Giang, mặt ở Bắc Kinh, áo quần ở Sơn Tây, đó là một vai trò chắp vá [...]. Có điều cách viết như thế cũng có chỗ khó, tức là làm cho người ta khó lòng dừng bút. Cứ viết một mạch, nhân vật đó dần dần hoạt động lên, làm tròn nhiệm vụ của nó. Nếu có việc gì làm cho tư tưởng mình không tập trung đến phá rối, phải bỏ đấy lâu mới viết lại, thì tính cách có thể đổi khác, tình cảnh cũng có thể không giống với cái mình dự đoán lúc đầu. (Lỗ Tấn, Vì sao tôi viết tiểu thuyết)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 25] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5026,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": "Tất nhiên, viết tiểu thuyết cũng không phải tự mình có ít chủ quan. Thí dụ vì cái gì mà viết tiểu\nthuyết, thì phải nói là tôi vẫn ôm cái “chủ nghĩa khái mộng” hơn mười năm về trước, cho rằng cần\nphải “vị nhân sinh”, và lại phải cải tạo cái nhân sinh đó [...]. Cho nên mỗi khi chọn đề tài, tôi đều\nchọn những người bất hạnh trong xã hội bệnh tật, với mục đích là lôi hết bệnh tật của họ ra, làm cho\nmọi người chú ý tìm cách chạy chữa. Cho nên tôi hết sức tránh lối hành văn lôi thôi, nếu thấy đủ\ntruyền đạt ý tứ của mình cho kẻ khác rồi thì thôi, không cần thêm thắt kéo dài nữa [...]. Việc tôi tả đại\nđể là những cái tôi từng trông thấy hoặc nghe thấy ít nhiều, nhưng tôi quyết không dùng hoàn toàn\nsự thực đó, chỉ chọn một ít, rồi thay đổi đi, hoặc phát triển thêm, cho đến khi có thể gần như hoàn\ntoàn diễn đạt được ý định của tôi mới thôi. Người mẫu nhân vật cũng thế. Không chuyên dùng một\nngười nào, thường thường miệng ở Chiết Giang, mặt ở Bắc Kinh, áo quần ở Sơn Tây, đó là một vai\ntrò chắp vá [...]. Có điều cách viết như thế cũng có chỗ khó, tức là làm cho người ta khó lòng dừng\nbút. Cứ viết một mạch, nhân vật đó dần dần hoạt động lên, làm tròn nhiệm vụ của nó. Nếu có việc gì\nlàm cho tư tưởng mình không tập trung đến phá rối, phải bỏ đấy lâu mới viết lại, thì tính cách có thể\nđổi khác, tình cảnh cũng có thể không giống với cái mình dự đoán lúc đầu.\n(Lỗ Tấn, Vì sao tôi viết tiểu thuyết)",
+      "question": "Lập luận “văn học vị nhân sinh” của tác giả được thuyết phục bằng lý lẽ nào?",
+      "options": [
+        "A. Dựa vào sự thực mà miêu tả, không nên thêm thắt.",
+        "B. Nhân vật phải lấy từ nguyên mẫu mà ra, không nên bịa đặt.",
+        "C. Viết văn thực ngắn gọn, súc tích, không nên dài dòng lê thê.",
+        "D. Miêu tả những người bất hạnh trong xã hội bệnh tật để tìm cách chạy chữa."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 26] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5027,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": "Tất nhiên, viết tiểu thuyết cũng không phải tự mình có ít chủ quan. Thí dụ vì cái gì mà viết tiểu\nthuyết, thì phải nói là tôi vẫn ôm cái “chủ nghĩa khái mộng” hơn mười năm về trước, cho rằng cần\nphải “vị nhân sinh”, và lại phải cải tạo cái nhân sinh đó [...]. Cho nên mỗi khi chọn đề tài, tôi đều\nchọn những người bất hạnh trong xã hội bệnh tật, với mục đích là lôi hết bệnh tật của họ ra, làm cho\nmọi người chú ý tìm cách chạy chữa. Cho nên tôi hết sức tránh lối hành văn lôi thôi, nếu thấy đủ\ntruyền đạt ý tứ của mình cho kẻ khác rồi thì thôi, không cần thêm thắt kéo dài nữa [...]. Việc tôi tả đại\nđể là những cái tôi từng trông thấy hoặc nghe thấy ít nhiều, nhưng tôi quyết không dùng hoàn toàn\nsự thực đó, chỉ chọn một ít, rồi thay đổi đi, hoặc phát triển thêm, cho đến khi có thể gần như hoàn\ntoàn diễn đạt được ý định của tôi mới thôi. Người mẫu nhân vật cũng thế. Không chuyên dùng một\nngười nào, thường thường miệng ở Chiết Giang, mặt ở Bắc Kinh, áo quần ở Sơn Tây, đó là một vai\ntrò chắp vá [...]. Có điều cách viết như thế cũng có chỗ khó, tức là làm cho người ta khó lòng dừng\nbút. Cứ viết một mạch, nhân vật đó dần dần hoạt động lên, làm tròn nhiệm vụ của nó. Nếu có việc gì\nlàm cho tư tưởng mình không tập trung đến phá rối, phải bỏ đấy lâu mới viết lại, thì tính cách có thể\nđổi khác, tình cảnh cũng có thể không giống với cái mình dự đoán lúc đầu.\n(Lỗ Tấn, Vì sao tôi viết tiểu thuyết)",
+      "question": "Khi nêu dẫn chứng “Người mẫu nhân vật cũng thế. Không chuyên dùng một người nào,\nthường thường miệng ở Chiết Giang, mặt ở Bắc Kinh, áo quần ở Sơn Tây”, ý tác giả muốn nói đến\nluận điểm gì?",
+      "options": [
+        "A. Nhân vật trong tác phẩm là tổng hòa đặc điểm của nhiều người khác nhau.",
+        "B. Nhân vật ở Chiết Giang, Bắc Kinh, Sơn Tây là dễ miêu tả nhất.",
+        "C. Nhân vật trong tác phẩm thường là sự kết hợp từ nhiều vùng miền.",
+        "D. Nhân vật trong tác phẩm không nên lấy từ một địa phương cụ thể."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 27] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5028,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": "Tất nhiên, viết tiểu thuyết cũng không phải tự mình có ít chủ quan. Thí dụ vì cái gì mà viết tiểu\nthuyết, thì phải nói là tôi vẫn ôm cái “chủ nghĩa khái mộng” hơn mười năm về trước, cho rằng cần\nphải “vị nhân sinh”, và lại phải cải tạo cái nhân sinh đó [...]. Cho nên mỗi khi chọn đề tài, tôi đều\nchọn những người bất hạnh trong xã hội bệnh tật, với mục đích là lôi hết bệnh tật của họ ra, làm cho\nmọi người chú ý tìm cách chạy chữa. Cho nên tôi hết sức tránh lối hành văn lôi thôi, nếu thấy đủ\ntruyền đạt ý tứ của mình cho kẻ khác rồi thì thôi, không cần thêm thắt kéo dài nữa [...]. Việc tôi tả đại\nđể là những cái tôi từng trông thấy hoặc nghe thấy ít nhiều, nhưng tôi quyết không dùng hoàn toàn\nsự thực đó, chỉ chọn một ít, rồi thay đổi đi, hoặc phát triển thêm, cho đến khi có thể gần như hoàn\ntoàn diễn đạt được ý định của tôi mới thôi. Người mẫu nhân vật cũng thế. Không chuyên dùng một\nngười nào, thường thường miệng ở Chiết Giang, mặt ở Bắc Kinh, áo quần ở Sơn Tây, đó là một vai\ntrò chắp vá [...]. Có điều cách viết như thế cũng có chỗ khó, tức là làm cho người ta khó lòng dừng\nbút. Cứ viết một mạch, nhân vật đó dần dần hoạt động lên, làm tròn nhiệm vụ của nó. Nếu có việc gì\nlàm cho tư tưởng mình không tập trung đến phá rối, phải bỏ đấy lâu mới viết lại, thì tính cách có thể\nđổi khác, tình cảnh cũng có thể không giống với cái mình dự đoán lúc đầu.\n(Lỗ Tấn, Vì sao tôi viết tiểu thuyết)",
+      "question": "Quan niệm viết tiểu thuyết của Lỗ Tấn được trình bày trong văn bản trên là gì?",
+      "options": [
+        "A. Các nhân vật phải tự vận động, có khi khác với điều dự đoán lúc đầu.",
+        "B. Là phải viết hoàn toàn dựa trên sự thực đã từng xảy ra.",
+        "C. Là phải viết cho thật đầy đủ ý tứ, cho dù có dài dòng đi chăng nữa.",
+        "D. Là viết về những bất hạnh của người đời với mục đích chữa trị."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 28] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5029,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": "Tất nhiên, viết tiểu thuyết cũng không phải tự mình có ít chủ quan. Thí dụ vì cái gì mà viết tiểu\nthuyết, thì phải nói là tôi vẫn ôm cái “chủ nghĩa khái mộng” hơn mười năm về trước, cho rằng cần\nphải “vị nhân sinh”, và lại phải cải tạo cái nhân sinh đó [...]. Cho nên mỗi khi chọn đề tài, tôi đều\nchọn những người bất hạnh trong xã hội bệnh tật, với mục đích là lôi hết bệnh tật của họ ra, làm cho\nmọi người chú ý tìm cách chạy chữa. Cho nên tôi hết sức tránh lối hành văn lôi thôi, nếu thấy đủ\ntruyền đạt ý tứ của mình cho kẻ khác rồi thì thôi, không cần thêm thắt kéo dài nữa [...]. Việc tôi tả đại\nđể là những cái tôi từng trông thấy hoặc nghe thấy ít nhiều, nhưng tôi quyết không dùng hoàn toàn\nsự thực đó, chỉ chọn một ít, rồi thay đổi đi, hoặc phát triển thêm, cho đến khi có thể gần như hoàn\ntoàn diễn đạt được ý định của tôi mới thôi. Người mẫu nhân vật cũng thế. Không chuyên dùng một\nngười nào, thường thường miệng ở Chiết Giang, mặt ở Bắc Kinh, áo quần ở Sơn Tây, đó là một vai\ntrò chắp vá [...]. Có điều cách viết như thế cũng có chỗ khó, tức là làm cho người ta khó lòng dừng\nbút. Cứ viết một mạch, nhân vật đó dần dần hoạt động lên, làm tròn nhiệm vụ của nó. Nếu có việc gì\nlàm cho tư tưởng mình không tập trung đến phá rối, phải bỏ đấy lâu mới viết lại, thì tính cách có thể\nđổi khác, tình cảnh cũng có thể không giống với cái mình dự đoán lúc đầu.\n(Lỗ Tấn, Vì sao tôi viết tiểu thuyết)",
+      "question": "Quan niệm viết văn của tác giả là quan niệm của những nhà văn thuộc trào lưu nào?",
+      "options": [
+        "A. Tượng trưng.",
+        "B. Hiện thực.",
+        "C. Cổ điển.",
+        "D. Lãng mạn."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 29] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5030,
+      "partId": "part1",
+      "section": "vietnamese",
+      "sectionName": "Tiếng Việt (Đọc hiểu & Sử dụng ngôn ngữ)",
+      "passage": "Tất nhiên, viết tiểu thuyết cũng không phải tự mình có ít chủ quan. Thí dụ vì cái gì mà viết tiểu\nthuyết, thì phải nói là tôi vẫn ôm cái “chủ nghĩa khái mộng” hơn mười năm về trước, cho rằng cần\nphải “vị nhân sinh”, và lại phải cải tạo cái nhân sinh đó [...]. Cho nên mỗi khi chọn đề tài, tôi đều\nchọn những người bất hạnh trong xã hội bệnh tật, với mục đích là lôi hết bệnh tật của họ ra, làm cho\nmọi người chú ý tìm cách chạy chữa. Cho nên tôi hết sức tránh lối hành văn lôi thôi, nếu thấy đủ\ntruyền đạt ý tứ của mình cho kẻ khác rồi thì thôi, không cần thêm thắt kéo dài nữa [...]. Việc tôi tả đại\nđể là những cái tôi từng trông thấy hoặc nghe thấy ít nhiều, nhưng tôi quyết không dùng hoàn toàn\nsự thực đó, chỉ chọn một ít, rồi thay đổi đi, hoặc phát triển thêm, cho đến khi có thể gần như hoàn\ntoàn diễn đạt được ý định của tôi mới thôi. Người mẫu nhân vật cũng thế. Không chuyên dùng một\nngười nào, thường thường miệng ở Chiết Giang, mặt ở Bắc Kinh, áo quần ở Sơn Tây, đó là một vai\ntrò chắp vá [...]. Có điều cách viết như thế cũng có chỗ khó, tức là làm cho người ta khó lòng dừng\nbút. Cứ viết một mạch, nhân vật đó dần dần hoạt động lên, làm tròn nhiệm vụ của nó. Nếu có việc gì\nlàm cho tư tưởng mình không tập trung đến phá rối, phải bỏ đấy lâu mới viết lại, thì tính cách có thể\nđổi khác, tình cảnh cũng có thể không giống với cái mình dự đoán lúc đầu.\n(Lỗ Tấn, Vì sao tôi viết tiểu thuyết)",
+      "question": "Quan niệm về hiện thực và nhân vật của Lỗ Tấn thể hiện ở văn bản trên là gì?",
+      "options": [
+        "A. Hiện thực có thay đổi ít nhiều, nhân vật lấy từ một nguyên mẫu ngoài đời thực.",
+        "B. Hiện thực và nhân vật được miêu tả tùy thuộc cảm xúc của nhà văn, không cần câu nệ vào sự thật.",
+        "C. Hiện thực và nhân vật phải giống hệt ngoài đời, không được thay đổi điều gì.",
+        "D. Hiện thực được miêu tả đúng với ngoài đời, nhân vật là tổng hòa đặc điểm của nhiều nhân vật. 1.2. TIẾNG ANH Questions 31–35: Choose a suitable word or phrase (A, B, C, or D) to fill in each blank."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 30] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5031,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Children _____ by social networks are likely to suffer from depression.",
+      "options": [
+        "A. are obsessed",
+        "B. obsessing",
+        "C. obsessed",
+        "D. who obsessed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 31] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5032,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Only after the teacher _____ the procedure could the students start the experiment.",
+      "options": [
+        "A. would explain",
+        "B. had explained",
+        "C. was explaining",
+        "D. has explained"
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 32] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5033,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "They were at the stadium with us last night, so they _____ at the theatre then.",
+      "options": [
+        "A. needn’t have been",
+        "B. should have been",
+        "C. might have been",
+        "D. can’t have been"
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 33] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5034,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Copying books without the publisher’s permission is clearly a copyright _____.",
+      "options": [
+        "A. interference",
+        "B. interpretation",
+        "C. infringement",
+        "D. infliction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 34] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5035,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Although she had been told quite sternly to _____ herself together, she couldn’t stop crying.",
+      "options": [
+        "A. bring",
+        "B. pull",
+        "C. force",
+        "D. push Questions 36–40: Each of the following sentences has one error (A, B, C, or D). Find it and blacken your choice on your answer sheet."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 35] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5036,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Identify the one underlined word or phrase that must be changed in order for the sentence to be correct:\n\"My close friends spends most of their free time helping the homeless people in the community.\"",
+      "options": [
+        "A. close friends",
+        "B. spends",
+        "C. helping",
+        "D. homeless"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chủ ngữ 'My close friends' là danh từ số nhiều nên động từ chia ở hiện tại đơn phải là 'spend' thay vì 'spends'.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5037,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Identify the one underlined word or phrase that must be changed in order for the sentence to be correct:\n\"It was the year 2003 that Vietnam hosted the Southeast Asian Games for the first time.\"",
+      "options": [
+        "A. the year 2003",
+        "B. hosted",
+        "C. for",
+        "D. first time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cấu trúc câu chẻ nhấn mạnh trạng ngữ thời gian: 'It was in the year 2003 that' (cần có giới từ 'in').",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5038,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Identify the one underlined word or phrase that must be changed in order for the sentence to be correct:\n\"Based on her knowledge of psychology, the writer described an extremely sensible boy who understands others' feelings deeply.\"",
+      "options": [
+        "A. Based on",
+        "B. described",
+        "C. sensible",
+        "D. deeply"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dùng sai từ dễ gây nhầm lẫn: 'sensible' là hợp lý, biết điều; từ cần dùng ở đây là 'sensitive' (nhạy cảm, thấu hiểu cảm xúc của người khác).",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5039,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Identify the one underlined word or phrase that must be changed in order for the sentence to be correct:\n\"Many teachers have carried out useful research into the ways smartphones effect students' attention spans.\"",
+      "options": [
+        "A. carried out",
+        "B. ways",
+        "C. effect",
+        "D. attention spans"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lỗi dùng từ loại: 'effect' là danh từ; ở vị trí này cần động từ vị ngữ 'affect' (ảnh hưởng đến).",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5040,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Identify the one underlined word or phrase that must be changed in order for the sentence to be correct:\n\"Modern libraries are popular because of its wide range of free learning materials and digital archives.\"",
+      "options": [
+        "A. popular",
+        "B. because of",
+        "C. its",
+        "D. learning materials"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lỗi đại từ sở hữu: 'Modern libraries' là danh từ số nhiều nên tính từ sở hữu tương ứng phải là 'their' thay vì 'its'.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5041,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "I may buy a piece of land as a way of saving for my old age.",
+      "options": [
+        "A. To save for my old age, I am advised to buy a piece of land.",
+        "B. It is possible that I will save for my old age after buying a piece of land.",
+        "C. After I have saved for my old age, I will buy a piece of land.",
+        "D. To save for my old age, I am likely to buy a piece of land."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 41] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5042,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Linda was awarded the first prize in swimming.",
+      "options": [
+        "A. Linda won the first prize in swimming.",
+        "B. Linda was chosen to award the first prize in swimming.",
+        "C. Linda will win the first prize in swimming.",
+        "D. Linda joined a swimming contest and tried to win the first prize."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 42] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5043,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Timmy seems to be smarter than all the other kids in his group.",
+      "options": [
+        "A. Timmy is as smart as all the kids in his group.",
+        "B. All the other kids in Timmy’s group are certainly not as smart as him.",
+        "C. Other kids are smart, but Timmy is smarter than most of them.",
+        "D. It is likely that Timmy is the smartest of all the kids in his group."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 43] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5044,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "When I was sick, my best friend took care of me.",
+      "options": [
+        "A. I had to look after my best friend, who was sick.",
+        "B. I was sick when I cared for my best friend.",
+        "C. I was cared for by my best friend when I was sick.",
+        "D. My best friend was taken care of by me when getting sick."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 44] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5045,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "The doctor told Jack, “You cannot go home until you feel better.”",
+      "options": [
+        "A. The doctor did not allow Jack to go home until he felt better.",
+        "B. The doctor advised Jack to stay until Jack felt better.",
+        "C. The doctor does not want Jack to go home because Jack is not feeling well now.",
+        "D. The doctor asked Jack to stay at home until Jack felt better. Questions 46-52: Read the passage carefully. 1. There are many African tribes, but for many people, the Masai are the most well-known. They are famous for their bright red clothing and their ceremonies with lots of music and dancing. Probably, one of the most colorful ceremonies is the festival of “Eunoto”, when the teenage boys of the Masai become men. 2. Eunoto lasts for many days, and Masai people travel across the region to reach a special place near the border between Kenya and Tanzania. The teenage boys who travel with them are called “warriors” . This is a traditional name from the past when young men fought with other tribes. 3. At the beginning of the ceremony, the teenagers paint their bodies while their mothers start to build a place called the “Osingira”, a sacred room in the middle of the celebrations. Later, the senior elders from different tribes sit inside this place and, at different times, the boys go inside to meet them. Later in the day, the boys run around the Osingira, going faster and faster each time. 4. The teenagers also have to alter their appearance at Eunoto. Masai boys’ hair is very long before the ritual, but they have to cut it off. In Masai culture, hair is an important symbol. For example, when a baby grows into a young child, the mother cuts the child’s hair and gives the child a name. At a Masai wedding, the hair of the bride is also cut off as she becomes a woman. And so, at Eunoto, the teenage boy’s mother cuts his hair off at sunrise. 5. On the final day, the teenagers meet the senior elders one more time. They get this advice: “Now you are men, use your heads and knowledge.” Then, people start to travel back to their homes and lands. The teenagers are no longer warriors. They are adult men, and now they will get married and have children. Later in life, they will be the leaders of their communities. Choose an option (A, B, C, or D) that best answers each question."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 45] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5046,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "What is the passage mainly about?",
+      "options": [
+        "A. The ceremony that marks the beginning of Masai boys’ adulthood",
+        "B. The journey by Masai teenage boys to the festival of Eunoto",
+        "C. The importance of Eunoto in African people’s lives",
+        "D. The reasons for the Masai’s popularity over other African tribes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 46] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5047,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "The word warriors in paragraph 2 is closest in meaning to _____.",
+      "options": [
+        "A. dancers",
+        "B. fighters",
+        "C. musicians",
+        "D. travellers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 47] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5048,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "The word them in paragraph 3 refers to _____.",
+      "options": [
+        "A. different tribes",
+        "B. their mothers",
+        "C. the boys",
+        "D. the senior elders"
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 48] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5049,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "According to paragraph 3, the Osingira is built by ______.",
+      "options": [
+        "A. the Masai senior elders",
+        "B. Masai teenagers",
+        "C. the Masai teenage boys’ mothers",
+        "D. Masai men"
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 49] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5050,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "The word alter in paragraph 4 is closest in meaning to ______.",
+      "options": [
+        "A. differ",
+        "B. change",
+        "C. maintain",
+        "D. distinguish"
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 50] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5051,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "According to the passage, what do the teenage boys do at Eunoto?",
+      "options": [
+        "A. Paint their bodies",
+        "B. Receive new names",
+        "C. Change their clothes",
+        "D. Fight with other tribes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 51] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5052,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "According to the passage, which of the following is TRUE?",
+      "options": [
+        "A. The Masai teenage boys are given advice from senior elders before attending Eunoto.",
+        "B. The Masai teenage boys will become adults and get married after attending Eunoto.",
+        "C. Eunoto lasts for a day across the region between Kenya and Tanzania.",
+        "D. Eunoto is the ceremony for both Masai teenage boys and girls. Questions 53-60: Read the passage carefully. 1. The green building movement, started in the 1970s as a way to reduce environmental destruction, is changing the way buildings are constructed. In the early years, green builders were a small minority, and their goals of reducing the environmental impact of buildings were considered unrealistic. Now, however, the movement is growing, as builders have been able to take advantage of new technology. 2. Green builders try to make use of recycled materials, which means less waste in landfills. Furthermore, they minimize environmental impact by reducing the energy requirements of a building. One way is to provide an alternative, non-polluting source of energy. First, with solar panels, it is possible to produce electricity from the rays of the sun. Once installed, they provide energy at no cost and with no pollution. 3. Another solution is to reduce the amount of energy required in a building. It is possible to cut electricity use noticeably by improving natural lighting and installing low-energy light bulbs. To reduce the amount of fuel needed for heating or cooling, builders also add insulation to the walls so that the building stays warmer in winter and cooler in summer. 4. One example of this advanced design is the Genzyme Center in Cambridge, the most environmentally responsible office building in America. Every aspect of the design and construction had to consider two things: the need for a safe and pleasant workplace for employees and the need to lessen the negative environmental impact. Seventy-five percent of the building materials were recycled, and energy use has been reduced by 43 percent and water use by 32 percent, compared with other buildings of the same size. 5. In other parts of the world, several large-scale projects have recently been developed according to green building principles. One of these is in Vauban, Germany, in an area that was once the site of army housing. The site has been completely rebuilt with houses requiring 30 percent less energy than conventional ones. These houses, heated by special non-polluting systems, are also equipped with solar panels. 6. A larger project is under way in China. The first phase of this project will include houses for 400 families built with solar power, non-polluting bricks, and recycled wall insulation. In a second phase, entire neighborhoods in six cities will be built. If all goes well, the Chinese government plans to replicate these designs in new neighborhoods across China. 7. Green building ideas, on a small or large scale, are spreading. Individuals, companies, and governments are beginning to see their benefits. Not only are green buildings environmentally friendly, but they also improve living and working conditions and save money in the long run. Choose an option (A, B, C, or D) that best answers each question."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 52] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5053,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "What is the main topic of the passage?",
+      "options": [
+        "A. Economic benefits of environmentally responsible buildings",
+        "B. Successful green building projects all over the world",
+        "C. New technologies applied to constructing office buildings",
+        "D. An environmentally friendly approach to constructing buildings"
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 53] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5054,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "According to paragraph 1, why were the environmental goals of green builders initially\nconsidered unrealistic?",
+      "options": [
+        "A. There was a lack of green builders at the beginning of the 20th century.",
+        "B. The potential applications of technology to green construction were not recognized at the time.",
+        "C. Problems related to environmental destruction were not prevalent then.",
+        "D. Natural materials were abundant enough for conventional building construction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 54] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5055,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "The word they in paragraph 2 refers to _____.",
+      "options": [
+        "A. rays of the sun",
+        "B. recycled materials",
+        "C. green builders",
+        "D. solar panels"
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 55] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5056,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "The word insulation in paragraph 3 is closest in meaning to ______.",
+      "options": [
+        "A. systems that protect buildings from the sun’s rays",
+        "B. devices that monitor changes in temperature",
+        "C. panels that convert solar energy into electricity",
+        "D. materials that prevent heat loss and absorption"
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 56] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5057,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "What do the Genzyme Center in Cambridge and the project in Vauban, Germany have in common?",
+      "options": [
+        "A. Both were built based on green building principles, significantly reducing energy use.",
+        "B. Both took advantage of new insulation technology to cut construction costs.",
+        "C. Both were built entirely out of recycled materials rather than conventional ones.",
+        "D. Both are residential complexes with specialized, non-polluting heating systems."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 57] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5058,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "The phrase under way in paragraph 6 is closest in meaning to ______.",
+      "options": [
+        "A. being delayed",
+        "B. being certified",
+        "C. being inspected",
+        "D. being carried out"
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 58] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5059,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "Which of the following is NOT mentioned in paragraph 7 as a benefit of green buildings?",
+      "options": [
+        "A. Improving living conditions",
+        "B. Saving money in the long run",
+        "C. Being friendly to the environment",
+        "D. Increasing work productivity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 59] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5060,
+      "partId": "part1",
+      "section": "english",
+      "sectionName": "Tiếng Anh (Ngữ pháp, Từ vựng & Đọc hiểu)",
+      "passage": null,
+      "question": "According to the passage, which of the following statements about green buildings is TRUE?",
+      "options": [
+        "A. They are gaining in popularity in different parts of the world.",
+        "B. They are more economical and produce no pollution whatsoever.",
+        "C. They have only been developed in technologically advanced nations.",
+        "D. They are eco-friendly structures that always include rooftop gardens. PHẦN 2. TOÁN HỌC"
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 60] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5061,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Tập nghiệm của bất phương trình\n2 \t4\tx \tx\t− \t \t+ \tlà",
+      "options": [
+        "A. ( \t) \t( \t)\t; 3 \t4; \t.\t− − \t \t+",
+        "B.  \t) \t( \t)\t4;0 \t5; \t.\t− \t \t+",
+        "C. ( \t) \t( \t) ; \t3 \t5; \t.\t− − \t \t+",
+        "D. (  ( \t) 4;0 \t4; \t.\t− \t \t+"
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 61] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5062,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Tập nghiệm của bất phương trình\n2 9 2\n3\nx\nx\n− \n+ là",
+      "options": [
+        "A. ( \t) \t \t)\t; \t3 \t5; \t.\t− − \t \t+",
+        "B. ( \t) \t( \t\t; \t3 \t3;1 .\t− − \t −",
+        "C.  \t)\t5; \t.\t+",
+        "D. (  ;1 .\t−"
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 62] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5063,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Một hệ thống truyền tải điện gồm 6 trạm A, B, C, D, E, F. Các tuyến\ndây điện được lắp đặt như sơ đồ bên phải. Kỹ sư muốn kiểm tra toàn bộ hệ\nthống bằng cách đi từ trạm A đến trạm F, đi qua mỗi trạm đúng một lần.\nSố cách đi như vậy là",
+      "options": [
+        "A. 1.",
+        "B. 2.",
+        "C. 3.",
+        "D. 4."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 63] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5064,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Một công ty muốn xây dựng hệ thống cáp quang kết nối 6 trạm A, B, C, D, E, F. Chi phí\n(đơn vị: triệu đồng) để nối hai trạm được cho trong bảng sau (ô trống nghĩa là không có tuyến nối):\nA \tB \tC \tD \tE \tF\nA \t0 \t4 \t7 \t9\nB \t4 \t0 \t3 \t6\nC \t7 \t3 \t0 \t5 \t8 \t4\nD \t6 \t5 \t0 \t2\nE \t9 \t8 \t2 \t0 \t3\nF \t4 \t3 \t0\nCông ty muốn kết nối tất cả 6 trạm với tổng chi phí nhỏ nhất. Tổng chi phí tối thiểu là",
+      "options": [
+        "A. 15.",
+        "B. 16.",
+        "C. 17.",
+        "D. 18."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 64] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5065,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Cho \t, \t1\tx y  \tthỏa mãn \t( \t) \t( \t)2\nlog \t3 \tlog \t2\tx \ty\ty \tx\t= \t= \t. Giá trị xy bằng",
+      "options": [
+        "A. 6.",
+        "B. 9.",
+        "C. 3.",
+        "D. 12."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 65] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5066,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Tìm số nguyên m để bất phương trình\n( \t)\n2\t2 \tlog \t4x m x+  \t+ \tcó đúng 3 nghiệm nguyên.",
+      "options": [
+        "A. m = –1.",
+        "B. m = 0.",
+        "C. m = 1.",
+        "D. m = 2."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 66] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5067,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Cho tam giác ABC có \t6, \t8\tAB \tAC\t= \t= \tvà góc 𝐴̂ = 45°. Diện tích tam giác ABC bằng",
+      "options": [
+        "A. 12 \t2.",
+        "B. 24 \t2.",
+        "C. 12.",
+        "D. 24."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 67] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5068,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Cho tam giác ABC có cạnh\n5, \t7, \t8.\tAB \tBC \tAC\t= \t= \t= \tSố đo góc 𝐴̂ bằng",
+      "options": [
+        "A. 40°.",
+        "B. 45°.",
+        "C. 50°.",
+        "D. 60°."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 68] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5069,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Cho hàm số \t( \t) ( \t)\t2\n, \t1\nlog \t, \t1\nx \tm \tx\nf \tx x \tm \tx\n \t+ \t\t\n=  + \t\t\n. Hàm số liên tục tại x = 1 khi",
+      "options": [
+        "A. m = 1.",
+        "B. m = 2.",
+        "C. m = 3.",
+        "D. m = 4."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 69] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5070,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Cho hàm số\n2 3 \t2\n1\nx \tx\ny x\n− \t+\n= − . Mệnh đề nào sau đây đúng?",
+      "options": [
+        "A. Hàm số có đúng một tiệm cận đứng.",
+        "B. Hàm số có đúng một tiệm cận ngang.",
+        "C. Hàm số có tiệm cận xiên 2.\ty \tx\t= \t−",
+        "D. Hàm số không có tiệm cận nào."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 70] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5071,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Tính nguyên hàm 2 x\nxe \tdx\t \t.",
+      "options": [
+        "A. 2 \t2\t1 \t1 . 2 \t4 x \tx xe \te \tC\t− \t+",
+        "B. 2 \t2\t1 \t1 . 2 \t4 x \tx xe \te \tC\t+ \t+",
+        "C. 2 \t2\t1 . 2 x \tx xe \te \tC\t− \t+",
+        "D. 2 2\t1 . 2 x x e \tC\t+"
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 71] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5072,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Gọi D là miền phẳng giới hạn bởi hai đường\n2\ny \tx\t= \tvà\n2\ty \tx\t= \t+ \t. Thể tích khối tròn xoay\nthu được khi quay miền D quanh trục hoành bằng",
+      "options": [
+        "A. 81 . 10 ",
+        "B. 21 . 5 ",
+        "C. 72 . 5 ",
+        "D. 72 . 7  Dựa vào thông tin dưới đây để trả lời các câu 73 và 74 Trong không gian Oxyz, cho mặt phẳng ( \t) : \t2 \t1 \t0\tP \tmx \ty \tz\t+ \t− \t+ \t= \tvới m là tham số thực, và đường thẳng 1 \t1 : \t. 2 \t1 \t1 x \ty \tz d − \t+ = \t= −"
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 72] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5073,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Tìm m để đường thẳng d song song với mặt phẳng (P).",
+      "options": [
+        "A. Không tồn tại m.",
+        "B. m = 0.",
+        "C. m = 1.",
+        "D. 3 . 2 m ="
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 73] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5074,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Tìm m để đường thẳng d vuông góc với mặt phẳng (P).",
+      "options": [
+        "A. Không tồn tại m.",
+        "B. m = 2.",
+        "C. m = –4.",
+        "D. m = 1. Dựa vào thông tin dưới đây để trả lời các câu 75 và 76 Một xưởng chế tạo hai loại sản phẩm X và Y. Mỗi sản phẩm X cần 2 giờ gia công và 1 đơn vị nguyên liệu A; mỗi sản phẩm Y cần 1 giờ gia công và 2 đơn vị nguyên liệu A. Xưởng có tối đa 40 giờ gia công và 36 đơn vị nguyên liệu A trong một tuần. Số lượng sản phẩm X và Y phải là số nguyên không âm."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 74] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5075,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Gọi 𝑥 là số sản phẩm X và 𝑦 là số sản phẩm Y. Hệ bất phương trình nào mô tả đúng các ràng\nbuộc của xưởng?",
+      "options": [
+        "A. 2 \t40 2 \t36 0, \t0 x \ty x \ty x \ty + \t\t  + \t\t  \t \t\t .",
+        "B. 2 \t40 2 \t36 0, \t0 x \ty x \ty x \ty + \t\t  + \t\t  \t \t\t .",
+        "C. 2 \t40 2 \t36 0, \t0 x \ty x \ty x \ty + \t\t  + \t\t  \t \t\t .",
+        "D. 2 \t40 2 \t36 0, \t0 x \ty x \ty x \ty + \t\t  + \t\t  \t \t\t ."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 75] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5076,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Giả sử lợi nhuận biên của mỗi sản phẩm X là $30 và của mỗi sản phẩm Y là $20. Lợi nhuận\nlớn nhất mà xưởng có thể thu được trong một tuần là",
+      "options": [
+        "A. $840.",
+        "B. $650.",
+        "C. $520.",
+        "D. $440. Dựa vào thông tin dưới đây để trả lời các câu 77 và 78 Một nhà máy sản xuất theo chu kỳ: ngày đầu tiên sản xuất 12 sản phẩm; sau đó mỗi ngày sản lượng tăng đều một lượng cố định so với ngày liền trước đó. Vào ngày thứ 9 nhà máy sản xuất 84 sản phẩm."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 76] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5077,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Tổng sản lượng của nhà máy trong 10 ngày đầu là",
+      "options": [
+        "A. 420.",
+        "B. 525.",
+        "C. 480.",
+        "D. 660."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 77] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5078,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": null,
+      "question": "Số ngày nhỏ nhất sao cho sản lượng trong một ngày đạt ít nhất 10.000 sản phẩm là",
+      "options": [
+        "A. 1110.",
+        "B. 1111.",
+        "C. 1109.",
+        "D. 1112. Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81 Trong mặt phẳng Oxy cho ba điểm \t( \t) \t( \t) \t( \t)\t2;3 , \t8;7 , \t1;4\tP \tQ \tR − \t."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 78] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5079,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Trong mặt phẳng Oxy cho ba điểm \t( \t) \t( \t) \t( \t)\t2;3 , \t8;7 , \t1;4\tP \tQ \tR − \t.",
+      "question": "Phương trình đường tròn nhận PQ làm đường kính là",
+      "options": [
+        "A. ( \t) \t( \t)2 \t2 5 \t5 \t13.\tx \ty\t− \t+ \t− \t=",
+        "B. ( \t) \t( \t) 2 \t2 5 \t5 \t26.\tx \ty\t− \t+ \t− \t=",
+        "C. ( \t) \t( \t)2 \t2 2 \t3 \t13.\tx \ty\t− \t+ \t− \t=",
+        "D. ( \t) \t( \t)2 \t2 8 \t7 \t13.\tx \ty\t− \t+ \t− \t="
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 79] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5080,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Trong mặt phẳng Oxy cho ba điểm \t( \t) \t( \t) \t( \t)\t2;3 , \t8;7 , \t1;4\tP \tQ \tR − \t.",
+      "question": "Diện tích tam giác PQR bằng",
+      "options": [
+        "A. 9.",
+        "B. 12.",
+        "C. 15.",
+        "D. 18."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 80] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5081,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Trong mặt phẳng Oxy cho ba điểm \t( \t) \t( \t) \t( \t)\t2;3 , \t8;7 , \t1;4\tP \tQ \tR − \t.",
+      "question": "Trong các mệnh đề sau, mệnh đề nào sai?",
+      "options": [
+        "A. Phương trình đường thẳng qua R và vuông góc với PQ là 3 \t2 \t5 \t0.\tx \ty\t+ \t− \t=",
+        "B. Hình chiếu vuông góc của R lên PQ là 5 \t25 ; \t. 13 13 H  \t  \t  \t",
+        "C. Khoảng cách từ R đến PQ bằng 3 13 .",
+        "D. Điểm R nằm ngoài đường tròn có đường kính PQ. Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84 Một hộp chứa 12 viên bi đồng chất gồm 6 viên đỏ, 4 viên xanh, 2 viên vàng."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 81] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5082,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Một hộp chứa 12 viên bi đồng chất gồm 6 viên đỏ, 4 viên xanh, 2 viên vàng.",
+      "question": "Lấy ngẫu nhiên một viên bi. Xác suất để viên lấy được là đỏ bằng",
+      "options": [
+        "A. 1 . 3",
+        "B. 1 . 2",
+        "C. 2 . 3",
+        "D. 3 . 4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 82] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5083,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Một hộp chứa 12 viên bi đồng chất gồm 6 viên đỏ, 4 viên xanh, 2 viên vàng.",
+      "question": "Lấy ngẫu nhiên cùng lúc 3 viên bi. Xác suất để chính xác 2 trong 3 viên là đỏ bằng",
+      "options": [
+        "A. 9 . 22",
+        "B. 3 . 11",
+        "C. 1 . 2",
+        "D. 5 . 12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 83] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5084,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Một hộp chứa 12 viên bi đồng chất gồm 6 viên đỏ, 4 viên xanh, 2 viên vàng.",
+      "question": "Lấy ngẫu nhiên cùng lúc 4 viên bi. Biết rằng, có ít nhất một viên vàng đã được rút. Khi đó\nxác suất để chính xác 2 trong 4 viên là đỏ bằng",
+      "options": [
+        "A. 9 . 19",
+        "B. 3 . 7",
+        "C. 27 . 95",
+        "D. 5 . 11 Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87 Một khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm đáy bằng 8 (đơn vị)."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 84] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5085,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Một khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm\nđáy bằng 8 (đơn vị).",
+      "question": "Thể tích của khối chóp là",
+      "options": [
+        "A. 72.",
+        "B. 96.",
+        "C. 108.",
+        "D. 144."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 85] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5086,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Một khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm\nđáy bằng 8 (đơn vị).",
+      "question": "Diện tích xung quanh của khối chóp là",
+      "options": [
+        "A. 12 \t73.",
+        "B. 6 82.",
+        "C. 24 \t73.",
+        "D. 36."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 86] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5087,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Một khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm\nđáy bằng 8 (đơn vị).",
+      "question": "Góc giữa cạnh bên và mặt phẳng đáy của khối chóp xấp xỉ bằng",
+      "options": [
+        "A. 62,06°.",
+        "B. 53,13°.",
+        "C. 27,94°.",
+        "D. 30,27°. Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90 Cho hàm số \t( \t) \t( \t) \t( \t)3 \t2 1 \t2 \t1 \t3\tf \tx \tx \tm \tx \tm \tx \tm\t= \t+ \t+ \t− \t− \t+ \t− \t."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 87] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5088,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Cho hàm số \t( \t) \t( \t) \t( \t)3 \t2\n1 \t2 \t1 \t3\tf \tx \tx \tm \tx \tm \tx \tm\t= \t+ \t+ \t− \t− \t+ \t− \t.",
+      "question": "Giá trị đạo hàm của \t( )\tf \tx \tkhi \t1\tx = \tlà",
+      "options": [
+        "A. 6.",
+        "B. 0.",
+        "C. 6 + m.",
+        "D. 3."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 88] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5089,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Cho hàm số \t( \t) \t( \t) \t( \t)3 \t2\n1 \t2 \t1 \t3\tf \tx \tx \tm \tx \tm \tx \tm\t= \t+ \t+ \t− \t− \t+ \t− \t.",
+      "question": "Tìm m để phương trình \t( \t) \t0\tf \tx = \tcó 3 nghiệm thực phân biệt.",
+      "options": [
+        "A. 4 \t2 \t6\tm  − \t− \thoặc \t4 \t2 \t6\tm  − \t+ \t.",
+        "B. 4 \t2 \t6\tm  − \t− \thoặc \t4 \t2 \t6\tm  − \t+ \t.",
+        "C. 4 \t2 \t6 \t4 \t2 \t6\tm\t− \t− \t \t − \t+ \t.",
+        "D. Không tồn tại m."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 89] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5090,
+      "partId": "part2",
+      "section": "math",
+      "sectionName": "Toán học (Đại số, Hình học & Bài toán thực tế)",
+      "passage": "Cho hàm số \t( \t) \t( \t) \t( \t)3 \t2\n1 \t2 \t1 \t3\tf \tx \tx \tm \tx \tm \tx \tm\t= \t+ \t+ \t− \t− \t+ \t− \t.",
+      "question": "Giá trị nào của m để điểm \t( \t)\t1;0\tI \tlà tâm đối xứng của đồ thị hàm số\n( \t)\ny \tf \tx\t= \t.",
+      "options": [
+        "A. 5.\tm = −",
+        "B. 4.\tm = −",
+        "C. 1.\tm = −",
+        "D. 0.\tm = PHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93 Trên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau: I xếp ở vị trí thứ 7; có ít nhất 5 hũ gia vị được xếp bên phải A; E xếp bên phải D nhưng bên trái A; Có 3 hũ gia vị được xếp ở giữa E và F; B xếp cạnh G."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 90] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5091,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Trên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải\ntheo các yêu cầu sau: I xếp ở vị trí thứ 7; có ít nhất 5 hũ gia vị được xếp bên phải A; E xếp bên phải\nD nhưng bên trái A; Có 3 hũ gia vị được xếp ở giữa E và F; B xếp cạnh G.",
+      "question": "Liệt kê nào sau đây có thể là cách sắp xếp phù hợp các hũ gia vị theo yêu cầu?",
+      "options": [
+        "A. F, H, D, C, E, A, I, B, G.",
+        "B. D, E, B, A, H, F, I, C, G.",
+        "C. D, E, A, C, H, F, I, G, B.",
+        "D. B, G, D, E, A, C, I, F, H."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 91] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5092,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Trên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải\ntheo các yêu cầu sau: I xếp ở vị trí thứ 7; có ít nhất 5 hũ gia vị được xếp bên phải A; E xếp bên phải\nD nhưng bên trái A; Có 3 hũ gia vị được xếp ở giữa E và F; B xếp cạnh G.",
+      "question": "B không thể được xếp ở vị trí nào dưới đây?",
+      "options": [
+        "A. Thứ 3.",
+        "B. Thứ 4.",
+        "C. Thứ 5.",
+        "D. Thứ 8."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 92] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5093,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Trên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải\ntheo các yêu cầu sau: I xếp ở vị trí thứ 7; có ít nhất 5 hũ gia vị được xếp bên phải A; E xếp bên phải\nD nhưng bên trái A; Có 3 hũ gia vị được xếp ở giữa E và F; B xếp cạnh G.",
+      "question": "Hai hũ gia vị nào sau đây luôn có ít nhất một hũ được xếp ở giữa E và F?",
+      "options": [
+        "A. B và G.",
+        "B. H và",
+        "C. C. I và C.",
+        "D. G và H. Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96 Một công ty có 3 nhà máy I, II, III sản xuất 6 dòng xe ô tô: C, D, E, F, J, S; mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau: có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất; nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S; E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 93] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5094,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Một công ty có 3 nhà máy I, II, III sản xuất 6 dòng xe ô tô: C, D, E, F, J, S; mỗi nhà máy sản\nxuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau: có ít nhất 3 dòng xe được Nhà máy I\nsản xuất thì cũng được Nhà máy II sản xuất; nhà máy nào sản xuất dòng xe C hoặc D thì không sản\nxuất dòng xe S; E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
+      "question": "Liệt kê nào sau đây là danh sách đầy đủ và chính xác các nhà máy có thể sản xuất S?",
+      "options": [
+        "A. I, II, III.",
+        "B. III.",
+        "C. I, II.",
+        "D. I, III."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 94] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5095,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Một công ty có 3 nhà máy I, II, III sản xuất 6 dòng xe ô tô: C, D, E, F, J, S; mỗi nhà máy sản\nxuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau: có ít nhất 3 dòng xe được Nhà máy I\nsản xuất thì cũng được Nhà máy II sản xuất; nhà máy nào sản xuất dòng xe C hoặc D thì không sản\nxuất dòng xe S; E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
+      "question": "Nếu Nhà máy I và II sản xuất 3 dòng xe thì dòng xe nào sau đây có thể được cả 3 nhà máy\ncùng sản xuất?",
+      "options": [
+        "A. E.",
+        "B. ",
+        "C. C. S.",
+        "D. J."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 95] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5096,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Một công ty có 3 nhà máy I, II, III sản xuất 6 dòng xe ô tô: C, D, E, F, J, S; mỗi nhà máy sản\nxuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau: có ít nhất 3 dòng xe được Nhà máy I\nsản xuất thì cũng được Nhà máy II sản xuất; nhà máy nào sản xuất dòng xe C hoặc D thì không sản\nxuất dòng xe S; E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
+      "question": "Nếu mỗi Nhà máy sản xuất đúng 4 dòng xe thì Nhà máy I phải sản xuất dòng xe nào sau đây?",
+      "options": [
+        "A. E.",
+        "B. ",
+        "C. C. S.",
+        "D. J. Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99 Biểu đồ dưới đây thể hiện viện trợ tài chính (đơn vị: tỷ phrăng) của Mỹ cho Pháp ở Đông Dương giai đoạn từ năm 1950 đến năm 1954."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 96] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5097,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Biểu đồ dưới đây thể hiện viện trợ tài chính (đơn vị: tỷ phrăng) của Mỹ cho Pháp ở Đông Dương\ngiai đoạn từ năm 1950 đến năm 1954.",
+      "question": "Trong giai đoạn 1950 - 1954, năm nào ghi nhận tỷ trọng viện trợ của Mỹ chiếm hơn một nửa\ntổng chi phí chiến tranh của Pháp ở Đông Dương?",
+      "options": [
+        "A. 1951.",
+        "B. 1952.",
+        "C. 1953.",
+        "D. 1954."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 97] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5098,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Biểu đồ dưới đây thể hiện viện trợ tài chính (đơn vị: tỷ phrăng) của Mỹ cho Pháp ở Đông Dương\ngiai đoạn từ năm 1950 đến năm 1954.",
+      "question": "Tổng chi phí chiến tranh của Pháp tại Đông Dương năm 1954 đã tăng xấp xỉ bao nhiêu phần\ntrăm so với năm 1950?",
+      "options": [
+        "A. 154,5%.",
+        "B. 181,8%.",
+        "C. 215,2%.",
+        "D. 281,8%."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 98] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5099,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Biểu đồ dưới đây thể hiện viện trợ tài chính (đơn vị: tỷ phrăng) của Mỹ cho Pháp ở Đông Dương\ngiai đoạn từ năm 1950 đến năm 1954.",
+      "question": "Xét phần chi phí chiến tranh mà Pháp tự chi trả (sau khi trừ đi khoản viện trợ của Mỹ), nhận\nđịnh nào sau đây là chính xác về sự thay đổi giữa năm 1953 và năm 1954?",
+      "options": [
+        "A. Phần chi phí tự túc của Pháp tăng thêm 101 tỷ phrăng.",
+        "B. Phần chi phí tự túc của Pháp tăng thêm 169 tỷ phrăng.",
+        "C. Phần chi phí tự túc của Pháp giảm đi 101 tỷ phrăng.",
+        "D. Phần chi phí tự túc của Pháp giảm đi 169 tỷ phrăng. 266,5 384,8 565 650 751 52 \t62 200 285 555 1950 \t1951 \t1952 \t1953 \t1954 Tổng \tchi \tphí chiến \ttranh \tcủa Pháp Viện trợ của Mỹ Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102 Biểu đồ dưới đây thể hiện số lần đánh phá của Không quân Mỹ vào các loại mục tiêu ở miền Bắc Việt Nam. Giai đoạn 1965-1968 có tổng số lượt đánh phá là 180.778 lượt, giai đoạn 1969-1972 có tổng số lượt đánh phá là 22.955 lượt. Bốn loại mục tiêu bị đánh phá bao gồm: Giao thông vận tải (G), Kinh tế (K), Quân sự (Q), Dân cư (D). 1965 – 1968 \t1969 – 1972"
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 99] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5100,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Biểu đồ dưới đây thể hiện số lần đánh phá của Không quân Mỹ vào các loại mục tiêu ở miền\nBắc Việt Nam. Giai đoạn 1965-1968 có tổng số lượt đánh phá là 180.778 lượt, giai đoạn 1969-1972\ncó tổng số lượt đánh phá là 22.955 lượt. Bốn loại mục tiêu bị đánh phá bao gồm: Giao thông vận tải\n(G), Kinh tế (K), Quân sự (Q), Dân cư (D).\n1965 – 1968 \t1969 – 1972",
+      "question": "Trong giai đoạn 1965 - 1968, loại mục tiêu nào chiếm tỷ trọng cao nhất trong các đợt đánh\nphá của không quân Mỹ?",
+      "options": [
+        "A. Quân sự.",
+        "B. Dân cư.",
+        "C. Kinh tế.",
+        "D. Giao thông vận tải."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 100] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5101,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Biểu đồ dưới đây thể hiện số lần đánh phá của Không quân Mỹ vào các loại mục tiêu ở miền\nBắc Việt Nam. Giai đoạn 1965-1968 có tổng số lượt đánh phá là 180.778 lượt, giai đoạn 1969-1972\ncó tổng số lượt đánh phá là 22.955 lượt. Bốn loại mục tiêu bị đánh phá bao gồm: Giao thông vận tải\n(G), Kinh tế (K), Quân sự (Q), Dân cư (D).\n1965 – 1968 \t1969 – 1972",
+      "question": "So với giai đoạn 1965 - 1968, tỷ trọng số lần đánh phá vào mục tiêu “Kinh tế” ở giai đoạn\n1969 - 1972 đã thay đổi như thế nào?",
+      "options": [
+        "A. Giảm 2,7 điểm phần trăm.",
+        "B. Tăng 2,7 điểm phần trăm.",
+        "C. Tăng 82,2 điểm phần trăm.",
+        "D. Giảm 82,2 điểm phần trăm."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 101] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5102,
+      "partId": "part3",
+      "section": "logic_data",
+      "sectionName": "Logic & Phân tích số liệu (12 câu)",
+      "passage": "Biểu đồ dưới đây thể hiện số lần đánh phá của Không quân Mỹ vào các loại mục tiêu ở miền\nBắc Việt Nam. Giai đoạn 1965-1968 có tổng số lượt đánh phá là 180.778 lượt, giai đoạn 1969-1972\ncó tổng số lượt đánh phá là 22.955 lượt. Bốn loại mục tiêu bị đánh phá bao gồm: Giao thông vận tải\n(G), Kinh tế (K), Quân sự (Q), Dân cư (D).\n1965 – 1968 \t1969 – 1972",
+      "question": "Tổng số lần đánh phá vào nhóm mục tiêu phi quân sự (Kinh tế và Dân cư) trong giai đoạn\n1969 - 1972 đã giảm khoảng bao nhiêu phần trăm so với giai đoạn 1965 - 1968?",
+      "options": [
+        "A. 85,2%.",
+        "B. 88,4%.",
+        "C. 90,7%.",
+        "D. 92,6%. 3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: – Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. – Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. – Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước \tMềm \tHơi cứng \tCứng \tRất cứng Độ cứng (mg CaCO3/lít) \t0 – 50 \t50 – 150 \t150 – 300 \t> 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất \tKý hiệu \tg/mol \tChất \tKý hiệu \tg/mol Hydro \tH \t1 \tNatri \tNa \t23 Cacbon \tC \t12 \tMagie \tMg \t24 Oxi \tO \t16 \tClo \tCl \t35,5 Lưu huỳnh \tS \t32 \tCanxi \tCa \t40"
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 102] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5103,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng\nlà nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và\nMg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n– Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối\naxit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n– Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2,\nMgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n– Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+\nđổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\nPhân loại nước \tMềm \tHơi cứng \tCứng \tRất cứng\nĐộ cứng (mg CaCO3/lít) \t0 – 50 \t50 – 150 \t150 – 300 \t> 300\nKhối lượng mol và ký hiệu của một số đơn chất:\nChất \tKý hiệu \tg/mol \tChất \tKý hiệu \tg/mol\nHydro \tH \t1 \tNatri \tNa \t23\nCacbon \tC \t12 \tMagie \tMg \t24\nOxi \tO \t16 \tClo \tCl \t35,5\nLưu huỳnh \tS \t32 \tCanxi \tCa \t40",
+      "question": "Để làm mềm nước có tính cứng vĩnh cửu, phương pháp nào sau đây không thể áp dụng?",
+      "options": [
+        "A. Đun sôi nước cứng để làm phân hủy các gốc axit.",
+        "B. Dùng nhựa cation để trao đổi ion Ca2+ và Mg2+ với Na+.",
+        "C. Dùng bột soda để xử lí nước.",
+        "D. Dùng K3PO4 để làm lắng đọng Canxi và Magie. G 52,3% K 6,7% Q 10,1% D 30,9% G 63,6% K 9,4% Q 8,8% D 18,2%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 103] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5104,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng\nlà nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và\nMg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n– Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối\naxit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n– Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2,\nMgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n– Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+\nđổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\nPhân loại nước \tMềm \tHơi cứng \tCứng \tRất cứng\nĐộ cứng (mg CaCO3/lít) \t0 – 50 \t50 – 150 \t150 – 300 \t> 300\nKhối lượng mol và ký hiệu của một số đơn chất:\nChất \tKý hiệu \tg/mol \tChất \tKý hiệu \tg/mol\nHydro \tH \t1 \tNatri \tNa \t23\nCacbon \tC \t12 \tMagie \tMg \t24\nOxi \tO \t16 \tClo \tCl \t35,5\nLưu huỳnh \tS \t32 \tCanxi \tCa \t40",
+      "question": "Từ một mẫu nước cứng (chỉ chứa MgCl2) có nồng độ là\n3\n1,76 \t10−\n \t(mol/lít), người ta có\nthể tính được giá trị độ cứng của mẫu nước. Nhận định nào dưới đây đúng?",
+      "options": [
+        "A. Độ cứng của nước là 148 mg/l. Mẫu nước thuộc loại nước hơi cứng.",
+        "B. Độ cứng của nước là 296 mg/l. Mẫu nước thuộc loại nước cứng hơi cứng.",
+        "C. Độ cứng của nước là 352 mg/l. Mẫu nước thuộc loại nước rất cứng.",
+        "D. Độ cứng của nước là 176 mg/l. Mẫu nước thuộc loại nước cứng."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 104] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5105,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng\nlà nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và\nMg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n– Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối\naxit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n– Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2,\nMgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n– Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+\nđổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\nPhân loại nước \tMềm \tHơi cứng \tCứng \tRất cứng\nĐộ cứng (mg CaCO3/lít) \t0 – 50 \t50 – 150 \t150 – 300 \t> 300\nKhối lượng mol và ký hiệu của một số đơn chất:\nChất \tKý hiệu \tg/mol \tChất \tKý hiệu \tg/mol\nHydro \tH \t1 \tNatri \tNa \t23\nCacbon \tC \t12 \tMagie \tMg \t24\nOxi \tO \t16 \tClo \tCl \t35,5\nLưu huỳnh \tS \t32 \tCanxi \tCa \t40",
+      "question": "Để giảm hàm lượng Mg2+ trong mẫu nước trên, người ta có thể sử dụng các vật liệu polime\ncó khả năng trao đổi cation. Nhưng sau một thời gian sử dụng, các hạt nhựa trao đổi ion không còn\nkhả năng hút ion Mg2+ từ nước cứng. Ý nào dưới đây có thể là nguyên nhân và cách khắc phục?",
+      "options": [
+        "A. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách sục khí CO2 đến dư vào để hòa tan kết tủa.",
+        "B. Hàm lượng ion Mg2+ đi vào các hạt nhựa đã đạt giá trị bão hòa. Khắc phục bằng cách ngâm các hạt nhựa trong dung dịch NaCl nồng độ cao.",
+        "C. Hàm lượng ion Mg2+ đi vào các hạt nhựa đã đạt giá trị bão hòa. Khắc phục bằng cách ngâm các hạt nhựa trong dung dịch K2CO3 nồng độ cao.",
+        "D. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách nung các hạt nhựa ở nhiệt độ cao để phân huỷ MgCO3. Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108 Hai thang đo nhiệt độ phổ biến nhất là Celsius và Fahrenheit. Để xây dựng một thang nhiệt độ, người ta chọn hai mốc nhiệt độ cố định làm chuẩn, sau đó chia khoảng cách giữa hai mốc này thành các phần bằng nhau, mỗi phần ứng với 1 độ. - Thang Celsius (°C): Quy ước nhiệt độ đông đặc của nước là 0°C và nhiệt độ sôi của nước là 100°C (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là 37°C. - Thang Fahrenheit (°F): Quy ước nhiệt độ đông đặc của nước là 32°F và nhiệt độ sôi của nước là 212°F (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 105] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5106,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Hai thang đo nhiệt độ phổ biến nhất là Celsius và Fahrenheit. Để xây dựng một thang nhiệt độ,\nngười ta chọn hai mốc nhiệt độ cố định làm chuẩn, sau đó chia khoảng cách giữa hai mốc này thành\ncác phần bằng nhau, mỗi phần ứng với 1 độ.\n- Thang Celsius (°C): Quy ước nhiệt độ đông đặc của nước là 0°C và nhiệt độ sôi của nước là\n100°C (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ\nthể người bình thường là 37°C.\n- Thang Fahrenheit (°F): Quy ước nhiệt độ đông đặc của nước là 32°F và nhiệt độ sôi của nước\nlà 212°F (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "question": "Công thức liên hệ đúng giữa thang đo Fahrenheit ( F ) và thang đo Celsius ( C ) là",
+      "options": [
+        "A. 9 32. 5 C \tF\t= \t+",
+        "B. 5 32. 9 C \tF\t= \t+",
+        "C. 5 32. 9 F \tC\t= \t+",
+        "D. 9 32. 5 F \tC\t= \t+"
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 106] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5107,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Hai thang đo nhiệt độ phổ biến nhất là Celsius và Fahrenheit. Để xây dựng một thang nhiệt độ,\nngười ta chọn hai mốc nhiệt độ cố định làm chuẩn, sau đó chia khoảng cách giữa hai mốc này thành\ncác phần bằng nhau, mỗi phần ứng với 1 độ.\n- Thang Celsius (°C): Quy ước nhiệt độ đông đặc của nước là 0°C và nhiệt độ sôi của nước là\n100°C (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ\nthể người bình thường là 37°C.\n- Thang Fahrenheit (°F): Quy ước nhiệt độ đông đặc của nước là 32°F và nhiệt độ sôi của nước\nlà 212°F (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "question": "Nhiệt độ nào sau đây có số chỉ bằng nhau trên cả hai thang đo Celsius và Fahrenheit?",
+      "options": [
+        "A. 40.\t−",
+        "B. 4.",
+        "C. 4.\t−",
+        "D. 40."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 107] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5108,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Hai thang đo nhiệt độ phổ biến nhất là Celsius và Fahrenheit. Để xây dựng một thang nhiệt độ,\nngười ta chọn hai mốc nhiệt độ cố định làm chuẩn, sau đó chia khoảng cách giữa hai mốc này thành\ncác phần bằng nhau, mỗi phần ứng với 1 độ.\n- Thang Celsius (°C): Quy ước nhiệt độ đông đặc của nước là 0°C và nhiệt độ sôi của nước là\n100°C (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ\nthể người bình thường là 37°C.\n- Thang Fahrenheit (°F): Quy ước nhiệt độ đông đặc của nước là 32°F và nhiệt độ sôi của nước\nlà 212°F (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "question": "Phát biểu nào dưới đây đúng?",
+      "options": [
+        "A. Thân nhiệt người bình thường là 37°F.",
+        "B. 32°F là nhiệt độ nước đá đang tan ở áp suất 1 atm.",
+        "C. Trong thang Fahrenheit, khoảng cách từ điểm đông đặc đến điểm sôi được chia thành 100 phần bằng nhau.",
+        "D. 100°C là nhiệt độ sôi của nước ở áp suất 1,5 atm. Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111 Dựa vào phản ứng nở hoa của thực vật với quang chu kì, thực vật được chia làm ba nhóm. Thực vật ngày dài như thanh long, xà lách ra hoa khi thời gian ban đêm ngắn hơn độ dài đêm tới hạn. Thực vật ngày ngắn như cúc, mía ra hoa khi thời gian ban đêm dài hơn độ dài đêm tới hạn. Thực vật trung tính như cà chua, hướng dương, lúa nước ra hoa không phụ thuộc vào độ dài thời gian chiếu sáng trong ngày. Một nghiên cứu trồng thanh long dưới ánh sáng tự nhiên ngày ngắn (số giờ sáng trong ngày là 10,5 giờ) và có hoặc không có chiếu sáng nhân tạo bằng đèn vào ban đêm. Ba lô thí nghiệm được trồng trong các điều kiện tương tự nhau. Ở lô thí nghiệm 1, cây được chiếu sáng liên tục từ khi mặt trời lặn đến khi mặt trời mọc vào sáng hôm sau. Ở lô thí nghiệm 2, cây được chiếu sáng từ lúc 0 giờ với tổng số giờ chiếu sáng khác nhau trong đêm. Lô đối chứng cây không được chiếu sáng vào ban đêm. Tỉ lệ ra hoa trung bình ở các lô thí nghiệm sau 20 ngày được trình bày trong bảng dưới đây: Điều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) \tChiếu sáng liên tục\t0,5 \t1 \t2 \t3 \t4 \t5 Tỉ lệ ra hoa (%) \t0 \t0 \t12 \t51 \t79 \t90 \t99 \t99"
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 108] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5109,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Dựa vào phản ứng nở hoa của thực vật với quang chu kì, thực vật được chia làm ba nhóm. Thực\nvật ngày dài như thanh long, xà lách ra hoa khi thời gian ban đêm ngắn hơn độ dài đêm tới hạn. Thực vật\nngày ngắn như cúc, mía ra hoa khi thời gian ban đêm dài hơn độ dài đêm tới hạn. Thực vật trung tính như\ncà chua, hướng dương, lúa nước ra hoa không phụ thuộc vào độ dài thời gian chiếu sáng trong ngày.\nMột nghiên cứu trồng thanh long dưới ánh sáng tự nhiên ngày ngắn (số giờ sáng trong ngày là\n10,5 giờ) và có hoặc không có chiếu sáng nhân tạo bằng đèn vào ban đêm. Ba lô thí nghiệm được\ntrồng trong các điều kiện tương tự nhau. Ở lô thí nghiệm 1, cây được chiếu sáng liên tục từ khi mặt\ntrời lặn đến khi mặt trời mọc vào sáng hôm sau. Ở lô thí nghiệm 2, cây được chiếu sáng từ lúc 0 giờ\nvới tổng số giờ chiếu sáng khác nhau trong đêm. Lô đối chứng cây không được chiếu sáng vào ban\nđêm. Tỉ lệ ra hoa trung bình ở các lô thí nghiệm sau 20 ngày được trình bày trong bảng dưới đây:\nĐiều kiện\nchiếu sáng bổ sung\nKhông\nchiếu sáng\nSố giờ chiếu sáng vào ban đêm (giờ) \tChiếu sáng\nliên tục\t0,5 \t1 \t2 \t3 \t4 \t5\nTỉ lệ ra hoa (%) \t0 \t0 \t12 \t51 \t79 \t90 \t99 \t99",
+      "question": "Trong tự nhiên để điều khiển cây thanh long ra hoa đồng loạt vào thời điểm ngày ngắn, cần\nphải chiếu sáng đèn từ 0 giờ và tắt đèn vào thời điểm nào sau đây?",
+      "options": [
+        "A. 0 giờ 30 phút.",
+        "B. 1 giờ 30 phút.",
+        "C. 2 giờ 10 phút.",
+        "D. 5 giờ 10 phút."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 109] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5110,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Dựa vào phản ứng nở hoa của thực vật với quang chu kì, thực vật được chia làm ba nhóm. Thực\nvật ngày dài như thanh long, xà lách ra hoa khi thời gian ban đêm ngắn hơn độ dài đêm tới hạn. Thực vật\nngày ngắn như cúc, mía ra hoa khi thời gian ban đêm dài hơn độ dài đêm tới hạn. Thực vật trung tính như\ncà chua, hướng dương, lúa nước ra hoa không phụ thuộc vào độ dài thời gian chiếu sáng trong ngày.\nMột nghiên cứu trồng thanh long dưới ánh sáng tự nhiên ngày ngắn (số giờ sáng trong ngày là\n10,5 giờ) và có hoặc không có chiếu sáng nhân tạo bằng đèn vào ban đêm. Ba lô thí nghiệm được\ntrồng trong các điều kiện tương tự nhau. Ở lô thí nghiệm 1, cây được chiếu sáng liên tục từ khi mặt\ntrời lặn đến khi mặt trời mọc vào sáng hôm sau. Ở lô thí nghiệm 2, cây được chiếu sáng từ lúc 0 giờ\nvới tổng số giờ chiếu sáng khác nhau trong đêm. Lô đối chứng cây không được chiếu sáng vào ban\nđêm. Tỉ lệ ra hoa trung bình ở các lô thí nghiệm sau 20 ngày được trình bày trong bảng dưới đây:\nĐiều kiện\nchiếu sáng bổ sung\nKhông\nchiếu sáng\nSố giờ chiếu sáng vào ban đêm (giờ) \tChiếu sáng\nliên tục\t0,5 \t1 \t2 \t3 \t4 \t5\nTỉ lệ ra hoa (%) \t0 \t0 \t12 \t51 \t79 \t90 \t99 \t99",
+      "question": "Một loài thực vật ngày ngắn có độ dài đêm tới hạn là 09 giờ, được trồng trong chu kì sáng\ntối là 24 giờ. Điều kiện chiếu sáng nào sau đây kích thích cây trưởng thành ra hoa?",
+      "options": [
+        "A. 10 giờ tối/24 giờ.",
+        "B. 16 giờ sáng/24 giờ.",
+        "C. 08 giờ tối/24 giờ.",
+        "D. 19 giờ sáng/24 giờ."
+      ],
+      "correctAnswer": 0,
+      "explanation": "[VnNO1 2026/2027 - Câu 110] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5111,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Dựa vào phản ứng nở hoa của thực vật với quang chu kì, thực vật được chia làm ba nhóm. Thực\nvật ngày dài như thanh long, xà lách ra hoa khi thời gian ban đêm ngắn hơn độ dài đêm tới hạn. Thực vật\nngày ngắn như cúc, mía ra hoa khi thời gian ban đêm dài hơn độ dài đêm tới hạn. Thực vật trung tính như\ncà chua, hướng dương, lúa nước ra hoa không phụ thuộc vào độ dài thời gian chiếu sáng trong ngày.\nMột nghiên cứu trồng thanh long dưới ánh sáng tự nhiên ngày ngắn (số giờ sáng trong ngày là\n10,5 giờ) và có hoặc không có chiếu sáng nhân tạo bằng đèn vào ban đêm. Ba lô thí nghiệm được\ntrồng trong các điều kiện tương tự nhau. Ở lô thí nghiệm 1, cây được chiếu sáng liên tục từ khi mặt\ntrời lặn đến khi mặt trời mọc vào sáng hôm sau. Ở lô thí nghiệm 2, cây được chiếu sáng từ lúc 0 giờ\nvới tổng số giờ chiếu sáng khác nhau trong đêm. Lô đối chứng cây không được chiếu sáng vào ban\nđêm. Tỉ lệ ra hoa trung bình ở các lô thí nghiệm sau 20 ngày được trình bày trong bảng dưới đây:\nĐiều kiện\nchiếu sáng bổ sung\nKhông\nchiếu sáng\nSố giờ chiếu sáng vào ban đêm (giờ) \tChiếu sáng\nliên tục\t0,5 \t1 \t2 \t3 \t4 \t5\nTỉ lệ ra hoa (%) \t0 \t0 \t12 \t51 \t79 \t90 \t99 \t99",
+      "question": "Loài thực vật nào sau đây được xếp vào nhóm cây ngày dài?",
+      "options": [
+        "A. Cây ké đầu ngựa (Xanthium Strumarium) chỉ ra hoa khi chiếu sáng tối đa là 16 giờ hoặc ít hơn.",
+        "B. Cây Jusquiame (Hyoscyamus niger) ra hoa khi điều kiện chiếu sáng tối thiểu là 11,5 giờ.",
+        "C. Cây thuốc lá (Nicotiana tabacum) chỉ ra hoa khi chiếu sáng tối đa là 14 giờ hoặc ít hơn.",
+        "D. Cây cà chua có đủ 14 cặp lá có thể ra hoa khi chiếu sáng tối thiểu là 12 giờ hoặc nhiều hơn. Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114 Người thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03 yếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ phần trăm giữa số người thất nghiệp so với lực lượng lao động. Tỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so với quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,73%; khu vực nông thôn là 1,86%. Tỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần trăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước có khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo, chiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông thôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học tập, đào tạo là 13,3%; nam là 9,8%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm phần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm. (Cục Thống kê – Bộ Tài Chính, Thông cáo báo chí về tình hình lao động, việc làm quý III và 9 tháng năm 2025)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 111] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5112,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Người thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03\nyếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ\nphần trăm giữa số người thất nghiệp so với lực lượng lao động.\nTỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so\nvới quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là\n2,73%; khu vực nông thôn là 1,86%.\nTỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần\ntrăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%.\nTỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần\ntrăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của\nthanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước\ncó khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo,\nchiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông\nthôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học\ntập, đào tạo là 13,3%; nam là 9,8%.\nTỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm\nphần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là\n11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm.\n(Cục Thống kê – Bộ Tài Chính, Thông cáo báo chí về tình hình lao động,\nviệc làm quý III và 9 tháng năm 2025)",
+      "question": "Nhận định nào sau đây phản ánh không đúng về Tỷ lệ thất nghiệp trong độ tuổi lao động\nquý III/2025?",
+      "options": [
+        "A. Trong 1000 người tham gia vào lực lượng lao động, có khoảng 22 người đang thất nghiệp.",
+        "B. Tỷ lệ có việc làm trong độ tuổi lao động có xu hướng tăng so với cùng kỳ năm trước.",
+        "C. Khu vực nông thôn có tỷ lệ có việc làm trong độ tuổi lao động thấp hơn khu vực thành thị.",
+        "D. Tỷ lệ thất nghiệp trong độ tuổi lao động quý II/2025 là 2,24%."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 112] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5113,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Người thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03\nyếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ\nphần trăm giữa số người thất nghiệp so với lực lượng lao động.\nTỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so\nvới quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là\n2,73%; khu vực nông thôn là 1,86%.\nTỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần\ntrăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%.\nTỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần\ntrăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của\nthanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước\ncó khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo,\nchiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông\nthôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học\ntập, đào tạo là 13,3%; nam là 9,8%.\nTỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm\nphần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là\n11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm.\n(Cục Thống kê – Bộ Tài Chính, Thông cáo báo chí về tình hình lao động,\nviệc làm quý III và 9 tháng năm 2025)",
+      "question": "Dựa vào dữ liệu về tình hình thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025, nhận\nđịnh nào sau đây là đúng?",
+      "options": [
+        "A. Tỷ lệ thất nghiệp của thanh niên có xu hướng giảm mạnh so với quý trước nhờ các chính sách việc làm.",
+        "B. Khoảng chênh lệch tỷ lệ thất nghiệp của thanh niên giữa khu vực thành thị và nông thôn là 5,56 điểm phần trăm.",
+        "C. Tỷ lệ thất nghiệp của thanh niên toàn quốc thấp hơn tỷ lệ thất nghiệp chung trong độ tuổi lao động.",
+        "D. Trong 9 tháng năm 2025, tỷ lệ thất nghiệp thanh niên ở khu vực nông thôn có xu hướng tăng so với cùng kỳ năm trước."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 113] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5114,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Người thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03\nyếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ\nphần trăm giữa số người thất nghiệp so với lực lượng lao động.\nTỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so\nvới quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là\n2,73%; khu vực nông thôn là 1,86%.\nTỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần\ntrăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%.\nTỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần\ntrăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của\nthanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước\ncó khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo,\nchiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông\nthôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học\ntập, đào tạo là 13,3%; nam là 9,8%.\nTỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm\nphần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là\n11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm.\n(Cục Thống kê – Bộ Tài Chính, Thông cáo báo chí về tình hình lao động,\nviệc làm quý III và 9 tháng năm 2025)",
+      "question": "Khi phân tích về nhóm thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia\nhọc tập, đào tạo (NEET) trong quý III/2025, thông tin nào sau đây là chính xác?",
+      "options": [
+        "A. Tỷ lệ thanh niên thuộc nhóm NEET ở nam giới cao hơn so với nữ giới.",
+        "B. Cả nước có khoảng 1,6 triệu thanh niên đang trong tình trạng thất nghiệp.",
+        "C. Tỷ lệ thanh niên thuộc nhóm NEET ở khu vực nông thôn cao hơn khu vực thành thị.",
+        "D. Nhóm NEET chiếm tỷ trọng 8,38% trong tổng số thanh niên từ 15-24 tuổi trên cả nước. Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117 Quyết tâm của ASEAN trong việc củng cố vai trò trung tâm khu vực tiếp tục tạo thuận lợi cho Việt Nam thực hiện chủ trương cân bằng quan hệ với các nước lớn, giữ vững tự chủ chiến lược, mở rộng không gian chiến lược linh hoạt và nâng cao vị thế trong bảo đảm lợi ích quốc gia - dân tộc. Một ASEAN độc lập, cân bằng, ứng xử có nguyên tắc và đa dạng hóa đối tác trên cơ sở hiệu quả, thực chất, cùng có lợi là sự tương đồng quan trọng với định hướng đối ngoại của Việt Nam. Đồng thời, vai trò của ASEAN trong duy trì an ninh khu vực góp phần giảm nguy cơ xung đột, thúc đẩy đối thoại, hợp tác và tạo môi trường ổn định cho phát triển kinh tế - xã hội và bảo đảm an ninh quốc gia. Tuy nhiên, việc phát huy vai trò thành viên tích cực, có trách nhiệm trong ASEAN thời gian tới cũng đối mặt với không ít khó khăn, thách thức từ cả bên trong và bên ngoài. Sự chênh lệch về trình độ phát triển giữa các quốc gia thành viên tạo ra khác biệt trong khả năng tiếp cận và hưởng lợi từ các FTA cũng như cơ chế liên kết khu vực, ảnh hưởng đến hiệu quả hội nhập và nguồn lực thực hiện cam kết. Trong bối cảnh đó, Việt Nam đứng trước áp lực kép: vừa đồng hành cùng các nước còn khó khăn thúc đẩy hội nhập nội khối, vừa phải nâng cao năng lực cạnh tranh với các nền kinh tế phát triển hơn. Đây là yêu cầu cấp thiết nhằm bảo đảm tăng trưởng bền vững và khả năng thích ứng trong giai đoạn mới. (PGS, TS Đặng Cẩm Tú, Vai trò thành viên trách nhiệm, tích cực của Việt Nam trong ASEAN)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 114] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5115,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Quyết tâm của ASEAN trong việc củng cố vai trò trung tâm khu vực tiếp tục tạo thuận lợi cho\nViệt Nam thực hiện chủ trương cân bằng quan hệ với các nước lớn, giữ vững tự chủ chiến lược, mở\nrộng không gian chiến lược linh hoạt và nâng cao vị thế trong bảo đảm lợi ích quốc gia - dân tộc. Một\nASEAN độc lập, cân bằng, ứng xử có nguyên tắc và đa dạng hóa đối tác trên cơ sở hiệu quả, thực chất,\ncùng có lợi là sự tương đồng quan trọng với định hướng đối ngoại của Việt Nam. Đồng thời, vai trò của\nASEAN trong duy trì an ninh khu vực góp phần giảm nguy cơ xung đột, thúc đẩy đối thoại, hợp tác và\ntạo môi trường ổn định cho phát triển kinh tế - xã hội và bảo đảm an ninh quốc gia.\nTuy nhiên, việc phát huy vai trò thành viên tích cực, có trách nhiệm trong ASEAN thời gian tới\ncũng đối mặt với không ít khó khăn, thách thức từ cả bên trong và bên ngoài. Sự chênh lệch về trình độ\nphát triển giữa các quốc gia thành viên tạo ra khác biệt trong khả năng tiếp cận và hưởng lợi từ các FTA\ncũng như cơ chế liên kết khu vực, ảnh hưởng đến hiệu quả hội nhập và nguồn lực thực hiện cam kết.\nTrong bối cảnh đó, Việt Nam đứng trước áp lực kép: vừa đồng hành cùng các nước còn khó khăn thúc\nđẩy hội nhập nội khối, vừa phải nâng cao năng lực cạnh tranh với các nền kinh tế phát triển hơn. Đây\nlà yêu cầu cấp thiết nhằm bảo đảm tăng trưởng bền vững và khả năng thích ứng trong giai đoạn mới.\n(PGS, TS Đặng Cẩm Tú, Vai trò thành viên trách nhiệm, tích cực của Việt Nam trong ASEAN)",
+      "question": "Chiến lược Tầm nhìn Cộng đồng ASEAN đến năm 2045 không dựa trên trụ cột nào dưới đây?",
+      "options": [
+        "A. Chính trị – an ninh.",
+        "B. Kết nối khu vực và thế giới.",
+        "C. Văn hóa – xã hội.",
+        "D. Liên minh quân sự."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 115] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5116,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Quyết tâm của ASEAN trong việc củng cố vai trò trung tâm khu vực tiếp tục tạo thuận lợi cho\nViệt Nam thực hiện chủ trương cân bằng quan hệ với các nước lớn, giữ vững tự chủ chiến lược, mở\nrộng không gian chiến lược linh hoạt và nâng cao vị thế trong bảo đảm lợi ích quốc gia - dân tộc. Một\nASEAN độc lập, cân bằng, ứng xử có nguyên tắc và đa dạng hóa đối tác trên cơ sở hiệu quả, thực chất,\ncùng có lợi là sự tương đồng quan trọng với định hướng đối ngoại của Việt Nam. Đồng thời, vai trò của\nASEAN trong duy trì an ninh khu vực góp phần giảm nguy cơ xung đột, thúc đẩy đối thoại, hợp tác và\ntạo môi trường ổn định cho phát triển kinh tế - xã hội và bảo đảm an ninh quốc gia.\nTuy nhiên, việc phát huy vai trò thành viên tích cực, có trách nhiệm trong ASEAN thời gian tới\ncũng đối mặt với không ít khó khăn, thách thức từ cả bên trong và bên ngoài. Sự chênh lệch về trình độ\nphát triển giữa các quốc gia thành viên tạo ra khác biệt trong khả năng tiếp cận và hưởng lợi từ các FTA\ncũng như cơ chế liên kết khu vực, ảnh hưởng đến hiệu quả hội nhập và nguồn lực thực hiện cam kết.\nTrong bối cảnh đó, Việt Nam đứng trước áp lực kép: vừa đồng hành cùng các nước còn khó khăn thúc\nđẩy hội nhập nội khối, vừa phải nâng cao năng lực cạnh tranh với các nền kinh tế phát triển hơn. Đây\nlà yêu cầu cấp thiết nhằm bảo đảm tăng trưởng bền vững và khả năng thích ứng trong giai đoạn mới.\n(PGS, TS Đặng Cẩm Tú, Vai trò thành viên trách nhiệm, tích cực của Việt Nam trong ASEAN)",
+      "question": "Khó khăn, thách thức nào sau đây không được đề cập trong đoạn trích trên khi Việt Nam\nphát huy vai trò thành viên tích cực, có trách nhiệm trong ASEAN?",
+      "options": [
+        "A. Sự chênh lệch về trình độ phát triển giữa các quốc gia nội khối.",
+        "B. Sự cạnh tranh của các quốc gia có nền kinh tế phát triển hơn.",
+        "C. Nguồn lực đáp ứng cam kết của các hiệp định thương mại tự do.",
+        "D. Cạnh tranh gay gắt giữa các quốc gia thành viên trong việc thu hút vốn đầu tư nước ngoài."
+      ],
+      "correctAnswer": 3,
+      "explanation": "[VnNO1 2026/2027 - Câu 116] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5117,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "Quyết tâm của ASEAN trong việc củng cố vai trò trung tâm khu vực tiếp tục tạo thuận lợi cho\nViệt Nam thực hiện chủ trương cân bằng quan hệ với các nước lớn, giữ vững tự chủ chiến lược, mở\nrộng không gian chiến lược linh hoạt và nâng cao vị thế trong bảo đảm lợi ích quốc gia - dân tộc. Một\nASEAN độc lập, cân bằng, ứng xử có nguyên tắc và đa dạng hóa đối tác trên cơ sở hiệu quả, thực chất,\ncùng có lợi là sự tương đồng quan trọng với định hướng đối ngoại của Việt Nam. Đồng thời, vai trò của\nASEAN trong duy trì an ninh khu vực góp phần giảm nguy cơ xung đột, thúc đẩy đối thoại, hợp tác và\ntạo môi trường ổn định cho phát triển kinh tế - xã hội và bảo đảm an ninh quốc gia.\nTuy nhiên, việc phát huy vai trò thành viên tích cực, có trách nhiệm trong ASEAN thời gian tới\ncũng đối mặt với không ít khó khăn, thách thức từ cả bên trong và bên ngoài. Sự chênh lệch về trình độ\nphát triển giữa các quốc gia thành viên tạo ra khác biệt trong khả năng tiếp cận và hưởng lợi từ các FTA\ncũng như cơ chế liên kết khu vực, ảnh hưởng đến hiệu quả hội nhập và nguồn lực thực hiện cam kết.\nTrong bối cảnh đó, Việt Nam đứng trước áp lực kép: vừa đồng hành cùng các nước còn khó khăn thúc\nđẩy hội nhập nội khối, vừa phải nâng cao năng lực cạnh tranh với các nền kinh tế phát triển hơn. Đây\nlà yêu cầu cấp thiết nhằm bảo đảm tăng trưởng bền vững và khả năng thích ứng trong giai đoạn mới.\n(PGS, TS Đặng Cẩm Tú, Vai trò thành viên trách nhiệm, tích cực của Việt Nam trong ASEAN)",
+      "question": "Yếu tố “đồng hành cùng các nước còn khó khăn thúc đẩy hội nhập nội khối” được Việt\nNam thể hiện thông qua sự hỗ trợ tích về mặt kinh tế đối với quốc gia nào vừa chính thức trở thành\nthành viên thứ 11 của ASEAN vào tháng 10/2025?",
+      "options": [
+        "A. Myanmar.",
+        "B. Brunei.",
+        "C. Timor Leste.",
+        "D. Papua New Guinea. Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120 An và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 117] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Khó"
+    },
+    {
+      "id": 5118,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "An và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê.\nSau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả\nphù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá\nvà tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử\ndụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo\nvệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng\nhọ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
+      "question": "Việc sử dụng túi giấy và ống hút tre là biểu hiện của trách nhiệm xã hội nào?",
+      "options": [
+        "A. Trách nhiệm pháp lý.",
+        "B. Trách nhiệm đạo đức.",
+        "C. Trách nhiệm kinh tế.",
+        "D. Trách nhiệm nhân văn."
+      ],
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 118] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Trung bình"
+    },
+    {
+      "id": 5119,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "An và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê.\nSau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả\nphù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá\nvà tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử\ndụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo\nvệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng\nhọ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
+      "question": "Yếu tố nào quan trọng nhất để ngân hàng đồng ý cấp tín dụng cho dự án khởi nghiệp của\nAn và Khang?",
+      "options": [
+        "A. Ý tưởng kinh doanh độc đáo sẽ thu hút sự quan tâm của ngân hàng.",
+        "B. Quy mô cửa hàng và số lượng khách tiềm năng.",
+        "C. Kế hoạch kinh doanh chi tiết khả thi, đáp ứng các yêu cầu của ngân hàng.",
+        "D. Quan hệ đối tác uy tín giúp tăng độ tin cậy của dự án."
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 119] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "difficulty": "Dễ"
+    },
+    {
+      "id": 5120,
+      "partId": "part3",
+      "section": "science_reasoning",
+      "sectionName": "Suy luận khoa học tình huống (18 câu)",
+      "passage": "An và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê.\nSau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả\nphù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá\nvà tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử\ndụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo\nvệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng\nhọ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
+      "question": "Theo tình huống trên, bước nào trong quá trình lập kế hoạch kinh doanh đã được An và\nKhang thực hiện?",
+      "options": [
+        "A. Xác định mục tiêu và chiến lược kinh doanh.",
+        "B. Đánh giá cơ hội, rủi ro và biện pháp xử lý kinh doanh.",
+        "C. Phân tích điều kiện thực hiện ý tưởng kinh doanh.",
+        "D. Tóm tắt tổng kết kế hoạch kinh doanh. V-ACT 2027 \tVNno1 Thi thử lần 1 – Key"
+      ],
+      "correctAnswer": 2,
+      "explanation": "[VnNO1 2026/2027 - Câu 120] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "difficulty": "Khó"
     }
   ],
