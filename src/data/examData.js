@@ -5,17 +5,17 @@
 //   + Hợp phần 1: Tiếng Việt (30 câu - 300 điểm)
 //   + Hợp phần 2: Tiếng Anh (30 câu - 300 điểm)
 //   + Hợp phần 3: Toán học (30 câu - 300 điểm)
-//   + Hợp phần 4: Tư duy khoa học (30 câu - 300 điểm: 12 câu Logic & Phân tích số liệu + 18 câu Suy luận KH gồm Lý, Hóa, Sinh, Sử, Địa, GDKT&PL)
+//   + Hợp phần 4: Tư duy khoa học (30 câu - 300 điểm: 12 câu Logic & Phân tích số liệu + 18 câu Suy luận KH)
 
 export const EXAM_LIST = [
   {
-    id: 'vact-mock-2025',
-    title: 'Đề thi thử V-ACT 2025/2026 (Chuẩn GDPT 2018 - 1200 điểm)',
+    id: 'vact-official-2025',
+    title: 'Đề Thi Minh Họa V-ACT 2025 Chính Thức (ĐHQG TP.HCM)',
     year: '2025 - 2026',
-    type: 'Chuẩn GDPT 2018',
+    type: 'Đề Mẫu Chính Thức ĐHQG-HCM',
     durationMinutes: 150,
-    totalQuestions: 120, // Chuẩn 120 câu
-    description: 'Bám sát 100% cấu trúc chính thức ĐHQG-HCM: 3 Phần thi, 4 hợp phần (mỗi hợp phần 300 điểm, tổng 1.200 điểm theo mô hình IRT).',
+    totalQuestions: 120,
+    description: 'Trích xuất nguyên bản từ Đề thi Mẫu chính thức do Đại học Quốc gia TP.HCM công bố theo cấu trúc đổi mới GDPT 2018.',
     parts: [
       {
         partId: 'part1',
@@ -43,13 +43,13 @@ export const EXAM_LIST = [
     ]
   },
   {
-    id: 'vact-real-2024-dot1',
-    title: 'Đề thi ĐGNL ĐHQG-HCM 2024 (Đợt 1 - Tái hiện chuẩn hóa)',
-    year: '2024',
-    type: 'Đề thi chính thức',
+    id: 'vact-moon-25de',
+    title: 'Bộ Đề Luyện Thi V-ACT Chuyên Sâu (Tuyển Tập 25 Đề Moon & V-ACT Hub)',
+    year: '2025',
+    type: 'Luyện đề nâng cao 900+',
     durationMinutes: 150,
     totalQuestions: 60,
-    description: 'Đề thi đợt 1 năm 2024 với các dạng câu hỏi bẫy logic, phân tích dữ liệu và tích hợp đa môn.',
+    description: 'Bộ câu hỏi chọn lọc từ tuyển tập 25 đề luyện thi Moon.vn và ngân hàng câu hỏi phân hóa cao chinh phục mốc 900 - 1000+ điểm.',
     parts: [
       {
         partId: 'part1',
@@ -79,358 +79,361 @@ export const EXAM_LIST = [
 ];
 
 export const QUESTIONS_DATA = {
-  'vact-mock-2025': [
+  'vact-official-2025': [
     // =========================================================================
     // PHẦN 1: SỬ DỤNG NGÔN NGỮ (60 CÂU - 600 ĐIỂM)
-    // HỢP PHẦN 1A: TIẾNG VIỆT (30 CÂU - 300 ĐIỂM)
-    // Đọc hiểu, phân tích lập luận, cấu trúc văn bản và sử dụng ngôn ngữ
+    // 1.1. TIẾNG VIỆT (30 CÂU - 300 ĐIỂM) - TRÍCH NGUYÊN BẢN ĐỀ ĐHQG-HCM 2025
     // =========================================================================
     {
       id: 1,
       partId: 'part1',
       section: 'vietnamese',
-      sectionName: 'Tiếng Việt (Ngôn ngữ)',
-      question: 'Từ nào dưới đây viết đúng chính tả tiếng Việt?',
+      sectionName: 'Tiếng Việt (Đọc hiểu văn bản văn học)',
+      passage: '“Cành chọc trời là con đầu\nTên gọi ông Thu Tha\nCành bung xung là con thứ hai\nTên gọi bà Thu Thiên\nHai ông bà nên đôi nên lứa\nTruyền cho:\nCon gà có cựa\nDây dưa biết leo\nTre pheo có gai, có ngọn\nCon người biết nói.”\n(Sử thi dân tộc Mường, Đẻ đất đẻ nước)',
+      question: 'Nội dung của văn bản trên là gì?',
       options: [
-        'A. Sáp nhập',
-        'B. Sát nhập',
-        'C. Xát nhập',
-        'D. Xáp nhập'
+        'A. Giải thích nguồn gốc trời và đất.',
+        'B. Giải thích đặc điểm các loài.',
+        'C. Giải thích nguồn gốc bản làng.',
+        'D. Giải thích nguồn gốc phong tục.'
       ],
-      correctAnswer: 0,
-      explanation: 'Từ viết đúng chính tả là "Sáp nhập" (trong đó "sáp" có nghĩa là ghép vào; "nhập" là vào trong). Nhiều người hay nhầm thành "sát nhập" do phát âm.',
+      correctAnswer: 1,
+      explanation: 'Đoạn trích kể về việc hai ông bà Thu Tha và Thu Thiên truyền cho "con gà có cựa, dây dưa biết leo, tre pheo có gai, con người biết nói...", nội dung chính là giải thích đặc điểm sinh học và thuộc tính của các loài vật, cây cối và con người.',
       difficulty: 'Dễ'
     },
     {
       id: 2,
       partId: 'part1',
       section: 'vietnamese',
-      sectionName: 'Tiếng Việt (Ngôn ngữ)',
-      question: 'Trong các câu sau, câu nào mắc lỗi dùng từ do nhầm lẫn nghĩa của từ Hán Việt?',
+      sectionName: 'Tiếng Việt (Đọc hiểu văn bản văn học)',
+      passage: '“Đây nói chuyện Ngọc Hoàng, từ lúc mọi công việc kiến thiết vũ trụ đã xong mới bắt đầu nghĩ đến chuyện sáng tạo ra vạn vật. Không hiểu Ngọc Hoàng làm như thế nào nhưng chỉ nghe nói rằng ông ta trước hết dùng những chất cặn còn sót lại trong trời đất, nặn ra đủ mọi giống vật từ những con to lớn như voi, tê ngưu, cọp đến những vật bé tí như sâu, kiến, bọ, trùng, v.v… Sau đó, Ngọc Hoàng mới gạn lấy chất trong, tinh túy rồi nặn ra một giống vật khác công phu hơn. Đó là loài người. Và cũng vì thế mà người ta khôn hơn vạn vật.”\n(Nguyễn Đổng Chi, Mười hai bà mụ)',
+      question: 'Chi tiết “Ngọc Hoàng mới gạn lấy chất trong, tinh túy rồi nặn ra một giống vật khác công phu hơn” có nghĩa là gì?',
       options: [
-        'A. Thất bại là mẹ của thành công.',
-        'B. Tiếng Anh là một điểm yếu của anh ấy cần phải cải thiện.',
-        'C. Anh ấy có rất nhiều yếu điểm khiến mọi người nể phục.',
-        'D. Cần nhìn nhận thẳng thắn vào các khuyết điểm còn tồn đọng.'
+        'A. Loài người là giống loài được sáng tạo một cách công phu từ chất trong, tinh túy.',
+        'B. Loài người là giống loài được tạo ra sau cùng và đồng chất với mọi loài, mọi vật.',
+        'C. Loài người là một hợp chất trong lành và tinh túy giống như mọi loài, mọi vật.',
+        'D. Loài người là sự sáng tạo thông thái của Ngọc Hoàng từ những chất cặn còn sót lại.'
       ],
-      correctAnswer: 2,
-      explanation: 'Câu C dùng sai từ "yếu điểm". "Yếu điểm" nghĩa là "điểm quan trọng, mấu chốt" (yếu nhân, yếu huyệt), không phải là "điểm yếu/nhược điểm".',
+      correctAnswer: 0,
+      explanation: 'Theo nguyên văn văn bản: Ngọc Hoàng gạn lấy chất trong tinh túy để nặn ra loài người công phu hơn, lý giải vì sao loài người khôn hơn vạn vật. Đáp án chính xác là A.',
       difficulty: 'Trung bình'
     },
     {
       id: 3,
       partId: 'part1',
       section: 'vietnamese',
-      sectionName: 'Tiếng Việt (Ngôn ngữ)',
-      question: 'Xác định biện pháp tu từ nổi bật trong hai câu thơ sau:\n"Bàn tay mẹ chắn bão giông\nCho con giấc ngủ ấm nồng sớm mai."',
+      sectionName: 'Tiếng Việt (Thể loại & Thể thơ)',
+      passage: '“Tuổi đà ngoại tám mươi già,\nThoắt thoắt xem bằng bóng ngựa qua.\nMai bạc lạnh quen nhiều tháng tuyết,\nCúc vàng thơm đổi mấy phen hoa.\nSang có phận, là ơn chúa,\nĐược làm người, bởi đức cha.\nAm quán ngày nhàn, rồi mọi việc,\nDầu ai tự tại, mặc dầu ta.”\n(Nguyễn Bỉnh Khiêm, Bạch Vân quốc ngữ thi)',
+      question: 'Xác định thể thơ của văn bản trên.',
       options: [
-        'A. So sánh và điệp từ',
-        'B. Hoán dụ (lấy bộ phận để chỉ toàn thể)',
-        'C. Nhân hóa',
-        'D. Chơi chữ'
+        'A. Thất ngôn xen lục ngôn.',
+        'B. Thất ngôn xen ngũ ngôn.',
+        'C. Thất ngôn tứ tuyệt.',
+        'D. Lục ngôn bát cú.'
       ],
-      correctAnswer: 1,
-      explanation: '"Bàn tay mẹ" là hình ảnh hoán dụ (lấy bộ phận để chỉ toàn thể người mẹ, tượng trưng cho tình thương yêu chở che của mẹ).',
-      difficulty: 'Dễ'
+      correctAnswer: 0,
+      explanation: 'Đếm số chữ từng câu: Câu 1 có 7 chữ, câu 2 có 7 chữ, câu 3 có 7 chữ, câu 4 có 7 chữ, câu 5 có 6 chữ ("Sang có phận, là ơn chúa"), câu 6 có 6 chữ ("Được làm người, bởi đức cha"), câu 7 có 7 chữ, câu 8 có 7 chữ. Đây là thể thơ thất ngôn xen lục ngôn kinh điển của văn học trung đại Việt Nam.',
+      difficulty: 'Trung bình'
     },
     {
       id: 4,
       partId: 'part1',
       section: 'vietnamese',
-      sectionName: 'Tiếng Việt (Ngôn ngữ)',
-      question: 'Câu nào sau đây mắc lỗi sai cấu trúc ngữ pháp (câu thiếu chủ ngữ)?',
+      sectionName: 'Tiếng Việt (Nghệ thuật văn học)',
+      passage: '“… Bà phu nhân nói:\n[…] Những cuộc gặp gỡ hiếm lạ, đời nào mà không có: như đền Bạc hậu, như quán Cao đường, như thần Lạc phố lướt sóng, như nàng Giang Phi cởi ngọc, như Lộng Ngọc lấy Tiêu Sử, như Thái Loan gặp Văn Tiêu, như Lan Hương gặp Trương Thạc… Bao nhiêu những chuyện cũ còn sờ sờ đó, nếu thế này mà bị chê cười thì đã có những người trước ấy họ chịu đỡ tiếng cười cho mình.\nMọi người cùng phá lên cười rất vui vẻ. Rồi đó mặt trời gác núi, các khách khứa đều giải tán cả.”\n(Nguyễn Dữ, Chuyện Từ Thức lấy vợ tiên)',
+      question: 'Dòng nào sau đây không thể hiện đặc trưng hình thức nghệ thuật của văn bản trên?',
       options: [
-        'A. Qua tác phẩm "Tắt đèn" của Ngô Tất Tố đã cho ta thấy nỗi khổ cực của người nông dân.',
-        'B. Tác phẩm "Tắt đèn" của Ngô Tất Tố đã cho ta thấy nỗi khổ cực của người nông dân.',
-        'C. Qua tác phẩm "Tắt đèn", Ngô Tất Tố đã cho ta thấy nỗi khổ cực của người nông dân.',
-        'D. Đọc "Tắt đèn" của Ngô Tất Tố, chúng ta càng thấu hiểu người nông dân.'
+        'A. Sử dụng biện pháp tu từ nhân hóa.',
+        'B. Dùng nhiều điển tích, điển cố.',
+        'C. Tổ chức theo cấu trúc biền văn.',
+        'D. Sử dụng biện pháp tu từ liệt kê.'
       ],
       correctAnswer: 0,
-      explanation: 'Câu A dùng giới từ "Qua" ở đầu biến toàn bộ vế đầu thành trạng ngữ, theo sau là vị ngữ "đã cho ta thấy...", khiến câu không có chủ ngữ.',
+      explanation: 'Đoạn văn dùng rất nhiều điển tích điển cố ("nàng Giang Phi", "Lộng Ngọc", "Lạc phố"...), dùng biện pháp liệt kê ("như... như..."), câu văn biền ngẫu sóng đôi, nhưng hoàn toàn KHÔNG sử dụng biện pháp nhân hóa.',
       difficulty: 'Trung bình'
     },
     {
       id: 5,
       partId: 'part1',
       section: 'vietnamese',
-      sectionName: 'Tiếng Việt (Ngôn ngữ)',
-      question: 'Phong cách chức năng ngôn ngữ của một bản tin dự báo thời tiết trên đài truyền hình là gì?',
+      sectionName: 'Tiếng Việt (Tư tưởng & Cảm xúc tác phẩm)',
+      passage: '“Ôi!\nTrời Bến Nghé mây mưa sùi sụt, thương đấng anh hùng gặp thuở gian truân, Đất Gò Công cây cỏ ủ ê, cảm niềm thần tử mắc nơi họa hại.\nXưa còn làm tướng, dốc rạng dồi hai chữ bình Tây, Nay thác về thần, nên vưng hộ một câu phục thái.\nHỡi ôi thương thay!”\n(Nguyễn Đình Chiểu, Văn tế Trương Định)',
+      question: 'Dòng nào sau đây KHÔNG thể hiện cảm xúc và tư tưởng của văn bản?',
       options: [
-        'A. Phong cách ngôn ngữ sinh hoạt',
-        'B. Phong cách ngôn ngữ nghệ thuật',
-        'C. Phong cách ngôn ngữ báo chí',
-        'D. Phong cách ngôn ngữ chính luận'
+        'A. Tiếc thương cho sự hy sinh vì nước vì dân của đấng anh hùng.',
+        'B. Cảm thương trước tai họa mà đấng anh hùng mắc phải.',
+        'C. Tin vị anh hùng sống làm tướng đánh giặc, thác theo thần giúp đỡ nhân dân.',
+        'D. Xót xa cho trời Bến Nghé, đất Gò Công hoang tàn trong cơn binh biến.'
       ],
-      correctAnswer: 2,
-      explanation: 'Bản tin dự báo thời tiết thuộc phương tiện thông tin đại chúng, mang tính thời sự, chính xác và số liệu định lượng, thuộc phong cách ngôn ngữ báo chí.',
-      difficulty: 'Dễ'
+      correctAnswer: 3,
+      explanation: 'Thiên nhiên "Trời Bến Nghé mây mưa sùi sụt", "Đất Gò Công cây cỏ ủ ê" trong văn tế là nghệ thuật tả cảnh ngụ tình, đồng cảm với nỗi đau mất mát của con người trước sự hy sinh của Trương Định, chứ không phải nói về sự tàn phá hoang tàn của chiến sự.',
+      difficulty: 'Khá'
     },
     {
       id: 6,
       partId: 'part1',
       section: 'vietnamese',
-      sectionName: 'Tiếng Việt (Đọc hiểu & Phân tích lập luận)',
-      passage: 'Đọc đoạn trích sau và trả lời câu hỏi 6 - 8:\n"Trí tuệ nhân tạo (AI) đang tái định hình cách thức con người học tập và làm việc. Tuy nhiên, AI không thể thay thế năng lực tư duy phản biện, sự đồng cảm và khả năng sáng tạo độc bản của con người. Một xã hội tương lai không cần những cỗ máy sinh học làm việc rập khuôn, mà cần những cá nhân biết làm chủ công nghệ, sở hữu tư duy đạo đức và tinh thần thích ứng linh hoạt."',
-      question: 'Luận điểm chính của đoạn trích trên là gì?',
+      sectionName: 'Tiếng Việt (Biện pháp tu từ)',
+      passage: '“Đời bộ đội của tôi đã bước những bước đi đầu tiên trong các cánh rừng cằn cỗi vùng Bãi Nai. Ba tháng trời dãi gió dầm mưa trên thao trường đã giúp chúng tôi gột sạch mọi tàn tích của nếp sống thị thành và trụ vững bản thân mình vào đội ngũ. Chúng tôi tập đeo gạch hành quân, tập lăn lê trườn toài, tập nín thở bóp cò, tập bám trụ chiến hào, tập vọt tiến tấn công, tập đâm lê, tập quăng lựu đạn, tập nhồi bộc phá, tập tuân lệnh chỉ huy và tập bền bỉ chịu khổ.”\n(Bảo Ninh, Đêm trừ tịch)',
+      question: 'Biện pháp tu từ nổi bật được tác giả sử dụng ở câu cuối là:',
       options: [
-        'A. Trí tuệ nhân tạo sẽ sớm thay thế hoàn toàn nguồn lao động con người.',
-        'B. Khẳng định vai trò độc tôn không thể thay thế của tư duy nhân bản, đạo đức và sự sáng tạo trước làn sóng AI.',
-        'C. Phê phán những ai chậm thích ứng với các công cụ tự động hóa.',
-        'D. Khuyên mọi người nên dừng phát triển công nghệ trí tuệ nhân tạo.'
+        'A. Điệp từ “tập” kết hợp liệt kê hành động',
+        'B. So sánh ví von',
+        'C. Ẩn dụ chuyển đổi cảm giác',
+        'D. Nói giảm nói tránh'
       ],
-      correctAnswer: 1,
-      explanation: 'Đoạn trích nhấn mạnh: AI phát triển mạnh mẽ nhưng không thể thay thế phẩm chất đạo đức, tư duy phản biện và sự sáng tạo của con người.',
-      difficulty: 'Trung bình'
+      correctAnswer: 0,
+      explanation: 'Tác giả lặp lại liên tiếp từ "tập" ("tập đeo gạch", "tập lăn lê", "tập nín thở", "tập đâm lê"...) đi kèm phép liệt kê dồn dập nhằm nhấn mạnh sự tôi luyện gian khổ, kỷ luật thép của người lính.',
+      difficulty: 'Dễ'
     },
     {
       id: 7,
       partId: 'part1',
       section: 'vietnamese',
-      sectionName: 'Tiếng Việt (Đọc hiểu & Phân tích lập luận)',
-      passage: 'Dựa vào đoạn trích câu 6: "Một xã hội tương lai không cần những cỗ máy sinh học làm việc rập khuôn..."',
-      question: 'Cụm từ "những cỗ máy sinh học" trong ngữ cảnh này được dùng để chỉ đối tượng nào?',
+      sectionName: 'Tiếng Việt (Sử dụng ngôn ngữ & Logic ngữ nghĩa)',
+      question: '“Chúng tôi đã thảo luận về dự án này hai lần: một lần vào năm ngoái, một lần ngay tại văn phòng đại diện của công ti ở phía Nam.”\nNhận định nào về câu trên là đúng?',
       options: [
-        'A. Các robot hình người chế tạo từ vật liệu sinh học mới.',
-        'B. Những con người làm việc một cách máy móc, thiếu tư duy sáng tạo và cảm xúc.',
-        'C. Hệ sinh thái vi sinh vật nhân tạo trong phòng thí nghiệm.',
-        'D. Máy tính lượng tử mô phỏng não bộ người.'
+        'A. Câu sai logic ngữ nghĩa (đồng cấp phân loại).',
+        'B. Câu mắc lỗi dùng từ sai ngữ pháp.',
+        'C. Câu sai cấu tạo ngữ pháp chủ - vị.',
+        'D. Câu mắc lỗi chính tả.'
       ],
-      correctAnswer: 1,
-      explanation: 'Tác giả dùng ẩn dụ "cỗ máy sinh học" để chỉ những con người làm việc rập khuôn, thiếu tư duy phản biện và khả năng sáng tạo.',
-      difficulty: 'Trung bình'
+      correctAnswer: 0,
+      explanation: 'Câu mắc lỗi sai logic phân loại: vế thứ nhất chia theo tiêu chí THỜI GIAN ("năm ngoái"), trong khi vế thứ hai lại chia theo tiêu chí KHÔNG GIAN ("tại văn phòng đại diện"). Hai tiêu chí không đồng cấp khiến phép liệt kê "hai lần" bị lỗi logic.',
+      difficulty: 'Khá'
     },
     {
       id: 8,
       partId: 'part1',
       section: 'vietnamese',
-      sectionName: 'Tiếng Việt (Đọc hiểu & Phân tích lập luận)',
-      passage: 'Dựa vào đoạn trích câu 6.',
-      question: 'Thao tác lập luận chính được tác giả sử dụng trong đoạn văn là:',
+      sectionName: 'Tiếng Việt (Ngữ pháp câu)',
+      question: 'Chỉ ra câu SAI ngữ pháp trong các câu sau:',
       options: [
-        'A. Phân tích và bình luận',
-        'B. Chứng minh thực nghiệm',
-        'C. Bác bỏ hoàn toàn',
-        'D. Kể chuyện tự sự'
+        'A. Do tình cảm chân thành, gần gũi của các anh chị khiến Khang gắn bó với nhóm hơn.',
+        'B. Nhờ có những tình cảm chân thành, gần gũi của các anh chị, Khang gắn bó với nhóm hơn.',
+        'C. Những tình cảm chân thành, gần gũi của các anh chị làm cho Khang gắn bó với nhóm hơn.',
+        'D. Đáp lại những tình cảm chân thành, gần gũi của các anh chị, Khang gắn bó với nhóm hơn.'
       ],
       correctAnswer: 0,
-      explanation: 'Tác giả nêu hiện tượng (AI phát triển), phân tích khía cạnh hạn chế của AI và bình luận về yêu cầu đối với con người trong kỷ nguyên mới.',
+      explanation: 'Câu A kết hợp "Do..." biến vế đầu thành trạng ngữ, tiếp theo là "khiến Khang gắn bó..." đóng vai trò vị ngữ, dẫn đến câu không có chủ ngữ. Các câu B, C, D đều có cấu trúc ngữ pháp chuẩn xác.',
       difficulty: 'Trung bình'
     },
     {
       id: 9,
       partId: 'part1',
       section: 'vietnamese',
-      sectionName: 'Tiếng Việt (Ngôn ngữ)',
-      question: 'Thành ngữ nào sau đây đồng nghĩa với "Đứng núi này trông núi nọ"?',
+      sectionName: 'Tiếng Việt (Đọc hiểu văn bản thông tin khoa học)',
+      passage: 'Dựa vào thông tin dưới đây để trả lời câu 9 - 10:\nBiến đổi khí hậu đang được dự báo sẽ làm gia tăng hạn hán, qua đó làm trầm trọng thêm tình trạng xâm nhập mặn ở Đồng bằng sông Cửu Long (ĐBSCL). M. A. van Aalst và các cộng sự ở Đại học Vrije Amsterdam đã xem xét mức độ tổn thương ở các quy mô khác nhau. Trong cả thập kỷ qua, vùng này đã trải qua những thay đổi môi trường nhanh và chậm như nước biển dâng, lũ lụt, xâm nhập mặn trong khi nguồn sống của 75% cư dân phụ thuộc vào nông nghiệp...',
+      question: 'Bao nhiêu % cư dân ĐBSCL có nguồn sống phụ thuộc vào nông nghiệp theo bài đọc?',
       options: [
-        'A. Đẽo cày giữa đường',
-        'B. Bắt cá hai tay',
-        'C. Đủng đỉnh như trâu cày',
-        'D. Khôn nhà dại chợ'
+        'A. 21%',
+        'B. 65-70%',
+        'C. 50%',
+        'D. 75%'
       ],
-      correctAnswer: 1,
-      explanation: '"Đứng núi này trông núi nọ" chỉ sự không yên tâm với hoàn cảnh hiện tại, luôn ham muốn cái khác; tương đồng với tâm lý tham lam "Bắt cá hai tay".',
-      difficulty: 'Khá'
+      correctAnswer: 3,
+      explanation: 'Dựa trực tiếp vào dữ liệu trong văn bản: "...trong khi nguồn sống của 75% cư dân phụ thuộc vào nông nghiệp". Đáp án đúng là D.',
+      difficulty: 'Dễ'
     },
     {
       id: 10,
       partId: 'part1',
       section: 'vietnamese',
-      sectionName: 'Tiếng Việt (Ngôn ngữ)',
-      question: 'Từ "tinh tế" trong cụm "quan sát tinh tế" giữ vai trò ngữ pháp là gì?',
+      sectionName: 'Tiếng Việt (Đọc hiểu văn bản)',
+      passage: '“Càng chung sống lâu năm với nghề viết, tôi càng tin rằng văn chương nói riêng và nghệ thuật nói chung không nhằm và cũng không có khả năng phản ánh cuộc đời y như nguyên trạng (1). Ngay cả nhiếp ảnh là nghệ thuật gần với sự trung thực nhất cũng không thể phản ánh được mặt sau của quả táo (2)…” (Nguyễn Nhật Ánh, Cảm ơn người lớn)',
+      question: 'Cặp từ liên kết “Càng … càng…” ở câu (1) thể hiện mối quan hệ gì giữa các vế câu?',
       options: [
-        'A. Định ngữ bổ nghĩa cho danh từ',
-        'B. Bổ ngữ chỉ cách thức cho động từ quan sát',
-        'C. Vị ngữ chính của câu',
-        'D. Khởi ngữ'
+        'A. Quan hệ nhân quả',
+        'B. Quan hệ chính phụ',
+        'C. Quan hệ hô ứng',
+        'D. Quan hệ đẳng lập'
       ],
-      correctAnswer: 1,
-      explanation: '"Quan sát" là động từ, từ "tinh tế" đứng sau bổ sung ý nghĩa cách thức/tính chất cho động từ đó, nên đóng vai trò bổ ngữ.',
-      difficulty: 'Khá'
+      correctAnswer: 2,
+      explanation: 'Cặp phụ từ "Càng... càng..." là cặp từ hô ứng diễn tả sự tăng tiến, biến đổi tương ứng giữa hai vế câu.',
+      difficulty: 'Trung bình'
     },
 
     // =========================================================================
-    // HỢP PHẦN 1B: TIẾNG ANH (30 CÂU - 300 ĐIỂM)
-    // Đọc hiểu, từ vựng, ngữ pháp, suy luận ngữ cảnh
+    // 1.2. TIẾNG ANH (30 CÂU - 300 ĐIỂM) - TRÍCH NGUYÊN BẢN ĐỀ ĐHQG-HCM 2025
     // =========================================================================
     {
       id: 11,
       partId: 'part1',
       section: 'english',
-      sectionName: 'Tiếng Anh (Từ vựng & Ngữ cảnh)',
-      question: 'Choose the word that best completes the sentence:\n"Despite the economic downturn, the company managed to ________ a profit this fiscal year."',
+      sectionName: 'Tiếng Anh (Phrasal Verbs)',
+      question: 'Choose a suitable word to fill in the blank:\n"Before you end your presentation, you need to run _____ all of the key points again."',
       options: [
-        'A. make',
-        'B. do',
-        'C. take',
-        'D. create'
+        'A. over',
+        'B. into',
+        'C. about',
+        'D. with'
       ],
       correctAnswer: 0,
-      explanation: 'Collocation chuẩn trong tiếng Anh: "make a profit" (sinh lời, tạo ra lợi nhuận). Không dùng "do a profit".',
+      explanation: 'Phrasal verb chuẩn: "run over something" nghĩa là lướt lại, tóm tắt nhanh lại các ý chính trước khi kết thúc bài thuyết trình.',
       difficulty: 'Dễ'
     },
     {
       id: 12,
       partId: 'part1',
       section: 'english',
-      sectionName: 'Tiếng Anh (Ngữ pháp)',
-      question: 'Identify the underlined part that needs correction:\n"Neither the teacher nor the students was (A) aware of (B) the changes (C) in the examination schedule (D)."',
+      sectionName: 'Tiếng Anh (Thì quá khứ hoàn thành)',
+      question: 'Choose a suitable word or phrase to fill in the blank:\n"I hoped to see Andrew at the party, but he _____ before I arrived."',
       options: [
-        'A. was',
-        'B. aware of',
-        'C. changes',
-        'D. schedule'
+        'A. left',
+        'B. would leave',
+        'C. had left',
+        'D. had been leaving'
       ],
-      correctAnswer: 0,
-      explanation: 'Quy tắc hòa hợp chủ vị với "Neither... nor...": Động từ chia theo danh từ đứng gần nhất. "the students" là số nhiều, nên động từ phải là "were" chứ không phải "was".',
-      difficulty: 'Trung bình'
+      correctAnswer: 2,
+      explanation: 'Hành động Andrew rời đi xảy ra trước hành động "I arrived" trong quá khứ, nên động từ phải chia ở thì Quá khứ hoàn thành ("had left").',
+      difficulty: 'Dễ'
     },
     {
       id: 13,
       partId: 'part1',
       section: 'english',
-      sectionName: 'Tiếng Anh (Từ vựng)',
-      question: 'Choose the word OPPOSITE in meaning to the underlined word:\n"The university provides a comprehensive curriculum that covers both theory and practical applications."',
+      sectionName: 'Tiếng Anh (So sánh trạng từ)',
+      question: 'Grace writes the most inspiring song lyrics, but she can’t rap _____ her competitors.',
       options: [
-        'A. complete',
-        'B. thorough',
-        'C. restricted',
-        'D. extensive'
+        'A. as good as',
+        'B. as well as',
+        'C. better than',
+        'D. so good as'
       ],
-      correctAnswer: 2,
-      explanation: '"Comprehensive" nghĩa là toàn diện, bao quát. Từ trái nghĩa là "restricted" (bị giới hạn, hạn chế).',
-      difficulty: 'Trung bình'
+      correctAnswer: 1,
+      explanation: '"Rap" là động từ thường nên cần trạng từ bổ nghĩa ("well"), cấu trúc so sánh bằng: "as well as". ("good" là tính từ nên A và D sai).',
+      difficulty: 'Dễ'
     },
     {
       id: 14,
       partId: 'part1',
       section: 'english',
-      sectionName: 'Tiếng Anh (Cấu trúc đảo ngữ)',
-      question: 'Rewrite the following conditional sentence using Inversion:\n"If he had taken the doctor\'s advice, he would have recovered by now."',
+      sectionName: 'Tiếng Anh (Collocation)',
+      question: 'Laura wants to become a novelist, so she needs to learn skills of _____.',
       options: [
-        'A. Had he taken the doctor\'s advice, he would have recovered by now.',
-        'B. Should he take the doctor\'s advice, he would recover.',
-        'C. Were he to take the doctor\'s advice, he would recover.',
-        'D. Did he take the doctor\'s advice, he would have recovered.'
+        'A. writing to create',
+        'B. writing and creating',
+        'C. written creativity',
+        'D. creative writing'
       ],
-      correctAnswer: 0,
-      explanation: 'Đảo ngữ câu điều kiện loại 3: "Had + S + V3/ed, S + would have + V3/ed". Do đó đáp án đúng là A.',
-      difficulty: 'Khá'
+      correctAnswer: 3,
+      explanation: 'Thuật ngữ chuyên ngành ngôn ngữ học: "creative writing" (sáng tác văn học, viết văn sáng tạo).',
+      difficulty: 'Dễ'
     },
     {
       id: 15,
       partId: 'part1',
       section: 'english',
-      sectionName: 'Tiếng Anh (Đọc hiểu văn bản khoa học)',
-      passage: 'Read the text and answer question 15:\n"Renewable energy sources such as solar and wind power are experiencing exponential growth globally. Advances in battery storage technologies have resolved previous concerns regarding grid instability during periods of low sunlight or minimal wind."',
-      question: 'According to the passage, what has solved the issue of power grid instability?',
+      sectionName: 'Tiếng Anh (Lượng từ)',
+      question: 'A mukbang is an online show in which a host consumes _____ of food while interacting with the audience.',
       options: [
-        'A. Increased reliance on fossil fuels',
-        'B. Technological improvements in battery storage',
-        'C. Building more transmission lines',
-        'D. Limiting industrial power consumption'
+        'A. a large number',
+        'B. huge amounts',
+        'C. too much',
+        'D. many'
       ],
       correctAnswer: 1,
-      explanation: 'Dựa vào câu: "Advances in battery storage technologies have resolved previous concerns regarding grid instability...", đáp án là B (Cải tiến công nghệ lưu trữ pin).',
-      difficulty: 'Dễ'
+      explanation: '"Food" là danh từ không đếm được, lượng từ phù hợp đi kèm với "of food" là "huge amounts of food" (khối lượng thức ăn khổng lồ).',
+      difficulty: 'Trung bình'
     },
 
     // =========================================================================
-    // PHẦN 2: TOÁN HỌC (30 CÂU - 300 ĐIỂM)
-    // Tư duy toán học, lập luận logic, xử lý số liệu, đọc biểu đồ và vận dụng thực tế
+    // PHẦN 2: TOÁN HỌC (30 CÂU - 300 ĐIỂM) - TRÍCH NGUYÊN BẢN ĐỀ ĐHQG-HCM 2025
     // =========================================================================
     {
       id: 16,
       partId: 'part2',
       section: 'math',
-      sectionName: 'Toán học (Giải tích & Cực trị)',
-      question: 'Cho hàm số f(x) có đạo hàm f\'(x) = x(x - 1)^2(x + 2)^3. Số điểm cực trị của hàm số f(x) là bao nhiêu?',
+      sectionName: 'Toán học (Lý thuyết tập hợp & Biểu đồ Ven)',
+      question: 'Một lớp học có tất cả học sinh đều học tiếng Anh hoặc tiếng Pháp. Trong đó, có 25 học sinh học tiếng Anh, 20 học sinh học tiếng Pháp và 8 học sinh học cả tiếng Anh và tiếng Pháp. Tổng số học sinh của lớp học đó là:',
       options: [
-        'A. 1',
-        'B. 2',
-        'C. 3',
-        'D. 4'
+        'A. 37',
+        'B. 45',
+        'C. 53',
+        'D. 41'
       ],
-      correctAnswer: 1,
-      explanation: 'Điểm cực trị là điểm mà f\'(x) đổi dấu. x = 1 là nghiệm bội chẵn (bậc 2) nên f\'(x) không đổi dấu. Nghiệm x = 0 (bội 1) và x = -2 (bội 3 lẻ) làm f\'(x) đổi dấu. Vậy có đúng 2 điểm cực trị.',
-      difficulty: 'Trung bình'
+      correctAnswer: 0,
+      explanation: 'Áp dụng công thức số phần tử của hợp hai tập hợp: |A ∪ B| = |A| + |B| - |A ∩ B| = 25 + 20 - 8 = 37 học sinh.',
+      difficulty: 'Dễ'
     },
     {
       id: 17,
       partId: 'part2',
       section: 'math',
-      sectionName: 'Toán học (Toán ứng dụng thực tế)',
-      question: 'Một người gửi tiết kiệm 100 triệu đồng vào ngân hàng với lãi suất 6%/năm theo hình thức lãi kép hàng năm. Hỏi sau ít nhất bao nhiêu năm người đó nhận được số tiền cả gốc lẫn lãi vượt quá 150 triệu đồng?',
+      sectionName: 'Toán học (Quy hoạch tuyến tính & Tối ưu thực tế)',
+      passage: 'Một bác nông dân cần trồng lúa và khoai trên diện tích đất gồm 6 ha, với lượng phân bón dự trữ là 100 kg và sử dụng tối đa 240 ngày công. Để trồng 1 ha lúa cần sử dụng 20 kg phân bón, 30 ngày công với lợi nhuận là 50 triệu đồng; để trồng 1 ha khoai cần sử dụng 10 kg phân bón, 60 ngày công với lợi nhuận là 60 triệu đồng.',
+      question: 'Nếu bác nông dân trồng x (ha) lúa và y (ha) khoai thì số ki-lô-gam phân bón cần sử dụng là biểu thức nào?',
       options: [
-        'A. 6 năm',
-        'B. 7 năm',
-        'C. 8 năm',
-        'D. 9 năm'
+        'A. 20x + 10y',
+        'B. 10x + 20y',
+        'C. 20x + 30y',
+        'D. 30x + 60y'
       ],
-      correctAnswer: 1,
-      explanation: 'Công thức lãi kép: A = P(1 + r)^n. 100 * (1 + 0.06)^n > 150 <=> 1.06^n > 1.5 <=> n > log_{1.06}(1.5) ≈ 6.958 năm. Vì n nguyên nên cần ít nhất 7 năm.',
-      difficulty: 'Trung bình'
+      correctAnswer: 0,
+      explanation: 'Mỗi ha lúa cần 20 kg phân bón => x ha lúa cần 20x kg. Mỗi ha khoai cần 10 kg phân bón => y ha khoai cần 10y kg. Tổng lượng phân bón là 20x + 10y.',
+      difficulty: 'Dễ'
     },
     {
       id: 18,
       partId: 'part2',
       section: 'math',
-      sectionName: 'Toán học (Hình học không gian Oxyz)',
-      question: 'Trong không gian Oxyz, khoảng cách từ điểm M(1; 2; -3) đến mặt phẳng (P): 2x - 2y + z + 8 = 0 bằng:',
+      sectionName: 'Toán học (Tối ưu hóa lợi nhuận)',
+      passage: 'Dựa vào bài toán nông dân câu 17:\nĐiều kiện diện tích: x + y <= 6.\nĐiều kiện phân bón: 20x + 10y <= 100 <=> 2x + y <= 10.\nĐiều kiện ngày công: 30x + 60y <= 240 <=> x + 2y <= 8.\nLợi nhuận F(x, y) = 50x + 60y (triệu đồng).',
+      question: 'Để đạt được lợi nhuận cao nhất, giá trị của x (diện tích trồng lúa) bằng bao nhiêu?',
       options: [
-        'A. 1',
-        'B. 2',
-        'C. 3',
-        'D. 4'
+        'A. 2',
+        'B. 3',
+        'C. 4',
+        'D. 5'
       ],
-      correctAnswer: 0,
-      explanation: 'd(M, (P)) = |2(1) - 2(2) + 1(-3) + 8| / sqrt(2^2 + (-2)^2 + 1^2) = |3| / 3 = 1.',
-      difficulty: 'Dễ'
+      correctAnswer: 2,
+      explanation: 'Giải hệ giao điểm của hai đường giới hạn phân bón và ngày công: 2x + y = 10 và x + 2y = 8. Nhân 2 phương trình thứ hai: 2x + 4y = 16. Trừ cho phương trình đầu: 3y = 6 => y = 2 ha khoai. Thay vào tính được x = 4 ha lúa. Kiểm tra điều kiện tổng diện tích: 4 + 2 = 6 ha (thỏa mãn <= 6). Lợi nhuận đạt F(4, 2) = 50*4 + 60*2 = 320 triệu đồng (cực đại). Vậy x = 4.',
+      difficulty: 'Khó'
     },
     {
       id: 19,
       partId: 'part2',
       section: 'math',
-      sectionName: 'Toán học (Xác suất & Thống kê)',
-      question: 'Một hộp chứa 5 viên bi đỏ và 4 viên bi xanh. Lấy ngẫu nhiên đồng thời 3 viên bi. Xác suất để trong 3 viên bi lấy ra có ít nhất 1 viên bi màu đỏ là:',
+      sectionName: 'Toán học (Tổ hợp & Xác suất thống kê)',
+      passage: 'Để kiểm tra chất lượng nước uống đóng chai của ba phân xưởng X, Y, Z, đoàn kiểm tra lấy ngẫu nhiên 7 chai nước của phân xưởng X, 4 chai nước của phân xưởng Y và 5 chai nước của phân xưởng Z (tổng cộng 16 chai). Sau đó lấy ngẫu nhiên 4 chai nước từ 16 chai ở trên để kiểm tra hàm lượng fluor theo quy định.',
+      question: 'Số cách chọn ngẫu nhiên 4 chai nước từ 16 chai của ba phân xưởng X, Y, Z là:',
       options: [
-        'A. 1/21',
-        'B. 20/21',
-        'C. 5/14',
-        'D. 17/42'
+        'A. 1960',
+        'B. 1820',
+        'C. 1920',
+        'D. 1880'
       ],
       correctAnswer: 1,
-      explanation: 'Tổng số bi là 9. Không gian mẫu C(9, 3) = 84. Biến cố đối A: "Cả 3 viên đều màu xanh" có số cách chọn là C(4, 3) = 4. P(A) = 4/84 = 1/21. Xác suất có ít nhất 1 bi đỏ là: 1 - 1/21 = 20/21.',
-      difficulty: 'Trung bình'
+      explanation: 'Số cách chọn 4 chai bất kỳ từ 16 chai là tổ hợp chập 4 của 16: C(16, 4) = 16! / (4! * 12!) = (16 * 15 * 14 * 13) / (4 * 3 * 2 * 1) = 1820 cách.',
+      difficulty: 'Dễ'
     },
     {
       id: 20,
       partId: 'part2',
       section: 'math',
-      sectionName: 'Toán học (Tích phân ứng dụng)',
-      question: 'Tích phân I = ∫_0^1 (2x + 1)e^x dx có giá trị bằng:',
+      sectionName: 'Toán học (Xác suất biến cố đối)',
+      passage: 'Dựa vào dữ kiện câu 19: Có 7 chai X, 4 chai Y, 5 chai Z (tổng 16 chai), chọn ngẫu nhiên 4 chai.',
+      question: 'Xác suất để phân xưởng X có ít nhất một chai nước được chọn để phân tích xấp xỉ bằng:',
       options: [
-        'A. e + 1',
-        'B. 2e - 1',
-        'C. e - 1',
-        'D. 2e + 1'
+        'A. 93.1%',
+        'B. 6.9%',
+        'C. 25.0%',
+        'D. 75.0%'
       ],
       correctAnswer: 0,
-      explanation: 'Dùng từng phần: u = 2x + 1 => du = 2dx; dv = e^x dx => v = e^x. I = [(2x + 1)e^x]_0^1 - ∫_0^1 2e^x dx = (3e - 1) - 2(e - 1) = e + 1.',
+      explanation: 'Tổng số chai không thuộc xưởng X là 4 (Y) + 5 (Z) = 9 chai. Số cách chọn 4 chai mà KHÔNG có chai nào của xưởng X là C(9, 4) = 126 cách. Xác suất biến cố đối: P(Không có chai X) = 126 / 1820 ≈ 0.0692 (6.9%). Xác suất có ít nhất 1 chai của xưởng X là: 1 - 0.0692 = 0.9308 ≈ 93.1%.',
       difficulty: 'Trung bình'
     },
 
     // =========================================================================
     // PHẦN 3: TƯ DUY KHOA HỌC (30 CÂU - 300 ĐIỂM)
-    // HỢP PHẦN 3A: LOGIC & PHÂN TÍCH SỐ LIỆU (12 CÂU)
-    // Đọc hiểu bảng số liệu, biểu đồ, suy luận quy luật và lập luận logic
     // =========================================================================
     {
       id: 21,
       partId: 'part3',
       section: 'logic_data',
       sectionName: 'Tư duy khoa học (Logic vị trí)',
-      passage: 'Dữ kiện logic cho câu 21-22:\nCó 5 bạn học sinh An, Bình, Cúc, Dũng, Em ngồi vào một dãy 5 ghế thẳng hàng đánh số từ 1 đến 5 từ trái sang phải.\n- An không ngồi ở hai đầu dãy ghế.\n- Bình ngồi ngay bên phải Cúc.\n- Dũng ngồi cách Bình ít nhất 2 ghế.\n- Em ngồi ở ghế số 5.',
+      passage: 'Dữ kiện logic: Có 5 bạn học sinh An, Bình, Cúc, Dũng, Em ngồi vào một dãy 5 ghế thẳng hàng đánh số từ 1 đến 5 từ trái sang phải.\n- An không ngồi ở hai đầu dãy ghế.\n- Bình ngồi ngay bên phải Cúc.\n- Dũng ngồi cách Bình ít nhất 2 ghế.\n- Em ngồi ở ghế số 5.',
       question: 'Vị trí ghế ngồi của An là ghế số mấy?',
       options: [
         'A. Ghế 2',
@@ -439,31 +442,14 @@ export const QUESTIONS_DATA = {
         'D. Ghế 2 hoặc ghế 3'
       ],
       correctAnswer: 1,
-      explanation: 'Em ở ghế 5. An chỉ có thể ngồi 2, 3, hoặc 4. Bình ngồi ngay bên phải Cúc: cặp (C, B). Nếu (C, B) ở ghế (1, 2) => Dũng phải cách Bình ít nhất 2 ghế => Dũng ở ghế 4. An sẽ ở ghế 3. Kiểm tra: Cúc (1), Bình (2), An (3), Dũng (4), Em (5). Thỏa mãn tất cả điều kiện!',
+      explanation: 'Em ở ghế 5. An chỉ có thể ngồi 2, 3, hoặc 4. Bình ngồi ngay bên phải Cúc: cặp (C, B). Nếu (C, B) ở ghế (1, 2) => Dũng ở ghế 4. An sẽ ở ghế 3. Kiểm tra thỏa mãn tất cả điều kiện!',
       difficulty: 'Khó'
     },
     {
       id: 22,
       partId: 'part3',
       section: 'logic_data',
-      sectionName: 'Tư duy khoa học (Logic vị trí)',
-      passage: 'Dựa vào dữ kiện ở câu 21.',
-      question: 'Nếu đổi chỗ Dũng và An cho nhau, điều kiện nào sau đây bị vi phạm?',
-      options: [
-        'A. Dũng ngồi cách Bình ít nhất 2 ghế.',
-        'B. An không ngồi ở hai đầu dãy ghế.',
-        'C. Bình ngồi ngay bên phải Cúc.',
-        'D. Không có điều kiện nào bị vi phạm.'
-      ],
-      correctAnswer: 0,
-      explanation: 'Nếu đổi Dũng sang ghế 3 và An sang ghế 4, Dũng ở ghế 3, Bình ở ghế 2 => khoảng cách |3 - 2| = 1 ghế, vi phạm điều kiện "Dũng cách Bình ít nhất 2 ghế".',
-      difficulty: 'Khó'
-    },
-    {
-      id: 23,
-      partId: 'part3',
-      section: 'logic_data',
-      sectionName: 'Tư duy khoa học (Phân tích số liệu biểu đồ)',
+      sectionName: 'Tư duy khoa học (Phân tích bảng số liệu)',
       passage: 'Bảng số liệu doanh thu của một công ty công nghệ trong giai đoạn 2021 - 2024 (Đơn vị: Tỷ VNĐ):\n- Năm 2021: 120\n- Năm 2022: 150\n- Năm 2023: 180\n- Năm 2024: 225',
       question: 'Tốc độ tăng trưởng doanh thu của năm 2024 so với năm 2023 là bao nhiêu phần trăm?',
       options: [
@@ -477,32 +463,10 @@ export const QUESTIONS_DATA = {
       difficulty: 'Dễ'
     },
     {
-      id: 24,
-      partId: 'part3',
-      section: 'logic_data',
-      sectionName: 'Tư duy khoa học (Phân tích số liệu biểu đồ)',
-      passage: 'Dựa vào bảng số liệu câu 23.',
-      question: 'Năm nào có tốc độ tăng trưởng doanh thu so với năm liền trước cao nhất?',
-      options: [
-        'A. Năm 2022',
-        'B. Năm 2023',
-        'C. Năm 2024',
-        'D. Cả năm 2022 và năm 2024 bằng nhau'
-      ],
-      correctAnswer: 3,
-      explanation: 'Tăng trưởng 2022 so với 2021: (150 - 120)/120 = 25%. Tăng trưởng 2023 so với 2022: (180 - 150)/150 = 20%. Tăng trưởng 2024 so với 2023: (225 - 180)/180 = 25%. Vậy cả năm 2022 và 2024 đều đạt mức cao nhất 25%.',
-      difficulty: 'Trung bình'
-    },
-
-    // =========================================================================
-    // HỢP PHẦN 3B: SUY LUẬN KHOA HỌC (18 CÂU)
-    // Các chùm câu hỏi tình huống, thí nghiệm: Vật lí, Hóa học, Sinh học, Địa lí, Lịch sử, GDKT&PL
-    // =========================================================================
-    {
-      id: 25,
+      id: 23,
       partId: 'part3',
       section: 'science_reasoning',
-      sectionName: 'Tư duy khoa học (Vật lí - Thí nghiệm)',
+      sectionName: 'Tư duy khoa học (Vật lí - Dao động cơ)',
       passage: 'Trong một thí nghiệm về dao động cơ học của con lắc lò xo nằm ngang có độ cứng k = 100 N/m và vật nặng m = 100g (lấy pi^2 ≈ 10).',
       question: 'Chu kỳ dao động T của con lắc trên xấp xỉ bằng:',
       options: [
@@ -516,10 +480,10 @@ export const QUESTIONS_DATA = {
       difficulty: 'Dễ'
     },
     {
-      id: 26,
+      id: 24,
       partId: 'part3',
       section: 'science_reasoning',
-      sectionName: 'Tư duy khoa học (Hóa học - Thực nghiệm)',
+      sectionName: 'Tư duy khoa học (Hóa học - Thực nghiệm pH)',
       question: 'Dung dịch nào sau đây làm đổi màu quỳ tím sang màu đỏ?',
       options: [
         'A. Dung dịch NaOH',
@@ -532,59 +496,10 @@ export const QUESTIONS_DATA = {
       difficulty: 'Dễ'
     },
     {
-      id: 27,
+      id: 25,
       partId: 'part3',
       section: 'science_reasoning',
-      sectionName: 'Tư duy khoa học (Sinh học - Di truyền công nghệ)',
-      question: 'Trong kỹ thuật di truyền tái tổ hợp ADN, hai loại enzim cắt và enzim nối được sử dụng lần lượt là:',
-      options: [
-        'A. ADN-polimeraza và ARN-polimeraza',
-        'B. Restrictaza (enzim cắt) và Ligaza (enzim nối)',
-        'C. Amilaza và Proteaza',
-        'D. Helidaza và Ligaza'
-      ],
-      correctAnswer: 1,
-      explanation: 'Enzim giới hạn Restrictaza cắt ADN tại vị trí nhận biết đặc hiệu, còn Ligaza nối các đoạn ADN lại với nhau.',
-      difficulty: 'Trung bình'
-    },
-    {
-      id: 28,
-      partId: 'part3',
-      section: 'science_reasoning',
-      sectionName: 'Tư duy khoa học (Lịch sử - Xã hội)',
-      passage: 'Thông tin lịch sử: Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập vào ngày 8/8/1967 tại Băng Cốc (Thái Lan) với 5 nước thành viên sáng lập.',
-      question: 'Việt Nam chính thức gia nhập ASEAN vào năm nào và là thành viên thứ mấy?',
-      options: [
-        'A. Năm 1995, thành viên thứ 7',
-        'B. Năm 1997, thành viên thứ 8',
-        'C. Năm 1999, thành viên thứ 10',
-        'D. Năm 1990, thành viên thứ 6'
-      ],
-      correctAnswer: 0,
-      explanation: 'Việt Nam chính thức gia nhập ASEAN vào ngày 28/7/1995 tại Hội nghị Ngoại trưởng ASEAN lần thứ 28 tại Brunei, trở thành thành viên thứ 7.',
-      difficulty: 'Trung bình'
-    },
-    {
-      id: 29,
-      partId: 'part3',
-      section: 'science_reasoning',
-      sectionName: 'Tư duy khoa học (Địa lí - Tự nhiên Việt Nam)',
-      question: 'Gió mùa mùa hạ hoạt động ở nước ta chủ yếu thổi theo hướng nào và đem lại tính chất thời tiết gì?',
-      options: [
-        'A. Hướng Đông Bắc, lạnh khô',
-        'B. Hướng Tây Nam, nóng ẩm mưa nhiều',
-        'C. Hướng Đông Nam, lạnh ẩm',
-        'D. Hướng Bắc, khô hạn quanh năm'
-      ],
-      correctAnswer: 1,
-      explanation: 'Gió mùa mùa hạ ở Việt Nam thổi theo hướng Tây Nam mang theo lượng ẩm dồi dào gây mưa lớn cho Nam Bộ, Tây Nguyên và cả nước.',
-      difficulty: 'Dễ'
-    },
-    {
-      id: 30,
-      partId: 'part3',
-      section: 'science_reasoning',
-      sectionName: 'Tư duy khoa học (GDKT&PL - Pháp luật & Logic)',
+      sectionName: 'Tư duy khoa học (GDKT&PL - Pháp luật hợp đồng)',
       question: 'Trong quy định pháp luật về giao dịch dân sự, khi một người giao kết hợp đồng dưới sự đe dọa, cưỡng ép của bên kia thì hợp đồng đó có hiệu lực như thế nào?',
       options: [
         'A. Hợp đồng có hiệu lực pháp luật đầy đủ',
@@ -593,8 +508,75 @@ export const QUESTIONS_DATA = {
         'D. Chỉ vô hiệu nếu có sự đồng thuận của bên cưỡng ép'
       ],
       correctAnswer: 1,
-      explanation: 'Theo Bộ luật Dân sự (nội dung môn Giáo dục Kinh tế & Pháp luật): Giao dịch dân sự được xác lập do bị lừa dối, đe dọa hoặc cưỡng ép là giao dịch dân sự vô hiệu.',
+      explanation: 'Theo Bộ luật Dân sự (môn Giáo dục Kinh tế & Pháp luật): Giao dịch dân sự được xác lập do bị lừa dối, đe dọa hoặc cưỡng ép là giao dịch dân sự vô hiệu.',
       difficulty: 'Trung bình'
+    }
+  ],
+
+  'vact-moon-25de': [
+    {
+      id: 201,
+      partId: 'part1',
+      section: 'vietnamese',
+      sectionName: 'Tiếng Việt',
+      question: 'Từ nào sau đây viết đúng chính tả tiếng Việt?',
+      options: [
+        'A. Sáp nhập',
+        'B. Sát nhập',
+        'C. Xát nhập',
+        'D. Xáp nhập'
+      ],
+      correctAnswer: 0,
+      explanation: '"Sáp nhập" là từ chuẩn chính tả duy nhất.',
+      difficulty: 'Dễ'
+    },
+    {
+      id: 202,
+      partId: 'part1',
+      section: 'english',
+      sectionName: 'Tiếng Anh',
+      question: 'Despite the economic downturn, the company managed to ________ a profit this fiscal year.',
+      options: [
+        'A. make',
+        'B. do',
+        'C. take',
+        'D. create'
+      ],
+      correctAnswer: 0,
+      explanation: 'Collocation chuẩn: "make a profit".',
+      difficulty: 'Dễ'
+    },
+    {
+      id: 203,
+      partId: 'part2',
+      section: 'math',
+      sectionName: 'Toán học',
+      question: 'Số điểm cực trị của hàm số có f\'(x) = x(x - 1)^2(x + 2)^3 là:',
+      options: [
+        'A. 1',
+        'B. 2',
+        'C. 3',
+        'D. 4'
+      ],
+      correctAnswer: 1,
+      explanation: 'Chỉ các nghiệm bội lẻ x = 0 và x = -2 làm f\'(x) đổi dấu, nên có đúng 2 điểm cực trị.',
+      difficulty: 'Trung bình'
+    },
+    {
+      id: 204,
+      partId: 'part3',
+      section: 'logic_data',
+      sectionName: 'Logic & Phân tích số liệu',
+      question: 'Mệnh đề tương đương của mệnh đề kéo theo "Nếu P thì Q" là:',
+      options: [
+        'A. ¬P ∨ Q',
+        'B. Q ⇒ P',
+        'C. ¬P ⇒ ¬Q',
+        'D. ¬Q ⇒ P'
+      ],
+      correctAnswer: 0,
+      explanation: 'Theo bảng chân lý logic toán: P ⇒ Q tương đương với ¬P ∨ Q (hoặc ¬Q ⇒ ¬P).',
+      difficulty: 'Khá'
     }
   ]
 };

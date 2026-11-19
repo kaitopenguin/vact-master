@@ -2,20 +2,80 @@
 
 @layer base {
   :root {
-    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-sans: 'Be Vietnam Pro', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   }
   
   body {
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 }
 
-/* Custom scrollbar for question navigation grid */
+/* Theme definitions */
+body.theme-light {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+body.theme-dark {
+  background-color: #090d16;
+  color: #f1f5f9;
+}
+
+/* Eye-Care Warm Paper / Sepia Mode (Chống mỏi mắt cho người cận thị) */
+body.theme-sepia {
+  background-color: #fbf7ed;
+  color: #2e261d;
+}
+
+body.theme-sepia .bg-white {
+  background-color: #f4ede0 !important;
+  border-color: #e2d7c5 !important;
+}
+
+body.theme-sepia .bg-slate-50 {
+  background-color: #eee5d3 !important;
+}
+
+body.theme-sepia .text-slate-900 {
+  color: #241c14 !important;
+}
+
+body.theme-sepia .text-slate-700 {
+  color: #3d3226 !important;
+}
+
+body.theme-sepia .text-slate-600,
+body.theme-sepia .text-slate-500 {
+  color: #5e5040 !important;
+}
+
+body.theme-sepia .border-slate-200 {
+  border-color: #ded1bd !important;
+}
+
+/* Font size scalers for visual accessibility */
+.font-scale-normal {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.font-scale-large {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+.font-scale-xlarge {
+  font-size: 1.25rem;
+  line-height: 1.9;
+}
+
+/* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
 }
 
 ::-webkit-scrollbar-track {
@@ -23,10 +83,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(156, 163, 175, 0.4);
+  background: rgba(148, 163, 184, 0.4);
   border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(156, 163, 175, 0.7);
+  background: rgba(148, 163, 184, 0.7);
 }
