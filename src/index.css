@@ -13,15 +13,15 @@
     --border-color: #cbd5e1;
     --border-strong: #94a3b8;
     --text-primary: #090e17;
-    --text-secondary: #273444;
-    --text-muted: #53647b;
-    --accent: #2563eb;
-    --accent-hover: #1d4ed8;
+    --text-secondary: #1e293b;
+    --text-muted: #475569;
+    --accent: #1d4ed8;
+    --accent-hover: #1e40af;
     --accent-text: #ffffff;
-    --accent-bg-subtle: #eff6ff;
+    --accent-bg-subtle: #dbeafe;
   }
 
-  /* DARK MODE (Midnight) - Solid and crisp */
+  /* DARK MODE (Midnight) - Solid and crisp high contrast */
   .dark, body.theme-dark {
     --bg-page: #0a0e17;
     --bg-nav: #0f172a;
@@ -44,17 +44,21 @@
     --bg-page: #fbf6ec;
     --bg-nav: #f3ebdb;
     --bg-card: #ffffff;
-    --bg-card-subtle: #f4ecdc;
+    --bg-card-subtle: #f5eedf;
     --bg-card-hover: #e8dec8;
-    --border-color: #d3c4a9;
-    --border-strong: #b5a07e;
-    --text-primary: #191108;
-    --text-secondary: #3b2a1a;
-    --text-muted: #6e543c;
-    --accent: #b45309;
-    --accent-hover: #92400e;
+    --border-color: #d1c0a5;
+    --border-strong: #a89475;
+    --text-primary: #1a0f00;
+    --text-secondary: #2f1d0a;
+    --text-muted: #5c4328;
+    --accent: #9a3412;
+    --accent-hover: #7c2d12;
     --accent-text: #ffffff;
     --accent-bg-subtle: #fef3c7;
+  }
+
+  * {
+    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
   }
 
   html, body {
@@ -70,7 +74,9 @@
   body {
     background-color: var(--bg-page);
     color: var(--text-primary);
-    font-family: var(--font-sans);
+    font-weight: 500; /* Medium weight ensures clear, crisp Vietnamese diacritics */
+    letter-spacing: 0.01em;
+    line-height: 1.7;
     transition: background-color 0.15s ease, color 0.15s ease;
     overflow-x: hidden;
   }
@@ -134,20 +140,47 @@
   border-color: var(--border-color) !important;
 }
 
+/* Sepia Mode Specific High-Contrast Overrides */
+body.theme-sepia .text-blue-600,
+body.theme-sepia .text-blue-700,
+body.theme-sepia .text-blue-800,
+body.theme-sepia .dark\:text-blue-400,
+body.theme-sepia .dark\:text-blue-300,
+body.theme-sepia .dark\:text-blue-200 {
+  color: #9a3412 !important; /* Deep contrast warm amber on sepia paper */
+}
+
+body.theme-sepia .bg-blue-600 {
+  background-color: #9a3412 !important;
+  color: #ffffff !important;
+}
+
+body.theme-sepia .bg-blue-600:hover {
+  background-color: #7c2d12 !important;
+}
+
+body.theme-sepia .bg-blue-100,
+body.theme-sepia .bg-blue-50,
+body.theme-sepia .dark\:bg-blue-950 {
+  background-color: #fef3c7 !important;
+  color: #78350f !important;
+  border-color: #d97706 !important;
+}
+
 /* Font size scalers for visual accessibility */
 body.font-scale-normal {
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.7;
 }
 
 body.font-scale-large {
   font-size: 18px;
-  line-height: 1.75;
+  line-height: 1.8;
 }
 
 body.font-scale-xlarge {
   font-size: 20px;
-  line-height: 1.85;
+  line-height: 1.9;
 }
 
 /* iOS Touch scrolling support */

@@ -69,6 +69,105 @@ export const EXAM_LIST = [
     ]
   },
   {
+    "id": "vact-empire-de-04",
+  "title": "Đề Tiên Đoán V-ACT Số 4 (Empire Team Chuẩn ĐHQG-HCM)",
+  "year": "2025 - 2026",
+  "category": "empire",
+  "type": "⭐ Đề Tiên Đoán Mới Nhất",
+  "durationMinutes": 150,
+  "maxScore": 1200,
+  "totalQuestions": 120,
+  "description": "Trích xuất trọn vẹn từ Đề Tiên Đoán V-ACT Số 4 có đầy đủ ngữ liệu, 120 câu hỏi trắc nghiệm và lời giải chi tiết từng câu bám sát cấu trúc GDPT 2018.",
+  "sections": [
+    {
+      "name": "Tiếng Việt (1 - 30)",
+      "count": 30,
+      "score": "300 điểm"
+    },
+    {
+      "name": "Tiếng Anh (31 - 60)",
+      "count": 30,
+      "score": "300 điểm"
+    },
+    {
+      "name": "Toán học (61 - 90)",
+      "count": 30,
+      "score": "300 điểm"
+    },
+    {
+      "name": "Tư duy khoa học (91 - 120)",
+      "count": 30,
+      "score": "300 điểm"
+    }
+  ]
+},
+{
+  "id": "vact-synthetic-de-01",
+  "title": "Đề Thi Thử Tinh Tuyển V-ACT Số 01 (Ngân Hàng 800 Câu 4 Phân Môn)",
+  "year": "2025 - 2026",
+  "category": "bank",
+  "type": "🔥 Đề Tuyển Chọn Bộ 200",
+  "durationMinutes": 150,
+  "maxScore": 1200,
+  "totalQuestions": 120,
+  "description": "Đề thi thử chuẩn hóa 120 câu được tinh tuyển từ ngân hàng 800 câu hỏi (200 Tiếng Việt, 200 Tiếng Anh, 200 Toán, 200 Tư duy khoa học) giữ nguyên chùm câu hỏi ngữ liệu liền mạch.",
+  "sections": [
+    {
+      "name": "Tiếng Việt (1 - 30)",
+      "count": 30,
+      "score": "300 điểm"
+    },
+    {
+      "name": "Tiếng Anh (31 - 60)",
+      "count": 30,
+      "score": "300 điểm"
+    },
+    {
+      "name": "Toán học (61 - 90)",
+      "count": 30,
+      "score": "300 điểm"
+    },
+    {
+      "name": "Tư duy khoa học (91 - 120)",
+      "count": 30,
+      "score": "300 điểm"
+    }
+  ]
+},
+{
+  "id": "vact-synthetic-de-02",
+  "title": "Đề Thi Thử Tinh Tuyển V-ACT Số 02 (Phân Hóa Chuyên Sâu 950+)",
+  "year": "2025 - 2026",
+  "category": "bank",
+  "type": "🎯 Đề Tuyển Chọn Phân Hóa",
+  "durationMinutes": 150,
+  "maxScore": 1200,
+  "totalQuestions": 120,
+  "description": "Bộ đề thử thách phân hóa cao 950+ tổng hợp từ ngân hàng 200 câu hỏi trọng tâm, bám sát mô hình IRT và tư duy suy luận logic khoa học.",
+  "sections": [
+    {
+      "name": "Tiếng Việt (1 - 30)",
+      "count": 30,
+      "score": "300 điểm"
+    },
+    {
+      "name": "Tiếng Anh (31 - 60)",
+      "count": 30,
+      "score": "300 điểm"
+    },
+    {
+      "name": "Toán học (61 - 90)",
+      "count": 30,
+      "score": "300 điểm"
+    },
+    {
+      "name": "Tư duy khoa học (91 - 120)",
+      "count": 30,
+      "score": "300 điểm"
+    }
+  ]
+},
+  {
     "id": "vact-moon-de-01",
     "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 01 (Tuyển Tập 25 Đề Moon.vn)",
     "year": "2025",
@@ -871,6 +970,6133 @@ export const EXAM_LIST = [
 ];
 
 export const QUESTIONS_DATA = {
+  "vact-empire-de-04": [
+  {
+    "id": "empire-de4-q1",
+    "examId": "vact-empire-de-04",
+    "number": 1,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Từ “mỗi” trong câu nào được dùng với ý nghĩa nhấn mạnh số lượng\nrất ít của sự vật?",
+    "options": [
+      "Mỗi năm, ngôi làng ven biển này lại tổ chức lễ hội truyền thống để tưởng nhớ tổ nghề.",
+      "Trên giá sách, mỗi tầng sẽ được sắp xếp một loại sách theo từng chủ đề riêng biệt để\nngười đọc dễ tìm kiếm.",
+      "Trong suốt cuộc hành trình dài ấy, tôi chỉ gặp mỗi một người chịu dừng lại giúp đỡ\nmình.",
+      "Mỗi học sinh trong lớp đều phải hoàn thành bài tập và nộp đúng thời hạn quy định."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q2",
+    "examId": "vact-empire-de-04",
+    "number": 2,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Từ “mặc nhiên” trong câu sau có nghĩa gần nhất với từ nào? “Hành\nđộng đó mặc nhiên được coi là sự chấp nhận.”",
+    "options": [
+      "Một cách im lặng, không nói ra nhưng tự hiểu.",
+      "Thái độ thờ ơ, không quan tâm đến kết quả.",
+      "Một sự thật hiển nhiên không cần bàn cãi.",
+      "Quyết định mang tính áp đặt từ một phía."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q3",
+    "examId": "vact-empire-de-04",
+    "number": 3,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Hình thức trang điểm (vẽ mặt) trong Tuồng được gọi là gì?:",
+    "options": [
+      "Đeo mặt nạ.",
+      "Hóa trang ước lệ.",
+      "Vẽ mặt nạ (bôi mặt).",
+      "Hóa trang tả thực."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q4",
+    "examId": "vact-empire-de-04",
+    "number": 4,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Khôn ngoan mới biết thăng rồi giáng,\nDại dột nào hay tiếu có dài.\nĐã khuất bao nhiêu rồi lại rỗi,\nĐạo trời lồng lộng chẳng hề sai.\n(Nguyễn Bỉnh Khiêm, Bài số 2, Bạch Vân quốc ngữ thi tập)\nNhận định nào sau đây đúng nhất về phong cách thơ Nguyễn Bỉnh Khiêm thể hiện qua\nđoạn thơ trên?",
+    "options": [
+      "Thơ giàu cảm xúc trữ tình, thiên về bộc lộ tâm trạng cá nhân.",
+      "Thơ mang giọng triết lí sâu sắc, bình thản chiêm nghiệm lẽ đời.",
+      "Thơ thể hiện khát vọng công danh và tinh thần nhập thế mạnh mẽ.",
+      "Thơ giàu hình ảnh ước lệ, ca ngợi vẻ đẹp thiên nhiên hài hòa."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q5",
+    "examId": "vact-empire-de-04",
+    "number": 5,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Rồi một chuyến công tác lưu động khác, Chiến tấn kĩ bốn phía mùng,\nchốt chặt các cửa trước khi đi. Tuy bận rộn nhưng mỗi khi có dịp nghỉ ngơi anh lại nghĩ\ntới nhện và hong hóng được thấy nó chết. Có lẽ cái ác trong anh kích thích. Anh nôn nao\ntrên đường về nhà. Chú mày đã trắng mắt ra chưa? Áo thay chưa kịp cài nút, anh háo hức\nlao vào giường. Bắt chéo hai tay làm gối, anh hả hê căng mắt nhìn lên. Tuy có gầy đi\nnhưng nhện ta vẫn lì lợm sống! Thay vào phần hao hớt, một bọc trắng tròn trịa bằng cái\nnắp chai lủng lẳng trước mặt. Thì ra một quý bà! Nhưng sao đã không chết lại còn đẻ a?\nChiến quỳ thẳng người lên, muốn bứt tung màng tơ, bóp nát cái bọc trứng. Nhưng trời ạ,\nngay trước mắt anh, bên kia cái màng tơ, một lỗ thủng – chỗ hợp ba góc của mỗi vuông\nvải. Với đôi mắt tinh và sáng như sao, Chiến nhận ra một đàn muỗi đang vo ve bên ngoài\nrồi lần lượt từng con chui qua cái lỗ ấy và dính ngay vào mạng. Đúng là một cái bẫy – một\ncái bẫy rất hiệu nghiệm! Vô vàn cánh muỗi lấp lánh. Nhưng mồi đâu mà nhử? – Anh hỏi\nrồi nhìn xuống người mình. Hèn gì! – Chiến giật mình. Từ ấy, Trần Việt Chiến hết muốn\nlàm con ngựa chiến.\n(Trần Duy Phiên. Tạp chí Sông Hương, số 284, ngày 16/10/2012)\nSự thay đổi thái độ của Chiến từ “háo hức”, “hả hê” mong nhện chết sang việc “hết\nmuốn làm con ngựa chiến” thể hiện điều gì?",
+    "options": [
+      "Sự chán nản, mệt mỏi trước nhịp sống công việc căng thẳng kéo dài.",
+      "Cảm giác sợ hãi khi nhận ra sự nguy hiểm tiềm ẩn từ thế giới xung quanh mình.",
+      "Nỗi ám ảnh tâm lí trước hình ảnh cái ác tồn tại dai dẳng, khó tiêu diệt.",
+      "Sự thức tỉnh nhận thức về vai trò của mình trong cái bẫy vô hình của đời sống."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q6",
+    "examId": "vact-empire-de-04",
+    "number": 6,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Một tối, tôi đang đọc Sputnhich, cha tôi lặng lẽ đi vào. Ông bảo: \"Cha\nmuốn nói chuyện với con.\" Tôi pha cà phê, cha tôi không uống. Ông hỏi: \"Con có để ý\ncông việc của Thủy không con? Cha cứ rờn rợn.\" Vợ tôi làm việc ở bệnh viện sản, công\nviệc là nạo phá thai. Hàng ngày, các rau thai nhi bỏ đi, Thủy cho vào phích đá đem về.\nÔng Cơn nấu lên cho chó, cho lợn. Thực ra điều này tôi biết nhưng cũng bỏ qua, chẳng\nquan trọng gì. Cha tôi dắt tôi xuống bếp, chỉ vào nồi cám, trong đó có các mẫu thai nhi bé\nxíu. Tôi lặng đi. Cha tôi khóc. Ông cầm phích đá ném vào đàn chó béc-giê: \"Khốn nạn!\nTao không cần sự giàu có này.\"\n(Nguyễn Huy Thiệp, Tướng về hưu, NXB Trẻ, Hà Nội, 2022)\nĐoạn trích trên được kể theo ngôi kể nào?",
+    "options": [
+      "Ngôi thứ ba toàn tri",
+      "Ngôi thứ nhất",
+      "Ngôi “ tôi”",
+      "Ngôi thứ ba với cách xưng hô “tôi”"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q7",
+    "examId": "vact-empire-de-04",
+    "number": 7,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Chọn các từ/cụm từ thích hợp để điền vào chỗ trống: “…… là loại hình\nkịch hát cổ truyền của dân tộc, phát triển mạnh dưới triều ……, vùng …….”",
+    "options": [
+      "Chèo – Lý – đồng bằng Bắc Bộ, Nam Bộ",
+      "Tuồng – Nguyễn – Nam Trung Bộ",
+      "Cải lương – Nguyễn – Nam Bộ",
+      "Tuồng – Trần – Bắc Trung Bộ"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q8",
+    "examId": "vact-empire-de-04",
+    "number": 8,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Hơn một tháng đầu, đời sống của vợ chồng đã tạm ổn. Nhà ở thì chui\ntrong hốc đá, đã được đan phên che sương gió. Nước uống thì đã có suối. Muối không có thì đã có nước biển. Nhưng còn việc kéo dài sự sống? Hai vợ chồng nhìn vào bồ gạo đã\nvơi:\n— Nếu như chúng ta có một nắm hạt giống thì quyết không sợ gì cả. Tự nhiên, một hôm\ncó một đàn chim bay từ phía Tây lại, đậu đen ngòm cả một bãi cát. Rồi chúng bay đến\ntrước mặt hai vợ chồng, kêu vang cả lên, thả xuống năm, sáu hạt. Ít lâu sau, từ những hạt\nấy mọc ra một loại cây dây bò lan xanh um cả bãi, có rất nhiều quả xanh mướt, to bằng\nđầu người. Mai trẩy một quả, bổ ra thấy ruột đỏ hồng, hạt đen nhánh. Hai vợ chồng cùng\ncon nếm, thấy vị ngọt, thanh thanh. Mai reo lên:\n— Ô! Đây là thứ dưa lạ, chưa từng thấy bao giờ. A ha! Dưa từ hướng Tây! Trời sai bầy\nchim đưa thứ dưa hướng Tây này cho chúng ta. Trời nuôi sống chúng ta rồi đó!\n(Theo Bùi Văn Nguyên, Đỗ Bình Trị, Tư liệu tham khảo Văn học Việt Nam, tập I, NXB\nGiáo dục)\nNội dung chính của đoạn trích trên là gì?",
+    "options": [
+      "Cuộc sống thiếu thốn ban đầu và nỗ lực sinh tồn của hai vợ chồng.",
+      "Niềm vui khám phá một loài cây trái lạ do chim mang đến.",
+      "Niềm tin chất phác của con người vào sự che chở của trời đất.",
+      "Sự kì diệu của thiên nhiên trong việc nuôi sống con người."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q9",
+    "examId": "vact-empire-de-04",
+    "number": 9,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Cho đoạn thơ sau:\n“Gương nga chênh chếch dòm song,\nVàng gieo ngấn nước, cây lồng bóng sân.\nHải đường lặng ngọn đông lân,\nGiọt sương gieo nặng cành xuân la đà.”\n(Nguyễn Du, Truyện Kiều)\nCụm từ “đông lân” trong câu thơ trên có ý nghĩa gì?",
+    "options": [
+      "Nhà ở phía đông, nơi có cây hải đường.",
+      "Nhà hàng xóm ở phía đông của ngôi nhà.",
+      "Không gian lân cận gợi sự tĩnh lặng ban đêm.",
+      "Cảnh vật bên ngoài tạo chiều sâu cho bức tranh."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q10",
+    "examId": "vact-empire-de-04",
+    "number": 10,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Chọn từ thích hợp điền vào chỗ trống trong câu sau: “Trong khi ngôn\nngữ ______ thường mang tính bộc phát, sử dụng nhiều từ đệm, hư từ và có sự hỗ trợ của\nngữ điệu, cử chỉ thì ngôn ngữ ______ lại đòi hỏi sự chuẩn mực, tính hệ thống cao và sự\nchặt chẽ trong cấu trúc cú pháp để đảm bảo tính minh xác của thông tin.”",
+    "options": [
+      "Ngôn ngữ nói – ngôn ngữ viết",
+      "Ngôn ngữ viết – ngôn ngữ nói",
+      "Ngôn ngữ nghệ thuật – ngôn ngữ báo chí",
+      "Ngôn ngữ sinh hoạt – ngôn ngữ nghệ thuật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q11",
+    "examId": "vact-empire-de-04",
+    "number": 11,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Trong các câu sau, câu nào KHÔNG mắc lỗi dùng từ và chính tả?",
+    "options": [
+      "Bác sĩ đang tiến hành chuẩn đoán để xác định bệnh mãn tính của bệnh nhân.",
+      "Bác sĩ đang tiến hành chẩn đoán để xác định bệnh mạn tính của bệnh nhân.",
+      "Bác sĩ đang tiến hành chẩn đoán để xác định bệnh mãn tính của bệnh nhân.",
+      "Bác sĩ đang tiến hành chuẩn đoán để xác định bệnh mạn tính của bệnh nhân."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q12",
+    "examId": "vact-empire-de-04",
+    "number": 12,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Trong hệ thống tín ngưỡng, hình ảnh người phụ nữ cũng được đưa lên\nđiện thờ, xem họ như một lực lượng siêu nhiên, chủ thể thế giới thần linh, bản thể sáng\ntạo ra vũ trụ, đại diện cho các vùng miền địa lý (sông, núi, đất đai, rừng), hình thành nên\nloại hình tín ngưỡng thờ Mẫu (hay còn gọi là đạo Mẫu) rất đặc sắc của người Việt mà trên\nthế giới chưa có quốc gia nào có loại hình tín ngưỡng này. Trong danh sách các vị thần\ncủa người Việt, những vị thần gắn với bản thể của vũ trụ đều mang yếu tố nữ như Kim,\nMộc, Thủy, Hỏa, Thổ (Bà Kim, Bà Mộc, Bà Thủy, Bà Hỏa), Nữ thần Mặt Trời, Nữ thần Mặt\nTrăng, Bà Nữ Oa đội đá vá trời… Cùng với đó, các hiện tượng thiên nhiên như mây, mưa,\nsấm, chớp cũng được thánh hóa thành Nữ và Phật hóa thành Tứ Pháp (Pháp Vân, Pháp\nVũ, Pháp Lôi, Pháp Điện). Ở Việt Nam, chưa thống kê một cách chính xác có bao nhiêu\nNữ thần. Theo cuốn \"Hội chân biên\", in năm 1847 đời Thiệu Trị, do Thanh Hòa Tử tập\nhợp, trong số 21 vị thần tiên có nguồn gốc thuần Việt, có tới 17 vị là Tiên nữ…\n( Tín ngưỡng thờ nữ thần trong hệ thống tín ngưỡng dân gian Việt Nam – Đỗ Lan Hiên)\nDòng nào sau đây nêu đúng nhất sự khác biệt độc đáo của tín ngưỡng thờ Mẫu Việt\nNam so với các quốc gia khác theo văn bản?",
+    "options": [
+      "Người phụ nữ được tôn vinh như bản thể sáng tạo vũ trụ.",
+      "Người phụ nữ giữ vị trí quan trọng trong đời sống tín ngưỡng.",
+      "Các nữ thần gắn với thiên nhiên được thờ phụng rộng rãi.",
+      "Tín ngưỡng dân gian hòa trộn với yếu tố Phật giáo."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q13",
+    "examId": "vact-empire-de-04",
+    "number": 13,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Trích dẫn được sử dụng trong đoạn sau đây thuộc kiểu trích dẫn nào?\nThử thách cuối cùng mà O-ri-xtê giao cho Hê-ra-clét là phải đoạt được những quả táo\nvàng của những tiên nữ E-xpê-rít (Hespérides) đem về. Chuyện xưa kể rằng, cây táo\nvàng có quả vàng này vốn là của nữ thần Đất Gai-a vĩ đại, mẹ của muôn loài. Gai-a đã\nđem cây táo vàng này tặng cho nữ thần Hê-ra làm quà mừng ngày nữ thần Hê-ra kết\nhôn với đấng phụ vương Dớt. Hê-ra vô cùng sung sướng trước tặng vật quý.\n(Hê-ra-clét đi tìm táo vàng, Thần thoại Hy Lạp)",
+    "options": [
+      "Trích dẫn trực tiếp.",
+      "Trích dẫn gián tiếp.",
+      "Cả A và B đều đúng.",
+      "Cả A và B đều sai."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q14",
+    "examId": "vact-empire-de-04",
+    "number": 14,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Ngày ấy hay mơ lắm sắc biển xa\nTa chưa biết trong ta có sóng cồn giận dữ\nQuá vô tư đôi khi ta chẳng nhớ\nNhững nếp đau xưa trên trán mẹ già.\nNgày ấy hay đâu trời ta xanh thế kia\nNhư nay ta nhìn qua đầu ruồi ngọn súng\nNgày ấy ngờ đâu bè bạn tuổi thơ\nVụt thành những anh hùng khi xung trận.\n6 - 1967\n(Lưu Quang Vũ, Ngày ấy – Thơ và đời, Sđd)\nCảm xúc của nhân vật trữ tình được thể hiện trong đoạn thơ trên là gì?",
+    "options": [
+      "Nỗi buồn man mác trước sự mất mát của chiến tranh khốc liệt.",
+      "Niềm tự hào xen lẫn xúc động về thế hệ bạn bè ra trận bảo vệ đất nước.",
+      "Sự day dứt khi nhận ra tuổi thơ vô tư đã vĩnh viễn qua đi.",
+      "Nỗi bâng khuâng, chiêm nghiệm khi nhìn lại quá khứ và hiện tại."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q15",
+    "examId": "vact-empire-de-04",
+    "number": 15,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Chỉ số chất lượng không khí (AQI) là thước đo mức độ ô nhiễm không\nkhí và ảnh hưởng của nó đến sức khỏe con người. Chỉ số này càng lớn thì không khí càng\nô nhiễm và nguy cơ tác động xấu đến sức khỏe càng cao, đặc biệt là các nhóm nhạy cảm\n(người già, trẻ em, phụ nữ mang thai, người có bệnh nền hô hấp hoặc tim mạch, v.v.). Tiếp\nxúc lâu dài với không khí bị ô nhiễm làm tăng nguy cơ tiềm ẩn nảy sinh các vấn đề về hô\nhấp (hen suyễn, viêm phổi), tăng nguy cơ bệnh tim mạch, ảnh hưởng đến hệ thần kinh,\ngiảm khả năng miễn dịch, tăng nguy cơ ung thư, ảnh hưởng đến sự phát triển của trẻ em\nvà thai kỳ.\n(Dự báo chất lượng không khí trên cả nước – tuần từ 2/2 đến 8/2/2026, chuyên mục Khoa\nhọc – Công nghệ, tạp chí Tia sáng)\nThông tin nào sau đây KHÔNG thể suy ra từ nội dung đoạn trích?",
+    "options": [
+      "Chỉ số AQI càng cao thì mức độ ảnh hưởng sức khỏe càng nghiêm trọng.",
+      "Ô nhiễm không khí gây tác động xấu lâu dài đến nhiều hệ cơ quan.",
+      "AQI là chỉ số duy nhất phản ánh đầy đủ mức độ an toàn không khí.",
+      "Một số nhóm đối tượng nhạy cảm dễ chịu tác động hơn từ ô nhiễm."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q16",
+    "examId": "vact-empire-de-04",
+    "number": 16,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Định nghĩa nào sau đây là đúng về khái niệm văn bản thông tin tổng\nhợp?",
+    "options": [
+      "Là văn bản trong đó người viết sử dụng phương thức thuyết minh kết hợp với một\nhoặc nhiều phương thức biểu đạt khác (biểu cảm, tự sự, miêu tả,.).",
+      "Là văn bản trong đó người viết chỉ được phép sử dụng phương thức thuyết minh kết\nhợp với một phương thức biểu đạt khác (biểu cảm, tự sự, miêu tả,.).",
+      "Là văn bản trong đó người viết bắt buộc phải sử dụng phương thức thuyết minh kết\nhợp với nhiều phương thức biểu đạt khác (biểu cảm, tự sự, miêu tả,.).",
+      "Là văn bản dùng để thuyết phục, trong đó người viết sử dụng phương thức thuyết\nminh kết hợp với một hoặc nhiều phương thức biểu đạt khác (biểu cảm, tự sự, miêu tả,.)."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q17",
+    "examId": "vact-empire-de-04",
+    "number": 17,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Ba dương đã gặp thuở thì vần,\nBốn bể đều mừng một chúa xuân.\n(Họa Nguyên đán, Hồng Đức quốc âm thi tập)\nHình ảnh “xuân – chúa xuân” chủ yếu nhằm thể hiện nội dung nào sau đây?",
+    "options": [
+      "Ngợi ca vẻ đẹp mùa xuân lan tỏa khắp không gian đất nước.",
+      "Ca ngợi thiên nhiên hài hòa, trời đất vận hành thuận theo quy luật.",
+      "Tôn vinh vị vua sáng, đem lại thái bình cho muôn dân.",
+      "Thể hiện niềm vui chung của nhân dân trong ngày đầu năm mới."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q18",
+    "examId": "vact-empire-de-04",
+    "number": 18,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Thanh niên phải có tinh thần xung phong, gương mẫu; bất cứ việc gì\ntập thể cần thì thanh niên phải làm với tinh thần trách nhiệm cao nhất; song phải luôn luôn khiêm tốn, thật thà, không được phô trương, dối trá. Đó cũng là một thái độ đúng\nđắn của thanh niên đối với nhân dân, của cá nhân đối với tập thể. Thanh niên phải dành\nthì giờ nhất định để giúp đỡ cha mẹ, săn sóc các em, chăm lo một phần công việc gia đình.\nNgười thanh niên nào không biết tí gì đến việc nhà, không kính yêu cha mẹ, không thương\nmến người thân trong gia đình thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực\nsự được? Thanh niên cần phải biết tổ chức tốt cuộc sống gia đình hợp với những tiêu\nchuẩn đạo đức mới nhằm tạo điều kiện cho mọi người trong gia đình làm tròn nghĩa vụ\ncông dân, hoàn thành nhiệm vụ cách mạng”.\n(Lê Duẩn - Con đường tu dưỡng rèn luyện đạo đức của thanh niên)\n“Người thanh niên nào không biết tí gì đến việc nhà… thì ngoài xã hội làm sao có lòng\nyêu mến nhân dân thực sự được?” đóng vai trò gì trong đoạn văn?",
+    "options": [
+      "Nhấn mạnh mối quan hệ tất yếu giữa đạo đức gia đình và trách nhiệm xã hội.",
+      "Bộc lộ cảm xúc phê phán trực tiếp của người viết đối với thanh niên thiếu trách nhiệm\ntrong đời sống.",
+      "Đặt ra một vấn đề mới nhằm mở rộng nội dung bàn luận tiếp theo.",
+      "Gợi suy nghĩ cho người đọc về khó khăn của thanh niên trong đời sống nhân dân."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q19",
+    "examId": "vact-empire-de-04",
+    "number": 19,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "“Vì điều kiện cơ sở vật chất còn hạn chế, đặc biệt là ở các trường thuộc\nvùng sâu vùng xa, nơi đội ngũ giáo viên còn thiếu và yếu.” Câu trên là câu:",
+    "options": [
+      "Thiếu vị ngữ",
+      "Thiếu một vế của câu ghép",
+      "Thiếu định ngữ",
+      "Là câu rút gọn"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q20",
+    "examId": "vact-empire-de-04",
+    "number": 20,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Dòng nào dưới đây có các từ viết đúng chính tả?",
+    "options": [
+      "Giành dụm, để dành, tranh giành.",
+      "Dành dụm, để giành, tranh dành.",
+      "Dành dụm, để dành, tranh giành.",
+      "Giành dụm, để dành, tranh dành.\nDựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25\n“Dọc khắp các vùng quê, đâu cũng có những ngôi đình, ngôi chùa để nhân dân cầu bình\nan. Muốn bình yên cần học cách đối xử hiền hòa với thiên nhiên. Vào thời điểm này,\nnhững con sông bậc nhất Bắc Kỳ, dòng sông của thi ca, dòng sông và tiếng hát quan họ\nvẫn còn lóng lánh đón mặt trời vào mỗi sớm mai, còn đong đưa những thứ ánh sáng\nhuyền diệu của trăng lên, những canh hát hội, tiếng gõ mạn thuyền gọi cá tôm vào lưới.\nNgười Bắc Giang đang có những dòng sông đẹp như cô gái đang thời xuân sắc. Giá trị\ntrong lành của những dòng sông không nơi nào có được, cần phải giữ gìn và nâng cao\nchất lượng của dòng nước. Thiên nhiên ban cho người Bắc Giang những dòng sông, ngọn\nnúi đẹp, là những báu vật để dành cho tương lai. Ở những nước giàu có, nhờ những dòng\nsông đẹp, nhiều nơi đã phát triển được hệ thống đường thủy trong giao thương và du\nlịch. Mọi dòng sông đều đổ hết về biển lớn. Trên hành trình về biển, sông đi qua bao gian\nkhó và thử thách. Có lẽ mơ ước của những dòng sông đổ về biển lớn mang theo mơ ước\ncủa người Bắc Giang về sự hội nhập và phát triển kinh tế - văn hóa - xã hội cũng từ đây”.\n(Những dòng nước huyền thoại, Nguyễn Thị Thu Hà, Ngàn năm dưới bóng quê nhà,\ntrang 81-82, NXB Quân đội Nhân dân 2018)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q21",
+    "examId": "vact-empire-de-04",
+    "number": 21,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Theo đoạn trích, vì sao những dòng sông Bắc Giang được ví như “cô\ngái đang thời xuân sắc”?",
+    "options": [
+      "Vì vẻ đẹp trong trẻo, tràn đầy sức sống và giá trị tự nhiên quý giá.",
+      "Vì các dòng sông gắn bó mật thiết với đời sống văn hóa người dân.",
+      "Vì dòng sông mang vẻ đẹp thơ mộng, giàu chất trữ tình và thi ca.",
+      "Vì các dòng sông hứa hẹn tiềm năng phát triển kinh tế, du lịch."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q22",
+    "examId": "vact-empire-de-04",
+    "number": 22,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Ý nghĩa của câu “Mọi dòng sông đều đổ hết về biển lớn” trong ngữ\ncảnh đoạn trích là gì?",
+    "options": [
+      "Khẳng định quy luật tự nhiên tất yếu của các dòng sông.",
+      "Gợi ẩn dụ về khát vọng hội nhập và phát triển của con người.",
+      "Nhấn mạnh vai trò kết nối địa lý giữa sông ngòi và biển cả.",
+      "Ca ngợi vẻ đẹp bền bỉ của dòng sông qua nhiều thử thách."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q23",
+    "examId": "vact-empire-de-04",
+    "number": 23,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Dòng nào sau đây nêu đúng nhất hiệu quả nghệ thuật của biện pháp\nẩn dụ “hành trình về biển” của những dòng sông ở cuối đoạn văn?",
+    "options": [
+      "Làm nổi bật quy luật vận động tự nhiên của sông ngòi trong không gian rộng lớn.",
+      "Gợi liên tưởng biểu tượng về con đường hội nhập và phát triển của con người.",
+      "Tăng tính trữ tình cho đoạn văn bằng hình ảnh thiên nhiên giàu chất thơ.",
+      "Nhấn mạnh vẻ đẹp bền bỉ của dòng sông trước thử thách thời gian."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q24",
+    "examId": "vact-empire-de-04",
+    "number": 24,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Câu văn: \"Thiên nhiên ban cho người Bắc Giang những dòng sông,\nngọn núi đẹp, là những báu vật để dành cho tương lai\" sử dụng thành phần biệt lập nào?",
+    "options": [
+      "Thành phần gọi – đáp.",
+      "Thành phần phụ chú",
+      "Thành phần tình thái.",
+      "Thành phần cảm thán."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q25",
+    "examId": "vact-empire-de-04",
+    "number": 25,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Thông điệp cốt lõi mà đoạn trích muốn gửi gắm đến người đọc là gì?",
+    "options": [
+      "Thiên nhiên Bắc Giang giàu vẻ đẹp thơ mộng và tiềm năng phát triển.",
+      "Cần trân trọng, gìn giữ thiên nhiên như nền tảng cho phát triển bền vững.",
+      "Con người cần khai thác hợp lí các dòng sông cho kinh tế và du lịch.",
+      "Các dòng sông góp phần kết nối văn hóa và đời sống tinh thần cộng đồng.\nDựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc Khốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, Nghĩ thêm về Nguyễn, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội,\n1986)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q26",
+    "examId": "vact-empire-de-04",
+    "number": 26,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Đoạn thơ trên được viết theo thể thơ nào?",
+    "options": [
+      "Thơ lục bát.",
+      "Thơ tự do",
+      "Thơ thất ngôn bát cú.",
+      "Thơ bốn chữ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q27",
+    "examId": "vact-empire-de-04",
+    "number": 27,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Câu thơ “Mượn câu Kiều hóa thạch cuộc đời riêng” ngụ ý điều gì về\nmối quan hệ giữa Nguyễn Du và tác phẩm Truyện Kiều?",
+    "options": [
+      "Cuộc đời riêng của Nguyễn Du được kết tinh, bất tử hóa trong tác phẩm.",
+      "Tác phẩm phản ánh trực tiếp những bất công, đau khổ số phận cá nhân tác giả.",
+      "Nguyễn Du vay mượn chất liệu dân gian để kể chuyện đời mình.",
+      "Truyện Kiều là nơi tác giả giãi bày nỗi đau thời thế chung."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q28",
+    "examId": "vact-empire-de-04",
+    "number": 28,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Câu thơ “Tiếng súng đại phá quân Thanh còn phải ở bên ngoài” cho\nthấy đặc điểm gì trong bút pháp của Nguyễn Du khi viết Truyện Kiều?",
+    "options": [
+      "Đặt các sự kiện lịch sử trực tiếp vào trung tâm thế giới nghệ thuật.",
+      "Xem lịch sử – chiến tranh, lòng nhân đạo là cảm hứng chủ đạo của sáng tác.",
+      "Cố ý giữ khoảng cách với biến cố lịch sử để tập trung vào số phận con người.",
+      "Né tránh hiện thực thời đại bằng cách mượn bối cảnh bên ngoài nhưng có lòng trắc ẩn."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q29",
+    "examId": "vact-empire-de-04",
+    "number": 29,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Theo đoạn thơ, yếu tố nào đã tạo nên “châu ngọc” cho thơ Nguyễn Du?",
+    "options": [
+      "Những sóng gió dữ dội của cuộc đời và trải nghiệm nhân sinh sâu sắc.",
+      "Tài năng nghệ thuật thiên bẩm và khả năng sử dụng ngôn ngữ điêu luyện.",
+      "Ảnh hưởng của thời đại lịch sử nhiều biến động và chiến tranh.",
+      "Sự tiếp thu tinh hoa văn hóa dân gian và văn học nước ngoài."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q30",
+    "examId": "vact-empire-de-04",
+    "number": 30,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Đáp án nào sau đây KHÔNG thể hiện nghệ thuật của đoạn thơ?",
+    "options": [
+      "Sử dụng hệ thống hình ảnh ẩn dụ giàu sức gợi và tầng nghĩa biểu tượng.",
+      "Kể lại trực tiếp, cụ thể các sự kiện lịch sử theo trình tự thời gian.",
+      "Kết hợp giọng điệu suy tưởng, triết luận với cảm xúc ngợi ca sâu lắng.",
+      "Vận dụng liên văn bản, đối thoại với Truyện Kiều và hình tượng Nguyễn Du.\n1.2. TIẾNG ANH Questions 31-35: Choose a suitable word or phrase (A, B, C, or D) to fill in each blank."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q31",
+    "examId": "vact-empire-de-04",
+    "number": 31,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "[EMPIRE TEAM] Notwithstanding weeks of practice, Jenny spoke _________ her\nclassmates in the debate competition.",
+    "options": [
+      "less confidently than",
+      "the most confidently",
+      "so confidently as",
+      "more confidently than"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q32",
+    "examId": "vact-empire-de-04",
+    "number": 32,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "We were both very excited about the visit, as we ______________ each\nother for ages.",
+    "options": [
+      "never saw",
+      "didn’t see",
+      "hadn’t seen",
+      "haven’t seen"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q33",
+    "examId": "vact-empire-de-04",
+    "number": 33,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The course is designed to improve skills in __________, equipping\nparticipants with techniques to convey ideas clearly.",
+    "options": [
+      "communications effective business",
+      "business communication effectively",
+      "business effective communication",
+      "effective business communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q34",
+    "examId": "vact-empire-de-04",
+    "number": 34,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The survey revealed that ______ of respondents preferred online\nlearning over traditional classroom seĴings.",
+    "options": [
+      "too many",
+      "huge amounts",
+      "the majority",
+      "most"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q35",
+    "examId": "vact-empire-de-04",
+    "number": 35,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In a small apartment, you can often ____________ very liĴle furniture\nif the space is well organized.",
+    "options": [
+      "get by",
+      "get round to",
+      "run away with",
+      "get away with\nQuestions 36-40: Each of the following sentences has one error (A, B, C, or D). Find it."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q36",
+    "examId": "vact-empire-de-04",
+    "number": 36,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The researcher published their findings on the impact of artificial\nintelligence on modern healthcare.",
+    "options": [
+      "published",
+      "their",
+      "intelligence",
+      "on"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q37",
+    "examId": "vact-empire-de-04",
+    "number": 37,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Finding my grandfather's faded wartime leĴers in a dusty corner’s the\naĴic was a profoundly moving experience.",
+    "options": [
+      "Finding",
+      "grandfather's",
+      "corner’s",
+      "was"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q38",
+    "examId": "vact-empire-de-04",
+    "number": 38,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Two-thirds of the fertile land in the delta region have been converted\ninto residential areas over the past decade.",
+    "options": [
+      "Two-thirds",
+      "have",
+      "converted into",
+      "residential\nareas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q39",
+    "examId": "vact-empire-de-04",
+    "number": 39,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The treaty, which terms were negotiated in secret, created an alliance\nthat would shape the century.",
+    "options": [
+      "which",
+      "were",
+      "an alliance",
+      "the"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q40",
+    "examId": "vact-empire-de-04",
+    "number": 40,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The injured were taken to the hospital immediately, while the police\nsecured the accident scene.",
+    "options": [
+      "The injured",
+      "the hospital",
+      "the police",
+      "the\nQuestions 41-45: Which of the following best restates each of the given sentences?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q41",
+    "examId": "vact-empire-de-04",
+    "number": 41,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "“Stop comparing yourself to others and focus on your own progress,”\nthe author advised readers.",
+    "options": [
+      "The author advised readers to stop comparing themselves to others and to focus on\ntheir own progress.",
+      "The author warned readers against comparing themselves to others and focusing on\ntheir own progress.",
+      "The author suggested readers should stop comparing themselves to others for focusing\non their own progress.",
+      "The author reminded readers of stopping comparing themselves to others and focusing\non their own progress."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q42",
+    "examId": "vact-empire-de-04",
+    "number": 42,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "He missed the deadline, so he was not considered for the position.",
+    "options": [
+      "If he had not missed the deadline, he would have been considered for the position.",
+      "If he did not miss the deadline, he would be considered for the position.",
+      "He would not have been considered for the position if he had met the deadline.",
+      "Unless he had missed the deadline, he would not be considered for the position."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q43",
+    "examId": "vact-empire-de-04",
+    "number": 43,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The library’s new digital system is more convenient and reliable than\nany other one the school has used before.",
+    "options": [
+      "No previous system used by the school was as convenient and reliable as the library’s\nnew digital system.",
+      "The school had used many systems before, and the new one is less reliable but more\nconvenient.",
+      "The library’s digital system is as reliable as previous ones, but it is more convenient.",
+      "Earlier systems used by the school were more reliable than the new digital one in the\nlibrary."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q44",
+    "examId": "vact-empire-de-04",
+    "number": 44,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The company experienced a series of technical problems, which\npostponed the product launch for almost a month.",
+    "options": [
+      "Although the company faced technical problems, it still launched the product on\nschedule.",
+      "A series of technical problems led to the product launch being delayed by nearly a\nmonth.",
+      "The product was launched successfully because the company solved technical\nproblems quickly.",
+      "The company postponed the product launch, but the technical problems were too\nminor to maĴer."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q45",
+    "examId": "vact-empire-de-04",
+    "number": 45,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Many psychologists argue that this trend reflects a deeper human need\nto make sense of personal change.",
+    "options": [
+      "This trend is argued by many psychologists to have reflected a deeper human need to\nmake sense of personal change.",
+      "This trend is argued to reflect a deeper human need to make sense of personal change\nby many psychologists.",
+      "This trend is argued by many psychologists to reflect a deeper human need to make\nsense of personal change.",
+      "This trend is argued by many psychologists to be reflecting a deeper human need to\nmake sense of personal change.\nQuestions 46-52: Read the passage carefully.\nConfidence is not something people are born with — it is a skill developed through daily\nchoices and mindset shifts. One of the first steps is to stop comparing yourself to others.\nSocial media can easily make you feel inadequate, but constant comparison often leads to\nenvy and low self-esteem. Research has shown that when people measure their worth\nagainst others, their confidence decreases. The key is to focus on your own progress\ninstead of someone else’s highlight reel. Keeping a gratitude journal and reminding\nyourself of your strengths can help you shift aĴention back to what truly maĴers: your\nown journey.\nAnother crucial step in building confidence is surrounding yourself with people who\nuplift you. The company you keep can strongly influence how you feel about yourself.\nSpend time with supportive friends who celebrate your successes and accept your\nimperfections. Likewise, taking care of your physical and mental health strengthens your\nsense of self-worth. Regular exercise, nutritious food, adequate sleep, and mindfulness\npractices such as meditation all contribute to a positive self-image and emotional balance.\nWhen you treat your body with respect, you signal to yourself — and to others — that\nyou maĴer.\nSelf-compassion and positive self-talk also play a central role. Many people underestimate\nhow much inner dialogue affects their confidence. Negative thoughts like “I can’t do this”\nor “I’m not good enough” can become self-fulfilling. By reframing them into affirmations\n— “I can learn this” or “I’ll try again next time” — you strengthen your mental resilience.\nSimilarly, facing your fears instead of avoiding them helps you grow braver over time.\nEach small victory — whether it’s speaking in public, applying for a job, or trying\nsomething new — rewires your brain to believe in your own abilities.\nFinally, real confidence comes from balance. Set realistic goals instead of impossible ones,\nand know when to say no to things that drain your energy. Focusing on what you do well\nreinforces self-trust, while protecting your boundaries preserves it. Over time, confidence\nbecomes less about perfection and more about self-acceptance. Believing in yourself\ndoesn’t mean ignoring your flaws — it means acknowledging them without leĴing them\ndefine you. Confidence, at its core, is not arrogance or luck; it’s quiet assurance built\nthrough self-awareness, compassion, and consistent effort.\n(Adapted from: hĴps://www.verywellmind.com/how-to-boost-your-self-confidence-4163098)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q46",
+    "examId": "vact-empire-de-04",
+    "number": 46,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The best title of the passage can be __________.",
+    "options": [
+      "Why Confidence Is Often Mistaken for Arrogance",
+      "The Role of Social Media in Destroying Self-Worth",
+      "Practical Ways to Develop Lasting Self-Confidence",
+      "How Mental Strength Depends Entirely on Daily Success"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q47",
+    "examId": "vact-empire-de-04",
+    "number": 47,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In paragraph 1, the word “highlight reel” means __________.",
+    "options": [
+      "a carefully edited display of someone’s best moments",
+      "a public record of personal success and setbacks",
+      "an honest account of one’s daily routine",
+      "a collection of achievements recognized by experts"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q48",
+    "examId": "vact-empire-de-04",
+    "number": 48,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The word \"uplift\" in paragraph 2 most nearly means ________.",
+    "options": [
+      "embolden",
+      "exalt",
+      "soothe",
+      "praise"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q49",
+    "examId": "vact-empire-de-04",
+    "number": 49,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In paragraph 2, it is NOT mentioned that supportive friends ____.",
+    "options": [
+      "appreciate your achievements",
+      "accept your shortcomings",
+      "encourage your personal growth",
+      "protect you from every emotional difficulty"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q50",
+    "examId": "vact-empire-de-04",
+    "number": 50,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "It is suggested in paragraph 3 that _____.",
+    "options": [
+      "success in life depends mainly on effort rather than on the environment",
+      "people should avoid difficult situations until they feel fully ready",
+      "confidence grows when people gradually challenge what scares them",
+      "inner fears usually disappear only after others offer encouragement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q51",
+    "examId": "vact-empire-de-04",
+    "number": 51,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "It is implied in paragraph 4 that genuine confidence ________.",
+    "options": [
+      "requires achieving perfection in all areas of life",
+      "involves accepting limitations without being defined by them",
+      "depends primarily on external validation from others",
+      "is fundamentally incompatible with acknowledging personal flaws"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q52",
+    "examId": "vact-empire-de-04",
+    "number": 52,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "What can be inferred from the passage?",
+    "options": [
+      "Confidence develops naturally without deliberate effort.",
+      "External validation is the primary source of self-worth.",
+      "Self-acceptance maĴers more than flawlessness.",
+      "Avoiding fears is an effective confidence-building strategy.\nQuestions 53-60: Read the passage carefully.\nIn recent months, social media has been filled with videos in which people “speak” to the\nperson they were ten years ago. Using old photographs, editing tools, and split-screen\neffects, they create an imaginary conversation between their younger and present selves.\nAt first glance, the trend may seem sentimental or purely entertaining. Yet many psychologists would argue that it reflects something deeper: humans need to make sense\nof personal change over time and to see one’s life as a meaningful story rather than a series\nof disconnected events.\nOne reason this trend resonates so widely is that it allows people to look at the past from\na safer emotional distance. Instead of reliving an old disappointment from inside the\nconfusion of that moment, they can now examine it with greater maturity and perspective.\nA memory that once caused embarrassment may appear less like evidence of failure and\nmore like proof of effort, endurance, or growth. This shift can be especially meaningful\nfor people who have long struggled with self-doubt, because it helps them see that their\npresent abilities were not the result of luck alone, but of gradual learning through\nexperience.\nThe practice also challenges the idea that life should unfold according to a fixed timetable.\nMany people grow up believing that by a certain age they should already have achieved\ncareer success, financial stability, or emotional certainty. Social media often strengthens\nthis pressure by presenting polished highlights rather than the hidden struggles behind\nthem. Looking back over a period of ten years, however, often reveals that development\nis rarely smooth or predictable. Progress may be slow, uneven, and invisible for long\nstretches, yet that does not make it unreal. What maĴers is not whether someone has\nfollowed a universal schedule, but whether they have continued moving forward in their\nown way.\nAnother important benefit of this kind of reflection is that it can deepen self-compassion.\nWhen people imagine speaking to their younger selves, they are often less harsh than they\nwould be in ordinary self-criticism. They may recognize that the person they once were\nwas doing the best they could with limited confidence, knowledge, or support. Instead of\ncondemning past mistakes, they may begin to understand them as natural parts of\ngrowing up. This kinder interpretation does not excuse poor decisions, but it does place\nthem in a broader human context, making it easier to learn from them without becoming\ntrapped in shame.\nFor that reason, the value of this trend lies not in nostalgia alone, but in the insight it can\nproduce. Looking back should not be an exercise in regret or self-punishment. Rather, it\ncan help people integrate the past into a fuller understanding of who they are now. Every\nstage of life, including the awkward or painful ones, contributes something to personal\nidentity. By acknowledging that continuity, individuals may become more resilient, more\npatient with themselves, and more hopeful about the future. In the end, speaking to one’s\nyounger self is really another way of learning how to speak more wisely to the person one\nis today.\n(Adapted from: greater good and various sources)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q53",
+    "examId": "vact-empire-de-04",
+    "number": 53,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Which of the following best serves as the title of the passage?",
+    "options": [
+      "From Self-Criticism to Self-Compassion: A Guide",
+      "The Growing Popularity of Self-Editing Trends Online",
+      "Speaking to Your Younger Self: More Than a Digital Fad",
+      "Why Looking Backward Helps Us Move Forward"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q54",
+    "examId": "vact-empire-de-04",
+    "number": 54,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The word “imaginary” in the first paragraph could be best replaced\nwith __________.",
+    "options": [
+      "artificial",
+      "fictional",
+      "invisible",
+      "memorable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q55",
+    "examId": "vact-empire-de-04",
+    "number": 55,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In paragraph 2, the word “it” in refers to ______________.",
+    "options": [
+      "memory",
+      "growth",
+      "shift",
+      "belief"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q56",
+    "examId": "vact-empire-de-04",
+    "number": 56,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "It is stated in paragraph 2 that ________.",
+    "options": [
+      "people can revisit painful memories with greater calm once time has created some\ndistance",
+      "embarrassing moments don’t remain the strongest proof that a person has truly failed",
+      "present confidence often develops through self-reflection rather than through\nevaluation",
+      "those who doubt themselves tend to forget how much effort has shaped their success"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q57",
+    "examId": "vact-empire-de-04",
+    "number": 57,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "According to paragraph 3, the passage suggests that real progress\n__________.",
+    "options": [
+      "should be judged by whether it matches common social expectations",
+      "becomes increasingly visible only when examined across a longer period",
+      "depends mainly on reaching stability by a certain age",
+      "lies in the journey you take and in never stopping moving forward."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q58",
+    "examId": "vact-empire-de-04",
+    "number": 58,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In paragraph 4, it is NOT mentioned that imagining a conversation with\none’s younger self may _____________.",
+    "options": [
+      "encourage a less severe judgment of past errors",
+      "help people recognize the limits under which they once acted",
+      "justify every poor choice as unavoidable and acceptable",
+      "reduce the likelihood of remaining stuck in shame"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q59",
+    "examId": "vact-empire-de-04",
+    "number": 59,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "It can be inferred from paragraph 5 that understanding one’s life as\ncontinuous may help individuals ______.",
+    "options": [
+      "avoid remembering painful stages of personal development",
+      "become more accepting of imperfection while staying future-oriented",
+      "separate their present identity completely from earlier experiences",
+      "focus less on growth and more on preserving old memories"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q60",
+    "examId": "vact-empire-de-04",
+    "number": 60,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Paragraphs 2, 3, 4, and 5 present ____________ respectively as benefits\nof the trend.",
+    "options": [
+      "emotional distance from the past, freedom from fixed timing, greater self-kindness, and\na stronger sense of identity",
+      "clearer judgment of mistakes, pressure from online success, kinder views of failure, and\na more hopeful social outlook",
+      "renewed confidence in memory, rejection of public standards, escape from self-\ncriticism, and acceptance of future change",
+      "mature reflection on failure, resistance to comparison, forgiveness of bad choices, and\nrecovery from painful regret\nPHẦN 2. TOÁN HỌC"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q61",
+    "examId": "vact-empire-de-04",
+    "number": 61,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Số nghiệm thực của hệ phương trình\n2\n1\n4 1\n2 1 0\nx\nx\ny\ny\n   \n    \nlà:",
+    "options": [
+      "1.",
+      "3.",
+      "0.",
+      "2."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A.\n   2 2 1\n1 1\n2 0 4\n2 4 1 3.4 4.2 0 1 2 4 1 0 4 3 2 3 2 1 0 1 2.2 1 2 1 2.2\n1 2.2\nx\nx x x x x x\nx\nx x x x\nx\nVN\ny\ny y y y\ny\n\n \n                               \n                      \n.\nVậy hệ phương trình có 1 nghiệm."
+  },
+  {
+    "id": "empire-de4-q62",
+    "examId": "vact-empire-de-04",
+    "number": 62,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tìm m để phương trình 2 2 2 1 x mx x     có hai nghiệm phân\nbiệt.",
+    "options": [
+      "9\n2\nm  .",
+      "1 m  .",
+      "9\n2\nm  .",
+      "1 m  ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phương trình 2\n1\n2\n3 (4 ) 1 0 (*)\nx\nx m x\n     \n     \n.\nPhương trình đã cho có hai nghiệm (*)  có hai nghiệm phân biệt lớn hơn hoặc bằng\n1\n2\n  đồ thị hàm số 2 3 (4 ) 1 y x m x     trên 1\n[ ; )\n2\n  cắt trục hoành tại hai\nđiểm phân biệt.\nXét hàm số 2 3 (4 ) 1 y x m x     trên 1\n[ ; )\n2\n  . Ta có 4\n2 6\nb m\na\n\n \n+ TH1: Nếu 4 1 1\n6 2\nm m\n     thì hàm số đồng biến trên 1\n[ ; )\n2\n  nên 1 m \nkhông thỏa mãn yêu cầu bài toán. + TH2: Nếu 4 1 1\n6 2\nm m\n     :\nTa có bảng biến thiên\nx 1\n2\n 4\n6\nm  \ny\n1\n2\ny         \n4\n6\nm\ny          \nSuy ra đồ thị hàm số 2 3 (4 ) 1 y x m x     trên 1\n[ ; )\n2\n  cắt trục hoành tại hai\nđiểm phân biệt 1 4\n0\n2 6\nm\ny y\n                            2 2 9 1\n0 8 28\n4 12\nm m m\n\n     \n(1)\nVì  2 2 8 28 4 12 0, m m m m          nên\n9\n(1) 2 9 0 2\nm m      (thỏa mãn 1 m  )\nVậy 9\n2\nm  là giá trị cần tìm."
+  },
+  {
+    "id": "empire-de4-q63",
+    "examId": "vact-empire-de-04",
+    "number": 63,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "[EMPIRE TEAM] Cho a , b , c 1  . Biết rằng biểu thức\n      4 a b c P log bc log ac log ab    đạt giá trị nhất m khi b log c n  . Tính giá trị m n  .",
+    "options": [
+      "12 m n   .",
+      "25\n2\nm n   .",
+      "14 m n   .",
+      "10 m n   ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A\nTa có 4 4 a a b b c c P log b log c log a log c log a log b       \n1 4 4\na a b\na a b\nP log b log c log c\nlog b log c log c\n     \n           \n     \n2 4 4 10      10 m  .\nDấu đẳng xảy ra khi 1 a log b  , 2 a log c  , 2 b log c   2 n .\nVậy 12 m n   ."
+  },
+  {
+    "id": "empire-de4-q64",
+    "examId": "vact-empire-de-04",
+    "number": 64,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho đồ thị vô hướng có trọng số như hình vẽ. Số ghi trên mỗi cạnh là\nđộ dài quãng đường (km).\nMột xe điện phục vụ nội bộ đi từ A đến E với vận tốc không đổi 30 km/h.\nBiết rằng:\n nếu đi qua C, xe phải dừng 6 phút để nhận hiện vật;\n nếu đi qua I, xe phải dừng 7 phút để qua cổng an ninh trung tâm;\n nếu đi qua F, xe phải dừng 2 phút để bàn giao thiết bị.\nHỏi thời gian ít nhất để xe đi từ A đến E là bao nhiêu?",
+    "options": [
+      "22 phút",
+      "24 phút",
+      "27 phút",
+      "28 phút"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Vận tốc: 30 km/h 1 km  đi mất 2 phút.\nLộ trình tối ưu (né trạm I và C): A H G F E    \nThời gian chạy: (4 3 2 2) 2 22 phút      .\nThời gian chờ: Chỉ dừng tại trạm F mất 2 phút.\nTổng thời gian: 22 2 phút   24 .\n Chọn đáp án B."
+  },
+  {
+    "id": "empire-de4-q65",
+    "examId": "vact-empire-de-04",
+    "number": 65,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Có năm địa điểm , , , , A B C D E . Một số địa điểm có đường đi tới\nnhau môt tả bằng các cạnh với độ dài quãng đường tính theo kilomet cho bởi số\ngắn với cạnh đó như hình vẽ. Một người đưa thư xuất phát từ bưu điện ở vị trí C\n, cần đi qua tất cả các đường và sau đó phải trở về vị trí ban đầu C . Tổng số\nkilomet mà người đưa thư phải đi nhỏ nhất là bao nhiêu?",
+    "options": [
+      "43",
+      "38",
+      "39",
+      "40"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Đi từ C đến E theo đường đi Euler dài: 2 1 4 3 5 6 10 31       \nĐi từ E đến C với quảng đường ngắn nhất dài: 5 1 2 8   \nVậy tổng số kilomet mà người đưa thư phải đi nhỏ nhất là 31 8 39   ."
+  },
+  {
+    "id": "empire-de4-q66",
+    "examId": "vact-empire-de-04",
+    "number": 66,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Từ một miếng tôn có hình dạng là nửa đường tròn bán kính 1 m , người\nta cắt ra một hình chữ nhật. Hỏi có thể cắt được miếng tôn có diện tích lớn nhất là bao\nnhiêu?",
+    "options": [
+      "2\n1, 6 m .",
+      "2\n2 m .",
+      "2\n1 m .",
+      "2\n0,8 m ."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chọn C.\nXét đường tròn bán kính 1, ta cắt trên đó một hình chữ nhật ABCD .\nKhi đó 1 . .sin\n2\nABCD S AC BD   2 sin 2    .\nDấu bằng xảy ra khi và chỉ khi 90    .\nVậy diện tích lớn nhất của miếng tôn cắt trên nửa đường tròn bằng 1."
+  },
+  {
+    "id": "empire-de4-q67",
+    "examId": "vact-empire-de-04",
+    "number": 67,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Số giờ có ánh sáng của một thành phố A trong ngày thứ t của năm\n2017 được cho bởi một hàm số   4sin 60 10\n178\ny t\n\n   , với t Z  và 0 365 t   . Vào\nngày nào trong năm thì thành phố A có nhiều giờ ánh sáng mặt trời nhất?.",
+    "options": [
+      "28 tháng 5 .",
+      "29 tháng 5 .",
+      "30 tháng 5 .",
+      "31 tháng 5 ."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chọn B.\nVì     sin 60 1 4sin 60 10 14\n178 178\nt y t\n \n       .\nNgày có ánh nắng mặt trời chiếu nhiều nhất\n    14 sin 60 1 60 2 149 356\n178 178 2\ny t t k t k\n                .\nMà 149 54\n0 365 0 149 356 365 356 89\nt k k           .\nVì k  nên 0 k  . Với 0 149 k t    tức rơi vào ngày 29 tháng 5 (vì ta đã biết tháng 1 và 3 có 31 ngày,\ntháng 4 có 30 ngày, riêng đối với năm 2017 thì không phải năm nhuận nên tháng 2 có\n28 ngày hoặc dựa vào dữ kiện 0 365 t   thì ta biết năm này tháng 2 chỉ có 28 ngày)."
+  },
+  {
+    "id": "empire-de4-q68",
+    "examId": "vact-empire-de-04",
+    "number": 68,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho hai vectơ a\n và b\n có 5 a \n , 12 b \n và 13 a b  \n  . Khi đó cosin\ncủa góc giữa hai vectơ a b \n  và a b \n  bằng",
+    "options": [
+      "12\n13 .",
+      "5\n12 .",
+      "119\n169\n .",
+      "119\n169 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có: 5, 12, 13 a b a b    \n   \n∣ ∣ ∣ ∣ ∣ ∣\nDùng công thức:\n2 2 2 2 a b a b a b     \n     \n∣ ∣ ∣ ∣ ∣ ∣ .\nThay số:\n2 2 2\n13 5 12 2a b      \n169 25 144 2a b      \n169 169 2 0 a b a b      \n   \nSuy ra a b   \n    a b a b a a a b b a b b           \n           \n2 2 25 144 119 a b      \n \n∣ ∣ ∣ ∣\nLại có\n2 2 2 2 25 144 169 a b a b a b        \n     \n∣ ∣ ∣ ∣ ∣ ∣\n13 a b  \n \n∣ ∣\nVà: 13 a b  \n \n∣ ∣\nSuy ra   ) ( 119 119\ncos 13 13 169\na b a b\na b a b\n   \n   \n   \n   \n   \n∣ ∣ ∣ ∣"
+  },
+  {
+    "id": "empire-de4-q69",
+    "examId": "vact-empire-de-04",
+    "number": 69,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho hàm số 2 1\ny 1\nx\nx\n\n  có đồ thị là   C . Lập phương trình tiếp tuyến\ncủa đồ thị   C sao cho tiếp tuyến này cắt các trục O , O x y lần lượt tại các điểm A , B\nthoả mãn OA 4OB. ",
+    "options": [
+      "1 5\n4 4\n1 13\n4 4\ny x\ny x\n    \n\n   \n\n.",
+      "1 5\n4 4\n1 13\n4 4\ny x\ny x\n    \n\n   \n\n.",
+      "1 5\n4 4\n1 13\n4 4\ny x\ny x\n    \n\n   \n\n.",
+      "1 5\n4 4\n1 13\n4 4\ny x\ny x\n    \n\n   \n\n."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A\nGiả sử tiếp tuyến   d của   C tại 0 0 ( ; ) ( ) M x y C  cắt Ox tại , A Oy tại B sao cho\n4O OA B  .\nDo OAB vuông tại O nên 1\ntan 4\nOB\nA OA\n   Hệ số góc của   d bằng 1\n4\nhoặc 1\n4\n .\nHệ số góc của   d là 0 2 2\n0 0\n1 1 1\n( ) 0 4 ( 1) ( 1)\ny x x x\n       \n \n0 0\n0 0\n3\n1 2\n5\n3 2\nx y\nx y\n  \n     \n      \n    \n  \nKhi đó có 2 tiếp tuyến thoả mãn là:\n1 3 1 5\n( 1)\n4 2 4 4\n1 5 1 13\n( 3)\n4 2 4 4\ny x y x\ny x y x\n \n        \n  \n        \n   \n."
+  },
+  {
+    "id": "empire-de4-q70",
+    "examId": "vact-empire-de-04",
+    "number": 70,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho dãy ( ) k x được xác định như sau: 1 2 ...\n2! 3! ( 1)!\nk\nk\nx k\n     .\nTìm lim n u với 1 2 2011 ...n n n n\nn u x x x     .",
+    "options": [
+      " .",
+      " .",
+      "1\n1 2012!\n .",
+      "1\n1 2012!\n"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chọn C\nTa có: 1 1\n( 1)! ! ( 1)!\nk\nk k k\n \n  nên 1\n1 ( 1)!\nk x k\n   .\nSuy ra 1 1\n1 1 0\n( 2)! ( 1)!\nk k k k x x x x\nk k\n       \n  .\nMà: 2011 1 2 2011 2011 ... 2011n n n n n x x x x x      .\nMặt khác: 2011 2011 2011\n1\nlim lim 2011 1 2012!\nn\nx x x     .\nVậy 1\nlim 1 2012!\nn u   ."
+  },
+  {
+    "id": "empire-de4-q71",
+    "examId": "vact-empire-de-04",
+    "number": 71,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "[EMPIRE TEAM] Trong mặt phẳng tọa độ Oxyz cho   E có phương trình\n \n2 2\n2 2 1, , 0\nx y a b\na b\n   và đường tròn   2 2\n: 7. C x y   Để diện tích elip   E gấp 7 lần\ndiện tích hình tròn   C khi đó.",
+    "options": [
+      "7 7 ab  .",
+      "49 ab  .",
+      "7 ab  .",
+      "7 ab  ."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chọn B.\n \n2 2 2 2\n2 2 1, , 0\nx y b\na b y a x\na a b\n      .\nDiện tích   E là.\n \n\n    \nd d\n2 2\n2 2\n0 0\n4 4\na a\nE\nb a x x b\nS a x x\na a .\nĐặt  \n      \n \nt t d tdt\n \nsin , ; cos\n2 2\nx a x a .\nĐổi cận:       t t\n\n0 0; 2\nx x a .\n         a .cos tdt 1+cos2t dt 2 2\n0 0\n4 2\na a\nE\nb\nS ab ab\na .\nMà ta có   2\n. 7 . C S π R π   .\nTheo giả thiết ta có           7. 49 49. E C S S ab ab ."
+  },
+  {
+    "id": "empire-de4-q72",
+    "examId": "vact-empire-de-04",
+    "number": 72,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Biết ( ) f x là hàm số liên tục trên  và 6\n0 ( )d 4 f x x   , 6\n2 ( )d 3. f t t    Khi\nđó  \n2\n0\n( ) 3 f v dv   bằng.",
+    "options": [
+      "1.",
+      "3 .",
+      "4 .",
+      "2 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A. .\n.\nDựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75\nCó hai hồ nuôi cá chép Nhật. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép\nmàu vàng, Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi\nbắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt\nngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất."
+  },
+  {
+    "id": "empire-de4-q73",
+    "examId": "vact-empire-de-04",
+    "number": 73,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Xác suất để chọn được con cá màu vàng từ hồ thứ hai:",
+    "options": [
+      "43\n210 .",
+      "121\n210 .",
+      "71\n210 .",
+      "169\n210 ."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chọn B.\nGọi 1 B là biến cố “Bắt được 2 con cá màu đỏ từ hồ thứ nhất”.\n2 B là biến cố “Bắt được 2 con cá màu vàng từ hồ thứ nhất”.\n3 B là biến cố “Bắt được 1 con cá màu đỏ và 1 con cá màu vàng từ hồ thứ nhất”.\nTa có:\n2\n7\n1 2\n15\n1\n( ) 15\nC\nP B C\n  ,\n2\n8\n2 2\n15\n4\n( ) 15\nC\nP B C\n  ,\n1 1\n7 8\n3 2\n15\n. 8\n( ) 15\nC C\nP B C\n  .\nGọi C là biến cố “bắt được con cá màu vàng từ hồ thứ hai” và D là biến cố “con cá màu\nvàng không bị đánh dấu”.\nTa có, 1 2 3 C CB CB CB    và 1 2 3 , , CB CB CB là các biến cố xung khắc.\nDo đó, 1 2 3 ( ) ( ) ( ) ( ) P C P CB P CB P CB   \n1 1 2 2 3 3 ( ). ( | ) ( ). ( | ) ( ). ( | ) P B P C B P B P C B P B P C B   \nTrong đó: 1 | C B là biến cố C xảy ra với điều kiện 1 B đã xảy ra”. Nếu 1 B đã xảy ra thì hồ\nthứ hai có 7 cá chép đỏ và 7 cá chép vàng. Do đó,\n1\n7\n1 1\n14\n1\n( | ) 2\nC\nP C B C\n  .\nTương tự, ta có:\n1\n9\n2 1\n14\n9\n( | ) 14\nC\nP C B C\n  ,\n1\n8\n3 1\n14\n4\n( | ) 7\nC\nP C B C\n  .\nSuy ra: 1 1 4 9 8 4 107\n( ) . . .\n5 2 15 14 15 7 210\nP C     ."
+  },
+  {
+    "id": "empire-de4-q74",
+    "examId": "vact-empire-de-04",
+    "number": 74,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Xác suất để chọn được con cá màu vàng không bị đánh dấu:",
+    "options": [
+      "7\n15 .",
+      "1\n3 .",
+      "1\n2 .",
+      "13\n30 ."
+    ],
+    "correctAnswer": 2,
+    "explanation": "       \n \n6 2 6 2\n0 0 2 0\n2\n0\n4 d d d d 3\nd 7\nf x x f x x f x x f x x\nf x x\n    \n \n   \n\n     \n2 2 2 2\n0 0 0 0\n3 d d 3 d dx 6 1 f v v f v v v f x               Chọn C.\nTa cũng có: 1 1 2 2 3 3 ( ) ( ). ( | ) ( ). ( | ) ( ). ( | ) P D P B P D B P B P D B P B P D B   \n1 1 4 1 8 1 1\n. . .\n5 2 15 2 15 2 2\n   "
+  },
+  {
+    "id": "empire-de4-q75",
+    "examId": "vact-empire-de-04",
+    "number": 75,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Giả sử con cá bắt được có màu vàng, tính xác suất để con cá màu vàng\nnày không bị đánh dấu.(làm tròn kết quả 2 chữ số thập phân)",
+    "options": [
+      "0,87 .",
+      "0,67 .",
+      "0,13 .",
+      "0,39 .\nDựa vào thông tin dưới đây để trả lời các câu hỏi từ 76 đến 77\nMột công ty cần in ít nhất 540 văn bản và 144 trang màu để chuẩn bị hội nghị. Có 2 máy\nin gồm hai loại M và N có thể thuê. Thời gian thuê tối đa cho cho máy loại M là 10 giờ,\nloại N là 12 giờ. Giá thuê lần lượt máy in loại M, N là 200 nghìn đồng/giờ và 180 nghìn\nđồng/giờ. Biết máy in loại M in được 40 văn bản/giờ và 8 trang màu/giờ, máy in loại N in\nđược 30 văn bản/giờ và 12 trang màu/giờ. Gọi x , y lần lượt là số giờ thuê máy M, N."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q76",
+    "examId": "vact-empire-de-04",
+    "number": 76,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Phương án thuê máy nào sau đây đáp ứng đủ số trang cần in và có chi\nphí thấp nhất?",
+    "options": [
+      "8, 6   x y .",
+      "6, 8   x y .",
+      "10, 4   x y .",
+      "9 ; 6   x y ."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chọn D"
+  },
+  {
+    "id": "empire-de4-q77",
+    "examId": "vact-empire-de-04",
+    "number": 77,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Chi phí thuê máy thấp nhất bằng.",
+    "options": [
+      "2960 .",
+      "2880 .",
+      "3060 .",
+      "2160 ."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chọn B\nCó x , y lần lượt là số giờ thuê máy M và N.   0; 0   x y\nThuê máy in loại M: giá 200 nghìn đồng/giờ\nSuy ra thuê x giờ là 200x nghìn đồng.\nThuê máy in loại N: giá 180 nghìn đồng/giờ\nSuy ra thuê y giờ là 180y nghìn đồng.\nTa có hệ ràng buộc\n \n \n \n \n \n0 10 1 0 10\n0 10 2 0 12 *\n40 30 540 4 3 54 3\n8 12 144 2 3 36 4\n                \n     \n       \nx x\nx y\nx y x y\nx y x y\nTrước hết ta biểu diễn miền nghiệm của hệ   * :\nVẽ các đường thẳng\n: 0\n: 10\n: 0\n: 12\n: 4 3 54\n: 2 3 36\n \n \n \n  \n  \n   \nOy x\na x\nOx y\nb y\nd x y\nm x y\n. Chọn   8; 10 E có tọa độ thỏa mãn tất cả các bất phương trình trong hệ, nên miền bị tô\nđậm là hình tứ giác ABCD , tính cả ba cạnh , , , AB BC CD AD trong hình vẽ dưới là miền\nnghiệm của hệ bất phương trình đã cho.\nTọa độ các điểm , , , A B C D\n+     A d b nên tọa độ của nó là nghiệm của hệ\n \n4 3 54 4,5 4,5 ;12\n12 12\n    \n   \n   \nx y x A\ny y .\n+     B b a nên tọa độ của nó là nghiệm của hệ  \n12 10 ;12\n10\n     \ny B\nx .\n+     C m a nên tọa độ của nó là nghiệm của hệ\n10\n2 3 36 16\n10 ; 16\n10 3\n3\nx\nx y C\nx y\n \n     \n          \n.\n+     D d m nên tọa độ của nó là nghiệm của hệ  \n4 3 54 9 9 ; 6\n2 3 36 6\n    \n   \n    \nx y x D\nx y y .\n* Tính giá trị của 200 180  x y tại tất cả các đỉnh của tứ giác ABCD .\n  ; x y   4, 5 ; 12 A   10 ; 12 B 16\n10 ; 3\n \n \n \nC   9 ; 6 D\n200 180  x y 3060 4160 2960 2880\nSuy ra giá trị nhỏ nhất 200 180  x y là 2880, hay chi phí thấp nhất khi 9 ; 6   x y .\nDựa vào thông tin dưới đây để trả lời các câu hỏi từ 78 đến 79\nCho cấp số cộng   n u có các số hạng đều dương, tổng 4 số hạng đầu bằng 44 và 1 2 45 u u "
+  },
+  {
+    "id": "empire-de4-q78",
+    "examId": "vact-empire-de-04",
+    "number": 78,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Công sai của cấp số cộng ( ) n u bằng:",
+    "options": [
+      "4 d  .",
+      "3 d  .",
+      "2 d  .",
+      "5 d  ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có   1 1\n4 1\n4 2 3 22 2\n44 2 3 22\n2 3\nu d u\nS u d d\n \n       (1) Ta có   1 1\n1 2 1 1 1 1 1\n22 2 22\n45 45 45 45\n3 3\nu u\nu u u u d u u u\n     \n            \n   \n  1 2\n1 1 1 1\n1\n5\n22 135 22 135 0 27\nu\nu u u u u\n \n           \n.\nVậy 1 5 u  , khi đó 22 2.5 4\n3\nd \n "
+  },
+  {
+    "id": "empire-de4-q79",
+    "examId": "vact-empire-de-04",
+    "number": 79,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho dãy số vô hạn   n v xác định bởi 1\n2\nnu\nn v  \n  \n  . Tính 1 2 ... S v v   ",
+    "options": [
+      "1\n30 .",
+      "1\n15 .",
+      "2\n15 .",
+      "1\n45 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có     1 1 5 1 4 4 1 n u u n d n n        \nKhi đó\n4 1\n1 1\n2 2\nnu n\nn v\n\n   \n     \n    ,\n  4 1 1 4 5\n1\n1 1\n2 2\nn n\nn v\n  \n\n   \n     \n   \nTa có\n4\n1 1 1\n2 16\nn\nn\nv\nv\n  \n   \n \nVậy   n v là một cấp số nhân với 1\n1\n32\nv  và 1\n16\nq \nKhi đó 1 2\n1\n1 32 ... 1 301 16\nS v v     \n\nDựa vào thông tin dưới đây để trả lời các câu hỏi từ 80 đến 81\nTrong không gian Oxyz , cho hai điểm   10; 6; 2 A  ,   5;10; 9 B  và mặt phẳng\n  : 2 2 12 0 x y z      ."
+  },
+  {
+    "id": "empire-de4-q80",
+    "examId": "vact-empire-de-04",
+    "number": 80,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Gọi , H K lần lượt là hình chiếu vuông góc của , A B trên mặt phẳng\n   . Tổng độ dài của hai đoạn thẳng , AH BK bằng",
+    "options": [
+      "4 .",
+      "6 .",
+      "8",
+      "9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "     \n2 2 2\n2.10 2.6 2 12\n; 6\n2 2 1\nAH d A     \n  \n  ;\n     \n2 2 2\n2.5 2.10 9 12\n; 3\n2 2 1\nBK d B     \n  \n  .\nNên 9 AH BK  "
+  },
+  {
+    "id": "empire-de4-q81",
+    "examId": "vact-empire-de-04",
+    "number": 81,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Điểm M di động trên    sao cho 2 MA MB  . Biết rằng M luôn\nthuộc một đường tròn    cố định. Hoành độ của tâm đường tròn    bằng",
+    "options": [
+      "2",
+      "1.",
+      "5 .",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gọi   ; ; M x y z , ta có:\n2 MA MB  2 2\n4 MA MB  \n           \n2 2 2 2 2 2\n10 6 2 4 5 10 9 x y z x y z              \n \n2 2 2 20 68 68 228 0\n3 3 3\nx y z x y z         .\nNhư vậy, điểm M nằm trên mặt cầu   S có tâm 10 34 34\n; ;\n3 3 3\nI  \n  \n  và bán kính 2 10 R \n. Do đó, đường tròn    là giao của mặt cầu   S và mặt phẳng    , nên tâm J của\nđường tròn D là hình chiếu vuông góc của I trên mặt phẳng    .\nPhương trình đường thẳng d đi qua I và vuông góc với mặt phẳng    là\n10 2\n3\n34 2\n3\n34\n3\nx t\ny t\nz t\n   \n\n   \n\n    \n\n.\nTọa độ điểm J là nghiệm   ; ; x y z của hệ phương trình:\n10 2\n3\n34 2\n3\n34\n3\n2 2 12 0\nx t\ny t\nz t\nx y z\n   \n\n   \n\n    \n\n     \n2\n10\n12\n2\n3\nx\ny\nz\nt\n \n \n   \n\n  \n\n.\nVậy   2;10; 12 J   .\nDựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84\nTrong mặt phẳng toạ độ Oxy, cho tam giác ABC có trực tâm   2;1 H  , chân đường cao\nhạ từ đỉnh C là   1; 2 K  . Trung điểm cạnh AC là   3; 4 I "
+  },
+  {
+    "id": "empire-de4-q82",
+    "examId": "vact-empire-de-04",
+    "number": 82,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Khoảng cách từ I đến AB là bao nhiêu?",
+    "options": [
+      "2 .",
+      "3 .",
+      "5 .",
+      "6 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "    1; 1 1;1     \n AB KH n\nAC đi qua   1; 2 K  và có   1;1 \nAB n\nSuy ra:     :1. 1 1. 2 0 : 1 0         AB x y AB x y\n   \n2 2\n3 4 1\n; 2\n1 1\n  \n \n\nd I AB"
+  },
+  {
+    "id": "empire-de4-q83",
+    "examId": "vact-empire-de-04",
+    "number": 83,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Phương trình tổng quát đường cao kẻ từ C có dạng\n0 ax y b    . Tính a b ",
+    "options": [
+      "2 .",
+      "4 .",
+      "3",
+      "5 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "        1; 1 1; 1 :1. 1 1. 2 0 CK KH u n CK x y            \n  \n: 3 0 CK x y    suy ra 1, 3 a b  "
+  },
+  {
+    "id": "empire-de4-q84",
+    "examId": "vact-empire-de-04",
+    "number": 84,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tổng bình phương hoành độ và tung độ của điểm A gần nhất là?",
+    "options": [
+      "141, 5",
+      "136, 2",
+      "146,1",
+      "145,3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "  : 1 0 ;1 A AB x y A t t      \nTheo đề bài yêu cầu:  2 2 2 2 2\n1 2 2 A A x y t t t t P        \n  3; 4 I  là trung điểm của AC suy ra:    \n2 2.3 6\n2 2. 4 1 9\nC I A\nC I A\nx x x t t\ny y y t t\n      \n         \nNên   6 ; 9 C t t   mà : 3 0 C CK x y    \nKhi đó     6 9 3 0 9 9 145 t t t P         \nDựa vào thông tin sau để trả lời câu hỏi từ 85 đến 87\nCho hàm số   \n \n2\n1\nx mx m\ny x C (với m tham số thực)"
+  },
+  {
+    "id": "empire-de4-q85",
+    "examId": "vact-empire-de-04",
+    "number": 85,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Với  1 m , khi đó phương trình đường thẳng đi qua 2 điểm cực trị của\nđồ thị hàm số là:",
+    "options": [
+      "y x  .",
+      "2 1 y x   .",
+      "2 1 y x   .",
+      "1 y x   ."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chọn C\nVới \n \n \n\n2\n1 1\n1\nm x x\ny x\nPhương trình đường thẳng đi qua 2 điểm cực trị của đồ thị hàm số là\n \n \n  \n   \n\n/ 2\n/\n1 2 1 2 1\n1 1\nx x x\ny x\nx"
+  },
+  {
+    "id": "empire-de4-q86",
+    "examId": "vact-empire-de-04",
+    "number": 86,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Với  1\n2\nm , khi đó tâm đối xứng của đồ thị hàm số   C có tọa độ là\nđiểm nào sau đây.",
+    "options": [
+      " \n   \n \n3\n1; 2 .",
+      " \n   \n \n1\n1; 2 .",
+      " \n  \n \n3\n1; 2 .",
+      " \n  \n \n1\n1; 2 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A\nVới\n \n \n \n2 1\n1\n2\n1\n2 2\n1\nx x\ny x\nm\nTiệm cận đứng:  1 x ; tiệm cận xiên:   1\n2\ny x\nTâm đối xứng của đồ thị hàm số là:  \n   \n \n3\n1; 2\nI"
+  },
+  {
+    "id": "empire-de4-q87",
+    "examId": "vact-empire-de-04",
+    "number": 87,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Gọi S là tập hợp tất cả các giá trị thực của tham số m sao cho giá trị\nlớn nhất của hàm số\n2\n1\nx mx m\ny x\n \n  trên   1; 2 bằng 2 . Tổng các phần tử của tập S\nbằng.",
+    "options": [
+      "35\n6\n .",
+      "22\n6\n .",
+      "13\n6 .",
+      "11\n6\n ."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chọn D\nXét\n2\n1\nx mx m\ny x\n \n  . Ta có:    \n2\n2\n2\n1\nx x\nf x x\n\n   ,    \n \n0 1; 2\n0 2 1; 2\nx\nf x x\n  \n       \n.\nMà       1;2\n2 1 3 4 2 1 3 4\n1 ,f 2 max ;\n2 3 2 3 x\nm m m m\nf y\n\n     \n     \n  . Trường hợp 1:   1;2\n3\n2 1 2max 2 5 2\n2\nx\nm\nm\ny\nm\n\n  \n   \n  \n\n.\n• Với 3 3 4 17 2\n2 3 6\nm\nm \n    (loại)\n• Với 5 3 4 7 2\n2 3 6\nm\nm \n     (thỏa mãn)\nTrường hợp 2:   1;2\n2\n3 4 6 3 4 3\nmax 2 3 4 6 10 3\n3\nx\nm\nm m\ny m m\n\n      \n            \n\n.\n• Với 2 2 1 7 2\n3 2 6\nm\nm \n    (thỏa mãn)\n• Với 10 2 1 17 2\n3 2 6\nm\nm \n     (loại)\nVậy có 2 giá trị của m thỏa mãn là\n2\n11 3\n5 6\n2\nm\nm\nm\n     \n  \n\n .\nDựa vào thông tin sau để trả lời câu hỏi từ 85 đến 87\nCho hình chóp . S ABC có ba cạnh bên , , SA SB SC đôi một vuông góc tại S . Biết\n, 2 , 3 SA a SB a SC a    . Gọi H là hình chiếu của S lên AB ."
+  },
+  {
+    "id": "empire-de4-q88",
+    "examId": "vact-empire-de-04",
+    "number": 88,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tính thể tích khối chóp . S ABC :",
+    "options": [
+      "3\n6a .",
+      "3\na .",
+      "3\n2a .",
+      "3\n3a ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "3 1 1 2 3\n6 6\nV SA SB SC a a a a        "
+  },
+  {
+    "id": "empire-de4-q89",
+    "examId": "vact-empire-de-04",
+    "number": 89,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tính góc giữa hai mặt phẳng   SBC và   ABC .:",
+    "options": [
+      "0\n41 .",
+      "0\n42 .",
+      "0\n32 .",
+      "0\n31"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Áp dụng hệ trục toạ độ Oxyz:         0, 0, 0 , , 0, 0 , 0, 2 , 0 , 0, 0,3 S A a B a C a .\n  SBC : qua , , S B C  phương trình 0 x  (mp   Oyz ) suy ra pháp tuyến   1 1, 0, 0 n \n .\n      : , 2 , 0 , , 0,3 ABC AB a a AC a a    \n \n   2 2 2\n2 6 ,3 , 2 6,3, 2 . , n AB AC a a a       \n  \nGóc giữa hai mặt phẳng:       1 2\n2 2 2\n1 2\n6 6\ncos , .\n7 6 3 2\nn n\nSBC ABC n n\n\n  \n \n \n \n      0 6\n, arccos 31\n7\nSBC ABC   "
+  },
+  {
+    "id": "empire-de4-q90",
+    "examId": "vact-empire-de-04",
+    "number": 90,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tính thể tích khới chóp . S HBC :",
+    "options": [
+      "3 4\n5 a .",
+      "3 3\n7 a .",
+      "3 3\n5 a .",
+      "3 6\n7 a ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "   \n4 2\n, ,0 , 0, 2 , 0 , 0, 0,3\n5 5\na a\nSH SB a SC a\n \n    \n \n   .\nGọi     , 2 , 0 1; 2; 0 AB B A a a u       \n   .\nĐiểm H AB  nên có dạng     , 2 , 0 , 2 , 0 H a t t SH a t t       \n\nVì H là hình chiếu của S lên AB SH AB   \n 0. SH u  \n \n  4 2\n1. 4 0 , , 0\n5 5 5\na a a\na t t t H  \n         \n \nTa có:    2 2 3 4 2 24\n, 6 , 0, 0 , 6 , 0,0 , , 0 .\n5 5 5\na a\nSB SC a SB SC SH a a\n                 \n   \nSuy ra 3 3\n.\n1 1 24 4\n, .\n6 6 5 5\nS HBC V SB SC SH a a        \nPHẦN 3. TƯ DUY KHOA HỌC\n3.1. LOGIC, PHÂN TÍCH SỐ LIỆU\nDựa vào thông tin dưới đây để trả lời các câu hỏi từ 91 đến 93\nTrong một lớp học có 7 học sinh được ký hiệu là A, B, C, D, X, Y, Z. Trong đó:\n A, B, C, D thuộc khối 1\n X, Y, Z thuộc khối 2\nCô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3.\n Nhóm S1 có 2 học sinh\n Nhóm S2 có 2 học sinh  Nhóm S3 có 3 học sinh\nViệc chia nhóm phải thỏa mãn các điều kiện sau:\n Mỗi học sinh chỉ thuộc đúng một nhóm.\n Nhóm S2 bắt buộc phải có X\n Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1\n Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2\n Nếu Y ở S3 thì D cũng phải ở S3"
+  },
+  {
+    "id": "empire-de4-q91",
+    "examId": "vact-empire-de-04",
+    "number": 91,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": null,
+    "question": "Nếu A được xếp vào S1 và Y thuộc S3, thì nhóm S3 có thể là phương án\nnào sau đây?",
+    "options": [
+      "X, C, Z",
+      "A, X, Z",
+      "X, Y, Z",
+      "Z, Y, D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A vào S1 => S1 không được có học sinh thuộc khối 2, mà S1 có 2 học sinh => B hoặc C\nphải ở S1\nY ở S3 => D cũng ở S3\nMà mỗi nhóm phải có ít nhất 1 học sinh thuộc khối 1 => S3 phải có B hoặc C\nVậy, Z sẽ phải thuộc nhóm 3 vì 2 nhóm S1 và S2 đã đủ thành viên\nS1 - 2 S2 - 2 S3 - 3\nA, B X, C Y, D, Z\nA, C X, B Y, D, Z\nĐáp án: D."
+  },
+  {
+    "id": "empire-de4-q92",
+    "examId": "vact-empire-de-04",
+    "number": 92,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": null,
+    "question": "Nếu C và D ở S3, thì các học sinh ở trong nhóm S2 phải là:",
+    "options": [
+      "A và B",
+      "A và X",
+      "B và X",
+      "B và Y"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Vì C và D đều ở S3 => A và B sẽ phải được chia vào S1 hoặc S2.\nTuy nhiên, nếu A ở S1 => S1 không được có học sinh thuộc khối 2, tức không có X, Y, Z\n=> Để S1 đủ 2 học sinh thì phải chia B vào => S2 không có học sinh thuộc khối 1 => Mâu\nthuẫn => A không thể ở S1 => A phải ở S2 => B phải ở S1\nCòn Y và Z để chia. Nếu Y ở S3 => D ở S3 => Hoàn toàn thỏa => Z ở S1. Hoặc Y có thể ở\nS1 => Z ở S3 vẫn thỏa S1 - 2 S2 - 2 S3 - 3\nB, Z X, A C, D, Y\nB, Y X, A C, D, Z\nĐáp án: B."
+  },
+  {
+    "id": "empire-de4-q93",
+    "examId": "vact-empire-de-04",
+    "number": 93,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": null,
+    "question": "Cô giáo có thể chia 7 học sinh trên vào 3 nhóm một cách duy nhất nếu\nthêm những điều kiện sau đây, ngoại trừ?",
+    "options": [
+      "A ở S1 và C ở S2",
+      "A và B ở S1",
+      "C và D ở S3",
+      "Y ở S3 và B, C ở S1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Xét các đáp án như sau:\nA. A ở S1 và C ở S2\n Vì A ở S1 nên S1 không thể có Y/Z/X.\n S1 chỉ có thể là {A, B}.\n Khi đó:\no S2 = {X, C}\no S3 = {D, Y, Z}\n Chỉ có 1 cách.\nB. A và B ở S1\n S1 = {A, B}\n S2 phải có X và thêm 1 học sinh khối 1.\n Nếu S2 = {X, D} thì S3 sẽ thiếu D trong khi có Y, sai điều kiện.\n Nên S2 chỉ có thể là {X, C}\n S3 = {D, Y, Z}\n Chỉ có 1 cách.\nC. C và D ở S3\nKhông duy nhất, vì có ít nhất 2 cách đúng:\n S1 = {B, Y}, S2 = {X, A}, S3 = {C, D, Z}\n S1 = {B, Z}, S2 = {X, A}, S3 = {C, D, Y} D. Y ở S3 và B, C ở S1\n S1 = {B, C}\n Vì Y ở S3 nên D cũng phải ở S3\n S2 không thể là {X, D}, vì D đã ở S3\n Nên S2 = {X, A}\n S3 = {D, Y, Z}\n Chỉ có 1 cách.\nĐáp án: C.\nDựa vào thông tin dưới đây để trả lời các câu hỏi từ 94 đến 96\nBạn An cần đặt 8 quyển sách lên kệ sách theo hàng ngang từ trái sang phải. Biết rằng có\n3 quyển sách Toán A, C, D, 3 quyển sách Văn B, E, F và 2 quyển sách Tiếng Anh G, H.\nDưới đây là một số thông tin về thứ tự sắp xếp của các quyển sách:\n Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào\n C và G là 2 quyển sách đặt cạnh nhau\n A và B không được đặt cạnh nhau\n Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng\n Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư\n Giữa quyển sách E và F có 2 quyển sách khác."
+  },
+  {
+    "id": "empire-de4-q94",
+    "examId": "vact-empire-de-04",
+    "number": 94,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": null,
+    "question": "Nếu quyển sách B được đặt ở vị trí thứ hai và vị trí thứ ba không đặt\nsách Văn, khẳng định nào sau đây phải đúng?",
+    "options": [
+      "F nằm ở vị trí thứ tám.",
+      "F không thể đứng cạnh bất kỳ quyển sách Tiếng Anh nào.",
+      "E nằm ở vị trí thứ năm.",
+      "G nằm ở vị trí thứ sáu."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Sách Văn không được đặt giữa 2 sách Toán => Vị trí 1 và 3 không thể cùng là sách Toán,\nmà C-G cạnh nhau => Không thể là sách G\nA ở vị trí thứ ba hoặc tư, mà A không đặt cạnh B => A đặt thứ tư\nGiữa E và F có 2 quyển sách khác => Có thể xếp vào vị trí 3-6 hoặc 5-8, tuy nhiên sách E-\nF là sách Văn và vị trí 3 không được đặt sách Văn => E-F phải xếp vào vị trí 5-8 (hoán vị)\n=> Sách Văn xếp đủ => Vị trí thứ 6 không thể là sách Toán => Phải là sách Tiếng Anh, mà chỉ còn vị trí 6-7 để\nxếp cho cặp C-G => G ở vị trí thứ 6, C ở vị trí thứ 7\n=> D và H được xếp hoán vị vào 2 vị trí 1 và 3\n1 2 3 4 5 6 7 8\nD/H B H/D A E/F G C F/E\nVăn Toán Văn Anh Toán Văn\n=> C-G sẽ được xếp vào 2 vị trí 6-7\nĐáp án: D."
+  },
+  {
+    "id": "empire-de4-q95",
+    "examId": "vact-empire-de-04",
+    "number": 95,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": null,
+    "question": "Giả sử quyển sách Tiếng Anh G nằm ở vị trí thứ sáu, khẳng định nào\nsau đây là sai?",
+    "options": [
+      "Quyển sách F nằm ở vị trí cuối cùng",
+      "Quyển sách A nằm ở vị trí thứ 4",
+      "Quyển sách E nằm ở vị trí thứ 7",
+      "Quyển sách H nằm ở vị trí thứ 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Giả sử: Sách E ở vị trí số 7 => Sách F ở vị trí thứ 4\nSách G ở vị trí số 6 => Sách C ở vị trí thứ 5 => Vị trí số 3 không thể là sách Toán => Quyển\nsách Toán A không có thứ tự sắp xếp thỏa mãn\n=> Không thỏa mãn\nVí dụ các phương án còn lại:\n1 2 3 4 5 6 7 8\nB H D A E G C F\nVăn Anh Toán Toán Văn Anh Toán Văn\nĐáp án: C."
+  },
+  {
+    "id": "empire-de4-q96",
+    "examId": "vact-empire-de-04",
+    "number": 96,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": null,
+    "question": "H và D có thể đặt cạnh nhau ở 2 vị trí nào sau đây?",
+    "options": [
+      "Vị trí 1 và 2",
+      "Vị trí 6 và 7",
+      "Vị trí 4 và 5",
+      "Vị trí 7 và 8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nếu H và D ở vị trí 6 và 7, ta có như sau:\n1 2 3 4 5 6 7 8\nB C/G G/C A E H D F\nVăn Toán Văn Anh Toán Văn Giải thích các phương án còn lại:\nNếu H-D ở vị 1-2 => F ở vị trí 8 => E ở vị trí 5. Vì A ở vị trí 3 hoặc 4 => G-C ở vị trí 6-7 =>\nA và B sẽ ở cạnh nhau => Mâu thuẫn\nNếu H-D ở vị trí 4-5 => F ở vị trí 8 => E ở vị trí 5 => Trùng với D => Mâu thuẫn\nNếu H-D ở vị trí 7-8 => F ở vị trí 8 => Trùng với D => Mâu thuẫn\nĐáp án: B.\nDựa vào thông tin dưới đây để trả lời các câu hỏi từ 97 đến 99\nDưới đây là thống kê của bộ giáo dục về số lượng thí sinh đăng kí xét tuyển đại học\ncũng như số lượng thí sinh xác nhận nhập học trong hai năm gần đây. Biết rằng số thí\nsinh tham gia kì thi THPTQG là 1.025.166 và 1.071.395 tương ứng năm 2023 và năm 2024"
+  },
+  {
+    "id": "empire-de4-q97",
+    "examId": "vact-empire-de-04",
+    "number": 97,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": null,
+    "question": "Số thí sinh nhập học năm 2023 bằng bao nhiêu phần trăm số thí sinh\ntrúng tuyển trên hệ thống năm 2024?",
+    "options": [
+      "80,34%",
+      "81,87%",
+      "89,60%",
+      "73,41%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Năm 2023: Có 494 488 thí sinh nhập học\nNăm 2024: Có 673 586 thí sinh trúng tuyển trên hệ thống\nTỉ lệ: 494488 73, 41%\n673586  , chọn D"
+  },
+  {
+    "id": "empire-de4-q98",
+    "examId": "vact-empire-de-04",
+    "number": 98,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": null,
+    "question": "Tổng số thí sinh không trúng tuyển trên hệ thống của hai năm là bao\nnhiêu?",
+    "options": [
+      "104 854",
+      "110 887",
+      "127 165",
+      "152 780"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lưu ý phải xét tuyển thì mới có trúng/trượt\nNăm 2023: Có 660 258 – 615 470 = 44 788 thí sinh không trúng tuyển vào đại học\nNăm 2024: Có 733 652 – 673 586 = 60 066 thí sinh không trúng tuyển vào đại học\nChênh lệch: 60 066 + 44 788 = 104 584\nVậy chọn A"
+  },
+  {
+    "id": "empire-de4-q99",
+    "examId": "vact-empire-de-04",
+    "number": 99,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": null,
+    "question": "Bộ giáo dục đánh giá là đề thi khó nếu tỉ lệ sinh viên học đại học ở Việt\nNam chiếm dưới 50%. Nhận xét nào đúng?",
+    "options": [
+      "Đề năm 2023 khó",
+      "Đề năm 2024 khó",
+      "Cả hai năm đề đều khó",
+      "Không có năm nào đề khó"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Năm 2023: Có 494 488 thí sinh nhập học\nChiếm: 494 488 48,23%\n1025166 \nNăm 2024: Có 551 479 thí sinh nhập học\nChiếm: 551479 51,47%\n1071395 \nVậy đề 2023 khó\nVậy chọn A\nDựa vào thông tin dưới đây để trả lời các câu hỏi từ 100 đến 102\nThời gian tự học ở nhà của học sinh trường THPT Chu Văn An được cho theo mẫu số liệu\nghép nhóm sau:\nThời gian (phút) [0,30) [30,60) [60,90) [90,120) [120,150)\nSố người 75 125 250 82 18"
+  },
+  {
+    "id": "empire-de4-q100",
+    "examId": "vact-empire-de-04",
+    "number": 100,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": null,
+    "question": "Khoảng chứa tứ phân vị Q3 của mẫu số liệu trên là?",
+    "options": [
+      "[30,60)",
+      "[60,90)",
+      "[90,120)",
+      "[120,150)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q101",
+    "examId": "vact-empire-de-04",
+    "number": 101,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": null,
+    "question": "Thời gian tự học trung bình của mẫu số liệu trên là bao nhiêu?",
+    "options": [
+      "63,64",
+      "64,63",
+      "66,44",
+      "66,34"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tổng số mẫu khảo sát: 75 + 125 + 250 + 82 + 18 = 550\nThời gian trung bình:\n0 30 30 60 60 90 90 120 120 150\n75. 125. 250. 82. 18.\n2 2 2 2 2 66, 43\n550\n    \n   \n\nVậy chọn C"
+  },
+  {
+    "id": "empire-de4-q102",
+    "examId": "vact-empire-de-04",
+    "number": 102,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": null,
+    "question": "Phương sai của mẫu số liệu trên nằm trong khoảng nào sau đây?",
+    "options": [
+      "[800;825)",
+      "[875;900)",
+      "[850;875)",
+      "[825;850)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ta có:\n2 2 2 2 2\n0 30 30 60 60 90 90 120 120 150\n75. 125. 250. 82. 18.\n2 2 2 2 2 5287,90\n550\n              \n             \n          \nDo đó, phương sai là 5287,90 – 66,432 = 874,12 Vậy chọn C\n3.2. SUY LUẬN KHOA HỌC\nDựa vào thông tin dưới đây để trả lời các câu từ câu 103 đến câu 105\nSodium stearate ( 3 2 16 [ ] CH CH COONa , cấu tạo như hình 1) là một chất hoạt động bề mặt\nđiển hình. Khi hòa tan trong nước, nó phân li thành các cation \nNa và anion stearate (\n17 35\n\nC H COO ). Anion này có cấu trúc gồm: chuỗi alkyl dài ( 17 35  C H ) là phần kị nước\n(hydrophobic), trong khi nhóm carboxylate ( \nCOO ) là phần ưa nước (hydrophilic).\nHình 1\nTrong dung dịch, các anion stearate tự tập hợp thành các cấu trúc hình cầu gọi là\nmicelle. Tùy vào môi trường, chúng có các định hướng khác nhau. Cho biết:\n Với hình cầu bất kì: Thể tích 3 4\n3\n V r  ; Diện tích bề mặt 2\n4  S r \n Khối lượng mol sodium stearate: 306,5  M g/mol.\n Khối lượng riêng của dầu: 0,92   g/cm3\n Số Avogadro: 23\n6,022 10   A N mol-1 (biểu thị số lượng hạt vi mô (nguyên tử, phân tử,\nion hoặc electron) có trong 1 mol của một chất)\n 1 nm2 14\n10\n cm2; 1 dm3 1000  cm3."
+  },
+  {
+    "id": "empire-de4-q103",
+    "examId": "vact-empire-de-04",
+    "number": 103,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Khi giặt rửa, các anion stearate giúp loại bỏ vết dầu mỡ bám trên vải\nbằng cách bao bọc chúng vào bên trong các micelle. Phát biểu nào sau đây mô tả đúng\nnhất sự định hướng của các anion này khi tiếp xúc với vết dầu trong môi trường nước?",
+    "options": [
+      "Đầu hydrophilic bám vào bề mặt vết dầu, đuôi hydrophobic hướng ra ngoài môi\ntrường nước.",
+      "Các đuôi hydrophobic hòa tan vào vết dầu, các đầu hydrophilic hướng ra ngoài để tạo\ntương tác với nước.",
+      "Cả đầu và đuôi của anion đều nằm trong vết dầu để làm tan dầu hoàn toàn.",
+      "Các anion sắp xếp thành các lớp phẳng ngăn cách hoàn toàn nước và dầu."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Đáp án B\nTheo nguyên tắc \"Like dissolves like\" – Cùng tính chất thì hòa tan tốt vào nhau, đuôi kị\nnước (không phân cực) sẽ tương tác với dầu, đầu ưa nước (phân cực) sẽ hướng ra pha\nnước để ổn định hạt dầu trong nước.\n Các đuôi hydrophobic sẽ quay vào trong và hòa tan vào vết dầu vì chúng cùng bản\nchất không phân cực.  Các đầu hydrophilic sẽ hướng ra ngoài để tương tác với các phân tử nước."
+  },
+  {
+    "id": "empire-de4-q104",
+    "examId": "vact-empire-de-04",
+    "number": 104,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Một hệ nhũ tương được tạo ra bằng cách phân tán 1,0 g dầu vào nước.\nGiả sử lượng dầu này được chia nhỏ thành các giọt hình cầu đồng nhất có đường kính\n0,10 mm. Biết rằng mỗi anion stearate chiếm diện tích 1,0 nm2 trên bề mặt giọt dầu. Khối\nlượng tối thiểu của sodium stearate cần thiết để bao phủ hoàn toàn bề mặt tất cả các giọt\ndầu trên là bao nhiêu?",
+    "options": [
+      "5\n3,32 10\n g.",
+      "5\n6, 64 10\n g.",
+      "4\n3,32 10\n g.",
+      "5\n1, 66 10\n g."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Đáp án A\nVdầu tổng 1/ 0,92 1,087   cm3.\nTổng diện tích bề mặt các giọt dầu: Stổng 3 / (3 1,087) / 0,005 652, 2     V r cm2.\nSố anion 14 16\n652, 2 /10 6,522 10\n   N .\nKhi đó: ( / ) 306,5 , g\n    5\n3 32 10 A m N N ."
+  },
+  {
+    "id": "empire-de4-q105",
+    "examId": "vact-empire-de-04",
+    "number": 105,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Xét một bong bóng xà phòng hình cầu có thể tích 1,0 dm3. Màng của\nbong bóng này được cấu tạo từ hai lớp (lớp trong và lớp ngoài) của các anion stearate. Giả\nsử rằng cứ hai anion (một trong, một ngoài) thì bao phủ tổng cộng 1,0 nm2 bề mặt hình\ncầu. Khối lượng tối thiểu của sodium stearate cần dùng để hình thành nên màng của bong\nbóng xà phòng này là",
+    "options": [
+      "5\n2, 46 10\n g.",
+      "5\n9,84 10\n g.",
+      "5\n4,92 10\n g.",
+      "4\n1, 23 10\n g."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Đáp án C\nBán kính bong bóng: 3 3 3 1000\n1000 cm 6, 2035 cm\n4\n\n    V r\n .\nDiện tích bề mặt bong bóng: 2 2\n4 483, 6 cm   S r  .\nCứ 2 anion (một trong, một ngoài) bao phủ 2\n1, 0 nm trên bề mặt bong bóng:\n→ Số lượng anion: 16\n14 2 9, 672 10\n10    \nS\nN\nSố mol: 7\n1, 606 10 mol\n  \nA\nN\nn N .\nKhối lượng: 5\n4,92 10 g\n    m n M .\nDựa vào thông tin dưới đây để trả lời các câu hỏi từ 106 đến 108\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng.\nHọ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban\nđầu 20 oC , mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:  Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm .\n Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử:\n Bình thủy tinh không nở đáng kể so với chất lỏng\n Thang đo chia đều theo chiều cao"
+  },
+  {
+    "id": "empire-de4-q106",
+    "examId": "vact-empire-de-04",
+    "number": 106,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Từ mô tả trên, nhận định nào sau đây là phù hợp nhất?",
+    "options": [
+      "Mực chất lỏng tăng nhanh lúc đầu rồi chậm dần.",
+      "Mực chất lỏng tăng tỉ lệ thuận với độ tăng nhiệt độ.",
+      "Mực chất lỏng chỉ tăng khi nhiệt độ vượt quá 20 oC .",
+      "Mực chất lỏng tăng không theo quy luật xác định."
+    ],
+    "correctAnswer": 0,
+    "explanation": "- Cụm từ \"dâng đều\" nghĩa là nhiệt độ tăng thêm một lượng bao nhiêu thì mực chất lỏng\ncũng dâng thêm một lượng bấy nhiêu.\n- Cho thấy mối quan hệ tuyến tính\n- h  tỉ lệ thuận t \n Loại A (tăng nhanh rồi chậm – không tuyến tính)\n Loại D (không quy luật).\n Loại C ( 20 oC vừa chạm vạch 0 , có nghĩa là đã dâng từ trước đó rồi)"
+  },
+  {
+    "id": "empire-de4-q107",
+    "examId": "vact-empire-de-04",
+    "number": 107,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Nếu nhiệt độ của chất lỏng tăng từ 20 oC lên 50 oC , thì mực chất lỏng\ndâng lên thêm bao nhiêu mm so với ban đầu?",
+    "options": [
+      "4 mm",
+      "6 mm",
+      "8 mm",
+      "10 mm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quy tắc tam suất:\n20 t   oC mm\n 30 t   oC 6 h    mm"
+  },
+  {
+    "id": "empire-de4-q108",
+    "examId": "vact-empire-de-04",
+    "number": 108,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Nếu học sinh thay bình thủy tinh bằng bình kim loại mỏng (có giãn nở\nđáng kể), nhưng giữ nguyên chất lỏng và cách đun, thì mực chất lỏng quan sát được sẽ:",
+    "options": [
+      "Dâng lên nhiều hơn so với trường hợp bình thủy tinh.",
+      "Dâng lên ít hơn so với trường hợp bình thủy tinh.",
+      "Không thay đổi so với trường hợp bình thủy tinh.",
+      "Không thể dự đoán theo thông tin đã cho."
+    ],
+    "correctAnswer": 0,
+    "explanation": "- Chất lỏng nở vì nhiệt  mực dâng lên\n- Bình thủy tinh giãn nở không đáng kể\n- Bình kim loại giãn nở đáng kể  thể tích bình tăng\n- Thể tích bình tăng sẽ bù bớt phần nở của chất lỏng  mực dâng ít hơn\nDựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111\nĐậu bắp (Abelmoschus esculentus) chứa các hợp chất sinh học có tiềm năng hạ\nđường huyết. Hình ảnh mô tả cơ chế tác động kép của dịch chiết đậu bắp: (1) ức chế\nhoạt động của enzyme α-amylase trong ống tiêu hóa, làm giảm sự phân giải các\ncarbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên\nmàng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm\ntăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời\ntăng cường tổng hợp glycogen dự trữ tại gan và cơ (Hình bên dưới).\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10\ncon/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme α-\namylase ở ruột non được thể hiện ở Bảng 1.\nLô thí nghiệm Nhóm chuột Nồng độ glucose\nmáu (mmol/L)\nHoạt tính enzyme α-\namylase (U/mg)\nLô 1 Chuột khỏe mạnh bình\nthường uống nước cất 5,2 12,5\nLô 2 Chuột bị đái tháo đường\n(T2D) uống nước cất 14,8 28,4\nLô 3 Chuột T2D uống 100 mg/kg\ndịch chiết đậu bắp 9,5 18,2\nLô 4 Chuột T2D uống 200 mg/kg\ndịch chiết đậu bắp 6,8 14,1 Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact\nof Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and\nPrediabetes. Plants. 2026; 15(5):817. hĴps://doi.org/10.3390/plants15050817"
+  },
+  {
+    "id": "empire-de4-q109",
+    "examId": "vact-empire-de-04",
+    "number": 109,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Nhận định nào sau đây về tác dụng của dịch chiết đậu bắp là đúng?",
+    "options": [
+      "Ức chế hoàn toàn hoạt tính enzyme α-amylase.",
+      "Giảm nồng độ glucose máu phụ thuộc liều lượng.",
+      "Chỉ phát huy tác dụng trên chuột khỏe mạnh.",
+      "Tăng phân giải carbohydrate trong ống tiêu hóa."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Đáp án: B\nGiải thích: Dữ liệu Bảng 1 cho thấy khi tăng liều lượng dịch chiết từ 100 mg/kg (Lô 3) lên\n200 mg/kg (Lô 4), nồng độ glucose máu giảm mạnh hơn (từ 9,5 xuống 6,8 mmol/L),\nchứng tỏ hiệu quả phụ thuộc vào liều lượng.\nCác phương án còn lại không đúng vì:\nA sai. Giải thích: Ở Lô 3 và 4, hoạt tính enzyme α-amylase giảm so với Lô 2 nhưng vẫn\nlớn hơn 0 (18,2 và 14,1), nên không bị ức chế hoàn toàn.\nC sai. Giải thích: Thí nghiệm Lô 3 và 4 được thực hiện trên chuột bị bệnh (T2D) và cho\nthấy hiệu quả rõ rệt.\nD sai. Giải thích: Dịch chiết làm giảm hoạt tính enzyme α-amylase, dẫn đến giảm phân\ngiải carbohydrate chứ không làm tăng."
+  },
+  {
+    "id": "empire-de4-q110",
+    "examId": "vact-empire-de-04",
+    "number": 110,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Theo sơ đồ cơ chế, sự hoạt hóa con đường truyền tín hiệu PI3K/Akt\ntrong tế bào đích dẫn đến hiện tượng nào sau đây?",
+    "options": [
+      "Giảm số lượng protein GLUT trên màng tế bào.",
+      "Ức chế quá trình tổng hợp glycogen ở tế bào cơ.",
+      "Tăng cường đưa protein GLUT ra màng tế bào.",
+      "Kích thích phân giải glycogen thành glucose ở gan."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Đáp án: C\nGiải thích: Theo sơ đồ mũi tên, chuỗi tín hiệu từ Akt truyền đến các túi chứa GLUT, kích\nthích các túi này dung hợp với màng tế bào, làm tăng số lượng kênh GLUT trên màng để\nđưa glucose vào trong tế bào.\nCác phương án còn lại không đúng vì:\nA sai. Giải thích: Tín hiệu này làm tăng, không phải làm giảm số lượng protein GLUT\ntrên màng.\nB sai. Giải thích: Sơ đồ cho thấy tín hiệu dẫn đến biểu tượng mũi tên đi lên tại chữ\n“Glycogen”, nghĩa là tăng cường tổng hợp glycogen. D sai. Giải thích: Cơ chế làm giảm đường huyết là tăng tổng hợp glycogen từ glucose,\nchứ không phải kích thích phân giải glycogen."
+  },
+  {
+    "id": "empire-de4-q111",
+    "examId": "vact-empire-de-04",
+    "number": 111,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Cho các phát biểu về cơ chế điều hòa đường huyết của đậu bắp:\nI. Ức chế enzyme α-amylase giúp làm chậm hấp thu đường.\nII. Làm thay đổi cấu trúc của gene mã hóa protein GLUT.\nIII. Thúc đẩy chuyển hóa glucose thành dự trữ glycogen.\nIV. Tăng đường huyết bằng cách ức chế thụ thể insulin.\nTrong số các phát biểu trên, có bao nhiêu phát biểu đúng?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Đáp án: B\nGiải thích: Có 2 phát biểu đúng là I và III.\nPhát biểu I đúng vì ức chế α-amylase ngăn chặn việc tạo ra glucose trong ruột.\nPhát biểu III đúng vì con đường tín hiệu làm tăng tổng hợp glycogen ở gan và cơ.\nPhát biểu II sai vì cơ chế chỉ tác động lên con đường truyền tín hiệu để huy động protein\nGLUT có sẵn ra màng, không có dữ liệu nào cho thấy nó thay đổi cấu trúc gene.\nPhát biểu IV sai vì dịch chiết có tác dụng kích hoạt (không phải ức chế) con đường tín\nhiệu thụ thể insulin để làm giảm (không phải tăng) đường huyết.\nDựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của\ncác nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và\ncấm làm việc ở những chỗ kín, không ai đến được.\nPhường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực\nđó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các\nhạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc\nbiệt bằng những hạng nguyên liệu nào đó.\nĐiều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách\nthêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về\nnguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài\nra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt.\nPhường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu.\nQuy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường\nhội cũng tương tự như vậy.\n(Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)"
+  },
+  {
+    "id": "empire-de4-q112",
+    "examId": "vact-empire-de-04",
+    "number": 112,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Nội dung nào sau đây không phải là quy định của phường hội về\nnguyên liệu sản xuất?",
+    "options": [
+      "Liệt kê danh mục các hạng nguyên liệu được phép sử dụng.",
+      "Cho phép thợ cả tự do tìm kiếm các nguồn vật liệu phụ mới.",
+      "Ngăn chặn việc pha trộn các loại nguyên liệu rẻ tiền vào.",
+      "Quy định rõ ràng về các dấu hiệu nhận biết vật liệu tốt."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chọn B\nTư liệu nêu rõ quy chế sử dụng vật liệu phụ \"cũng tương tự\" như nguyên liệu chính, tức\nlà bị kiểm soát chặt chẽ, không có chuyện tự do tìm kiếm cái mới."
+  },
+  {
+    "id": "empire-de4-q113",
+    "examId": "vact-empire-de-04",
+    "number": 113,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Theo tư liệu, hành động nào sau đây bị điều lệ phường hội nghiêm cấm\nthực hiện?",
+    "options": [
+      "Tái sử dụng các bộ phận cũ để lắp ráp thành một sản phẩm mới.",
+      "Sử dụng các loại vật liệu phụ trong quá trình sản xuất hàng hóa.",
+      "Thay đổi nơi làm việc giữa các xưởng của thợ cả trong cùng hội.",
+      "Niêm yết công khai các dấu hiệu nhận biết của hạng nguyên liệu tốt."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A\nTheo đoạn tư liệu, điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi\nchút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm\nphải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ\nmột sản phẩm."
+  },
+  {
+    "id": "empire-de4-q114",
+    "examId": "vact-empire-de-04",
+    "number": 114,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Từ đoạn tư liệu và kiến thức thực tế, đặc điểm nổi bật nhất của nền kinh\ntế phường hội là gì?",
+    "options": [
+      "Tự do cạnh tranh về giá cả và chất lượng hàng hóa.",
+      "Sản xuất hàng hóa quy mô lớn theo dây chuyền chuyên môn.",
+      "Mở rộng giao lưu buôn bán xuyên quốc gia và châu lục.",
+      "Sản xuất khép kín, chống lại sự cạnh tranh giữa các hội viên."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chọn D\nNền kinh tế phường hội trong thời trung đại mang tính đóng kín, mỗi phường hội kiểm\nsoát chặt chẽ việc sản xuất, giá cả, số lượng và chất lượng hàng hóa. Các hội viên không\nđược cạnh tranh lẫn nhau mà phải tuân theo quy định chung của phường hội, nhằm bảo\nvệ lợi ích của tập thể và duy trì trật tự nghề nghiệp.\nDựa vào thông tin dưới đây để trả lời các câu hỏi từ 115 đến 117.\nTrong bối cảnh khủng hoảng xăng dầu trên thế giới do ảnh hưởng của xung đột\nTrung Đông vẫn khó lường, việc đa dạng hoá nguồn cung để đáp ứng nhu cầu trong nước\nchính là giải pháp cấp bách bên cạnh các giải pháp căn cơ, lâu dài khác.\nTrong điều kiện bình thường, Việt Nam vẫn xuất khẩu một phần dầu thô khai thác\ntrong nước và nhập khẩu một phần dầu thô nguyên liệu đầu vào để phục vụ sản xuất của\nnhà máy lọc dầu Dung Quất (Quảng Ngãi) và nhà máy lọc dầu Nghi Sơn (Thanh Hóa).\nLý giải về việc Việt Nam vừa xuất khẩu dầu thô nhưng lại nhập khẩu dầu thô để\nchế biến xăng dầu thành phẩm, Tiến sỹ Nguyễn Hồng Minh cho biết, đây là cấu trúc phổ\nbiến của ngành năng lượng toàn cầu, khi nhiều quốc gia sản xuất dầu vẫn đồng thời xuất- nhập khẩu để tối ưu hóa chế biến, đa dạng nguồn cung, tăng tính linh hoạt của hệ thống\nlọc hoá dầu, bảo đảm an ninh năng lượng. Đối với Việt Nam, dầu thô được khai thác từ\ncác mỏ khác nhau có chất lượng không đồng nhất trong khi mỗi nhà máy lọc dầu được\nthiết kế để xử lý những loại dầu có đặc tính kỹ thuật nhất định dựa trên các đặc tính như\nđộ nhẹ-nặng, hàm lượng lưu huỳnh hoặc thành phần hóa học của dầu.\nTrước những biến động từ xung đột Trung Đông, Petrovietnam đã triển khai nhiều\ngiải pháp như tăng dự trữ, tìm nguồn nhập mới, nâng công suất các nhà máy và đẩy mạnh\nsử dụng nhiên liệu sinh học. Đồng thời, nhiều giải pháp giảm tiêu thụ xăng dầu được đề\nxuất như phát triển giao thông công cộng, phương tiện điện và chuyển dịch vận tải.\n(Nguồn: Tổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng\nnhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)"
+  },
+  {
+    "id": "empire-de4-q115",
+    "examId": "vact-empire-de-04",
+    "number": 115,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Nguyên nhân chủ yếu khiến Việt Nam vẫn phải nhập khẩu dầu thô dù\ncó khai thác trong nước là do",
+    "options": [
+      "yêu cầu tối ưu hóa chế biến và đa dạng hóa nguồn cung.",
+      "mục tiêu bảo đảm ổn định và an ninh năng lượng quốc gia.",
+      "nhu cầu tăng tính linh hoạt của hệ thống lọc hóa dầu trong nước.",
+      "sự không phù hợp của chất lượng dầu với công nghệ lọc dầu."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q116",
+    "examId": "vact-empire-de-04",
+    "number": 116,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Trong bối cảnh khủng hoảng năng lượng, giải pháp “đa dạng hóa\nnguồn cung” được nhấn mạnh chủ yếu nhằm",
+    "options": [
+      "thay thế hoàn toàn nguồn nhập khẩu xăng dầu thành phẩm.",
+      "giảm rủi ro gián đoạn nguồn cung do biến động bên ngoài.",
+      "tăng sản lượng của ngành khai thác dầu thô trong nước.",
+      "tối ưu hóa chi phí vận hành của các nhà máy lọc dầu."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q117",
+    "examId": "vact-empire-de-04",
+    "number": 117,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Việc kết hợp các giải pháp tăng nguồn cung và giảm nhu cầu tiêu thụ\nxăng dầu chủ yếu nhằm đạt mục tiêu nào sau đây?",
+    "options": [
+      "Từng bước thay thế hoàn toàn nhiên liệu hóa thạch bằng các nguồn năng lượng mới.",
+      "Ổn định giá xăng dầu thông qua mở rộng sản xuất và kiểm soát hoạt động tiêu dùng.",
+      "Duy trì cân đối cung – cầu năng lượng, giảm thiểu rủi ro từ biến động thị trường quốc\ntế.",
+      "Gia tăng khả năng khai thác và chế biến dầu thô để đáp ứng nhu cầu trong nước và\nxuất khẩu.\nDựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120\nCơ quan Năng lượng Quốc tế (IEA) ngày 22/3 cảnh báo gián đoạn tại eo biển Hormuz\nđang tạo ra “nút thắt năng lượng lớn nhất từ trước tới nay” - khi tuyến vận chuyển khoảng\n20% nguồn cung dầu, khí toàn cầu gần như tê liệt kể từ cuối tháng 2. Theo IEA: Khoảng\n11 triệu thùng dầu/ngày và 140 tỷ m³ khí đốt bị gián đoạn, đẩy giá dầu thô vượt ngưỡng\n100 USD/thùng và kéo theo mặt bằng giá năng lượng tăng mạnh. IEA nhận định tác động\ncủa cuộc khủng hoảng “không chỉ dừng ở giá nhiên liệu, mà đã lan sang lạm phát, chi phí\nnhập khẩu và tăng trưởng kinh tế”. Quy mô và mức độ ảnh hưởng được đánh giá vượt\ncác cú sốc dầu mỏ thập niên 1970 - giai đoạn từng làm đảo lộn kinh tế toàn cầu, cũng như khủng hoảng năng lượng do xung đột Nga - Ukraine.Theo Cục Quản lý và Phát triển thị\ntrường trong nước (Bộ Công Thương): Các nền kinh tế phụ thuộc vào năng lượng nhập\nkhẩu, trong đó có Việt Nam dễ bị tổn thương trước các cú sốc địa chính trị.\n(Nguồn: https://nangluongvietnam.vn/khung-hoang-nhien-lieu-nang-luong-cach-the-gioi-va-\nviet-nam-ung-pho-35791.html)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q118",
+    "examId": "vact-empire-de-04",
+    "number": 118,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Theo thông tin trên, việc giá dầu thô và mặt bằng giá năng lượng tăng\nmạnh dẫn đến sự tăng mức giá chung của hàng hóa, dịch vụ một cách nhanh chóng phản\nánh nội dung khái niệm nào dưới đây?",
+    "options": [
+      "Thất nghiệp cơ cấu.",
+      "Tăng trưởng kinh tế.",
+      "Lạm phát.",
+      "Cạnh tranh thị trường."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q119",
+    "examId": "vact-empire-de-04",
+    "number": 119,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Vấn đề lạm phát mà nền kinh tế đang phải đối mặt do nguyên nhân\nnào dưới đây?",
+    "options": [
+      "Lạm phát do chi phí đẩy.",
+      "Lạm phát do cầu kéo.",
+      "Lạm phát do thừa tiền.",
+      "Lạm phát phi mã."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  },
+  {
+    "id": "empire-de4-q120",
+    "examId": "vact-empire-de-04",
+    "number": 120,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": null,
+    "question": "Để ứng phó với tình trạng giá xăng dầu tăng cao do tác động của cuộc\nkhủng hoảng năng lượng, công dân không thực hiện hành vi nào dưới đây?",
+    "options": [
+      "Tính toán, cân nhắc các khoản chi (kể cả thiết yếu) để tránh thâm hụt tài chính.",
+      "Tiết kiệm xăng dầu và ưu tiên hàng hóa nội địa để giảm áp lực chi phí nhập khẩu.",
+      "Tập trung nguồn lực tích trữ xăng dầu tại nhà tránh thâm hụt tài chính.",
+      "Sử dụng các phương tiện giao thông công cộng để tiết kiệm chi phí xăng dầu."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem giải thích chi tiết trong tài liệu đáp án."
+  }
+],
+  "vact-synthetic-de-01": [
+  {
+    "id": "vact-synthetic-de-01-q1",
+    "examId": "vact-synthetic-de-01",
+    "number": 1,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Ai ơi có nhớ ai không?\nTrời mưa một mảnh áo bông che đầu.\nNào ai có tiếc ai đâu,\nÁo bông ai ướt khăn đầu ai khô.\nNgười đi Tam Đảo, Ngũ Hồ,\nKẻ về khóc trúc than Ngô một mình.\nNon non, nước nước, tình tình,\nVì ai lận đận cho mình ngẩn ngơ.\nCảm hứng chủ đạo của bài thơ là gì?",
+    "options": [
+      "Cảm xúc chia ly xen lẫn hờn trách, thể hiện nỗi buồn trước sự đổi thay của tình cảm cá\nnhân.",
+      "Cảm xúc tiếc nuối và cô đơn, phản ánh sự đổ vỡ trong mối quan hệ tình cảm gắn bó.",
+      "Cảm hứng trữ tình sâu lắng, thể hiện nỗi nhớ thương da diết và nỗi buồn chia lìa trong\ntình yêu.",
+      "Cảm hứng hoài niệm nhẹ nhàng, gợi lại những kỷ niệm xưa với tâm trạng bình thản\nvà chấp nhận."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q2",
+    "examId": "vact-synthetic-de-01",
+    "number": 2,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Như các bạn đều biết, học vấn không phải là việc chỉ đọc và cứ đọc thật nhiều\nsách là đủ. Bản chất của học vấn phụ thuộc vào khả năng ứng dụng. Có học vấn mà không ứng\ndụng được vào cuộc sống thực tế thì chẳng khác gì vô học. […] Theo như suy nghĩ của tôi, bản\nchất thực sự của học vấn là phải động não suy nghĩ, chứ không phải chỉ là đọc sách một cách đơn\nthuần.\nĐể ứng dụng sống động suy nghĩ đó vào cuộc sống thực tế cần biết trù tinh, lo liệu. Tức là phải\nquan sát sự vật. Phải suy đoán đạo lý của sự vật. Phải đưa ra chính kiến, cách nghĩ cách làm của\nbản thân mình. Ngoài ra, đương nhiên là còn phải đọc sách, phải viết sách. Phải nói lên ý kiến của\nmình cho người ta nghe. Phải tranh luận. Biết vận dụng tổng hợp các biện pháp như vậy thì mới\nđược gọi là nghiên cứu học vấn. Quan sát sự vật, suy luận, đọc sách là cách để tích lũy tri thức.\nBàn bạc, tranh luận là cách để trao đổi tri thức. Viết, diễn thuyết là cách để mở rộng tri thức. [.]\nĐa số các học giả hiện nay thường chỉ hoạt động hạn hẹp trong phạm vi cá nhân. Họ e ngại, chây\nlười không muốn mở rộng ra thế giới bên ngoài. Hãy mau tỉnh ngộ. Chỉ khi nào có kiến thức sâu\nnhư vực thẳm, tiếp xúc trao đổi với người khác như chim tung cánh rộng mở tự do tự tại trong\nkhông trung, mới đúng là học giả thực thụ.\n(Khuyến học, Fukuzawa Yukichi, Phạm Hữu Lợi dịch, Nxb Thế giới, tr 173-175, 2016)\n200 CÂU TIẾNG VIỆT ĐGNL V-ACT Theo đoạn trích, đâu là phê phán quan trọng nhất mà tác giả Fukuzawa Yukichi muốn\ngửi gắm về cách tiếp cận học vấn của phần đông người học hiện nay?",
+    "options": [
+      "Họ dành quá nhiều thời gian cho việc đọc và ghi chép mà bỏ quên khả năng tự suy\nluận, phản biện độc lập.",
+      "Họ chỉ chăm chăm vào tích lũy tri thức cá nhân mà không biết chia sẻ, trao đổi để học\nhỏi thêm từ người khác.",
+      "Họ thường bị động trong việc học, chỉ tiếp nhận kiến thức sẵn có mà không biết tự đào\nsâu nghiên cứu thêm.",
+      "Họ thiếu năng lực tổng hợp tri thức từ nhiều nguồn khác nhau, dẫn đến việc hiểu phiến\ndiện và cứng nhắc."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q3",
+    "examId": "vact-synthetic-de-01",
+    "number": 3,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Cho câu: \"Bản di chúc của người cha quá cố, một tài liệu pháp lý vô\ncùng quan trọng xác định quyền thừa kế tài sản cho những người con.\" Câu trên bị mắc\nlỗi gì?",
+    "options": [
+      "Thiếu vị ngữ",
+      "Lỗi câu mơ hồ",
+      "Lặp từ",
+      "Sai dùng từ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q4",
+    "examId": "vact-synthetic-de-01",
+    "number": 4,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Cho đoạn thơ sau:\n“Lần thâu gió mát trăng thanh,\nBỗng đâu có khách biên đình sang chơi.\nRâu hùm, hàm én, mày ngài,\nVai năm tấc rộng, thân mười thước cao.”\n(Nguyễn Du – Truyện Kiều, tr. 158–162)\nTừ “biên đình” trong câu thơ trên gợi hình ảnh như thế nào?",
+    "options": [
+      "Một nơi lãng mạn, thích hợp cho việc thư giãn, du ngoạn.",
+      "Vùng biên giới xa xôi, gắn với chiến chinh, hiểm nguy.",
+      "Một làng quê yên bình ở vùng trung du Bắc Bộ.",
+      "Một cửa ải nơi đón tiếp sứ thần và quan khách triều đình."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q5",
+    "examId": "vact-synthetic-de-01",
+    "number": 5,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Lại thư trả lời Phương Chính (thư số 8)\n(Phương Chính gửi thư cho ta nên ta đáp lại)\nÔi! Mưu tính việc lớn phải lấy nhân nghĩa làm gốc, hoàn thành công to phải lấy nhân nghĩa làm\nđầu. Nhân nghĩa mà đủ thì việc lớn và công to ắt thành. Nước mày trước đây, họ Hồ lỗi đạo, mượn\ndanh nghĩa “điếu dân phạt tội” để thực hành việc bạo tàn, lấn cướp đất nước ta, bóc lột nhân dân\nta, thuế nặng hình ác, vơ vét của quý, người dân hèn mọn nơi xóm làng chẳng được sống yên.\nLòng nhân nghĩa mà lại như thế ư?\nNay dân oán, thần giận, kế tiếp bị đại tang, thế mà chẳng biết xét mình sửa lỗi, lại còn dùng vũ\nlực đánh nhau không thôi, cam tâm xâm lược phương xa, khiến cho sĩ tốt phơi thây, nhân dân chết\nthảm. Ta e mối lo của họ Quý Tôn không phải ở nước Chuyên Du, mà ở trong nhà mình thôi!\n(Nguyễn Khuê dịch, Nguyễn Trãi toàn tập, tập 1, NXB Văn học – Trung tâm\nNghiên cứu Quốc học, Hà Nội, 2001)\nPhát biểu nào sau đây thể hiện đúng nhất tư tưởng “nhân nghĩa” được Nguyễn Trãi\nkhẳng định trong đoạn thư?",
+    "options": [
+      "“Nhân nghĩa” là lòng thương dân, lấy yên dân làm gốc và chống lại mọi hành động\nbạo tàn.",
+      "“Nhân nghĩa” là thái độ khoan dung với kẻ thù và tấm lòng nhân hậu của người trị\nnước.",
+      "“Nhân nghĩa” là cách ứng xử độ lượng, lấy hòa hiếu để giữ vững thế nước và lòng dân.",
+      "“Nhân nghĩa” là sự thấu hiểu con người, hướng đến xây dựng xã hội hòa bình và công\nbằng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q6",
+    "examId": "vact-synthetic-de-01",
+    "number": 6,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Đọc đoạn trích sau và trả lời câu hỏi:\nXưa kia đại vương trông thấy phong cảnh núi Tản Viên đẹp đẽ bèn làm một con đường từ bến\nBạch Phiên đi lên phía nam núi Tản Viên, qua động An Vệ, tới các ngọn nguồn lạch suối đều dựng\nđiện để nghỉ ngơi. Rồi lại đi qua rìa núi đến chòm núi có mây che thì định cư ở đó. Đôi lúc rong\nchơi trên sông Tiểu Hoàng xem đánh cá; phàm đi qua các làng xóm đều dựng điện để nghỉ ngơi.\nVề sau, nhân dân theo dấu vết các điện đó mà lập đền miếu để thờ cúng. Lại theo truyện cũ ở sách\nGiao Châu ký của Lỗ Công, tương truyền rằng đại vương Sơn Tinh họ Nguyễn cùng vui ở với loài\nthủy tộc ở đất Gia Ninh, huyện Phong Châu. Thời Chu Noãn Vương, Hùng Vương thứ mười tám\nđến ở đất Việt Trì, Châu Phong, lấy quốc hiệu là Văn Lang. Vua có người con gái tên là Ngọc Hoa\ncó sắc đẹp; Thục Vương Phán cầu hôn, nhà vua không bằng lòng, muốn chọn rể hiền.\n(Trích Lĩnh Nam chích quái)",
+    "options": [
+      "Tư duy lý tưởng hóa các vị vua thời xưa để làm gương răn dạy con cháu.",
+      "Niềm tôn kính đối với những vị anh hùng có công bảo vệ đất nước khỏi ngoại xâm.",
+      "Tín ngưỡng thờ thần tự nhiên, phản ánh quan niệm con người gắn bó mật thiết với\nsông núi.",
+      "Quan niệm \"trọng nam khinh nữ\" được thể hiện qua việc tôn thờ nhân vật nam thần\ntrong truyền thuyết."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q7",
+    "examId": "vact-synthetic-de-01",
+    "number": 7,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Cho câu: \"Để đề phòng các bệnh truyền nhiễm trong mùa dịch, Bộ Y tế\nkhuyến cáo người dân cần thường xuyên rửa tay bằng xà phòng và hạn chế tụ tập nơi\nđông người.\" Câu trên bị mắc lỗi gì?",
+    "options": [
+      "Sai phong cách",
+      "Thiếu thành phần câu",
+      "Mắc lỗi dùng từ",
+      "Thiếu thành phần nòng cốt câu"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q8",
+    "examId": "vact-synthetic-de-01",
+    "number": 8,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Cặp vế câu trong câu ghép “Mặt trời lên, và sương tan dần.” thể hiện\nmối quan hệ gì?",
+    "options": [
+      "Quan hệ hô ứng",
+      "Quan hệ chính phụ",
+      "Quan hệ nhân quả",
+      "Quan hệ đẳng lập"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q9",
+    "examId": "vact-synthetic-de-01",
+    "number": 9,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Hãy điền từ thích hợp vào chỗ trống để hoàn thành câu sau: \"Để đạt\nđược thành công, chúng ta cần phải có một. vững vàng, không dễ dàng bị lung lay bởi\nnhững khó khăn và thử thách.\"",
+    "options": [
+      "lập trường",
+      "lý tưởng",
+      "mục tiêu",
+      "tham vọng"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q10",
+    "examId": "vact-synthetic-de-01",
+    "number": 10,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Ngữ liệu: “Cây bưởi nhà mình đãng trí\nBỏ quên năm ngoái mùa hoa\nNăm nay bưởi chừng hối tiếc\nRa hoa nhiều gấp đôi ba.”\n(Trần Lê Văn – Hơi sức của cây)\nHiện tượng đảo trật tự từ ngữ trong câu thơ “Bỏ quên năm ngoái mùa hoa” có tác dụng\ngì?",
+    "options": [
+      "Nhấn mạnh cảm giác nuối tiếc về thời gian đã qua, gợi sự bâng khuâng của người quan\nsát.",
+      "Nhấn mạnh hình ảnh mùa hoa cũ đã lùi xa, gợi cảm xúc nhớ thương của người sáng\ntác.",
+      "Nhấn mạnh nỗi tiếc nuối của cây bưởi, gợi cảm xúc hồi tưởng về mùa hoa đã qua.",
+      "Nhấn mạnh thời gian năm ngoái, gợi không khí bâng khuâng nhẹ nhàng của cảnh vật\nxưa."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q11",
+    "examId": "vact-synthetic-de-01",
+    "number": 11,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Một hôm, chiều tối, từ ngoài rẫy một mình trở về muộn, tôi sững lại, không\ntin vào mắt mình nữa. Căn nhà chúng tôi sáng rực ánh đuốc. Tiếng đàn guitar, rồi một giọng con\ngái cất cao, hát lên bài hát của thanh niên xung phong: \"Đời chiến đấu, đời gian nan. nhưng hỡi\ntuổi trẻ đẹp tươi, hạnh phúc trong đời là chiến đấu.\" Tôi dừng ở ngưỡng cửa. Cuộc vui kéo dài có\nlẽ đã khá lâu rồi. \"Đồng chí Nga, giao liên T65, từ nay là hàng xóm của chúng mình\", Huy giới\nthiệu cô gái lạ với tôi. Một cô gái trẻ măng, người cao, cân đối, nước da bánh mật, tóc tết đuôi sam.\nCô ngừng hát. Khuôn mặt thanh tú hết sức ưa nhìn thoáng vẻ buồn bâng khuâng. \"Ôi, từ nay\nnhững gì rồi sẽ đến với cánh ta đây hả các bạn?\", tôi thầm nghĩ. \"Năm tháng vinh quang, khổ đau\nbất tận.\", cô lại bật dây đàn và hát, người uốn éo, mặt tái đi, mắt vừa rực lên vừa tối lại, và giọng\nhát thì tuyệt hay, khi vút cao khi bất ngờ tắt lặng. Cho đến tận bây giờ, những chiều từ rừng trở\nvề muộn, tôi lại thỉnh thoảng thình lình trông thấy buổi tối ấy, nghe thấy tiếng hát ấy, và nhắm\nmắt lại tôi nhìn thấy các đồng chí, nhìn thấy Nga.\n(Trích Trại \"Bảy chú lùn\", Bảo Ninh, theo Những truyện ngắn - Bảo Ninh, NXB Trẻ,\n2021)\nChi tiết “Cho đến tận bây giờ, những chiều từ rừng trở về muộn, tôi lại thỉnh thoảng\nthình lình trông thấy buổi tối ấy, nghe thấy tiếng hát ấy.” có ý nghĩa gì?",
+    "options": [
+      "Gợi lại nỗi tiếc nuối về một buổi tối đã qua và khát vọng được sống lại kỷ niệm xưa.",
+      "Thể hiện cảm giác day dứt, ray rứt của người kể chuyện trước những mất mát trong\nchiến tranh.",
+      "Bộc lộ tâm trạng hoài niệm về một thời tuổi trẻ, chiến đấu gian khổ nhưng đầy xúc\ncảm.",
+      "Gợi lại hình ảnh người đồng đội cũ, thể hiện cảm xúc bâng khuâng pha lẫn niềm\nthương nhớ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q12",
+    "examId": "vact-synthetic-de-01",
+    "number": 12,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Khi đánh giá một tác phẩm văn học, điều quan trọng nhất là gì?",
+    "options": [
+      "Đặt tác phẩm trong tiến trình văn học để xem xét giá trị nội dung và nghệ thuật.",
+      "Đặt tác phẩm trong bối cảnh xã hội để nhận định tư tưởng và cảm xúc của tác giả.",
+      "So sánh với những tác phẩm cùng thời để xác định phong cách và cảm hứng sáng tác.",
+      "Dựa vào phản ứng của công chúng để đánh giá sức lan tỏa và ảnh hưởng của tác phẩm."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q13",
+    "examId": "vact-synthetic-de-01",
+    "number": 13,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Truyện ngắn hiện đại thường có bao nhiêu nhân vật chính và được khắc\nhọa bằng cách nào?",
+    "options": [
+      "Thường có ít nhân vật, khắc họa chủ yếu bằng lời kể trực tiếp của người kể chuyện\ntoàn tri bao quát.",
+      "Thường có nhiều nhân vật chính, khắc họa chủ yếu bằng sự kiện lịch sử và biến cố xã\nhội lớn lao.",
+      "Thường có nhiều nhân vật, khắc họa chủ yếu bằng ngoại hình và không chú trọng đến\nnội tâm phức tạp.",
+      "Thường chỉ có 1–2 nhân vật chính, khắc họa qua ngoại hình, hành động, lời thoại và\nđộc thoại nội tâm."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q14",
+    "examId": "vact-synthetic-de-01",
+    "number": 14,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Ngữ liệu:\n“Ông Diễu bỗng thấy bị xúc phạm ghê gớm.\nTựa như ông bị theo dõi, bị đòi ăn vạ.”\n(Nguyễn Huy Thiệp – Muối của rừng)\nTác dụng của hiện tượng tách biệt trong câu “Tựa như ông bị theo dõi, bị đòi ăn vạ” là\ngì?",
+    "options": [
+      "Nhấn mạnh cảm giác bị tổn thương sâu sắc, gợi sự hoang mang và ngờ vực trong tâm\nlý nhân vật.",
+      "Làm nổi bật cảm giác bị xúc phạm dữ dội, tăng sức gợi căng thẳng và ức chế tâm lý\nnhân vật.",
+      "Nhấn mạnh cảm xúc tự ái mạnh mẽ, gợi nỗi sợ hãi và bất an trong tâm trạng của nhân\nvật.",
+      "Làm nổi bật trạng thái bối rối nội tâm, gợi cảm giác day dứt và lo lắng mơ hồ trong\nnhân vật."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q15",
+    "examId": "vact-synthetic-de-01",
+    "number": 15,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Mượn tình yêu để diễn đạt chính mình\nCặp thân thể nồng nàn và trong suốt\nCái ngôn ngữ dịu dàng không ngượng ngập\nHai tâm hồn bình tĩnh nhận ra nhau.\nHai tâm hồn chờ đợi đã từ lâu\nCái giây phút dứt tung những xiềng xích êm ái\nKhông son phấn điểm trang, không lụa là che đậy\nHọ như là trời đất mới sinh ra.\n(Trích Sông Hương Thơ (1983 - 2003) tuyển chọn, NXB Văn hóa Thông tin, 2003.)\nChủ thể trữ tình trong đoạn thơ trên là ai?",
+    "options": [
+      "Là người chứng kiến đang chiêm ngưỡng vẻ đẹp tình yêu với sự ngưỡng mộ và xúc\nđộng chân thành.",
+      "Là nhà thơ đang tái hiện hình ảnh đôi lứa yêu nhau bằng cảm xúc khách quan và trung\ntính nghệ thuật.",
+      "Là người nghệ sĩ dùng tình yêu đôi lứa để biểu đạt chính cảm xúc, tâm hồn và khát\nvọng của mình.",
+      "Là người đang yêu, trực tiếp bộc lộ cảm xúc say đắm và nồng nàn trước khoảnh khắc\ngiao hòa đôi lứa."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q16",
+    "examId": "vact-synthetic-de-01",
+    "number": 16,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "- Ai đấy? Ai đấy? - Mật quýnh lên hỏi.\n- Tôi đây. Bắc đây.\n- Giời ơi! - Mật lập cập kêu lên - Anh Bắc.\nKhi cánh cửa vừa mở thì người lính ập vào và ôm lấy Mật.\n- Anh Bắc! - Mật hoảng hốt. - Mật đây. Em Mật đây mà.\nVòng tay người lính vội rời ra và thõng xuống.\n- Ân đâu?\n- Chị Ân đi Kim Bôi sáng nay cùng mấy chị trong xóm, xem có lá dong rẻ hay quýt cam\ngì mua về bán chợ Tết. Em ở nhà trông nhà.\n- Bao giờ Ân về?\n- Có lẽ mai chị Ân về. Thế bao giờ anh đi?\nBắc đứng lặng không trả lời. Gió sông lạnh thổi xốc vào ngôi nhà tranh bé bỏng.\n(Trích Văn bản đọc hiểu Ngữ văn 10, NXB Đại học Quốc gia Hà Nội, 2022.)\nTrong các ý sau, ý nào không thể hiện đặc trưng nghệ thuật của đoạn trích?",
+    "options": [
+      "Ngôn ngữ đối thoại tự nhiên, chân thực, thể hiện rõ tâm trạng hồi hộp và bối rối của\nnhân vật.",
+      "Giọng kể dung dị, nhịp điệu chậm rãi, kết hợp tả cảnh gợi tình tạo không khí buồn man\nmác.",
+      "Miêu tả chi tiết, chọn lọc, tập trung khắc họa diễn biến tâm lý nhân vật qua cử chỉ và\nlời nói.",
+      "Sử dụng ngôn ngữ biểu tượng và kết cấu phi tuyến để tạo chiều sâu cho cảm xúc và\nthời gian."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q17",
+    "examId": "vact-synthetic-de-01",
+    "number": 17,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Dòng nào dưới đây gồm các từ được viết đúng chính tả?",
+    "options": [
+      "Xán lạn, chỉnh chu, trau chuốt, tinh tuý.",
+      "Sáng lạn, chỉn chu, trau chuốt, tinh túy.",
+      "Xán lạn, chỉn chu, chau chuốt, tinh túy.",
+      "Sáng lạn, chỉn chu, trau chuốt, tinh túy."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q18",
+    "examId": "vact-synthetic-de-01",
+    "number": 18,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Mặc dù Quang rất chăm viết thư nhưng cũng giống như tôi, đến mãi bấy giờ\nanh mới được hồi âm. Song lá thư cho anh hay một cái tin rất tệ. Vợ anh đã bỏ nhà theo trai. Cô ta\ntằng tịu với một gã thủy thủ đường sông, đến nỗi mang bầu nên phải bỏ làng, bán xới theo gã vào\nNam ngay sau ngày hòa bình. Bị phải cái tin điếng người ấy, Quang tỏ ra bình tĩnh. Anh thông\ncảm với vợ. “Lấy nhau mới được có bảy ngày là tớ lên đường đi Bê. Như vậy là cô ấy đã phải vò\nvõ chịu đựng những mười năm trời có lẻ chứ nào ít ỏi gì đâu, thế mà sức người thì có hạn\" -\nQuang điềm đạm lý giải một cách phân minh - \"Thêm nữa, nhà tớ lại kề ngay một bến sông nhộn\nnhịp, tứ xứ thuyền bè qua lại, sự thể như thế tất phải xảy ra. Trách ai được bây giờ. Thôi thì sự đã\nvậy thì đành vậy, tớ chẳng thiết!”. Miệng anh nói vậy nhưng bụng anh nói khác. Đêm đêm, giữa canh khuya, Quang chỉ toàn nằm mộng thấy kẻ bội bạc, anh nấc lên tên cô ta và vừa rên ư ử vừa\nnói lảm nhảm. Có đêm tôi nghe thấy trong màn anh vẳng ra tiếng khóc thút thít, sụt sịt.\n(Trích Rửa tay gác kiếm - Bảo Ninh, NXB Trẻ, 2021.)\nĐặc điểm nhân vật Quang trong đoạn trích được thể hiện rõ nhất qua chi tiết nào?",
+    "options": [
+      "Là người điềm tĩnh, luôn cố giấu nỗi đau riêng, xem mất mát là điều tất yếu của đời\nsống.",
+      "Là người mạnh mẽ, lựa chọn quên đi quá khứ và chấp nhận mọi tổn thương bằng lý trí\nlạnh lùng.",
+      "Là người giàu tình cảm, cố tỏ ra bình thản nhưng trong lòng đầy dằn vặt và thương tổn\nsâu kín.",
+      "Là người kiên cường, luôn kiểm soát cảm xúc, coi mọi đổ vỡ như một phần quy luật\ncủa số phận."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q19",
+    "examId": "vact-synthetic-de-01",
+    "number": 19,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Trong một hạt táo nhỏ có chứa cả vũ trụ.\nCó dinh dưỡng của đất, có ánh nắng, ô-xy, ni-tơ, có mưa,\ncó cả mồ hôi của người trồng cây.\nCả vũ trụ này cũng đang nương tựa vào nhau để tồn tại.\nVậy hiện giờ trong bạn đang có những gì?\nMong rằng bạn sẽ có một cuộc sống biết nói lời cảm tạ.\n(Trích Bước chậm lại giữa thế gian vội vã – Hae Min, NXB Hội Nhà văn – Nhã Nam,\n2019)\nThông điệp sâu sắc nhất mà đoạn trích gửi đến người đọc là gì?",
+    "options": [
+      "Mỗi vật nhỏ bé trong đời sống đều chứa đựng giá trị to lớn và đáng được trân trọng.",
+      "Con người cần nhận ra mối liên hệ tự nhiên giữa bản thân và thế giới xung quanh mình.",
+      "Hãy sống chậm lại để cảm nhận sự vận hành hài hòa của vạn vật trong vũ trụ bao la.",
+      "Hãy biết tri ân cuộc sống, trân trọng từng điều nhỏ bé vì mọi sự đều gắn bó và nương\ntựa."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q20",
+    "examId": "vact-synthetic-de-01",
+    "number": 20,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Sự thực thì lúc ấy Đinh mỗ dầu còn ít tuổi nhưng lại thông minh khác thường.\nNay nghe chú khách lẩm nhẩm như vậy thì ông hiểu ngay là huyệt ở trong mồm ngựa, chẳng còn\nhồ nghi gì nữa. Cho nên, sau khi chú khách đi rồi, ông bèn lấy ngay gói xương ở gác bếp đem xuống\nquấn mở cô non bên ngoài, rồi ôm vào đầm lặn xuống chỗ ngựa đá, cũng làm theo như mọi hôm.\nNó vừa há miệng, ông bèn nạp cả gói ấy vào trong, đợi khi nó nuốt chửng rồi ông mới yên trí ngoi\nlên. Thế là ngôi huyệt để vương mà chú khách kia đã tốn biết bao công của mới tìm ra được, ngày\nnay lại bị ông phỗng tay trên mất rồi.\n(Vũ Phương Đề, “Táng mộ vào con thần mã, họ Đinh thẳng trận thống nhất non sông”,\ntheo Tổng tập Văn học Việt Nam, tập 6, NXB Khoa học Xã hội, 2000)\nNhận xét chính xác nhất về điểm nhìn trần thuật trong đoạn trích trên là gì?",
+    "options": [
+      "Người kể chuyện đứng ngoài, quan sát toàn bộ sự việc bằng giọng điệu khách quan,\ntrung lập và tĩnh tại.",
+      "Người kể chuyện toàn tri, nắm rõ suy nghĩ nhân vật và xen vào bằng lời bình mang\ntính dẫn dắt.",
+      "Người kể chuyện nhập vai Đinh mỗ, kể chuyện theo điểm nhìn chủ quan với giọng hồi\ntưởng cá nhân.",
+      "Người kể chuyện giấu mình, tái hiện sự việc qua đối thoại, để nhân vật tự bộc lộ cảm\nxúc và hành động.\nĐọc đoạn văn sau và trả lời các câu hỏi:\nMá tôi vẫn đi tìm dì Hai Giang – vợ cũ của ba tôi. Ngày xưa, nội tôi không đồng ý cho họ lấy nhau,\nhọ dắt díu nhau bỏ đi. Họ có một đứa con gái bị rơi sông mà chết. Ba tôi sống quá cơ cực, lại luôn\nkhắc khoải nhớ nội nên quay về cưới má tôi, bỏ mặc họ bơ vơ. Má tôi nói, nội chưa từng la mắng\nmá, nhưng má vẫn hận nội đến chết mới thôi. “Bộ hết người rồi sao mà nội bây cưới tao cho ổng?\nĐó!” – bà chỉ tay ra bến – “Gần hết đời rồi tao có được vui đâu!” Đó là lúc “ổng” – tức ba tôi –\nchống cây gậy, khật khừ lang thang xuống bến, ông già tha thiết nhìn ra sông… Có khi, ngồi lặng\nlẽ dòm, ai cũng nghe đau xót như ai lấy cật tre cứa tới cứa lui trong lòng. Có những đêm, ba tôi\nhút thuốc dữ lắm, cứ nhìn chong chong ra ngọn đèn đỏ ối, nhỏ nhoi, buồn hiu ngoài kia. Ba tôi thở\ndài. Má tôi chạy qua khóc với nội tôi: “Biết chừng nào ảnh mới quên chuyện xưa, hả má?”\nChuyện xảy ra lâu rồi, nhưng người ta vẫn còn nhớ, vẫn còn cắm sào trước bến nhớ ba tôi. Vậy\nmà biểu ba tôi quên cái rụp thì sao quên cho được? Mà, cũng vì ba tôi quên không được nên má tôi\nmới thương ông nhiều. Con người ta, nhất là đàn ông, thương ai mà vì nỗi gì đó quay lưng rồi\nquên mất tiêu thì đúng là không tử tế, không đáng tin chút nào. Với tôi, ba tôi thì quên hay không\ncũng được – ba đã sống tốt với cả nhà tôi lắm rồi. Ông sống tử tế đến vô cùng, đến mức thừa, như\nthể ông gửi gắm cả tình thương yêu cho người vắng mặt. Và cũng như má tôi, ba cũng không sống\nđược mấy ngày vui – vui thật, vui đúng nghĩa. Hồi tôi còn nhỏ, còn sống chung với bà nội, đêm\nđêm cả nhà đi ngủ, ba tôi ngồi hút thuốc trên bộ vạc kê trước nhà, chống rèm lên, ngó ra sông.\nKiểu ngồi: một chân xếp bằng, chân kia dựng lên, tay cầm điếu thuốc tì lên đầu gối – đêm này qua\nđêm khác, kiểu ngồi không đổi. Nửa đêm, má tôi đi ém mùng lại, tôi thức giấc, ngó ra chỉ thấy đốm\nlửa lập lòe – lúc đỏ rực, lúc tắt thiu tiu. Má tôi ngồi trong mùng, lặng lẽ nhìn ba, còn ba thì nhìn\nra sông. Mơ hồ, dường như mình mắc nợ ai đó. Cả nhà tôi lúc nào cũng cảm thấy không vui – dù\nđang hạnh phúc (hai thứ này, sao lại không thể đi chung?). Không thấy ai đòi nhưng nợ vẫn cứ là\nnợ – nó rờn rờn, quanh quất trong chái bếp ngày ngày khói tỏa, trong mấy chiếc giường ngủ con\ncon, trong hai bữa cơm mỗi ngày. Cho tới lúc cuối đời, chắc nội tôi vẫn còn băn khoăn trong lòng.\nKhi nội tôi vừa khuất, má quyết định gặp “đối thủ” một lần – chỉ định nhìn vậy thôi.\n(Dòng nhớ, Nguyễn Ngọc Tư)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q21",
+    "examId": "vact-synthetic-de-01",
+    "number": 21,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Đáp án nào KHÔNG phải là đặc điểm của truyện ngắn hiện đại trong\nđoạn văn “Dòng nhớ” – Nguyễn Ngọc Tư?",
+    "options": [
+      "Khai thác những góc khuất tâm lý con người thông qua những chi tiết nhỏ, đời thường,\nkhông kịch tính.",
+      "Xây dựng cốt truyện có nút thắt – cao trào – mở nút rõ ràng, hướng đến hành động và\nkết thúc bất ngờ.",
+      "Tạo dựng không khí cảm xúc lặng lẽ, mơ hồ, để lại dư âm dài lâu thay vì khẳng định\ntrực tiếp tư tưởng.",
+      "Sử dụng điểm nhìn trần thuật linh hoạt, giọng kể thấm đẫm sự chiêm nghiệm và cảm\nxúc cá nhân hóa."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q22",
+    "examId": "vact-synthetic-de-01",
+    "number": 22,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Chọn đáp án đúng nhất thể hiện thông điệp mà đoạn văn “Dòng nhớ”\n– Nguyễn Ngọc Tư muốn gửi gắm?",
+    "options": [
+      "Ký ức và nỗi day dứt không tan biến theo thời gian, mà len vào đời sống hiện tại, khiến\ncon người luôn sống trong cảm giác mắc nợ quá khứ.",
+      "Tình yêu chân thành không bao giờ phai nhạt, dù có bị ngăn cách bởi hoàn cảnh hay\nsự chia ly của định mệnh nghiệt ngã.",
+      "Con người nếu biết sống tử tế và yêu thương hiện tại thì quá khứ sẽ tự nhiên mờ dần\nvà không còn là gánh nặng trong lòng nữa.",
+      "Mỗi người đều có những điều chưa trọn trong đời, nhưng quan trọng là biết chấp nhận\nđể sống an yên cùng gia đình và người thân."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q23",
+    "examId": "vact-synthetic-de-01",
+    "number": 23,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Đặc điểm chung của các nhân vật trong truyện ngắn “Dòng nhớ” –\nNguyễn Ngọc Tư là gì?",
+    "options": [
+      "Họ đều là những con người từng trải, sống nhiều mất mát nên chọn cách im lặng để\ngiấu nỗi đau vào bên trong.",
+      "Họ đều mang trong mình những nỗi buồn lặng lẽ, sống tử tế nhưng luôn ám ảnh bởi\nđiều chưa trọn vẹn trong quá khứ.",
+      "Họ đều là những người phụ nữ chịu thiệt thòi trong tình cảm và phải gánh chịu những\ntổn thương do đàn ông để lại.",
+      "Họ đều sống trong hoài niệm và khát khao thay đổi số phận nhưng không đủ can đảm\nđể vượt qua thực tại."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q24",
+    "examId": "vact-synthetic-de-01",
+    "number": 24,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Truyện ngắn “Dòng nhớ” của Nguyễn Ngọc Tư được viết theo phong\ncách sáng tác nào?",
+    "options": [
+      "Phong cách hiện thực phê phán, tập trung phản ánh xung đột xã hội và những mặt trái\ncủa đời sống nông thôn.",
+      "Phong cách sử thi – trữ tình, đề cao khí phách và tình cảm sâu nặng của con người với\nquê hương đất nước.",
+      "Phong cách tự sự – biểu cảm, khai thác những nỗi buồn đời thường qua lối kể nhỏ nhẹ,\ngiàu chất thơ và cảm xúc.",
+      "Phong cách huyền ảo – tượng trưng, sử dụng những hình ảnh siêu thực để gợi mở tầng\nnghĩa tâm linh sâu xa."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q25",
+    "examId": "vact-synthetic-de-01",
+    "number": 25,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Trong đoạn trích, cách sử dụng cụm từ “mắc nợ ai đó” và “nợ vẫn cứ\nlà nợ” thể hiện hiệu quả diễn đạt gì về mặt nghĩa và sắc thái biểu cảm?",
+    "options": [
+      "Gợi lên sự ràng buộc tài chính cụ thể giữa các nhân vật trong gia đình và người vắng\nmặt ở quá khứ.",
+      "Khẳng định một cảm giác trách nhiệm đạo đức rõ ràng đối với những lỗi lầm đã gây ra\ntrước kia.",
+      "Biểu đạt một cảm thức mơ hồ, đầy day dứt về tình cảm chưa trọn vẹn, như món nợ tinh\nthần không tên tuổi.",
+      "Nhấn mạnh trạng thái căng thẳng, bức bối trong gia đình do thiếu minh bạch về những\ngì đã xảy ra trước đó. Đọc đoạn văn sau và trả lời các câu hỏi:\nNỗi lòng (Cảm hoài)\nTác giả: Đặng Dung\nPhiên âm Hán Việt\nThế sự du du nại lão hà,\nVô cùng thiên địa nhập hàm ca.\nThời lai đồ điếu thành công dị,\nVận khứ anh hùng ẩm hận đa.\nTrí chủ hữu hoài phù địa trục,\nTẩy binh vô lộ vãn thiên hà.\nQuốc thù vị báo đầu tiên bạch,\nKỷ độ Long Tuyền đối nguyệt ma.\nDịch nghĩa\nSự đời dằng dặc mà ta đã già rồi, biết làm thế nào?\nTrời đất mênh mông thu vào trong cuộc rượu hát ca.\nKhi gặp thời, người làm nghề hàng thịt, kẻ câu cá cũng dễ thành công,\nLúc lỡ vận, bậc anh hùng đành phải nuốt hận nhiều.\nGiúp chúa, những muốn xoay trục đất,\nRửa vũ khí mà không có lối kéo tuột sông Ngân xuống.\nThù nước chưa trả được mà mái tóc đã bạc sớm,\nBao phen mang gươm báu mài dưới bóng trăng.\nDịch thơ (Phan Võ dịch)\nViệc thế lôi thôi, tuổi tác này,\nMênh mông trời đất, hát và say.\nGặp thời, đồ điếu thừa nên việc,\nLỡ vận, anh hùng luống nuốt cay.\nGiúp chúa những lăm giằng cột đất,\nRửa đồng không thể vén sông mây.\nQuốc thù chưa trả, già sao vội,\nDưới nguyệt mài gươm đã bấy chầy.\n(Phan Võ dịch, Hợp tuyển thơ văn Việt Nam, tập II, NXB Văn học, Hà Nội, 1976)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q26",
+    "examId": "vact-synthetic-de-01",
+    "number": 26,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Bài thơ được viết theo thể thơ nào?",
+    "options": [
+      "Thất ngôn bát cú Đường luật",
+      "Thất ngôn tứ tuyệt",
+      "Ngũ ngôn bát cú Đường luật",
+      "Ngũ ngôn tứ tuyệt Đường luật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q27",
+    "examId": "vact-synthetic-de-01",
+    "number": 27,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Nội dung nào dưới đây không được thể hiện trong bài thơ?",
+    "options": [
+      "Nỗi đau và nỗi hận của người anh hùng khi chưa báo đền được nợ nước thù nhà.",
+      "Tâm trạng uất nghẹn, nuốt hận của người trí sĩ trong buổi thời loạn, khi vận nước suy\nvi.",
+      "Niềm vui hòa hợp cùng thiên nhiên và khát vọng tìm đến cuộc sống an nhàn, ẩn dật.",
+      "Lý tưởng trung quân ái quốc và ý chí chiến đấu đến cùng để khôi phục giang sơn."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q28",
+    "examId": "vact-synthetic-de-01",
+    "number": 28,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Đáp án nào sau đây đúng nhất khi nói về phong cách sáng tác của Đặng\nDung?",
+    "options": [
+      "Giàu cảm xúc trữ tình, khai thác vẻ đẹp thiên nhiên và tình yêu quê hương bằng giọng\nđiệu nhẹ nhàng.",
+      "Thấm đẫm tinh thần lạc quan, ca ngợi cuộc sống thanh thản và đạo lý hòa hợp giữa con\nngười – vũ trụ.",
+      "Mang khuynh hướng triết lý sâu sắc, phản ánh tư tưởng nhân đạo và khát vọng nhân\nsinh phổ quát.",
+      "Đậm chất anh hùng, thể hiện khí phách kiên trung và nỗi bi tráng của người trung\nnghĩa thời loạn."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q29",
+    "examId": "vact-synthetic-de-01",
+    "number": 29,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Đặc trưng thể loại của bài thơ “Nỗi lòng (Cảm hoài)” được thể hiện rõ\nnhất ở điểm nào sau đây?",
+    "options": [
+      "Kết cấu tự do, ngôn ngữ giàu biểu cảm, hình ảnh phóng khoáng, không gò bó niêm\nluật chặt chẽ.",
+      "Cấu trúc chặt chẽ theo niêm luật, sử dụng phép đối chỉnh, biểu đạt ý chí bằng giọng\nđiệu trang trọng.",
+      "Cách gieo vần linh hoạt, kết hợp giữa nhịp điệu hiện đại và cảm hứng cá nhân tự do\nsáng tạo.",
+      "Sử dụng nhịp điệu phức hợp, lặp lại mô típ và câu cú nhằm tạo ấn tượng giàu nhạc\ntính biểu cảm."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q30",
+    "examId": "vact-synthetic-de-01",
+    "number": 30,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Hai câu thơ cuối trong bài “Nỗi lòng (Cảm hoài)” có ý nghĩa gì?",
+    "options": [
+      "Thể hiện nỗi đau và nỗi hận của người anh hùng khi chưa trả được nợ nước thù nhà.",
+      "Diễn tả niềm thương nhớ quá khứ và khao khát tìm lại những tháng ngày vinh quang\nxưa.",
+      "Thể hiện tâm trạng hoài nghi về thời thế và niềm bi quan trước sự đổi thay của nhân\ngian.",
+      "Gợi cảm xúc cô đơn của kẻ sĩ khi nhận ra giới hạn và sự hữu hạn của kiếp người."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q31",
+    "examId": "vact-synthetic-de-01",
+    "number": 31,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "We ___ the supplier last Tuesday and confirmed the delivery schedule\nby phone.",
+    "options": [
+      "contact",
+      "contacted",
+      "have contacted",
+      "were\ncontacting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q32",
+    "examId": "vact-synthetic-de-01",
+    "number": 32,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In crisis calls, Jordan responds ___ the rest of the team and calms clients\nfaster.",
+    "options": [
+      "more calmly than",
+      "calmer than",
+      "as calm as",
+      "the most\ncalmly"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q33",
+    "examId": "vact-synthetic-de-01",
+    "number": 33,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The board found her proposal both cost-saving and highly ___ for\ncommunities with limited infrastructure.",
+    "options": [
+      "application",
+      "applicable",
+      "applied",
+      "applicant"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q34",
+    "examId": "vact-synthetic-de-01",
+    "number": 34,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "We allocated ___ budget to outreach this cycle, so please prioritize low-\ncost channels.",
+    "options": [
+      "a great deal of",
+      "a number of",
+      "much of",
+      "most of"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q35",
+    "examId": "vact-synthetic-de-01",
+    "number": 35,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "If we keep cutting corners, compliance issues will eventually ___ us and\ndamage the brand.",
+    "options": [
+      "catch up with",
+      "catch on",
+      "catch at",
+      "catch out\nQuestions: Each of the following sentences has one error (A, B, C, or D). Find it and blacken your\nchoice on your answer sheet."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q36",
+    "examId": "vact-synthetic-de-01",
+    "number": 36,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The committee included several experts, some of whom work focuses\non storage technologies.",
+    "options": [
+      "included",
+      "some",
+      "whom",
+      "focuses"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q37",
+    "examId": "vact-synthetic-de-01",
+    "number": 37,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Neither the director nor the senior managers was available when the\nauditors requested immediate clarifications",
+    "options": [
+      "Neither",
+      "was",
+      "the auditors",
+      "requested"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q38",
+    "examId": "vact-synthetic-de-01",
+    "number": 38,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Sam handed the keys to Carla, then this was placed on the receptionist’s\ndesk for the maintenance team to collect\n200 CÂU TIẾNG ANH ĐGNL V-ACT",
+    "options": [
+      "handed",
+      "this",
+      "placed on",
+      "receptionist’s\ndesk"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q39",
+    "examId": "vact-synthetic-de-01",
+    "number": 39,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The tenants gave the landlord two months notice before moving out,\nwhich helped schedule painters and cleaners efficiently",
+    "options": [
+      "gave",
+      "months",
+      "moving out",
+      "which"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q40",
+    "examId": "vact-synthetic-de-01",
+    "number": 40,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Leo photographed a bird hovering above a sky streaked with thin\nmare’s-tail clouds",
+    "options": [
+      "photographed",
+      "a bird",
+      "a sky",
+      "streaked with\nQuestions: Which of the following best restates each of the given sentences?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q41",
+    "examId": "vact-synthetic-de-01",
+    "number": 41,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Pay the invoice now or we will suspend your account.",
+    "options": [
+      "Were you to pay the invoice now, we would suspend your account.",
+      "Unless you pay the invoice now, we will suspend your account.",
+      "Pay the invoice now so that we can suspend your account.",
+      "We will suspend your account if you pay the invoice now."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q42",
+    "examId": "vact-synthetic-de-01",
+    "number": 42,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "“You must submit the lab report by next Monday,” the professor told\nAnna.",
+    "options": [
+      "The professor asked Anna to submit your lab report by the next Monday.",
+      "The professor ordered Anna to submit her lab report by the following Monday.",
+      "The professor told Anna that she had to submit her lab report by next Monday.",
+      "The professor advised Anna to submit her lab report by the following Monday."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q43",
+    "examId": "vact-synthetic-de-01",
+    "number": 43,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The recent plugin may be triggering the website errors.",
+    "options": [
+      "The website errors will possibly lead to the recent plugin.",
+      "The possible recent plugin of the site can trigger the errors.",
+      "The possible cause of the website errors is the recent plugin.",
+      "The website errors occurred because the plugin had been updated."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q44",
+    "examId": "vact-synthetic-de-01",
+    "number": 44,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "We don’t collaborate often because we don’t work in the same\ndepartment.",
+    "options": [
+      "We will collaborate often if we work in the same department.",
+      "Had we worked in the same department, we would have collaborated often.",
+      "If we worked in the same department, we would collaborate more often.",
+      "Unless we worked in the same department, we wouldn’t collaborate this often."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q45",
+    "examId": "vact-synthetic-de-01",
+    "number": 45,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Streaming a concert is not as engaging as attending it live.",
+    "options": [
+      "Streaming a concert is more engaging than attending it live.",
+      "Attending a concert live is as engaging as streaming it.",
+      "Attending a concert live is the most engaging compared to streaming it.",
+      "Attending a concert live is more engaging than streaming it.\nQuestions: Read the passage carefully. Implicit memory and explicit memory are two key types of long-term memory.\nInformation you remember unconsciously and effortlessly—like how to ride a bike or tie\nyour shoes—is stored as implicit memory. Meanwhile, information that you have to\nconsciously recall and think about, such as remembering your to-do list or a historical\ndate, is known as explicit memory. Both forms of memory play crucial roles in how we\nrecall information and interact with our surroundings. Understanding the difference\nbetween them helps explain how the brain organizes and retrieves knowledge.\nImplicit memory, sometimes called unconscious or automatic memory, refers to\ninformation that people don’t intentionally try to remember. It’s also known as\nnondeclarative memory because it cannot easily be expressed in words. These memories\nare procedural—focused on how to perform actions or skills that become second nature\nthrough repetition. For example, singing a familiar song, typing on a keyboard, or driving\na car all rely on implicit memory. Even after years without practice, most people can hop\non a bicycle and ride effortlessly because the memory of the task remains intact. Implicit\nmemory mainly involves the cerebellum and basal ganglia, which coordinate movement\nand habit formation. Although we’re not aware of these memories, they strongly influence\nour behaviors and knowledge of different tasks.\nBy contrast, explicit memory—sometimes called declarative memory—involves\nconscious, intentional recollection. When you try to recall what you studied for a test, the\nname of your childhood friend, or the capital of a country, you are using explicit memory.\nThis type of memory depends on the hippocampus and frontal lobes. Explicit memory\ncan be divided into two categories: episodic memory, which includes personal\nexperiences such as birthdays or vacations, and semantic memory, which stores facts,\nconcepts, and general knowledge. Remembering your phone number, identifying a\nfamous person, or recalling when your next appointment is are all examples of explicit\nrecall.\nWhile the two systems differ in awareness, they often work together in daily life. Implicit\nmemory lets you engage automatically in learned behaviors—like steering a car—while\nexplicit memory allows you to consciously remember directions or a new route. Research\nshows that factors such as stress, mood, and age can affect both types: high stress may\nimpair explicit recall but heighten emotional implicit memories, while aging tends to\nweaken explicit memory yet preserve implicit skills. Maintaining healthy habits like\nregular sleep, physical exercise, brain training, and balanced nutrition can help protect\nboth systems. Ultimately, implicit memory lets you act without thinking, while explicit\nmemory lets you think before acting—and together, they form the foundation of learning\nand daily functioning.\n(Adapted from:\nChoose an option (A, B, C, or D) that best answers each question."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q46",
+    "examId": "vact-synthetic-de-01",
+    "number": 46,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The best title for the passage can be ________.",
+    "options": [
+      "Two Memory Systems: Implicit habits and explicit conscious recall",
+      "Single Memory Pathway: One circuit for all learning tasks",
+      "Forgetting Mechanisms: Why the brain routinely deletes facts",
+      "Sleep Alone: The only protector of lifelong memory"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q47",
+    "examId": "vact-synthetic-de-01",
+    "number": 47,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In paragraph 1, implicit memory mainly refers to ________.",
+    "options": [
+      "sensory impressions noticed briefly and then forgotten",
+      "facts recalled intentionally through focused mental search",
+      "emotions encoded during stressful, one-time experiences",
+      "skills retrieved automatically without deliberate conscious effort"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q48",
+    "examId": "vact-synthetic-de-01",
+    "number": 48,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Which brain regions are linked to implicit memory processing?",
+    "options": [
+      "hippocampus and frontal lobes encoding conscious recollections",
+      "cerebellum and basal ganglia coordinating movement and habits",
+      "amygdala and occipital cortex controlling color recognition",
+      "thalamus and parietal lobes guiding spatial arithmetic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q49",
+    "examId": "vact-synthetic-de-01",
+    "number": 49,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In paragraph 3, explicit memory is best described as ________.",
+    "options": [
+      "intentional recollection of facts, events, and learned information",
+      "unconscious priming that shapes habits without awareness",
+      "automatic motor patterns for routine coordinated actions",
+      "reflex responses triggered by sudden environmental changes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q50",
+    "examId": "vact-synthetic-de-01",
+    "number": 50,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Which example primarily illustrates implicit memory at work?",
+    "options": [
+      "listing your appointments from next week’s calendar",
+      "recalling the capital city for a geography examination",
+      "riding a bicycle effortlessly after years without practice",
+      "naming a famous scientist from a school textbook"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q51",
+    "examId": "vact-synthetic-de-01",
+    "number": 51,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "It is suggested in paragraph 4 that stress and aging ________.",
+    "options": [
+      "can impair explicit recall while implicit skills often persist",
+      "uniformly improve both explicit and implicit performance",
+      "only damage implicit habits without affecting factual recall",
+      "never influence memory systems in healthy adult brains"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q52",
+    "examId": "vact-synthetic-de-01",
+    "number": 52,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "It is seen in the passage that __________.",
+    "options": [
+      "implicit skills and explicit recall jointly support everyday learning and action",
+      "explicit memory alone governs driving, navigation, and routine motor behaviors fully",
+      "implicit memory replaces facts, concepts, and all conscious recollection needs entirely",
+      "stress invariably enhances explicit recall while weakening all implicit skills universally\nQuestions: Read the passage carefully.\nSome of the most creative minds in history — from Pablo Picasso and J.K. Rowling to Jean-\nPaul Sartre and Bob Dylan — have found inspiration not in private studios or silent offices,\nbut in bustling cafés. These public spaces, filled with conversation, clinking cups, and\nbackground music, seem to spark imagination in ways that home or office environments\nrarely can. During the pandemic, as millions of people began working remotely, many\ndiscovered they missed the energy of coffee shops — even though they had been working “alone” there too. Why does sitting among strangers somehow make us think more\ncreatively?\nPsychologists suggest that coffee shops strike a unique balance between focus and\ndistraction. A landmark 2012 study published in the Journal of Consumer Research\nshowed that a moderate level of background noise — similar to that in a café — can boost\ncreative thinking. The subtle hum of activity slightly diverts attention from the task at\nhand, encouraging abstract thought and original ideas. Later studies found a similar\n“Goldilocks effect” known as stochastic resonance, where just the right amount of sensory\nnoise sharpens perception and decision-making. Add to that the so-called “coffee shop\neffect”, where seeing others absorbed in their own work acts as silent motivation — much\nlike exercising harder at a gym when others are pushing themselves nearby.\nBeyond sound and social presence, visual variety also stimulates the brain. Working in\nthe same home office or cubicle day after day can dull creativity, while the ever-changing\nenvironment of a café — the movement of people, the shifting daylight, the smell of\nroasted beans — provides subtle sensory refreshment. Architectural researcher Korydon\nSmith argues that these “micro-stimuli” unconsciously nudge our brains to think\ndifferently. Even décor variety plays a role: unlike the predictable design of offices, cafés\noffer spontaneous visual surprises that keep our minds alert and flexible.\nFinally, the informality of cafés may help both individuals and groups think more freely.\nUnlike scheduled meetings or rigid office settings, conversations over coffee unfold\nnaturally, often leading to unexpected ideas. Architects note that modern campuses and\noffices now borrow this coffee-shop design — open seating, natural light, casual gathering\nzones — to encourage collaboration and creativity. Not every public space works equally\nwell, of course; bars, for instance, are usually too noisy for productive thought. Yet despite\nremote work becoming more common, researchers predict that many will keep returning\nto cafés. After all, the mix of mild noise, human energy, and sensory richness offers a\ncreative boost that even the best home office can’t quite match — and yes, the coffee helps\ntoo.\n(Adapted from: https://www.bbc.com/worklife/article/20210114-why-youre-more-creative-in-\ncoffee-shops)\nChoose an option (A, B, C, or D) that best answers each question."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q53",
+    "examId": "vact-synthetic-de-01",
+    "number": 53,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The best title for the passage can be ________.",
+    "options": [
+      "Home offices: the only path to peak imagination",
+      "Why cafés quietly supercharge creative thinking and collaboration",
+      "Silence first: creativity thrives in total sensory deprivation",
+      "Private studios outperform public spaces for all creative work"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q54",
+    "examId": "vact-synthetic-de-01",
+    "number": 54,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The core question raised in paragraph 1 is ________.",
+    "options": [
+      "why strangers’ presence seems to enhance creative output",
+      "how caffeine alone guarantees better ideas at work",
+      "whether offices remain superior to remote arrangements",
+      "which artists rejected cafés as distracting environments"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q55",
+    "examId": "vact-synthetic-de-01",
+    "number": 55,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "From paragraph 1, it can be inferred that remote workers ________.",
+    "options": [
+      "produced better work only in private home offices",
+      "preferred silence over any social or sensory input",
+      "missed ambient energy despite working mostly alone in cafés",
+      "avoided cafés because conversations ruined concentration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q56",
+    "examId": "vact-synthetic-de-01",
+    "number": 56,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "According to paragraph 2, moderate background noise can ________.",
+    "options": [
+      "suppress imagination while improving strict rule-following",
+      "eliminate distraction by fully masking all external sounds",
+      "nudge attention outward and stimulate abstract, original ideas",
+      "replace expertise with effortless, automatic problem-solving"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q57",
+    "examId": "vact-synthetic-de-01",
+    "number": 57,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The “Goldilocks effect” (paragraph 2) most nearly means ________.",
+    "options": [
+      "just-right noise levels can sharpen perception and judgment",
+      "maximum noise consistently yields the most creative insights",
+      "zero noise ensures sustained focus and flexible thinking",
+      "unpredictable clamor always improves decision-making quality"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q58",
+    "examId": "vact-synthetic-de-01",
+    "number": 58,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "It is NOT mentioned in paragraph 3 that cafés ________.",
+    "options": [
+      "offer changing sights, scents, and daylight dynamics",
+      "provide décor variety that keeps minds alert and flexible",
+      "use identical cubicle layouts to reduce visual surprises",
+      "deliver subtle “micro-stimuli” that refresh mental framing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q59",
+    "examId": "vact-synthetic-de-01",
+    "number": 59,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Which detail about public spaces is supported by paragraph 4?",
+    "options": [
+      "bars are usually too noisy for productive creative thought",
+      "libraries never support creativity due to excessive silence",
+      "parks block collaboration because seating is too limited",
+      "airports consistently provide ideal noise and lighting levels"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q60",
+    "examId": "vact-synthetic-de-01",
+    "number": 60,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "It is seen in the passage that creativity benefits when ________.",
+    "options": [
+      "mild noise, human presence, and sensory variety blend together",
+      "strict silence and isolation are enforced continuously",
+      "constant novelty and loud music dominate the workspace",
+      "caffeine replaces environmental and social stimulation\nQuestions: Choose a suitable word or phrase (A, B, C, or D) to fill in each blank."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q61",
+    "examId": "vact-synthetic-de-01",
+    "number": 61,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Phương trình 2 2 3 5 x x x     có tổng các nghiệm nguyên là",
+    "options": [
+      "2  .",
+      "3  .",
+      "1  .",
+      "4  ."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chọn B.\nTH1: 2 2 3 0 x x    3\n1\nx\nx\n  \n    . Khi đó phương trình trở thành:\n2 2 3 5 x x x     2 8 0 x x    \n1 33\n2\n1 33\n2\nx\nx\n  \n \n    \n \n\n.\nTH2: 2 2 3 0 x x    3 1 x     . Khi đó phương trình trở thành:\n2 2 3 5 x x x      2 3 2 0 x x     1\n2\nx\nx\n  \n     .\nVậy tổng các nghiệm nguyên là 1 2 3 T      ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q62",
+    "examId": "vact-synthetic-de-01",
+    "number": 62,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tìm điều kiện của tham số m để hệ phương trình 1\nmx y m\nx my\n  \n     có\nnghiệm duy nhất.",
+    "options": [
+      "1 m   .",
+      "1 m   .",
+      "1 m  .",
+      "1 m   ."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chọn D.\nTa có 1\n1\nm\nD m\n\n \n2 1 m  \nĐể hệ có nghiệm duy nhất thì 0 D  2 1 0 m    1 m    ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q63",
+    "examId": "vact-synthetic-de-01",
+    "number": 63,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Biết sin\ncot cot\n4 sin sin\n4\nx kx\nx x x\n  với mọi x để các biểu thức có nghĩa. Lúc\nđó giá trị của k là",
+    "options": [
+      "5\n4 .",
+      "3\n4 .",
+      "5\n8 .",
+      "3\n8 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A.\n200 CÂU TOÁN HỌC ĐGNL V-ACT 5sin cos sin .cos cos sin sin\ncos 4 4 4 4 4 cot cot\n4 sinsin sin sin sin sin sin sin\n4 4 4 4\nx x x x xx x x\nx x\nx x x x x x x x x\n \n   \n      \nSuy ra 5\n4\nk  ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q64",
+    "examId": "vact-synthetic-de-01",
+    "number": 64,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho hàm số   3 2\n5 .8x x\nf x  . Khẳng định nào sau đây là khẳng định sai?",
+    "options": [
+      "  3\n2 1 log 5 2. 0 f x x x     .",
+      "  3\n5 1 6 log 2 0 f x x x     .",
+      "  3\n2 1 log 5 3 0 f x x x     .",
+      "  3\n2 1 log 5 3 0 f x x x     ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A\nTa có  3 3 3 3 2 2 2\n2 2 2 2 log 5 2 0 log 5 log 2 0 log 5 .2 0 5 .2 1x x x x x x\nx x          .\nVậy A sai.\nCác đáp án còn lại có thể kiểm tra tính đúng đắn bằng cách lôgarit hóa hai vế của bất\nđẳng thức   1 f x  theo các cơ số 2 hoặc 5 ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q65",
+    "examId": "vact-synthetic-de-01",
+    "number": 65,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "[EMPIRE TEAM] Có bao nhiêu giá trị nguyên của tham số m trong khoảng\n  2025, 2025  để phương trình     2 2 log 1 log 8 x mx    có hai nghiệm phân biệt là",
+    "options": [
+      "7 .",
+      "4047 .",
+      "3 .",
+      "Vô số."
+    ],
+    "correctAnswer": 2,
+    "explanation": ".\nChọn C\n       2 2 2 2\n1 1\nlog 1 log 8 2 9 0 1 8\nx x\nx mx x m x x mx\n     \n                 \n.\nĐể phương trình đã cho có hai nghiệm thực lớn hơn 1 thì điều kiện sau thỏa mãn.\n   \n  \n2\n1 2\n1 2\n1 2\n8\n4 4 32 0\n0 1 1 0 0 4 8\n1 8 0 1 1 0\nm\nm m m\nx x m m\nx x m x x\n   \n           \n            \n           \n"
+  },
+  {
+    "id": "vact-synthetic-de-01-q66",
+    "examId": "vact-synthetic-de-01",
+    "number": 66,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho hai số thực a , b đều lớn hơn 1. Giá trị nhỏ nhất của biểu thức\n4\n1 1\nlog log ab ab\nS a b\n  bằng",
+    "options": [
+      "4\n9 .",
+      "9\n4 .",
+      "9\n2 .",
+      "1\n4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chọn B\nTa có\n4\n1 1\nlog log ab ab\nS a b\n    4 log log a b ab ab  \n \n1\n1 log log 1\n4\na b b a     1 5\nlog 4 log 4\na\na\nb b\n   . Đặt loga x b  . Do a , 1 b  nên 0 x  .\nKhi đó 1 5\n4 4\nS x x\n   1 5 9\n2 . 4 4 4\nx x\n   (Áp dụng BĐT Cauchy cho hai số dương x và\n1\n4 x ).\nDấu \" \"  xảy ra\n1 1 1\n4 2 2\n0 0\nx x x x\nx x\n \n    \n     \n     \n.\nVậy 9\nmin 4\nS  tại 1\nlog 2\na b b a    ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q67",
+    "examId": "vact-synthetic-de-01",
+    "number": 67,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số\n3\n27\n2\nx\ny x\n \n song\nsong với trục hoành?",
+    "options": [
+      "1.",
+      "0 .",
+      "2 .",
+      "3 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có\n3 2\n2\n2 6\n( 2)\nx x\ny x\n\n   . Do đó     0 2\n0 0 0\n0\n0\n0 2 3 0 3\nx\ny x x x x\n \n        \n.\nTa có (0) 27 0 y    (nhận) và (3) 0 y  (loại vì khi đó tiếp tuyến trùng trục hoành).\nĐáp số: 1 ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q68",
+    "examId": "vact-synthetic-de-01",
+    "number": 68,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho hàm số\n2\n3 2\n4\n4\nx\ny x mx x\n\n   . Số giá trị nguyên   5;5 m   để hàm số\ncó đúng 1 tiệm cận đường tiệm cận.",
+    "options": [
+      "5 .",
+      "8 .",
+      "7 .",
+      "4 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Điều kiện cần để có 2\n4 0 2 2 x x       vậy nên hàm số không có tiệm cận ngang.\n \n3 2\n2\n0\n4 0 4 0\nx\nx mx x x mx\n \n         \nXét phương trình    \n4\n: m x g x\nx\n    ta thấy phương trình không có nghiệm bằng 0\nnên phương trình này phải vô nghiệm\nKhảo sát hàm số   g x với 2 2 x    lập bbt\nTa suy ra để phương trình vô nghiệm: 4 4 m   "
+  },
+  {
+    "id": "vact-synthetic-de-01-q69",
+    "examId": "vact-synthetic-de-01",
+    "number": 69,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Trong tam giác ABC , biết , ˆ ˆ 30 45 A B    và cạnh 6 BC a   . Tính\nđộ dài cạnh AC b  :",
+    "options": [
+      "3√3.",
+      "6 2 .",
+      "3 6 .",
+      "2 3 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Theo định lý sin cho tam giác ABC:\n2\nsin sin45 2 6 6 6 2.\n1 sin sin sin sin30\n2\na b B\nb a\nA B A\n     \n\n"
+  },
+  {
+    "id": "vact-synthetic-de-01-q70",
+    "examId": "vact-synthetic-de-01",
+    "number": 70,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Trong số 100 học sinh có 75 học sinh thích môn Toán và 60 học sinh\nthích môn Văn. Nếu có 5 học sinh không thích cả Văn và Toán. Hỏi có bao nhiêu học sinh\nthích cả hai môn?",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gọi số học sinh thích cả Văn và Toán là x . (Điều kiện ,5 60 x x     )\nThì số học sinh Toán mà không mà không thích Văn là 75 x  (học sinh).\nNếu có 5 học sinh không thích cả Văn và Toán mà lại có 60 học sinh thích môn Văn và\ntổng số học sinh là 100.\nNên ta có: 75 60 5 100 x    \n75 60 5 100 40 x x      \nVậy có 40 học sinh thích cả hai môn."
+  },
+  {
+    "id": "vact-synthetic-de-01-q71",
+    "examId": "vact-synthetic-de-01",
+    "number": 71,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "[EMPIRE TEAM] Tìm tất cả các giá trị của m để hàm số\n \n1 1 khi 0\n1 khi 0\n1\nx x x\nx f x x\nm x\nx\n     \n     \n  \nliên tục tại 0 x  .",
+    "options": [
+      "1 m  .",
+      "2 m   .",
+      "1 m   .",
+      "0 m  ."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chọn B\nTa có\n 0 0\n1\nlim lim 1\n1 x x\nx\nf x m m\nx    \n  \n     \n   .\n 0 0\n1 1\nlim lim\nx x\nx x\nf x x    \n    \n     \n     0 0\n2 2\nlim lim 1\n1 1 1 1 x x\nx\nx x x x x\n   \n \n  \n      .\n  0 1 f m  \nĐể hàm liên tục tại 0 x  thì      0 0\nlim lim 0\nx x\nf x f x f    \n  1 1 2 m m        ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q72",
+    "examId": "vact-synthetic-de-01",
+    "number": 72,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho tam giác ABC vuông tại , 3 , 4 , A AB a AC a AH   là đường cao.\nTính độ dài AH:",
+    "options": [
+      "8\n5 a .",
+      "5a .",
+      "12\n5 a .",
+      "9\n5 a ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "2 2 2 2\n(3 ) (4 ) 5 . BC AB AC a a a     \nĐường cao AH trong tam giác vuông tại A thỏa:\n2\n3 4 12 12 .\n5 5 5\nAB AC a a a\nAH a\nBC a a\n \n   \nDựa vào thông tin dưới đây để trả lời các câu hỏi\nTrong không gian Oxyz , cho điểm   2; 3;1 A  và hai đường thẳng:\n1 2\n1 2 4 3 1\n: , : .\n2 3 1 1 1 2\nx y z x y z\nd d\n    \n   \n \nĐường thẳng d đi qua A , vuông góc với 1 d và cắt 2 d .\nMặt phẳng   P đi qua gốc tọa độ O và chứa đường thẳng d ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q73",
+    "examId": "vact-synthetic-de-01",
+    "number": 73,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Vector chỉ phương của d có dạng   2; ; m n  . Tính m n ",
+    "options": [
+      "7 .",
+      "8 .",
+      "10 .",
+      "9 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lấy điểm bất kỳ trên 2 d :   3 ; 1 ; 2 B t t t     .\n  1 , 2 , 1 2 AB t t t     \n .\nNhờ điều kiện 1 1 0 d d d AB u    \n \n      5\n2 1 3 2 1 1 2 0 3 5 0 .\n3\nt t t t t              \nSuy ra 4 8 10\n, ,\n3 3 3\nB  \n  \n  và  \n2 1 7\n, , 2,1, 7 9\n3 3 3\nd u AB m n\n \n         \n \n "
+  },
+  {
+    "id": "vact-synthetic-de-01-q74",
+    "examId": "vact-synthetic-de-01",
+    "number": 74,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Mặt phẳng   P có vectơ pháp tuyến     ; ;1 P n a b \n . Tính 2 2\na b ",
+    "options": [
+      "135 .",
+      "136 .",
+      "138 .",
+      "137 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Qua O và chứa     , d P P d n u n OA        .\nChọn   , d P n OA u     \n   với   2, 3,1 OA  \n ,   2,1, 7 d u  \n :\n    , 22, 16, 4 . d P n OA u        \n  \nChuẩn hoá về dạng   ; ;1 a b : chia 4  được     ; ;1 11; 4;1 a b  .\n2 2 2 2\n11 4 137 a b    \nDựa vào thông tin dưới đây để trả lời các câu từ hỏi\nCho hai điểm   1; 2 A ,   5; 4 B . Dựng đường tròn   C có tâm I có toạ độ cùng dấu và\nbán kính 5 R  đi qua hai điểm , A B . Gọi d là đường trung trực của đoạn AB có dạng:\n3\n2\nx at\ny b t\n  \n    ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q75",
+    "examId": "vact-synthetic-de-01",
+    "number": 75,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tính giá trị a b ",
+    "options": [
+      "2 ",
+      "4 .",
+      "2 .",
+      "4  ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trung điểm   3;3 M .\nAB có   VTCP 4; 2 u  \n đường trung trực có   VTCP 1; 2 v  \n (vuông góc với u\n ).\nPhương trình tham số đường trung trực: 3 1, 3 2\n3 2\nx t a b a b\ny t\n             "
+  },
+  {
+    "id": "vact-synthetic-de-01-q76",
+    "examId": "vact-synthetic-de-01",
+    "number": 76,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Toạ độ tâm I",
+    "options": [
+      "  5;1 I .",
+      "  1;5 I .",
+      "  7;1 I .",
+      "  1;7 I ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Điểm   3 ,3 2 I t t   là tâm khi đó 5 IA R   :\n2 2 2 2 2 2 2\n(3 1) (3 2 2) (2 ) (1 2 ) 5 5 25 4. IA t t t t t t               \n      2 5; 1 loai ; 2 1;7 t I t I       ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q77",
+    "examId": "vact-synthetic-de-01",
+    "number": 77,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Hoành độ giao điểm của tiếp tuyến đường tròn   C tại điểm B.\nA. 2  B. 4 . C. 2 . D. 4  .",
+    "options": [
+      "Phương án A",
+      "Phương án B",
+      "Phương án C",
+      "Phương án D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tiếp tuyến tại B có VTPT IB\n .\nVới     1,7 : 4, 3 I IB   \n tiếp tuyến:     4 5 3 4 0 4 3 8 0 x y x y        \n0 2 y x   \nDựa vào thông tin dưới đây để trả lời các câu từ hỏi\nCho hình chóp S ABC  có đáy là tam giác vuông cân tại A thoả mãn\n  , AC BC a SA ABC    và 5 SB a  ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q78",
+    "examId": "vact-synthetic-de-01",
+    "number": 78,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tính thể tích hình chop S.ABC:",
+    "options": [
+      "2\n4\na .",
+      "4\na .",
+      "2\na .",
+      "2\n2\na ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "2\n2 2 2 2\n3\n2\n1\n2, 2\n5 2 3\n1 1 1 3\n3\n3 3 2 6\nABC\nABC\nAB a S a\nSA SB AB a a a\na\nV S SA a a\n \n    \n     \n\n"
+  },
+  {
+    "id": "vact-synthetic-de-01-q79",
+    "examId": "vact-synthetic-de-01",
+    "number": 79,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tính sin góc giữa đường thẳng SC và mặt phẳng (SAB):",
+    "options": [
+      "3\n4 .",
+      "2\n4 .",
+      "3\n3 .",
+      "2\n2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gọi C là hình chiếu của C lên   SAB      , SC SAB CSC   \n2 2 2 2\n2 2 2 2\n. . 2\n' , 3 2\n2\nCA CB a a a\nCC SC SA AC a a a\nCA CB a a\n       \n \nLại có:   ' 2 2\nsin ' : 2\n2 4\nCC a\nCSC a\nSC\n  "
+  },
+  {
+    "id": "vact-synthetic-de-01-q80",
+    "examId": "vact-synthetic-de-01",
+    "number": 80,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tính góc giữa hai mặt phẳng (SBC) và (SAC):",
+    "options": [
+      "0\n45 .",
+      "0\n90 .",
+      "0\n60 .",
+      "0\n30 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có:      \nBC AC BC SAC SBC SAC\nBC SA\n        \nDựa vào thông tin dưới đây để trả lời các câu hỏi\nCho cấp số cộng   n u thỏa mãn 1 2\n2 3\n4\n8\nu u\nu u\n  \n   \n."
+  },
+  {
+    "id": "vact-synthetic-de-01-q81",
+    "examId": "vact-synthetic-de-01",
+    "number": 81,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tính tổng\n1 2 2 3 49 50\n1 1 1\n... S u u u u u u\n    ?",
+    "options": [
+      "50 .\n99\nS ",
+      "48 .\n99\nS ",
+      "49 .\n99\nS ",
+      "51.\n99\nS "
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chọn C\nGọi d là công sai của cấp số cộng đã cho.\nTa có 1 2 1 1\n2 3 1\n4 2 4 1.\n8 2 3 8 2\nu u u d u\nu u u d d\n       \n    \n       \nTa có\n1 2 2 3 49 50\n. ...\nd d d\nS d u u u u u u\n    3 2 50 49 2 1\n1 2 2 3 49 50\n...\nu u u u u u\nu u u u u u\n  \n   \n1 2 2 3 49 50\n1 1 1 1 1 1\n...\nu u u u u u\n      \n1 50\n1 1\nu u\n  .\nSuy ra 1 1 98\n2 .\n1 1 49.2 99\nS   \n Vậy 49 .\n99\nS "
+  },
+  {
+    "id": "vact-synthetic-de-01-q82",
+    "examId": "vact-synthetic-de-01",
+    "number": 82,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Gọi   n v là dãy số có 2 nu\nn v  . Tính 1 2 10 . ... . T v v v ",
+    "options": [
+      "80\n2 . T ",
+      "50\n2 . T ",
+      "90\n2 . T ",
+      "100\n2 . T "
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chọn D\nTa có     1 1 1 1 .2 2 1. n u u n d n n        \nSuy ra 2 1 1 3 19\n1 2 10 2 , 2 , 2 ,..., 2 .n\nn v v v v\n   \nVậy\n \n10\n1\n10 10 2 1\n2 1 1 3 ... 19 100\n1 1\n2 2 2 2 . n\nn\nn\nn\nn n\nv \n\n   \n \n\n     \nDựa vào thông tin dưới đây để trả lời các câu hỏi\nMột hệ thống mở khóa điện thoại bằng nhận diện khuôn mặt hoạt động như sau:\n Trong tất cả các lần đưa điện thoại lên mở khóa:\no 80% lượt là do chính chủ thực hiện.\no 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …).\n Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98.\n Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04\n(ngược lại thì hệ thống từ chối và không mở).\nGiả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài."
+  },
+  {
+    "id": "vact-synthetic-de-01-q83",
+    "examId": "vact-synthetic-de-01",
+    "number": 83,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Chọn ngẫu nhiên một lần đưa điện thoại lên để mở khóa.\nXác suất để điện thoại mở khóa thành công là:",
+    "options": [
+      "0,80",
+      "0,792",
+      "0,784",
+      "0,76"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xác suất điện thoại mở khóa thành công:\n𝑃(𝐵) = 𝑃(𝐵 ∣ 𝐴)𝑃(𝐴) + 𝑃(𝐵 ∣ 𝐴ᇱ)𝑃(𝐴ᇱ)\n𝑃(𝐵) = 0,98 ⋅ 0,80 + 0,04 ⋅ 0,20 = 0,784 + 0,008 = 0,792"
+  },
+  {
+    "id": "vact-synthetic-de-01-q84",
+    "examId": "vact-synthetic-de-01",
+    "number": 84,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Gọi A là biến cố: “lần mở khóa là do chính chủ thực hiện”,\nB là biến cố: “điện thoại mở khóa thành công”.\nTính xác suất có điều kiện 𝑃(𝐴 ∣ 𝐵): “lần mở khóa đó là chính chủ, biết rằng điện thoại\nđã mở được khóa”.",
+    "options": [
+      "ସଽ\nହ଴",
+      "ଽ଼\nଽଽ",
+      "ସ\nହ",
+      "ଽ\nଵ଴"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta cần 𝑃(𝐴 ∣ 𝐵): xác suất lần mở đó là chính chủ, biết rằng đã mở khóa được.\nÁp dụng công thức Bayes:\n𝑃(𝐴 ∣ 𝐵) = 𝑃(𝐵 ∣ 𝐴)𝑃(𝐴)\n𝑃(𝐵) = 0,98 ⋅ 0,80\n0,792 = 0,784\n0,792"
+  },
+  {
+    "id": "vact-synthetic-de-01-q85",
+    "examId": "vact-synthetic-de-01",
+    "number": 85,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Trong nhật ký của hệ thống chỉ lưu lại các lần mở khóa thành công.\nChọn ngẫu nhiên và độc lập 2 lần trong nhật ký này.\nTính xác suất để trong hai lần được chọn có ít nhất một lần là do người lạ mở khóa\n(kết quả làm tròn đến hàng phần nghìn).",
+    "options": [
+      "0,010",
+      "0,015",
+      "0,020",
+      "0,030"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Trong nhật ký chỉ chứa các lần mở khóa thành công, tức là ta đang làm việc với biến cố B\nđã xảy ra.\nTrước hết tìm xác suất một lần mở khóa thành công là do người lạ:\n𝑃(𝐴ᇱ ∣ 𝐵) = 𝑃(𝐵 ∣ 𝐴ᇱ)𝑃(𝐴ᇱ)\n𝑃(𝐵) = 0,04 ⋅ 0,20\n0,792 = 0,008\n0,792 = 1\n99\nDo đó, với mỗi lần trong nhật ký (một lần mở thành công) ta có:\n Xác suất \"người lạ mở\": ଵ\nଽଽ\n Xác suất \"chính chủ mở\": 1 − ଵ\nଽଽ = ଽ଼\nଽଽ\nChọn 2 lần độc lập trong nhật ký:\nGọi 𝑋 là biến cố: \"trong hai lần chọn có ít nhất một lần do người lạ mở\".\nTa dùng cách \"1 trừ bù\":\n൬98\n99൰\nଶ\n= 98ଶ\n99ଶ = 9604\n9801\n𝑃(𝑋) = 1 − 9604\n9801 = 9801 − 9604\n9801 = 197\n9801 ≈ 0,020\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nMột phân xưởng có hai máy đặc chủng 1 2 , T T , sản xuất hai loại sản phẩm ký hiệu là A\nvà . B Một tấn sản phẩm loại A lãi 3 triệu đồng, một tấn sản phẩm loại B lãi 2 triệu\nđồng. Muốn sản xuất một tấn sản phẩm loại A phải dùng máy 1 T trong 3 giờ và máy 2 T\ntrong 2 giờ. Muốn sản xuất một tấn sản phẩm loại B phải dùng máy 1 T trong 2 giờ và\nmáy 2 T trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm.\nMáy 1 T làm việc không quá 6 giờ một ngày, máy 2 T làm việc không quá 4 giờ một ngày."
+  },
+  {
+    "id": "vact-synthetic-de-01-q86",
+    "examId": "vact-synthetic-de-01",
+    "number": 86,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Gọi x là số tấn sản phẩm loại A và y là số tấn sản phẩm loại B . Khi\nđó   , F x y là hàm mục tiêu biểu diễn số tiền lãi mà phân xưởng có thể thu trong một\nngày. Tìm   , F x y ?",
+    "options": [
+      "  , 3 2 . F x y x y  ",
+      "  , 2 3 . F x y x y  ",
+      "  , 4 3 . F x y x y  ",
+      "  , 3 4 . F x y x y  "
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A\nGọi x là số tấn sản phẩm loại A và y là số tấn sản phẩm loại B .\nSố tiền lãi khi bán x là số tấn sản phẩm loại A và y là số tấn sản phẩm loại B lần lượt\nlà 3 , 2 x y .\nVậy   , 3 2 . F x y x y  "
+  },
+  {
+    "id": "vact-synthetic-de-01-q87",
+    "examId": "vact-synthetic-de-01",
+    "number": 87,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Gọi E là số tiền lãi lớn nhất mà phân xưởng này có thể thu được trong\nmột ngày. Giá trị của E bằng bao nhiêu?",
+    "options": [
+      "5. E ",
+      "4. E ",
+      "6. E ",
+      "7. E "
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chọn C\nSố giờ làm việc của máy 1 T là 3 2 x y  và của máy 2 T là 2x y  . Vì mỗi ngày máy 1 T\nkhông được làm việc quá 6 giờ và máy 2 T không làm việc quá 4 giờ nên ta có ràng buộc: 3 2 6\n2 4 .\n, 0\nx y\nx y\nx y\n  \n   \n  \nVẽ miền nghiệm của hệ bất phương trình ta được miền như hình. Khi đó:\n \n \n \n0; 0 0\n0;3 6\n2;0 6\nF\nF\nF\n\n\n\nVậy giá trị của E là 6. E \nDựa vào thông tin dưới đây để trả lời các câu hỏi\nCho hàm số 3 2 2\n3 4 2 y x mx m     có đồ thị   C và điểm   1;4 C ."
+  },
+  {
+    "id": "vact-synthetic-de-01-q88",
+    "examId": "vact-synthetic-de-01",
+    "number": 88,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Với 0 m  , phương trình   2 f x  có bao nhiêu nghiệm phân biệt",
+    "options": [
+      "0.",
+      "1.",
+      "2.",
+      "Vô số."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Với 0 m  ,   3 3\n2 0 2 f x x x     "
+  },
+  {
+    "id": "vact-synthetic-de-01-q89",
+    "examId": "vact-synthetic-de-01",
+    "number": 89,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tổng các giá trị m nguyên thuộc đoạn 5; 5      để hàm số có hai điểm\ncực trị là bao nhiêu?",
+    "options": [
+      "0.",
+      "15.",
+      "1.",
+      "5."
+    ],
+    "correctAnswer": 0,
+    "explanation": " 2\n' 3 6 3 2 y x mx x x m     , 0\n' 0 2\nx\ny x m\n \n     .\nHàm số có hai điểm cực trị 0 m   .\nVậy 5; 5 \\{0} 0 m m         "
+  },
+  {
+    "id": "vact-synthetic-de-01-q90",
+    "examId": "vact-synthetic-de-01",
+    "number": 90,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tính tổng các giá trị nguyên dương của m để   C có hai điểm cực trị\n, A B sao cho tam giác ABC có diện tích bằng 4",
+    "options": [
+      "6 .",
+      "3 .",
+      "4 .",
+      "5 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Với    2 2 2\n0 4 2 0; 4 2 1; 6 4 x y m A m AC m         \n .\nVới    3 2 3 2 3\n2 4 4 2 2 ; 4 4 2 2 ; 4 x m y m m B m m m AB m m            \n\nTa có\n2\n3 3\n3\n1 6 4 1 1 4 12 2 6\n2 2 2 4m\nABC\nm\nS m m m m\nm\n\n\n    \n Suy ra phương trình\n3\n3\n3\n2\n2 6 4 0 1 0\n2 6 4 2 0 2 6 4 0\n1\nm\nm m m\nm m m m m\nm\n \n                      \nVì m nguyên dương nên suy ra 1; 2 m m   . Vậy tổng 1 2 3 S   "
+  },
+  {
+    "id": "vact-synthetic-de-01-q91",
+    "examId": "vact-synthetic-de-01",
+    "number": 91,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Có tất cả bao nhiêu cách xếp chỗ ngồi nếu B ngồi tại vị trí số 8?",
+    "options": [
+      "8",
+      "6",
+      "3",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A ở ghế 1, B ở 8 cố định. C–D phải là một cặp đối diện còn trống → chỉ có hai cặp khả dĩ:\n(2,6) hoặc (3,7).\nTrường hợp (2,6): C chỉ có thể ở 2 (vì nếu C=6 thì G = C+3 ≡ 1 bị chồng A). Khi C=2 ⇒\nD=6, G=5. F chỉ có chẵn còn lại là 4. Ghế 3 và 7 còn lại cho E và chỗ trống ⇒ 2 cách.\nTrường hợp (3,7):\n C=3 ⇒ D=7, G=6. F có thể ở 2 hoặc 4 (2 cách). Ghế còn lại cho E/chỗ trống ⇒ với mỗi F\ncó 2 cách ⇒ 2×2 = 4 cách.\n C=7 ⇒ D=3, G=2. F phải là 6 (4 bị kề D=3 nên bị loại). Ghế 4 và 5 cho E/chỗ trống ⇒ 2\ncách.\nTổng: 2 + 4 + 2 = 8 cách.\nĐáp án: A.\n210 CÂU TƯ DUY KHOA HỌC ĐGNL V-ACT"
+  },
+  {
+    "id": "vact-synthetic-de-01-q92",
+    "examId": "vact-synthetic-de-01",
+    "number": 92,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nếu C ngồi ghế số 7 thì thêm dữ kiện nào sau đây sẽ khiến F chỉ có thể\nchọn ngồi ở 1 ghế duy nhất?",
+    "options": [
+      "G ngồi ghế số 8.",
+      "Ghế số 6 còn trống.",
+      "Ở giữa G và D chỉ có E ngồi.",
+      "Dữ kiện A hoặc dữ kiện B đều thỏa mãn."
+    ],
+    "correctAnswer": 3,
+    "explanation": "C = 7 ⇒ D = 3.\nF chỉ ở ghế chẵn và không được ngồi cạnh D ⇒ F không thể ở 2 hoặc 4, nên ban đầu F có\n2 lựa chọn: 6 hoặc 8.\nXét các dữ kiện:\nA) G = 8 ⇒ ghế 8 đã bị chiếm, nên F chỉ còn 6.\nB) Ghế 6 trống ⇒ F không thể chọn 6, nên F chỉ còn 8 (ghi chú: nếu cố đặt B = 8 thì sẽ\nkhông còn ghế hợp lệ cho F, nên trong các xếp hợp lệ B phải là 2 và F = 8).\nC) “Ở giữa G và D chỉ có E” ⇒ cho G = 5, E = 4; vẫn còn cả ghế 6 và 8 cho F → không duy\nnhất.\nVậy A hoặc B đều làm cho F chỉ có 1 lựa chọn ⇒ chọn D.\nĐáp án: D."
+  },
+  {
+    "id": "vact-synthetic-de-01-q93",
+    "examId": "vact-synthetic-de-01",
+    "number": 93,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy\nnhất?\nA. A, B, D.\nB. A, G, E.\nC. A, C, D.\nD. A, B, E.",
+    "options": [
+      "Phương án A",
+      "Phương án B",
+      "Phương án C",
+      "Phương án D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A = 1 cố định. Ghế 7 trống nên cặp C–D chỉ có thể là (2,6) hoặc (4,8). Thử các trường hợp\nhợp lệ (xem điều kiện B cạnh A, F chỉ chẵn, D không kề F, quy tắc khi B=8, và điều kiện\nvề E đối diện A) ta thu được 3 xếp hợp lệ — trong cả 3 phương án E luôn ở ghế 3, G luôn\nở ghế 5 (và A ở ghế 1). B, C, D, F thay đổi giữa các phương án. Vậy những người chắc\nchắn nằm cố định là A, G, E.\nĐáp án: B.\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia\n4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1\nđến Tiết 4.\n1. A và B luôn học chung 1 lớp. 2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4."
+  },
+  {
+    "id": "vact-synthetic-de-01-q94",
+    "examId": "vact-synthetic-de-01",
+    "number": 94,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4?\nA. C, E-F, A-B, D.\nB. A-B, D-E, C, F.\nC. C, A-B, D-E, F.\nD. F-D, A-B, C, E.",
+    "options": [
+      "Phương án A",
+      "Phương án B",
+      "Phương án C",
+      "Phương án D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nếu tiết 2 có 2 học sinh => F học tiết 4.\nChỉ có 2 lớp có 2 học sinh, đó là lớp tiết 2 và tiết 3.\nGiữa C và D có 1 lớp => C phải học tiết 1 hoặc tiết 2. Mà nếu C học tiết 2 => D học tiết 4.\nNhưng F học tiết 4 và tiết 4 chỉ có 1 học sinh => C phải học tiết 1.\nCó C học tiết 1 => D học tiết 3 => Tiết 3 còn thiếu 1 học sinh, tiết 2 còn thiếu 2 học sinh.\nA, B luôn cùng lớp => A, B học tiết 2. Còn lại E học tiết 3.\n=> Thứ tự đúng: C, A-B, D-E, F.\nĐáp án: C."
+  },
+  {
+    "id": "vact-synthetic-de-01-q95",
+    "examId": "vact-synthetic-de-01",
+    "number": 95,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nếu F học một mình thì tiết 3 có ai học?\nA. D.\nB. C.\nC. A, B.\nD. D, E.",
+    "options": [
+      "Phương án A",
+      "Phương án B",
+      "Phương án C",
+      "Phương án D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ở câu hỏi 1 ta có: Nếu tiết 2 có 2 học sinh thì thứ tự học sinh xếp theo tiết sẽ là: C, A-B,\nD-E, F. Tiếp theo ta xét trường hợp nếu tiết 2 không có 2 học sinh.\nTiết 3 có 2 học sinh, tiết 1 có 1 học sinh. Mà ta xét trường hợp tiết 2 có 1 học sinh => Tiết 4\nphải có 2 học sinh.\nNếu C học tiết 1 => D học tiết 3 => A, B học tiết 4. Vì F học một mình => F học tiết 2. Còn\nlại E học tiết 3. => Thứ tự: C, F, D-E, A-B.\nNếu C học tiết 2 => D học tiết 4 => A, B học tiết 3 => F học tiết 1. Còn lại E học tiết 4. =>\nThứ tự: F, C, A-B, D-E. Ta có dữ kiện môn của B không học cạnh môn Anh => Trường hợp 1 thỏa mãn vì môn\nAnh có thể dạy ở tiết 2. Tuy nhiên trường hợp 2, nếu B học tiết 3 => Môn Anh phải dạy ở\ntiết 1 (MÂU THUẪN)\n=> Trong 2 thứ tự thỏa mãn dữ kiện, ở tiết 3 chắc chắn là D và E.\nĐáp án: D."
+  },
+  {
+    "id": "vact-synthetic-de-01-q96",
+    "examId": "vact-synthetic-de-01",
+    "number": 96,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Môn học nào chắc chắn chỉ có 1 học sinh?",
+    "options": [
+      "Văn.",
+      "Toán, KHTN.",
+      "Anh, Toán.",
+      "Anh, KHTN."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Câu trên đã liệt kê được toàn bộ trường hợp có thể xảy ra. Và trong 2 trường hợp đó, xét:\nC, A-B, D-E, F: Môn Anh không dạy ngay cạnh môn học của B => Môn Anh dạy vào tiết\n4 và chỉ có F học.\nC, F, D-E, A-B: Môn Anh dạy vào tiết 2 và chỉ có F học.\n=> Dữ kiện đã cho trước KHTN chỉ có một người học, môn Anh cũng chỉ có 1 người học.\nĐáp án: D.\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nBảng sau cho biết tổng lực lượng lao động và số người có việc làm phân theo các nhóm\nngành kinh tế: trong nước, ngoài nhà nước và vốn đầu tư nước ngoài trong ba năm như\nhình dưới"
+  },
+  {
+    "id": "vact-synthetic-de-01-q97",
+    "examId": "vact-synthetic-de-01",
+    "number": 97,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Trong năm 2010, số lao động có việc làm thuộc nhóm kinh tế nhà nước\nnhiều hơn bao nhiêu phần trăm so với số lao động thuộc nhóm vốn đầu tư nước ngoài?",
+    "options": [
+      "190,16%",
+      "65,85%",
+      "65,58%",
+      "190,61%\nLời Giải:\nNăm 2010:\nNhà nước: 5025,2\nVốn đầu tư nước ngoài: 1729,2 Nhiều hơn: 5025, 2 1729, 2 190,6%\n1729, 2\n \nVậy chọn D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q98",
+    "examId": "vact-synthetic-de-01",
+    "number": 98,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Thứ tự nào sau đây là đúng khi nói về sự tăng dần tính theo phần trăm\nsố người thất nghiệp trong năm đang xét?",
+    "options": [
+      "2010 < 2020 < 2015",
+      "2010 < 2015 < 2020",
+      "2015 < 2010 < 2020",
+      "2015 < 2020 <\n2010\nLời Giải:\nNăm 2010:\nSố người thất nghiệp: 50473, 5 – 49124, 4 = 1349,1; chiếm 2,67%\n5047\n1349,1\n3,5 \nNăm 2015:\nSố người thất nghiệp: 54266,0 – 53110,5 = 1155,5; chiếm 2,13%\n542\n1155,5\n66 \nNăm 2020:\nSố người thất nghiệp: 54842,9 – 53609,6= 1233,3; chiếm 2, 24%\n5484\n1233,3\n2,9 \nThứ tự tăng dần: 2015 < 2020 < 2010\nVậy chọn D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q99",
+    "examId": "vact-synthetic-de-01",
+    "number": 99,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Số lao động tăng thêm trong giai đoạn 2010 – 2015 thuộc nhóm ngành\nkinh tế ngoài nhà nước chiếm bao nhiêu phần trăm trong số lao động tăng thêm của giai\nđoạn này?",
+    "options": [
+      "137,72%",
+      "137,27%",
+      "72,58%",
+      "72,85%\nLời Giải:\nTrong giai đoạn kể trên, số lao động tăng thêm: 54266,0 - 50473,5 = 3792,5\nSố lao động tăng thêm kinh tế ngoài nhà nước trong giai đoạn trên: 45132, 8 – 42370,0 =\n2762,8\nChiếm: 2762,8 72,85%\n3792,5 \nVậy chọn D\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nThực trạng của hai loại thuốc (lô hàng) trong một kho thuốc được cho như hình vẽ"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q100",
+    "examId": "vact-synthetic-de-01",
+    "number": 100,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Gọi a là giá trị trung bình mỗi năm thay đổi loại Bacopa; b là giá trị\ntrung bình mỗi năm thay đổi của loại Schisandra. Giá trị b như thế nào so với a?",
+    "options": [
+      "23,33%",
+      "30,43%",
+      "76,67%",
+      "69,57%\nLời Giải:\nBacopa:\n2005 – 2006: 75 – 52 = 23\n2006 – 2007: 81 -75 = 6\n2007 – 2008: 121 – 81 = 40\nTrung bình mỗi năm nhập thêm về: 23 6 40 23\n3 a\n   \nSchisandra:\n2005 – 2006: 42 – 20 = 22\n2006 – 2007: 80 – 42 = 38\n2007 – 2008: 80 – 50 = 30\nTrung bình mỗi năm nhập thêm về: 22 38 30 30\n3 b\n   \nGiá trị a ít hơn 30 23 30,43%\n23\n  so với b\nVậy chọn B"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q101",
+    "examId": "vact-synthetic-de-01",
+    "number": 101,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Thực trạng loại Schisandra trong 4 năm chiếm bao nhiêu phần trăm so\nvới thực trạng loại hai loại?",
+    "options": [
+      "71,35%",
+      "41,64%",
+      "58,35%",
+      "36,85%\nLời Giải:\nTrong 4 năm:\nBacopa: 52 + 75 + 81 + 121 = 329 Schisandra: 20 + 42 + 80 + 50 = 192\nChiếm: 192 36,85%\n192 329 \n\nVậy chọn D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q102",
+    "examId": "vact-synthetic-de-01",
+    "number": 102,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Đến năm 2009, người ta thống kê lại và nhận thấy loại Bacopa tăng 75%\nso với năm 2005; loại Schisandra giảm 20% so với năm 2008. Loại Schisandra ít hơn loại\nBacopa bao nhiêu phần trăm?",
+    "options": [
+      "56,04%",
+      "127,5%",
+      "43,96%",
+      "72,5%\nLời Giải:\nBacopa: 175%.52 = 91 Schisandra: 80%.50 = 40\nNhiều hơn: 91 40 56,04%\n91\n \nVậy chọn A\n3.2. SUY LUẬN KHOA HỌC\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nMột nhà nghiên cứu tiến hành khảo sát ảnh hưởng của ethylene glycol ( 2 6 2 C H O ) – một\nchất lỏng không màu, không mùi, tan vô hạn trong nước – lên điểm đông đặc của nước.\nĐây là nguyên lý cơ bản được ứng dụng trong sản xuất nước làm mát (chống đông) cho\nđộng cơ ô tô.\nThí nghiệm được tiến hành bằng cách hòa tan 100g ethylene glycol vào 400g nước cất.\nHỗn hợp được khuấy đều và làm lạnh chậm để xác định nhiệt độ bắt đầu xuất hiện tinh\nthể rắn.\nBiết, Công thức tính độ hạ điểm đông:     f f T K m i\nTrong đó:\nm là nồng độ molan ( / mol kg dung môi), i là hệ số Van't Hoff (số tiểu phân tách ra từ\nmột phân tử chất tan).\nHằng số nghiệm lạnh của nước: 1,86 /\n  f K C kg mol .\nEthylene glycol là chất không điện li, không bay hơi.\nKhối lượng mol của ethylene glycol: 62, 07 /  M g mol ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q103",
+    "examId": "vact-synthetic-de-01",
+    "number": 103,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Cho các yếu tố sau:\n(1) Khối lượng của dung môi (nước).\n(2) Áp suất khí quyển tại phòng thí nghiệm.\n(3) Khối lượng của chất tan (ethylene glycol).\n(4) Bản chất (công thức hóa học) của chất tan để xác định hệ số Van't Hoff ($i$).\n(5) Thể tích của dung dịch sau khi hòa tan. Để độ hạ điểm đông  f T của dung dịch được xác định chính xác nhất trong thí nghiệm\nnày, nhà nghiên cứu cần kiểm soát hoặc đo lường chính xác những yếu tố nào sau đây?\n(Chọn tất cả các phương án đúng)",
+    "options": [
+      "4.",
+      "5.",
+      "3.",
+      "2."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Đáp án C.\nKhối lượng của dung môi (nước).\nKhối lượng của chất tan (ethylene glycol).\n→ Cần để tính nồng độ molan ( /  m mol kg dung môi).\nBản chất (công thức hóa học) của chất tan để xác định hệ số Van't Hoff ($i$).\n→ Cần biết chất tan có điện li hay không (xác định i ).\nCác yếu tố khác không chọn, vì:\nĐiểm đông đặc của chất lỏng thay đổi rất ít theo áp suất (khác với điểm sôi), nên trong\nđiều kiện phòng thí nghiệm thường bỏ qua.\nCông thức dùng nồng độ molan (theo khối lượng dung môi), không phụ thuộc vào thể\ntích dung dịch (thể tích thay đổi theo nhiệt độ, gây sai số)."
+  },
+  {
+    "id": "vact-synthetic-de-01-q104",
+    "examId": "vact-synthetic-de-01",
+    "number": 104,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nếu ta dùng NaCl thay cho ethylene glycol với cùng nồng độ molan,\nΔTF sẽ:",
+    "options": [
+      "Bằng nhau",
+      "Tăng gấp đôi do NaCl điện li (i ≈ 2)",
+      "Giảm đi",
+      "Không xác định được"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Đáp án B\nTăng gấp đôi do NaCl điện li (i ≈ 2)"
+  },
+  {
+    "id": "vact-synthetic-de-01-q105",
+    "examId": "vact-synthetic-de-01",
+    "number": 105,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Hòa tan 100g ethylene glycol ( 62, 07 /  M g mol ) vào 400g nước.\nNhiệt độ đông đặc của dung dịch thu được là bao nhiêu độ C?",
+    "options": [
+      "-5,5 oC.",
+      "-6,5 oC.",
+      "-7,5 oC.",
+      "-8,5 oC."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Đáp án C\nM(C2H6O2) = 62,07 g/mol\n→ n = 100: 62,07 = 1,611 mol\n→ m = 1,611: 0,400 = 4,03 mol/kg\n→ ΔTF = 1,86 × 4,03 = 7,50 °C\n→ Điểm đông của dung dịch ≈ 0 – 7,50 = –7,50 °C\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nThảm họa hạt nhân Fukushima. Vào tháng 3 năm 2011, sau một trận động đất mạnh, lò phản\nứng hạt nhân Fukushima ở Nhật Bản đã tự động ngừng hoạt động. Lò phản ứng hạt nhân tạo ra nhiệt bằng cách phân tách các nguyên tử urani trong một\nquá trình được gọi là phân hạch hạt nhân.\nPhân hạch hạt nhân\n𝑈𝑟𝑎𝑛𝑖𝑢𝑚 được chứa trong các thanh nhiên liệu của lò phản ứng. Một phản ứng dây\nchuyền được thiết lập bởi các 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 được giải phóng trong quá trình phân hạch và\nchúng tiếp tục phân tách nhiều nguyên tử 𝑢𝑟𝑎𝑛𝑖 hơn.\nCông suất đầu ra của lò phản ứng được điều chỉnh bằng cách kiểm soát số lượng 𝑛𝑒𝑢𝑡𝑟𝑜𝑛\nhiện diện trong thanh nhiên liệu. Thanh điều khiển làm bằng chất hấp thụ 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 sẽ thu\ngiữ 𝑛𝑒𝑢𝑡𝑟𝑜𝑛.\nHấp thụ nhiều 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hơn trong thanh điều khiển có nghĩa là có ít 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hơn có thể\ngây ra phân hạch. Do đó, đẩy thanh điều khiển sâu hơn vào lò phản ứng sẽ làm giảm công\nsuất đầu ra của nó và việc rút thanh điều khiển sẽ làm tăng công suất đầu ra.\nLò phản ứng hạt nhân Fukushima vẫn tiếp tục tạo ra nhiệt ngay cả sau khi phản ứng dây\nchuyền đã dừng lại do sự phân rã phóng xạ của các đồng vị được tạo ra trong quá trình\nphân hạch hạt nhân. Sự phân rã này không thể dừng lại và nhiệt sinh ra phải được loại bỏ\nbằng cách tuần hoàn nước làm mát qua lõi lò phản ứng.\nKhi lò phản ứng bị đóng do động đất, các máy bơm để duy trì nước làm mát tuần hoàn\nphải được cung cấp điện từ lưới điện quốc gia hoặc máy phát điện diesel. Tuy nhiên, các\nkết nối với lưới điện đã bị hư hỏng do động đất và các máy phát điện diesel đã bị phá hủy\nbởi sóng thần sau trận động đất. Kết quả là, không có hệ thống làm mát nào cho lõi lò\nphản ứng và điều này dẫn đến các vụ nổ và sau đó giải phóng bức xạ, bao gồm các đồng\nvị phóng xạ như 𝑐𝑎𝑒𝑠𝑖𝑢𝑚 và 𝑖𝑜𝑑𝑖𝑑𝑒, vào môi trường."
+  },
+  {
+    "id": "vact-synthetic-de-01-q106",
+    "examId": "vact-synthetic-de-01",
+    "number": 106,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Cho các phát biểu bên dưới:\n(𝐼) Lò phản ứng hạt nhân tạo ra nhiệt bằng cách phân tách các nguyên tử urani trong một\nquá trình được gọi là phân hạch hạt nhân.\n(𝐼𝐼) Công suất đầu ra của lò phản ứng được điều chỉnh bằng cách kiểm soát số lượng\n𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hiện diện trong thanh nhiên liệu.\n(𝐼𝐼𝐼) Lò phản ứng hạt nhân Fukushima vẫn tiếp tục tạo ra nhiệt ngay cả sau khi phản ứng\ndây chuyền đã dừng lại do sự phân rã phóng xạ của các đồng vị được tạo ra trong quá\ntrình phân hạch hạt nhân.\nSố phát biểu đúng là",
+    "options": [
+      "1.",
+      "2.",
+      "3.",
+      "Không phát biểu nào đúng."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chọn C.\nPhát biểu (𝐼), (𝐼𝐼)và (𝐼𝐼𝐼) là đúng."
+  },
+  {
+    "id": "vact-synthetic-de-01-q107",
+    "examId": "vact-synthetic-de-01",
+    "number": 107,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Lò phản ứng hạt nhân ở Fukushima cho công suất 4,7 𝐺𝑊 là một trong\n25 nhà máy phát điện lớn nhất trên thế giới. Lượng điện năng mà nhà máy này tạo ra\ntrong 1 năm là bao nhiêu 𝑘𝑊ℎ?",
+    "options": [
+      "411720 𝑘𝑊. ℎ.",
+      "41,172 𝑘𝑊. ℎ.",
+      "41172 𝑘𝑊. ℎ.",
+      "41172000 𝑘𝑊. ℎ."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chọn D.\nĐiện năng mà nhà máy này tạo ra:\n𝐴 = 𝒫𝑡 = (4,7.10଺). (365.24) = 41172000 𝑘𝑊. ℎ ∎"
+  },
+  {
+    "id": "vact-synthetic-de-01-q108",
+    "examId": "vact-synthetic-de-01",
+    "number": 108,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Cần sử dụng khối lượng than đá bằng bao nhiêu trong một nhà máy\nnhiệt điện để tạo ra lượng năng lượng như trên? Biết năng suất toả nhiệt của than đá là\n20 ெ௃\n௞௚.",
+    "options": [
+      "7,4.10଺ 𝑘𝑔.",
+      "8,6.10଺ 𝑘𝑔.",
+      "2,2.10଺ 𝑘𝑔.",
+      "1,5.10଺ 𝑘𝑔."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A.\nKhối lượng than đá cần sửa dụng:\n𝑀 = (41172000.3600000)\n(20.10଺) = 7,4.10଺ 𝑘𝑔 ∎\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nCác nhà khoa học đã nghiên cứu tác động của Thuốc A lên các dòng tế bào ung thư\nV-Z. Bảng 1 mô tả nguồn gốc cơ quan của tế bào và giá trị LD50 (nồng độ cần thiết để tiêu\ndiệt 50% tế bào) của Thuốc A đối với từng dòng tế bào.\nSáu đĩa petri được chuẩn bị, mỗi đĩa chứa 1000 tế bào từ dòng tế bào V. Thuốc A được\nthêm vào 5 đĩa với các nồng độ khác nhau, và tất cả 6 đĩa được ủ trong 72 giờ. Sau đó,\nthuốc được loại bỏ, và các tế bào sống sót được ủ trong 10 ngày. Quy trình này được lặp\nlại với các dòng tế bào W-Z. Hình 1 cho thấy phần trăm hình thành khối u (tỷ lệ phần trăm\ncác tế bào sống sót đã phân chia để tạo thành khối u) đối với từng dòng tế bào ở mỗi nồng\nđộ của Thuốc A.\nBảng 1\nDòng\ntế bào\nNguồn gốc\ncơ quan\nGiá trị LD50\ncủa thuốc A (μg/L)\nV Bàng quang 2,2\nW Ruột già 6,9 (Nguồn: Ferguson D, Rodriguez LE, Palma JP, Refici M, Jarvis K, O'Connor J, Sullivan\nGM, Frost D, Marsh K, Bauch J, Zhang H, Lin NH, Rosenberg S, Sham HL, Joseph IB.\nAntitumor activity of orally bioavailable farnesyltransferase inhibitor, ABT-100, is\nmediated by antiproliferative, proapoptotic, and antiangiogenic effects in xenograft\nmodels. Clin Cancer Res. 2005 Apr 15;11(8):3045-54. doi: 10.1158/1078-0432.CCR-04-2041.\nPMID: 15837760)."
+  },
+  {
+    "id": "vact-synthetic-de-01-q109",
+    "examId": "vact-synthetic-de-01",
+    "number": 109,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nồng độ thuốc A cần để tiêu diệt 50% tế bào từ dòng tế bào Y xấp xỉ\ngấp 10 lần nồng độ thuốc A cần để tiêu diệt 50% tế bào từ:",
+    "options": [
+      "Dòng Tế bào V.",
+      "Dòng Tế bào W.",
+      "Dòng Tế bào X.",
+      "Dòng Tế bào\nZ."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Đáp án: B\nGiải thích: Trong Bảng 1, LD50 (nồng độ cần để tiêu diệt 50% tế bào) của Dòng Tế bào Y\nlà 70.0, gấp khoảng 10 lần LD50 của Dòng Tế bào W, là 6.9."
+  },
+  {
+    "id": "vact-synthetic-de-01-q110",
+    "examId": "vact-synthetic-de-01",
+    "number": 110,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Phát biểu nào đúng nhất về mối quan hệ giữa giá trị LD50 và tỷ lệ hình\nthành khối u ở các dòng tế bào khi tăng nồng độ Thuốc A?",
+    "options": [
+      "Dòng tế bào có LD50 càng thấp thì tỷ lệ hình thành khối u ở nồng độ cao của Thuốc A\ncàng lớn.",
+      "Dòng tế bào có LD50 càng cao thì khả năng kháng thuốc càng lớn.",
+      "LD50 của các dòng tế bào không liên quan đến kết quả thí nghiệm về tỷ lệ hình thành\nkhối u, vì hai chỉ số này đo các khía cạnh khác nhau.",
+      "LD50 chỉ thể hiện nồng độ diệt 50% tế bào trong 72 giờ đầu, còn tỷ lệ hình thành khối\nu sau 10 ngày phụ thuộc chủ yếu vào nguồn gốc cơ quan của tế bào, không liên quan đến\nLD50.\nX Ruột già 3,8\nY Tuyến tiền liệt 70,0\nZ Tuyến tiền liệt 818,0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Đáp án: B.\nGiải thích: Nhìn vào Bảng 1, các dòng tế bào Y và Z có LD50 rất cao (70,0 và 818,0 μg/L),\ntương ứng với việc chúng kháng Thuốc A tốt hơn so với các dòng có LD50 thấp (V, W,\nX). Trong Hình 1, tại nồng độ cao, các dòng có LD50 lớn (đặc biệt Z) vẫn duy trì được tỷ\nlệ hình thành khối u cao hơn so với dòng V, W, X."
+  },
+  {
+    "id": "vact-synthetic-de-01-q111",
+    "examId": "vact-synthetic-de-01",
+    "number": 111,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Hai dòng tế bào Y và Z cùng xuất phát từ tuyến tiền liệt nhưng lại có\nLD50 chênh lệch nhau rất lớn (70,0 so với 818,0 μg/L). Kết quả Hình 1 cũng cho thấy dòng\nZ duy trì tỷ lệ hình thành khối u ở nồng độ cao tốt hơn hẳn dòng Y. Giải thích nào sau\nđây hợp lý nhất cho sự khác biệt này?",
+    "options": [
+      "Sự chênh lệch LD50 là do sai số thí nghiệm trong quá trình chuẩn bị môi trường nuôi\ncấy.",
+      "Dòng Y thực chất không phải từ tuyến tiền liệt, nên LD50 thấp hơn dòng Z.",
+      "Dòng Z có kích thước tế bào nhỏ hơn nên ít bị tác động bởi Thuốc A.",
+      "Mặc dù cùng cơ quan gốc, mỗi dòng tế bào ung thư có đột biến và đặc điểm phân tử\nriêng, dẫn đến độ nhạy Thuốc A khác nhau."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Đáp án: D\nGiải thích: Dù cùng nguồn gốc cơ quan, hai dòng tế bào ung thư có thể mang những đột\nbiến gene, cơ chế kháng thuốc, tốc độ nhân đôi, hoặc đặc điểm chuyển hóa khác nhau.\nĐiều này giải thích vì sao LD50 và mức độ hình thành khối u khác biệt đáng kể.\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nTại Hội nghị cấp cao ASEAN tổ chức ở thủ đô Kuala Lumpur (Malaysia), lãnh đạo của\ncác quốc gia thành viên đã ký văn kiện kết nạp Timor-Leste, quốc gia trẻ nhất châu Á, vào ASEAN.\nĐây là thành quả Timor-Leste đạt được sau 14 năm nỗ lực vận động, theo Reuters.\nPhát biểu tại hội nghị, Thủ tướng Malaysia Anwar Ibrahim cho biết sự gia nhập của\nTimor-Leste đã \"hoàn thiện đại gia đình ASEAN\", một lần nữa khẳng định vận mệnh chung và\nmối gắn kết sâu sắc trong khu vực.\nVề phần mình, Thủ tướng Timor-Leste Xanana Gusmao nói rằng đây là thời khắc lịch sử\nsau khi nước này trở thành thành viên thứ 11 của ASEAN.\n(Báo Thanh niên, https://thanhnien.vn)"
+  },
+  {
+    "id": "vact-synthetic-de-01-q112",
+    "examId": "vact-synthetic-de-01",
+    "number": 112,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Việc Timor-Leste được kết nạp vào ASEAN sau 14 năm nỗ lực vận\nđộng, được Thủ tướng Ma-lay-xi-a khẳng định là \"hoàn thiện đại gia đình ASEAN\", mang\ný nghĩa chiến lược quan trọng nhất nào đối với khu vực Đông Nam Á?",
+    "options": [
+      "Đảm bảo sự cân bằng quyền lực tuyệt đối, ngăn chặn sự can thiệp của các cường quốc\nbên ngoài vào nội bộ khu vực.",
+      "Thúc đẩy mạnh mẽ việc xây dựng và hoàn thành Cộng đồng kinh tế ASEAN, tạo ra thị\ntrường chung rộng lớn nhất châu Á.",
+      "Củng cố nguyên tắc đoàn kết và thống nhất trong khu vực, góp phần thực hiện mục\ntiêu xây dựng Đông Nam Á thành một thể thống nhất về mặt địa lý-chính trị.",
+      "Mở ra cơ hội lớn để ASEAN giải quyết triệt để các vấn đề phức tạp về biên giới, lãnh\nhải và tranh chấp tài nguyên giữa các quốc gia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chọn C\nSự gia nhập của Timor-Leste với tư cách là quốc gia thứ 11 của khu vực Đông Nam Á về\nmặt địa lý, hoàn tất sự tham gia của tất cả các quốc gia trong khu vực vào tổ chức. Việc\nnày giúp hiện thực hóa mục tiêu xây dựng khu vực thành một khối thống nhất về mặt địa\nlý và chính trị. Khi tất cả các quốc gia Đông Nam Á đều là thành viên, nguyên tắc cốt lõi\nvề đoàn kết, thống nhất, và đồng thuận của ASEAN càng được củng cố và thể hiện rõ\nràng hơn.\n- A: ASEAN không đặt mục tiêu \"đảm bảo sự cân bằng quyền lực tuyệt đối\" hay tuyên bố\ncó thể \"ngăn chặn sự can thiệp của các cường quốc bên ngoài\" chỉ bằng việc kết nạp một\nthành viên mới.\n- B: Mặc dù sẽ đóng góp vào Cộng đồng Kinh tế ASEAN (AEC), nhưng tác động của\nTimor-Leste (một nền kinh tế nhỏ) không phải là động lực \"thúc đẩy mạnh mẽ việc xây\ndựng và hoàn thành\" AEC, hay tạo ra \"thị trường chung rộng lớn nhất châu Á\".\n- D: Việc giải quyết các vấn đề phức tạp về biên giới, lãnh hải, và tranh chấp tài nguyên\nchủ yếu phụ thuộc vào đàm phán song phương và đa phương giữa các quốc gia liên quan,\nkhông phải là ý nghĩa chiến lược quan trọng nhất từ việc kết nạp một thành viên mới."
+  },
+  {
+    "id": "vact-synthetic-de-01-q113",
+    "examId": "vact-synthetic-de-01",
+    "number": 113,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Về mặt nguyên tắc hoạt động của ASEAN, việc Timor-Leste gia nhập\nkhối sẽ ảnh hưởng đến tiến trình ra quyết định của tổ chức như thế nào?",
+    "options": [
+      "Không thay đổi về cơ bản, vì các quyết định quan trọng của ASEAN vẫn được đưa ra\ndựa trên nguyên tắc đồng thuận, không có quyền phủ quyết chính thức.",
+      "Sẽ giúp đẩy nhanh quá trình ra quyết định, do Timor-Leste sẽ hỗ trợ lập trường của các\nquốc gia kém phát triển hơn trong khối.",
+      "Khiến quá trình ra quyết định trở nên chậm chạp hơn, vì mọi đề xuất phải được sự\nthông qua của 11 thành viên, bao gồm cả quyền phủ quyết của Timor-Leste.",
+      "Giới thiệu cơ chế bỏ phiếu theo đa số tuyệt đối, xóa bỏ hoàn toàn cơ chế đồng thuận\ntruyền thống đã lỗi thời của khối khu vực."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A\nASEAN hoạt động dựa trên nguyên tắc đồng thuận. Nguyên tắc này đòi hỏi tất cả các\nquốc gia thành viên đều phải đồng ý để một quyết định được thông qua. Trong cơ chế\nđồng thuận này, không có quốc gia nào giữ \"quyền phủ quyết chính thức\" theo nghĩa của\nHội đồng Bảo an LHQ. Việc có thêm thành viên thứ 11 sẽ cần thêm một bên đồng ý, nhưng\nkhông làm thay đổi nguyên tắc cơ bản của việc ra quyết định.\n- B, C: Việc có thêm thành viên có thể làm chậm quá trình vì cần thêm sự tham gia, nhưng\nnguyên tắc đồng thuận (không có phủ quyết chính thức) vẫn là mấu chốt.\n- D: ASEAN chưa thay đổi cơ chế đồng thuận sang bỏ phiếu đa số tuyệt đối."
+  },
+  {
+    "id": "vact-synthetic-de-01-q114",
+    "examId": "vact-synthetic-de-01",
+    "number": 114,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Việc Timor-Leste gia nhập ASEAN sau 14 năm vận động cho thấy điều\ngì về nguyên tắc hoạt động của tổ chức này?",
+    "options": [
+      "ASEAN đề cao sự đồng thuận, thận trọng và thống nhất trong mọi quyết định mở rộng\nthành viên.",
+      "ASEAN luôn ưu tiên lợi ích của các nước lớn trong khu vực khi xem xét kết nạp thành\nviên mới.",
+      "ASEAN mở rộng thành viên dựa trên sức mạnh kinh tế và tiềm lực quân sự của quốc\ngia ứng cử.",
+      "ASEAN chỉ chấp nhận các quốc gia có hệ thống chính trị tương đồng với các nước\nsáng lập."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A\nViệc Timor-Leste phải mất 14 năm vận động mới được chấp thuận gia nhập ASEAN (được\ncông nhận là thành viên thứ 11 vào năm 2022) cho thấy rằng ASEAN hoạt động dựa trên\nnguyên tắc đồng thuận — tức là mọi quyết định quan trọng, trong đó có việc kết nạp\nthành viên mới, đều phải được tất cả các nước thành viên đồng ý.\nNguyên tắc này thể hiện đặc trưng của ASEAN là:\n+ Thận trọng trong mở rộng, nhằm đảm bảo sự thống nhất và gắn kết nội khối.\n+ Tôn trọng chủ quyền và đặc thù của từng quốc gia thành viên.\n+ Đặt lợi ích chung và sự ổn định của khu vực lên hàng đầu.\n- B: Sai, ASEAN không đặt lợi ích riêng của nước lớn lên trên.\n- C: Sai, tiêu chí không dựa vào sức mạnh kinh tế hay quân sự.\n- D: Sai, ASEAN tôn trọng sự đa dạng về thể chế chính trị.\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nBáo cáo của Ngân hàng Thế giới năm 2024 cho biết, nếu mực nước biển dâng thêm\n1 mét, khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị ngập vĩnh viễn, ảnh\nhưởng trực tiếp đến sinh kế của hơn 20 triệu người. Khu vực này đang đối mặt với hàng\nloạt vấn đề nghiêm trọng như xâm nhập mặn sâu vào nội đồng, sụt lún đất và sạt lở bờ\nbiển. Nguyên nhân chủ yếu xuất phát từ tác động kép của biến đổi khí hậu toàn cầu và\ncác hoạt động khai thác nước ngầm quá mức, khiến nền đất yếu dần và hệ thống sông\nngòi thay đổi dòng chảy tự nhiên.\nSự biến đổi này đe dọa sản xuất nông nghiệp truyền thống, đặc biệt là cây lúa –\nvốn chiếm vị trí chủ đạo trong cơ cấu kinh tế vùng. Một số địa phương đã chuyển đổi mô\nhình sản xuất, từ trồng lúa sang nuôi thủy sản thích ứng mặn hoặc canh tác xen tôm – lúa\nnhằm giảm thiểu thiệt hại. Bên cạnh đó, các giải pháp công trình như đê, hồ chứa, và phi\ncông trình như trồng rừng ngập mặn, quy hoạch dân cư vùng trũng thấp cũng được triển\nkhai đồng bộ.\nCác chuyên gia nhận định, đồng bằng sông Cửu Long đang trở thành “vùng thử nghiệm”\ncho mô hình phát triển thích ứng khí hậu ở khu vực Đông Nam Á. Việc chủ động thay\nđổi phương thức sản xuất, bảo vệ tài nguyên nước và ứng dụng khoa học công nghệ được\nxem là yếu tố then chốt giúp vùng này phát triển bền vững và an toàn hơn trong bối cảnh\nnước biển tiếp tục dâng nhanh do biến đổi khí hậu toàn cầu.\n(Theo Báo cáo của Ngân hàng Thế giới, 2024)"
+  },
+  {
+    "id": "vact-synthetic-de-01-q115",
+    "examId": "vact-synthetic-de-01",
+    "number": 115,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Theo đoạn trích, hậu quả nghiêm trọng nhất nếu mực nước biển dâng\nthêm 1 mét là:",
+    "options": [
+      "Khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị xâm nhập mặn.",
+      "Khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị ngập hoàn toàn trong mùa\nmưa.",
+      "Khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị sạt lở mạnh.",
+      "Khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị ngập vĩnh viễn."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q116",
+    "examId": "vact-synthetic-de-01",
+    "number": 116,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nguyên nhân nào làm gia tăng nguy cơ xâm nhập mặn và sạt lở đất ở\nđồng bằng sông Cửu Long?",
+    "options": [
+      "Mực nước biển dâng, dòng chảy sông Mekong giảm.",
+      "Lượng mưa tăng mạnh quanh năm làm mực nước sông dâng cao đột ngột.",
+      "Đất phù sa được bồi tụ nhiều, khiến lòng sông nông và dòng chảy yếu.",
+      "Các đập thủy điện mới trên sông Mekong làm giảm độ mặn ở vùng cửa sông."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q117",
+    "examId": "vact-synthetic-de-01",
+    "number": 117,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Thông tin nào sau đây không phù hợp với nội dung đoạn trích về thích\nứng biến đổi khí hậu ở đồng bằng sông Cửu Long?",
+    "options": [
+      "Xâm nhập mặn và sụt lún đất là hai thách thức lớn đe dọa sinh kế người dân vùng\nđồng bằng.",
+      "Việc chủ động thay đổi phương thức sản xuất được xem là yếu tố then chốt để phát\ntriển bền vững.",
+      "Các địa phương vẫn duy trì mô hình sản xuất nông nghiệp cũ để ổn định sản lượng\nlúa xuất khẩu.",
+      "Giải pháp công trình kết hợp với phi công trình giúp nâng cao khả năng ứng phó\ntrước nước biển dâng.\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nKhu vực Di tích Quốc gia đặc biệt Thành cổ Q đang thu hút một lượng lớn khách du lịch.\nTuy nhiên, việc khai thác du lịch ồ ạt đã dẫn đến tình trạng xuống cấp nghiêm trọng của\ncác công trình kiến trúc cổ và rác thải sinh hoạt bừa bãi làm ô nhiễm môi trường di tích.\nMột số hộ dân sống trong khu vực đã tự ý xây dựng thêm các công trình kinh doanh\nkhông phù hợp với quy hoạch bảo tồn, gây ảnh hưởng đến không gian và cảnh quan lịch\nsử của di tích."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q118",
+    "examId": "vact-synthetic-de-01",
+    "number": 118,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Hành vi xây dựng thêm các công trình kinh doanh không phù hợp với\nquy hoạch đã vi phạm nghĩa vụ cơ bản nào dưới đây của công dân đối với di sản văn hóa?",
+    "options": [
+      "Bảo vệ và giữ gìn di tích.",
+      "Khai thác và phát huy giá trị di tích.",
+      "Nghĩa vụ đóng góp tài chính.",
+      "Nghĩa vụ cung cấp thông tin."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q119",
+    "examId": "vact-synthetic-de-01",
+    "number": 119,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Để góp phần bảo vệ và phát huy bền vững giá trị Di tích, công dân cần\nthực hiện trách nhiệm nào dưới đây?",
+    "options": [
+      "Chủ động tiến hành trùng tu các công trình cổ đã xuống cấp.",
+      "Tố cáo Ban ban quản lý di tích vì đã không bảo vệ được di tích.",
+      "Phản ánh kịp thời các hành vi vi phạm đến cơ quan có thẩm quyền.",
+      "Chỉ cần đóng góp tiền cho Quỹ bảo tồn di sản."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-01-q120",
+    "examId": "vact-synthetic-de-01",
+    "number": 120,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Trước tình trạng Di tích xuống cấp và bị xâm hại Ban quản lý di tích\ncần thực hiện biện pháp nào dưới đây?",
+    "options": [
+      "Cấm hoàn toàn du khách tham quan khu di tích để bảo vệ công trình.",
+      "Tổ chức đấu thầu cho một công ty tư nhân vào quản lý và tự sửa chữa.",
+      "Lập hồ sơ xử phạt hành chính các hộ dân xây dựng trái phép.",
+      "Chỉ tuyên truyền, vận động người dân tự giác tháo dỡ công trình và dọn vệ sinh.\nDựa vào thông tin dưới đây để trả lời các câu\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn\nphải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  }
+],
+  "vact-synthetic-de-02": [
+  {
+    "id": "vact-synthetic-de-02-q1",
+    "examId": "vact-synthetic-de-02",
+    "number": 1,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "\"Cơn bão đã đánh sập hàng loạt cây cầu, đánh đổ nhiều cột điện và\nđánh bại toàn bộ hệ thống phòng thủ của con đê.\" Từ nào bị dùng sai trong câu trên?",
+    "options": [
+      "đánh sập",
+      "đánh đổ",
+      "đánh bại",
+      "toàn bộ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q2",
+    "examId": "vact-synthetic-de-02",
+    "number": 2,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Cho đoạn thơ sau:\n“Nghe lời khuyên nhủ thong dong,\nĐành lòng Sinh mới quyết lòng hồi trang.\nRạng ra gửi đến Xuân đường,\nThúc ông cũng vội giục chàng ninh gia.”\n(Nguyễn Du – Truyện Kiều, tr. 120–122)\nTừ “ninh gia” trong câu “Thúc ông cũng vội giục chàng ninh gia” có nghĩa là gì?",
+    "options": [
+      "Cưới hỏi để chính thức về làm dâu, làm rể.",
+      "Về quê lo việc hiếu hỉ theo phong tục của gia đình.",
+      "Về thăm nhà, thể hiện sự hiếu lễ với gia đình.",
+      "Tạm biệt gia đình để đi làm ăn xa."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q3",
+    "examId": "vact-synthetic-de-02",
+    "number": 3,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "“Nhà thơ đã mượn trí tưởng tượng của mình để tái hiện bằng ngôn từ\nmột khung cảnh thiên nhiên tràn đầy sức sống.” Câu trên mắc lỗi gì?",
+    "options": [
+      "Lỗi chính tả.",
+      "Lỗi dùng từ không chính xác.",
+      "Lỗi lặp từ.",
+      "Lỗi sai phong cách."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q4",
+    "examId": "vact-synthetic-de-02",
+    "number": 4,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Câu nào dưới đây chứa từ viết sai chính tả?",
+    "options": [
+      "Cô ấy cẩn thận gói gém lại những kỷ vật xưa cũ vào trong một chiếc hộp gỗ.",
+      "Họ cố tình gán ghép hai người dù biết rõ họ không có tình cảm với nhau.",
+      "Ngân hàng đã đồng ý gia hạn thêm thời gian trả nợ cho doanh nghiệp đang gặp khó\nkhăn.",
+      "Các kỹ sư đang lên kế hoạch gia cố lại cây cầu đã xuống cấp nghiêm trọng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q5",
+    "examId": "vact-synthetic-de-02",
+    "number": 5,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Cảm tác vào nhà ngục Quảng Đông\nPhan Bội Châu\nVẫn là hào kiệt, vẫn phong lưu,\nChạy mỏi chân thì hãy ở tù.\nĐã khách không nhà trong bốn bể,\nLại người có tội giữa năm châu.\nDang tay ôm chặt bồ kinh tế,\nMở miệng cười tan cuộc oán thù.\nThân ấy hãy còn, còn sự nghiệp,\nBao nhiêu nguy hiểm sợ gì đâu.\n(Thơ văn yêu nước và cách mạng đầu thế kỷ XX, nhiều tác giả, NXB Văn học, Hà Nội,\n1976)\nDòng nào sau đây nhận xét đúng nhất về nội dung đoạn thơ “Cảm tác vào nhà ngục\nQuảng Đông” của Phan Bội Châu?",
+    "options": [
+      "Bài thơ thể hiện tinh thần lạc quan, khí phách kiên cường và lý tưởng cách mạng vững\nbền của người chiến sĩ yêu nước.",
+      "Bài thơ bộc lộ ý chí chiến đấu kiên cường và thái độ bi quan trước hiện thực tù đày, lưu\nlạc đầy những đau thương mất mát.",
+      "Bài thơ cho thấy tâm thế chấp nhận hiện thực khó khăn và nỗi cô đơn của người chí sĩ\nlưu vong.",
+      "Bài thơ thể hiện tinh thần trách nhiệm với vận mệnh dân tộc nhưng nhuốm màu u uất\ntrước thế cuộc."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q6",
+    "examId": "vact-synthetic-de-02",
+    "number": 6,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Hai chữ “tưởng như” được in nghiêng trong đoạn văn sau đây là thành\nphần gì của câu?\n\"Mỗi buổi sáng thức dậy, vác cuốc thăm đồng, Liên tưởng như mình đang sống trong\nmơ, lòng lâng lâng vui sướng.\" (Trích Sau mùa gặt – Lê Thu Hiền)",
+    "options": [
+      "Thành phần cảm thán",
+      "Thành phần tình thái",
+      "Thành phần phụ chú",
+      "Thành phần khởi ngữ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q7",
+    "examId": "vact-synthetic-de-02",
+    "number": 7,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Cho câu: \"Do sự giao thoa của nhiều nền văn hóa lớn trong suốt chiều\ndài lịch sử cùng với vị trí địa lý là cầu nối giữa đất liền và biển cả.\" Câu trên bị mắc lỗi gì?",
+    "options": [
+      "Thiếu nòng cốt câu",
+      "Sai logic",
+      "Thiếu vị ngữ",
+      "Sai dùng từ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q8",
+    "examId": "vact-synthetic-de-02",
+    "number": 8,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Hê-ra-clét nhận lời, ghé vai vào giơ lưng ra chống đỡ bầu trời. Một sức nặng\nghê gớm, chưa từng thấy, đè lên vai và lưng người con trai của thần Dớt vĩ đại. Gân cốt trong\nngười chàng như căng ra. Khỏe mạnh như chàng mà khi ghé vai vào chống đỡ cũng còn loạng\nchoạng, mồ hôi đổ ra như tắm. Nhưng nữ thần A-tê-na lúc nào cũng ở bên người con trai yêu quý của thần Dớt để truyền thêm sức lực cho chàng. Nhờ thế, Hê-ra-clét đứng vững cho đến khi Át-\nlát trở về. Át-lát đi đến bên chàng và bảo:\n– Hỡi Hê-ra-clét! Ta đã lấy được ba quả táo vàng đem về cho nhà ngươi đây! Thật là những quả\ntáo quý vô ngần. Mà thôi, tiện đây ngươi hãy để ta mang luôn những quả táo này về Mi-xen cho\nO-ri-xtê. Ngươi chịu khó chờ ta một lát vì ta đi rất nhanh.\nCác vị thần bao giờ cũng vượt núi, băng rừng, qua sông nhanh chóng và dễ dàng hơn những người\ntrần bấy yếu.\n(Theo Thần thoại Hy Lạp, tập I, Nguyễn Văn Khỏa sưu tầm và biên soạn, NXB Đại học\nvà Trung học chuyên nghiệp, Hà Nội, 1986)\nTừ đoạn trích trên, phẩm chất nổi bật nào dưới đây thể hiện đúng nhất bản chất hành\nđộng của Hê-ra-clét khi nhận chống đỡ bầu trời?",
+    "options": [
+      "Tinh thần quả cảm và ý chí tự nguyện chấp nhận thử thách vì mục tiêu lớn lao",
+      "Khao khát chiến thắng và khẳng định quyền lực trước các vị thần",
+      "Sự chịu đựng đau khổ và cam chịu số phận nghiệt ngã do thần linh sắp đặt",
+      "Tài năng tính toán và khôn khéo trong việc lợi dụng sức mạnh của người khác"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q9",
+    "examId": "vact-synthetic-de-02",
+    "number": 9,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Chọn từ thích hợp để điền vào chỗ trống: \"Bướm vàng đậu đọt mùn.,\nLấy chồng càng sớm tiếng ru càng buồn.\"",
+    "options": [
+      "ưu",
+      "u",
+      "tù",
+      "su"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q10",
+    "examId": "vact-synthetic-de-02",
+    "number": 10,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Tác giả thể hiện thiên kiến cá nhân trong văn bản thông tin qua dấu\nhiệu nào?",
+    "options": [
+      "Sử dụng ngôn từ cảm tính, cường điệu, hoặc giản lược khi mô tả dữ liệu.",
+      "Đưa ra các bảng số liệu, biểu đồ và dẫn chứng cụ thể, khách quan.",
+      "Trình bày các thông tin theo trật tự logic, có đối chiếu nguồn tham khảo.",
+      "Trích dẫn đầy đủ tài liệu và phân tích trung thực dựa trên chứng cứ rõ ràng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q11",
+    "examId": "vact-synthetic-de-02",
+    "number": 11,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Nhân vật trong chèo thường mang đặc điểm nổi bật nào sau đây?",
+    "options": [
+      "Gần gũi với đời sống nhân dân, thể hiện tính cách qua hát và múa.",
+      "Chủ yếu là các anh hùng lịch sử, vua chúa và tướng lĩnh triều đình.",
+      "Mang yếu tố siêu nhiên, thường gắn với thế giới thần thoại cổ xưa.",
+      "Là nhân vật trữ tình tượng trưng cho cảm xúc và khát vọng con người."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q12",
+    "examId": "vact-synthetic-de-02",
+    "number": 12,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "THỦ VĨ NGÂM\nGóc thành Nam, lều một gian,\nNon nước uống, thiếu cơm ăn.\nCon đói trốn, đường ai quyến,\nBàng ngựa gãy, thiếu kẻ chăn.\nAo bởi hẹp hòi khôn thả cá,\nNhà quen thú thứa ngại nuôi vằn.\nTriều quan chẳng phải, ẩn chẳng phải,\nGóc thành Nam, lều một gian.\n(Viện Sử học, Nguyễn Trãi toàn tập)\nThông điệp chính nào sau đây được thể hiện trong bài thơ “Thủ vĩ ngâm” của Nguyễn\nTrãi?",
+    "options": [
+      "Nỗi niềm u uẩn khi không còn cơ hội lập công danh giữa thời cuộc nhiễu nhương.",
+      "Tâm thế buồn tủi vì bị quên lãng trong cảnh sống nghèo khó, cô độc giữa nhân gian.",
+      "Bi kịch lạc lõng của trí sĩ khi không thuộc về cả triều đình lẫn chốn ẩn dật.",
+      "Sự thất vọng sâu sắc về thời thế khiến kẻ sĩ đành chọn cuộc sống rút lui, cam chịu."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q13",
+    "examId": "vact-synthetic-de-02",
+    "number": 13,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Ngày tháng Giêng năm nay, có sắc cho bọn An Viễn hầu, Bảo Định bá, Thôi\nđô đốc, Hoàng thượng thư, Lý ngự sử cùng thổ quan là Nguyễn Huân đem quân sang, hẹn trong\ntháng Tư tiến binh vào cõi Giao Chỉ. Rồi trong một tháng, quân đến cửa ải của ta. Quân sĩ ở biên\ngiới của ta dụ quân ấy đến ải Chi Lăng. Ngày tháng Hai năm nay, quân ta đánh một trận mà tan\nvỡ, binh mã quân tiên phong nhất thời quét sạch, mà tổng binh An Viễn hầu thì chết ở trận tiền.\nĐến ngày 25, quân ta lại đánh trận nữa, mà toàn quân tan hết; Bảo Định bá thì tử trận, còn bại\nquân chạy tản vào rừng đều bị quân ta bắt được.\n(Thư cho Vương Thông)\nTheo đoạn trích, thất bại của quân Minh được thể hiện rõ nhất qua chi tiết nào?",
+    "options": [
+      "Việc tướng lĩnh của quân Minh bất hòa trong kế hoạch điều binh khiển tướng.",
+      "Quân đội nhà Minh đến Giao Chỉ chậm hơn so với kế hoạch ban đầu đã đặt ra.",
+      "Các tướng lĩnh của quân Minh chủ yếu tử trận do thời tiết khắc nghiệt ở biên giới.",
+      "Cả hai trận lớn đều bị quân ta đánh tan và nhiều tướng giặc chết ngay tại trận."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q14",
+    "examId": "vact-synthetic-de-02",
+    "number": 14,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Khói nhà máy cuộn trong sương núi,\nKèn gọi quân văng vẳng cánh đồng.\nÔm đất nước những người áo vải\nĐã đứng lên thành những anh hùng.\nNgày nắng đốt theo đêm mưa dội,\nMỗi bước đường, mỗi bước hy sinh.\nTrán cháy rực nghĩ trời đất mới,\nLòng ta bát ngát ánh bình minh.\nSúng nổ rung trời giận dữ,\nNgười lên như nước vỡ bờ.\nNước Việt Nam từ máu lửa\nRũ bùn đứng dậy sáng lòa.\n(1948 – 1955, Nguyễn Đình Thi, Đất nước, in trong Tập Thơ, NXB Văn học, Hà Nội,\n2001)\nĐoạn thơ trên có đặc điểm cấu tứ nổi bật nào sau đây?",
+    "options": [
+      "Là sự vận động từ hiện thực chiến tranh khốc liệt đến hình ảnh nhân dân anh hùng.",
+      "Là sự kết hợp giữa cảm hứng lãng mạn và bút pháp sử thi trong ngợi ca đất nước.",
+      "Là sự nối tiếp các biểu tượng thiên nhiên để phản ánh tâm trạng cá nhân thi sĩ.",
+      "Là sự xen kẽ giữa quá khứ đau thương và hiện tại mơ hồ trong dòng hồi tưởng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q15",
+    "examId": "vact-synthetic-de-02",
+    "number": 15,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Suốt nhiều thế kỷ trước, trong ký ức và hình dung của chúng ta, trường lớp\ntừ Đông sang Tây đều được khắc họa bằng hình ảnh người thầy, với cuốn sách trong tay, với bảng\nđen và phấn trắng. Trong quá trình dạy – học, các công cụ phấn và bảng được sử dụng để người\nthầy truyền đạt, giảng giải những gì trong sách cho học trò, trong khi hoạt động chủ yếu của người\nhọc là ghi chép. Việc dạy – học hầu như là sự dịch chuyển một chiều kiến thức, thông tin từ thầy\nđến trò, và quá trình học tập diễn ra chủ yếu là hoạt động cá nhân mà thiếu vắng sự tương tác đa\nchiều giữa các cá nhân tham gia vào quá trình này. Đó là thời kỳ dài việc dạy và học tập trung vào\n“nội dung” với sự hạn chế cả về học liệu lẫn nguồn tiếp cận học liệu. Người thầy là nguồn cung cấp kiến thức chính yếu và thời lượng hạn chế của giờ lên lớp khiến cho người thầy có xu hướng\ncố gắng cung cấp càng nhiều nội dung càng tốt.\n(AI có thể thay thế người thầy? – Đỗ Thị Ngọc Quyên, Tia Sáng, số 1+2, tr.24, ngày\n15.1.2025, www.tiasang.com.vn)\nMục đích chính của người viết trong đoạn trích là gì?",
+    "options": [
+      "Tái hiện không khí lớp học truyền thống để đề cao vai trò người thầy trong giáo dục.",
+      "Phân tích lối dạy học cũ để từ đó đề xuất các giải pháp công nghệ hiện đại phù hợp.",
+      "Trình bày đặc điểm của mô hình giáo dục truyền thống để làm tiền đề so sánh với hiện\ntại.",
+      "Phê phán cách dạy học một chiều để kêu gọi cải cách toàn diện hệ thống giáo dục hiện\nnay."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q16",
+    "examId": "vact-synthetic-de-02",
+    "number": 16,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Tuồng dân gian khác tuồng cung đình ở đặc điểm nào?",
+    "options": [
+      "Tuồng dân gian thiên về hài hước, châm biếm; tuồng cung đình thiên về trang trọng.",
+      "Tuồng dân gian chú trọng nghi lễ triều đình; tuồng cung đình đề cao tiếng cười dân dã.",
+      "Tuồng dân gian sử dụng hoàn toàn ngôn ngữ bác học; tuồng cung đình dân dã hơn.",
+      "Tuồng dân gian được diễn cho vua xem; tuồng cung đình phục vụ người dân lao động."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q17",
+    "examId": "vact-synthetic-de-02",
+    "number": 17,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Trong lúc nghỉ trưa, bác Hồng kéo một chiếc gối ra ngay gần bác và nói tôi ra\nnằm cạnh bác trên sàn nhà. Tôi nói với bác tôi không quen ngủ trưa, nhưng bác kiên quyết. Nằm\nnhìn lên trần nhà, bác Hồng nói với tôi: \"Cháu giỏi lắm. Cháu làm nông dân được đấy, có khi mua\nmột miếng đất ở đây. Bác tìm vợ cho, xong rồi ở lại đây.\" – \"Có lẽ thế ạ.\" – tôi mỉm cười.\nMột lúc sau, bác Hồng ngủ thiếp đi, tôi nằm đó và cảm nhận được thứ tình cảm thật ấm áp. Lớn\nlên không có cha bên cạnh, tôi chưa từng được nghe cha tôi nói rằng ông tự hào về tôi, dù chỉ một\nlần. Tôi tưởng tượng cảm giác này chính là cảm giác khi tôi được ông khen ngợi. Tôi tận hưởng\ncảm giác ấy thêm một lúc nữa, rồi đứng dậy đi lòng vòng. […]\n(Trích Giôn đi tìm Hùng, NXB Kim Đồng, Hà Nội, 2013)\nNgôi kể được sử dụng trong đoạn trích trên là gì?",
+    "options": [
+      "Ngôi thứ ba – người kể chuyện giấu mình để khách quan quan sát câu chuyện.",
+      "Ngôi thứ nhất – nhân vật “tôi” trực tiếp kể lại trải nghiệm cá nhân của mình.",
+      "Ngôi thứ ba – người kể chuyện toàn tri xen lẫn với ngôi kể xưng “tôi”.",
+      "Ngôi thứ hai – người kể chuyện trực tiếp đối thoại với người đọc qua nhân vật “cháu”."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q18",
+    "examId": "vact-synthetic-de-02",
+    "number": 18,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "– Tươm rồi đấy, anh! – Cô gái nói trong bóng tối.\n– Cảm ơn nhé, Nhật Giang!\nCô gái trở lại với nỗi ngạc nhiên:\n– Ô kìa, ừ nhỉ, sao anh biết tên em?\nTôi cười, không đáp.\n– À, em biết rồi. Anh tọa độ chứ gì mà! Các anh bộ đội chuyên thế. Cứ gọi: Lan, Hằng, Liên,\nOanh thế nào cũng trúng, chú gì?\n– Nhưng Giang, lại Nhật Giang nữa, chắc không có hai người tên như thế đâu, đoán mò sao\nđược.\n(Bảo Ninh – “Giang”)\nLời thoại của nhân vật trong đoạn trích trên thể hiện rõ đặc điểm nào của ngôn ngữ nói?",
+    "options": [
+      "Ngôn ngữ trang trọng, có cấu trúc hoàn chỉnh, thường dùng trong các diễn văn và bài\nthuyết trình.",
+      "Ngôn ngữ tự nhiên, gần gũi, có tính đối thoại, thể hiện cảm xúc và sắc thái thân mật\nđời thường.",
+      "Ngôn ngữ được tổ chức chặt chẽ, giàu tính lập luận, biểu hiện phong cách của ngôn\nngữ chính luận.",
+      "Ngôn ngữ giàu hình ảnh, sử dụng nhiều biện pháp tu từ, thể hiện cảm xúc trữ tình sâu\nsắc."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q19",
+    "examId": "vact-synthetic-de-02",
+    "number": 19,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Trời thu xanh ngắt mấy tầng cao,\nCần trúc lơ phơ gió hắt hiu.\nNước biếc trông như tầng khói phủ,\nSong thưa để mặc bóng trăng vào.\nMấy chùm trước giậu hoa năm ngoái,\nMột tiếng trên không ngỗng nước nào?\nNhân hứng cũng vừa toan cất bút,\nNghĩ ra lại thẹn với ông Đào.\n(Thu vịnh, Nguyễn Khuyến – Tác phẩm, Sđd)\nCảm xúc chủ đạo của tác giả trong bài thơ Thu vịnh là gì?",
+    "options": [
+      "Cảm xúc ngậm ngùi, tự giễu nhẹ nhàng trước sự bất lực của bản thân trước thời cuộc.",
+      "Cảm xúc hoài cổ, luyến tiếc vẻ đẹp thiên nhiên mùa thu trong tâm thế cô đơn, u hoài.",
+      "Cảm xúc an nhiên, bình thản khi cảm nhận cảnh vật mùa thu với lòng hướng nội sâu\nlắng.",
+      "Cảm xúc kính ngưỡng thiên nhiên mùa thu, từ đó khơi gợi cảm hứng sáng tác và suy\ntưởng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q20",
+    "examId": "vact-synthetic-de-02",
+    "number": 20,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Cái nghiên mực của cụ đồ Chu Ẩn sau đó trôi về làng Quỳnh Đô làm đen cả\nnước đầm ấy, ngày nay người ta vẫn quen gọi là đầm Mực. Còn quản bút thì lại trôi về làng Tó,\ncho nên các cụ thường truyền rằng nhờ thế làng Tó, tức là làng Tả Thanh Oai bây giờ, có lắm\nngười học hành đỗ đạt. Còn chỗ ngôi mộ hai con quái vật, tức là hai anh em thượng luồng, sau đó\nngười ta lập miếu thờ, ngày nay vẫn còn có tên là miếu Gàn.\n(Nguyễn Đổng Chi, “Sự tích đầm Mực”, theo Kho tàng truyện cổ tích Việt Nam,\ntập 1, NXB Giáo dục, 2000)\nĐặc trưng nghệ thuật nổi bật trong đoạn trích trên là gì?",
+    "options": [
+      "Miêu tả chi tiết sự kiện bằng giọng kể trung tính, kết hợp ngôn ngữ tự sự rõ ràng.",
+      "Kể lại sự kiện theo tuyến thời gian kết hợp chi tiết tưởng tượng mang tính hiện thực.",
+      "Lý giải địa danh bằng yếu tố kỳ ảo kết hợp chi tiết dân gian mang màu sắc truyền\nthuyết.",
+      "Lồng ghép nhiều yếu tố lịch sử với phong cách kể chuyện phóng đại, giàu hình ảnh\ngợi tả.\nĐọc đoạn văn sau và trả lời các câu hỏi:\nBất kỳ một quan điểm nào cũng có thể thay đổi, điều quan trọng là bạn có “muốn” thay đổi hay\nkhông mà thôi. Mọi thứ không bỗng dưng mà có, thái độ cũng vậy. Để có một thái độ sống đúng\nđắn, trước tiên ta cần hình thành nó, rồi dần dần phát triển lên, biến nó thành tài sản quý giá cho\nbản thân. Một số người từ chối việc thay đổi, họ cho rằng “Tôi đã quen sống như này từ nhỏ, thay đổi chỉ làm cuộc sống thêm rắc rối mà thôi!” hoặc “Cha mẹ sinh mình ra thế nào thì cứ thế ấy, thay\nđổi làm gì cho mệt!” Bạn cần biết rằng, không bao giờ là quá trễ cho một sự thay đổi. Nhờ thay đổi,\ncon người mới có những bước tiến vượt bậc. Không chấp nhận thay đổi, cuộc sống của bạn sẽ trở\nnên nghèo nàn, thậm chí bạn sẽ gặp những rắc rối lớn. Bạn gọi một cái cây không đâm chồi nảy\nlộc, không ra hoa kết trái là gì? Đó chẳng phải là “cây chết” hay sao? Con người chúng ta cũng\nvậy. Cuộc sống sẽ luôn được vận hành tốt nếu ta không ngừng hoàn thiện bản thân. Những ai\nkhông chịu thay đổi cho phù hợp với cuộc đời sẽ chẳng thể nào thích nghi được với hoàn cảnh. Có\nthể họ vẫn hiện hữu nhưng cuộc sống của họ sẽ bị tách biệt, không bắt nhịp được với đồng loại của\nmình.\n(Wayne Cordeiro, Thái độ quyết định thành công, NXB Tổng hợp TP. HCM, 2016, tr.34)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q21",
+    "examId": "vact-synthetic-de-02",
+    "number": 21,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Đoạn trích đề cập đến lý do quan trọng nhất khiến một số người từ chối\nthay đổi là gì?",
+    "options": [
+      "Họ cho rằng việc thay đổi là phức tạp và gây rắc rối không cần thiết.",
+      "Họ không muốn đi ngược lại những thói quen sống đã hình thành từ nhỏ.",
+      "Họ tin rằng thay đổi không cần thiết, cứ giữ nguyên như bản thân đã có.",
+      "Họ nghĩ rằng việc thay đổi sẽ làm cho cuộc sống của họ trở nên mệt mỏi."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q22",
+    "examId": "vact-synthetic-de-02",
+    "number": 22,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Theo tác giả, thái độ sống đúng đắn được hình thành như thế nào?",
+    "options": [
+      "Thái độ sống đúng đắn được hình thành một cách tự nhiên từ khi còn nhỏ và phát triển\nkhi lớn.",
+      "Thái độ sống đúng đắn được xây dựng, phát triển dần thành tài sản của bản thân.",
+      "Thái độ sống đúng đắn sẽ có nếu được thừa hưởng từ cha mẹ và gia đình.",
+      "Thái độ sống đúng đắn có thể có nhờ những người xung quanh hỗ trợ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q23",
+    "examId": "vact-synthetic-de-02",
+    "number": 23,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Tác giả sử dụng hình ảnh “cây chết” để diễn tả điều gì?",
+    "options": [
+      "Một con người không phát triển, không thay đổi, sẽ giống như cây không thể sống.",
+      "Con người không có thái độ sống đúng đắn sẽ không thể đâm chồi nảy lộc.",
+      "Những ai sống quá thụ động sẽ không nhận được tình yêu thương từ cuộc sống.",
+      "Nếu con người không thay đổi, họ sẽ không thể đạt được hạnh phúc đích thực."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q24",
+    "examId": "vact-synthetic-de-02",
+    "number": 24,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Cách lập luận nổi bật trong đoạn văn trên là gì?",
+    "options": [
+      "Lập luận phân tích bằng cách đối chiếu các thái độ sống khác nhau để nêu bật thông\nđiệp.",
+      "Lập luận diễn dịch kết hợp liệt kê để chứng minh vai trò của thay đổi trong phát triển\ncá nhân.",
+      "Lập luận nhân quả nhằm làm rõ nguyên nhân của những thất bại do thiếu thái độ đúng\nđắn.",
+      "Lập luận bác bỏ bằng cách nêu quan điểm sai lầm rồi phản biện để khẳng định giá trị\ncủa sự thay đổi."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q25",
+    "examId": "vact-synthetic-de-02",
+    "number": 25,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Nội dung chính của đoạn văn trên là gì?",
+    "options": [
+      "Con người có thể thay đổi nếu biết vượt qua thói quen cũ và dám hành động mạnh mẽ.",
+      "Việc không thay đổi sẽ khiến con người bị tụt lại trong dòng chảy phát triển của xã hội.",
+      "Thái độ sống đúng đắn cần được hình thành và nuôi dưỡng qua sự thay đổi tích cực.",
+      "Mỗi người cần biết chấp nhận sự thật rằng thay đổi là khó khăn nhưng là điều tất yếu.\nĐọc đoạn văn sau và trả lời các câu hỏi:\nDu lịch bền vững khác với du lịch đại chúng như thế nào? Du lịch đại chúng thường chỉ hướng đến mục tiêu duy nhất là lợi nhuận của bên tổ chức, không\ncó mục tiêu cho việc nâng cao công tác bảo tồn hoặc mang lại những lợi ích cho cộng đồng địa\nphương và có thể phá hủy nhanh chóng các môi trường nhạy cảm.Du lịch đại chúng không cung\ncấp nguồn quỹ tài trợ cho cả các chương trình bảo tồn lẫn cộng đồng địa phương để bảo vệ vùng\ntránh khỏi những hoạt động và sự phát triển có thể gây hại đến cảnh đẹp tự nhiên của vùng.\nNhững cơ hội và các tác động đe dọa tới môi trường, văn hóa – xã hội có thể chỉ được điều khiển\nthông qua các kế hoạch được lập ra và quản lý cẩn thận của du lịch bền vững.Du lịch bền vững\nthì được lập kế hoạch đa mục đích: lợi tức, môi trường và cộng đồng ngay từ khi bắt đầu, nhằm\nmang lại những lợi ích cho cộng đồng địa phương, tôn trọng văn hoá, bảo tồn nguồn lợi tự\nnhiên, hướng dẫn du khách và cả cộng đồng địa phương. Trong kế hoạch này thường có sự tham\ngia của các bên liên quan, hướng tới địa phương nơi du khách sẽ tới. Các bên liên quan bao gồm\ncác thành viên cộng đồng địa phương, chính quyền, tổ chức phi chính phủ cũng như ngành du\nlịch, du khách và nhiều nhóm khác. Tất cả cần phối hợp để tạo ra các tổ chức kinh doanh về du\nlịch bền vững nhằm đem lại các lợi ích địa phương và khả thi về mặt kinh tế. Đặc biệt các nguồn\nlợi tự nhiên, các giá trị văn hóa của vùng sẽ được bảo vệ để giảm thiểu các tác động xấu của du\nlịch, đồng thời còn đóng góp vào công tác bảo tồn và sức khỏe của cộng đồng về cả mặt kinh tế và\nxã hội.\nThân thiện, bảo vệ môi trường\nDu lịch có mối quan hệ đặc biệt, hai chiều với môi trường. Chất lượng của môi trường là yếu tố\ncần thiết cho sự thành công của du lịch, vì đây thường là yếu tố thu hút mọi người đến thăm một\nđịa điểm và thuyết phục họ quay trở lại. Do đó, nguyên tắc của du lịch bền vững là giảm thiểu các\ntác động đến môi trường (động thực vật, các sinh cảnh sống, nguồn lợi sống, sử dụng năng lượng\nvà ô nhiễm.) đồng thời có những tác động góp phần làm tăng tính đa dạng sinh học, bảo tồn cảnh\nquan. thông qua việc quản lý vùng, bảo tồn và nâng cấp di sản, giảm ô nhiễm do rác thải, tăng\ncường nghiên cứu giải pháp khoa học để bảo vệ môi trường.\n( Booking.com, Báo cáo Thường niên về Du lịch Bền vững. Vietnamtourism, 2020 – Tốc\nđộ tăng trưởng khách cao, đóng góp quan trọng vào phát triển kinh tế – xã hội.\nVisualcapitalist, 2020 – Visualizing the Countries Most Reliant on Tourism, Theo\ndigital.fpt.com.vn)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q26",
+    "examId": "vact-synthetic-de-02",
+    "number": 26,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Mục đích chính của việc đưa ra các thông tin trong đoạn trích là gì?",
+    "options": [
+      "So sánh những hạn chế của du lịch đại chúng với các hình thức du lịch khác nhau.",
+      "Làm rõ ưu thế và mục tiêu nhân văn của mô hình du lịch bền vững hiện nay.",
+      "Phân tích mối quan hệ hai chiều giữa hoạt động du lịch và sự phát triển kinh tế.",
+      "Thuyết minh về sự hình thành, phát triển và mở rộng của ngành du lịch hiện đại."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q27",
+    "examId": "vact-synthetic-de-02",
+    "number": 27,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Đặc điểm nội dung – nghệ thuật nổi bật của văn bản trên là gì?",
+    "options": [
+      "Kết hợp lập luận logic với dẫn chứng thực tiễn, làm nổi bật sự khác biệt giữa hai loại\nhình du lịch.",
+      "Trình bày khái quát và cô đọng bằng hình thức ẩn dụ để thu hút người đọc về du lịch\nbền vững.",
+      "Sử dụng giọng điệu châm biếm nhẹ nhàng để phê phán du lịch đại chúng và nâng cao\nnhận thức cộng đồng.",
+      "Nhấn mạnh các khía cạnh kỹ thuật của ngành du lịch bằng lối trình bày phức tạp, đậm\nchất nghiên cứu học thuật."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q28",
+    "examId": "vact-synthetic-de-02",
+    "number": 28,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Phong cách ngôn ngữ chính được sử dụng trong đoạn văn trên là gì?",
+    "options": [
+      "Nghị luận",
+      "Báo chí",
+      "Khoa học",
+      "Chính luận"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q29",
+    "examId": "vact-synthetic-de-02",
+    "number": 29,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Nội dung nào sau đây KHÔNG được đề cập trong văn bản?",
+    "options": [
+      "Du lịch đại chúng tiềm ẩn nguy cơ gây hại đến môi trường và cộng đồng địa phương.",
+      "Du lịch bền vững cần đầu tư xây dựng cơ sở hạ tầng hiện đại để thu hút du khách quốc\ntế.",
+      "Du lịch bền vững được lên kế hoạch đa mục tiêu: kinh tế, môi trường và lợi ích cộng\nđồng.",
+      "Việc phối hợp giữa nhiều bên liên quan là yếu tố quan trọng trong phát triển du lịch\nbền vững."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q30",
+    "examId": "vact-synthetic-de-02",
+    "number": 30,
+    "section": "vietnamese",
+    "sectionName": "Tiếng Việt",
+    "passage": null,
+    "question": "Đặc điểm ngôn ngữ nổi bật của văn bản trên là gì?",
+    "options": [
+      "Sử dụng kết hợp giữa ngôn ngữ khoa học và thông tin thực tiễn, giúp tăng tính thuyết\nphục cho vấn đề.",
+      "Ngôn ngữ giàu hình ảnh biểu cảm, tập trung gây ấn tượng cảm xúc nơi người đọc về\nmôi trường.",
+      "Văn bản dùng phong cách nghị luận giàu cảm xúc để thể hiện sự lo lắng trước thực\ntrạng du lịch.",
+      "Ngôn ngữ chủ yếu là tường thuật, miêu tả nhằm tái hiện thực trạng du lịch hiện nay\nqua góc nhìn cá nhân."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q31",
+    "examId": "vact-synthetic-de-02",
+    "number": 31,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "When the café gets crowded, Mia usually ___ a small table near the back\ndoor.",
+    "options": [
+      "chooses",
+      "is choosing",
+      "has chosen",
+      "was choosing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q32",
+    "examId": "vact-synthetic-de-02",
+    "number": 32,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Compared with last year’s launch, this prototype feels ___ the previous\nversion in everyday use.",
+    "options": [
+      "as reliable as",
+      "so reliable than",
+      "more reliable as",
+      "the most\nreliable as"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q33",
+    "examId": "vact-synthetic-de-02",
+    "number": 33,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The lab reported a highly ___ drop in error rates after the calibration\nupdate last night. (signify)",
+    "options": [
+      "significance",
+      "significant",
+      "signify",
+      "significantly"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q34",
+    "examId": "vact-synthetic-de-02",
+    "number": 34,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Due to the fog, ___ flights were delayed, but most passengers stayed\ncalm and cooperative.",
+    "options": [
+      "many of",
+      "much",
+      "a number of",
+      "a little"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q35",
+    "examId": "vact-synthetic-de-02",
+    "number": 35,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Before filing the statements, the auditors must ___ the numbers again\nto spot any subtle inconsistencies.",
+    "options": [
+      "go over",
+      "go off",
+      "go under",
+      "go by\nQuestions: Each of the following sentences has one error (A, B, C, or D). Find it and blacken your\nchoice on your answer sheet."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q36",
+    "examId": "vact-synthetic-de-02",
+    "number": 36,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The researcher, which published the meta-analysis last year, has\nrevised the dataset after feedback.",
+    "options": [
+      "which",
+      "published",
+      "has revised",
+      "after feedback"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q37",
+    "examId": "vact-synthetic-de-02",
+    "number": 37,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The team, along with its new analysts, are preparing the projections for\ntomorrow’s investor briefing",
+    "options": [
+      "along with",
+      "are",
+      "the projections",
+      "tomorrow’s\ninvestor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q38",
+    "examId": "vact-synthetic-de-02",
+    "number": 38,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "When the report reached the board, legal counsel verified whether their\nfindings were admissible in arbitration.",
+    "options": [
+      "reached",
+      "verified",
+      "their",
+      "admissible"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q39",
+    "examId": "vact-synthetic-de-02",
+    "number": 39,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The students’s projects will be displayed outside the gym after Friday’s\nassembly, according to the principal’s email.",
+    "options": [
+      "students’s",
+      "displayed",
+      "outside",
+      "Friday’s\nassembly"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q40",
+    "examId": "vact-synthetic-de-02",
+    "number": 40,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "We spent afternoon at the park, watching herons by the lake, before the\nsudden rain arrived at dusk.",
+    "options": [
+      "spent",
+      "afternoon",
+      "the park",
+      "the lake\nQuestions: Which of the following best restates each of the given sentences?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q41",
+    "examId": "vact-synthetic-de-02",
+    "number": 41,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Lena wasn’t on time, so she missed the first interview round.",
+    "options": [
+      "Unless Lena were earlier, she would not attend the first interview round.",
+      "Had Lena not been late, she wouldn’t miss the first interview round.",
+      "If Lena had arrived on time, she might have joined the first interview round.",
+      "As long as Lena is punctual, she will join the first interview round."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q42",
+    "examId": "vact-synthetic-de-02",
+    "number": 42,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Emma said, “Tom, you should submit the application today.”",
+    "options": [
+      "Emma ordered Tom to submit the application today.",
+      "Emma helped Tom submit the application that day.",
+      "Emma offered to submit the application for Tom today.",
+      "Emma advised Tom to submit the application that day."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q43",
+    "examId": "vact-synthetic-de-02",
+    "number": 43,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Sales are declining, perhaps because of rising raw-material costs.",
+    "options": [
+      "It is definitely the rising raw-material costs that cause sales to decline.",
+      "The sales decline cannot be connected to rising raw-material costs.",
+      "Rising raw-material costs are probably the reason sales are declining.",
+      "Sales will probably decline more if costs are not reduced."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q44",
+    "examId": "vact-synthetic-de-02",
+    "number": 44,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Switch off the lights to prevent insects from gathering on the porch.",
+    "options": [
+      "Please switch off the lights because insects are gathering on the porch.",
+      "Switch off the lights so that insects cannot gather on the porch.",
+      "You should switch off the lights in order to let insects gather on the porch.",
+      "Unless you switched off the lights, insects would gather on the porch."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q45",
+    "examId": "vact-synthetic-de-02",
+    "number": 45,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The Mekong Delta produces more rice than any other region in the\ncountry.",
+    "options": [
+      "Other regions in the country produce as much rice as the Mekong Delta does.",
+      "The Mekong Delta is the region that produces the most rice in the country.",
+      "No other region in the country can produce as little rice as the Mekong Delta does.",
+      "The Mekong Delta produces the least rice in the country.\nQuestions: Read the passage carefully.\nA massive bushfire north of Sydney merged from several smaller blazes on December 6,\ncreating what firefighters now call a “mega fire.” Fueled by fierce winds and bone-dry\nconditions, the blaze has blanketed Australia’s largest city in thick, hazardous smoke that\nhas turned the sky a deep orange and forced commuters to wear masks. Officials warn\nthat it could take weeks to bring the fire under control.\nSo far, the Gospers Mountain fire alone has scorched more than 3,000 square kilometers,\nmaking it larger than California’s biggest blaze on record — the Mendocino Complex Fire\nof 2018. Across the state of New South Wales, more than 21,000 square kilometers of land\nhave burned, an area roughly equal to 94 percent of New Jersey’s size. The infernos have\nkilled at least four people and destroyed more than 680 homes since early November.\nDozens of smaller fires are still active, stretching firefighters to their limits and threatening\nrural towns already suffering from drought.\nAustralia’s summer wildfire season normally peaks in January or February, but this year\nflames arrived months earlier. Scientists and government agencies partly blame a\nwarming climate and a three-year drought that has left the landscape tinder-dry. Satellite\nmaps show vast zones of extremely dry bushland across New South Wales and southern\nQueensland. Root-zone soil moisture in many regions has fallen to record lows, meaning\nthat even the smallest spark — from lightning, machinery, or a campfire — can ignite\ncatastrophic blazes that spread uncontrollably through forest and farmland alike.\nThe smoke crisis has triggered public outrage and reignited debate over Australia’s\nclimate policies. Farmers say the drought has devastated crops and livestock, while city\ndwellers have endured weeks of choking air. Environmental groups and protesters are\ndemanding stronger national action to curb greenhouse-gas emissions and reduce fire\nrisks. Yet amid the destruction, Australians continue to show resilience: communities are\ndonating supplies, volunteers are supporting exhausted fire crews, and scientists are\nracing to model how extreme weather may shape the country’s future fire seasons. The\n“mega fire” around Sydney, experts warn, is not an isolated event — it may be a preview\nof the new normal in a warming world.\n(Adapted from: https://www.reuters.com/graphics/AUSTRALIA-BUSHFIRES-\nSIZE%20/0100B4QG2FG/)\nChoose an option (A, B, C, or D) that best answers each question."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q46",
+    "examId": "vact-synthetic-de-02",
+    "number": 46,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The best title for the passage can be ________.",
+    "options": [
+      "Sydney’s “Mega Fire”: Smoke, Drought, and a New Normal",
+      "Routine Flames: A Typical Summer in New South Wales",
+      "Mendocino Redux: California Fires Return to Australia",
+      "Mask-Free City: How Sydney Avoided a Smoke Crisis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q47",
+    "examId": "vact-synthetic-de-02",
+    "number": 47,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "According to paragraph 1, the “mega fire” formed when ________.",
+    "options": [
+      "a single lightning strike ignited rainforest after heavy rainfall",
+      "several smaller blazes merged amid fierce winds and parched conditions",
+      "controlled burns expanded safely under calm, humid weather",
+      "city crews extinguished rural fires before they combined"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q48",
+    "examId": "vact-synthetic-de-02",
+    "number": 48,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In paragraph 2, statewide impacts in New South Wales include\n________.",
+    "options": [
+      "only urban districts affected, with forests largely untouched",
+      "minor acreage burned, no homes damaged, and zero casualties",
+      "over 21,000 km² burned, hundreds of homes lost, and multiple fatalities",
+      "few active fires and surplus crews available across the state"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q49",
+    "examId": "vact-synthetic-de-02",
+    "number": 49,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "According to paragraph 3, early and severe fires were linked to\n________.",
+    "options": [
+      "abundant rainfall, saturated soils, and cooler-than-average summers",
+      "prolonged drought, record-low root-zone moisture, and a warming climate",
+      "strict campfire bans and reduced lightning during spring",
+      "ocean storms that repeatedly drenched New South Wales"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q50",
+    "examId": "vact-synthetic-de-02",
+    "number": 50,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The word “triggered” in the last paragraph could be best replaced by\n_________.",
+    "options": [
+      "sparked",
+      "delayed",
+      "muffled",
+      "resolved"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q51",
+    "examId": "vact-synthetic-de-02",
+    "number": 51,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In paragraph 4, public response is characterized by ________.",
+    "options": [
+      "demands to increase greenhouse-gas emissions rapidly",
+      "indifference to smoke and reduced interest in drought relief",
+      "broad opposition to modeling future fire seasons",
+      "protest over climate policy and community support for fire crews"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q52",
+    "examId": "vact-synthetic-de-02",
+    "number": 52,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "It can be inferred from the passage that Australia’s future fire seasons\nwill ________.",
+    "options": [
+      "likely feature earlier starts and greater intensity under warming trends",
+      "return to milder patterns regardless of climate conditions",
+      "depend solely on city firefighting capacity, not weather",
+      "be unaffected by drought or soil-moisture deficits\nQuestions: Read the passage carefully.\nThe familiar “chasing arrows” symbol — three curved triangles forming a loop —\nappears on almost every plastic package, giving the illusion of sustainability. Yet that\nsymbol doesn’t guarantee recyclability at all. Manufacturers can print it freely; its true\npurpose is to identify the type of plastic used. A “1” or “2” often means the material is\nwidely recyclable, while a “3” indicates PVC — rarely accepted in curbside programs.\nConfusion over this logo became so widespread that California recently banned its use on products that aren’t truly recyclable. The result is a system that asks individuals to\ninterpret a cryptic code, where the burden of understanding falls on the consumer rather\nthan the producer.\nEven for those who follow the rules, the results can be disheartening. Only an estimated\n9 percent of all plastics ever made have been recycled. The rest have been buried, burned,\nor scattered across the planet. The reasons are structural: every community operates\ndifferently, with local policies determining what can and cannot be accepted. Some towns\nhave suspended programs entirely, while others lack buyers for sorted plastic waste,\nleaving bales to pile up in warehouses. Even advanced optical scanners that identify\nplastics by shape or color often misread dark containers or thin films. What can be recycled\nis typically “downcycled” into lower-value materials like carpet fiber or polyester, while\nthe remainder is dumped or incinerated — releasing greenhouse gases and toxic fumes.\nThe scale of the problem keeps growing. Since 1960, global plastic production has\nincreased nearly one hundredfold, with more than half of all items designed for single\nuse. Plastics persist for centuries, fragmenting into microplastics found in rain, oceans,\nand even human blood. At the root of this surge is cheap oil and gas — the feedstock for\nmost plastics — which has made them profitable even as nations pledge to burn fewer\nfossil fuels. The paradox is striking: plastics can make cars lighter and packaging more\nenergy-efficient, yet their manufacture and disposal emit more greenhouse gases than the\nentire aviation industry.\nIt wasn’t always this way. Early plastics were celebrated as a sustainable substitute for\nivory and tortoiseshell, but by the mid-20th century, manufacturers embraced\ndisposability as a business model. When the mounting waste drew backlash, industry\nleaders promoted curbside recycling — shifting responsibility from producers to the\npublic. Decades later, the promise remains unfulfilled. As environmentalists note,\nrecycling alone cannot solve the plastic crisis. Without systemic change — reducing\nproduction, redesigning materials, and enforcing accountability — the arrows on the\nbottom of our bottles will continue to point in circles.\n(Adapted from: https://www.nytimes.com/interactive/2022/04/21/climate/plastics-recycling-\ntrash-environment.html)\nChoose an option (A, B, C, or D) that best answers each question."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q53",
+    "examId": "vact-synthetic-de-02",
+    "number": 53,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The best title for the passage can be ________.",
+    "options": [
+      "Chasing Arrows, Broken Promises: Why Plastic Recycling Falls Short",
+      "Perfect Loops: How Symbols Guarantee Zero-Waste Packaging",
+      "Simple Fixes: One Logo to Solve the Plastic Crisis",
+      "End of Plastics: Recycling Eliminates Fossil Dependence"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q54",
+    "examId": "vact-synthetic-de-02",
+    "number": 54,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "According to paragraph 1, the symbol primarily ________.",
+    "options": [
+      "confirms producer take-back and closed-loop reprocessing",
+      "certifies curbside acceptance under federal recycling standards",
+      "identifies resin types and not guaranteed recyclability for consumers",
+      "indicates compostability under home and industrial conditions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q55",
+    "examId": "vact-synthetic-de-02",
+    "number": 55,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "The word “disheartening” in the second paragraph is closest in\nmeaning to ________.",
+    "options": [
+      "discouraging",
+      "enlightening",
+      "reassuring",
+      "invigorating"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q56",
+    "examId": "vact-synthetic-de-02",
+    "number": 56,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "According to paragraph 2, a major reason recycling rates stay low is\nthat ________.",
+    "options": [
+      "all scanners perfectly sort films and dark plastics at scale",
+      "local systems vary, markets are weak, and technologies misread many items",
+      "every town accepts PVC and multilayers without restriction",
+      "downcycling has been banned, forcing universal closed loops"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q57",
+    "examId": "vact-synthetic-de-02",
+    "number": 57,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In paragraph 3, the “paradox” mainly refers to plastics that ________.",
+    "options": [
+      "improve efficiency in use while emitting heavily in production and disposal",
+      "biodegrade quickly yet persist in oceans and human blood",
+      "rely on renewable feedstocks but raise oil and gas demand",
+      "reduce aviation emissions below the plastics industry footprint"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q58",
+    "examId": "vact-synthetic-de-02",
+    "number": 58,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "In paragraph 4, industry response to backlash in the mid-20th century\nwas to ________.",
+    "options": [
+      "finance universal deposit systems and mandatory producer take-back",
+      "phase out single-use products in favor of durable returnables",
+      "promote curbside recycling that shifted responsibility to the public",
+      "mandate resin codes only on items proven infinitely recyclable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q59",
+    "examId": "vact-synthetic-de-02",
+    "number": 59,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "Which of the following is NOT supported by the passage?",
+    "options": [
+      "Only ~9% of all plastics ever produced have been recycled.",
+      "Some communities lack buyers, leaving sorted bales to accumulate.",
+      "California restricted misuse of the chasing-arrows logo on non-recyclables.",
+      "Recycling alone, if expanded, will fully solve the plastic crisis."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q60",
+    "examId": "vact-synthetic-de-02",
+    "number": 60,
+    "section": "english",
+    "sectionName": "Tiếng Anh",
+    "passage": null,
+    "question": "It can be inferred from the passage that effective solutions will require\n________.",
+    "options": [
+      "cutting production, redesigning materials, and enforcing producer accountability",
+      "keeping current logos while asking consumers to sort more carefully",
+      "ending bans so manufacturers can freely market recyclability claims",
+      "relying solely on optical scanners to overcome market failures\nQuestions: Choose a suitable word or phrase (A, B, C, or D) to fill in each blank."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q61",
+    "examId": "vact-synthetic-de-02",
+    "number": 61,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Phương trình:\n3\n2 1 1 3 1\n3\nx x x x x\nx\n       \n có bao nhiêu\nnghiệm?",
+    "options": [
+      "0 .",
+      "3 .",
+      "2 .",
+      "1."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phương trình có dạng A B C D    với . . , AC B D  cụ thể ta có\n3\n2 3 1 ( 3) ( 1)( 1) 1,\n3\nx x x x x x\nx\n        \n nên sẽ viết về dạng A C D B    và\nbình phương để giải phương trình hệ quả. Từ đó có Lời giải: sau:\nĐiều kiện: 1. x  \n \n2\n3 3 2\n2 2 1 1\n1 3 1 3 1 1\n3 3\nx x\nx x x x x x x x\nx x\n   \n                \n    \n3 3\n2 2 1 1\n3 2 3 1 1 2 1 1\n3 3\nx x\nx x x x x x x x\nx x\n \n               \n \n3\n2 3 2 3 3 2 2 1 1 1 ( 3)( 1) 1 3 3 3\n3\nx x x x x x x x x x x x x\nx\n\n                 \n\n2 2 1 3\n2 4 4 2 2 0 1 3\nx\nx x x x x\n  \n           \nSo với điều kiện và thế vào phương trình ban đầu, ta có phương trình vô nghiệm."
+  },
+  {
+    "id": "vact-synthetic-de-02-q62",
+    "examId": "vact-synthetic-de-02",
+    "number": 62,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Hệ phương trình\n3 2\n3 2\n2 3\n2 3\nx x y\ny xy\n   \n   \ncó bao nhiêu nghiệm?",
+    "options": [
+      "3.",
+      "1.",
+      "2.",
+      "6."
+    ],
+    "correctAnswer": 0,
+    "explanation": "3 2\n3 2\n2 3\n2 3\nx x y\ny xy\n   \n   \n(1)\n(2)\n3 3 2 2\n(1) (2) 2( ) ( ) 0 2( )( ) ( ) 0 x y xy x y x y x xy y xy x y             \n2 2\n2 2 3 7\n( )(2 2 3 ) 0 ( ) 2 0\n4 8\ny\nx y x y xy x y x y x y\n   \n               \n     \n(do\n2 2\n3 7\n2 0, ;\n4 8\ny\nx y x y\n \n      \n   )\nNhận xét:     ; 0; x y b  ,     ; ;0 x y a  và     ; 0;0 x y  không là nghiệm của hệ phươg\ntrình. Từ đó ta nhận định 0 xy  hay x và y đồng thời khác 0 .\nThế vào 3\n(1) 3 3 1, x x     suy ra: 1. y  Tập nghiệm của hệ là   ( ; ) (1;1) S x y   "
+  },
+  {
+    "id": "vact-synthetic-de-02-q63",
+    "examId": "vact-synthetic-de-02",
+    "number": 63,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Để phương trình 2\n2 3 (2 2 ). 3 ( 1) 9 x m x m x        có nghiệm\nthì   ; \\ b\nm a c\n \n   \n  , với *\n, , a b c   , b\nc là phân số tối giản. Tính a b c   .",
+    "options": [
+      "10.",
+      "11.",
+      "9.",
+      "8."
+    ],
+    "correctAnswer": 0,
+    "explanation": "2\n2 3 (2 2 ). 3 ( 1) 9 x m x m x        ( ) \nĐiều kiện: 3\n3\nx\nx\n  \n   .\nDo 3 x  không là nghiệm của phương trình nên xét 3\n3\nx\nx\n  \n  \nVới 3 3, x x     chia hai vế cho 3 0, x   ta được:\n \n2 2\n2\n3 9 3 9\n( ) 2 2 2 ( 1) 2 ( 1) 2 2 0\n3 3 3 3\nx x x x\nm m m m\nx x x x\n   \n           \n   \n3 3\n2 ( 1) 2 2 0\n3 3\nx x\nm m\nx x\n \n     \n  (1)\n(Chú ý: Nếu 3 x  thì 3 3\n3 3\nx x\nx x\n \n\n  , nếu 3 x   thì  \n \n3 3 3\n3 3 3\nx x x\nx x x\n   \n \n    )\nĐặt: 3 , ( 0, 1).\n3\nx\nt t t\nx\n\n  \n Khi đó: 2\n(1) 2 ( 1) 2 2 0 t m t m      \n2\n2 2 ( )\n2\nt t\nm f t\nt\n \n  \n và xét hàm số ( ) f t trên     0; \\ 1  có:\n   \n2\n2\n2 8\n( ) 0, 0; \\ 1\n( 2)\nt t\nf t t\nt\n\n     \n .\nDo đó hàm số ( ) f t đồng biến trên   0;1 và (1; +)\nSuy ra, phương trình đã cho có nghiệm (1)  có nghiệm thỏa 0, 1 t t  \n(0) m f   và (1) 1 m f m    và 5\n3\nm  \nVậy phương trình có nghiệm thực khi   5\n1; \\ 3\nm  \n    \n "
+  },
+  {
+    "id": "vact-synthetic-de-02-q64",
+    "examId": "vact-synthetic-de-02",
+    "number": 64,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Có bao nhiêu giá trị nguyên   2021; 2021 m   để phương trình sau:\n10 2 2 log 10\nm x m\nx\n\n  có nghiệm thực?",
+    "options": [
+      "2012.",
+      "2021.",
+      "2020.",
+      "2011."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Điều kiện: x>0.\nĐặt 10 2 2 log 10\nm x m\ny x y\n\n    . Khi đó ta có hệ: 2\n2 2 2 2\n2\nlog 10 log log log log\nlog 10\nm\ny x\ny x x y y y x x\nm\nx y\n            \n  \n\nXét 2\n1\n( ) log '( ) 1 0 0\nln 2\nf t t t f t t\nt\n        nên ( ) f t đồng biến trên (0; )  .\nCó ( ) ( ) f x f y x y    . Khi đó ta có: 2 2 log log\n10 10\nm m\nx x x x      . (1)\nXét 2\n1 1\n( ) log '( ) 1 0\nln 2 ln 2\ng x x x g x x\nx\n        .\nBảng biến thiên:\nPhương trình (1) có nghiệm, nghĩa là 1\n10min ( ) 9.139\nln 2\nm g x g  \n    \n  .\nDo m là số nguyên và   2021; 2021 m   nên   10,11,12,...,2021 m  .\nVậy có 2012 giá trị của m."
+  },
+  {
+    "id": "vact-synthetic-de-02-q65",
+    "examId": "vact-synthetic-de-02",
+    "number": 65,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho , 0 a b  , 1 a  thỏa mãn log 4\na\nb\nb  và 2\n16\nlog a b\n . Tổng a b \nbằng",
+    "options": [
+      "12 .",
+      "10 .",
+      "18 .",
+      "16 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có:\n16\n2\n16\nlog 2 b a a\nb\n   . Như vậy:\n16 2 2\n2\nlog log log log 4 16\n4 16 b\na\nb b\nb b b b b        .\nMà\n16\n2 b a  do đó ta được 2 a  ."
+  },
+  {
+    "id": "vact-synthetic-de-02-q66",
+    "examId": "vact-synthetic-de-02",
+    "number": 66,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Trong các hàm số được cho dưới đây, hàm số nào có tập xác định là\nD   ?",
+    "options": [
+      " 2\nln 1 y x   .",
+      " 2\nln 1 y x   .",
+      " 2\nln 1 y x   .",
+      " 2\nln 1 y x  \n."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xét  2\nln 1 y x  \nĐiều kiện 2 1 0, x x      nên có D  "
+  },
+  {
+    "id": "vact-synthetic-de-02-q67",
+    "examId": "vact-synthetic-de-02",
+    "number": 67,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho tam giác ABC có   45 , 75 B C     và phân giác trong 4 AD  .\nTính bán kính đường tròn ngoại tiếp tam giác ABC .",
+    "options": [
+      "6 2  .",
+      "6 2  .",
+      "4 4 3   .",
+      "2 2 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có    0 0\n180 60 A B C     ,    105 ADB C DAC    \nÁp dụng định lý sin vào tam giác ADB\n \n\n\nsin sin105\n. .4 2 2 3\nsin 45 sin sin sin\nAB AD ADB\nAB AD\nADB ABD ABD\n\n     \n .\nBán kính đường tròn ngoại tiếp tam giác ABC là: 0\n2 2 3 2 2.\n2sin 2sin 75\nAB\nR C\n\n  "
+  },
+  {
+    "id": "vact-synthetic-de-02-q68",
+    "examId": "vact-synthetic-de-02",
+    "number": 68,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho ; ;c a b là độ dài 3 cạnh của một tam giác. Mệnh đề nào sau đây\nkhông đúng?",
+    "options": [
+      "2\na ab ac  ",
+      "2 2 2 2 a c b ac    .",
+      "2 2 2 2 b c a bc    .",
+      "2\nab bc b   ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Do  2 2 2 2 .cos 2 b c a bc A bc      2 2 2 2 b c a bc    nên mệnh đề C sai.\nÁp dụng bất đẳng thức tam giác ta có 2\na b c a ab ac      ; mệnh đề A đúng.\nTương tự 2\na c b ab bc b      ;mệnh đề D đúng.\nTa có: 2 2 2 2 .cos 2 a c b ac B ac     2 2 2 2 a c b ac     ;mệnh đề B đúng."
+  },
+  {
+    "id": "vact-synthetic-de-02-q69",
+    "examId": "vact-synthetic-de-02",
+    "number": 69,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "[EMPIRE TEAM] Số nghiệm trong đoạn   0; 2\n của phương trình\n2\ncos 2 2 sin 2 1 x x    .là",
+    "options": [
+      "2 .",
+      "4 .",
+      "6 .",
+      "8 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có:\n \n2 2\ncos 2 2sin 2 1 cos 2 1 2sin 2\n2\ncos 2 4\ncos 2 2 cos 2 2\n2 2 8\nc c\n4\nos 2 os\nx x x x\nx x x\nx k x k k\nx\n \n \n\n      \n     \n     \n\n   \nDo   0; 2 x   nên 9 7 15\n; ; ;\n8 8 8 8\nx\n     \n  \n  ."
+  },
+  {
+    "id": "vact-synthetic-de-02-q70",
+    "examId": "vact-synthetic-de-02",
+    "number": 70,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
+    "options": [
+      "2 3\n1\nx x\ny x\n\n  .",
+      "2 3\n2 3\nx\ny x\n\n  .",
+      "2\n2 3\n2\nx\ny x x\n\n  .",
+      "2\n1\n3\nx\ny x\n\n  ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "2 3\nlim 1 x\nx x\nx \n  \n  đồ thị hàm số\n2 3\n1\nx x\ny x\n\n  không có đường tiệm cận ngang. 2 2\n3 1 3 1\nlim ; lim\n2 3 2 2 3 2 x x\nx x\nx x    \n \n  \n   đồ thị hàm số\n2 3\n1\nx x\ny x\n\n  có hai đường tiệm\ncận ngang.\n2\n1\n3\nx\ny x\n\n  có tập xác định   1;1   đồ thị hàm số không có đường tiệm cận ngang.\n2\n2 3\nlim 0\n2 x\nx\nx x \n \n  Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y "
+  },
+  {
+    "id": "vact-synthetic-de-02-q71",
+    "examId": "vact-synthetic-de-02",
+    "number": 71,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho   f x là hàm số bậc 3, biết hàm số đạt cực đại tại 3 x  và đạt cực\ntiểu tại 2 x   . Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số\n  \n   \n1 2\n1\nx x\ny f x f\n \n ",
+    "options": [
+      "5",
+      "2",
+      "3",
+      "1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Điều kiện: 0 x  .\nVì hàm số đạt cực đại tại 3 x  và đạt cực tiểu tại 2 x   nên hệ số 0 a  .\nXét     1 x f x f       . Do đó không có tiệm cận ngang.\nXét          \n1\n1 0 1 2 0;\n3\nx\nf x f f x f x b\nx c\n \n\n         \n   \n.\nXét 1\nlim\nx\ny\n : giới hạn có kết quả hữu hạn\n(do tử và mẫu đều có nhân tử 1 x  nên sẽ triệt tiêu yếu tố gây ra 0\n0 )\nXét lim\nx c\ny\n\n  : đồ thị hàm số có tiệm cận đứng 3 x c   .\nVậy đồ thị hàm số đề bài có duy nhất 1 tiệm cận đứng."
+  },
+  {
+    "id": "vact-synthetic-de-02-q72",
+    "examId": "vact-synthetic-de-02",
+    "number": 72,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho  \n2\n2 2\n3\nlim ,\n4 4 x\nx ax b a b\nx \n   \n  . Tổng 2 2\nS a b   bằng",
+    "options": [
+      "1.",
+      "10 .",
+      "5.",
+      "4 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Giả sử phương trình 2 0 x ax b    có hai nghiệm là 2; x x m   .\nTa có:   \n  \n2\n2 2 2 2\n2 2 3\nlim lim lim 1\n4 2 2 2 4 4 x x x\nx x m x ax b x m m m\nx x x x   \n     \n      \n    .\nNên   2 2 2\n2 1 2 x ax b x x x ax b x x           \nSuy ra 1; 2 a b     .\nVậy 2 2 5 S a b    .\nDựa vào thông tin sau, trả lời các câu hỏi\nTrong hệ tọa độ Oxyz , cho hai điểm   2;0; 1 A  ,   1; 1;3 B  và mặt phẳng\n  :3 2 5 0 P x y z     ."
+  },
+  {
+    "id": "vact-synthetic-de-02-q73",
+    "examId": "vact-synthetic-de-02",
+    "number": 73,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Giao điểm của đường thẳng AB và mặt phẳng   P là",
+    "options": [
+      "2 4 13\n; ;\n3 3 3\nI  \n \n  .",
+      "2 4 13\n; ;\n3 3 3\nI  \n  \n  .",
+      "2 4 13\n; ;\n3 3 3\nI  \n  \n  .",
+      "2 4 13\n; ;\n3 3 3\nI  \n  \n "
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có   1; 1; 4 AB   \n\nPhương trình đường thẳng AB là:\n2\n1 4\nx t\ny t\nz t\n  \n   \n    \nĐiểm     2 ; ; 1 4 I AB I t t t      \n        2 4 13\n3 2 2 1 4 5 0 ; ;\n3 3 3 3\nI P t t t t I\n  \n               \n "
+  },
+  {
+    "id": "vact-synthetic-de-02-q74",
+    "examId": "vact-synthetic-de-02",
+    "number": 74,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Gọi    là mặt phẳng đi qua , A B và vuông góc với   P , phương trình\ncủa mặt phẳng    có dạng: 0 ax by z d     . Tính tổng T a b d   ",
+    "options": [
+      "3 T   .",
+      "19 T  .",
+      "15 T   .",
+      "4 T "
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mặt phẳng   P có một vectơ pháp tuyến là   3;2; 1 P n  \n . Ta có   1; 1; 4 AB   \n .\nMặt phẳng    cần tìm có vectơ pháp tuyến   , 7; 11; 1 P n n AB       \n   và đi qua điểm\n  2;0; 1 A  nên có phương trình là       7 2 11 0 1 1 0 x y z      \n7 11 15 0 x y z       .\nVậy\n7\n11 19\n15\na\nb T a b d\nd\n  \n       \n  \n.\nDựa vào thông tin sau, trả lời các câu hỏi\nCho cấp số nhân vô hạn   n u thỏa mãn 5\n3 4\n3\n4\nu\nu u   và 7 6\n2\n4 5\n1\n27\nu u u\nu u\n   . Biết rằng công\nbội q của cấp số nhân này không phải là một số nguyên."
+  },
+  {
+    "id": "vact-synthetic-de-02-q75",
+    "examId": "vact-synthetic-de-02",
+    "number": 75,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Mệnh đề nào sau đây đúng?",
+    "options": [
+      "1 0 u q   .",
+      "1 0 u q   .",
+      "1 1 u q   .",
+      "1 1 u q    ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nhận thấy 1 0 u  (vì nếu 1 4 0 0 u u    sẽ vô lý) và 0 q  (vì nếu 4 0 0 q u    sẽ vô\nlý)\nTa có 2 3 4 2 5\n3 4 1 1 1\n2\n3 3 3\n1 2\n4 4 4 3\nq\nu\nu u u q u q u q q q q\n \n            \n\nVậy 2\n3\nq  \n6 5\n3 7 6 1 1\n2 2 2 3 4\n4 5 1 1\n1 1 1\n27 27 27\nu u u q u q\nu u q q u\nu u u q u q\n          \nVậy\n3\n2\n2 2 1 1\n3 3 27\nu    \n          \n    Mà 2\n2 1 1\n1 3\n2 2\n3\nu\nu u q u q\n\n    \n\nVậy 1 1 u q   "
+  },
+  {
+    "id": "vact-synthetic-de-02-q76",
+    "examId": "vact-synthetic-de-02",
+    "number": 76,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Cho dãy số vô hạn   n v thỏa mãn 2 n n v u  . Tổng các số hạng của n v\nxấp xỉ bằng",
+    "options": [
+      "3.",
+      "3,1.",
+      "2,8.",
+      "2,9."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có\n1 2 1\n1\n1 2\n3 2 3 2\n2 3 2 3\nn n\nn\nn n u u q u\n \n    \n         \n   \nTa có\n2 2 1 2 1 2 1\n2\n1 2\n3 2 3 2 2 2\n2 3 2 3 3 3\n2\n3\nn\nn n\nn n n\nv u\n    \n       \n        \n     \n \n\n      \n  \n  2 2 1 1 1 1\n2 2 2 2\n3 3 3 3\nn n n n              \n             \n           \nSuy ra   n v là một cấp số nhân với 1 1 v  và 2\n3\nv q \nVậy 1\n1 2\n1\n... 3\n2 1 1 3\nv\nv\nS v v q\n     \n \nDựa vào thông tin sau, trả lời các câu hỏi\nTrong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas.\nBiết rằng để làm mỗi hộp 5 cái bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì,\n50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas\nthì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ\nchức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi\nphần dự thi.Gọi số bánh su kem và số bánh custas bạn Ngọc làm lần lượt là x (cái) ( 0 x \n, x   ) và y (cái) ( 0 y  , y   )"
+  },
+  {
+    "id": "vact-synthetic-de-02-q77",
+    "examId": "vact-synthetic-de-02",
+    "number": 77,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Đẳng thức nào sau đây đúng?",
+    "options": [
+      "9 x y  ",
+      "3 21 x y  ",
+      "4 24 x y  ",
+      "4 24 x y  "
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q78",
+    "examId": "vact-synthetic-de-02",
+    "number": 78,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Nên làm mỗi loại bao nhiêu cái bánh để điểm thưởng cao nhất?",
+    "options": [
+      "3 cái bánh kem, 6 cái bánh custas.",
+      "5 cái bánh kem, 4 cái bánh custas.",
+      "1 cái bánh kem, 7 cái bánh custas",
+      "4 cái bánh kem, 5 cái bánh custas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Số gam bột mì cần để làm bánh su kem & bánh custas: 200 50 1200 4 24 x y x y     \nSố gam đường cần để làm bánh su kem & bánh custas: 50 50 450 9 x y x y     \nSố gam trứng cần để làm bánh su kem & bánh custas: 20 60 420 3 21 x y x y     \nVậy ta có hệ bất phương trình:\n4 24\n9\n3 21\n0; 0\nx y\nx y\nx y\nx y\n  \n   \n   \n    Số điểm thưởng: 10 12 T x y  \nTa cần tìm   ; x y thỏa hệ bất phương trình và làm cho T đạt giá trị lớn nhất\n  1 : 4 24 d x y   qua   0; 24 và   6;0\n  2 : 9 d x y   qua   0;9 và   9;0\n  3 : 3 21 d x y   qua   0;7 và   21;0\nMiền nghiệm của hệ bất phương trình là miền ngũ giác OABCD với   0;0 O ,   0;7 A ,\n  6;0 D\n \n9 3 3;6\n3 21 6\nx y x B\nx y y\n    \n   \n    \n \n4 24 5 5;4\n9 4\nx y x C\nx y y\n    \n   \n    \nVới 0; 0 x y   thì 0 T \nVới 0; 7 x y   thì 12.7 84 T  \nVới 6; 0 x y   thì 10.6 60 T  \nVới 3; 6 x y   thì 3.10 12.6 102 T   \nVới 5; 4 x y   thì 10.5 12.4 98 T   \nVậy với 3; 6 x y   thì max 102 T \nDựa vào thông tin sau, trả lời các câu hỏi\nTrong mặt phẳng tọa độ , cho tam giác ABC có là trung điểm của cạnh\nAB . Đường trung tuyến và đường cao qua đỉnh A lần lượt có phương trình là\nvà ."
+  },
+  {
+    "id": "vact-synthetic-de-02-q79",
+    "examId": "vact-synthetic-de-02",
+    "number": 79,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tọa độ điểm A của ABC  là:",
+    "options": [
+      "3\n0; 2\n \n  \n  .",
+      "3 ;0\n2\n \n \n  .",
+      "  1; 2 .",
+      "  2;1 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Oxy (2; 0) M\n7 2 3 0 x y    6 4 0 x y    Tọa độ điểm là nghiệm của hệ"
+  },
+  {
+    "id": "vact-synthetic-de-02-q80",
+    "examId": "vact-synthetic-de-02",
+    "number": 80,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Phương trình đường thẳng BC là",
+    "options": [
+      "6 9 0 x y    .",
+      "6 9 0 x y    .",
+      "6 9 0 x y    .",
+      "6 9 0 x y    ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Do là trung điểm của .\nđi qua và vuông góc với đường thẳng nên nhận\nlàm vecto pháp tuyến.\nDo đó có phương trình:"
+  },
+  {
+    "id": "vact-synthetic-de-02-q81",
+    "examId": "vact-synthetic-de-02",
+    "number": 81,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Phương trình đường thẳng AC là",
+    "options": [
+      "3 4 5 0 x y    .",
+      "4 3 5 0 x y    .",
+      "4 3 5 0 x y    .",
+      "3 4 5 0 x y    ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tọa độ trung điểm của thỏa mãn hệ:\nMà N là trung điểm BC nên tọa độ C là   3; 1 C  \nKhi đó phương trình\nDựa vào thông tin sau, trả lời các câu hỏi\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên\nbi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi\nkích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi."
+  },
+  {
+    "id": "vact-synthetic-de-02-q82",
+    "examId": "vact-synthetic-de-02",
+    "number": 82,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Xác suất để chọn được ít nhất 1 viên bi màu trắng là",
+    "options": [
+      "131\n252 .",
+      "121\n252 .",
+      "151\n252 .",
+      "47\n84 .\nGọi : A “chọn được ít nhất 1 viên bi màu trắng”\nThì A : “không chọn được viên bi trắng nào”\nKhi đó   1 1\n11 11 . 121 n A C C  \nVậy     121 131\n1 1 252 252\nP A P A     "
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q83",
+    "examId": "vact-synthetic-de-02",
+    "number": 83,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Xác suất để chọn được 2 viên bi trong đó một viên màu đỏ, một viên\nmàu xanh là",
+    "options": [
+      "61\n252 .",
+      "25\n252 .",
+      "1\n7 .",
+      "43\n126 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A 7 2 3 0 1 (1; 2)\n6 4 0 2\nx y x A\nx y y\n     \n   \n     \n(2; 0) M (3; 2) AB B  \nBC (3; 2) B  6 4 0 x y    (1; 6) n \n\nBC 3 6( 2) 0 6 9 0 x y x y        \nN BC\n0\n6 9 0 3\n0; 3\n7 2 3 0 2\n2\nx\nx y N\nx y y\n \n      \n              \n: 3 4 5 0 AC x y    Chọn ngẫu nhiên 1 viên bi từ 14 viên bi từ hộp thứ nhất và 1 viên bi từ 18 viên bi của\nhộp thứ hai. Nên số phần tử của không gian mẫu là: 1 1\n14 18 ( ) . 252 n C C    .\nGọi B là biến cố lấy được hai viên bi sao cho có một viên màu đỏ, một viên màu xanh.\n+ Trường hợp 1: Lấy 1 viên bi đỏ trong 5 viên bi đỏ ở hộp thứ nhất, 1 viên bị xanh trong\n5 viên bi xanh ở hộp thứ hai. Số cách chọn là: 1 1\n5 5 . 25 C C  .\n+ Trường hợp 2: Lấy 1 viên bi xanh trong 6 viên bi xanh ở hộp thứ nhất, 1 viên bi đỏ\ntrong 6 viên bi đỏ từ hộp thứ hai. Số cách chọn là: 1 1\n6 6 . 36 C C  .\nNên số phần tử của biến cố B là: ( ) 25 36 61 n B    .\nXác suất lấy được hai viên bi lấy ra một viên màu đỏ, một viên màu xanh là:\n \n( ) 61\n( ) 252\nn B\nP B n\n \n ."
+  },
+  {
+    "id": "vact-synthetic-de-02-q84",
+    "examId": "vact-synthetic-de-02",
+    "number": 84,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Xác suất để chọn được 2 bi khác màu là",
+    "options": [
+      "9\n28 .",
+      "19\n28 .",
+      "16\n21 .",
+      "67\n84 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gọi C là biến cố lấy được ra hai viên bi khác màu.\nC là biến cố lấy ra được hai viên bi cùng màu.\n+ Trường hợp 1: Lấy ra hai bi màu trắng: 1 1\n3 7 . 21 C C  .\n+ Trường hợp 2: Lấy ra hai viên bi màu đỏ: 1 1\n5 6 . 30 C C  .\n+ Trường hợp 3: Lấy ra hai viên bi màu xanh: 1 1\n6 5 . 30 C C  .\nSố phần tử của biến cố C là:   21 30 30 81 n C     .\nXác suất để lấy được hai viên bi khác màu là:     81 19\n1 1 252 28\nP C P C      .\nDựa vào thông tin sau, trả lời các câu hỏi\nCho hình chóp . S ABCD có đáy ABCD là hình chữ nhật, , 2 AB a BC a   . Cạnh bên\n15 SA a  và vuông góc với đáy."
+  },
+  {
+    "id": "vact-synthetic-de-02-q85",
+    "examId": "vact-synthetic-de-02",
+    "number": 85,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Thể tích khối chóp . S ABCD là:",
+    "options": [
+      "3 2 15\n3 a",
+      "3 15\n3 a",
+      "3 15\n6 a",
+      "3 4 15\n3 a"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q86",
+    "examId": "vact-synthetic-de-02",
+    "number": 86,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Góc giữa SC mặt phẳng ( ) ABCD bằng:",
+    "options": [
+      "0\n45",
+      "0\n30",
+      "0\n60",
+      "0\n54"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q87",
+    "examId": "vact-synthetic-de-02",
+    "number": 87,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Gọi M là trung điểm của CD , G là giao điểm của AM và BD . Tính\nkhoảng cách từ điểm G đến mặt phẳng   SCD .",
+    "options": [
+      "2 285\n19 a",
+      "2 285\n57 a",
+      "285\n57 a",
+      "285\n19 a"
+    ],
+    "correctAnswer": 0,
+    "explanation": "85) 2\n. 2 ABCD S AB BC a  \n3 1 2 15\n.\n3 3\nABCD V S SA a   \n86) )\n( ) t\n(\nai A C\nSC ABCD C A\nSA BCD A\n    \n  là hình chiếu của SC lên mặt phẳng ( ) ABCD\n ( , ( )) ( , ) SC ABCD SC AC SCA   \n2 2 5 AC AB a BC   \n  15\ntan 3 60\n5\nSA a\nSCA SCA\nAC a\n     \n87) Kẻ AH SD  tại H và chứng minh ( ) AH SCD  tại H . Suy ra     d , A SCD AH \nTính 2 2\n. 2 285\n19\nAS AD\nAH a\nA AD S\n \n\nGọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra\n \n   \nd , 1 1 2 285\nd ,\n3 3 57 d ,\nG SCD GM G SCD AH a\nAM A SCD\n               \nDựa vào thông tin sau, trả lời các câu hỏi\nCho hàm số   2 2 2\n1\nx x\nf x x\n \n  có đồ thị (C)."
+  },
+  {
+    "id": "vact-synthetic-de-02-q88",
+    "examId": "vact-synthetic-de-02",
+    "number": 88,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Tiệm cận xiên của đồ thị hàm số cắt Ox tại A , cắt Oy tại B . Tính diện\ntích tam giác OAB .",
+    "options": [
+      "1\n2 .",
+      "1\n6 .",
+      "1\n4 .",
+      "1."
+    ],
+    "correctAnswer": 0,
+    "explanation": "  2 2 2 1\n1\n1 1\nx x\nf x x\nx x\n \n   \n \nTiệm cận xiên: 1 y x  \nTiệm cận xiên cắt Ox tại   1;0 A  , cắt Oy tại   0;1 B\nTam giác OAB vuông cân nên có diện tích là 1 1 1\n. .1.1\n2 2 2\nOA OB  "
+  },
+  {
+    "id": "vact-synthetic-de-02-q89",
+    "examId": "vact-synthetic-de-02",
+    "number": 89,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Khoảng cách giữa 2 điểm cực trị của đồ thị   C là",
+    "options": [
+      "2",
+      "2 5 .",
+      "5 .",
+      "4 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ta có    \n2\n2\n0 2 2 0 2 2 1\nx y x x\nf x x y x\n    \n           \n2 điểm cực trị là   0; 2 A và   2; 2 B  \nTa có 2 2\n2 4 2 5 AB   "
+  },
+  {
+    "id": "vact-synthetic-de-02-q90",
+    "examId": "vact-synthetic-de-02",
+    "number": 90,
+    "section": "math",
+    "sectionName": "Toán học",
+    "passage": null,
+    "question": "Trên (C) có 2 điểm sao cho khoảng cách từ điểm đó đến trục hoành\nbằng hai lần khoảng cách từ điểm đó đến trục tung. Gọi m là tổng hoành độ của hai điểm\nđó. Giá trị của m là",
+    "options": [
+      "3 2  .",
+      "2 2 .",
+      "2 .",
+      "0 ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Khoảng cách từ   , M x y đến trục hoành và trục tung lần lượt là | | y và | | x .\nKhoảng cách từ M đến trục hoành bằng 2 lần khoảng cách từ M đến trục tung\n| | 2 | | 2 y x y x      .\nBài toán trở thành tìm các giao điểm của đồ thị (C) với 2 đường thẳng 2 y x  và\n2 y x   .\nGiao của đồ thị (C) với đường thẳng 2 y x  ta có phương trình:\n2 2 2\n2 2\n1\nx x\nx x\nx\n \n   \n\n2  giao điểm:     1 2 2, 2 2 ; 2, 2 2 M M  \nGiao của đồ thị (C) với đường thẳng 2 y x   ta có phương trình\n2\n2 2 2\n2 3 4 2 0\n1\nx x\nx x x\nx\n \n     \n (vô nghiệm)\nVậy   2 2 0 m    "
+  },
+  {
+    "id": "vact-synthetic-de-02-q91",
+    "examId": "vact-synthetic-de-02",
+    "number": 91,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Sắp xếp nào dưới đây thỏa mãn các điều kiện trên về lịch phỏng vấn\ncủa 6 ứng viên?",
+    "options": [
+      "U R S Q T P",
+      "Q S P U R T",
+      "T R Q S U P",
+      "U P R S Q T"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Đáp án: D.\nLoại A vì P sau R\nLoại B, C vì không có đúng 2 ứng viên giữa R và T"
+  },
+  {
+    "id": "vact-synthetic-de-02-q92",
+    "examId": "vact-synthetic-de-02",
+    "number": 92,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Thứ tự phỏng vấn là duy nhất khi nào?",
+    "options": [
+      "U và P liền kề nhau",
+      "R và P liền kề nhau",
+      "Cả 2 đều đúng",
+      "Cả 2 đều sai"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Đáp án: D.\nDo U và P liền kề nhau → lúc này UP và QS là 2 cặp liền kề.\nMặt khác, ta có dữ kiện R/T_ _ T/R → _ _ có thể là UP hoặc QS và trong chính cặp này có\nthể hoán vị → không thể là duy nhất → loại A → loại C đồng thời\nDo R và P → PR tạo thành cặp theo thứ tự → _ P R _ _ T hoặc P R _ _ T _\nXét _ P R _ _ T:\nDo QS liền kề → U P R Q S T thỏa mãn nhưng QS có thể hoán vị → không phải duy nhất\nXét P R _ _ T _ :\nDo U không thể ở (6) → U(3) hoặc (4) → Q và S bị tách lẻ → loại\n→ loại câu B\nVậy cả 2 đáp án đều sai → chọn D"
+  },
+  {
+    "id": "vact-synthetic-de-02-q93",
+    "examId": "vact-synthetic-de-02",
+    "number": 93,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nếu S phỏng vấn thứ hai thì P và T có thể cách nhau tối đa bao nhiêu\nvị trí?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Đáp án: A.\n_ S _ _ _ _\nTa có QS luôn đi theo cặp → QS_ _ _ _ hoặc _SQ _ _ _\nXét QS _ _ _ _: giữa R và T có 2 vị trí → P và T chỉ có thể cách nhau tối đa 1 vị trí\nĐó là trường hợp: QSRPUT\nXét _ SQ _ _ _: giữa R và T có 2 vị trí → chỉ có thể xếp vào (1) và (4) → chỉ còn trống (5)\nvà (6) xếp cho P và U nhưng P phải đứng trước R → vô lí Vậy chỉ có thể cách nhau tối đa 1 vị trí → chọn A\nDựa vào thông tin dưới đây để trả lời các câu\nTrong một gameshow, MC hỏi 4 diễn viên: H, I, J, K ai là người giàu nhất và nhận được\ncâu trả lời lần lượt như sau:\n1. H: “Em giàu nhì nè anh”\n2. I: “Em không giàu nhất đâu anh”\n3. J: “Em chỉ nghèo hơn mỗi H”\n4. K: “Ở đây ai cũng giàu hơn em”\nCuối cùng, MC dùng máy phát hiện nói dối và phát hiện ra có 1 diễn viên đang nói dối."
+  },
+  {
+    "id": "vact-synthetic-de-02-q94",
+    "examId": "vact-synthetic-de-02",
+    "number": 94,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Biết rằng người đã nói dối là khi mọi sự thật quay quanh người đó đã\nxảy ra 100%, tức là chắc chắn khi người đó nói thật sẽ không mâu thuẫn với bất kì câu nói\ncủa người khác. Hỏi ai là người đã nói dối?",
+    "options": [
+      "H và J",
+      "I và K",
+      "J",
+      "K"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Đáp án: A.\nGiả sử H nói dối → H giàu nhất hoặc ba do K chắc chắn giàu tư\nNhất H\nNhì J\nBa I\nTư K\n→ J giàu nhì → I giàu ba → hợp lý\nNhất\nNhì\nBa H\nTư K\nNếu H giàu ba J không thể không giàu hơn H mâu thuẫn dữ kiện 3 → vô lý\nGiả sử I nói dối → I giàu nhất → H giàu nhì → mâu thuẫn với lời J là chỉ giàu sau mỗi H\n→ loại\n---\nGiả sử J nói dối → J giàu hơn H hoặc nghèo hơn hai anh trai hoặc nghèo hơn cả 3\nTH1: J giàu hơn H → H giàu nhì → I giàu ba và K giàu tư → hợp lí\nTH2: J nghèo hơn 2 anh trai nào đó → H giàu nhì, I giàu nhất và K giàu tư → vô lý\nTH3: J nghèo hơn cả 3 anh trai → vô lí vì K nghèo thứ tư\nVậy J có thể đã nói dối.\n---\nGiả sử K nói dối → K giàu nhất hoặc nhì hoặc ba TH1: K giàu nhất → H giàu nhì mâu thuẫn lời nói J\nTH2: K giàu nhì → H giàu nhất → mâu thuẫn lời nói J\nTH3: K giàu ba → H giàu nhất → J giàu nhì → → vô lý\nK CHẮC CHẮN nói thật Vậy người đã nói dối là H và J."
+  },
+  {
+    "id": "vact-synthetic-de-02-q95",
+    "examId": "vact-synthetic-de-02",
+    "number": 95,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Ai là người chắc chắn luôn nói thật?",
+    "options": [
+      "K",
+      "I",
+      "Cả hai đều chắc chắn nói thật",
+      "Cả hai đều không nói thật"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Đáp án: C.\nDựa vào các trường hợp trên → I và K là người chắc chắn luôn nói thật"
+  },
+  {
+    "id": "vact-synthetic-de-02-q96",
+    "examId": "vact-synthetic-de-02",
+    "number": 96,
+    "section": "logic_data",
+    "sectionName": "Tư duy Logic",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Đâu là cách sắp xếp có thể hợp lí?",
+    "options": [
+      "I → H → J → K",
+      "H → J → I → K",
+      "J → I → H → K",
+      "K → H → J →\nI"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Đáp án: B.\nÝ A loại vì khi này I nói dối → mâu thuẫn lời J\nÝ B chọn vì khi này H nói dối → các anh trai đều nói thỏa mãn\nÝ C loại vì khi này H nói dối nhưng mâu thuẫn lời J\nÝ D loại vì khi này K nói dối nhưng mâu thuẫn lời J\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế\ngiới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của\nchuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số\ntoàn bộ chuỗi cửa hàng."
+  },
+  {
+    "id": "vact-synthetic-de-02-q97",
+    "examId": "vact-synthetic-de-02",
+    "number": 97,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Doanh số của toàn bộ chuỗi cửa hàng là bao nhiêu",
+    "options": [
+      "15040",
+      "14050",
+      "5620",
+      "6520\nLời Giải: Tổng doanh số bán được: 670 + 760 + 940 + 1250 + 1110 + 890 = 5620\nCon số này chiếm 40% tổng doanh số\nVậy doanh số của toàn chuỗi là: 5620 14050\n40% \nVậy chọn B"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q98",
+    "examId": "vact-synthetic-de-02",
+    "number": 98,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Trong các chi nhánh đã đề cập, chi nhánh Pandora bán được nhiều hơn\nchi nhánh Vista bao nhiêu phần trăm?",
+    "options": [
+      "64,47%",
+      "39,20%",
+      "39,02%",
+      "64,74%\nLời Giải:\nPandora nhiều hơn Vista: 1250 760 64,47%\n760\n \nVậy chọn A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q99",
+    "examId": "vact-synthetic-de-02",
+    "number": 99,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Tỉ lệ doanh số giữa các cặp nào sau đây là 67 : 89 : 94?",
+    "options": [
+      "Ibis : Vivocity : Panorama",
+      "Panorama : Vista : Pandora",
+      "Ibis : Vivocity : New world",
+      "Panorama : Vista : New world\nLời Giải:\nThử từng đáp án, chọn tỉ lệ phù hợp với đề bài\nIbis : Vivocity : New world = 670 : 890 : 940 = 67 : 89 : 94\nVậy chọn C\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần\ntuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy\ntheo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc\nvà có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức\nthưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\nNhân sự Vị trí Lương công ty đề\nxuất (VND/giờ)\nLương mong muốn\ncủa nhân sự (%\ntăng thêm so với\nlương công ty đề\nxuất)\nTrung Sáng tạo nội dung 150 000 20%\nPhong Diễn viên 200 000 30%\nKhôi Quản lí 220 000 45%\nĐăng Trợ lí 120 000 10%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q100",
+    "examId": "vact-synthetic-de-02",
+    "number": 100,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Bạn Phong và Trung lần lượt casting trong 2 và 3 giờ thì mức chênh\nlệch tiền lương nhận được là bao nhiêu? Biết rằng giám đốc chỉ đồng ý tăng 50% so với\nmong muốn của bạn Phong và 70% so với mong muốn của Trung.",
+    "options": [
+      "176 400",
+      "123 900",
+      "118 000",
+      "55 650\nLời Giải:\nTrung:\nMức lương mong muốn: tăng 20% so với lương gốc, giám đốc chỉ đồng ý tăng 70%\n  Tăng 70%.20% = 14%\nLương cơ bản: 114%.150.3 = 513\nThưởng: 513.105% = 538,65\nPhong:\nMức lương mong muốn: tăng 30% so với lương gốc, nhưng giám đốc chỉ đồng ý tăng 50%\n  Tăng 30%.50% = 15%\nLương cơ bản: 115%.200.2 = 460\nThưởng: 460.105% = 483\nChênh lệch số tiền lương: 538,65 – 483 = 55,65\nVậy chọn D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q101",
+    "examId": "vact-synthetic-de-02",
+    "number": 101,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nếu giám đốc không đồng ý thỏa thuận lương thì tỉ lệ lương của Đăng\n: Khôi là bao nhiêu? Biết rằng Đăng làm việc trong thời gian gấp 2,5 lần Khôi",
+    "options": [
+      "15 : 11",
+      "11 : 15",
+      "13 : 17",
+      "17 : 13\nLời Giải:\nGọi x là thời gian làm việc của Khôi\n  Thời gian làm việc của Đăng là: 2,5x\nLương của Khôi: 220.105%.x = 231x\nLương của Đăng: 120.2,5.105%x = 315x\nĐăng : Khôi = 315 15\n231 11\n\nVậy chọn A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q102",
+    "examId": "vact-synthetic-de-02",
+    "number": 102,
+    "section": "logic_data",
+    "sectionName": "Phân tích số liệu",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Theo lịch trình, Phong làm việc trong 5 giờ mỗi ngày (giám đốc đồng ý\n80% lương so với mong muốn), Trung làm việc 3 giờ mỗi ngày (giám đốc đồng ý 60%\nlương mong muốn). Nhưng vì quá bận rộn, hai bạn đổi vai trò cho nhau và được giám\nđốc chấp nhận, giám đốc đồng ý 80% thỏa thuận lương của hai bạn. Gọi a là phần trăm\nthay đổi về tiền lương ở vị trí mới so với vị trí cũ của Phong; b là phần trăm thay đổi ở vị\ntrí cũ so với vị trí mới của Trung. Giá trị của a thay đổi như thế nào so với b?",
+    "options": [
+      "5,93%",
+      "0%",
+      "2,76%",
+      "2,68%\nLời Giải:\nTrước khi thay đổi:\nPhong:\nMức lương mong muốn: tăng 30% so với lương gốc, giám đốc đồng ý tăng 80%\n  Tăng: 30%.80% = 24%\nLương cơ bản: 124%.200.5 = 1240\nThưởng: 1240.105% = 1302\nTrung:\nMức lương mong muốn: tăng 20% so với lương gốc, nhưng giám đốc chỉ đồng ý tăng 60%\nTăng 20%.60% = 12% Lương cơ bản: 112%.150.3 = 504\nThưởng: 504.105% = 529,2\nSau khi thay đổi: Lưu ý mức lương mong muốn là do bạn đó tự đề xuất, dù có đổi vị trí\nthì mức lương mong muốn của bạn cũng không đổi\nPhong:\nMức lương mong muốn: tăng 30% so với lương gốc, giám đốc đồng ý tăng 80%\n  Tăng: 30%.80% = 24%\nLương cơ bản: 124%.150.3 = 558\nThưởng: 558.105% = 585,5\nTrung:\nMức lương mong muốn: tăng 20% so với lương gốc, nhưng giám đốc chỉ đồng ý tăng 80%\nTăng 20%.80% = 16%\nLương cơ bản: 116%.200.5 = 1160\nThưởng: 1160.105% = 1218\nGiá trị a: 1302 585,5 55,03%\n1302\n \nGiá trị b: 1218 529, 2 56,55%\n1218\n \nGiá trị a thay đổi 56,55% 55,03% 2,68%\n56,55%\n  so với b\nVậy chọn D\n3.2. SUY LUẬN KHOA HỌC\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nPoly(ethylene terephthalate) (PET) là một loại nhựa được sử dụng rất phổ biến để sản\nxuất chai đựng đồ uống. Mặc dù tiện lợi, PET lại rất khó phân hủy, dẫn đến vấn đề ô\nnhiễm môi trường nghiêm trọng do rác thải nhựa tích tụ. Hiện nay, các nhà khoa học đang\nnỗ lực tìm kiếm những giải pháp nhằm đẩy nhanh quá trình phân hủy loại vật liệu này.\nVào năm 2016, một khám phá đã được thực hiện khi các nhà khoa học tìm ra vi khuẩn\nIdeonella sakaiensis, có khả năng “ăn” và phân hủy nhựa PET thành các đơn phân ban đầu\nđể sử dụng cho quá trình trao đổi chất của chúng. Quá trình này diễn ra qua hai bước nhờ\nvào hai loại enzyme khác nhau:\n– PETase: Enzyme này tấn công và thủy phân mạch polymer của PET, tạo ra một sản phẩm\ntrung gian có tên là MHET (Mono–2–hydroxyethyl–terephthalate).\n– MHETase: Enzyme này tiếp tục thủy phân MHET để tạo ra các monomer cuối cùng. Để nâng cao hiệu quả của quá\ntrình phân hủy sinh học này,\ncác nhà nghiên cứu tập trung\nvào việc cải thiện hoạt tính\ncủa các enzyme. Một trong\nnhững hướng đi là tạo ra các\nphiên bản enzyme mới thông\nqua phương pháp đột biến\nnhân tạo và so sánh hoạt tính\ncủa chúng với enzyme trong\ntự nhiên. Trong một thí\nnghiệm, người ta đã so sánh\nhoạt tính của enzyme\nMHETase tự nhiên (từ vi\nkhuẩn Ideonella sakaiensis) với một phiên bản MHETase đột biến. Tốc độ của phản ứng\nthủy phân MHET được đo ở nhiều nồng độ cơ chất khác nhau. Kết quả của thí nghiệm\nđược biểu diễn trong đồ thị hình bên."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q103",
+    "examId": "vact-synthetic-de-02",
+    "number": 103,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Để so sánh hoạt tính giữa enzyme MHETase tự nhiên và enzyme\nMHETase đột biến như biểu diễn trong đồ thị, các nhà khoa học đã thiết kế thí nghiệm\ntheo nguyên tắc nào sau đây?",
+    "options": [
+      "Thay đổi nồng độ enzyme liên tục trong khi giữ nguyên nồng độ cơ chất MHET và\nnhiệt độ môi trường.",
+      "Thay đổi đồng thời cả nồng độ enzyme và nồng độ cơ chất MHET để tìm ra điểm tối\nưu của phản ứng.",
+      "Chỉ đo tốc độ phản ứng tại một nồng độ cơ chất duy nhất nhưng thay đổi nhiệt độ và\nđộ pH của môi trường.",
+      "Đo tốc độ phản ứng tại nhiều nồng độ cơ chất MHET khác nhau, đồng thời giữ nguyên\nnồng độ enzyme và các điều kiện phản ứng khác."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Đáp án D\nĐể vẽ được đồ thị V theo, ta phải thay đổi và đo V , các yếu tố khác giữ nguyên."
+  },
+  {
+    "id": "vact-synthetic-de-02-q104",
+    "examId": "vact-synthetic-de-02",
+    "number": 104,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Quan sát đồ thị mô tả sự phụ thuộc của tốc độ phản ứng vào nồng độ\nMHET. Nhận định nào sau đây là đúng về hiệu quả xúc tác của hai loại enzyme?",
+    "options": [
+      "Enzyme MHETase đột biến (hình thoi trắng) có tốc độ phản ứng cao hơn enzyme tự\nnhiên ở mọi nồng độ cơ chất.",
+      "Enzyme MHETase tự nhiên (chấm tròn đen) có hoạt tính cao hơn hẳn, đạt tốc độ cực\nđại khoảng 0,16 μmol/(L.s), trong khi enzyme đột biến có hoạt tính rất thấp.",
+      "Hai loại enzyme có hoạt tính tương đương nhau ở nồng độ cơ chất thấp (dưới 50\nμmol/L).",
+      "Enzyme MHETase đột biến phù hợp hơn enzyme tự nhiên để xử lý rác thải nhựa do\nsự ổn định của tốc độ phản ứng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Đáp án B\nA sai vì hình thoi trắng (đột biến) thấp hơn chấm đen.\nC sai vì ngay từ nồng độ thấp thìnchấm đen đã cao hơn hẳn hình thoi trắng.\nD sai vì tốc độ thấp hơn đồng nghĩa hiệu suất xử lý kém hơn."
+  },
+  {
+    "id": "vact-synthetic-de-02-q105",
+    "examId": "vact-synthetic-de-02",
+    "number": 105,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Xét bình phản ứng chứa enzyme tự nhiên với nồng độ cơ chất ban đầu\nlà 50 μmol/L. Nếu giả định tốc độ phản ứng không đổi theo thời gian, hãy tính thời gian\nlý thuyết để enzyme tiêu thụ hết lượng cơ chất này. Tuy nhiên, trong thực tế, thời gian\nhoàn thành phản ứng sẽ thay đổi ra sao so với giá trị lý thuyết đó?",
+    "options": [
+      "Thời gian lý thuyết là 3,33 phút nhưng thời gian thực tế sẽ nhỏ hơn giá trị này.",
+      "Thời gian lý thuyết là 5,56 phút nhưng thời gian thực tế sẽ lớn hơn giá trị này.",
+      "Thời gian lý thuyết là 5,56 phút và thời gian thực tế sẽ đúng bằng giá trị này.",
+      "Thời gian lý thuyết là 8,33 phút nhưng thời gian thực tế sẽ lớn hơn giá trị này."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Đáp án B\nXác định tốc độ tại nồng độ 50 / mol L  :\nQuan sát đồ thị, tại trục hoành giá trị 50, gióng lên gặp chấm tròn đen (enzyme tự nhiên),\nrồi gióng sang trục tung, ta thấy giá trị tốc độ 0,15 / ( )   V mol L s  .\nTính thời gian lý thuyết:\n Công thức:\n \nLîng c¬ chÊt 50\nTèc ®é 0,15\nt\n  333,33  t giây.\n Đổi sang phút: 333, 33 5,56\n60  phút.\nSo sánh với thực tế:\n Giả định lý thuyết coi tốc độ là không đổi (0,15) từ đầu đến cuối.\n Tuy nhiên, trong thực tế, khi phản ứng diễn ra, lượng cơ chất (MHET) sẽ giảm dần\ntừ 50 về 0.\n Theo đồ thị, khi nồng độ cơ chất giảm, tốc độ phản ứng cũng giảm theo (đồ thị đi\nxuống về phía gốc tọa độ).\n Vì tốc độ trung bình của cả quá trình sẽ nhỏ hơn tốc độ ban đầu (0,15), nên thời\ngian cần thiết để tiêu thụ hết cơ chất sẽ lâu hơn (lớn hơn) con số lý thuyết.\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nDo các phân tử chuyển động nhiệt không ngừng nên chúng có động năng. Động năng\nphân tử phụ thuộc vào tốc độ của phân tử. Ngoài ra, do giữa các phân tử có lực tương tác\nnên ngoài động năng các phân tử còn có thế năng tương tác phân tử. Thế năng tương tác\nphụ thuộc vào khoảng cách giữa các phân tử. Trong nhiệt động lực học, người ta gọi tổng\nđộng năng và thế năng tương tác của các phân tử cấu tạo nên vật là nội năng của vật. Nội năng được kí hiệu là 𝑈, đơn vị là 𝐽𝑜𝑢𝑙𝑒. Nội năng của vật phụ thuộc vào nhiệt độ và\nthể tích của vật. Nội năng của một vật có thể thay đổi theo hai cách: thực hiện công và\ntruyển nhiệt. Nếu vật đồng thời nhận nhiệt và nhận công từ bên ngoài thì đểu làm tăng\nnội năng của vật. Theo định luật bảo toàn và chuyển hoá năng lượng thì độ biến thiên nội\nnăng của vật bằng tổng công và nhiệt lượng mà vật nhận được:\nΔ𝑈 = 𝐴 + 𝑄\nTrong đó: Δ𝑈 là độ biến thiên nội năng của vật. 𝐴 và 𝑄 là các giá trị đại số.\no 𝑄 > 0: vật nhận nhiệt lượng; 𝑄 < 0: vật truyền nhiệt lượng.\no 𝐴 > 0: vật nhận công; 𝐴 < 0: vật thực hiện công."
+  },
+  {
+    "id": "vact-synthetic-de-02-q106",
+    "examId": "vact-synthetic-de-02",
+    "number": 106,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Cho các phát biểu bên dưới:\n(𝐼) Nội năng phụ thuộc vào nhiệt độ của vật.\n(𝐼𝐼) Nội năng phụ thuộc vào thể tích của vật.\n(𝐼𝐼𝐼) Có hai cách để làm nội năng của vật thay đổi là thực hiện công và truyền nhiệt.\n(𝐼𝑉) Nội năng của vật là tổng động năng và thế năng của vật.\nSố phát biểu đúng là",
+    "options": [
+      "1.",
+      "2.",
+      "3.",
+      "4."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chọn C.\nPhát biểu (𝐼), (𝐼𝐼)và (𝐼𝐼𝐼) là đúng."
+  },
+  {
+    "id": "vact-synthetic-de-02-q107",
+    "examId": "vact-synthetic-de-02",
+    "number": 107,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Dùng tay di chuyển một đồng xu trên bề mặt nhám, sau một thời gian\nta thấy đồng xu nóng lên. Trong mô tả trên thì",
+    "options": [
+      "người đã thực hiện công để làm tăng nội năng của đồng xu.",
+      "người đã thực hiện công để làm giảm nội năng của đồng xu.",
+      "người đã truyền nhiệt để làm tăng nội năng của đồng xu.",
+      "người đã truyền nhiệt để làm giảm nội năng của đồng xu."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A.\nTrong mô tả trên người đã thực hiện công để làm tăng nội năng của đồng xu."
+  },
+  {
+    "id": "vact-synthetic-de-02-q108",
+    "examId": "vact-synthetic-de-02",
+    "number": 108,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Một lượng khí chứa trong một cylinder được đậy kín nhờ một piston\ncó thể di chuyển được. Người ta truyền cho lượng khí này một nhiệt lượng 100 𝐽, chất khí\ngiãn nở, thực hiện công 40 𝐽 đẩy piston di chuyển. Độ biến thiên nội năng của khí trong\ncylinder là",
+    "options": [
+      "60 𝐽.",
+      "140 𝐽.",
+      "−60 𝐽.",
+      "−140 𝐽.\nVật\n𝑄 > 0\n𝐴 > 0 𝐴 < 0\n𝑄 < 0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A.\nĐộ biến thiên nội năng của kh trong cylinder:\n∆𝑈 = (100) + (−40) = 60 𝐽\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nUng thư là bệnh đặc trưng bởi sự tăng sinh không kiểm soát của một số tế bào trong\ncơ thể, tạo nên các khối u có thể chèn ép và phá hủy mô xung quanh. Khối u được gọi là\nlành tính nếu tế bào của nó không có khả năng di chuyển đến các vị trí khác trong cơ\nthể. Ngược lại, khối u ác tính (ung thư) gồm các tế bào có thể tách khỏi mô ban đầu, xâm\nnhập vào máu hoặc mạch bạch huyết, rồi hình thành khối u mới ở cơ quan khác, gây\nhậu quả nghiêm trọng cho sức khỏe.\nCác tế bào ung thư thường xuất hiện khi tích lũy nhiều đột biến gene, đặc biệt là ở\nhai nhóm gene có vai trò kiểm soát chu kì tế bào:\n1. Gene tiền ung thư (proto-oncogene): bình thường kiểm soát quá trình phân bào. Khi\nbị đột biến trội, chúng hoạt động mạnh bất thường, kích thích tế bào phân chia liên tục\ntạo thành khối u.\n2. Gene ức chế khối u (tumor suppressor gene): có chức năng kìm hãm phân bào. Khi bị\nđột biến lặn làm mất chức năng, tế bào mất khả năng kiểm soát, dẫn đến ung thư.\nMột số gene thuộc nhóm ức chế khối u, như BRCA1, BRCA2, có liên quan đến ung thư\nvú ở người."
+  },
+  {
+    "id": "vact-synthetic-de-02-q109",
+    "examId": "vact-synthetic-de-02",
+    "number": 109,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Dựa vào những thông tin trên, hãy cho biết điểm khác biệt cơ bản giữa\nkhối u lành tính và khối u ác tính là gì?",
+    "options": [
+      "Tế bào khối u lành có thể xâm nhập vào máu.",
+      "Khối u ác hình thành do tế bào phân chia không giới hạn.",
+      "Khối u lành không gây ảnh hưởng đến sức khỏe cơ thể.",
+      "Tế bào khối u ác có khả năng di chuyển qua mạch bạch huyết và mạch máu."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Đáp án: D\nGiải thích: Khối u lành tính chỉ tăng kích thước tại chỗ, không xâm lấn và không di căn.\nKhối u ác tính có khả năng tách tế bào, xâm nhập vào mạch máu, mạch bạch huyết, và\nlan tới các cơ quan khác → hình thành khối u di căn."
+  },
+  {
+    "id": "vact-synthetic-de-02-q110",
+    "examId": "vact-synthetic-de-02",
+    "number": 110,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Phát biểu nào sau đây đúng về cơ chế di truyền của bệnh ung thư ở\nngười?",
+    "options": [
+      "Tất cả sự tăng sinh tế bào đều dẫn tới khối u ác tính.",
+      "Bệnh ung thư liên quan đến các đột biến gene hoặc đột biến nhiễm sắc thể.",
+      "Gene tiền ung thư khi bị đột biến lặn sẽ gây ung thư.",
+      "Mọi gene gây ung thư đều là gene lặn."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Đáp án: B\nGiải thích: Ung thư thường do đột biến gen làm rối loạn cơ chế kiểm soát phân bào.\n– A sai: không phải mọi sự tăng sinh đều gây ung thư (có khối u lành tính).\n– C sai: gene tiền ung thư gây ung thư khi đột biến trội (hoạt động quá mức).\n– D sai: gene ức chế khối u là gene trội, khi bị đột biến lặn mới gây bệnh."
+  },
+  {
+    "id": "vact-synthetic-de-02-q111",
+    "examId": "vact-synthetic-de-02",
+    "number": 111,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Chị A có mẹ bị ung thư vú, bố bình thường, chị cho rằng mình “chắc\nchắn sẽ bị ung thư vú”. Nhận định này đúng hay sai?",
+    "options": [
+      "Đúng, vì chị đã nhận tế bào ung thư của mẹ.",
+      "Đúng, vì gene gây ung thư luôn được truyền từ mẹ sang con.",
+      "Sai, vì ung thư vú thường xảy ra ở tế bào sinh dưỡng nên không di truyền trực tiếp.",
+      "Sai, vì bố của chị không bị bệnh nên chị cũng không bị."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Đáp án: C\nGiải thích: Ung thư là bệnh di truyền ở mức tế bào — nghĩa là liên quan đến đột biến\ngene, nhưng xảy ra ở tế bào sinh dưỡng, không truyền qua giao tử.\n→ Vì vậy, không phải ai có bố/mẹ bị ung thư cũng sẽ mắc bệnh, dù có nguy cơ cao hơn\nnếu mang các gene dễ đột biến như BRCA1, BRCA2.\nDựa vào thông tin dưới đây để trả lời các câu hỏi\n“Với cương vị Chủ tịch Chính phủ lâm thời của nước Việt Nam Dân chủ Cộng hoà kiêm Bộ trưởng\nBộ ngoại giao, Chủ tịch Hồ Chí Minh đã công bố “chính sách ngoại giao của Chính phủ lâm thời”.\nNhiệm vụ của ngoại giao nước ta làm rõ trước toàn thế giới ba điều khẳng định:\n1. Việt Nam là một nước tự do độc lập.\n2. Nhân dân Việt Nam quyết tâm bảo vệ nền tự do độc lập ấy, bất cứ ai xâm phạm đến nền tự do\nđộc lập ấy đều bị nhân dân Việt Nam chống lại.\n3. Nhân dân Việt Nam đoàn kết với nhân dân các nước, phấn đấu duy trì hoà bình ổn định giữa\ncác nước trong khu vực và thế giới, tôn trọng công lí và luật pháp quốc tế”.\n(Bộ Ngoại giao, Ngoại giao Việt Nam trong thời đại Hồ Chí\nMinh, NXB Chính trị quốc gia, Hà Nội, 2000, tr.34 – 35)"
+  },
+  {
+    "id": "vact-synthetic-de-02-q112",
+    "examId": "vact-synthetic-de-02",
+    "number": 112,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Ba điều khẳng định trong chính sách ngoại giao của Chính phủ lâm\nthời 1945 có thể được khái quát hóa thành những nguyên tắc đối ngoại cơ bản. Theo đó,\nthứ tự nào dưới đây thể hiện rõ nhất nguyên tắc từ cốt lõi dân tộc đến mở rộng tầm nhìn\nquốc tế?",
+    "options": [
+      "Độc lập dân tộc → Quyết tâm bảo vệ chủ quyền → Trách nhiệm quốc tế.",
+      "Quyết tâm bảo vệ chủ quyền → Độc lập dân tộc → Hợp tác quốc tế và đa phương.",
+      "Độc lập dân tộc → Quan hệ quốc tế → Duy trì hòa bình và an ninh khu vực.",
+      "Tôn trọng công lí quốc tế → Bảo vệ tự do → Đoàn kết với nhân dân các nước."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chọn A\nGiai đoạn Nội dung Ý nghĩa\nĐộc lập dân tộc Là cốt lõi, cơ sở để hoạch định mọi\nđường lối đối ngoại.\nKhẳng định quyền tự quyết của dân\ntộc Việt Nam.\nQuyết tâm bảo\nvệ chủ quyền\nThể hiện ý chí bảo vệ thành quả cách\nmạng, không để nước ngoài xâm\nphạm.\nLà nguyên tắc phòng vệ chính đáng,\ncủng cố nền độc lập.\nTrách nhiệm\nquốc tế\nMở rộng tầm nhìn ra thế giới, chủ\nđộng hội nhập, hợp tác, góp phần\nduy trì hòa bình.\nKhẳng định Việt Nam là thành viên\ntích cực, có trách nhiệm trong cộng\nđồng quốc tế."
+  },
+  {
+    "id": "vact-synthetic-de-02-q113",
+    "examId": "vact-synthetic-de-02",
+    "number": 113,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nếu coi ba điều khẳng định là một cấu trúc chiến lược ngoại giao, thì\nvai trò của điều khẳng định thứ ba là gì đối với hai điều khẳng định trước?",
+    "options": [
+      "Là mục tiêu duy nhất sau khi đã bảo vệ thành công độc lập, chuyển hướng từ đối đầu\nsang hợp tác toàn diện.",
+      "Là cơ sở pháp lí quốc tế, nhằm tạo ra sự đồng thuận để củng cố tính chính danh của\nnền độc lập dân tộc.",
+      "Là sự mở rộng chiến lược, đặt mục tiêu độc lập dân tộc vào dòng chảy chung của trách\nnhiệm và hòa bình quốc tế.",
+      "Là điều kiện tiên quyết cho các nước khác công nhận nền độc lập, bảo đảm an ninh và\nchống lại sự can thiệp."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chọn C\nSự mở rộng chiến lược: Điều (1) và (2) tập trung vào lợi ích dân tộc cốt lõi (giành và giữ\nđộc lập). Điều (3) mở rộng tầm nhìn, đưa Việt Nam ra khỏi phạm vi lãnh thổ, gắn kết với\nnhân loại và cam kết hành động vì mục tiêu chung là hòa bình, ổn định, công lí quốc tế.\nĐặt mục tiêu độc lập dân tộc vào dòng chảy chung: Việc cam kết duy trì hòa bình và tôn\ntrọng luật pháp quốc tế giúp:\n+ Củng cố tính hợp pháp hóa và củng cố nền độc lập (ý 1) bằng cách đặt nó trong khuôn\nkhổ luật pháp quốc tế.\n+ Tạo sự đồng tình quốc tế đối với cuộc kháng chiến bảo vệ độc lập (ý 2), vì Việt Nam\nkhông chỉ chiến đấu cho mình mà còn vì hòa bình chung.\n+ Nó cho thấy Việt Nam là một thành viên có trách nhiệm trong cộng đồng quốc tế, không\nchỉ biết đòi hỏi mà còn biết đóng góp.\n- A. Sai. Ý (3) là mục tiêu song hành ngay từ đầu. Việt Nam không chờ đến khi chiến thắng\nhoàn toàn mới hợp tác; hòa bình và đoàn kết quốc tế là phương tiện để bảo vệ độc lập (kết\nhợp đối ngoại với đối nội) trong bối cảnh nguy cơ chiến tranh cao.\n- B. Sai. Cơ sở pháp lí của nền độc lập là ý (1) (Việt Nam là một nước tự do độc lập). Ý (3)\nlà sự cam kết về hành vi ngoại giao và trách nhiệm quốc tế, không phải là cơ sở pháp lí.\n- D. Sai. Điều kiện tiên quyết là việc Chính phủ lâm thời kiểm soát lãnh thổ và tuyên bố\nchủ quyền (ý 1). Ý (3) là hệ quả của nền độc lập và là sự cam kết về chính sách, giúp tranh\nthủ sự ủng hộ chứ không phải là điều kiện tiên quyết để công nhận."
+  },
+  {
+    "id": "vact-synthetic-de-02-q114",
+    "examId": "vact-synthetic-de-02",
+    "number": 114,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Việc Chủ tịch Hồ Chí Minh kiêm nhiệm chức vụ Bộ trưởng Bộ ngoại\ngiao, sau đó công bố chính sách ngoại giao đã thể hiện điều gì là quan trọng nhất trong\nviệc lãnh đạo đất nước sau Cách mạng tháng Tám năm 1945?",
+    "options": [
+      "Khẳng định nguyên tắc đối ngoại do người đứng đầu Chính phủ trực tiếp chỉ đạo,\nnhấn mạnh tầm quan trọng của vấn đề ngoại giao.",
+      "Thể hiện sự tập trung quyền lực tuyệt đối của Chủ tịch, nhằm thống nhất ý chí và hành\nđộng của Chính phủ Lâm thời trong mọi lĩnh vực.",
+      "Nhấn mạnh sự kết hợp chặt chẽ giữa đối nội và đối ngoại, coi ngoại giao là mặt trận\nquan trọng bậc nhất để bảo vệ độc lập dân tộc.",
+      "Làm nổi bật vai trò cá nhân của Chủ tịch Hồ Chí Minh trên trường quốc tế, tạo uy tín\ncho chính sách và tranh thủ sự ủng hộ quốc tế."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chọn C\nViệc Chủ tịch Hồ Chí Minh kiêm nhiệm chức vụ Bộ trưởng Bộ ngoại giao và trực tiếp công\nbố chính sách ngoại giao của Chính phủ lâm thời thể hiện tầm nhìn chiến lược của Người\ntrong việc lãnh đạo đất nước sau Cách mạng tháng Tám năm 1945. Trong bối cảnh chính\nquyền cách mạng còn non trẻ, thù trong giặc ngoài đe dọa, Chủ tịch Hồ Chí Minh xác định\nngoại giao không chỉ là công cụ quan hệ quốc tế mà còn là mặt trận quan trọng song hành\nvới đối nội để bảo vệ nền độc lập dân tộc, củng cố chính quyền cách mạng và tranh thủ\nsự ủng hộ quốc tế.\n- A chỉ nhấn mạnh vai trò chỉ đạo mà chưa làm rõ mối quan hệ giữa đối nội và đối ngoại.\n- B mang tính suy diễn, không phù hợp với phong cách lãnh đạo dân chủ, tập thể của Chủ\ntịch Hồ Chí Minh.\n- D chỉ đề cập đến uy tín cá nhân, không thể hiện được tầm chiến lược của chính sách\nngoại giao trong bảo vệ độc lập dân tộc.\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nTheo Tổng cục Thống kê, GDP 9 tháng đầu năm 2025 của Việt Nam ước tăng 7,85%\nso với cùng kỳ năm 2024 — mức cao nhất kể từ năm 2019. Khu vực công nghiệp – xây\ndựng tăng 8,3%, dịch vụ tăng 8,9%, trong khi nông – lâm – thủy sản chỉ tăng 3,6%. Tiêu\ndùng cuối cùng đóng góp gần 74% vào mức tăng GDP, cho thấy sức cầu nội địa mạnh và\nniềm tin tiêu dùng phục hồi.\nCác chuyên gia nhận định, nếu Việt Nam tiếp tục ổn định chính sách tài khóa –\ntiền tệ, cải thiện năng suất lao động và hạ tầng logistics, tốc độ tăng trưởng cả năm có thể\nđạt 8%.\nTuy nhiên, họ cũng cảnh báo về chất lượng tăng trưởng: năng suất lao động vẫn\nthấp, cơ cấu kinh tế phụ thuộc nhiều vào mở rộng quy mô thay vì đổi mới sáng tạo, khiến\nnền kinh tế dù tăng nhanh nhưng chưa thật sự bền vững.\n(Nguồn: Tổng cục Thống kê, Báo cáo kinh tế - xã hội 9 tháng 2025, 10/2025.)"
+  },
+  {
+    "id": "vact-synthetic-de-02-q115",
+    "examId": "vact-synthetic-de-02",
+    "number": 115,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nhận định nào sau đây phản ánh đúng nhất bản chất tăng trưởng kinh\ntế 9 tháng đầu năm 2025 của Việt Nam?",
+    "options": [
+      "Tăng trưởng chủ yếu nhờ xuất khẩu và đầu tư công quy mô lớn.",
+      "Tăng trưởng dựa nhiều vào tiêu dùng nội địa, sức cầu trong nước lớn.",
+      "Tăng trưởng do nới lỏng tiền tệ và nâng năng suất lao động.",
+      "Tăng trưởng đạt cao nhưng tiềm ẩn nguy cơ rủi ro vì biến động thương mại."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q116",
+    "examId": "vact-synthetic-de-02",
+    "number": 116,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Nếu khu vực dịch vụ và công nghiệp cùng tăng trên 8%, còn nông\nnghiệp chỉ tăng 3,6%, có thể rút ra nhận định nào hợp lý nhất?",
+    "options": [
+      "Nền kinh tế đang trong giai đoạn phát triển, Việt Nam là nước công nghiệp.",
+      "Cơ cấu tăng trưởng đang hướng tới các lĩnh vực có năng suất cao hơn.",
+      "Việt Nam phụ thuộc quá lớn vào xuất nhập khẩu, logistics",
+      "Tăng trưởng cao chủ yếu nhờ giá nông sản thế giới tăng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q117",
+    "examId": "vact-synthetic-de-02",
+    "number": 117,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Mặc dù GDP 9 tháng đầu năm 2025 tăng 7,85%, cao hơn nhiều năm\ntrước, song các chuyên gia vẫn cảnh báo nền kinh tế Việt Nam “chưa thực sự bền vững”.\nNguyên nhân sâu xa nhất là",
+    "options": [
+      "do mở rộng sản xuất công nghiệp và xuất khẩu khi năng suất lao động chưa cải thiện\nrõ.",
+      "khu vực nông nghiệp chiếm tỉ trọng lớn nhất trong GDP, làm chậm tiến trình công\nnghiệp hóa.",
+      "xuất khẩu nông sản sụt giảm mạnh do ảnh hưởng của El Niño và giá hàng hóa thế giới.",
+      "nợ công và lạm phát đều vượt ngưỡng kiểm soát, làm giảm sức mua trong nước.\nDựa vào thông tin dưới đây để trả lời các câu hỏi\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng\nđể giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều\ngiao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với\ncơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước,\nảnh hưởng đến các hoạt động đầu tư công cộng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q118",
+    "examId": "vact-synthetic-de-02",
+    "number": 118,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Hành vi không xuất hóa đơn và che giấu doanh thu của Bà Q được xếp\nvào hành vi vi phạm pháp luật nào dưới đây?",
+    "options": [
+      "Vi phạm nghĩa vụ kê khai thuế.",
+      "Hành vi trốn thuế.",
+      "Trốn tránh đăng kí thuế.",
+      "Hành vi lạm dụng thuế."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q119",
+    "examId": "vact-synthetic-de-02",
+    "number": 119,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Hành vi trốn thuế của Bà Q gây ra tác động tiêu cực trực tiếp nào dưới\nđây đến Ngân sách Nhà nước?",
+    "options": [
+      "Làm giảm khả năng kiểm soát lạm phát của Nhà nước.",
+      "Làm giảm tổng thu NSNN.",
+      "Làm giảm khả năng kiểm soát thị trường ngoại hối của Nhà nước.",
+      "Làm tăng chi phí sản xuất cho các doanh nghiệp khác tuân thủ pháp luật."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  },
+  {
+    "id": "vact-synthetic-de-02-q120",
+    "examId": "vact-synthetic-de-02",
+    "number": 120,
+    "section": "science_reasoning",
+    "sectionName": "Suy luận khoa học",
+    "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1\nđến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A\n2. C và D luôn ngồi đối diện nhau\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+    "question": "Qua kiểm tra của cơ quan có thẩm quyền kết luận: hành vi của bà Q đã\ngây thiệt hại cho ngân sách tổng số tiền là 91,5 triệu đồng. Vậy bà Q phải chịu trách nhiệm\npháp lý cao nhất nào dưới đây?",
+    "options": [
+      "Trách nhiệm hành chính",
+      "Trách nhiệm hình sự.",
+      "Trách nhiệm kỷ luật của cơ quan thuế.",
+      "Chỉ chịu trách nhiệm dân sự. Dựa vào thông tin dưới đây để trả lời các câu\nLớp 12A4 có 8 bạn A, B, C, O, X, Y, Z, L và có 4 tổ nằm dọc xếp sát nhau từ trái sang phải (từ tổ 1\nđến tổ 4), hãy dùng những dữ kiện sau và trả lời câu hỏi:\n1. Không ai ngồi ở tổ 2\n2. 1 tổ chỉ chứa được tối đa 4 người và luôn phải có ít nhất một tổ có 3 người\n3. Tổ của Z nằm bên trái tổ của C nhưng không nằm sát nhau\n4. A ngồi cùng tổ với L\n5. 1 trong 2 người X và Y bắt buộc phải ngồi ở tổ 3, nhưng không được cả 2\n6. C không được ngồi tổ sát bên tổ của O\n7. Nếu B ngồi ở tổ 1 thì L ngồi cùng tổ với O\n8. Nếu X hoặc Y ngồi ở tổ 4 thì tổ 3 chỉ có 2 người ngồi"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xem hướng dẫn giải chi tiết."
+  }
+],
+
   "vact-official-2025": [
     {
       "id": 1,

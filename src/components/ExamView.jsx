@@ -44,8 +44,10 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
   let filteredExams = EXAM_LIST;
   if (filterCategory === 'official') {
     filteredExams = EXAM_LIST.filter(e => e.category === 'official');
-  } else if (filterCategory === 'vnno1') {
-    filteredExams = EXAM_LIST.filter(e => e.category === 'vnno1');
+  } else if (filterCategory === 'latest') {
+    filteredExams = EXAM_LIST.filter(e => e.category === 'empire' || e.category === 'vnno1');
+  } else if (filterCategory === 'bank') {
+    filteredExams = EXAM_LIST.filter(e => e.category === 'bank');
   } else if (filterCategory === 'moon') {
     filteredExams = EXAM_LIST.filter(e => e.category === 'moon');
   } else if (filterCategory === 'moon_1_10') {
@@ -264,8 +266,9 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
           </span>
           {[
             { id: 'all', label: `Tất cả (${EXAM_LIST.length} đề)` },
-            { id: 'vnno1', label: '⭐ Đề mới VnNO1' },
-            { id: 'official', label: 'Đề mẫu ĐHQG-HCM' },
+            { id: 'latest', label: '⭐ Đề Mới (Empire & VnNO1)' },
+            { id: 'bank', label: '🔥 Tuyển Chọn Bộ 200 Đề' },
+            { id: 'official', label: 'Đề Mẫu ĐHQG-HCM' },
             { id: 'moon', label: 'Toàn bộ 25 đề Moon.vn' },
             { id: 'moon_1_10', label: 'Đề 01 - 10 (Nền tảng)' },
             { id: 'moon_11_25', label: 'Đề 11 - 25 (Phân hóa 950+)' },

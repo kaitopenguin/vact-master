@@ -1,7 +1,97 @@
 import React, { useState } from 'react';
-import { BookOpen, Download, ExternalLink, FileText, CheckCircle, Search, Eye, KeyRound, Sparkles } from 'lucide-react';
+import { BookOpen, Download, ExternalLink, FileText, CheckCircle, Search, Eye, KeyRound, Sparkles, Award } from 'lucide-react';
 
 export const BOOKS_DATA = [
+  {
+    id: 'book-de4',
+    title: 'Đề Tiên Đoán V-ACT Số 4 Chuẩn ĐHQG-HCM (Empire Team - Có Đáp Án & Lời Giải)',
+    author: 'Empire Team Khảo Thí & Biên Soạn',
+    year: '2025 - 2026',
+    format: 'Chuẩn V-ACT 120 câu / 150 phút (1.200đ)',
+    fileSize: '2.9 MB',
+    pages: '46 trang',
+    downloadUrl: '/books/DA ĐỀ TIÊN ĐOÁN VACT SỐ 4.pdf',
+    badge: '⭐ Đề Tiên Đoán Mới Nhất',
+    badgeColor: 'bg-rose-100 text-rose-900 dark:bg-rose-950 dark:text-rose-200 border border-rose-300 dark:border-rose-800',
+    description: 'Bản gốc Đề Tiên Đoán V-ACT Số 4 đầy đủ 120 câu hỏi trắc nghiệm, kèm lời giải chi tiết từng bước cho từng phân môn bám sát GDPT 2018.',
+    highlights: [
+      '120 câu trắc nghiệm chuẩn cấu trúc ĐHQG TP.HCM',
+      'Đầy đủ ngữ liệu đọc hiểu và bảng ma trận logic',
+      'Lời giải phân tích từng phương án đúng / sai'
+    ]
+  },
+  {
+    id: 'book-200-tv',
+    title: 'Tuyển Tập 200 Câu Tiếng Việt ĐGNL V-ACT (Kèm Đáp Án & Lời Giải Chi Tiết)',
+    author: 'Empire Team Chinh Phục Mọi Miền Kiến Thức',
+    year: '2025 - 2026',
+    format: 'Ngân hàng 200 câu trắc nghiệm ngôn ngữ',
+    fileSize: '3.2 MB',
+    pages: '65 trang',
+    downloadUrl: '/books/DA 200 CÂU TIẾNG VIỆT ĐGNL V-ACT.pdf',
+    badge: '🔥 Ngân Hàng 200 Câu',
+    badgeColor: 'bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 border border-blue-300 dark:border-blue-800',
+    description: 'Tuyển tập 200 câu hỏi Tiếng Việt phân hóa cao: phép tu từ, phong cách chức năng, nghĩa từ ngữ cảnh và các trích đoạn văn học hiện đại.',
+    highlights: [
+      '200 câu trắc nghiệm chuyên sâu Tiếng Việt',
+      'Kèm các ngữ liệu đọc hiểu đa dạng phong cách',
+      'Có lời giải và mẹo phân biệt từ đồng nghĩa / lỗi câu'
+    ]
+  },
+  {
+    id: 'book-200-ta',
+    title: 'Tuyển Tập 200 Câu Tiếng Anh ĐGNL V-ACT (Kèm Đáp Án & Phân Tích Ngữ Pháp)',
+    author: 'Empire Team Chinh Phục Mọi Miền Kiến Thức',
+    year: '2025 - 2026',
+    format: 'Ngân hàng 200 câu đọc hiểu & ngữ pháp',
+    fileSize: '5.6 MB',
+    pages: '38 trang',
+    downloadUrl: '/books/DA 200 CÂU TIẾNG ANH ĐGNL V-ACT.pdf',
+    badge: '🔥 Ngân Hàng 200 Câu',
+    badgeColor: 'bg-indigo-100 text-indigo-900 dark:bg-indigo-950 dark:text-indigo-200 border border-indigo-300 dark:border-indigo-800',
+    description: 'Hệ thống 200 câu hỏi Tiếng Anh bám sát định dạng V-ACT: ngữ cảnh giao tiếp, mệnh đề quan hệ rút gọn, liên từ và bài đọc khoa học xã hội.',
+    highlights: [
+      '200 câu hỏi Tiếng Anh chọn lọc chuẩn đề thi',
+      'Bài đọc suy luận đa chủ đề khoa học tự nhiên & xã hội',
+      'Giải thích chi tiết cấu trúc ngữ pháp và từ vựng mở rộng'
+    ]
+  },
+  {
+    id: 'book-200-toan',
+    title: 'Tuyển Tập 200 Câu Toán Học & Tư Duy Định Lượng (Kèm Lời Giải & Bấm Máy Casio)',
+    author: 'Empire Team Chinh Phục Mọi Miền Kiến Thức',
+    year: '2025 - 2026',
+    format: 'Ngân hàng 200 câu Toán thực tế & giải tích',
+    fileSize: '4.0 MB',
+    pages: '73 trang',
+    downloadUrl: '/books/DA 200 CÂU TOÁN HỌC ĐGNL V-ACT.pdf',
+    badge: '🔥 Ngân Hàng 200 Câu',
+    badgeColor: 'bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200 border border-emerald-300 dark:border-emerald-800',
+    description: '200 câu Toán học định lượng bao gồm giải tích, tối ưu kinh tế, xác suất có điều kiện và hình học không gian Oxyz chuẩn GDPT 2018.',
+    highlights: [
+      'Bài toán ứng dụng thực tiễn kinh tế - đời sống',
+      'Thủ thuật bấm máy tính Casio 580VNX/880BTG',
+      'Lời giải tự luận chặt chẽ kết hợp phương pháp trắc nghiệm nhanh'
+    ]
+  },
+  {
+    id: 'book-200-tdkh',
+    title: 'Tuyển Tập 200 Câu Tư Duy Khoa Học: Logic, Số Liệu & Tình Huống KHTN - KHXH',
+    author: 'Empire Team Chinh Phục Mọi Miền Kiến Thức',
+    year: '2025 - 2026',
+    format: 'Ngân hàng 200 câu Logic & Khoa học',
+    fileSize: '5.2 MB',
+    pages: '90 trang',
+    downloadUrl: '/books/DA 200 CÂU TƯ DUY KHOA HỌC ĐGNL V-ACT.pdf',
+    badge: '🔥 Ngân Hàng 200 Câu',
+    badgeColor: 'bg-purple-100 text-purple-900 dark:bg-purple-950 dark:text-purple-200 border border-purple-300 dark:border-purple-800',
+    description: 'Kho bài tập tư duy khoa học cốt lõi: phương pháp lập bảng ma trận vị trí, phân tích bảng số liệu/biểu đồ và suy luận thí nghiệm Lý - Hóa - Sinh - Sử - Địa.',
+    highlights: [
+      'Chùm câu hỏi logic vị trí bàn tròn, xếp hàng, lịch trình',
+      'Biểu đồ kết hợp cột - đường, cơ cấu tăng trưởng',
+      'Suy luận hiện tượng khoa học thực nghiệm có đầy đủ ngữ liệu'
+    ]
+  },
   {
     id: 'book-vnno1-01',
     title: 'Đề Thi Thử V-ACT VnNO1 2026/2027 Lần 1 (Kèm Đáp Án & Hướng Dẫn Giải Chi Tiết)',
@@ -38,6 +128,24 @@ export const BOOKS_DATA = [
       'Rèn luyện áp lực thời gian thực tế 150 phút',
       'Đa dạng các ngữ liệu mới lạ bám sát GDPT 2018',
       'Công cụ kiểm tra năng lực khách quan nhất'
+    ]
+  },
+  {
+    id: 'book-vnno1-tv-demo',
+    title: 'Tài Liệu Ôn Tập & Đề Thi Tiếng Việt V-ACT 2025 (VnNO1 Full Key Demo)',
+    author: 'Trung tâm Luyện thi VnNO1',
+    year: '2025 - 2026',
+    format: 'Tài liệu ôn thi chuyên sâu Tiếng Việt',
+    fileSize: '47.3 MB',
+    pages: '126 trang',
+    downloadUrl: '/books/VNno1_Tiếng_Việt_2025_T1_Full_key_Demo.pdf',
+    badge: 'Sách Chuyên Sâu Tiếng Việt',
+    badgeColor: 'bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200 border border-emerald-300 dark:border-emerald-800',
+    description: 'Tuyển tập 126 trang chuyên sâu về cấu trúc đọc hiểu, ngữ âm, từ vựng, ngữ pháp và phong cách Tiếng Việt trong đề thi V-ACT.',
+    highlights: [
+      '126 trang tổng hợp lý thuyết và câu hỏi thực hành',
+      'Giải nghĩa tường tận các dạng đề bẫy Tiếng Việt',
+      'Bản scan chính thức có đầy đủ lời giải minh họa'
     ]
   },
   {
@@ -80,7 +188,7 @@ export const BOOKS_DATA = [
   },
   {
     id: 'book-03',
-    title: 'Tuyển Tập 25 Đề Luyện Thi Đánh Giá Năng Lực V-ACT',
+    title: 'Tuyển Tập 25 Đề Luyện Thi Đánh Giá Năng Lực V-ACT (V-ACT Hub)',
     author: 'Cộng đồng Thủ khoa V-ACT Hub',
     year: '2025',
     format: 'Tuyển tập đề rèn luyện',
@@ -100,108 +208,176 @@ export const BOOKS_DATA = [
 ];
 
 export default function BooksView({ onStartPracticeOfficial }) {
-  const [selectedBookForPreview, setSelectedBookForPreview] = useState(null);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [previewBook, setPreviewBook] = useState(null);
+
+  const filteredBooks = BOOKS_DATA.filter(b => 
+    b.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    b.author.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    b.description.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
-    <div className="max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-8">
-      {/* Header */}
-      <div className="mb-6 sm:mb-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+      {/* Header Banner */}
+      <div className="mb-8">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-black bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 mb-3 border border-blue-300 dark:border-blue-800">
           <BookOpen className="w-4 h-4 text-blue-600" />
-          Kho Tài Liệu & Tuyển Tập Bộ Đề PDF Gốc
+          Kho Sách & Tài Liệu PDF ĐHQG-HCM 100% Miễn Phí
         </div>
-        <h1 className="text-xl sm:text-3xl md:text-4xl font-black vact-text-primary tracking-tight">
-          Tủ Sách & Bộ Đề Luyện Thi V-ACT (VnNO1, Moon.vn & ĐHQG)
+        <h1 className="text-3xl sm:text-4xl font-black vact-text-primary tracking-tight">
+          Sách & Bộ Đề Thi Gốc V-ACT 2025 - 2027
         </h1>
-        <p className="mt-2 vact-text-secondary max-w-3xl text-xs sm:text-base leading-relaxed">
-          Tải về miễn phí hoặc đọc trực tiếp trọn vẹn 5 bộ tài liệu luyện thi V-ACT lớn nhất: Bộ đề thi thử VnNO1 2026/2027 có đáp án, Đề minh họa ĐHQG-HCM và 2 Tuyển tập 25 đề chuyên sâu.
+        <p className="mt-2 text-sm sm:text-base vact-text-secondary max-w-3xl leading-relaxed">
+          Toàn bộ tài liệu PDF chính thống từ ĐHQG TP.HCM, tuyển tập bộ 200 đề 4 phân môn có đáp án, Đề Tiên Đoán Số 4 (Empire Team) và các bộ đề thực chiến VnNO1. Bạn có thể xem trực tiếp hoặc tải về máy hoàn toàn miễn phí.
         </p>
       </div>
 
-      {/* Book Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12">
-        {BOOKS_DATA.map((book) => (
+      {/* Search Input */}
+      <div className="relative mb-8">
+        <Search className="w-5 h-5 absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="Tìm kiếm theo tên đề, sách, tác giả (ĐHQG, Empire Team, Moon.vn, VnNO1...)"
+          className="w-full pl-12 pr-4 py-3.5 rounded-2xl vact-card border vact-border vact-text-primary placeholder:text-slate-400 focus:outline-hidden focus:ring-2 focus:ring-blue-500 text-sm font-medium shadow-xs"
+        />
+      </div>
+
+      {/* Books Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {filteredBooks.map((book) => (
           <div
             key={book.id}
-            className="vact-card rounded-2xl sm:rounded-3xl border vact-border p-5 sm:p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between"
+            className="vact-card rounded-3xl border vact-border p-6 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
           >
             <div>
               <div className="flex items-center justify-between gap-2 mb-3">
-                <span className={`text-[10px] sm:text-[11px] font-black px-2.5 py-1 rounded-full ${book.badgeColor}`}>
+                <span className={`text-[11px] font-black px-3 py-1 rounded-full ${book.badgeColor}`}>
                   {book.badge}
                 </span>
-                <span className="text-xs font-black vact-text-muted flex items-center gap-1">
-                  <FileText className="w-3.5 h-3.5 text-blue-500" />
-                  {book.fileSize}
+                <span className="text-xs font-bold vact-text-muted">
+                  {book.fileSize} • {book.pages}
                 </span>
               </div>
 
-              <h3 className="text-base sm:text-lg font-black vact-text-primary mb-2 leading-snug">
+              <h3 className="text-lg font-black vact-text-primary mb-2 leading-snug">
                 {book.title}
               </h3>
 
-              <div className="flex items-center gap-3 text-xs vact-text-muted font-bold mb-3">
-                <span>{book.author}</span>
-                <span>•</span>
-                <span>{book.pages}</span>
-              </div>
-
-              {book.password && (
-                <div className="mb-3 p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 text-xs font-black text-amber-800 dark:text-amber-300 flex items-center gap-2">
-                  <KeyRound className="w-4 h-4 text-amber-600 shrink-0" />
-                  <span>{book.password}</span>
-                </div>
-              )}
+              <p className="text-xs font-bold text-blue-600 dark:text-blue-400 mb-3">
+                Nguồn: {book.author} ({book.year})
+              </p>
 
               <p className="text-xs sm:text-sm vact-text-secondary mb-4 leading-relaxed line-clamp-3">
                 {book.description}
               </p>
 
-              <div className="space-y-1.5 mb-6 vact-card-subtle p-3 rounded-xl border vact-border">
-                {book.highlights.map((h, hIdx) => (
-                  <div key={hIdx} className="flex items-start gap-2 text-xs vact-text-primary font-bold">
-                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
-                    <span>{h}</span>
+              {book.password && (
+                <div className="mb-4 p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 flex items-center gap-2 text-xs font-black text-amber-800 dark:text-amber-200">
+                  <KeyRound className="w-4 h-4 text-amber-600 shrink-0" />
+                  <span>{book.password}</span>
+                </div>
+              )}
+
+              <div className="space-y-1.5 mb-6">
+                {book.highlights.map((item, idx) => (
+                  <div key={idx} className="flex items-start gap-2 text-xs vact-text-muted">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-500 shrink-0 mt-0.5" />
+                    <span>{item}</span>
                   </div>
                 ))}
               </div>
             </div>
 
             {/* Actions */}
-            <div className="space-y-2">
-              {book.downloadUrl ? (
+            <div className="space-y-2 pt-4 border-t vact-border">
+              {book.embedUrl ? (
+                <div className="grid grid-cols-2 gap-2">
+                  <button
+                    onClick={() => setPreviewBook(book)}
+                    className="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl font-bold text-xs vact-card border vact-border hover:bg-slate-100 dark:hover:bg-slate-800 vact-text-primary transition-all cursor-pointer"
+                  >
+                    <Eye className="w-3.5 h-3.5 text-blue-600" />
+                    Đọc trực tiếp
+                  </button>
+                  <a
+                    href={book.driveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl font-bold text-xs bg-blue-600 hover:bg-blue-700 text-white transition-all shadow-xs"
+                  >
+                    <Download className="w-3.5 h-3.5" />
+                    Tải về máy
+                  </a>
+                </div>
+              ) : (
                 <a
                   href={book.downloadUrl}
                   download
-                  className="w-full min-h-[44px] flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl font-black text-xs sm:text-sm bg-rose-600 hover:bg-rose-700 text-white shadow-xs transition-all active:scale-[0.98]"
+                  className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-bold text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-xs transition-all cursor-pointer"
                 >
                   <Download className="w-4 h-4" />
-                  <span>Tải File PDF Gốc Về Máy</span>
-                </a>
-              ) : (
-                <a
-                  href={book.driveUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full min-h-[44px] flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl font-black text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-xs transition-all active:scale-[0.98]"
-                >
-                  <Download className="w-4 h-4" />
-                  <span>Mở & Tải Trên Google Drive</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
+                  Tải sách PDF ({book.fileSize})
                 </a>
               )}
 
-              <button
-                onClick={onStartPracticeOfficial}
-                className="w-full min-h-[40px] flex items-center justify-center gap-2 py-2 px-4 rounded-xl font-black text-xs vact-card-subtle hover:bg-blue-600 hover:text-white border vact-border vact-text-primary transition-all active:scale-[0.98]"
-              >
-                <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-                <span>Thi thử trực tuyến bộ đề này</span>
-              </button>
+              {book.id === 'book-01' && onStartPracticeOfficial && (
+                <button
+                  onClick={onStartPracticeOfficial}
+                  className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl font-black text-xs bg-emerald-600 hover:bg-emerald-700 text-white shadow-xs transition-all cursor-pointer"
+                >
+                  <Sparkles className="w-4 h-4" />
+                  Luyện thi bấm giờ 150p trên Web
+                </button>
+              )}
             </div>
           </div>
         ))}
       </div>
+
+      {/* In-app PDF Viewer Modal */}
+      {previewBook && (
+        <div className="fixed inset-0 z-50 bg-black/70 backdrop-blur-xs flex items-center justify-center p-2 sm:p-6">
+          <div className="vact-card rounded-3xl border vact-border w-full max-w-5xl h-[90vh] flex flex-col shadow-2xl overflow-hidden">
+            <div className="flex items-center justify-between p-4 border-b vact-border">
+              <div className="flex items-center gap-3 truncate">
+                <FileText className="w-5 h-5 text-blue-600 shrink-0" />
+                <h3 className="font-black vact-text-primary text-sm sm:text-base truncate">
+                  {previewBook.title}
+                </h3>
+              </div>
+              <div className="flex items-center gap-2">
+                <a
+                  href={previewBook.driveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-xl vact-card border vact-border text-xs font-bold vact-text-primary hover:text-blue-600 flex items-center gap-1"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  <span className="hidden sm:inline">Mở Drive</span>
+                </a>
+                <button
+                  onClick={() => setPreviewBook(null)}
+                  className="w-8 h-8 rounded-xl vact-card border vact-border flex items-center justify-center vact-text-primary hover:bg-rose-50 hover:text-rose-600 cursor-pointer text-sm font-bold"
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
+
+            <div className="flex-1 bg-slate-900 relative">
+              <iframe
+                src={previewBook.embedUrl}
+                title={previewBook.title}
+                className="w-full h-full border-0"
+                allow="autoplay"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
