@@ -16,14 +16,19 @@ import {
   Layers,
   BookOpen,
   Compass,
-  Cpu
+  Cpu,
+  Filter,
+  ArrowRight,
+  ListOrdered,
+  X
 } from 'lucide-react';
 import { EXAM_LIST, QUESTIONS_DATA } from '../data/examData';
 import confetti from 'canvas-confetti';
 
-export default function ExamView({ onSaveMistake, savedMistakeIds = [] }) {
+export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize = 'normal' }) {
   const [selectedExamId, setSelectedExamId] = useState(null);
   const [examState, setExamState] = useState('list'); // 'list' | 'taking' | 'result'
+  const [filterCategory, setFilterCategory] = useState('all');
   const [filterSection, setFilterSection] = useState('all'); // 'all' or section id
   
   // Quiz running states
@@ -33,14 +38,20 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [] }) {
   const [flagged, setFlagged] = useState({}); // { [questionId]: boolean }
   const [timeLeft, setTimeLeft] = useState(150 * 60); // 150 mins
   const [isTimerRunning, setIsTimerRunning] = useState(false);
+  const [isMobilePaletteOpen, setIsMobilePaletteOpen] = useState(false);
+
+  // Filter exams by category
+  const filteredExams = filterCategory === 'all' 
+    ? EXAM_LIST 
+    : EXAM_LIST.filter(e => e.category === filterCategory);
 
   // Start exam
   const handleStartExam = (examId, sectionOnly = 'all') => {
-    const rawQuestions = QUESTIONS_DATA[examId] || QUESTIONS_DATA['vact-mock-2025'];
+    const rawQuestions = QUESTIONS_DATA[examId] || QUESTIONS_DATA['vact-official-2025'];
     let filtered = rawQuestions;
     if (sectionOnly !== 'all') {
-      if (sectionOnly === 'part3_all') {
-        filtered = rawQuestions.filter(q => q.partId === 'part3');
+      if (sectionOnly === 'science_all') {
+        filtered = rawQuestions.filter(q => q.section === 'logic_data' || q.section === 'science_reasoning');
       } else {
         filtered = rawQuestions.filter(q => q.section === sectionOnly);
       }
@@ -54,10 +65,11 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [] }) {
     setFlagged({});
     
     // Duration: 150m for full, or proportional time for practice
-    const duration = sectionOnly === 'all' ? 150 * 60 : Math.max(15 * 60, filtered.length * 90);
+    const duration = sectionOnly === 'all' ? 150 * 60 : Math.max(15 * 60, filtered.length * 75);
     setTimeLeft(duration);
     setIsTimerRunning(true);
     setExamState('taking');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // Timer effect
@@ -106,6 +118,8 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [] }) {
   const handleSubmitExam = () => {
     setIsTimerRunning(false);
     setExamState('result');
+    setIsMobilePaletteOpen(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     try {
       confetti({
         particleCount: 80,
@@ -129,17 +143,13 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [] }) {
     }
   });
 
-  // Calculate 4 Official Sub-Scores (each 300 max score, total 1.200 points):
-  // 1. Tiếng Việt (300 điểm)
-  // 2. Tiếng Anh (300 điểm)
-  // 3. Toán học (300 điểm)
-  // 4. Tư duy khoa học (300 điểm: gồm Logic & Số liệu + Suy luận khoa học)
+  // Calculate 4 Official Sub-Scores
   const calculateOfficialScores = () => {
     const counts = {
       vietnamese: { total: 0, correct: 0, name: 'Hợp phần Tiếng Việt', max: 300 },
       english: { total: 0, correct: 0, name: 'Hợp phần Tiếng Anh', max: 300 },
       math: { total: 0, correct: 0, name: 'Hợp phần Toán học', max: 300 },
-      science: { total: 0, correct: 0, name: 'Hợp phần Tư duy khoa học (Logic, Số liệu & Khoa học)', max: 300 },
+      science: { total: 0, correct: 0, name: 'Hợp phần Tư duy khoa học (Logic, Số liệu & KH)', max: 300 },
     };
 
     currentQuestions.forEach(q => {
@@ -173,139 +183,162 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [] }) {
 
   const { scores: officialScores, totalCalculatedScore } = calculateOfficialScores();
 
-  // RENDER 1: Exam Selection List
+  // =========================================================================
+  // VIEW 1: Exam List Dashboard
+  // =========================================================================
   if (examState === 'list') {
     return (
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        {/* Header & Structure Banner */}
-        <div className="mb-8">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300 mb-3">
-            <Award className="w-3.5 h-3.5" />
-            Cấu trúc bài thi V-ACT ĐHQG TP.HCM chuẩn GDPT 2018
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-8">
+        {/* Header Banner */}
+        <div className="mb-6 sm:mb-8">
+          <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 py-1 rounded-full text-[11px] sm:text-xs font-black bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 mb-2.5 sm:mb-3 border border-blue-300 dark:border-blue-800">
+            <Award className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600" />
+            Cấu trúc bài thi V-ACT ĐHQG TP.HCM chuẩn GDPT 2018 (1.200 điểm)
           </div>
-          <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-            Kỳ Thi Đánh Giá Năng Lực V-ACT (ĐHQG TP.HCM)
+          <h1 className="text-xl sm:text-3xl md:text-4xl font-black vact-text-primary tracking-tight">
+            Kho Đề Thi Thử V-ACT Trực Tuyến
           </h1>
-          <p className="mt-2 text-slate-600 dark:text-slate-400 max-w-4xl text-sm sm:text-base leading-relaxed">
-            Bài thi chuẩn gồm <strong>120 câu hỏi trắc nghiệm khách quan</strong> làm trong <strong>150 phút</strong>, thang điểm tối đa <strong>1.200 điểm</strong> (chấm theo mô hình IRT, chia làm <strong>4 hợp phần x 300 điểm</strong>, không trừ điểm câu sai).
+          <p className="mt-1.5 sm:mt-2 text-xs sm:text-base vact-text-secondary max-w-4xl leading-relaxed">
+            Hệ thống gồm <strong>120 câu hỏi trắc nghiệm</strong> làm trong <strong>150 phút</strong>, tính điểm chuẩn <strong>1.200 điểm (Mô hình IRT)</strong> chia làm 4 hợp phần x 300 điểm. Không trừ điểm câu sai.
           </p>
         </div>
 
-        {/* Official 3 Parts Breakdown Banner */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          <div className="p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
-            <div className="flex items-center gap-2 text-blue-600 font-bold text-xs uppercase mb-1">
-              <BookOpen className="w-4 h-4" /> Phần 1: Ngôn ngữ (600đ)
+        {/* Structure Overview Pills - 1 col on mobile, 3 cols on tablet/desktop */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
+          <div className="p-3.5 sm:p-4 rounded-2xl vact-card border vact-border shadow-xs">
+            <div className="text-[11px] sm:text-xs font-black text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-0.5">
+              Phần 1: Ngôn ngữ (600đ)
             </div>
-            <div className="text-sm font-semibold text-slate-900 dark:text-white">60 câu • 2 hợp phần</div>
-            <div className="text-xs text-slate-500 mt-1">
-              • Tiếng Việt (30 câu – 300đ)<br/>
-              • Tiếng Anh (30 câu – 300đ)
+            <div className="font-black text-xs sm:text-sm vact-text-primary">
+              Tiếng Việt (300đ) • Tiếng Anh (300đ)
             </div>
-          </div>
-
-          <div className="p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
-            <div className="flex items-center gap-2 text-indigo-600 font-bold text-xs uppercase mb-1">
-              <Compass className="w-4 h-4" /> Phần 2: Toán học (300đ)
-            </div>
-            <div className="text-sm font-semibold text-slate-900 dark:text-white">30 câu – 300 điểm</div>
-            <div className="text-xs text-slate-500 mt-1">
-              Tư duy toán học, logic, xử lý số liệu, đọc biểu đồ và bài toán thực tế.
+            <div className="text-[11px] sm:text-xs vact-text-muted mt-1 leading-relaxed">
+              60 câu trắc nghiệm đọc hiểu & sử dụng ngôn ngữ
             </div>
           </div>
 
-          <div className="p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
-            <div className="flex items-center gap-2 text-purple-600 font-bold text-xs uppercase mb-1">
-              <Cpu className="w-4 h-4" /> Phần 3: Tư duy KH (300đ)
+          <div className="p-3.5 sm:p-4 rounded-2xl vact-card border vact-border shadow-xs">
+            <div className="text-[11px] sm:text-xs font-black text-indigo-600 dark:text-indigo-400 uppercase tracking-wider mb-0.5">
+              Phần 2: Toán học (300đ)
             </div>
-            <div className="text-sm font-semibold text-slate-900 dark:text-white">30 câu – 300 điểm</div>
-            <div className="text-xs text-slate-500 mt-1">
-              • Logic & phân tích số liệu (12 câu)<br/>
-              • Suy luận khoa học: Lý, Hóa, Sinh, Sử, Địa, GDKT&PL (18 câu)
+            <div className="font-black text-xs sm:text-sm vact-text-primary">
+              Toán học & Tư duy định lượng
+            </div>
+            <div className="text-[11px] sm:text-xs vact-text-muted mt-1 leading-relaxed">
+              30 câu giải tích, xác suất thống kê & bài toán thực tế
+            </div>
+          </div>
+
+          <div className="p-3.5 sm:p-4 rounded-2xl vact-card border vact-border shadow-xs">
+            <div className="text-[11px] sm:text-xs font-black text-purple-600 dark:text-purple-400 uppercase tracking-wider mb-0.5">
+              Phần 3: Tư duy khoa học (300đ)
+            </div>
+            <div className="font-black text-xs sm:text-sm vact-text-primary">
+              Logic / Số liệu (12 câu) • Khoa học (18 câu)
+            </div>
+            <div className="text-[11px] sm:text-xs vact-text-muted mt-1 leading-relaxed">
+              Lập bảng ma trận & suy luận khoa học tình huống
             </div>
           </div>
         </div>
 
-        {/* Exams Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {EXAM_LIST.map((exam) => (
+        {/* Category Filters Bar - Smooth touch scroll */}
+        <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto pb-2 sm:pb-3 mb-6 ios-scroll no-scrollbar -mx-1 px-1">
+          <span className="text-[11px] sm:text-xs font-black vact-text-muted flex items-center gap-1 shrink-0 mr-1">
+            <Filter className="w-3.5 h-3.5" /> Lọc:
+          </span>
+          {[
+            { id: 'all', label: `Tất cả (${EXAM_LIST.length} đề)` },
+            { id: 'official', label: 'Đề chính thức ĐHQG' },
+            { id: 'moon', label: 'Bộ 25 đề Moon.vn' },
+            { id: 'past', label: 'Đề các năm qua' },
+            { id: 'topic', label: 'Luyện cấp tốc' },
+          ].map(cat => (
+            <button
+              key={cat.id}
+              onClick={() => setFilterCategory(cat.id)}
+              className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs font-black whitespace-nowrap transition-all cursor-pointer ${
+                filterCategory === cat.id
+                  ? 'bg-blue-600 text-white shadow-xs ring-2 ring-blue-400/40'
+                  : 'vact-card vact-text-secondary hover:vact-text-primary border vact-border'
+              }`}
+            >
+              {cat.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Exam Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          {filteredExams.map((exam) => (
             <div 
               key={exam.id}
-              className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm hover:shadow-md transition-all flex flex-col justify-between"
+              className="vact-card rounded-2xl sm:rounded-3xl border vact-border p-4 sm:p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between"
             >
               <div>
-                <div className="flex items-center justify-between gap-2 mb-3">
-                  <span className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300">
+                <div className="flex items-center justify-between gap-2 mb-2 sm:mb-3">
+                  <span className="text-[10px] sm:text-[11px] font-black px-2.5 sm:px-3 py-1 rounded-full bg-blue-600 text-white shadow-xs">
                     {exam.type}
                   </span>
-                  <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 flex items-center gap-1">
-                    <Clock className="w-3.5 h-3.5" />
-                    {exam.durationMinutes} phút • 1.200 điểm
+                  <span className="text-xs font-black vact-text-muted flex items-center gap-1">
+                    <Clock className="w-3.5 h-3.5 text-amber-500" />
+                    {exam.durationMinutes}p • 1.200đ
                   </span>
                 </div>
 
-                <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white mb-2 leading-snug">
+                <h3 className="text-base sm:text-xl font-black vact-text-primary mb-1.5 sm:mb-2 leading-snug">
                   {exam.title}
                 </h3>
                 
-                <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
+                <p className="text-xs sm:text-sm vact-text-secondary mb-4 sm:mb-5 leading-relaxed line-clamp-2">
                   {exam.description}
                 </p>
 
-                {/* Structure breakdown */}
-                <div className="space-y-3 mb-6 bg-slate-50 dark:bg-slate-800/40 p-4 rounded-2xl border border-slate-100 dark:border-slate-800">
-                  {exam.parts.map((p, pIdx) => (
-                    <div key={pIdx} className="space-y-1">
-                      <div className="font-bold text-xs text-slate-800 dark:text-slate-200">
-                        {p.partName}
-                      </div>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 text-[11px] text-slate-500 dark:text-slate-400 pl-2">
-                        {p.subsections.map((sub, sIdx) => (
-                          <div key={sIdx} className="flex justify-between items-center py-0.5">
-                            <span>{sub.name}</span>
-                            <span className="font-semibold text-blue-600 dark:text-blue-400">{sub.maxScore}đ ({sub.count} câu)</span>
-                          </div>
-                        ))}
-                      </div>
+                {/* Section breakdown table with high contrast */}
+                <div className="space-y-1.5 sm:space-y-2 mb-4 sm:mb-6 vact-card-subtle p-3 sm:p-3.5 rounded-xl sm:rounded-2xl border vact-border">
+                  {exam.sections.map((sec, sIdx) => (
+                    <div key={sIdx} className="flex justify-between items-center text-xs py-0.5 sm:py-1 border-b vact-border last:border-b-0">
+                      <span className="vact-text-primary font-bold text-[11px] sm:text-xs">{sec.name}</span>
+                      <span className="font-black text-blue-600 dark:text-blue-400 text-[11px] sm:text-xs">{sec.score} ({sec.count} câu)</span>
                     </div>
                   ))}
                 </div>
               </div>
 
-              {/* Action buttons */}
-              <div className="space-y-3">
+              {/* Action Buttons with 44px min height for iOS */}
+              <div className="space-y-2.5 sm:space-y-3">
                 <button
                   onClick={() => handleStartExam(exam.id, 'all')}
-                  className="w-full flex items-center justify-center gap-2 py-3.5 px-4 rounded-xl font-bold text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20 transition-all cursor-pointer"
+                  className="w-full min-h-[44px] flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-black text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 active:scale-[0.98] text-white shadow-md shadow-blue-500/20 transition-all cursor-pointer"
                 >
                   <Play className="w-4 h-4 fill-current" />
-                  Bắt đầu thi thử toàn phần (Chuẩn 150 phút)
+                  Bắt đầu thi thử toàn phần (150p)
                 </button>
 
                 <div>
-                  <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 mb-2 text-center">Hoặc luyện tập riêng theo hợp phần 300 điểm:</p>
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
+                  <p className="text-[10px] sm:text-[11px] font-black vact-text-muted mb-1.5 sm:mb-2 text-center">Hoặc luyện nhanh từng hợp phần:</p>
+                  <div className="grid grid-cols-2 gap-1.5 sm:gap-2 text-[11px] sm:text-xs">
                     <button
                       onClick={() => handleStartExam(exam.id, 'vietnamese')}
-                      className="py-2 px-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-950 text-slate-700 dark:text-slate-300 hover:text-blue-600 font-semibold transition-colors text-center"
+                      className="min-h-[40px] py-1.5 px-2 rounded-xl vact-card hover:bg-blue-600 hover:text-white border vact-border vact-text-primary font-bold transition-all text-center shadow-xs cursor-pointer active:scale-[0.98]"
                     >
                       Tiếng Việt (300đ)
                     </button>
                     <button
                       onClick={() => handleStartExam(exam.id, 'english')}
-                      className="py-2 px-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-950 text-slate-700 dark:text-slate-300 hover:text-blue-600 font-semibold transition-colors text-center"
+                      className="min-h-[40px] py-1.5 px-2 rounded-xl vact-card hover:bg-blue-600 hover:text-white border vact-border vact-text-primary font-bold transition-all text-center shadow-xs cursor-pointer active:scale-[0.98]"
                     >
                       Tiếng Anh (300đ)
                     </button>
                     <button
                       onClick={() => handleStartExam(exam.id, 'math')}
-                      className="py-2 px-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-950 text-slate-700 dark:text-slate-300 hover:text-blue-600 font-semibold transition-colors text-center"
+                      className="min-h-[40px] py-1.5 px-2 rounded-xl vact-card hover:bg-blue-600 hover:text-white border vact-border vact-text-primary font-bold transition-all text-center shadow-xs cursor-pointer active:scale-[0.98]"
                     >
                       Toán học (300đ)
                     </button>
                     <button
-                      onClick={() => handleStartExam(exam.id, 'part3_all')}
-                      className="py-2 px-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-950 text-slate-700 dark:text-slate-300 hover:text-blue-600 font-semibold transition-colors text-center"
+                      onClick={() => handleStartExam(exam.id, 'science_all')}
+                      className="min-h-[40px] py-1.5 px-2 rounded-xl vact-card hover:bg-blue-600 hover:text-white border vact-border vact-text-primary font-bold transition-all text-center shadow-xs cursor-pointer active:scale-[0.98]"
                     >
                       Tư duy KH (300đ)
                     </button>
@@ -319,351 +352,407 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [] }) {
     );
   }
 
-  // RENDER 2: Exam In Progress
+  // =========================================================================
+  // VIEW 2: Exam In Progress (Fully Optimized for iPhone & Mobile!)
+  // =========================================================================
   if (examState === 'taking' && currentQ) {
     const isFlagged = flagged[currentQ.id];
 
     return (
-      <div className="max-w-7xl mx-auto px-4 py-6">
-        {/* Top Control Bar */}
-        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 mb-6 shadow-sm flex flex-wrap items-center justify-between gap-4 sticky top-20 z-30">
-          <div className="flex items-center gap-3">
-            <span className="font-bold text-slate-900 dark:text-white text-base">
-              Câu {currentIndex + 1} / {totalQ}
-            </span>
-            <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300">
-              {currentQ.sectionName}
-            </span>
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 py-3 sm:py-6">
+        {/* Top Sticky Quiz Control Bar for iOS */}
+        <div className="vact-card border vact-border rounded-2xl p-3 sm:p-4 mb-4 sm:mb-6 shadow-sm sticky top-14 sm:top-24 z-30">
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-1.5 sm:gap-3">
+              <span className="font-black vact-text-primary text-sm sm:text-lg">
+                Câu {currentIndex + 1}/{totalQ}
+              </span>
+              <span className="text-[10px] sm:text-xs font-black px-2 sm:px-3 py-0.5 sm:py-1 rounded-full bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 border border-blue-300 dark:border-blue-800 truncate max-w-[140px] sm:max-w-none">
+                {currentQ.sectionName}
+              </span>
+            </div>
+
+            {/* High-Contrast Timer (Yellow / Amber with black bold numbers) */}
+            <div className="flex items-center gap-1.5 font-mono font-black text-sm sm:text-lg px-2.5 sm:px-4 py-1 rounded-xl bg-amber-400 text-slate-950 shadow-xs border border-amber-500 shrink-0">
+              <Clock className="w-4 h-4 animate-pulse text-slate-950" />
+              <span>{formatTime(timeLeft)}</span>
+            </div>
           </div>
 
-          {/* Timer Display */}
-          <div className="flex items-center gap-2 font-mono font-bold text-lg px-4 py-1.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-900">
-            <Clock className="w-5 h-5 animate-pulse" />
-            <span>{formatTime(timeLeft)}</span>
-          </div>
+          {/* Action Row */}
+          <div className="flex items-center justify-between gap-2 mt-2 pt-2 border-t vact-border">
+            <div className="flex items-center gap-1.5">
+              <button
+                onClick={() => toggleFlag(currentQ.id)}
+                className={`flex items-center gap-1 px-2.5 sm:px-3.5 py-1.5 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                  isFlagged 
+                    ? 'bg-amber-400 text-slate-950 shadow-xs ring-2 ring-amber-300' 
+                    : 'vact-card vact-text-secondary hover:vact-text-primary border vact-border'
+                }`}
+              >
+                <Flag className={`w-3.5 h-3.5 ${isFlagged ? 'fill-current' : ''}`} />
+                <span className="hidden xs:inline">{isFlagged ? 'Đã gắn cờ' : 'Gắn cờ'}</span>
+              </button>
 
-          {/* Action buttons */}
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => toggleFlag(currentQ.id)}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
-                isFlagged 
-                  ? 'bg-amber-500 text-white shadow-sm' 
-                  : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-amber-100 dark:hover:bg-amber-950 hover:text-amber-600'
-              }`}
-            >
-              <Flag className={`w-3.5 h-3.5 ${isFlagged ? 'fill-current' : ''}`} />
-              {isFlagged ? 'Đã đánh dấu' : 'Đánh dấu xem lại'}
-            </button>
+              {/* Mobile Question Palette Opener */}
+              <button
+                onClick={() => setIsMobilePaletteOpen(true)}
+                className="lg:hidden flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-xs font-black vact-card border vact-border vact-text-primary cursor-pointer"
+              >
+                <ListOrdered className="w-3.5 h-3.5 text-blue-600" />
+                <span>Mục lục ({answeredCount}/{totalQ})</span>
+              </button>
+            </div>
 
             <button
-              onClick={() => {
-                if (window.confirm(`Bạn đã hoàn thành ${answeredCount}/${totalQ} câu. Bạn có chắc chắn muốn nộp bài?`)) {
-                  handleSubmitExam();
-                }
-              }}
-              className="px-4 py-1.5 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-700 text-white shadow-sm transition-all"
+              onClick={handleSubmitExam}
+              className="flex items-center gap-1 px-3 sm:px-4 py-1.5 rounded-xl text-xs font-black bg-emerald-600 hover:bg-emerald-700 active:scale-[0.98] text-white shadow-md shadow-emerald-600/20 transition-all cursor-pointer"
             >
-              Nộp bài
+              <CheckCircle2 className="w-4 h-4" />
+              <span>Nộp bài</span>
             </button>
           </div>
         </div>
 
-        {/* Main Content Layout */}
+        {/* Main Question & Answer Container */}
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-          {/* Question area (Left 3 cols) */}
-          <div className="lg:col-span-3 space-y-6">
-            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 shadow-sm">
+          {/* Question Stem & Options */}
+          <div className="lg:col-span-3 space-y-4 sm:space-y-6">
+            <div className="vact-card border vact-border rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-sm">
               {/* Passage if present */}
               {currentQ.passage && (
-                <div className="mb-6 p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 text-sm text-slate-800 dark:text-slate-200 leading-relaxed font-serif whitespace-pre-line">
+                <div className="mb-4 sm:mb-6 p-3.5 sm:p-4 rounded-xl sm:rounded-2xl vact-card-subtle border vact-border text-xs sm:text-base leading-relaxed whitespace-pre-line font-medium vact-text-primary">
                   {currentQ.passage}
                 </div>
               )}
 
-              {/* Question text */}
-              <div className="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-relaxed mb-6 whitespace-pre-line">
+              {/* Question Text */}
+              <h2 className="text-sm sm:text-lg font-black vact-text-primary leading-relaxed mb-4 sm:mb-6 whitespace-pre-line">
                 {currentQ.question}
-              </div>
+              </h2>
 
-              {/* Options */}
-              <div className="space-y-3">
-                {currentQ.options.map((opt, oIdx) => {
-                  const isSelected = answers[currentQ.id] === oIdx;
+              {/* Options List */}
+              <div className="space-y-2.5 sm:space-y-3">
+                {currentQ.options.map((option, optIdx) => {
+                  const isSelected = answers[currentQ.id] === optIdx;
                   return (
-                    <label
-                      key={oIdx}
-                      onClick={() => handleSelectOption(currentQ.id, oIdx)}
-                      className={`flex items-start gap-3 p-4 rounded-xl border text-sm sm:text-base font-medium cursor-pointer transition-all ${
+                    <div
+                      key={optIdx}
+                      onClick={() => handleSelectOption(currentQ.id, optIdx)}
+                      className={`min-h-[50px] p-3 sm:p-4 rounded-xl sm:rounded-2xl border transition-all cursor-pointer flex items-start gap-2.5 sm:gap-3 active:scale-[0.98] ${
                         isSelected 
-                          ? 'border-blue-600 bg-blue-50/80 text-blue-900 dark:border-blue-500 dark:bg-blue-950/50 dark:text-blue-100 shadow-sm' 
-                          : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800/60'
+                          ? 'border-2 border-blue-600 bg-blue-50/40 dark:bg-blue-950/40 shadow-xs' 
+                          : 'vact-card border vact-border hover:border-blue-400'
                       }`}
                     >
-                      <input 
-                        type="radio" 
-                        name={`question-${currentQ.id}`} 
-                        checked={isSelected}
-                        onChange={() => {}}
-                        className="mt-1 w-4 h-4 text-blue-600 border-slate-300 focus:ring-blue-500"
-                      />
-                      <span className="leading-relaxed">{opt}</span>
-                    </label>
+                      <div className={`w-6 h-6 sm:w-7 sm:h-7 rounded-lg sm:rounded-xl font-black text-xs flex items-center justify-center shrink-0 transition-all ${
+                        isSelected 
+                          ? 'bg-blue-600 text-white shadow-xs' 
+                          : 'vact-card-subtle vact-text-secondary border vact-border'
+                      }`}>
+                        {String.fromCharCode(65 + optIdx)}
+                      </div>
+                      <span className={`text-xs sm:text-base leading-relaxed font-bold ${
+                        isSelected ? 'text-blue-700 dark:text-blue-300' : 'vact-text-primary'
+                      }`}>
+                        {option}
+                      </span>
+                    </div>
                   );
                 })}
               </div>
             </div>
 
-            {/* Navigation buttons */}
-            <div className="flex items-center justify-between">
+            {/* Bottom Question Switcher */}
+            <div className="flex items-center justify-between gap-2">
               <button
                 disabled={currentIndex === 0}
                 onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
-                className="flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 font-semibold text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 transition-colors"
+                className="flex items-center gap-1 sm:gap-1.5 px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl font-black text-xs vact-card border vact-border vact-text-primary disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer shadow-xs active:scale-[0.98]"
               >
                 <ChevronLeft className="w-4 h-4" />
                 Câu trước
               </button>
 
+              <span className="text-[11px] sm:text-xs font-black vact-text-muted">
+                {answeredCount}/{totalQ} câu
+              </span>
+
               <button
                 disabled={currentIndex === totalQ - 1}
                 onClick={() => setCurrentIndex(prev => Math.min(totalQ - 1, prev + 1))}
-                className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 font-semibold text-sm text-white shadow-sm disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+                className="flex items-center gap-1 sm:gap-1.5 px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl font-black text-xs bg-blue-600 hover:bg-blue-700 text-white disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer shadow-xs active:scale-[0.98]"
               >
-                Câu tiếp theo
+                Câu tiếp
                 <ChevronRight className="w-4 h-4" />
               </button>
             </div>
           </div>
 
-          {/* Question Grid Sidebar (Right 1 col) */}
-          <div className="lg:col-span-1">
-            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm sticky top-28">
-              <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-3 flex items-center justify-between">
+          {/* Right Question Matrix Palette (Desktop) */}
+          <div className="hidden lg:block lg:col-span-1">
+            <div className="vact-card border vact-border rounded-3xl p-5 shadow-sm sticky top-48">
+              <h3 className="font-black text-xs uppercase tracking-wider vact-text-muted mb-3 flex items-center justify-between">
                 <span>Mục lục câu hỏi</span>
-                <span className="text-xs font-normal text-slate-500">
-                  {answeredCount}/{totalQ} đã làm
-                </span>
+                <span className="text-blue-600 font-bold">{answeredCount}/{totalQ}</span>
               </h3>
 
-              {/* Legend */}
-              <div className="flex items-center gap-3 text-xs mb-4 pb-3 border-b border-slate-100 dark:border-slate-800 text-slate-500 dark:text-slate-400">
-                <div className="flex items-center gap-1.5">
-                  <span className="w-3 h-3 rounded-full bg-blue-600 inline-block"></span>
-                  Đã làm
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <span className="w-3 h-3 rounded-full bg-amber-500 inline-block"></span>
-                  Cờ
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <span className="w-3 h-3 rounded-full bg-slate-200 dark:bg-slate-700 inline-block"></span>
-                  Chưa
-                </div>
-              </div>
-
-              {/* Number Buttons Grid */}
-              <div className="grid grid-cols-5 gap-2 max-h-[360px] overflow-y-auto pr-1">
+              <div className="grid grid-cols-5 gap-2 max-h-[500px] overflow-y-auto p-1 ios-scroll">
                 {currentQuestions.map((q, idx) => {
                   const isCurrent = idx === currentIndex;
-                  const isDone = answers[q.id] !== undefined;
-                  const isFl = flagged[q.id];
+                  const isAns = answers[q.id] !== undefined;
+                  const isFlag = flagged[q.id];
 
-                  let btnStyle = 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300';
-                  if (isDone) btnStyle = 'bg-blue-600 text-white font-bold';
-                  if (isFl) btnStyle = 'bg-amber-500 text-white font-bold ring-2 ring-amber-300';
-                  if (isCurrent) btnStyle += ' ring-2 ring-blue-400 ring-offset-2 dark:ring-offset-slate-900';
+                  let btnClass = 'vact-card-subtle vact-text-secondary border vact-border';
+                  if (isAns) btnClass = 'bg-blue-600 text-white font-black shadow-xs';
+                  if (isFlag) btnClass = 'bg-amber-400 text-slate-950 font-black ring-2 ring-amber-300';
+                  if (isCurrent) btnClass += ' ring-2 ring-blue-500 font-black scale-105';
 
                   return (
                     <button
                       key={q.id}
                       onClick={() => setCurrentIndex(idx)}
-                      className={`w-full aspect-square rounded-lg text-xs font-semibold flex items-center justify-center transition-all ${btnStyle}`}
+                      className={`h-9 rounded-xl text-xs font-bold transition-all flex items-center justify-center cursor-pointer ${btnClass}`}
                     >
                       {idx + 1}
                     </button>
                   );
                 })}
               </div>
+
+              <div className="mt-4 pt-4 border-t vact-border space-y-2 text-[11px] font-bold vact-text-muted">
+                <div className="flex items-center gap-2">
+                  <div className="w-3.5 h-3.5 rounded-md bg-blue-600"></div>
+                  <span>Đã trả lời ({answeredCount})</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-3.5 h-3.5 rounded-md bg-amber-400 border border-amber-500"></div>
+                  <span>Đã gắn cờ ({Object.keys(flagged).filter(k => flagged[k]).length})</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-3.5 h-3.5 rounded-md vact-card-subtle border vact-border"></div>
+                  <span>Chưa trả lời ({totalQ - answeredCount})</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
+        {/* Mobile Slide-Up Question Matrix Modal (iOS Sheet Style) */}
+        {isMobilePaletteOpen && (
+          <div className="lg:hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex flex-col justify-end">
+            <div className="vact-card rounded-t-3xl border-t vact-border p-4 max-h-[80vh] flex flex-col pb-safe shadow-2xl animate-in slide-in-from-bottom duration-200">
+              <div className="flex items-center justify-between pb-3 border-b vact-border mb-3">
+                <div className="flex items-center gap-2">
+                  <span className="font-black vact-text-primary text-sm sm:text-base">Mục lục câu hỏi</span>
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 font-bold">
+                    {answeredCount}/{totalQ} đã làm
+                  </span>
+                </div>
+                <button
+                  onClick={() => setIsMobilePaletteOpen(false)}
+                  className="w-8 h-8 rounded-full vact-card-subtle border vact-border flex items-center justify-center cursor-pointer"
+                >
+                  <X className="w-4 h-4 vact-text-primary" />
+                </button>
+              </div>
+
+              <div className="grid grid-cols-6 sm:grid-cols-8 gap-2 overflow-y-auto p-1 flex-1 ios-scroll">
+                {currentQuestions.map((q, idx) => {
+                  const isCurrent = idx === currentIndex;
+                  const isAns = answers[q.id] !== undefined;
+                  const isFlag = flagged[q.id];
+
+                  let btnClass = 'vact-card-subtle vact-text-secondary border vact-border';
+                  if (isAns) btnClass = 'bg-blue-600 text-white font-black shadow-xs';
+                  if (isFlag) btnClass = 'bg-amber-400 text-slate-950 font-black ring-2 ring-amber-300';
+                  if (isCurrent) btnClass += ' ring-2 ring-blue-500 font-black scale-105';
+
+                  return (
+                    <button
+                      key={q.id}
+                      onClick={() => {
+                        setCurrentIndex(idx);
+                        setIsMobilePaletteOpen(false);
+                      }}
+                      className={`h-10 rounded-xl text-xs font-bold transition-all flex items-center justify-center cursor-pointer active:scale-95 ${btnClass}`}
+                    >
+                      {idx + 1}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-3 mt-2 border-t vact-border flex items-center justify-around text-[10px] font-bold vact-text-muted">
+                <div className="flex items-center gap-1.5">
+                  <div className="w-3 h-3 rounded bg-blue-600"></div>
+                  <span>Đã làm</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="w-3 h-3 rounded bg-amber-400 border border-amber-500"></div>
+                  <span>Gắn cờ</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="w-3 h-3 rounded vact-card-subtle border vact-border"></div>
+                  <span>Chưa làm</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     );
   }
 
-  // RENDER 3: Exam Results View (Official IRT 1200 scale)
+  // =========================================================================
+  // VIEW 3: Result & Explanations Review
+  // =========================================================================
   if (examState === 'result') {
     return (
-      <div className="max-w-5xl mx-auto px-4 py-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-8">
         {/* Score Overview Card */}
-        <div className="bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-700 rounded-3xl p-8 text-white shadow-xl mb-8 relative overflow-hidden">
-          <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
-            <div>
-              <span className="text-xs font-bold tracking-wider uppercase px-3 py-1 rounded-full bg-white/20 backdrop-blur-md mb-3 inline-block">
-                Kết quả thi chuẩn hóa V-ACT (Mô hình IRT)
-              </span>
-              <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
-                {totalCalculatedScore >= 900 ? 'Xuất sắc! Đạt mục tiêu 900+ (Đỗ NV1)' : totalCalculatedScore >= 750 ? 'Khá tốt! Đạt mốc an toàn 750+' : 'Cần nỗ lực thêm để bứt phá!'}
-              </h2>
-              <p className="mt-1 text-blue-100 text-sm">
-                Đúng {correctCount}/{totalQ} câu • Tỷ lệ chính xác toàn bài: {Math.round((correctCount / totalQ) * 100)}%
-              </p>
-            </div>
-
-            <div className="flex flex-col items-center bg-white/10 backdrop-blur-md rounded-2xl p-5 border border-white/20 min-w-[200px] text-center">
-              <span className="text-xs text-blue-200 uppercase font-semibold">Tổng điểm V-ACT</span>
-              <span className="text-4xl sm:text-5xl font-black mt-1 text-white tracking-tight">
-                {totalCalculatedScore}
-              </span>
-              <span className="text-xs text-blue-200 mt-1">Thang điểm chuẩn 1.200</span>
-            </div>
+        <div className="vact-card border vact-border rounded-2xl sm:rounded-3xl p-5 sm:p-10 shadow-sm mb-6 sm:mb-8 text-center">
+          <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-[11px] sm:text-xs font-black bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 mb-3 sm:mb-4 border border-blue-300 dark:border-blue-800">
+            <Award className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600" />
+            Kết Quả Chuẩn Hóa Theo Mô Hình IRT (Thang Điểm 1.200)
           </div>
 
-          <div className="mt-6 pt-6 border-t border-white/20 flex flex-wrap gap-3">
+          <h2 className="text-3xl sm:text-5xl font-black vact-text-primary tracking-tight mb-2">
+            {totalCalculatedScore} <span className="text-lg sm:text-2xl vact-text-muted font-bold">/ 1.200đ</span>
+          </h2>
+          
+          <p className="text-xs sm:text-base vact-text-secondary font-medium max-w-xl mx-auto mb-6 sm:mb-8">
+            Bạn đã làm đúng <strong>{correctCount} / {totalQ}</strong> câu hỏi ({Math.round((correctCount / totalQ) * 100)}%).
+            {totalCalculatedScore >= 900 ? ' Xuất sắc! Năng lực cạnh tranh vào các trường top đầu ĐHQG TP.HCM rất cao.' :
+             totalCalculatedScore >= 750 ? ' Rất tốt! Đạt ngưỡng điểm chuẩn của đa số ngành xét tuyển V-ACT.' :
+             ' Cần rèn luyện thêm các chuyên đề để bứt phá mục tiêu 800+ điểm.'}
+          </p>
+
+          {/* 4 Official Sub-Score Cards - 2 cols on mobile, 4 cols on desktop */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4 mb-6 sm:mb-8">
+            {Object.keys(officialScores).map(key => {
+              const item = officialScores[key];
+              return (
+                <div key={key} className="p-3 sm:p-4 rounded-xl sm:rounded-2xl vact-card-subtle border vact-border text-left">
+                  <div className="text-[10px] sm:text-xs font-black vact-text-muted mb-0.5 truncate">{item.name}</div>
+                  <div className="text-xl sm:text-2xl font-black text-blue-600 dark:text-blue-400">
+                    {item.score} <span className="text-[10px] sm:text-xs font-bold vact-text-muted">/ 300đ</span>
+                  </div>
+                  <div className="mt-1 text-[10px] sm:text-xs font-bold vact-text-secondary">
+                    Đúng {item.correct}/{item.total} ({item.percentage}%)
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-2.5 sm:gap-3">
             <button
               onClick={() => handleStartExam(selectedExamId, filterSection)}
-              className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white text-blue-700 font-bold text-sm shadow-md hover:bg-blue-50 transition-colors"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-black text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20 transition-all cursor-pointer active:scale-[0.98]"
             >
               <RotateCcw className="w-4 h-4" />
-              Làm lại bài thi này
+              Làm lại đề thi này
             </button>
+
             <button
               onClick={() => setExamState('list')}
-              className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white/15 hover:bg-white/25 text-white font-semibold text-sm transition-colors"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-black text-xs sm:text-sm vact-card border vact-border vact-text-primary hover:border-blue-500 transition-all cursor-pointer shadow-xs active:scale-[0.98]"
             >
-              Chọn đề khác
+              <Layers className="w-4 h-4" />
+              Chọn đề thi khác
             </button>
           </div>
         </div>
 
-        {/* 4 Official Subsections Breakdown (Each 300 Max Points) */}
-        <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 shadow-sm mb-8">
-          <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
-            <BarChart2 className="w-5 h-5 text-blue-600" />
-            Chi tiết 4 Hợp Phần Thi (Mỗi hợp phần 300 điểm = 1.200 điểm)
-          </h3>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {Object.entries(officialScores).map(([key, item]) => (
-              <div key={key} className="p-4 rounded-xl border border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/40">
-                <div className="flex justify-between items-center mb-1">
-                  <span className="font-bold text-sm text-slate-800 dark:text-slate-200">{item.name}</span>
-                  <span className="font-bold text-sm text-blue-600 dark:text-blue-400">
-                    {item.score} / {item.max} điểm
-                  </span>
-                </div>
-                <div className="flex justify-between text-xs text-slate-500 mb-2">
-                  <span>Đúng {item.correct}/{item.total} câu</span>
-                  <span>{item.percentage}%</span>
-                </div>
-                <div className="w-full h-2.5 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
-                  <div 
-                    className={`h-full rounded-full transition-all duration-500 ${
-                      item.percentage >= 80 ? 'bg-emerald-500' : item.percentage >= 60 ? 'bg-blue-500' : item.percentage >= 40 ? 'bg-amber-500' : 'bg-rose-500'
-                    }`}
-                    style={{ width: `${item.percentage}%` }}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Detailed Review of All Questions */}
-        <div className="space-y-6">
-          <h3 className="text-xl font-bold text-slate-900 dark:text-white">
-            Chi tiết lời giải và đáp án từng câu
+        {/* Detailed Answers Review */}
+        <div className="space-y-4 sm:space-y-6">
+          <h3 className="text-lg sm:text-2xl font-black vact-text-primary">
+            Chi Tiết Lời Giải & Phân Tích Từng Câu
           </h3>
 
           {currentQuestions.map((q, idx) => {
-            const userChoice = answers[q.id];
-            const isCorrect = userChoice === q.correctAnswer;
+            const userAns = answers[q.id];
+            const isCorrect = userAns === q.correctAnswer;
             const isSaved = savedMistakeIds.includes(q.id);
 
             return (
               <div 
                 key={q.id}
-                className={`bg-white dark:bg-slate-900 rounded-2xl border p-6 transition-all shadow-sm ${
-                  isCorrect 
-                    ? 'border-emerald-200 dark:border-emerald-900/60' 
-                    : 'border-rose-200 dark:border-rose-900/60'
+                className={`p-4 sm:p-8 rounded-2xl sm:rounded-3xl border vact-card shadow-sm ${
+                  isCorrect ? 'border-emerald-500/30' : 'border-rose-500/30'
                 }`}
               >
-                <div className="flex items-center justify-between gap-3 mb-3">
-                  <div className="flex items-center gap-2">
-                    <span className="font-bold text-slate-900 dark:text-white text-sm">
-                      Câu {idx + 1}
-                    </span>
-                    <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400">
+                <div className="flex items-center justify-between gap-2 mb-3 sm:mb-4">
+                  <div className="flex items-center gap-1.5 sm:gap-2">
+                    <span className="font-black vact-text-primary text-sm sm:text-base">Câu {idx + 1}</span>
+                    <span className="text-[10px] sm:text-xs font-black px-2 py-0.5 rounded-full vact-card-subtle border vact-border vact-text-secondary truncate max-w-[150px] sm:max-w-none">
                       {q.sectionName}
                     </span>
-                    {isCorrect ? (
-                      <span className="flex items-center gap-1 text-xs font-bold text-emerald-600 dark:text-emerald-400">
-                        <CheckCircle2 className="w-4 h-4" /> Chính xác
-                      </span>
-                    ) : (
-                      <span className="flex items-center gap-1 text-xs font-bold text-rose-600 dark:text-rose-400">
-                        <XCircle className="w-4 h-4" /> Chưa đúng
-                      </span>
-                    )}
                   </div>
 
-                  {/* Bookmark mistake button */}
-                  <button
-                    onClick={() => onSaveMistake(q)}
-                    className={`flex items-center gap-1 text-xs font-semibold px-2.5 py-1 rounded-lg transition-colors ${
-                      isSaved 
-                        ? 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300' 
-                        : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-amber-600'
-                    }`}
-                  >
-                    {isSaved ? <BookmarkCheck className="w-3.5 h-3.5 text-amber-600" /> : <Bookmark className="w-3.5 h-3.5" />}
-                    {isSaved ? 'Đã lưu sổ tay' : 'Lưu vào sổ tay'}
-                  </button>
+                  <div className="flex items-center gap-1.5 sm:gap-2">
+                    {isCorrect ? (
+                      <span className="flex items-center gap-1 text-[11px] sm:text-xs font-black text-emerald-600 bg-emerald-100 dark:bg-emerald-950 px-2.5 py-1 rounded-full border border-emerald-300 dark:border-emerald-800">
+                        <CheckCircle2 className="w-3.5 h-3.5" /> Đúng
+                      </span>
+                    ) : (
+                      <span className="flex items-center gap-1 text-[11px] sm:text-xs font-black text-rose-600 bg-rose-100 dark:bg-rose-950 px-2.5 py-1 rounded-full border border-rose-300 dark:border-rose-800">
+                        <XCircle className="w-3.5 h-3.5" /> Sai
+                      </span>
+                    )}
+
+                    {!isCorrect && (
+                      <button
+                        onClick={() => onSaveMistake(q)}
+                        className={`flex items-center gap-1 text-[11px] sm:text-xs font-black px-2.5 py-1 rounded-full border transition-all cursor-pointer ${
+                          isSaved 
+                            ? 'bg-amber-400 text-slate-950 border-amber-500' 
+                            : 'vact-card border vact-border vact-text-secondary hover:text-amber-600'
+                        }`}
+                        title="Lưu vào sổ tay câu sai"
+                      >
+                        {isSaved ? <BookmarkCheck className="w-3.5 h-3.5" /> : <Bookmark className="w-3.5 h-3.5" />}
+                        <span className="hidden xs:inline">{isSaved ? 'Đã lưu' : 'Lưu sai'}</span>
+                      </button>
+                    )}
+                  </div>
                 </div>
 
                 {q.passage && (
-                  <div className="mb-4 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-serif whitespace-pre-line border border-slate-200/60 dark:border-slate-700/60">
+                  <div className="mb-3 sm:mb-4 p-3 sm:p-4 rounded-xl sm:rounded-2xl vact-card-subtle border vact-border text-xs sm:text-sm leading-relaxed whitespace-pre-line font-medium vact-text-primary">
                     {q.passage}
                   </div>
                 )}
 
-                <p className="font-semibold text-slate-900 dark:text-white text-base mb-4 whitespace-pre-line">
+                <h4 className="font-black text-xs sm:text-base vact-text-primary mb-3 sm:mb-4 whitespace-pre-line">
                   {q.question}
-                </p>
+                </h4>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
+                {/* Options grid */}
+                <div className="space-y-1.5 sm:space-y-2 mb-3 sm:mb-4">
                   {q.options.map((opt, oIdx) => {
-                    const isUserPick = userChoice === oIdx;
-                    const isRightAnswer = q.correctAnswer === oIdx;
+                    const isRight = oIdx === q.correctAnswer;
+                    const isPicked = oIdx === userAns;
 
-                    let optClass = 'border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/40 text-slate-700 dark:text-slate-300';
-                    if (isRightAnswer) {
-                      optClass = 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-200 font-semibold ring-1 ring-emerald-500';
-                    } else if (isUserPick && !isRightAnswer) {
-                      optClass = 'border-rose-500 bg-rose-50 dark:bg-rose-950/40 text-rose-900 dark:text-rose-200 font-semibold ring-1 ring-rose-500';
-                    }
+                    let optClass = 'vact-card-subtle border vact-border vact-text-secondary';
+                    if (isRight) optClass = 'bg-emerald-50 dark:bg-emerald-950/40 border-2 border-emerald-500 text-emerald-800 dark:text-emerald-200 font-bold';
+                    else if (isPicked && !isRight) optClass = 'bg-rose-50 dark:bg-rose-950/40 border-2 border-rose-500 text-rose-800 dark:text-rose-200 font-bold';
 
                     return (
-                      <div key={oIdx} className={`p-3 rounded-xl border text-sm flex items-center justify-between ${optClass}`}>
+                      <div key={oIdx} className={`p-2.5 sm:p-3 rounded-xl border text-xs sm:text-sm flex items-center justify-between ${optClass}`}>
                         <span>{opt}</span>
-                        {isRightAnswer && <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />}
-                        {isUserPick && !isRightAnswer && <XCircle className="w-4 h-4 text-rose-600 shrink-0" />}
+                        {isRight && <span className="text-[10px] sm:text-xs font-black text-emerald-600 dark:text-emerald-400">Đáp án đúng</span>}
+                        {isPicked && !isRight && <span className="text-[10px] sm:text-xs font-black text-rose-600 dark:text-rose-400">Bạn đã chọn</span>}
                       </div>
                     );
                   })}
                 </div>
 
-                {/* Detailed explanation */}
-                <div className="p-4 rounded-xl bg-blue-50/60 dark:bg-blue-950/40 border border-blue-200/60 dark:border-blue-900/40 text-sm">
-                  <div className="font-bold text-blue-900 dark:text-blue-200 mb-1 flex items-center gap-1.5">
-                    <HelpCircle className="w-4 h-4 text-blue-600 dark:text-blue-400" />
-                    Giải thích chi tiết:
-                  </div>
-                  <p className="text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">
-                    {q.explanation}
-                  </p>
+                {/* Explanation */}
+                <div className="p-3 sm:p-4 rounded-xl sm:rounded-2xl vact-card-subtle border vact-border text-xs sm:text-sm leading-relaxed">
+                  <div className="font-black text-blue-600 dark:text-blue-400 mb-1">Phương pháp & Giải thích:</div>
+                  <div className="vact-text-primary font-medium">{q.explanation}</div>
                 </div>
               </div>
             );

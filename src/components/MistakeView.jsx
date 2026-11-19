@@ -9,14 +9,14 @@ export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMista
   if (mistakes.length === 0) {
     return (
       <div className="max-w-4xl mx-auto px-4 py-16 text-center">
-        <div className="w-16 h-16 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mx-auto mb-4">
+        <div className="w-16 h-16 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mx-auto mb-4 border border-emerald-300 dark:border-emerald-800">
           <BookmarkCheck className="w-8 h-8" />
         </div>
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">
+        <h2 className="text-xl sm:text-2xl font-black vact-text-primary mb-2">
           Sổ tay câu sai trống!
         </h2>
-        <p className="text-slate-500 dark:text-slate-400 text-sm max-w-md mx-auto">
-          Khi làm bài thi thử, hãy bấm "Lưu vào sổ tay" ở những câu bạn làm sai hoặc phân vân để gom lại ôn tập tại đây.
+        <p className="vact-text-muted text-xs sm:text-sm max-w-md mx-auto leading-relaxed">
+          Khi làm bài thi thử, hãy bấm "Lưu câu sai" ở những câu bạn làm sai hoặc phân vân để gom lại ôn tập tại đây.
         </p>
       </div>
     );
@@ -34,25 +34,25 @@ export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMista
   };
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <div className="max-w-5xl mx-auto px-3 sm:px-6 py-4 sm:py-8">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6 sm:mb-8">
         <div>
-          <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight flex items-center gap-2">
+          <h1 className="text-xl sm:text-3xl font-black vact-text-primary tracking-tight flex items-center gap-2">
             <span>Sổ Tay Câu Sai & Hay Nhầm</span>
-            <span className="text-sm px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300 font-bold">
+            <span className="text-xs px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-900 dark:bg-rose-950 dark:text-rose-200 font-bold border border-rose-300 dark:border-rose-800">
               {mistakes.length} câu
             </span>
           </h1>
-          <p className="mt-1 text-slate-600 dark:text-slate-400 text-sm">
+          <p className="mt-1 vact-text-secondary text-xs sm:text-sm leading-relaxed">
             Học từ chính sai lầm là cách nhanh nhất để nâng điểm số. Làm lại cho đến khi thuộc lòng!
           </p>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 w-full sm:w-auto">
           <button
             onClick={() => setActiveTab(activeTab === 'list' ? 'quiz' : 'list')}
-            className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white shadow-sm transition-colors"
+            className="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-black bg-blue-600 hover:bg-blue-700 text-white shadow-xs transition-colors cursor-pointer active:scale-95"
           >
             <RotateCcw className="w-3.5 h-3.5" />
             {activeTab === 'list' ? 'Làm lại các câu này' : 'Xem dạng danh sách'}
@@ -64,7 +64,7 @@ export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMista
                 onClearAllMistakes();
               }
             }}
-            className="p-2 rounded-xl text-slate-400 hover:text-rose-600 hover:bg-rose-50 dark:hover:bg-rose-950/40 transition-colors"
+            className="p-2.5 rounded-xl vact-card border vact-border vact-text-muted hover:text-rose-600 transition-colors cursor-pointer active:scale-95"
             title="Xóa tất cả câu đã lưu"
           >
             <Trash2 className="w-4 h-4" />
@@ -73,7 +73,7 @@ export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMista
       </div>
 
       {/* List Mode */}
-      <div className="space-y-6">
+      <div className="space-y-4 sm:space-y-6">
         {mistakes.map((q, idx) => {
           const userPick = quizAnswers[q.id];
           const isAnswered = userPick !== undefined;
@@ -83,53 +83,53 @@ export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMista
           return (
             <div
               key={q.id}
-              className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 shadow-sm"
+              className="vact-card rounded-2xl sm:rounded-3xl border vact-border p-4 sm:p-6 shadow-sm"
             >
               <div className="flex items-center justify-between gap-3 mb-3">
                 <div className="flex items-center gap-2">
-                  <span className="font-bold text-slate-900 dark:text-white text-sm">
+                  <span className="font-black vact-text-primary text-sm sm:text-base">
                     Câu {idx + 1}
                   </span>
-                  <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400">
+                  <span className="text-[10px] sm:text-xs px-2.5 py-0.5 rounded-full vact-card-subtle border vact-border vact-text-secondary">
                     {q.sectionName}
                   </span>
                 </div>
 
                 <button
                   onClick={() => onRemoveMistake(q.id)}
-                  className="text-xs text-slate-400 hover:text-rose-600 flex items-center gap-1 transition-colors"
+                  className="text-xs font-bold vact-text-muted hover:text-rose-600 flex items-center gap-1 transition-colors cursor-pointer"
                   title="Xóa câu này khỏi sổ tay"
                 >
                   <Trash2 className="w-3.5 h-3.5" />
-                  <span>Đã nắm vững</span>
+                  <span className="hidden xs:inline">Đã nắm vững</span>
                 </button>
               </div>
 
               {q.passage && (
-                <div className="mb-4 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-serif whitespace-pre-line border border-slate-200/60 dark:border-slate-700/60">
+                <div className="mb-3 sm:mb-4 p-3.5 rounded-xl vact-card-subtle border vact-border text-xs sm:text-sm vact-text-primary whitespace-pre-line font-medium leading-relaxed">
                   {q.passage}
                 </div>
               )}
 
-              <p className="font-semibold text-slate-900 dark:text-white text-base mb-4 whitespace-pre-line">
+              <p className="font-black vact-text-primary text-sm sm:text-base mb-4 whitespace-pre-line">
                 {q.question}
               </p>
 
               {/* Options */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
                 {q.options.map((opt, oIdx) => {
-                  let optStyle = 'border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/40 text-slate-700 dark:text-slate-300';
+                  let optStyle = 'vact-card-subtle border vact-border vact-text-secondary';
                   
                   if (activeTab === 'list') {
                     if (oIdx === q.correctAnswer) {
-                      optStyle = 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-200 font-semibold ring-1 ring-emerald-500';
+                      optStyle = 'border-2 border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-200 font-black';
                     }
                   } else {
                     if (isAnswered) {
                       if (oIdx === q.correctAnswer) {
-                        optStyle = 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-200 font-semibold';
+                        optStyle = 'border-2 border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-200 font-black';
                       } else if (userPick === oIdx) {
-                        optStyle = 'border-rose-500 bg-rose-50 dark:bg-rose-950/40 text-rose-900 dark:text-rose-200 font-semibold';
+                        optStyle = 'border-2 border-rose-500 bg-rose-50 dark:bg-rose-950/40 text-rose-800 dark:text-rose-200 font-black';
                       }
                     }
                   }
@@ -138,8 +138,8 @@ export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMista
                     <div
                       key={oIdx}
                       onClick={() => activeTab === 'quiz' && !isAnswered && handleSelectQuizOption(q.id, oIdx)}
-                      className={`p-3 rounded-xl border text-sm flex items-center justify-between ${optStyle} ${
-                        activeTab === 'quiz' && !isAnswered ? 'cursor-pointer hover:border-blue-400' : ''
+                      className={`min-h-[44px] p-3 rounded-xl border text-xs sm:text-sm flex items-center justify-between ${optStyle} ${
+                        activeTab === 'quiz' && !isAnswered ? 'cursor-pointer hover:border-blue-400 active:scale-98' : ''
                       }`}
                     >
                       <span>{opt}</span>
@@ -159,12 +159,12 @@ export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMista
 
               {/* Explanation */}
               {isExplVisible && (
-                <div className="p-4 rounded-xl bg-blue-50/60 dark:bg-blue-950/40 border border-blue-200/60 dark:border-blue-900/40 text-sm">
-                  <div className="font-bold text-blue-900 dark:text-blue-200 mb-1 flex items-center gap-1.5">
+                <div className="p-3.5 sm:p-4 rounded-xl vact-card-subtle border vact-border text-xs sm:text-sm leading-relaxed">
+                  <div className="font-black text-blue-600 dark:text-blue-400 mb-1 flex items-center gap-1.5">
                     <HelpCircle className="w-4 h-4 text-blue-600 dark:text-blue-400" />
                     Lời giải chi tiết:
                   </div>
-                  <p className="text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">
+                  <p className="vact-text-primary whitespace-pre-line font-medium">
                     {q.explanation}
                   </p>
                 </div>

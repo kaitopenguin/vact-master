@@ -2,91 +2,175 @@
 
 @layer base {
   :root {
-    --font-sans: 'Be Vietnam Pro', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    
+    /* LIGHT MODE (Default) - WCAG AAA Contrast */
+    --bg-page: #f8fafc;
+    --bg-nav: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-subtle: #f1f5f9;
+    --bg-card-hover: #e2e8f0;
+    --border-color: #cbd5e1;
+    --border-strong: #94a3b8;
+    --text-primary: #090e17;
+    --text-secondary: #273444;
+    --text-muted: #53647b;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --accent-text: #ffffff;
+    --accent-bg-subtle: #eff6ff;
   }
-  
-  body {
-    font-family: var(--font-sans);
+
+  /* DARK MODE (Midnight) - Solid and crisp */
+  .dark, body.theme-dark {
+    --bg-page: #0a0e17;
+    --bg-nav: #0f172a;
+    --bg-card: #141c2e;
+    --bg-card-subtle: #1b263d;
+    --bg-card-hover: #243352;
+    --border-color: #27385a;
+    --border-strong: #3b5182;
+    --text-primary: #ffffff;
+    --text-secondary: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #3b82f6;
+    --accent-hover: #60a5fa;
+    --accent-text: #ffffff;
+    --accent-bg-subtle: #172554;
+  }
+
+  /* SEPIA / WARM PAPER MODE (Chống mỏi mắt & cận thị) - Solid warm paper */
+  body.theme-sepia {
+    --bg-page: #fbf6ec;
+    --bg-nav: #f3ebdb;
+    --bg-card: #ffffff;
+    --bg-card-subtle: #f4ecdc;
+    --bg-card-hover: #e8dec8;
+    --border-color: #d3c4a9;
+    --border-strong: #b5a07e;
+    --text-primary: #191108;
+    --text-secondary: #3b2a1a;
+    --text-muted: #6e543c;
+    --accent: #b45309;
+    --accent-hover: #92400e;
+    --accent-text: #ffffff;
+    --accent-bg-subtle: #fef3c7;
+  }
+
+  html, body {
+    height: 100%;
+    min-height: 100dvh;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
   }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    transition: background-color 0.15s ease, color 0.15s ease;
+    overflow-x: hidden;
+  }
 }
 
-/* Theme definitions */
-body.theme-light {
-  background-color: #f8fafc;
-  color: #0f172a;
+/* iOS Safe Area Insets Helpers */
+.pt-safe {
+  padding-top: max(env(safe-area-inset-top), 0.75rem);
 }
 
-body.theme-dark {
-  background-color: #090d16;
-  color: #f1f5f9;
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom), 1rem);
 }
 
-/* Eye-Care Warm Paper / Sepia Mode (Chống mỏi mắt cho người cận thị) */
-body.theme-sepia {
-  background-color: #fbf7ed;
-  color: #2e261d;
+.px-safe {
+  padding-left: max(env(safe-area-inset-left), 1rem);
+  padding-right: max(env(safe-area-inset-right), 1rem);
 }
 
-body.theme-sepia .bg-white {
-  background-color: #f4ede0 !important;
-  border-color: #e2d7c5 !important;
+/* Custom UI Utility classes with guaranteed 100% opacity and contrast */
+.vact-nav {
+  background-color: var(--bg-nav) !important;
+  border-color: var(--border-color) !important;
 }
 
-body.theme-sepia .bg-slate-50 {
-  background-color: #eee5d3 !important;
+.vact-card {
+  background-color: var(--bg-card) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-primary) !important;
 }
 
-body.theme-sepia .text-slate-900 {
-  color: #241c14 !important;
+.vact-card-subtle {
+  background-color: var(--bg-card-subtle) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-secondary) !important;
 }
 
-body.theme-sepia .text-slate-700 {
-  color: #3d3226 !important;
+.vact-tab-inactive {
+  background-color: transparent;
+  color: var(--text-secondary) !important;
 }
 
-body.theme-sepia .text-slate-600,
-body.theme-sepia .text-slate-500 {
-  color: #5e5040 !important;
+.vact-tab-inactive:hover {
+  background-color: var(--bg-card-hover) !important;
+  color: var(--text-primary) !important;
 }
 
-body.theme-sepia .border-slate-200 {
-  border-color: #ded1bd !important;
+.vact-text-primary {
+  color: var(--text-primary) !important;
+}
+
+.vact-text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.vact-text-muted {
+  color: var(--text-muted) !important;
+}
+
+.vact-border {
+  border-color: var(--border-color) !important;
 }
 
 /* Font size scalers for visual accessibility */
-.font-scale-normal {
-  font-size: 1rem;
-  line-height: 1.7;
+body.font-scale-normal {
+  font-size: 16px;
+  line-height: 1.65;
 }
 
-.font-scale-large {
-  font-size: 1.125rem;
-  line-height: 1.8;
+body.font-scale-large {
+  font-size: 18px;
+  line-height: 1.75;
 }
 
-.font-scale-xlarge {
-  font-size: 1.25rem;
-  line-height: 1.9;
+body.font-scale-xlarge {
+  font-size: 20px;
+  line-height: 1.85;
 }
 
-/* Custom scrollbar */
+/* iOS Touch scrolling support */
+.ios-scroll {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Custom crisp scrollbars */
 ::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: var(--bg-page);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(148, 163, 184, 0.4);
+  background: var(--border-strong);
   border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(148, 163, 184, 0.7);
+  background: var(--text-muted);
 }

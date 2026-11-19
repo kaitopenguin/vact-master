@@ -83,8 +83,8 @@ export default function App() {
   };
 
   return (
-    <div className={`min-h-screen font-sans selection:bg-blue-500 selection:text-white transition-colors duration-200 font-scale-${fontSize}`}>
-      {/* Top Navigation Bar with Eye-Care & Font controls */}
+    <div className={`min-h-[100dvh] font-sans selection:bg-blue-500 selection:text-white transition-colors duration-200 font-scale-${fontSize}`}>
+      {/* Top Navigation Bar with Eye-Care & Font controls & Mobile Bottom Nav */}
       <Navbar
         currentTab={currentTab}
         setCurrentTab={setCurrentTab}
@@ -96,8 +96,8 @@ export default function App() {
         onOpenDeploy={() => setIsDeployModalOpen(true)}
       />
 
-      {/* Main Content Area */}
-      <main className="pb-16">
+      {/* Main Content Area - Extra bottom padding for iOS Home bar & Bottom nav */}
+      <main className="pb-28 md:pb-16 px-safe">
         {currentTab === 'exam' && (
           <ExamView
             onSaveMistake={handleSaveMistake}
@@ -137,15 +137,15 @@ export default function App() {
       )}
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 dark:border-slate-800/80 py-8 text-center text-xs text-slate-500 dark:text-slate-400">
+      <footer className="border-t vact-border py-8 pb-32 md:pb-8 text-center text-xs vact-text-muted">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="font-bold text-slate-800 dark:text-slate-200">V-ACT Master</span>
+            <span className="font-black vact-text-primary">V-ACT Master</span>
             <span>•</span>
             <span>Nền tảng Luyện thi Đánh Giá Năng Lực ĐHQG TP.HCM Miễn Phí</span>
           </div>
           <div className="flex items-center gap-3">
-            <span>Chế độ: {theme === 'sepia' ? 'Giấy vàng bảo vệ mắt' : theme === 'dark' ? 'Ban đêm' : 'Sáng chuẩn'}</span>
+            <span>Chế độ: {theme === 'sepia' ? 'Giấy ấm bảo vệ mắt' : theme === 'dark' ? 'Ban đêm' : 'Sáng chuẩn'}</span>
             <span>•</span>
             <span>Cỡ chữ: {fontSize === 'xlarge' ? 'Cực lớn (A++)' : fontSize === 'large' ? 'Lớn (A+)' : 'Chuẩn (A)'}</span>
           </div>
