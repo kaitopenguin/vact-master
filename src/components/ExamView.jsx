@@ -480,7 +480,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                       <span className={`text-xs sm:text-base leading-relaxed font-bold ${
                         isSelected ? 'text-blue-700 dark:text-blue-300' : 'vact-text-primary'
                       }`}>
-                        {option}
+                        {typeof option === 'string' ? option.replace(/^[A-D]\.\s*/, '') : option}
                       </span>
                     </div>
                   );
@@ -771,7 +771,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
 
                     return (
                       <div key={oIdx} className={`p-2.5 sm:p-3 rounded-xl border text-xs sm:text-sm flex items-center justify-between ${optClass}`}>
-                        <span>{opt}</span>
+                        <span>{typeof opt === 'string' ? opt.replace(/^[A-D]\.\s*/, '') : opt}</span>
                         {isRight && <span className="text-[10px] sm:text-xs font-black text-emerald-600 dark:text-emerald-400">Đáp án đúng</span>}
                         {isPicked && !isRight && <span className="text-[10px] sm:text-xs font-black text-rose-600 dark:text-rose-400">Bạn đã chọn</span>}
                       </div>
