@@ -66,7 +66,7 @@ export default function TipsView({ fontSize = 'normal' }) {
             .trim()
             .split('\n')
             .filter(l => l.trim().length > 0)
-            .map(l => l.replace(/^\d+\.\s*/, '').replace(/^\*\*/, '').replace(/\*\*$/, '').replace(/###\s*/, ''));
+            .map(l => l.replace(/^\d+\.\s*/, '').replace(/^[-*]\s*/, '').replace(/\*\*/g, '').replace(/###\s*/, ''));
 
           return (
             <div
