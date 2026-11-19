@@ -2,41 +2,69 @@ import React, { useState } from 'react';
 import { 
   Lightbulb, 
   Clock, 
-  CheckSquare, 
   Sparkles, 
-  UserCheck, 
   ShieldAlert, 
   Target, 
   Calculator, 
+  BarChart3,
+  Microscope,
   CheckCircle2, 
-  Award,
-  Zap,
-  Bookmark
+  Copy,
+  Check,
+  Search,
+  BookOpen,
+  ArrowRight
 } from 'lucide-react';
 import { EXAM_TIPS } from '../data/tipsData';
 
-export default function TipsView({ fontSize = 'normal' }) {
+export default function TipsView({ fontSize = 'normal', onOpenCasio }) {
   const [selectedCategory, setSelectedCategory] = useState('all');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [copiedId, setCopiedId] = useState(null);
 
   const categories = [
     { id: 'all', label: 'Tất cả bí kíp' },
-    { id: 'time', label: '⏱️ Quản lý thời gian' },
-    { id: 'casio', label: '🔢 Kỹ năng Casio' },
-    { id: 'logic', label: '🧠 Tư duy Logic' },
-    { id: 'elimination', label: '🎯 Loại trừ & Khoanh bừa' },
+    { id: '⏱️ Quản lý thời gian', label: '⏱️ Thời gian' },
+    { id: '🔢 Kỹ năng Casio', label: '🔢 Bấm máy Casio' },
+    { id: '🧠 Tư duy Logic', label: '🧠 Tư duy Logic' },
+    { id: '📊 Phân tích số liệu', label: '📊 Phân tích Số liệu' },
+    { id: '🔬 Suy luận Khoa học', label: '🔬 Khoa học' },
+    { id: '🎯 Loại trừ & Khoanh bừa', label: '🎯 Loại trừ & Khoanh bừa' },
   ];
 
+  const filteredTips = EXAM_TIPS.filter(tip => {
+    const matchesCat = selectedCategory === 'all' || tip.category === selectedCategory;
+    const q = searchQuery.toLowerCase();
+    const matchesSearch = tip.title.toLowerCase().includes(q) ||
+                          tip.content.toLowerCase().includes(q) ||
+                          tip.source.toLowerCase().includes(q) ||
+                          (tip.tags && tip.tags.some(t => t.toLowerCase().includes(q)));
+    return matchesCat && matchesSearch;
+  });
+
   const getCategoryMeta = (cat) => {
-    if (cat.includes('VnNO1') || cat.includes('Logic')) {
+    if (cat.includes('Logic')) {
       return { icon: Target, color: 'text-indigo-600 bg-indigo-50 dark:bg-indigo-950 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800' };
     }
-    if (cat.includes('CPEN') || cat.includes('thời gian')) {
+    if (cat.includes('Thời gian') || cat.includes('thời gian')) {
       return { icon: Clock, color: 'text-blue-600 bg-blue-50 dark:bg-blue-950 dark:text-blue-300 border-blue-200 dark:border-blue-800' };
     }
     if (cat.includes('Casio')) {
       return { icon: Calculator, color: 'text-emerald-600 bg-emerald-50 dark:bg-emerald-950 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800' };
     }
+    if (cat.includes('Số liệu') || cat.includes('số liệu')) {
+      return { icon: BarChart3, color: 'text-cyan-600 bg-cyan-50 dark:bg-cyan-950 dark:text-cyan-300 border-cyan-200 dark:border-cyan-800' };
+    }
+    if (cat.includes('Khoa học')) {
+      return { icon: Microscope, color: 'text-purple-600 bg-purple-50 dark:bg-purple-950 dark:text-purple-300 border-purple-200 dark:border-purple-800' };
+    }
     return { icon: Sparkles, color: 'text-amber-600 bg-amber-50 dark:bg-amber-950 dark:text-amber-300 border-amber-200 dark:border-amber-800' };
+  };
+
+  const handleCopy = (tip) => {
+    navigator.clipboard.writeText(`${tip.title}\n\n${tip.content}`);
+    setCopiedId(tip.id);
+    setTimeout(() => setCopiedId(null), 2000);
   };
 
   return (
@@ -47,17 +75,62 @@ export default function TipsView({ fontSize = 'normal' }) {
           <Lightbulb className="w-4 h-4 text-amber-600" />
           Kinh Nghiệm Thực Chiến Từ Thủ Khoa 1000+ (CPEN & VnNO1)
         </div>
-        <h1 className="text-2xl sm:text-4xl font-black vact-text-primary tracking-tight">
-          Cẩm Nang Bí Kíp, Mẹo Bấm Máy & Phản Xạ Phòng Thi
-        </h1>
-        <p className="mt-2 vact-text-secondary max-w-3xl text-xs sm:text-base leading-relaxed font-medium">
-          Đúc kết những chiến thuật sống còn giúp thí sinh tối ưu hóa từng giây làm bài, loại trừ 3 phương án nhiễu và bứt phá từ 100 - 200 điểm thi V-ACT ĐHQG-HCM.
-        </p>
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <h1 className="text-2xl sm:text-4xl font-black vact-text-primary tracking-tight">
+              Cẩm Nang Bí Kíp, Mẹo Bấm Máy & Phản Xạ Phòng Thi
+            </h1>
+            <p className="mt-2 vact-text-secondary max-w-3xl text-xs sm:text-base leading-relaxed font-medium">
+              Đúc kết những chiến thuật sống còn giúp thí sinh tối ưu hóa từng giây làm bài, nhận diện bẫy, loại trừ phương án sai và bứt phá 900+ điểm V-ACT.
+            </p>
+          </div>
+
+          {/* Quick Casio Launch */}
+          {onOpenCasio && (
+            <button
+              onClick={onOpenCasio}
+              className="self-start md:self-auto flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs shadow-md shadow-indigo-500/20 active:scale-95 transition-all cursor-pointer shrink-0"
+            >
+              <Calculator className="w-4 h-4" />
+              <span>Mở Casio 580VNX</span>
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Filter Tabs & Search */}
+      <div className="flex flex-col md:flex-row gap-3 items-stretch md:items-center justify-between mb-6">
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-2 md:pb-0 ios-scroll no-scrollbar -mx-1 px-1">
+          {categories.map(cat => (
+            <button
+              key={cat.id}
+              onClick={() => setSelectedCategory(cat.id)}
+              className={`px-3.5 py-2 rounded-xl text-xs font-black whitespace-nowrap transition-all cursor-pointer ${
+                selectedCategory === cat.id
+                  ? 'bg-amber-600 text-white shadow-xs ring-2 ring-amber-400/40'
+                  : 'vact-card border vact-border vact-text-secondary hover:vact-text-primary'
+              }`}
+            >
+              {cat.label}
+            </button>
+          ))}
+        </div>
+
+        <div className="relative min-w-[260px]">
+          <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 vact-text-muted" />
+          <input
+            type="text"
+            placeholder="Tìm theo chủ đề, mẹo, công thức..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full pl-10 pr-4 py-2.5 rounded-xl text-xs sm:text-sm vact-card border vact-border vact-text-primary placeholder:vact-text-muted focus:outline-none focus:ring-2 focus:ring-amber-500 font-bold"
+          />
+        </div>
       </div>
 
       {/* Grid of Tips */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 mb-10">
-        {EXAM_TIPS.map((tip) => {
+        {filteredTips.map((tip) => {
           const meta = getCategoryMeta(tip.category);
           const Icon = meta.icon;
 
@@ -67,6 +140,8 @@ export default function TipsView({ fontSize = 'normal' }) {
             .split('\n')
             .filter(l => l.trim().length > 0)
             .map(l => l.replace(/^\d+\.\s*/, '').replace(/^[-*]\s*/, '').replace(/\*\*/g, '').replace(/###\s*/, ''));
+
+          const isCasioTip = tip.category.includes('Casio');
 
           return (
             <div
@@ -79,14 +154,38 @@ export default function TipsView({ fontSize = 'normal' }) {
                     <Icon className="w-3.5 h-3.5" />
                     {tip.category}
                   </span>
-                  <span className="text-[11px] font-bold vact-text-muted">
-                    {tip.author}
-                  </span>
+                  <div className="flex items-center gap-2">
+                    <span className="text-[11px] font-bold vact-text-muted">
+                      {tip.source}
+                    </span>
+                    <button
+                      onClick={() => handleCopy(tip)}
+                      className="p-1 rounded-lg text-slate-400 hover:text-slate-600 transition-colors"
+                      title="Sao chép mẹo này"
+                    >
+                      {copiedId === tip.id ? (
+                        <Check className="w-3.5 h-3.5 text-emerald-500" />
+                      ) : (
+                        <Copy className="w-3.5 h-3.5" />
+                      )}
+                    </button>
+                  </div>
                 </div>
 
-                <h3 className="text-base sm:text-xl font-black vact-text-primary mb-4 leading-snug">
+                <h3 className="text-base sm:text-xl font-black vact-text-primary mb-3 leading-snug">
                   {tip.title}
                 </h3>
+
+                {/* Tags */}
+                {tip.tags && (
+                  <div className="flex items-center gap-1.5 flex-wrap mb-4">
+                    {tip.tags.map((tag, tIdx) => (
+                      <span key={tIdx} className="text-[10px] font-bold px-2 py-0.5 rounded-md vact-card-subtle border vact-border vact-text-muted">
+                        #{tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
 
                 <div className="space-y-2.5">
                   {cleanLines.map((line, idx) => (
@@ -99,10 +198,31 @@ export default function TipsView({ fontSize = 'normal' }) {
                   ))}
                 </div>
               </div>
+
+              {/* Card Footer: Action button if Casio */}
+              {isCasioTip && onOpenCasio && (
+                <div className="mt-5 pt-3 border-t vact-border">
+                  <button
+                    onClick={onOpenCasio}
+                    className="w-full flex items-center justify-center gap-2 px-3 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs cursor-pointer transition-colors shadow-xs"
+                  >
+                    <Calculator className="w-4 h-4" />
+                    <span>Mở máy tính Casio fx-580VN X thực hành ngay</span>
+                  </button>
+                </div>
+              )}
             </div>
           );
         })}
       </div>
+
+      {filteredTips.length === 0 && (
+        <div className="p-12 text-center vact-card rounded-3xl border vact-border mb-10">
+          <Lightbulb className="w-8 h-8 text-amber-500 mx-auto mb-2 opacity-50" />
+          <p className="text-sm font-black vact-text-primary">Không tìm thấy bí kíp phù hợp với từ khóa.</p>
+          <p className="text-xs vact-text-muted mt-1">Thử chọn danh mục "Tất cả bí kíp" hoặc tìm từ khóa khác.</p>
+        </div>
+      )}
 
       {/* Golden Rules Box */}
       <div className="p-6 sm:p-8 rounded-3xl vact-card-subtle border-2 border-amber-500/40 shadow-xs">

@@ -10,6 +10,7 @@ import {
   Sun,
   Coffee,
   ShieldCheck,
+  Calculator,
   Library
 } from 'lucide-react';
 
@@ -21,7 +22,8 @@ export default function Navbar({
   fontSize, 
   setFontSize, 
   mistakeCount, 
-  onOpenSecurity 
+  onOpenSecurity,
+  onOpenCasio
 }) {
   const navItems = [
     { id: 'exam', label: 'Thi thử V-ACT', icon: GraduationCap },
@@ -145,6 +147,16 @@ export default function Navbar({
                   <Moon className="w-4 h-4" />
                 </button>
               </div>
+
+              {/* Casio 580VNX Simulator Button */}
+              <button
+                onClick={onOpenCasio}
+                className="flex items-center gap-1.5 text-xs font-black px-2.5 sm:px-3 py-1.5 rounded-xl border border-blue-500/40 bg-blue-50/60 dark:bg-blue-950/40 text-blue-700 dark:text-blue-300 shadow-xs hover:border-blue-500 transition-colors cursor-pointer"
+                title="Mở máy tính Casio fx-580VN X trực tiếp trên web hoặc ứng dụng máy tính"
+              >
+                <Calculator className="w-4 h-4 text-blue-600 dark:text-blue-400 shrink-0" />
+                <span className="hidden sm:inline">Casio 580</span>
+              </button>
 
               {/* Security & WAF Status Button */}
               <button

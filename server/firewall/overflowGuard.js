@@ -25,12 +25,13 @@ export function overflowGuardMiddleware(req, res, next) {
   }
 
   // 2. Memory Circuit Breaker (Chống tràn RAM & Out-of-Memory Crash)
+  // Only trip if heapUsed > 600MB AND heapUsageRatio > 0.90 (avoids false-positives at initial small heapTotal)
   const mem = process.memoryUsage();
+  const heapUsedMb = mem.heapUsed / (1024 * 1024);
   const heapUsageRatio = mem.heapUsed / mem.heapTotal;
 
-  // If heap usage exceeds 88%, reject non-health requests to allow GC to recover
-  if (heapUsageRatio > 0.88 && !req.path.startsWith('/api/health')) {
-    securityStore.recordBlock(cleanIp, 'overflow_circuit', `High Heap Usage: ${Math.round(heapUsageRatio * 100)}%`);
+  if (heapUsedMb > 600 && heapUsageRatio > 0.90 && !req.path.startsWith('/api/health')) {
+    securityStore.recordBlock(cleanIp, 'overflow_circuit', `High Heap Usage: ${Math.round(heapUsedMb)}MB (${Math.round(heapUsageRatio * 100)}%)`);
     res.setHeader('Retry-After', 15);
     return res.status(503).json({
       error: 'SERVER_CIRCUIT_BREAKER_ACTIVE',

@@ -8,10 +8,12 @@ import VideoView from './components/VideoView';
 import RoadmapView from './components/RoadmapView';
 import MistakeView from './components/MistakeView';
 import SecurityDashboard from './components/SecurityDashboard';
+import CasioCalculator from './components/CasioCalculator';
 
 export default function App() {
   const [currentTab, setCurrentTab] = useState('exam');
   const [isSecurityModalOpen, setIsSecurityModalOpen] = useState(false);
+  const [isCasioModalOpen, setIsCasioModalOpen] = useState(false);
   
   // Eye-care Theme state: 'light' | 'sepia' | 'dark'
   const [theme, setTheme] = useState(() => {
@@ -94,6 +96,7 @@ export default function App() {
         setFontSize={setFontSize}
         mistakeCount={mistakes.length}
         onOpenSecurity={() => setIsSecurityModalOpen(true)}
+        onOpenCasio={() => setIsCasioModalOpen(true)}
       />
 
       {/* Main Content Area - Extra bottom padding for iOS Home bar & Bottom nav */}
@@ -112,9 +115,19 @@ export default function App() {
           />
         )}
 
-        {currentTab === 'theory' && <TheoryView fontSize={fontSize} />}
+        {currentTab === 'theory' && (
+          <TheoryView 
+            fontSize={fontSize} 
+            onOpenCasio={() => setIsCasioModalOpen(true)}
+          />
+        )}
 
-        {currentTab === 'tips' && <TipsView fontSize={fontSize} />}
+        {currentTab === 'tips' && (
+          <TipsView 
+            fontSize={fontSize} 
+            onOpenCasio={() => setIsCasioModalOpen(true)}
+          />
+        )}
 
         {currentTab === 'videos' && <VideoView />}
 
@@ -135,6 +148,12 @@ export default function App() {
       {isSecurityModalOpen && (
         <SecurityDashboard onClose={() => setIsSecurityModalOpen(false)} />
       )}
+
+      {/* Casio fx-580VN X Online Calculator & App Launcher */}
+      <CasioCalculator 
+        isOpen={isCasioModalOpen} 
+        onClose={() => setIsCasioModalOpen(false)} 
+      />
 
       {/* Footer */}
       <footer className="border-t vact-border py-8 pb-32 md:pb-8 text-center text-xs vact-text-muted">
