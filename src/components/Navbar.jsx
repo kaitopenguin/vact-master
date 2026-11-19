@@ -9,7 +9,7 @@ import {
   Moon, 
   Sun,
   Coffee,
-  CloudUpload,
+  ShieldCheck,
   Library
 } from 'lucide-react';
 
@@ -21,7 +21,7 @@ export default function Navbar({
   fontSize, 
   setFontSize, 
   mistakeCount, 
-  onOpenDeploy 
+  onOpenSecurity 
 }) {
   const navItems = [
     { id: 'exam', label: 'Thi thử V-ACT', icon: GraduationCap },
@@ -146,14 +146,15 @@ export default function Navbar({
                 </button>
               </div>
 
-              {/* Deploy Guide button */}
+              {/* Security & WAF Status Button */}
               <button
-                onClick={onOpenDeploy}
-                className="flex items-center gap-1 text-xs font-bold px-2 sm:px-3 py-1.5 rounded-xl border vact-border vact-card hover:border-blue-500 vact-text-primary shadow-xs transition-colors cursor-pointer"
-                title="Hướng dẫn đẩy lên Vercel"
+                onClick={onOpenSecurity}
+                className="flex items-center gap-1.5 text-xs font-black px-2.5 sm:px-3 py-1.5 rounded-xl border border-emerald-500/40 bg-emerald-50/60 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 shadow-xs hover:border-emerald-500 transition-colors cursor-pointer"
+                title="Hệ thống tường lửa WAF, chống DDoS & an ninh máy chủ đang hoạt động"
               >
-                <CloudUpload className="w-4 h-4 text-blue-500 shrink-0" />
-                <span className="hidden sm:inline">Vercel</span>
+                <ShieldCheck className="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                <span className="hidden sm:inline">Tường Lửa: Bật</span>
+                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
               </button>
             </div>
           </div>

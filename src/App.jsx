@@ -7,11 +7,11 @@ import TipsView from './components/TipsView';
 import VideoView from './components/VideoView';
 import RoadmapView from './components/RoadmapView';
 import MistakeView from './components/MistakeView';
-import DeployGuide from './components/DeployGuide';
+import SecurityDashboard from './components/SecurityDashboard';
 
 export default function App() {
   const [currentTab, setCurrentTab] = useState('exam');
-  const [isDeployModalOpen, setIsDeployModalOpen] = useState(false);
+  const [isSecurityModalOpen, setIsSecurityModalOpen] = useState(false);
   
   // Eye-care Theme state: 'light' | 'sepia' | 'dark'
   const [theme, setTheme] = useState(() => {
@@ -93,7 +93,7 @@ export default function App() {
         fontSize={fontSize}
         setFontSize={setFontSize}
         mistakeCount={mistakes.length}
-        onOpenDeploy={() => setIsDeployModalOpen(true)}
+        onOpenSecurity={() => setIsSecurityModalOpen(true)}
       />
 
       {/* Main Content Area - Extra bottom padding for iOS Home bar & Bottom nav */}
@@ -131,9 +131,9 @@ export default function App() {
         )}
       </main>
 
-      {/* Deploy Guide Modal */}
-      {isDeployModalOpen && (
-        <DeployGuide onClose={() => setIsDeployModalOpen(false)} />
+      {/* Security & WAF Dashboard Modal */}
+      {isSecurityModalOpen && (
+        <SecurityDashboard onClose={() => setIsSecurityModalOpen(false)} />
       )}
 
       {/* Footer */}

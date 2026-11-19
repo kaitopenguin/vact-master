@@ -93,62 +93,6 @@ export const BOOKS_DATA = [
     ]
   },
   {
-    id: 'book-vnno1-01',
-    title: 'Đề Thi Thử V-ACT VnNO1 2026/2027 Lần 1 (Kèm Đáp Án & Hướng Dẫn Giải Chi Tiết)',
-    author: 'Trung tâm & Kênh Luyện thi VnNO1',
-    year: '2026 - 2027',
-    format: 'Chuẩn V-ACT 120 câu / 150 phút',
-    fileSize: '3.8 MB',
-    pages: '20 trang',
-    downloadUrl: '/books/VNno1_2027_Thi_thu_lan_1_Ans.pdf',
-    password: 'Pass mở file: X7v#mK2$pL',
-    badge: 'Đề VnNO1 Lần 1 Mới Nhất',
-    badgeColor: 'bg-rose-100 text-rose-900 dark:bg-rose-950 dark:text-rose-200 border border-rose-300 dark:border-rose-800',
-    description: 'Bộ đề thi thử thực chiến độc quyền từ VnNO1 cập nhật ngày 18/11/2026, chuẩn ma trận 1.200 điểm có bảng đáp án tham khảo và hướng dẫn tư duy.',
-    highlights: [
-      '120 câu hỏi trắc nghiệm chất lượng cao từ VnNO1',
-      'Đầy đủ bảng đáp án chính xác 100%',
-      'Tập trung các bẫy Logic và bài toán thực tế hay gặp'
-    ]
-  },
-  {
-    id: 'book-vnno1-02',
-    title: 'Đề Thi Thử V-ACT VnNO1 2026/2027 Lần 2 (Đề Thi Thực Chiến)',
-    author: 'Trung tâm & Kênh Luyện thi VnNO1',
-    year: '2026 - 2027',
-    format: 'Chuẩn V-ACT 120 câu / 150 phút',
-    fileSize: '3.3 MB',
-    pages: '18 trang',
-    downloadUrl: '/books/VNno1_2027_Thi_thu_lan_2_Nokey.pdf',
-    password: 'Pass mở file: X7v#mK2$pL',
-    badge: 'Đề VnNO1 Lần 2 Mới Nhất',
-    badgeColor: 'bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-200 border border-amber-300 dark:border-amber-800',
-    description: 'Đề thi thử lần 2 của VnNO1 dành cho thí sinh tự bấm giờ 150 phút rèn luyện bản lĩnh phòng thi và tốc độ giải quyết bài thi.',
-    highlights: [
-      'Rèn luyện áp lực thời gian thực tế 150 phút',
-      'Đa dạng các ngữ liệu mới lạ bám sát GDPT 2018',
-      'Công cụ kiểm tra năng lực khách quan nhất'
-    ]
-  },
-  {
-    id: 'book-vnno1-tv-demo',
-    title: 'Tài Liệu Ôn Tập & Đề Thi Tiếng Việt V-ACT 2025 (VnNO1 Full Key Demo)',
-    author: 'Trung tâm Luyện thi VnNO1',
-    year: '2025 - 2026',
-    format: 'Tài liệu ôn thi chuyên sâu Tiếng Việt',
-    fileSize: '47.3 MB',
-    pages: '126 trang',
-    downloadUrl: '/books/VNno1_Tiếng_Việt_2025_T1_Full_key_Demo.pdf',
-    badge: 'Sách Chuyên Sâu Tiếng Việt',
-    badgeColor: 'bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200 border border-emerald-300 dark:border-emerald-800',
-    description: 'Tuyển tập 126 trang chuyên sâu về cấu trúc đọc hiểu, ngữ âm, từ vựng, ngữ pháp và phong cách Tiếng Việt trong đề thi V-ACT.',
-    highlights: [
-      '126 trang tổng hợp lý thuyết và câu hỏi thực hành',
-      'Giải nghĩa tường tận các dạng đề bẫy Tiếng Việt',
-      'Bản scan chính thức có đầy đủ lời giải minh họa'
-    ]
-  },
-  {
     id: 'book-01',
     title: 'Đề Thi Minh Họa V-ACT 2025 Chính Thức (ĐHQG TP.HCM)',
     author: 'Đại học Quốc gia TP.HCM',
