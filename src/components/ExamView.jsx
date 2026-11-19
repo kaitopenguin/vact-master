@@ -432,10 +432,16 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
           {/* Question Stem & Options */}
           <div className="lg:col-span-3 space-y-4 sm:space-y-6">
             <div className="vact-card border vact-border rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-sm">
-              {/* Passage if present */}
+              {/* [NGỮ LIỆU / ĐỀ BÀI CHUNG] - Đóng khung rõ ràng theo chuẩn khảo thí V-ACT */}
               {currentQ.passage && (
-                <div className="mb-4 sm:mb-6 p-3.5 sm:p-4 rounded-xl sm:rounded-2xl vact-card-subtle border vact-border text-xs sm:text-base leading-relaxed whitespace-pre-line font-medium vact-text-primary">
-                  {currentQ.passage}
+                <div className="mb-4 sm:mb-6 p-4 sm:p-5 rounded-2xl border-2 border-blue-500/40 bg-blue-50/30 dark:bg-blue-950/30 shadow-xs">
+                  <div className="flex items-center gap-2 text-xs font-black text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-2">
+                    <BookOpen className="w-4 h-4" />
+                    <span>[NGỮ LIỆU / ĐỀ BÀI CHUNG]</span>
+                  </div>
+                  <div className="text-xs sm:text-base leading-relaxed whitespace-pre-line font-medium vact-text-primary">
+                    {currentQ.passage}
+                  </div>
                 </div>
               )}
 
@@ -732,8 +738,13 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                   </div>
                 </div>
 
+                {/* [NGỮ LIỆU / ĐỀ BÀI CHUNG] Trong phần xem lại bài */}
                 {q.passage && (
-                  <div className="mb-3 sm:mb-4 p-3 sm:p-4 rounded-xl sm:rounded-2xl vact-card-subtle border vact-border text-xs sm:text-sm leading-relaxed whitespace-pre-line font-medium vact-text-primary">
+                  <div className="mb-3 sm:mb-4 p-4 rounded-2xl border-2 border-blue-500/30 bg-blue-50/20 dark:bg-blue-950/20 text-xs sm:text-sm leading-relaxed whitespace-pre-line font-medium vact-text-primary">
+                    <div className="text-[11px] font-black text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5" />
+                      <span>[NGỮ LIỆU / ĐỀ BÀI CHUNG]</span>
+                    </div>
                     {q.passage}
                   </div>
                 )}
