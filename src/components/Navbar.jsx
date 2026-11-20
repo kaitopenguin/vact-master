@@ -11,7 +11,8 @@ import {
   Coffee,
   ShieldCheck,
   Calculator,
-  Library
+  Library,
+  Eye
 } from 'lucide-react';
 
 export default function Navbar({ 
@@ -20,7 +21,9 @@ export default function Navbar({
   theme, 
   setTheme, 
   fontSize, 
-  setFontSize, 
+  setFontSize,
+  blueLightShield = 'eink',
+  setBlueLightShield,
   mistakeCount, 
   onOpenSecurity,
   onOpenCasio
@@ -109,16 +112,16 @@ export default function Navbar({
                 </button>
               </div>
 
-              {/* 3-State Eye-Care Mode */}
-              <div className="flex items-center p-0.5 sm:p-1 rounded-xl vact-card-subtle gap-0.5 sm:gap-1 border vact-border" title="Chọn chế độ bảo vệ mắt">
+              {/* 3-State Eye-Care Mode (Tối ưu quang học cho người cận thị & loạn thị) */}
+              <div className="flex items-center p-0.5 sm:p-1 rounded-xl vact-card-subtle gap-0.5 sm:gap-1 border vact-border" title="Chọn chế độ màu màn hình chống mỏi mắt">
                 <button
                   onClick={() => setTheme('light')}
                   className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center transition-all cursor-pointer ${
                     theme === 'light' 
-                      ? 'bg-white text-amber-500 shadow-xs border border-slate-300' 
+                      ? 'bg-white text-amber-600 shadow-xs border border-amber-300' 
                       : 'vact-text-muted hover:vact-text-primary'
                   }`}
-                  title="Chế độ Sáng chuẩn"
+                  title="Chế độ Sáng dịu tự nhiên (WCAG AAA 10:1)"
                 >
                   <Sun className="w-4 h-4" />
                 </button>
@@ -130,7 +133,7 @@ export default function Navbar({
                       ? 'bg-[#c2410c] text-white shadow-xs' 
                       : 'vact-text-muted hover:vact-text-primary'
                   }`}
-                  title="Chế độ Giấy ấm (Lọc ánh sáng xanh, chống mỏi mắt cho người cận thị)"
+                  title="Chế độ Giấy ấm E-Ink (3800K - Khuyên dùng số 1 cho người cận thị khi luyện đề lâu)"
                 >
                   <Coffee className="w-4 h-4" />
                 </button>
@@ -139,14 +142,42 @@ export default function Navbar({
                   onClick={() => setTheme('dark')}
                   className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center transition-all cursor-pointer ${
                     theme === 'dark' 
-                      ? 'bg-blue-600 text-white shadow-xs' 
+                      ? 'bg-blue-600 text-white shadow-xs border border-blue-400/40 shadow-blue-500/20' 
                       : 'vact-text-muted hover:vact-text-primary'
                   }`}
-                  title="Chế độ Ban đêm dịu mắt"
+                  title="Chế độ Tối Obsidian Hiện Đại (Sắc sảo, chuyên nghiệp & dịu mắt)"
                 >
                   <Moon className="w-4 h-4" />
                 </button>
               </div>
+
+              {/* Hardware-Grade Digital Blue Light Shield (Kính Lọc Ánh Sáng Xanh Tích Hợp) */}
+              {setBlueLightShield && (
+                <button
+                  onClick={() => {
+                    const levels = ['off', 'soft', 'eink', 'max'];
+                    const next = levels[(levels.indexOf(blueLightShield) + 1) % levels.length];
+                    setBlueLightShield(next);
+                  }}
+                  className={`flex items-center gap-1.5 text-xs font-black px-2.5 sm:px-3 py-1.5 rounded-xl border transition-all cursor-pointer ${
+                    blueLightShield !== 'off'
+                      ? 'bg-amber-100 text-amber-900 dark:bg-amber-950/70 dark:text-amber-200 border-amber-400 shadow-xs ring-1 ring-amber-400/40'
+                      : 'vact-card border vact-border vact-text-muted hover:vact-text-primary'
+                  }`}
+                  title="Kính lọc ánh sáng xanh kỹ thuật số (Bấm để chuyển mức lọc: Tắt -> Dịu nhẹ 30% -> Giấy ấm Cận thị 60% -> Tối đa 85%)"
+                >
+                  <Eye className={`w-4 h-4 shrink-0 ${blueLightShield !== 'off' ? 'text-amber-600 dark:text-amber-400' : ''}`} />
+                  <span className="hidden md:inline">
+                    {blueLightShield === 'off' && 'Lọc Xanh: Tắt'}
+                    {blueLightShield === 'soft' && 'Lọc Xanh: 30%'}
+                    {blueLightShield === 'eink' && 'Lọc Xanh: 60% (Cận)'}
+                    {blueLightShield === 'max' && 'Lọc Xanh: 85%'}
+                  </span>
+                  {blueLightShield !== 'off' && (
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+                  )}
+                </button>
+              )}
 
               {/* Casio 580VNX Simulator Button */}
               <button

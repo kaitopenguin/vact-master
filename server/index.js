@@ -40,14 +40,24 @@ app.use(wafMiddleware);
 // 5. Mount API Routes
 app.use('/api', securityApi);
 
-// 6. Serve static files with caching
+// 6. Serve static files with intelligent cache control (no-cache for HTML, immutable for hashed assets)
 app.use(express.static(distDir, {
-  maxAge: '1d',
-  etag: true
+  setHeaders: (res, filePath) => {
+    if (filePath.endsWith('.html')) {
+      res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+      res.setHeader('Pragma', 'no-cache');
+      res.setHeader('Expires', '0');
+    } else {
+      res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+    }
+  }
 }));
 
-// SPA Fallback: All unhandled GET requests return index.html
+// SPA Fallback: All unhandled GET requests return index.html without cache
 app.use((req, res) => {
+  res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+  res.setHeader('Pragma', 'no-cache');
+  res.setHeader('Expires', '0');
   res.sendFile(path.join(distDir, 'index.html'));
 });
 

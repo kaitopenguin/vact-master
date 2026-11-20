@@ -24,6 +24,7 @@ import {
 } from 'lucide-react';
 import { EXAM_LIST, QUESTIONS_DATA } from '../data/examData';
 import confetti from 'canvas-confetti';
+import MathRenderer from './MathRenderer';
 
 export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize = 'normal' }) {
   const [selectedExamId, setSelectedExamId] = useState(null);
@@ -445,16 +446,16 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                     <BookOpen className="w-4 h-4" />
                     <span>[NGỮ LIỆU / ĐỀ BÀI CHUNG]</span>
                   </div>
-                  <div className="text-xs sm:text-base leading-relaxed whitespace-pre-line font-medium vact-text-primary">
-                    {currentQ.passage}
+                  <div className="text-xs sm:text-base leading-relaxed font-medium vact-text-primary">
+                    <MathRenderer content={currentQ.passage} />
                   </div>
                 </div>
               )}
 
               {/* Question Text */}
-              <h2 className="text-sm sm:text-lg font-black vact-text-primary leading-relaxed mb-4 sm:mb-6 whitespace-pre-line">
-                {currentQ.question}
-              </h2>
+              <div className="text-sm sm:text-lg font-black vact-text-primary leading-relaxed mb-4 sm:mb-6">
+                <MathRenderer content={currentQ.question} />
+              </div>
 
               {/* Options List */}
               <div className="space-y-2.5 sm:space-y-3">
@@ -477,11 +478,11 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                       }`}>
                         {String.fromCharCode(65 + optIdx)}
                       </div>
-                      <span className={`text-xs sm:text-base leading-relaxed font-bold ${
+                      <div className={`text-xs sm:text-base leading-relaxed font-bold flex-1 ${
                         isSelected ? 'text-blue-700 dark:text-blue-300' : 'vact-text-primary'
                       }`}>
-                        {typeof option === 'string' ? option.replace(/^[A-D]\.\s*/, '') : option}
-                      </span>
+                        <MathRenderer content={typeof option === 'string' ? option.replace(/^[A-D]\.\s*/, '') : option} />
+                      </div>
                     </div>
                   );
                 })}
@@ -746,18 +747,18 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
 
                 {/* [NGỮ LIỆU / ĐỀ BÀI CHUNG] Trong phần xem lại bài */}
                 {q.passage && (
-                  <div className="mb-3 sm:mb-4 p-4 rounded-2xl border-2 border-blue-500/30 bg-blue-50/20 dark:bg-blue-950/20 text-xs sm:text-sm leading-relaxed whitespace-pre-line font-medium vact-text-primary">
+                  <div className="mb-3 sm:mb-4 p-4 rounded-2xl border-2 border-blue-500/30 bg-blue-50/20 dark:bg-blue-950/20 text-xs sm:text-sm leading-relaxed font-medium vact-text-primary">
                     <div className="text-[11px] font-black text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
                       <BookOpen className="w-3.5 h-3.5" />
                       <span>[NGỮ LIỆU / ĐỀ BÀI CHUNG]</span>
                     </div>
-                    {q.passage}
+                    <MathRenderer content={q.passage} />
                   </div>
                 )}
 
-                <h4 className="font-black text-xs sm:text-base vact-text-primary mb-3 sm:mb-4 whitespace-pre-line">
-                  {q.question}
-                </h4>
+                <div className="font-black text-xs sm:text-base vact-text-primary mb-3 sm:mb-4">
+                  <MathRenderer content={q.question} />
+                </div>
 
                 {/* Options grid */}
                 <div className="space-y-1.5 sm:space-y-2 mb-3 sm:mb-4">
@@ -770,10 +771,12 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                     else if (isPicked && !isRight) optClass = 'bg-rose-50 dark:bg-rose-950/40 border-2 border-rose-500 text-rose-800 dark:text-rose-200 font-bold';
 
                     return (
-                      <div key={oIdx} className={`p-2.5 sm:p-3 rounded-xl border text-xs sm:text-sm flex items-center justify-between ${optClass}`}>
-                        <span>{typeof opt === 'string' ? opt.replace(/^[A-D]\.\s*/, '') : opt}</span>
-                        {isRight && <span className="text-[10px] sm:text-xs font-black text-emerald-600 dark:text-emerald-400">Đáp án đúng</span>}
-                        {isPicked && !isRight && <span className="text-[10px] sm:text-xs font-black text-rose-600 dark:text-rose-400">Bạn đã chọn</span>}
+                      <div key={oIdx} className={`p-2.5 sm:p-3 rounded-xl border text-xs sm:text-sm flex items-center justify-between gap-2 ${optClass}`}>
+                        <div className="flex-1">
+                          <MathRenderer content={typeof opt === 'string' ? opt.replace(/^[A-D]\.\s*/, '') : opt} />
+                        </div>
+                        {isRight && <span className="text-[10px] sm:text-xs font-black text-emerald-600 dark:text-emerald-400 shrink-0">Đáp án đúng</span>}
+                        {isPicked && !isRight && <span className="text-[10px] sm:text-xs font-black text-rose-600 dark:text-rose-400 shrink-0">Bạn đã chọn</span>}
                       </div>
                     );
                   })}
@@ -782,7 +785,9 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                 {/* Explanation */}
                 <div className="p-3 sm:p-4 rounded-xl sm:rounded-2xl vact-card-subtle border vact-border text-xs sm:text-sm leading-relaxed">
                   <div className="font-black text-blue-600 dark:text-blue-400 mb-1">Phương pháp & Giải thích:</div>
-                  <div className="vact-text-primary font-medium">{q.explanation}</div>
+                  <div className="vact-text-primary font-medium">
+                    <MathRenderer content={q.explanation} />
+                  </div>
                 </div>
               </div>
             );

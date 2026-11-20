@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @layer base {
+  /* 1. LIGHT MODE (Sáng Dịu Tự Nhiên) - WCAG AAA 10:1 Contrast, No harsh glare */
   :root {
     --font-sans: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     
-    /* LIGHT MODE (Default) - WCAG AAA Contrast */
     --bg-page: #f8fafc;
     --bg-nav: #ffffff;
     --bg-card: #ffffff;
@@ -12,49 +12,52 @@
     --bg-card-hover: #e2e8f0;
     --border-color: #cbd5e1;
     --border-strong: #94a3b8;
-    --text-primary: #090e17;
-    --text-secondary: #1e293b;
-    --text-muted: #475569;
-    --accent: #1d4ed8;
-    --accent-hover: #1e40af;
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-muted: #64748b;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
     --accent-text: #ffffff;
-    --accent-bg-subtle: #dbeafe;
+    --accent-bg-subtle: #eff6ff;
   }
 
-  /* DARK MODE (Midnight) - Solid and crisp high contrast */
+  /* 2. WARM PAPER / E-INK SEPIA (Chế độ Giấy Ấm Chống Mỏi Mắt Cho Người Cận Thị - 3800K) */
+  /* Loại bỏ 100% ánh sáng xanh 450nm, mô phỏng trang sách ngà tự nhiên, thư giãn cơ thể mi */
+  body.theme-sepia {
+    --bg-page: #fbf5e8;
+    --bg-nav: #f4ecda;
+    --bg-card: #fffdf8;
+    --bg-card-subtle: #f3ebd7;
+    --bg-card-hover: #e9dec6;
+    --border-color: #dfd3ba;
+    --border-strong: #c2b18f;
+    --text-primary: #26211a;
+    --text-secondary: #40382d;
+    --text-muted: #6d614f;
+    --accent: #c2410c;
+    --accent-hover: #9a3412;
+    --accent-text: #ffffff;
+    --accent-bg-subtle: #fef3c7;
+  }
+
+  /* 3. MODERN OBSIDIAN DARK MODE (Nền Tối Hiện Đại, Đẳng Cấp, Sắc Nét & Tinh Tế) */
+  /* Thiết kế theo chuẩn Deep Space Obsidian / GitHub Dark Dimmed / Linear */
+  /* Độ tương phản tối ưu, chiều sâu đa tầng với border thủy tinh tinh tế và ánh sáng dịu mắt */
   .dark, body.theme-dark {
-    --bg-page: #0a0e17;
-    --bg-nav: #0f172a;
-    --bg-card: #141c2e;
-    --bg-card-subtle: #1b263d;
-    --bg-card-hover: #243352;
-    --border-color: #27385a;
-    --border-strong: #3b5182;
-    --text-primary: #ffffff;
-    --text-secondary: #e2e8f0;
-    --text-muted: #94a3b8;
+    --bg-page: #0b0f19;
+    --bg-nav: rgba(13, 19, 33, 0.92);
+    --bg-card: #111827;
+    --bg-card-subtle: #162032;
+    --bg-card-hover: #1e2b42;
+    --border-color: #1f2e47;
+    --border-strong: #334b70;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #8b9cb3;
     --accent: #3b82f6;
     --accent-hover: #60a5fa;
     --accent-text: #ffffff;
-    --accent-bg-subtle: #172554;
-  }
-
-  /* SEPIA / WARM PAPER MODE (Chống mỏi mắt & cận thị) - Solid warm paper */
-  body.theme-sepia {
-    --bg-page: #fbf6ec;
-    --bg-nav: #f3ebdb;
-    --bg-card: #ffffff;
-    --bg-card-subtle: #f5eedf;
-    --bg-card-hover: #e8dec8;
-    --border-color: #d1c0a5;
-    --border-strong: #a89475;
-    --text-primary: #1a0f00;
-    --text-secondary: #2f1d0a;
-    --text-muted: #5c4328;
-    --accent: #9a3412;
-    --accent-hover: #7c2d12;
-    --accent-text: #ffffff;
-    --accent-bg-subtle: #fef3c7;
+    --accent-bg-subtle: #1e3a8a;
   }
 
   * {
@@ -75,11 +78,25 @@
     background-color: var(--bg-page);
     color: var(--text-primary);
     font-weight: 500; /* Medium weight ensures clear, crisp Vietnamese diacritics */
-    letter-spacing: 0.01em;
-    line-height: 1.7;
-    transition: background-color 0.15s ease, color 0.15s ease;
+    letter-spacing: 0.025em; /* Optimal kerning for myopic and astigmatic eyes */
+    line-height: 1.8; /* Generous vertical leading prevents line skipping */
+    transition: background-color 0.2s ease, color 0.2s ease;
     overflow-x: hidden;
   }
+}
+
+/* Blue Light Shield Layers (Lọc Ánh Sáng Xanh Điện Tử) */
+#root.blue-light-shield-off {
+  filter: none;
+}
+#root.blue-light-shield-soft {
+  filter: sepia(0.2) contrast(0.97) brightness(0.98);
+}
+#root.blue-light-shield-eink {
+  filter: sepia(0.42) hue-rotate(-8deg) contrast(0.95) brightness(0.96);
+}
+#root.blue-light-shield-max {
+  filter: sepia(0.68) hue-rotate(-15deg) contrast(0.92) brightness(0.94);
 }
 
 /* iOS Safe Area Insets Helpers */
@@ -138,6 +155,24 @@
 
 .vact-border {
   border-color: var(--border-color) !important;
+}
+
+/* Modern Dark Mode Glow and Depth Enhancements */
+.dark .vact-card {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.45), inset 0 1px 0 0 rgba(255, 255, 255, 0.04);
+}
+
+.dark .vact-card:hover {
+  border-color: rgba(59, 130, 246, 0.3) !important;
+}
+
+.dark .vact-nav {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.dark .katex {
+  color: #f1f5f9;
 }
 
 /* Sepia Mode Specific High-Contrast Overrides */

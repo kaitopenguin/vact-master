@@ -25,3 +25,7 @@ dist-ssr
 
 # Vercel
 .vercel
+
+.vercel
+*.mjs 
+all_garbled_issues.json

@@ -25,6 +25,11 @@ export default function App() {
     return localStorage.getItem('vact_font_size') || 'normal';
   });
 
+  // Blue Light Shield for Myopia: 'off' | 'soft' | 'eink' | 'max'
+  const [blueLightShield, setBlueLightShield] = useState(() => {
+    return localStorage.getItem('vact_blue_shield') || 'eink';
+  });
+
   // Mistakes state persisted in LocalStorage
   const [mistakes, setMistakes] = useState(() => {
     try {
@@ -57,6 +62,16 @@ export default function App() {
     document.body.classList.add(`font-scale-${fontSize}`);
     localStorage.setItem('vact_font_size', fontSize);
   }, [fontSize]);
+
+  // Blue Light Shield application
+  useEffect(() => {
+    const root = document.getElementById('root');
+    if (root) {
+      root.classList.remove('blue-light-shield-off', 'blue-light-shield-soft', 'blue-light-shield-eink', 'blue-light-shield-max');
+      root.classList.add(`blue-light-shield-${blueLightShield}`);
+    }
+    localStorage.setItem('vact_blue_shield', blueLightShield);
+  }, [blueLightShield]);
 
   // Persist mistakes
   useEffect(() => {
@@ -94,6 +109,8 @@ export default function App() {
         setTheme={setTheme}
         fontSize={fontSize}
         setFontSize={setFontSize}
+        blueLightShield={blueLightShield}
+        setBlueLightShield={setBlueLightShield}
         mistakeCount={mistakes.length}
         onOpenSecurity={() => setIsSecurityModalOpen(true)}
         onOpenCasio={() => setIsCasioModalOpen(true)}

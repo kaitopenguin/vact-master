@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BookmarkCheck, Trash2, RotateCcw, CheckCircle2, XCircle, HelpCircle } from 'lucide-react';
+import MathRenderer from './MathRenderer';
 
 export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMistakes }) {
   const [activeTab, setActiveTab] = useState('list'); // 'list' | 'quiz'
@@ -106,14 +107,14 @@ export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMista
               </div>
 
               {q.passage && (
-                <div className="mb-3 sm:mb-4 p-3.5 rounded-xl vact-card-subtle border vact-border text-xs sm:text-sm vact-text-primary whitespace-pre-line font-medium leading-relaxed">
-                  {q.passage}
+                <div className="mb-3 sm:mb-4 p-3.5 rounded-xl vact-card-subtle border vact-border text-xs sm:text-sm vact-text-primary font-medium leading-relaxed">
+                  <MathRenderer content={q.passage} />
                 </div>
               )}
 
-              <p className="font-black vact-text-primary text-sm sm:text-base mb-4 whitespace-pre-line">
-                {q.question}
-              </p>
+              <div className="font-black vact-text-primary text-sm sm:text-base mb-4">
+                <MathRenderer content={q.question} />
+              </div>
 
               {/* Options */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
@@ -138,11 +139,13 @@ export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMista
                     <div
                       key={oIdx}
                       onClick={() => activeTab === 'quiz' && !isAnswered && handleSelectQuizOption(q.id, oIdx)}
-                      className={`min-h-[44px] p-3 rounded-xl border text-xs sm:text-sm flex items-center justify-between ${optStyle} ${
+                      className={`min-h-[44px] p-3 rounded-xl border text-xs sm:text-sm flex items-center justify-between gap-2 ${optStyle} ${
                         activeTab === 'quiz' && !isAnswered ? 'cursor-pointer hover:border-blue-400 active:scale-98' : ''
                       }`}
                     >
-                      <span>{opt}</span>
+                      <div className="flex-1">
+                        <MathRenderer content={typeof opt === 'string' ? opt.replace(/^[A-D]\.\s*/, '') : opt} />
+                      </div>
                       {activeTab === 'list' && oIdx === q.correctAnswer && (
                         <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
                       )}
@@ -164,9 +167,9 @@ export default function MistakeView({ mistakes, onRemoveMistake, onClearAllMista
                     <HelpCircle className="w-4 h-4 text-blue-600 dark:text-blue-400" />
                     Lời giải chi tiết:
                   </div>
-                  <p className="vact-text-primary whitespace-pre-line font-medium">
-                    {q.explanation}
-                  </p>
+                  <div className="vact-text-primary font-medium">
+                    <MathRenderer content={q.explanation} />
+                  </div>
                 </div>
               )}
             </div>
