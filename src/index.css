@@ -442,20 +442,79 @@ body.theme-cinnamoroll .dark\:bg-blue-950 {
   border-color: #bae6fd !important;
 }
 
-/* Font size scalers for visual accessibility */
+/* Font size scalers for visual accessibility & myopia relief (Tác động trực tiếp lên rem của toàn trang) */
+html.font-scale-normal {
+  font-size: 16px;
+}
 body.font-scale-normal {
   font-size: 16px;
   line-height: 1.7;
 }
 
+html.font-scale-large {
+  font-size: 18.5px;
+}
 body.font-scale-large {
-  font-size: 18px;
+  font-size: 18.5px;
   line-height: 1.8;
+  letter-spacing: 0.01em;
+}
+body.font-scale-large .vact-text-primary,
+body.font-scale-large p,
+body.font-scale-large .katex {
+  font-weight: 600 !important;
 }
 
+html.font-scale-xlarge {
+  font-size: 21px;
+}
 body.font-scale-xlarge {
-  font-size: 20px;
-  line-height: 1.9;
+  font-size: 21px;
+  line-height: 1.85;
+  letter-spacing: 0.015em;
+}
+body.font-scale-xlarge .vact-text-primary,
+body.font-scale-xlarge p,
+body.font-scale-xlarge .katex {
+  font-weight: 700 !important;
+}
+
+/* Tối ưu hóa đặc thù cho iPhone 14 Pro Max (Dynamic Island, Safe Areas) và Xiaomi (MIUI / HyperOS) */
+.pt-safe {
+  padding-top: max(0.5rem, env(safe-area-inset-top));
+}
+
+.pb-safe {
+  padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
+}
+
+.px-safe {
+  padding-left: max(0.75rem, env(safe-area-inset-left));
+  padding-right: max(0.75rem, env(safe-area-inset-right));
+}
+
+/* iPhone 14 Pro Max (430x932px, @3x retina) & Xiaomi Display Engine Optimization */
+@supports (-webkit-touch-callout: none) {
+  /* iOS WebKit smooth scroll & prevent text zoom bounce */
+  body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Xiaomi & Android High-DPI font sharpness */
+@media screen and (max-width: 480px) {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Đảm bảo tap targets >= 44px trên màn hình cảm ứng di động */
+  button, [role="button"], a {
+    min-height: 38px;
+    touch-action: manipulation;
+  }
 }
 
 /* iOS Touch scrolling support */

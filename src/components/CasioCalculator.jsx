@@ -11,7 +11,6 @@ import {
   Terminal,
   Cpu,
   Layers,
-  ChevronDown,
   Maximize2,
   Minimize2,
   Table,
@@ -20,11 +19,7 @@ import {
   Grid3X3,
   Compass,
   BarChart2,
-  HelpCircle,
-  Percent,
-  Sliders,
-  Divide,
-  Activity
+  Sliders
 } from 'lucide-react';
 
 // =========================================================================
@@ -261,6 +256,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
   const [resultVal, setResultVal] = useState('0');
   const [historyList, setHistoryList] = useState([]);
   const [factResult, setFactResult] = useState('');
+  const [isOptnOpen, setIsOptnOpen] = useState(false);
+  const [calcVarPrompt, setCalcVarPrompt] = useState(false);
+  const [calcXVal, setCalcXVal] = useState('1');
 
   // Memory Registers (A, B, C, D, E, F, X, Y, M, Ans)
   const [memRegisters, setMemRegisters] = useState({
@@ -561,6 +559,61 @@ export default function CasioCalculator({ isOpen, onClose }) {
           setFactResult('');
           setIsFractionView(false);
         }
+      }
+      return;
+    }
+
+    // OPTN MENU KEY
+    if (key === 'OPTN') {
+      setIsOptnOpen(prev => !prev);
+      return;
+    }
+
+    // CALC KEY
+    if (key === 'CALC') {
+      if (inputExpr.includes('x')) {
+        setCalcVarPrompt(prev => !prev);
+      } else {
+        const res = evaluateMath(inputExpr);
+        setResultVal(res);
+        if (res !== 'Syntax ERROR' && res !== 'Math ERROR') {
+          const num = parseFloat(res);
+          setMemRegisters(prev => ({ ...prev, Ans: !isNaN(num) ? num : 0 }));
+          setHistoryList(prev => [{ expr: inputExpr, val: res }, ...prev.slice(0, 15)]);
+        }
+      }
+      return;
+    }
+
+    // STO KEY (Store in Memory)
+    if (key === 'STO') {
+      const num = parseFloat(resultVal);
+      if (!isNaN(num)) {
+        setMemRegisters(prev => ({ ...prev, M: num }));
+        setFactResult(`Đã lưu kết quả vào M = ${num}`);
+      }
+      return;
+    }
+
+    // M+ KEY (Add to Memory M)
+    if (key === 'M+') {
+      const num = parseFloat(resultVal);
+      if (!isNaN(num)) {
+        const newM = (memRegisters.M || 0) + num;
+        setMemRegisters(prev => ({ ...prev, M: newM }));
+        setFactResult(`M+ => Biến M = ${newM}`);
+      }
+      return;
+    }
+
+    // ENG KEY (Engineering Notation)
+    if (key === 'ENG') {
+      const num = parseFloat(resultVal);
+      if (!isNaN(num) && num !== 0) {
+        const exp = Math.floor(Math.log10(Math.abs(num)));
+        const engExp = Math.floor(exp / 3) * 3;
+        const mantissa = num / Math.pow(10, engExp);
+        setFactResult(`${parseFloat(mantissa.toFixed(4))} × 10^${engExp}`);
       }
       return;
     }
@@ -1051,6 +1104,61 @@ export default function CasioCalculator({ isOpen, onClose }) {
                 </div>
               </div>
 
+              {/* OPTN Options Quick Bar */}
+              {isOptnOpen && (
+                <div className="p-2.5 rounded-xl bg-slate-900 border border-blue-500/50 shadow-lg space-y-1.5 animate-in fade-in duration-150">
+                  <div className="text-[10px] font-black uppercase text-blue-400 flex items-center justify-between">
+                    <span>Menu Hàm Nâng Cao (OPTN)</span>
+                    <button onClick={() => setIsOptnOpen(false)} className="text-slate-400 hover:text-white">✕</button>
+                  </div>
+                  <div className="grid grid-cols-4 gap-1.5 text-[11px] font-bold text-slate-200">
+                    <button onClick={() => { setInputExpr(prev => prev + 'abs('); setIsOptnOpen(false); }} className="py-1 px-1.5 rounded bg-slate-800 hover:bg-slate-700 text-center">1: Abs |x|</button>
+                    <button onClick={() => { setInputExpr(prev => prev + 'cbrt('); setIsOptnOpen(false); }} className="py-1 px-1.5 rounded bg-slate-800 hover:bg-slate-700 text-center">2: ∛(x)</button>
+                    <button onClick={() => { setInputExpr(prev => prev + 'gcd('); setIsOptnOpen(false); }} className="py-1 px-1.5 rounded bg-slate-800 hover:bg-slate-700 text-center">3: GCD</button>
+                    <button onClick={() => { setInputExpr(prev => prev + 'lcm('); setIsOptnOpen(false); }} className="py-1 px-1.5 rounded bg-slate-800 hover:bg-slate-700 text-center">4: LCM</button>
+                    <button onClick={() => { setInputExpr(prev => prev + 'deriv('); setIsOptnOpen(false); }} className="py-1 px-1.5 rounded bg-slate-800 hover:bg-slate-700 text-center">5: d/dx</button>
+                    <button onClick={() => { setInputExpr(prev => prev + 'integ('); setIsOptnOpen(false); }} className="py-1 px-1.5 rounded bg-slate-800 hover:bg-slate-700 text-center">6: ∫</button>
+                    <button onClick={() => { setInputExpr(prev => prev + 'round('); setIsOptnOpen(false); }} className="py-1 px-1.5 rounded bg-slate-800 hover:bg-slate-700 text-center">7: Làm tròn</button>
+                    <button onClick={() => { setFactResult('Biến M = ' + (memRegisters.M || 0)); setIsOptnOpen(false); }} className="py-1 px-1.5 rounded bg-slate-800 hover:bg-slate-700 text-center text-amber-300">8: Gọi M</button>
+                  </div>
+                </div>
+              )}
+
+              {/* CALC Variable Input Prompt */}
+              {calcVarPrompt && (
+                <div className="p-2.5 rounded-xl bg-slate-900 border border-amber-500/60 shadow-lg flex items-center justify-between gap-2 text-xs animate-in fade-in duration-150">
+                  <span className="font-black text-amber-300 shrink-0">Nhập x =</span>
+                  <input
+                    type="number"
+                    value={calcXVal}
+                    onChange={(e) => setCalcXVal(e.target.value)}
+                    className="w-24 px-2 py-1 rounded-lg bg-slate-800 text-white border border-slate-700 font-mono text-center font-bold focus:border-amber-400 focus:outline-none"
+                    autoFocus
+                  />
+                  <div className="flex items-center gap-1">
+                    <button
+                      onClick={() => {
+                        const xNum = parseFloat(calcXVal) || 0;
+                        setMemRegisters(prev => ({ ...prev, X: xNum }));
+                        const replaced = inputExpr.replace(/x/g, `(${xNum})`);
+                        const res = evaluateMath(replaced);
+                        setResultVal(res);
+                        setCalcVarPrompt(false);
+                      }}
+                      className="px-3 py-1 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-black cursor-pointer shadow-xs"
+                    >
+                      Tính (=)
+                    </button>
+                    <button
+                      onClick={() => setCalcVarPrompt(false)}
+                      className="px-2 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 font-bold"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                </div>
+              )}
+
               {/* Realistic Keypad Grid */}
               <div className="space-y-2">
                 {/* Top Control Cluster: SHIFT, ALPHA, OPTN, CALC, MENU, ON */}
@@ -1075,14 +1183,18 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
                   <button
                     onClick={() => handleKeyClick('OPTN')}
-                    className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
+                    className={`py-2 rounded-lg text-xs font-black transition-all cursor-pointer ${
+                      isOptnOpen ? 'bg-blue-600 text-white shadow-md' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600'
+                    }`}
                   >
                     OPTN
                   </button>
 
                   <button
                     onClick={() => handleKeyClick('CALC')}
-                    className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
+                    className={`py-2 rounded-lg text-xs font-black transition-all cursor-pointer ${
+                      calcVarPrompt ? 'bg-amber-500 text-black shadow-md' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600'
+                    }`}
                   >
                     CALC
                   </button>
@@ -1103,11 +1215,12 @@ export default function CasioCalculator({ isOpen, onClose }) {
                   </button>
                 </div>
 
-                {/* Math Row 2: x^-1, x^2, x^□, log, ln */}
-                <div className="grid grid-cols-5 gap-1.5">
+                {/* Math Row 2: √, □/□, x^2, x^□, log, ln */}
+                <div className="grid grid-cols-6 gap-1.5">
                   {[
-                    { label: 'x⁻¹', shift: 'x!', val: '^-1' },
-                    { label: 'x²', shift: '√', val: '^2' },
+                    { label: '√□', shift: '∛', val: '√(' },
+                    { label: '□/□', shift: 'a b/c', val: '/' },
+                    { label: 'x²', shift: 'x!', val: '^2' },
                     { label: 'x^□', shift: 'ⁿ√', val: '^' },
                     { label: 'log', shift: '10ˣ', val: 'log(' },
                     { label: 'ln', shift: 'eˣ', val: 'ln(' }

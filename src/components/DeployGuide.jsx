@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Copy, Check, Terminal, ExternalLink, Cloud, GitBranch, AlertCircle, ShieldCheck } from 'lucide-react';
+import { X, Copy, Check, Terminal, Cloud, GitBranch, AlertCircle } from 'lucide-react';
 
 export default function DeployGuide({ onClose }) {
   const [copiedIndex, setCopiedIndex] = useState(null);

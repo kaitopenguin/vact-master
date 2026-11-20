@@ -30,6 +30,16 @@ router.get('/security/logs', (req, res) => {
   res.json(securityStore.getRecentLogs(30));
 });
 
+// Test endpoint for WAF and Attack Simulation
+router.all('/test', (req, res) => {
+  res.json({
+    success: true,
+    message: 'Request passed WAF filters successfully.',
+    query: req.query,
+    body: req.body
+  });
+});
+
 // Check if local Casio 580 emulator is installed on host
 router.get('/casio/status', (req, res) => {
   const exists = fs.existsSync(CASIO_EXE_PATH);

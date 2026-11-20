@@ -8,12 +8,9 @@ import {
   Calculator, 
   BarChart3,
   Microscope,
-  CheckCircle2, 
   Copy,
   Check,
-  Search,
-  BookOpen,
-  ArrowRight
+  Search
 } from 'lucide-react';
 import { EXAM_TIPS } from '../data/tipsData';
 

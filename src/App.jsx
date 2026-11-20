@@ -10,7 +10,7 @@ import MistakeView from './components/MistakeView';
 import SecurityDashboard from './components/SecurityDashboard';
 import CasioCalculator from './components/CasioCalculator';
 import { HelloKittyFloatingCompanion } from './components/HelloKittyDecor';
-import { playCreamySwitch } from './utils/creamyAudio';
+import { playSwitchSound } from './utils/creamyAudio';
 
 export default function App() {
   const [currentTab, setCurrentTab] = useState('exam');
@@ -64,9 +64,11 @@ export default function App() {
     localStorage.setItem('vact_theme_mode', theme);
   }, [theme]);
 
-  // Font size scaler application
+  // Font size scaler application (Scale trực tiếp root html rem & body)
   useEffect(() => {
+    document.documentElement.classList.remove('font-scale-normal', 'font-scale-large', 'font-scale-xlarge');
     document.body.classList.remove('font-scale-normal', 'font-scale-large', 'font-scale-xlarge');
+    document.documentElement.classList.add(`font-scale-${fontSize}`);
     document.body.classList.add(`font-scale-${fontSize}`);
     localStorage.setItem('vact_font_size', fontSize);
   }, [fontSize]);
@@ -90,15 +92,13 @@ export default function App() {
     }
   }, [mistakes]);
 
-  // Global Creamy Sound click effect for tactile mechanical switch feel on all buttons
+  // Global Keyboard Switch Sound click effect (Creamy, Thocky, Poppy, Clacky)
   useEffect(() => {
     const handleGlobalClick = (e) => {
-      // Bấm vào bất kỳ nút bấm hoặc phần tử tương tác nào đều có tiếng creamy switch đầm ấm
       const target = e.target.closest('button, [role="button"], input[type="radio"], a, .creamy-tap');
       if (target) {
-        // Tránh trigger trùng lặp nếu phần tử đã tự phát âm thanh riêng (data-custom-sound)
         if (!target.dataset.customSound) {
-          playCreamySwitch(1.0);
+          playSwitchSound(1.0);
         }
       }
     };

@@ -21,13 +21,19 @@ import {
   Library,
   Eye,
   Volume2,
-  VolumeX
+  VolumeX,
+  Sliders
 } from 'lucide-react';
 import { HelloKittyBow } from './HelloKittyDecor';
 import { 
-  getCreamySoundEnabled, 
-  setCreamySoundEnabled, 
-  playCreamySwitch, 
+  getSoundProfile, 
+  setSoundProfile, 
+  SOUND_PROFILES,
+  playSwitchSound,
+  playCreamySwitch,
+  playThockySwitch,
+  playPoppySwitch,
+  playClackySwitch,
   playKittyPurr, 
   playKittySparkle 
 } from '../utils/creamyAudio';
@@ -46,7 +52,8 @@ export default function Navbar({
   onOpenCasio
 }) {
   const [isThemeMenuOpen, setIsThemeMenuOpen] = useState(false);
-  const [soundEnabled, setSoundEnabled] = useState(getCreamySoundEnabled());
+  const [soundProfile, setSoundProfileState] = useState(getSoundProfile());
+  const [isSoundMenuOpen, setIsSoundMenuOpen] = useState(false);
 
   const themes = [
     {
@@ -321,39 +328,88 @@ export default function Navbar({
                 )}
               </div>
 
-              {/* Creamy Mechanical Sound Toggle */}
-              <button
-                onClick={() => {
-                  const next = !soundEnabled;
-                  setSoundEnabled(next);
-                  setCreamySoundEnabled(next);
-                  if (next) {
-                    if (theme === 'hello-kitty') {
-                      playKittyPurr();
-                    } else {
-                      playCreamySwitch(1.2);
-                    }
-                  }
-                }}
-                className={`flex items-center gap-1.5 p-1.5 sm:px-3 sm:py-1.5 rounded-xl text-xs font-black border transition-all cursor-pointer ${
-                  soundEnabled 
-                    ? 'vact-card border vact-border vact-text-primary text-[#F62E70] ring-1 ring-[#F6BBC4]' 
-                    : 'vact-card-subtle border vact-border opacity-60'
-                }`}
-                title={soundEnabled ? 'Âm thanh creamy: Đang BẬT (Bấm để tắt)' : 'Âm thanh creamy: Đang TẮT (Bấm để bật)'}
-              >
-                {soundEnabled ? (
+              {/* Keyboard Sound FX Profile Selector (Creamy, Thocky, Poppy, Clacky) */}
+              <div className="relative">
+                <button
+                  onClick={() => setIsSoundMenuOpen(!isSoundMenuOpen)}
+                  className={`flex items-center gap-1.5 p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-black border transition-all cursor-pointer ${
+                    soundProfile !== 'mute' 
+                      ? 'vact-card border vact-border vact-text-primary text-[#F62E70] ring-1 ring-[#F6BBC4]/40' 
+                      : 'vact-card-subtle border vact-border opacity-60'
+                  }`}
+                  title="Chọn hiệu ứng âm thanh gõ phím (Creamy, Thocky, Poppy, Clacky)"
+                >
+                  {soundProfile !== 'mute' ? (
+                    <>
+                      <Volume2 className="w-3.5 h-3.5 text-[#F62E70] animate-pulse" />
+                      <span className="hidden sm:inline font-bold">
+                        {SOUND_PROFILES.find(p => p.id === soundProfile)?.emoji} {SOUND_PROFILES.find(p => p.id === soundProfile)?.name}
+                      </span>
+                    </>
+                  ) : (
+                    <>
+                      <VolumeX className="w-3.5 h-3.5 vact-text-muted" />
+                      <span className="hidden sm:inline font-medium vact-text-muted">Mute</span>
+                    </>
+                  )}
+                  <ChevronDown className={`w-3 h-3 vact-text-muted transition-transform duration-200 ${isSoundMenuOpen ? 'rotate-180' : ''}`} />
+                </button>
+
+                {isSoundMenuOpen && (
                   <>
-                    <Volume2 className="w-3.5 h-3.5 text-[#F62E70] animate-pulse" />
-                    <span className="hidden sm:inline font-bold">Creamy FX</span>
-                  </>
-                ) : (
-                  <>
-                    <VolumeX className="w-3.5 h-3.5 vact-text-muted" />
-                    <span className="hidden sm:inline font-medium vact-text-muted">Mute</span>
+                    <div 
+                      className="fixed inset-0 z-40" 
+                      onClick={() => setIsSoundMenuOpen(false)}
+                    />
+                    <div className="absolute right-0 mt-2 w-64 rounded-2xl vact-card border vact-border shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
+                      <div className="px-3 py-1.5 border-b vact-border mb-1 flex items-center justify-between">
+                        <span className="text-[11px] font-black uppercase tracking-wider vact-text-primary">Âm Thanh Bàn Phím (FX)</span>
+                        <span className="text-[9px] px-1.5 py-0.2 rounded-full bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 font-bold">
+                          Custom
+                        </span>
+                      </div>
+
+                      <div className="space-y-1">
+                        {SOUND_PROFILES.map((p) => {
+                          const isSelected = soundProfile === p.id;
+                          return (
+                            <button
+                              key={p.id}
+                              onClick={() => {
+                                setSoundProfile(p.id);
+                                setSoundProfileState(p.id);
+                                setIsSoundMenuOpen(false);
+                                if (p.id === 'creamy') playCreamySwitch(1.1);
+                                else if (p.id === 'thocky') playThockySwitch(1.0);
+                                else if (p.id === 'poppy') playPoppySwitch(1.0);
+                                else if (p.id === 'clacky') playClackySwitch(1.0);
+                              }}
+                              className={`w-full text-left p-2 rounded-xl transition-all flex items-center justify-between group cursor-pointer ${
+                                isSelected 
+                                  ? 'bg-blue-500/10 border border-blue-500/30' 
+                                  : 'hover:bg-slate-500/10 border border-transparent'
+                              }`}
+                            >
+                              <div className="flex items-center gap-2">
+                                <span className="text-base shrink-0">{p.emoji}</span>
+                                <div>
+                                  <div className="text-xs font-black vact-text-primary leading-tight">
+                                    {p.name}
+                                  </div>
+                                  <div className="text-[10px] vact-text-muted leading-tight">
+                                    {p.desc}
+                                  </div>
+                                </div>
+                              </div>
+                              {isSelected && <Check className="w-3.5 h-3.5 text-blue-500 shrink-0" />}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
                   </>
                 )}
-              </button>
+              </div>
 
               {/* Hardware-Grade Digital Blue Light Shield (Kính Lọc Ánh Sáng Xanh Tích Hợp) */}
               {setBlueLightShield && (
@@ -415,7 +471,7 @@ export default function Navbar({
                 <button
                   key={item.id}
                   onClick={() => {
-                    playCreamySwitch(1.0);
+                    playSwitchSound(1.0);
                     setCurrentTab(item.id);
                   }}
                   className={`whitespace-nowrap flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-black transition-all shrink-0 cursor-pointer ${
@@ -447,7 +503,7 @@ export default function Navbar({
         <div className="grid grid-cols-5 items-center px-1 py-1.5 text-[10px] font-black">
           <button
             onClick={() => {
-              playCreamySwitch(1.0);
+              playSwitchSound(1.0);
               setCurrentTab('exam');
             }}
             className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
@@ -460,7 +516,7 @@ export default function Navbar({
 
           <button
             onClick={() => {
-              playCreamySwitch(1.0);
+              playSwitchSound(1.0);
               setCurrentTab('books');
             }}
             className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
@@ -473,7 +529,7 @@ export default function Navbar({
 
           <button
             onClick={() => {
-              playCreamySwitch(1.0);
+              playSwitchSound(1.0);
               setCurrentTab('theory');
             }}
             className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
@@ -486,7 +542,7 @@ export default function Navbar({
 
           <button
             onClick={() => {
-              playCreamySwitch(1.0);
+              playSwitchSound(1.0);
               setCurrentTab('tips');
             }}
             className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
@@ -499,7 +555,7 @@ export default function Navbar({
 
           <button
             onClick={() => {
-              playCreamySwitch(1.0);
+              playSwitchSound(1.0);
               setCurrentTab('mistakes');
             }}
             className={`flex flex-col items-center justify-center py-1 rounded-xl relative transition-all ${

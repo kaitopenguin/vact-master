@@ -40,6 +40,7 @@ import {
   CuteOptionBadge 
 } from './HelloKittyDecor';
 import { 
+  playSwitchSound,
   playCreamySwitch, 
   playBubblePop, 
   playKittySparkle, 
@@ -545,7 +546,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
               <button
                 disabled={currentIndex === 0}
                 onClick={() => {
-                  playCreamySwitch(1.0);
+                  playSwitchSound(1.0);
                   setCurrentIndex(prev => Math.max(0, prev - 1));
                 }}
                 className="flex items-center gap-1 sm:gap-1.5 px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl font-black text-xs vact-card border vact-border vact-text-primary disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer shadow-xs active:scale-[0.98]"
@@ -561,7 +562,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
               <button
                 disabled={currentIndex === totalQ - 1}
                 onClick={() => {
-                  playCreamySwitch(1.0);
+                  playSwitchSound(1.0);
                   setCurrentIndex(prev => Math.min(totalQ - 1, prev + 1));
                 }}
                 className="flex items-center gap-1 sm:gap-1.5 px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl font-black text-xs bg-blue-600 hover:bg-blue-700 text-white disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer shadow-xs active:scale-[0.98]"
@@ -598,7 +599,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                     <button
                       key={q.id}
                       onClick={() => {
-                        playCreamySwitch(1.0);
+                        playSwitchSound(1.0);
                         setCurrentIndex(idx);
                       }}
                       className={`h-9 rounded-xl text-xs font-bold transition-all flex items-center justify-center cursor-pointer ${btnClass}`}
@@ -665,7 +666,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                     <button
                       key={q.id}
                       onClick={() => {
-                        playCreamySwitch(1.0);
+                        playSwitchSound(1.0);
                         setCurrentIndex(idx);
                         setIsMobilePaletteOpen(false);
                       }}
