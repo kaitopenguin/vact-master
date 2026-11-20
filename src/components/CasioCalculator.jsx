@@ -240,7 +240,8 @@ function solveLinearSystem(A, b) {
 // MAIN CASIO FX-580VN X COMPONENT
 // =========================================================================
 
-export default function CasioCalculator({ isOpen, onClose }) {
+export default function CasioCalculator({ isOpen, onClose, theme }) {
+  const isHK = theme === 'hello-kitty' || (typeof document !== 'undefined' && (document.body.classList.contains('theme-hello-kitty') || localStorage.getItem('vact_theme_mode') === 'hello-kitty'));
   // Mode selection:
   // 1: COMP, 2: CMPLX, 3: BASE-N, 4: MATRIX, 5: VECTOR, 
   // 6: STAT, 7: DIST, 8: TABLE, 9: EQN, A: INEQ, B: RATIO
@@ -944,29 +945,50 @@ export default function CasioCalculator({ isOpen, onClose }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 backdrop-blur-sm p-2 sm:p-4 overflow-y-auto">
       <div 
-        className={`bg-slate-900 border-2 border-slate-700 text-white rounded-3xl shadow-2xl transition-all duration-300 flex flex-col overflow-hidden ${
+        className={`transition-all duration-300 flex flex-col overflow-hidden ${
+          isHK 
+            ? 'bg-[#FFF9FB] border-2 border-[#F6BBC4] text-[#4A1525] shadow-2xl shadow-pink-300/40' 
+            : 'bg-slate-900 border-2 border-slate-700 text-white shadow-2xl'
+        } ${
           isFullScreen 
             ? 'w-full h-full max-w-none rounded-none' 
             : 'w-full max-w-5xl max-h-[94vh]'
         }`}
       >
         {/* Top Header Bar */}
-        <div className="flex items-center justify-between px-4 sm:px-6 py-3 border-b border-slate-800 bg-slate-950/90">
+        <div className={`flex items-center justify-between px-4 sm:px-6 py-3 border-b ${
+          isHK 
+            ? 'border-[#FACCD7] bg-gradient-to-r from-[#FFF0F4] via-[#FDF5F7] to-[#FFF0F4]' 
+            : 'border-slate-800 bg-slate-950/90'
+        }`}>
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-xl bg-blue-600 flex items-center justify-center font-black text-white shadow-md shadow-blue-500/30">
+            <div className={`w-8 h-8 rounded-xl flex items-center justify-center font-black text-white shadow-md ${
+              isHK ? 'bg-gradient-to-br from-[#F62E70] to-[#F98EAA] shadow-pink-500/30' : 'bg-blue-600 shadow-blue-500/30'
+            }`}>
               <Calculator className="w-5 h-5" />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="font-black text-sm tracking-wide text-white">CACAO Scientific</span>
-                <span className="text-[11px] font-black px-2 py-0.5 rounded-md bg-blue-500/20 text-blue-400 border border-blue-500/30">
-                  fx-580VN X
+                <span className={`font-black text-sm tracking-wide ${isHK ? 'text-[#F62E70] flex items-center gap-1.5' : 'text-white'}`}>
+                  {isHK && <span>🎀</span>}
+                  <span>CACAO Scientific</span>
                 </span>
-                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">
+                <span className={`text-[11px] font-black px-2 py-0.5 rounded-md border ${
+                  isHK 
+                    ? 'bg-[#FACCD7]/60 text-[#F62E70] border-[#F6BBC4]' 
+                    : 'bg-blue-500/20 text-blue-400 border-blue-500/30'
+                }`}>
+                  fx-580VN X {isHK && '♥ Hello Kitty'}
+                </span>
+                <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${
+                  isHK ? 'bg-pink-100 text-pink-700 border border-pink-200' : 'bg-emerald-500/20 text-emerald-400'
+                }`}>
                   Full 12 Modes
                 </span>
               </div>
-              <p className="text-[10px] text-slate-400">Giả lập máy tính khoa học cao cấp cho kỳ thi V-ACT ĐHQG-HCM</p>
+              <p className={`text-[10px] ${isHK ? 'text-pink-600/90 font-medium' : 'text-slate-400'}`}>
+                {isHK ? 'Máy tính khoa học Sweet Pink Edition dành tặng bạn gái 🎀' : 'Giả lập máy tính khoa học cao cấp cho kỳ thi V-ACT ĐHQG-HCM'}
+              </p>
             </div>
           </div>
 
@@ -974,17 +996,23 @@ export default function CasioCalculator({ isOpen, onClose }) {
             {/* Launch Real Desktop App Button */}
             <button
               onClick={handleLaunchDesktop}
-              className="flex items-center gap-1 text-[11px] font-bold px-2.5 py-1.5 rounded-xl bg-blue-600/20 hover:bg-blue-600/40 text-blue-300 border border-blue-500/40 transition-colors cursor-pointer"
+              className={`flex items-center gap-1 text-[11px] font-bold px-2.5 py-1.5 rounded-xl border transition-colors cursor-pointer ${
+                isHK 
+                  ? 'bg-pink-100 hover:bg-pink-200 text-[#F62E70] border-pink-300' 
+                  : 'bg-blue-600/20 hover:bg-blue-600/40 text-blue-300 border-blue-500/40'
+              }`}
               title="Khởi động ứng dụng Cacao fx-580VN X Emulator trên Windows"
             >
-              <Cpu className="w-3.5 h-3.5 text-blue-400" />
+              <Cpu className={`w-3.5 h-3.5 ${isHK ? 'text-[#F62E70]' : 'text-blue-400'}`} />
               <span className="hidden sm:inline">Mở App PC (Gốc)</span>
             </button>
 
             {/* Toggle Full Screen */}
             <button
               onClick={() => setIsFullScreen(prev => !prev)}
-              className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"
+              className={`p-2 rounded-xl transition-colors cursor-pointer ${
+                isHK ? 'text-pink-600 hover:text-pink-900 hover:bg-pink-100' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+              }`}
               title="Toàn màn hình"
             >
               {isFullScreen ? <Minimize2 className="w-4 h-4" /> : <Maximize2 className="w-4 h-4" />}
@@ -993,7 +1021,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
             {/* Close Button */}
             <button
               onClick={onClose}
-              className="p-2 rounded-xl text-slate-400 hover:text-rose-400 hover:bg-rose-950/40 transition-colors cursor-pointer"
+              className={`p-2 rounded-xl transition-colors cursor-pointer ${
+                isHK ? 'text-[#F62E70] hover:bg-pink-100' : 'text-slate-400 hover:text-rose-400 hover:bg-rose-950/40'
+              }`}
               title="Đóng giả lập"
             >
               <X className="w-5 h-5" />
@@ -1002,7 +1032,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
         </div>
 
         {/* Mode Selector Tabs (Full Casio 580 Modes) */}
-        <div className="flex items-center gap-1.5 px-4 py-2 bg-slate-950/70 border-b border-slate-800 overflow-x-auto no-scrollbar">
+        <div className={`flex items-center gap-1.5 px-4 py-2 border-b overflow-x-auto no-scrollbar ${
+          isHK ? 'bg-[#FFF0F4] border-[#FACCD7]' : 'bg-slate-950/70 border-slate-800'
+        }`}>
           {[
             { id: '1', label: '1: COMP', icon: Calculator, desc: 'Tính toán chuẩn' },
             { id: '2', label: '2: CMPLX', icon: Sparkles, desc: 'Số phức' },
@@ -1019,8 +1051,12 @@ export default function CasioCalculator({ isOpen, onClose }) {
               onClick={() => setMode(tab.id)}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-black whitespace-nowrap transition-all cursor-pointer ${
                 mode === tab.id
-                  ? 'bg-blue-600 text-white shadow-md shadow-blue-500/30'
-                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
+                  ? isHK 
+                    ? 'bg-gradient-to-r from-[#F62E70] to-[#F98EAA] text-white shadow-md shadow-pink-500/30' 
+                    : 'bg-blue-600 text-white shadow-md shadow-blue-500/30'
+                  : isHK
+                    ? 'text-pink-700 hover:text-[#F62E70] hover:bg-pink-100/70'
+                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
               }`}
             >
               <tab.icon className="w-3.5 h-3.5" />
@@ -1042,22 +1078,43 @@ export default function CasioCalculator({ isOpen, onClose }) {
           
           {/* Left Column: Authentic Casio Physical Calculator Frame */}
           <div className="lg:col-span-7 flex flex-col items-center">
-            <div className="w-full max-w-[430px] bg-gradient-to-b from-[#1b2234] via-[#151c2c] to-[#0f1422] rounded-[36px] p-4 sm:p-5 border-2 border-slate-700/80 shadow-2xl relative">
+            <div className={`w-full max-w-[430px] rounded-[36px] p-4 sm:p-5 border-2 shadow-2xl relative transition-all ${
+              isHK
+                ? 'bg-gradient-to-b from-[#FACCD7] via-[#F6BBC4] to-[#f4abbb] border-4 border-[#F98EAA] shadow-pink-300/60 text-[#4A1525]'
+                : 'bg-gradient-to-b from-[#1b2234] via-[#151c2c] to-[#0f1422] border-slate-700/80 text-white'
+            }`}>
+              {/* Cute Hello Kitty Ribbon Sticker */}
+              {isHK && (
+                <div className="absolute -top-3.5 -right-3.5 w-10 h-10 bg-[#F62E70] rounded-full flex items-center justify-center text-lg shadow-lg border-2 border-white animate-bounce">
+                  🎀
+                </div>
+              )}
               
               {/* Solar Panel & Brand Banner */}
               <div className="flex items-center justify-between mb-3 px-1">
                 <div>
                   <div className="text-base font-black tracking-wider text-slate-100 flex items-center gap-1.5">
-                    <span className="tracking-widest font-black text-amber-400">CACAO</span>
-                    <span className="text-[10px] font-bold text-slate-400 bg-slate-800/80 px-1.5 py-0.5 rounded">CALCWIZ</span>
+                    <span className={`tracking-widest font-black ${isHK ? 'text-[#F62E70] flex items-center gap-1' : 'text-amber-400'}`}>
+                      {isHK && <span>🎀</span>}
+                      <span>CACAO</span>
+                    </span>
+                    <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${
+                      isHK ? 'bg-white/90 text-[#F62E70] shadow-xs' : 'text-slate-400 bg-slate-800/80'
+                    }`}>
+                      {isHK ? 'SWEET WIZ' : 'CALCWIZ'}
+                    </span>
                   </div>
-                  <div className="text-[11px] font-black text-blue-400 tracking-wider">
-                    fx-580VN X <span className="text-slate-400 font-normal text-[9px]">NATURAL-MATH</span>
+                  <div className={`text-[11px] font-black tracking-wider ${isHK ? 'text-[#4A1525]' : 'text-blue-400'}`}>
+                    fx-580VN X <span className={`${isHK ? 'text-[#F62E70]' : 'text-slate-400'} font-normal text-[9px]`}>{isHK ? '♥ HELLO KITTY' : 'NATURAL-MATH'}</span>
                   </div>
                 </div>
 
                 {/* Simulated Realistic Solar Cell */}
-                <div className="w-24 h-6 rounded-md bg-gradient-to-r from-[#291711] via-[#3a2016] to-[#291711] border border-[#522e20] shadow-inner flex items-center justify-around px-1">
+                <div className={`w-24 h-6 rounded-md border shadow-inner flex items-center justify-around px-1 ${
+                  isHK
+                    ? 'bg-gradient-to-r from-[#e38d9f] via-[#c96f83] to-[#e38d9f] border-[#d87c91]'
+                    : 'bg-gradient-to-r from-[#291711] via-[#3a2016] to-[#291711] border-[#522e20]'
+                }`}>
                   <div className="w-0.5 h-full bg-black/40"></div>
                   <div className="w-0.5 h-full bg-black/40"></div>
                   <div className="w-0.5 h-full bg-black/40"></div>
@@ -1065,9 +1122,15 @@ export default function CasioCalculator({ isOpen, onClose }) {
               </div>
 
               {/* LCD Dot Matrix Screen (Authentic 192x63 Casio Screen) */}
-              <div className="bg-[#b4c4a5] text-[#142316] rounded-xl p-3 sm:p-3.5 border-4 border-slate-900 shadow-inner font-mono relative overflow-hidden min-h-[110px] flex flex-col justify-between mb-4 select-none">
+              <div className={`rounded-xl p-3 sm:p-3.5 border-4 shadow-inner font-mono relative overflow-hidden min-h-[110px] flex flex-col justify-between mb-4 select-none ${
+                isHK 
+                  ? 'bg-[#FFF5F7] text-[#4A1525] border-[#F98EAA]' 
+                  : 'bg-[#b4c4a5] text-[#142316] border-slate-900'
+              }`}>
                 {/* LCD Top Status Indicators */}
-                <div className="flex items-center justify-between text-[10px] font-black tracking-tight border-b border-[#9eb08d] pb-1">
+                <div className={`flex items-center justify-between text-[10px] font-black tracking-tight border-b pb-1 ${
+                  isHK ? 'border-pink-200 text-pink-700' : 'border-[#9eb08d] text-[#142316]'
+                }`}>
                   <div className="flex items-center gap-1.5">
                     {isShift && <span className="px-1 bg-[#142316] text-[#b4c4a5] rounded-xs font-black">S</span>}
                     {isAlpha && <span className="px-1 bg-[#142316] text-[#b4c4a5] rounded-xs font-black">A</span>}
@@ -1107,7 +1170,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
               {/* OPTN Options Quick Bar */}
               {isOptnOpen && (
                 <div className="p-2.5 rounded-xl bg-slate-900 border border-blue-500/50 shadow-lg space-y-1.5 animate-in fade-in duration-150">
-                  <div className="text-[10px] font-black uppercase text-blue-400 flex items-center justify-between">
+                  <div className={`text-[10px] font-black uppercase ${isHK ? 'text-[#F62E70]' : 'text-blue-400'} flex items-center justify-between`}>
                     <span>Menu Hàm Nâng Cao (OPTN)</span>
                     <button onClick={() => setIsOptnOpen(false)} className="text-slate-400 hover:text-white">✕</button>
                   </div>
@@ -1166,7 +1229,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
                   <button
                     onClick={() => handleKeyClick('SHIFT')}
                     className={`py-2 rounded-lg text-xs font-black transition-all cursor-pointer ${
-                      isShift ? 'bg-amber-400 text-black shadow-md' : 'bg-slate-700/80 text-amber-300 hover:bg-slate-600'
+                      isShift 
+                        ? (isHK ? 'bg-[#F62E70] text-white shadow-md' : 'bg-amber-400 text-black shadow-md')
+                        : (isHK ? 'bg-white text-amber-600 hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-amber-300 hover:bg-slate-600')
                     }`}
                   >
                     SHIFT
@@ -1175,7 +1240,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
                   <button
                     onClick={() => handleKeyClick('ALPHA')}
                     className={`py-2 rounded-lg text-xs font-black transition-all cursor-pointer ${
-                      isAlpha ? 'bg-rose-500 text-white shadow-md' : 'bg-slate-700/80 text-rose-300 hover:bg-slate-600'
+                      isAlpha 
+                        ? (isHK ? 'bg-[#F62E70] text-white shadow-md' : 'bg-rose-500 text-white shadow-md')
+                        : (isHK ? 'bg-white text-[#F62E70] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-rose-300 hover:bg-slate-600')
                     }`}
                   >
                     ALPHA
@@ -1184,7 +1251,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
                   <button
                     onClick={() => handleKeyClick('OPTN')}
                     className={`py-2 rounded-lg text-xs font-black transition-all cursor-pointer ${
-                      isOptnOpen ? 'bg-blue-600 text-white shadow-md' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600'
+                      isOptnOpen 
+                        ? (isHK ? 'bg-[#F62E70] text-white shadow-md' : 'bg-blue-600 text-white shadow-md')
+                        : (isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600')
                     }`}
                   >
                     OPTN
@@ -1193,7 +1262,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
                   <button
                     onClick={() => handleKeyClick('CALC')}
                     className={`py-2 rounded-lg text-xs font-black transition-all cursor-pointer ${
-                      calcVarPrompt ? 'bg-amber-500 text-black shadow-md' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600'
+                      calcVarPrompt 
+                        ? (isHK ? 'bg-[#F62E70] text-white shadow-md' : 'bg-amber-500 text-black shadow-md')
+                        : (isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600')
                     }`}
                   >
                     CALC
@@ -1201,7 +1272,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
                   <button
                     onClick={() => setMode(prev => prev === '1' ? '8' : prev === '8' ? '9' : '1')}
-                    className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-blue-300 hover:bg-slate-600 transition-colors cursor-pointer"
+                    className={`py-2 rounded-lg text-xs font-black transition-colors cursor-pointer ${
+                      isHK ? 'bg-white text-[#F62E70] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-blue-300 hover:bg-slate-600'
+                    }`}
                     title="Chuyển chế độ nhanh COMP -> TABLE -> EQN"
                   >
                     MENU
@@ -1209,7 +1282,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
                   <button
                     onClick={() => handleKeyClick('ON')}
-                    className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-slate-100 hover:bg-slate-600 transition-colors cursor-pointer"
+                    className={`py-2 rounded-lg text-xs font-black transition-colors cursor-pointer ${
+                      isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-slate-100 hover:bg-slate-600'
+                    }`}
                   >
                     ON
                   </button>
@@ -1228,9 +1303,11 @@ export default function CasioCalculator({ isOpen, onClose }) {
                     <button
                       key={bIdx}
                       onClick={() => handleKeyClick(btn.val)}
-                      className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer flex flex-col items-center justify-center leading-none"
+                      className={`py-2 rounded-lg text-xs font-black transition-colors cursor-pointer flex flex-col items-center justify-center leading-none ${
+                        isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600'
+                      }`}
                     >
-                      <span className="text-[9px] text-amber-300 font-bold mb-0.5">{btn.shift}</span>
+                      <span className={`text-[9px] font-bold mb-0.5 ${isHK ? 'text-[#F62E70]' : 'text-amber-300'}`}>{btn.shift}</span>
                       <span>{btn.label}</span>
                     </button>
                   ))}
@@ -1249,7 +1326,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
                     <button
                       key={bIdx}
                       onClick={() => handleKeyClick(btn.val)}
-                      className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
+                      className={`py-2 rounded-lg text-xs font-black transition-colors cursor-pointer ${
+                        isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600'
+                      }`}
                     >
                       {btn.label}
                     </button>
@@ -1271,8 +1350,8 @@ export default function CasioCalculator({ isOpen, onClose }) {
                       onClick={() => handleKeyClick(btn.val)}
                       className={`py-2 rounded-lg text-xs font-black transition-colors cursor-pointer ${
                         btn.val === 'S<=>D' 
-                          ? 'bg-amber-600/30 text-amber-300 border border-amber-500/40 hover:bg-amber-600/50' 
-                          : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600'
+                          ? (isHK ? 'bg-[#FACCD7] text-[#F62E70] border border-[#F6BBC4] hover:bg-[#F98EAA] hover:text-white' : 'bg-amber-600/30 text-amber-300 border border-amber-500/40 hover:bg-amber-600/50')
+                          : (isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600')
                       }`}
                     >
                       {btn.label}
@@ -1282,38 +1361,78 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
                 {/* Numpad Block: 7 8 9 DEL AC */}
                 <div className="grid grid-cols-5 gap-1.5 pt-1">
-                  <button onClick={() => handleKeyClick('7')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">7</button>
-                  <button onClick={() => handleKeyClick('8')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">8</button>
-                  <button onClick={() => handleKeyClick('9')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">9</button>
-                  <button onClick={() => handleKeyClick('DEL')} className="py-2.5 sm:py-3 rounded-xl text-xs font-black bg-rose-700 text-white hover:bg-rose-600 shadow-sm cursor-pointer">DEL</button>
-                  <button onClick={() => handleKeyClick('AC')} className="py-2.5 sm:py-3 rounded-xl text-xs font-black bg-rose-600 text-white hover:bg-rose-500 shadow-sm cursor-pointer">AC</button>
+                  <button onClick={() => handleKeyClick('7')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>7</button>
+                  <button onClick={() => handleKeyClick('8')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>8</button>
+                  <button onClick={() => handleKeyClick('9')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>9</button>
+                  <button onClick={() => handleKeyClick('DEL')} className={`py-2.5 sm:py-3 rounded-xl text-xs font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-[#F62E70] text-white hover:bg-[#e02663] shadow-pink-500/20' : 'bg-rose-700 text-white hover:bg-rose-600'
+                  }`}>DEL</button>
+                  <button onClick={() => handleKeyClick('AC')} className={`py-2.5 sm:py-3 rounded-xl text-xs font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-[#F62E70] text-white hover:bg-[#e02663] shadow-pink-500/20' : 'bg-rose-600 text-white hover:bg-rose-500'
+                  }`}>AC</button>
                 </div>
 
                 {/* Numpad Block: 4 5 6 × ÷ */}
                 <div className="grid grid-cols-5 gap-1.5">
-                  <button onClick={() => handleKeyClick('4')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">4</button>
-                  <button onClick={() => handleKeyClick('5')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">5</button>
-                  <button onClick={() => handleKeyClick('6')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">6</button>
-                  <button onClick={() => handleKeyClick('×')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">×</button>
-                  <button onClick={() => handleKeyClick('÷')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">÷</button>
+                  <button onClick={() => handleKeyClick('4')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>4</button>
+                  <button onClick={() => handleKeyClick('5')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>5</button>
+                  <button onClick={() => handleKeyClick('6')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>6</button>
+                  <button onClick={() => handleKeyClick('×')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-[#FACCD7] text-[#4A1525] hover:bg-[#F98EAA] hover:text-white border border-[#F6BBC4]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
+                  }`}>×</button>
+                  <button onClick={() => handleKeyClick('÷')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-[#FACCD7] text-[#4A1525] hover:bg-[#F98EAA] hover:text-white border border-[#F6BBC4]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
+                  }`}>÷</button>
                 </div>
 
                 {/* Numpad Block: 1 2 3 + - */}
                 <div className="grid grid-cols-5 gap-1.5">
-                  <button onClick={() => handleKeyClick('1')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">1</button>
-                  <button onClick={() => handleKeyClick('2')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">2</button>
-                  <button onClick={() => handleKeyClick('3')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">3</button>
-                  <button onClick={() => handleKeyClick('+')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">+</button>
-                  <button onClick={() => handleKeyClick('-')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">-</button>
+                  <button onClick={() => handleKeyClick('1')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>1</button>
+                  <button onClick={() => handleKeyClick('2')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>2</button>
+                  <button onClick={() => handleKeyClick('3')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>3</button>
+                  <button onClick={() => handleKeyClick('+')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-[#FACCD7] text-[#4A1525] hover:bg-[#F98EAA] hover:text-white border border-[#F6BBC4]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
+                  }`}>+</button>
+                  <button onClick={() => handleKeyClick('-')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-[#FACCD7] text-[#4A1525] hover:bg-[#F98EAA] hover:text-white border border-[#F6BBC4]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
+                  }`}>-</button>
                 </div>
 
                 {/* Numpad Block: 0 . ×10^x Ans = */}
                 <div className="grid grid-cols-5 gap-1.5">
-                  <button onClick={() => handleKeyClick('0')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">0</button>
-                  <button onClick={() => handleKeyClick('.')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">.</button>
-                  <button onClick={() => handleKeyClick('×10^')} className="py-2.5 sm:py-3 rounded-xl text-xs font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">×10ˣ</button>
-                  <button onClick={() => handleKeyClick('Ans')} className="py-2.5 sm:py-3 rounded-xl text-xs font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">Ans</button>
-                  <button onClick={() => handleKeyClick('=')} className="py-2.5 sm:py-3 rounded-xl text-base font-black bg-blue-600 text-white hover:bg-blue-500 shadow-md shadow-blue-500/30 cursor-pointer">=</button>
+                  <button onClick={() => handleKeyClick('0')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>0</button>
+                  <button onClick={() => handleKeyClick('.')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
+                  }`}>.</button>
+                  <button onClick={() => handleKeyClick('×10^')} className={`py-2.5 sm:py-3 rounded-xl text-xs font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
+                  }`}>×10ˣ</button>
+                  <button onClick={() => handleKeyClick('Ans')} className={`py-2.5 sm:py-3 rounded-xl text-xs font-black transition-colors shadow-xs cursor-pointer ${
+                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
+                  }`}>Ans</button>
+                  <button onClick={() => handleKeyClick('=')} className={`py-2.5 sm:py-3 rounded-xl text-base font-black transition-all cursor-pointer ${
+                    isHK ? 'bg-gradient-to-r from-[#F62E70] to-[#F98EAA] text-white hover:brightness-105 shadow-md shadow-pink-500/40' : 'bg-blue-600 text-white hover:bg-blue-500 shadow-md shadow-blue-500/30'
+                  }`}>=</button>
                 </div>
               </div>
             </div>
@@ -1324,9 +1443,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
             
             {/* Mode 8: TABLE WORKBENCH */}
             {mode === '8' && (
-              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+              <div className={`p-4 sm:p-5 rounded-2xl border space-y-4 ${isHK ? 'bg-[#FFF0F4]/95 border-[#FACCD7] text-[#4A1525]' : 'bg-slate-950/80 border-slate-800 text-white'}`}>
                 <div className="flex items-center justify-between">
-                  <h3 className="text-sm font-black text-blue-400 flex items-center gap-2">
+                  <h3 className={`text-sm font-black ${isHK ? 'text-[#F62E70]' : 'text-blue-400'} flex items-center gap-2`}>
                     <Table className="w-4 h-4" />
                     <span>Chế Độ Bảng Giá Trị (Menu 8 - Table)</span>
                   </h3>
@@ -1405,7 +1524,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
                       <thead className="bg-slate-900 text-slate-300 border-b border-slate-800 sticky top-0">
                         <tr>
                           <th className="p-2 text-center">x</th>
-                          <th className="p-2 text-blue-400">f(x)</th>
+                          <th className={`p-2 ${isHK ? 'text-[#F62E70]' : 'text-blue-400'}`}>f(x)</th>
                           <th className="p-2 text-amber-400">g(x)</th>
                         </tr>
                       </thead>
@@ -1426,7 +1545,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
             {/* Mode 9: EQUATIONS & POLYNOMIALS */}
             {mode === '9' && (
-              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+              <div className={`p-4 sm:p-5 rounded-2xl border space-y-4 ${isHK ? 'bg-[#FFF0F4]/95 border-[#FACCD7] text-[#4A1525]' : 'bg-slate-950/80 border-slate-800 text-white'}`}>
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-black text-purple-400 flex items-center gap-2">
                     <Sigma className="w-4 h-4" />
@@ -1557,7 +1676,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
             {/* Mode A: INEQUALITY WORKBENCH */}
             {mode === 'A' && (
-              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+              <div className={`p-4 sm:p-5 rounded-2xl border space-y-4 ${isHK ? 'bg-[#FFF0F4]/95 border-[#FACCD7] text-[#4A1525]' : 'bg-slate-950/80 border-slate-800 text-white'}`}>
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-black text-amber-400 flex items-center gap-2">
                     <Sliders className="w-4 h-4" />
@@ -1609,7 +1728,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
             {/* Mode 2: COMPLEX NUMBER WORKBENCH */}
             {mode === '2' && (
-              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+              <div className={`p-4 sm:p-5 rounded-2xl border space-y-4 ${isHK ? 'bg-[#FFF0F4]/95 border-[#FACCD7] text-[#4A1525]' : 'bg-slate-950/80 border-slate-800 text-white'}`}>
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-black text-rose-400 flex items-center gap-2">
                     <Sparkles className="w-4 h-4" />
@@ -1667,7 +1786,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
             {/* Mode 3: BASE-N WORKBENCH */}
             {mode === '3' && baseNData && (
-              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+              <div className={`p-4 sm:p-5 rounded-2xl border space-y-4 ${isHK ? 'bg-[#FFF0F4]/95 border-[#FACCD7] text-[#4A1525]' : 'bg-slate-950/80 border-slate-800 text-white'}`}>
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-black text-emerald-400 flex items-center gap-2">
                     <Binary className="w-4 h-4" />
@@ -1709,7 +1828,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
             {/* Mode 4: MATRIX WORKBENCH */}
             {mode === '4' && (
-              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+              <div className={`p-4 sm:p-5 rounded-2xl border space-y-4 ${isHK ? 'bg-[#FFF0F4]/95 border-[#FACCD7] text-[#4A1525]' : 'bg-slate-950/80 border-slate-800 text-white'}`}>
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-black text-indigo-400 flex items-center gap-2">
                     <Grid3X3 className="w-4 h-4" />
@@ -1781,7 +1900,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
             {/* Mode 5: VECTOR OXYZ WORKBENCH */}
             {mode === '5' && (
-              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+              <div className={`p-4 sm:p-5 rounded-2xl border space-y-4 ${isHK ? 'bg-[#FFF0F4]/95 border-[#FACCD7] text-[#4A1525]' : 'bg-slate-950/80 border-slate-800 text-white'}`}>
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-black text-emerald-400 flex items-center gap-2">
                     <Compass className="w-4 h-4" />
@@ -1829,7 +1948,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
             {/* Mode 6: STATISTICS WORKBENCH */}
             {mode === '6' && (
-              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+              <div className={`p-4 sm:p-5 rounded-2xl border space-y-4 ${isHK ? 'bg-[#FFF0F4]/95 border-[#FACCD7] text-[#4A1525]' : 'bg-slate-950/80 border-slate-800 text-white'}`}>
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-black text-cyan-400 flex items-center gap-2">
                     <BarChart2 className="w-4 h-4" />
@@ -1869,10 +1988,10 @@ export default function CasioCalculator({ isOpen, onClose }) {
             )}
 
             {/* Calculation History Log */}
-            <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-3">
+            <div className={`p-4 sm:p-5 rounded-2xl border space-y-3 ${isHK ? 'bg-[#FFF0F4]/95 border-[#FACCD7] text-[#4A1525]' : 'bg-slate-950/80 border-slate-800 text-white'}`}>
               <div className="flex items-center justify-between">
                 <h4 className="text-xs font-black text-slate-300 flex items-center gap-1.5">
-                  <RotateCcw className="w-3.5 h-3.5 text-blue-400" />
+                  <RotateCcw className={`w-3.5 h-3.5 ${isHK ? 'text-[#F62E70]' : 'text-blue-400'}`} />
                   <span>Lịch Sử Phép Tính Gần Đây</span>
                 </h4>
                 {historyList.length > 0 && (
@@ -1899,7 +2018,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
                       className="p-2 rounded-lg bg-slate-900/60 hover:bg-slate-800/60 border border-slate-800/80 flex items-center justify-between cursor-pointer transition-colors"
                     >
                       <span className="text-slate-400 truncate max-w-[180px]">{item.expr}</span>
-                      <span className="text-blue-400 font-bold">{item.val}</span>
+                      <span className={`${isHK ? 'text-[#F62E70]' : 'text-blue-400'} font-bold`}>{item.val}</span>
                     </div>
                   ))
                 )}
@@ -1909,7 +2028,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
             {/* Real PC App Integration Card */}
             <div className="p-4 rounded-2xl bg-gradient-to-r from-blue-950/60 to-indigo-950/60 border border-blue-900/50 flex items-center justify-between gap-3">
               <div className="flex items-center gap-2.5">
-                <div className="w-8 h-8 rounded-xl bg-blue-600/30 text-blue-400 flex items-center justify-center shrink-0">
+                <div className={`w-8 h-8 rounded-xl bg-blue-600/30 ${isHK ? 'text-[#F62E70]' : 'text-blue-400'} flex items-center justify-center shrink-0`}>
                   <Terminal className="w-4 h-4" />
                 </div>
                 <div className="text-xs">

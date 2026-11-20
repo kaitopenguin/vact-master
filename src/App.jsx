@@ -192,10 +192,11 @@ export default function App() {
         <SecurityDashboard onClose={() => setIsSecurityModalOpen(false)} />
       )}
 
-      {/* Casio fx-580VN X Online Calculator & App Launcher */}
+      {/* Cacao fx-580VN X Online Calculator & App Launcher */}
       <CasioCalculator 
         isOpen={isCasioModalOpen} 
         onClose={() => setIsCasioModalOpen(false)} 
+        theme={theme}
       />
 
       {/* Hello Kitty Interactive Companion Mascot for Girlfriend */}
