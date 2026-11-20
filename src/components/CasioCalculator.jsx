@@ -629,7 +629,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
       const res = await fetch('http://127.0.0.1:3000/api/casio/launch', { method: 'POST' });
       const data = await res.json();
       if (data.success) {
-        setLaunchMessage('Đã mở ứng dụng CASIO fx-580VN X ClassWiz Emulator trên màn hình PC!');
+        setLaunchMessage('Đã mở ứng dụng Cacao fx-580VN X Emulator trên màn hình PC!');
       } else {
         setLaunchMessage(`Chưa thể mở tự động: ${data.message || 'Kiểm tra đường dẫn file'}`);
       }
@@ -958,7 +958,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="font-black text-sm tracking-wide text-white">CASIO ClassWiz</span>
+                <span className="font-black text-sm tracking-wide text-white">CACAO Scientific</span>
                 <span className="text-[11px] font-black px-2 py-0.5 rounded-md bg-blue-500/20 text-blue-400 border border-blue-500/30">
                   fx-580VN X
                 </span>
@@ -975,7 +975,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
             <button
               onClick={handleLaunchDesktop}
               className="flex items-center gap-1 text-[11px] font-bold px-2.5 py-1.5 rounded-xl bg-blue-600/20 hover:bg-blue-600/40 text-blue-300 border border-blue-500/40 transition-colors cursor-pointer"
-              title="Khởi động ứng dụng CASIO fx-580VN X Emulator trên Windows"
+              title="Khởi động ứng dụng Cacao fx-580VN X Emulator trên Windows"
             >
               <Cpu className="w-3.5 h-3.5 text-blue-400" />
               <span className="hidden sm:inline">Mở App PC (Gốc)</span>
@@ -1048,11 +1048,11 @@ export default function CasioCalculator({ isOpen, onClose }) {
               <div className="flex items-center justify-between mb-3 px-1">
                 <div>
                   <div className="text-base font-black tracking-wider text-slate-100 flex items-center gap-1.5">
-                    <span className="tracking-widest">CASIO</span>
-                    <span className="text-[10px] font-bold text-slate-400 bg-slate-800/80 px-1.5 py-0.5 rounded">CLASSWIZ</span>
+                    <span className="tracking-widest font-black text-amber-400">CACAO</span>
+                    <span className="text-[10px] font-bold text-slate-400 bg-slate-800/80 px-1.5 py-0.5 rounded">CALCWIZ</span>
                   </div>
                   <div className="text-[11px] font-black text-blue-400 tracking-wider">
-                    fx-580VN X <span className="text-slate-400 font-normal text-[9px]">NATURAL-V.P.A.M.</span>
+                    fx-580VN X <span className="text-slate-400 font-normal text-[9px]">NATURAL-MATH</span>
                   </div>
                 </div>
 
@@ -1913,9 +1913,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
                   <Terminal className="w-4 h-4" />
                 </div>
                 <div className="text-xs">
-                  <div className="font-black text-white">ClassWiz Emulator Trên PC</div>
+                  <div className="font-black text-white">Cacao fx-580 Emulator Trên PC</div>
                   <div className="text-[11px] text-slate-400">
-                    {desktopStatus?.installed ? 'Đã cài đặt tại Program Files (x86)' : 'C:\\Program Files (x86)\\CASIO\\...'}
+                    {desktopStatus?.installed ? 'Đã cài đặt tại Program Files (x86)' : 'C:\\Program Files (x86)\\CACAO\\...'}
                   </div>
                 </div>
               </div>

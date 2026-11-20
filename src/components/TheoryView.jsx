@@ -76,18 +76,18 @@ export default function TheoryView({ fontSize = 'normal', onOpenCasio }) {
               Kho Sách Giáo Trình & Lý Thuyết ĐHQG-HCM
             </h1>
             <p className="mt-2 vact-text-secondary max-w-4xl text-xs sm:text-base leading-relaxed">
-              Mỗi phân môn được biên soạn thành một cuốn sách chuyên khảo độc lập: phân loại tỉ mỉ theo cấu trúc 120 câu, ma trận bẫy ngôn ngữ, thuật toán Casio 580 và tư duy suy luận khoa học.
+              Mỗi phân môn được biên soạn thành một cuốn sách chuyên khảo độc lập: phân loại tỉ mỉ theo cấu trúc 120 câu, ma trận bẫy ngôn ngữ, thuật toán máy tính Cacao 580 và tư duy suy luận khoa học.
             </p>
           </div>
 
-          {/* Quick Casio 580 Button in Header */}
+          {/* Quick Cacao 580 Button in Header */}
           <button
             onClick={onOpenCasio}
             className="self-start md:self-auto flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-black text-xs shadow-md shadow-blue-500/20 active:scale-95 transition-all cursor-pointer shrink-0"
-            title="Mở máy tính Casio fx-580VN X trực tiếp"
+            title="Mở máy tính khoa học Cacao fx-580VN X trực tiếp"
           >
             <Calculator className="w-4 h-4" />
-            <span>Mở Casio fx-580VN X</span>
+            <span>Mở Cacao fx-580VN X</span>
           </button>
         </div>
       </div>
@@ -358,14 +358,14 @@ export default function TheoryView({ fontSize = 'normal', onOpenCasio }) {
                   </div>
                   <div>
                     <h4 className="font-black text-sm">Cần thực hành bấm máy cho chương này?</h4>
-                    <p className="text-xs text-blue-100 font-medium">Mở máy tính Casio fx-580VN X trực tiếp trên trình duyệt hoặc chạy ứng dụng trên máy.</p>
+                    <p className="text-xs text-blue-100 font-medium">Mở máy tính khoa học Cacao fx-580VN X trực tiếp trên trình duyệt hoặc chạy ứng dụng trên máy.</p>
                   </div>
                 </div>
                 <button
                   onClick={onOpenCasio}
                   className="px-4 py-2 rounded-xl bg-white text-blue-700 font-black text-xs hover:bg-blue-50 transition-colors cursor-pointer shrink-0"
                 >
-                  Khởi động Casio 580
+                  Khởi động Cacao 580
                 </button>
               </div>
             )}

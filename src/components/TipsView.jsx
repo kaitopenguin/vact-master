@@ -22,7 +22,7 @@ export default function TipsView({ fontSize = 'normal', onOpenCasio }) {
   const categories = [
     { id: 'all', label: 'Tất cả bí kíp' },
     { id: '⏱️ Quản lý thời gian', label: '⏱️ Thời gian' },
-    { id: '🔢 Kỹ năng Casio', label: '🔢 Bấm máy Casio' },
+    { id: '🔢 Kỹ năng Casio', label: '🔢 Bấm máy Cacao' },
     { id: '🧠 Tư duy Logic', label: '🧠 Tư duy Logic' },
     { id: '📊 Phân tích số liệu', label: '📊 Phân tích Số liệu' },
     { id: '🔬 Suy luận Khoa học', label: '🔬 Khoa học' },
@@ -82,14 +82,14 @@ export default function TipsView({ fontSize = 'normal', onOpenCasio }) {
             </p>
           </div>
 
-          {/* Quick Casio Launch */}
+          {/* Quick Cacao Launch */}
           {onOpenCasio && (
             <button
               onClick={onOpenCasio}
               className="self-start md:self-auto flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs shadow-md shadow-indigo-500/20 active:scale-95 transition-all cursor-pointer shrink-0"
             >
               <Calculator className="w-4 h-4" />
-              <span>Mở Casio 580VNX</span>
+              <span>Mở Cacao 580VNX</span>
             </button>
           )}
         </div>
@@ -204,7 +204,7 @@ export default function TipsView({ fontSize = 'normal', onOpenCasio }) {
                     className="w-full flex items-center justify-center gap-2 px-3 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs cursor-pointer transition-colors shadow-xs"
                   >
                     <Calculator className="w-4 h-4" />
-                    <span>Mở máy tính Casio fx-580VN X thực hành ngay</span>
+                    <span>Mở máy tính Cacao fx-580VN X thực hành ngay</span>
                   </button>
                 </div>
               )}

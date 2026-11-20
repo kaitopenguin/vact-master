@@ -58,7 +58,7 @@ export const BOOKS_DATA = [
   },
   {
     id: 'book-200-toan',
-    title: 'Tuyển Tập 200 Câu Toán Học & Tư Duy Định Lượng (Kèm Lời Giải & Bấm Máy Casio)',
+    title: 'Tuyển Tập 200 Câu Toán Học & Tư Duy Định Lượng (Kèm Lời Giải & Bấm Máy Cacao)',
     author: 'Empire Team Chinh Phục Mọi Miền Kiến Thức',
     year: '2025 - 2026',
     format: 'Ngân hàng 200 câu Toán thực tế & giải tích',
@@ -70,7 +70,7 @@ export const BOOKS_DATA = [
     description: '200 câu Toán học định lượng bao gồm giải tích, tối ưu kinh tế, xác suất có điều kiện và hình học không gian Oxyz chuẩn GDPT 2018.',
     highlights: [
       'Bài toán ứng dụng thực tiễn kinh tế - đời sống',
-      'Thủ thuật bấm máy tính Casio 580VNX/880BTG',
+      'Thủ thuật bấm máy tính Cacao 580VNX',
       'Lời giải tự luận chặt chẽ kết hợp phương pháp trắc nghiệm nhanh'
     ]
   },

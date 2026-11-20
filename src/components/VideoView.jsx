@@ -10,7 +10,7 @@ export default function VideoView() {
     { id: 'logic', label: 'Tư duy Logic' },
     { id: 'data', label: 'Phân tích số liệu' },
     { id: 'vietnamese', label: 'Tiếng Việt' },
-    { id: 'math', label: 'Toán học & Casio' },
+    { id: 'math', label: 'Toán học & Cacao 580' },
   ];
 
   const filteredVideos = filter === 'all' 
