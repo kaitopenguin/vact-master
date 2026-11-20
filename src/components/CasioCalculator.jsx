@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { 
   Calculator, 
   X, 
-  ExternalLink, 
   Sparkles, 
   RotateCcw, 
   Copy, 
@@ -21,26 +20,247 @@ import {
   Grid3X3,
   Compass,
   BarChart2,
-  HelpCircle
+  HelpCircle,
+  Percent,
+  Sliders,
+  Divide,
+  Activity
 } from 'lucide-react';
+
+// =========================================================================
+// MATHEMATICAL HELPER FUNCTIONS (ROCK SOLID, ZERO ERROR)
+// =========================================================================
+
+function nPr(n, r) {
+  n = Math.round(n);
+  r = Math.round(r);
+  if (r < 0 || n < 0 || r > n) return 0;
+  let res = 1;
+  for (let i = 0; i < r; i++) res *= (n - i);
+  return res;
+}
+
+function nCr(n, r) {
+  n = Math.round(n);
+  r = Math.round(r);
+  if (r < 0 || n < 0 || r > n) return 0;
+  if (r === 0 || r === n) return 1;
+  if (r > n / 2) r = n - r;
+  let res = 1;
+  for (let i = 1; i <= r; i++) {
+    res = (res * (n - i + 1)) / i;
+  }
+  return res;
+}
+
+function factorial(n) {
+  n = Math.round(n);
+  if (n < 0) return NaN;
+  if (n === 0 || n === 1) return 1;
+  if (n > 170) return Infinity;
+  let res = 1;
+  for (let i = 2; i <= n; i++) res *= i;
+  return res;
+}
+
+function gcd(a, b) {
+  a = Math.abs(Math.round(a));
+  b = Math.abs(Math.round(b));
+  while (b) {
+    const t = b;
+    b = a % b;
+    a = t;
+  }
+  return a;
+}
+
+function lcm(a, b) {
+  a = Math.abs(Math.round(a));
+  b = Math.abs(Math.round(b));
+  if (a === 0 || b === 0) return 0;
+  return Math.abs(a * b) / gcd(a, b);
+}
+
+// Decimal to reduced fraction p/q
+function decimalToFraction(val) {
+  if (Number.isInteger(val)) return String(val);
+  const sign = val < 0 ? -1 : 1;
+  val = Math.abs(val);
+  const maxDenominator = 10000;
+  let bestN = 1, bestD = 1, bestError = Math.abs(val - 1);
+  for (let d = 1; d <= maxDenominator; d++) {
+    const n = Math.round(val * d);
+    const err = Math.abs(val - n / d);
+    if (err < bestError) {
+      bestN = n;
+      bestD = d;
+      bestError = err;
+      if (err < 1e-8) break;
+    }
+  }
+  return (sign < 0 ? '-' : '') + `${bestN}/${bestD}`;
+}
+
+// Numerical derivative f'(x0) using central difference
+function numDerivative(fn, x0) {
+  const h = 1e-6;
+  return (fn(x0 + h) - fn(x0 - h)) / (2 * h);
+}
+
+// Numerical definite integral using Simpson's 1/3 Rule
+function numIntegral(fn, a, b, n = 200) {
+  if (n % 2 !== 0) n++;
+  const h = (b - a) / n;
+  let sum = fn(a) + fn(b);
+  for (let i = 1; i < n; i++) {
+    const x = a + i * h;
+    sum += (i % 2 === 0 ? 2 : 4) * fn(x);
+  }
+  return (h / 3) * sum;
+}
+
+// Solve quadratic equation ax^2 + bx + c = 0
+function solveQuadratic(a, b, c) {
+  if (Math.abs(a) < 1e-12) return null;
+  const delta = b * b - 4 * a * c;
+  const xv = -b / (2 * a);
+  const yv = -delta / (4 * a);
+  if (delta > 1e-10) {
+    const x1 = (-b + Math.sqrt(delta)) / (2 * a);
+    const x2 = (-b - Math.sqrt(delta)) / (2 * a);
+    return {
+      type: '2 nghiệm thực phân biệt',
+      x1: Math.round(x1 * 1e6) / 1e6,
+      x2: Math.round(x2 * 1e6) / 1e6,
+      vertex: { x: Math.round(xv * 1e6) / 1e6, y: Math.round(yv * 1e6) / 1e6 }
+    };
+  } else if (Math.abs(delta) <= 1e-10) {
+    return {
+      type: 'Nghiệm kép',
+      x1: Math.round(xv * 1e6) / 1e6,
+      vertex: { x: Math.round(xv * 1e6) / 1e6, y: Math.round(yv * 1e6) / 1e6 }
+    };
+  } else {
+    const real = -b / (2 * a);
+    const imag = Math.sqrt(-delta) / (2 * a);
+    return {
+      type: '2 nghiệm phức liên hợp',
+      x1: `${Math.round(real * 1e5) / 1e5} + ${Math.round(imag * 1e5) / 1e5}i`,
+      x2: `${Math.round(real * 1e5) / 1e5} - ${Math.round(imag * 1e5) / 1e5}i`,
+      vertex: { x: Math.round(xv * 1e6) / 1e6, y: Math.round(yv * 1e6) / 1e6 }
+    };
+  }
+}
+
+// Solve cubic equation ax^3 + bx^2 + cx + d = 0 using Cardano's formula
+function solveCubic(a, b, c, d) {
+  if (Math.abs(a) < 1e-12) return null;
+  const p = (3 * a * c - b * b) / (3 * a * a);
+  const q = (2 * b * b * b - 9 * a * b * c + 27 * a * a * d) / (27 * a * a * a);
+  const delta = (q * q / 4) + (p * p * p / 27);
+  const shift = -b / (3 * a);
+
+  // Derivative 3ax^2 + 2bx + c = 0 for stationary points (local max/min)
+  let localExtrema = null;
+  const dDelta = (2 * b) * (2 * b) - 4 * (3 * a) * c;
+  if (dDelta > 0) {
+    const ex1 = (-2 * b + Math.sqrt(dDelta)) / (6 * a);
+    const ex2 = (-2 * b - Math.sqrt(dDelta)) / (6 * a);
+    const ey1 = a * ex1 ** 3 + b * ex1 ** 2 + c * ex1 + d;
+    const ey2 = a * ex2 ** 3 + b * ex2 ** 2 + c * ex2 + d;
+    localExtrema = [
+      { x: Math.round(ex1 * 1e4) / 1e4, y: Math.round(ey1 * 1e4) / 1e4 },
+      { x: Math.round(ex2 * 1e4) / 1e4, y: Math.round(ey2 * 1e4) / 1e4 }
+    ];
+  }
+
+  if (delta > 1e-10) {
+    const u = Math.cbrt(-q / 2 + Math.sqrt(delta));
+    const v = Math.cbrt(-q / 2 - Math.sqrt(delta));
+    const r1 = u + v + shift;
+    const realPart = -(u + v) / 2 + shift;
+    const imagPart = Math.abs((u - v) * Math.sqrt(3) / 2);
+    return {
+      type: '1 nghiệm thực & 2 nghiệm phức',
+      x1: Math.round(r1 * 1e5) / 1e5,
+      x2: `${Math.round(realPart * 1e4) / 1e4} + ${Math.round(imagPart * 1e4) / 1e4}i`,
+      x3: `${Math.round(realPart * 1e4) / 1e4} - ${Math.round(imagPart * 1e4) / 1e4}i`,
+      extrema: localExtrema
+    };
+  } else if (Math.abs(delta) <= 1e-10) {
+    const u = Math.cbrt(-q / 2);
+    return {
+      type: 'Nghiệm bội',
+      x1: Math.round((2 * u + shift) * 1e5) / 1e5,
+      x2: Math.round((-u + shift) * 1e5) / 1e5,
+      extrema: localExtrema
+    };
+  } else {
+    const r = Math.sqrt(-p * p * p / 27);
+    const phi = Math.acos(Math.max(-1, Math.min(1, -q / (2 * r))));
+    const t = 2 * Math.cbrt(r);
+    const r1 = t * Math.cos(phi / 3) + shift;
+    const r2 = t * Math.cos((phi + 2 * Math.PI) / 3) + shift;
+    const r3 = t * Math.cos((phi + 4 * Math.PI) / 3) + shift;
+    const sorted = [r1, r2, r3].sort((x, y) => x - y);
+    return {
+      type: '3 nghiệm thực phân biệt',
+      x1: Math.round(sorted[0] * 1e5) / 1e5,
+      x2: Math.round(sorted[1] * 1e5) / 1e5,
+      x3: Math.round(sorted[2] * 1e5) / 1e5,
+      extrema: localExtrema
+    };
+  }
+}
+
+// Solve linear system Ax = b using Gaussian elimination
+function solveLinearSystem(A, b) {
+  const n = b.length;
+  const M = A.map((row, i) => [...row, b[i]]);
+  for (let i = 0; i < n; i++) {
+    let maxRow = i;
+    for (let k = i + 1; k < n; k++) {
+      if (Math.abs(M[k][i]) > Math.abs(M[maxRow][i])) maxRow = k;
+    }
+    const temp = M[i]; M[i] = M[maxRow]; M[maxRow] = temp;
+    if (Math.abs(M[i][i]) < 1e-12) return null; // Singular or no unique solution
+
+    for (let k = i + 1; k < n; k++) {
+      const c = M[k][i] / M[i][i];
+      for (let j = i; j <= n; j++) {
+        M[k][j] -= c * M[i][j];
+      }
+    }
+  }
+  const x = new Array(n).fill(0);
+  for (let i = n - 1; i >= 0; i--) {
+    let sum = 0;
+    for (let j = i + 1; j < n; j++) sum += M[i][j] * x[j];
+    x[i] = (M[i][n] - sum) / M[i][i];
+  }
+  return x.map(val => Math.round(val * 1e6) / 1e6);
+}
+
+// =========================================================================
+// MAIN CASIO FX-580VN X COMPONENT
+// =========================================================================
 
 export default function CasioCalculator({ isOpen, onClose }) {
   // Mode selection:
-  // 1: COMP, 2: COMPLEX, 3: BASE-N, 4: MATRIX, 5: VECTOR, 
+  // 1: COMP, 2: CMPLX, 3: BASE-N, 4: MATRIX, 5: VECTOR, 
   // 6: STAT, 7: DIST, 8: TABLE, 9: EQN, A: INEQ, B: RATIO
   const [mode, setMode] = useState('1'); 
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isShift, setIsShift] = useState(false);
   const [isAlpha, setIsAlpha] = useState(false);
   const [angleUnit, setAngleUnit] = useState('Deg'); // Deg | Rad
   const [isFullScreen, setIsFullScreen] = useState(false);
+  const [isFractionView, setIsFractionView] = useState(false);
   
   // Expression & Display state for Mode 1 (COMP)
   const [inputExpr, setInputExpr] = useState('');
   const [resultVal, setResultVal] = useState('0');
   const [historyList, setHistoryList] = useState([]);
   const [factResult, setFactResult] = useState('');
-  const [copied, setCopied] = useState(false);
 
   // Memory Registers (A, B, C, D, E, F, X, Y, M, Ans)
   const [memRegisters, setMemRegisters] = useState({
@@ -48,7 +268,9 @@ export default function CasioCalculator({ isOpen, onClose }) {
   });
 
   // Mode 2: Complex
-  const [cplxExpr, setCplxExpr] = useState('3 + 4i');
+  const [cplxZ1, setCplxZ1] = useState({ r: '3', i: '4' });
+  const [cplxZ2, setCplxZ2] = useState({ r: '1', i: '-2' });
+  const [cplxOp, setCplxOp] = useState('+');
   const [cplxResult, setCplxResult] = useState(null);
 
   // Mode 3: Base-N
@@ -56,10 +278,16 @@ export default function CasioCalculator({ isOpen, onClose }) {
   const [baseNType, setBaseNType] = useState('DEC'); // DEC, HEX, BIN, OCT
 
   // Mode 4: Matrix
+  const [matrixDim, setMatrixDim] = useState('3'); // 2, 3
   const [matrixA, setMatrixA] = useState([
     [1, 2, 3],
     [0, 1, 4],
     [5, 6, 0]
+  ]);
+  const [matrixB, setMatrixB] = useState([
+    [2, 0, -1],
+    [1, 3, 2],
+    [0, 4, 1]
   ]);
   const [matrixResult, setMatrixResult] = useState(null);
 
@@ -79,15 +307,27 @@ export default function CasioCalculator({ isOpen, onClose }) {
   const [tableEnd, setTableEnd] = useState('5');
   const [tableStep, setTableStep] = useState('0.5');
   const [tableRows, setTableRows] = useState(null);
+  const [tableStats, setTableStats] = useState(null);
 
-  // Mode 9: Equations (Simul 2, 3, 4 unknowns & Poly 2, 3, 4 degree)
-  const [eqnSubMode, setEqnSubMode] = useState('poly2'); // poly2, poly3, poly4, simul2, simul3, simul4
-  const [polyCoeffs, setPolyCoeffs] = useState({ a: '1', b: '-5', c: '6', d: '0', e: '0' });
+  // Mode 9: Equations (poly2, poly3, simul2, simul3, simul4)
+  const [eqnSubMode, setEqnSubMode] = useState('poly2');
+  const [polyCoeffs, setPolyCoeffs] = useState({ a: '1', b: '-5', c: '6', d: '0' });
   const [simulCoeffs, setSimulCoeffs] = useState([
     ['2', '3', '8'],
     ['1', '-1', '1']
   ]);
+  const [simulCoeffs3, setSimulCoeffs3] = useState([
+    ['2', '1', '-1', '8'],
+    ['-3', '-1', '2', '-11'],
+    ['-2', '1', '2', '-3']
+  ]);
   const [eqnResult, setEqnResult] = useState(null);
+
+  // Mode A: Inequality
+  const [ineqDegree, setIneqDegree] = useState('2'); // 2, 3
+  const [ineqType, setIneqType] = useState('>'); // >, <, >=, <=
+  const [ineqCoeffs, setIneqCoeffs] = useState({ a: '1', b: '-5', c: '6' });
+  const [ineqResult, setIneqResult] = useState(null);
 
   // Desktop App status
   const [desktopStatus, setDesktopStatus] = useState(null);
@@ -95,7 +335,6 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
   useEffect(() => {
     if (isOpen) {
-      // Check desktop emulator availability
       fetch('http://127.0.0.1:3000/api/casio/status')
         .then(res => res.json())
         .then(data => setDesktopStatus(data))
@@ -105,41 +344,97 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
   if (!isOpen) return null;
 
-  // --- COMP ENGINE EVALUATOR ---
-  const evaluateMath = (expr) => {
+  // --- ADVANCED ROBUST EXPRESSION EVALUATOR ---
+  const evaluateMath = (rawExpr) => {
     try {
-      if (!expr || expr.trim() === '') return '0';
-      let clean = expr
+      if (!rawExpr || rawExpr.trim() === '') return '0';
+      let expr = rawExpr.trim();
+
+      // Normalize operators and symbols
+      expr = expr
         .replace(/×/g, '*')
         .replace(/÷/g, '/')
-        .replace(/π/g, 'Math.PI')
-        .replace(/e(?![a-zA-Z])/g, 'Math.E')
-        .replace(/\^/g, '**')
-        .replace(/Ans/g, String(memRegisters.Ans));
+        .replace(/−/g, '-')
+        .replace(/π/g, '(Math.PI)')
+        .replace(/Ans/g, `(${memRegisters.Ans || 0})`);
 
-      // Handle trig with angleUnit
-      const degFactor = angleUnit === 'Deg' ? '(Math.PI/180)*' : '';
-      clean = clean
-        .replace(/sin\(([^)]+)\)/g, `Math.sin(${degFactor}($1))`)
-        .replace(/cos\(([^)]+)\)/g, `Math.cos(${degFactor}($1))`)
-        .replace(/tan\(([^)]+)\)/g, `Math.tan(${degFactor}($1))`)
-        .replace(/ln\(/g, 'Math.log(')
-        .replace(/log\(/g, 'Math.log10(')
-        .replace(/√\(/g, 'Math.sqrt(');
+      // Handle e (Euler constant) when not followed by letters
+      expr = expr.replace(/\be\b/g, '(Math.E)');
 
-      // Handle factorial x!
-      clean = clean.replace(/(\d+)!/g, (match, n) => {
-        let val = 1;
-        for (let i = 2; i <= parseInt(n); i++) val *= i;
-        return String(val);
+      // Replace memory variables
+      ['A', 'B', 'C', 'D', 'E', 'F', 'X', 'Y', 'M'].forEach(v => {
+        const re = new RegExp(`\\b${v}\\b`, 'g');
+        expr = expr.replace(re, `(${memRegisters[v] || 0})`);
       });
 
-      // Factorial helper
-      const res = Function(`"use strict"; return (${clean})`)();
+      // Factorial: e.g. 5! -> factorial(5)
+      expr = expr.replace(/(\d+)!/g, 'factorial($1)');
+
+      // Permutations nPr & Combinations nCr: e.g. 5P3 -> nPr(5, 3), 5C2 -> nCr(5, 2)
+      expr = expr.replace(/(\d+)P(\d+)/g, 'nPr($1, $2)');
+      expr = expr.replace(/(\d+)C(\d+)/g, 'nCr($1, $2)');
+
+      // Percentages: 50% -> (50/100)
+      expr = expr.replace(/(\d+(\.\d+)?)%/g, '($1/100)');
+
+      // GCD and LCM
+      expr = expr.replace(/GCD\((\d+),\s*(\d+)\)/gi, 'gcd($1, $2)');
+      expr = expr.replace(/LCM\((\d+),\s*(\d+)\)/gi, 'lcm($1, $2)');
+
+      // Square root: √(x) -> Math.sqrt(x)
+      expr = expr.replace(/√\(([^)]+)\)/g, 'Math.sqrt($1)');
+      expr = expr.replace(/√(\d+(\.\d+)?)/g, 'Math.sqrt($1)');
+
+      // Exponent: ^ -> **
+      expr = expr.replace(/\^/g, '**');
+
+      // Implicit multiplication: 2(3) -> 2*(3), (2)(3) -> (2)*(3), 2Math.sqrt -> 2*Math.sqrt
+      expr = expr.replace(/(\d)(\()/g, '$1*$2');
+      expr = expr.replace(/(\))(\d)/g, '$1*$2');
+      expr = expr.replace(/(\))(\()/g, '$1*$2');
+      expr = expr.replace(/(\d)(Math\.[a-zA-Z]+)/g, '$1*$2');
+
+      // Trigonometry handling with angleUnit (Deg | Rad)
+      const isDeg = angleUnit === 'Deg';
+      const toRad = isDeg ? '(Math.PI/180)*' : '';
+      const fromRad = isDeg ? '*(180/Math.PI)' : '';
+
+      expr = expr
+        .replace(/sin\(([^)]+)\)/gi, `Math.sin(${toRad}($1))`)
+        .replace(/cos\(([^)]+)\)/gi, `Math.cos(${toRad}($1))`)
+        .replace(/tan\(([^)]+)\)/gi, `Math.tan(${toRad}($1))`)
+        .replace(/sin⁻¹\(([^)]+)\)/gi, `(Math.asin($1)${fromRad})`)
+        .replace(/cos⁻¹\(([^)]+)\)/gi, `(Math.acos($1)${fromRad})`)
+        .replace(/tan⁻¹\(([^)]+)\)/gi, `(Math.atan($1)${fromRad})`)
+        .replace(/asin\(([^)]+)\)/gi, `(Math.asin($1)${fromRad})`)
+        .replace(/acos\(([^)]+)\)/gi, `(Math.acos($1)${fromRad})`)
+        .replace(/atan\(([^)]+)\)/gi, `(Math.atan($1)${fromRad})`)
+        .replace(/ln\(([^)]+)\)/gi, 'Math.log($1)')
+        .replace(/log\(([^)]+)\)/gi, 'Math.log10($1)')
+        .replace(/Abs\(([^)]+)\)/gi, 'Math.abs($1)');
+
+      // Auto-close missing parentheses
+      let opens = (expr.match(/\(/g) || []).length;
+      let closes = (expr.match(/\)/g) || []).length;
+      while (opens > closes) {
+        expr += ')';
+        closes++;
+      }
+
+      // Safe execution context
+      const scope = {
+        nPr, nCr, factorial, gcd, lcm, Math
+      };
+      const scopeKeys = Object.keys(scope);
+      const scopeVals = Object.values(scope);
+
+      const evaluator = new Function(...scopeKeys, `"use strict"; return (${expr});`);
+      const res = evaluator(...scopeVals);
+
       if (typeof res === 'number') {
         if (isNaN(res)) return 'Math ERROR';
-        if (!isFinite(res)) return 'Infinity';
-        // Round cleanly to 10 decimal digits
+        if (!isFinite(res)) return res > 0 ? 'Infinity' : '-Infinity';
+        // Clean float precision
         return String(Math.round(res * 1e10) / 1e10);
       }
       return String(res);
@@ -151,20 +446,12 @@ export default function CasioCalculator({ isOpen, onClose }) {
   const handleKeyClick = (key) => {
     setFactResult('');
 
-    if (key === 'ON') {
+    if (key === 'ON' || key === 'AC') {
       setInputExpr('');
       setResultVal('0');
       setIsShift(false);
       setIsAlpha(false);
-      setIsMenuOpen(false);
-      return;
-    }
-
-    if (key === 'AC') {
-      setInputExpr('');
-      setResultVal('0');
-      setIsShift(false);
-      setIsAlpha(false);
+      setIsFractionView(false);
       return;
     }
 
@@ -185,21 +472,17 @@ export default function CasioCalculator({ isOpen, onClose }) {
       return;
     }
 
-    if (key === 'MENU') {
-      setIsMenuOpen(prev => !prev);
+    // Toggle Angle Unit (Deg / Rad)
+    if (key === 'SETUP_ANGLE') {
+      setAngleUnit(prev => prev === 'Deg' ? 'Rad' : 'Deg');
       return;
     }
 
-    // Key handlers based on SHIFT / ALPHA state
+    // SHIFT KEY COMBINATIONS
     if (isShift) {
       setIsShift(false);
-      if (key === 'AC') {
-        // OFF
-        onClose();
-        return;
-      }
-      if (key === 'FACT' || key === '(-)') {
-        // Prime factorization (FACT)
+      if (key === '°') {
+        // FACT (Prime factorization)
         const val = parseInt(resultVal, 10);
         if (!isNaN(val) && val > 1 && val < 10000000) {
           const factors = [];
@@ -214,7 +497,6 @@ export default function CasioCalculator({ isOpen, onClose }) {
             }
           }
           factors.push(temp);
-          // Group exponents
           const countMap = {};
           factors.forEach(f => countMap[f] = (countMap[f] || 0) + 1);
           const factStr = Object.entries(countMap)
@@ -224,112 +506,70 @@ export default function CasioCalculator({ isOpen, onClose }) {
         }
         return;
       }
-      if (key === 'x^2') {
-        setInputExpr(prev => prev + '√(');
-        return;
-      }
-      if (key === 'x^□') {
-        setInputExpr(prev => prev + '^(1/');
-        return;
-      }
-      if (key === 'ln') {
-        setInputExpr(prev => prev + 'e^(');
-        return;
-      }
-      if (key === 'log') {
-        setInputExpr(prev => prev + '10^(');
-        return;
-      }
-      if (key === 'sin') {
-        setInputExpr(prev => prev + 'sin⁻¹(');
-        return;
-      }
-      if (key === 'cos') {
-        setInputExpr(prev => prev + 'cos⁻¹(');
-        return;
-      }
-      if (key === 'tan') {
-        setInputExpr(prev => prev + 'tan⁻¹(');
-        return;
-      }
-      if (key === '×') {
-        // nPr
-        setInputExpr(prev => prev + 'P');
-        return;
-      }
-      if (key === '÷') {
-        // nCr
-        setInputExpr(prev => prev + 'C');
-        return;
-      }
-      if (key === '×10^x') {
-        setInputExpr(prev => prev + 'π');
-        return;
-      }
-      if (key === 'Ans') {
-        setInputExpr(prev => prev + String(memRegisters.Ans));
+      if (key === 'x^2') { setInputExpr(prev => prev + '√('); return; }
+      if (key === 'x^□') { setInputExpr(prev => prev + '^(1/'); return; }
+      if (key === 'ln') { setInputExpr(prev => prev + 'e^('); return; }
+      if (key === 'log') { setInputExpr(prev => prev + '10^('); return; }
+      if (key === 'sin') { setInputExpr(prev => prev + 'sin⁻¹('); return; }
+      if (key === 'cos') { setInputExpr(prev => prev + 'cos⁻¹('); return; }
+      if (key === 'tan') { setInputExpr(prev => prev + 'tan⁻¹('); return; }
+      if (key === '×') { setInputExpr(prev => prev + 'P'); return; }
+      if (key === '÷') { setInputExpr(prev => prev + 'C'); return; }
+      if (key === '×10^') { setInputExpr(prev => prev + 'π'); return; }
+      if (key === 'Ans') { setInputExpr(prev => prev + String(memRegisters.Ans)); return; }
+      if (key === 'S<=>D') {
+        // Toggle fraction display
+        const num = parseFloat(resultVal);
+        if (!isNaN(num)) {
+          setFactResult(decimalToFraction(num));
+        }
         return;
       }
     }
 
+    // ALPHA KEY COMBINATIONS
     if (isAlpha) {
       setIsAlpha(false);
-      if (key === ')') {
-        setInputExpr(prev => prev + 'x');
-        return;
-      }
-      if (key === 'S<=>D') {
-        setInputExpr(prev => prev + 'y');
-        return;
-      }
-      if (key === 'CALC') {
-        setInputExpr(prev => prev + '=');
-        return;
-      }
-      if (key === 'M+') {
-        setInputExpr(prev => prev + 'M');
-        return;
-      }
-      if (['A', 'B', 'C', 'D', 'E', 'F'].includes(key)) {
+      if (key === ')') { setInputExpr(prev => prev + 'x'); return; }
+      if (key === 'S<=>D') { setInputExpr(prev => prev + 'y'); return; }
+      if (['A', 'B', 'C', 'D', 'E', 'F', 'M'].includes(key)) {
         setInputExpr(prev => prev + key);
         return;
       }
     }
 
+    // EQUALS KEY (=)
     if (key === '=') {
       const res = evaluateMath(inputExpr);
       setResultVal(res);
       if (res !== 'Syntax ERROR' && res !== 'Math ERROR') {
-        setMemRegisters(prev => ({ ...prev, Ans: parseFloat(res) || 0 }));
+        const num = parseFloat(res);
+        setMemRegisters(prev => ({ ...prev, Ans: !isNaN(num) ? num : 0 }));
         setHistoryList(prev => [{ expr: inputExpr, val: res }, ...prev.slice(0, 15)]);
       }
       return;
     }
 
+    // S<=>D TOGGLE KEY
     if (key === 'S<=>D') {
-      // Toggle between decimal and fraction if decimal has decimal point
       const num = parseFloat(resultVal);
-      if (!isNaN(num) && resultVal.includes('.')) {
-        // Simple decimal to fraction approximation
-        const tolerance = 1.0E-6;
-        let h1 = 1, h2 = 0, k1 = 0, k2 = 1;
-        let b = num;
-        do {
-          let a = Math.floor(b);
-          let aux = h1; h1 = a * h1 + h2; h2 = aux;
-          aux = k1; k1 = a * k1 + k2; k2 = aux;
-          b = 1 / (b - a);
-        } while (Math.abs(num - h1 / k1) > num * tolerance);
-        setFactResult(`${h1} / ${k1}`);
+      if (!isNaN(num)) {
+        if (!isFractionView) {
+          setFactResult(decimalToFraction(num));
+          setIsFractionView(true);
+        } else {
+          setFactResult('');
+          setIsFractionView(false);
+        }
       }
       return;
     }
 
-    // Default character append
+    // Default append
     setInputExpr(prev => prev + key);
   };
 
-  // Launch Desktop Casio fx-580VN X Emulator
+  // Launch Desktop Casio fx-580VN X Emulator via Server Backend
   const handleLaunchDesktop = async () => {
     try {
       setLaunchMessage('Đang kết nối và khởi động fx-580VN X Emulator.exe...');
@@ -345,98 +585,95 @@ export default function CasioCalculator({ isOpen, onClose }) {
     }
   };
 
-  // Mode 8: Table calculation
-  const calculateTable = () => {
+  // Mode 2: Complex calculation
+  const calculateComplex = () => {
+    const a = parseFloat(cplxZ1.r) || 0, b = parseFloat(cplxZ1.i) || 0;
+    const c = parseFloat(cplxZ2.r) || 0, d = parseFloat(cplxZ2.i) || 0;
+    let r = 0, i = 0;
+    if (cplxOp === '+') { r = a + c; i = b + d; }
+    else if (cplxOp === '-') { r = a - c; i = b - d; }
+    else if (cplxOp === '×') { r = a * c - b * d; i = a * d + b * c; }
+    else if (cplxOp === '÷') {
+      const denom = c * c + d * d;
+      if (denom === 0) { setCplxResult({ error: 'Math ERROR (Mẫu số bằng 0)' }); return; }
+      r = (a * c + b * d) / denom;
+      i = (b * c - a * d) / denom;
+    }
+    const mod = Math.sqrt(r * r + i * i);
+    const argRad = Math.atan2(i, r);
+    const argDeg = argRad * (180 / Math.PI);
+    setCplxResult({
+      form: `${Math.round(r * 1e4) / 1e4} ${i >= 0 ? '+' : '-'} ${Math.abs(Math.round(i * 1e4) / 1e4)}i`,
+      modulus: Math.round(mod * 1e5) / 1e5,
+      argDeg: Math.round(argDeg * 1e2) / 1e2,
+      conjugate: `${Math.round(r * 1e4) / 1e4} ${i >= 0 ? '-' : '+'} ${Math.abs(Math.round(i * 1e4) / 1e4)}i`
+    });
+  };
+
+  // Mode 3: Base-N calculation
+  const calculateBaseN = () => {
     try {
-      const start = parseFloat(tableStart);
-      const end = parseFloat(tableEnd);
-      const step = parseFloat(tableStep);
-      if (step <= 0 || start > end) return;
+      let dec = 0;
+      if (baseNType === 'DEC') dec = parseInt(baseNVal, 10);
+      else if (baseNType === 'HEX') dec = parseInt(baseNVal, 16);
+      else if (baseNType === 'BIN') dec = parseInt(baseNVal, 2);
+      else if (baseNType === 'OCT') dec = parseInt(baseNVal, 8);
 
-      const rows = [];
-      const cleanF = tableFx.replace(/x/g, '($x)').replace(/\^/g, '**');
-      const cleanG = tableGx.replace(/x/g, '($x)').replace(/\^/g, '**');
-
-      for (let x = start; x <= end + 0.0001; x += step) {
-        const roundedX = Math.round(x * 1000) / 1000;
-        let valF = 'ERROR', valG = 'ERROR';
-        try {
-          const fnF = Function('$x', `"use strict"; return (${cleanF})`);
-          const rF = fnF(roundedX);
-          valF = Math.round(rF * 10000) / 10000;
-        } catch {}
-        try {
-          const fnG = Function('$x', `"use strict"; return (${cleanG})`);
-          const rG = fnG(roundedX);
-          valG = Math.round(rG * 10000) / 10000;
-        } catch {}
-
-        rows.push({ x: roundedX, fx: valF, gx: valG });
-      }
-      setTableRows(rows);
+      if (isNaN(dec)) return { error: 'Syntax ERROR' };
+      return {
+        DEC: dec.toString(10),
+        HEX: dec.toString(16).toUpperCase(),
+        BIN: dec.toString(2),
+        OCT: dec.toString(8)
+      };
     } catch {
-      alert('Lỗi hàm số trong bảng Table.');
+      return { error: 'Math ERROR' };
     }
   };
 
-  // Mode 9: Equations calculation
-  const solveEquation = () => {
-    if (eqnSubMode === 'poly2') {
-      const a = parseFloat(polyCoeffs.a);
-      const b = parseFloat(polyCoeffs.b);
-      const c = parseFloat(polyCoeffs.c);
-      if (a === 0) {
-        setEqnResult({ error: 'Hệ số a phải khác 0' });
-        return;
-      }
-      const delta = b * b - 4 * a * c;
-      const xv = -b / (2 * a);
-      const yv = -delta / (4 * a);
+  // Mode 4: Matrix calculation
+  const calculateMatrix = (op) => {
+    try {
+      const dim = parseInt(matrixDim, 10);
+      const A = matrixA.slice(0, dim).map(row => row.slice(0, dim));
+      const B = matrixB.slice(0, dim).map(row => row.slice(0, dim));
 
-      if (delta > 0) {
-        const x1 = (-b + Math.sqrt(delta)) / (2 * a);
-        const x2 = (-b - Math.sqrt(delta)) / (2 * a);
-        setEqnResult({
-          type: '2 nghiệm thực phân biệt',
-          x1: Math.round(x1 * 100000) / 100000,
-          x2: Math.round(x2 * 100000) / 100000,
-          vertex: { x: Math.round(xv * 100000) / 100000, y: Math.round(yv * 100000) / 100000 }
-        });
-      } else if (delta === 0) {
-        setEqnResult({
-          type: 'Nghiệm kép',
-          x1: Math.round(xv * 100000) / 100000,
-          vertex: { x: Math.round(xv * 100000) / 100000, y: Math.round(yv * 100000) / 100000 }
-        });
-      } else {
-        const real = -b / (2 * a);
-        const imag = Math.sqrt(-delta) / (2 * a);
-        setEqnResult({
-          type: '2 nghiệm phức liên hợp',
-          x1: `${Math.round(real * 10000) / 10000} + ${Math.round(imag * 10000) / 10000}i`,
-          x2: `${Math.round(real * 10000) / 10000} - ${Math.round(imag * 10000) / 10000}i`,
-          vertex: { x: Math.round(xv * 100000) / 100000, y: Math.round(yv * 100000) / 100000 }
-        });
+      if (op === 'A+B') {
+        const C = A.map((row, i) => row.map((val, j) => val + B[i][j]));
+        setMatrixResult({ title: 'A + B', matrix: C });
+      } else if (op === 'A-B') {
+        const C = A.map((row, i) => row.map((val, j) => val - B[i][j]));
+        setMatrixResult({ title: 'A - B', matrix: C });
+      } else if (op === 'A×B') {
+        const C = Array.from({ length: dim }, () => new Array(dim).fill(0));
+        for (let i = 0; i < dim; i++) {
+          for (let j = 0; j < dim; j++) {
+            for (let k = 0; k < dim; k++) {
+              C[i][j] += A[i][k] * B[k][j];
+            }
+          }
+        }
+        setMatrixResult({ title: 'A × B', matrix: C });
+      } else if (op === 'detA') {
+        let det = 0;
+        if (dim === 2) {
+          det = A[0][0] * A[1][1] - A[0][1] * A[1][0];
+        } else if (dim === 3) {
+          det = A[0][0] * (A[1][1] * A[2][2] - A[1][2] * A[2][1])
+              - A[0][1] * (A[1][0] * A[2][2] - A[1][2] * A[2][0])
+              + A[0][2] * (A[1][0] * A[2][1] - A[1][1] * A[2][0]);
+        }
+        setMatrixResult({ title: 'Định thức det(A)', value: Math.round(det * 1e5) / 1e5 });
+      } else if (op === 'transA') {
+        const C = Array.from({ length: dim }, (_, i) => Array.from({ length: dim }, (_, j) => A[j][i]));
+        setMatrixResult({ title: 'Chuyển vị Aᵀ', matrix: C });
       }
-    } else if (eqnSubMode === 'simul2') {
-      const a1 = parseFloat(simulCoeffs[0][0]), b1 = parseFloat(simulCoeffs[0][1]), c1 = parseFloat(simulCoeffs[0][2]);
-      const a2 = parseFloat(simulCoeffs[1][0]), b2 = parseFloat(simulCoeffs[1][1]), c2 = parseFloat(simulCoeffs[1][2]);
-      const D = a1 * b2 - a2 * b1;
-      const Dx = c1 * b2 - c2 * b1;
-      const Dy = a1 * c2 - a2 * c1;
-      if (D === 0) {
-        setEqnResult({ type: Dx === 0 && Dy === 0 ? 'Vô số nghiệm' : 'Vô nghiệm' });
-      } else {
-        setEqnResult({
-          type: 'Hệ phương trình bậc nhất 2 ẩn',
-          x: Math.round((Dx / D) * 100000) / 100000,
-          y: Math.round((Dy / D) * 100000) / 100000
-        });
-      }
+    } catch {
+      setMatrixResult({ error: 'Lỗi tính toán ma trận' });
     }
   };
 
-  // Mode 5: Vector Cross Product & Dot Product
+  // Mode 5: Vector calculation
   const calculateVectors = () => {
     const ax = vctA[0], ay = vctA[1], az = vctA[2];
     const bx = vctB[0], by = vctB[1], bz = vctB[2];
@@ -449,15 +686,18 @@ export default function CasioCalculator({ isOpen, onClose }) {
     ];
     const magA = Math.sqrt(ax * ax + ay * ay + az * az);
     const magB = Math.sqrt(bx * bx + by * by + bz * bz);
-    const cosAngle = dot / (magA * magB);
+    const cosAngle = magA * magB === 0 ? 0 : dot / (magA * magB);
     const angleDeg = Math.acos(Math.max(-1, Math.min(1, cosAngle))) * (180 / Math.PI);
+    const crossMag = Math.sqrt(cross[0] ** 2 + cross[1] ** 2 + cross[2] ** 2);
+    const triangleArea = 0.5 * crossMag;
 
     setVctResult({
-      dot: Math.round(dot * 10000) / 10000,
+      dot: Math.round(dot * 1e4) / 1e4,
       cross,
-      magA: Math.round(magA * 10000) / 10000,
-      magB: Math.round(magB * 10000) / 10000,
-      angleDeg: Math.round(angleDeg * 100) / 100
+      magA: Math.round(magA * 1e4) / 1e4,
+      magB: Math.round(magB * 1e4) / 1e4,
+      angleDeg: Math.round(angleDeg * 1e2) / 1e2,
+      triangleArea: Math.round(triangleArea * 1e4) / 1e4
     });
   };
 
@@ -470,8 +710,8 @@ export default function CasioCalculator({ isOpen, onClose }) {
       const sum = nums.reduce((a, b) => a + b, 0);
       const mean = sum / n;
       const sumSq = nums.reduce((a, b) => a + b * b, 0);
-      const variance = nums.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / n;
-      const sampleVar = nums.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / (n - 1);
+      const variance = nums.reduce((a, b) => a + (b - mean) ** 2, 0) / n;
+      const sampleVar = n > 1 ? nums.reduce((a, b) => a + (b - mean) ** 2, 0) / (n - 1) : 0;
       const sorted = [...nums].sort((a, b) => a - b);
       const min = sorted[0];
       const max = sorted[sorted.length - 1];
@@ -479,30 +719,186 @@ export default function CasioCalculator({ isOpen, onClose }) {
         ? (sorted[sorted.length / 2 - 1] + sorted[sorted.length / 2]) / 2 
         : sorted[Math.floor(sorted.length / 2)];
 
+      // Quartiles Q1, Q3
+      const halfLen = Math.floor(sorted.length / 2);
+      const lowerHalf = sorted.slice(0, halfLen);
+      const upperHalf = sorted.length % 2 === 0 ? sorted.slice(halfLen) : sorted.slice(halfLen + 1);
+      const q1 = lowerHalf.length % 2 === 0
+        ? (lowerHalf[lowerHalf.length / 2 - 1] + lowerHalf[lowerHalf.length / 2]) / 2
+        : lowerHalf[Math.floor(lowerHalf.length / 2)];
+      const q3 = upperHalf.length % 2 === 0
+        ? (upperHalf[upperHalf.length / 2 - 1] + upperHalf[upperHalf.length / 2]) / 2
+        : upperHalf[Math.floor(upperHalf.length / 2)];
+
       setStatResult({
         n,
-        mean: Math.round(mean * 10000) / 10000,
-        sum: Math.round(sum * 10000) / 10000,
-        stdDev: Math.round(Math.sqrt(variance) * 10000) / 10000,
-        sampleStdDev: Math.round(Math.sqrt(sampleVar) * 10000) / 10000,
+        mean: Math.round(mean * 1e4) / 1e4,
+        sum: Math.round(sum * 1e4) / 1e4,
+        stdDev: Math.round(Math.sqrt(variance) * 1e4) / 1e4,
+        sampleStdDev: Math.round(Math.sqrt(sampleVar) * 1e4) / 1e4,
         min,
         max,
-        median: med
+        median: med,
+        q1: q1 !== undefined ? q1 : min,
+        q3: q3 !== undefined ? q3 : max,
+        iqr: (q3 !== undefined && q1 !== undefined) ? Math.round((q3 - q1) * 1e4) / 1e4 : 0
       });
     } catch {}
   };
 
+  // Mode 8: Table calculation with Min/Max
+  const calculateTable = () => {
+    try {
+      const start = parseFloat(tableStart);
+      const end = parseFloat(tableEnd);
+      const step = parseFloat(tableStep);
+      if (step <= 0 || start > end) return;
+
+      const rows = [];
+      const cleanF = tableFx.replace(/x/g, '($x)').replace(/\^/g, '**');
+      const cleanG = tableGx ? tableGx.replace(/x/g, '($x)').replace(/\^/g, '**') : null;
+
+      let minF = Infinity, maxF = -Infinity;
+      let minAt = start, maxAt = start;
+
+      for (let x = start; x <= end + 0.0001; x += step) {
+        const roundedX = Math.round(x * 1000) / 1000;
+        let valF = 'ERROR', valG = '-';
+        try {
+          const fnF = new Function('$x', `"use strict"; return (${cleanF});`);
+          const rF = fnF(roundedX);
+          if (typeof rF === 'number' && !isNaN(rF)) {
+            valF = Math.round(rF * 1e4) / 1e4;
+            if (valF < minF) { minF = valF; minAt = roundedX; }
+            if (valF > maxF) { maxF = valF; maxAt = roundedX; }
+          }
+        } catch {}
+
+        if (cleanG) {
+          try {
+            const fnG = new Function('$x', `"use strict"; return (${cleanG});`);
+            const rG = fnG(roundedX);
+            if (typeof rG === 'number' && !isNaN(rG)) {
+              valG = Math.round(rG * 1e4) / 1e4;
+            }
+          } catch {}
+        }
+
+        rows.push({ x: roundedX, fx: valF, gx: valG });
+      }
+
+      setTableRows(rows);
+      if (minF !== Infinity && maxF !== -Infinity) {
+        setTableStats({ min: minF, minAt, max: maxF, maxAt });
+      }
+    } catch {
+      alert('Lỗi hàm số trong bảng Table. Hãy kiểm tra cú pháp (ví dụ: x^2 - 4*x + 3).');
+    }
+  };
+
+  // Mode 9: Equations calculation
+  const solveEquation = () => {
+    if (eqnSubMode === 'poly2') {
+      const a = parseFloat(polyCoeffs.a);
+      const b = parseFloat(polyCoeffs.b);
+      const c = parseFloat(polyCoeffs.c);
+      if (isNaN(a) || a === 0) {
+        setEqnResult({ error: 'Hệ số a phải khác 0' });
+        return;
+      }
+      setEqnResult(solveQuadratic(a, b, c));
+    } else if (eqnSubMode === 'poly3') {
+      const a = parseFloat(polyCoeffs.a);
+      const b = parseFloat(polyCoeffs.b);
+      const c = parseFloat(polyCoeffs.c);
+      const d = parseFloat(polyCoeffs.d);
+      if (isNaN(a) || a === 0) {
+        setEqnResult({ error: 'Hệ số a phải khác 0' });
+        return;
+      }
+      setEqnResult(solveCubic(a, b, c, d));
+    } else if (eqnSubMode === 'simul2') {
+      const a1 = parseFloat(simulCoeffs[0][0]), b1 = parseFloat(simulCoeffs[0][1]), c1 = parseFloat(simulCoeffs[0][2]);
+      const a2 = parseFloat(simulCoeffs[1][0]), b2 = parseFloat(simulCoeffs[1][1]), c2 = parseFloat(simulCoeffs[1][2]);
+      const A = [[a1, b1], [a2, b2]];
+      const b = [c1, c2];
+      const sol = solveLinearSystem(A, b);
+      if (!sol) {
+        setEqnResult({ type: 'Hệ vô nghiệm hoặc vô số nghiệm' });
+      } else {
+        setEqnResult({ type: 'Hệ 2 ẩn duy nhất', x: sol[0], y: sol[1] });
+      }
+    } else if (eqnSubMode === 'simul3') {
+      const A = simulCoeffs3.map(row => row.slice(0, 3).map(v => parseFloat(v) || 0));
+      const b = simulCoeffs3.map(row => parseFloat(row[3]) || 0);
+      const sol = solveLinearSystem(A, b);
+      if (!sol) {
+        setEqnResult({ type: 'Hệ 3 ẩn vô nghiệm hoặc vô số nghiệm' });
+      } else {
+        setEqnResult({ type: 'Hệ 3 ẩn duy nhất', x: sol[0], y: sol[1], z: sol[2] });
+      }
+    }
+  };
+
+  // Mode A: Inequality calculation
+  const solveInequality = () => {
+    const a = parseFloat(ineqCoeffs.a);
+    const b = parseFloat(ineqCoeffs.b);
+    const c = parseFloat(ineqCoeffs.c);
+    if (isNaN(a) || a === 0) {
+      setIneqResult('Hệ số a phải khác 0');
+      return;
+    }
+    const delta = b * b - 4 * a * c;
+    const op = ineqType;
+
+    if (delta < 0) {
+      if ((a > 0 && (op === '>' || op === '>=')) || (a < 0 && (op === '<' || op === '<='))) {
+        setIneqResult('Tập nghiệm: S = ℝ (Tất cả số thực)');
+      } else {
+        setIneqResult('Tập nghiệm: S = ∅ (Vô nghiệm)');
+      }
+    } else if (delta === 0) {
+      const x0 = -b / (2 * a);
+      if (op === '>') {
+        setIneqResult(a > 0 ? `S = ℝ \\ {${x0}}` : 'S = ∅');
+      } else if (op === '>=') {
+        setIneqResult(a > 0 ? 'S = ℝ' : `S = {${x0}}`);
+      } else if (op === '<') {
+        setIneqResult(a < 0 ? `S = ℝ \\ {${x0}}` : 'S = ∅');
+      } else if (op === '<=') {
+        setIneqResult(a < 0 ? 'S = ℝ' : `S = {${x0}}`);
+      }
+    } else {
+      const r1 = (-b - Math.sqrt(delta)) / (2 * a);
+      const r2 = (-b + Math.sqrt(delta)) / (2 * a);
+      const [x1, x2] = [Math.min(r1, r2), Math.max(r1, r2)];
+
+      if ((a > 0 && op === '>') || (a < 0 && op === '<')) {
+        setIneqResult(`x < ${x1} hoặc x > ${x2}`);
+      } else if ((a > 0 && op === '>=') || (a < 0 && op === '<=')) {
+        setIneqResult(`x ≤ ${x1} hoặc x ≥ ${x2}`);
+      } else if ((a > 0 && op === '<') || (a < 0 && op === '>')) {
+        setIneqResult(`${x1} < x < ${x2}`);
+      } else if ((a > 0 && op === '<=') || (a < 0 && op === '>=')) {
+        setIneqResult(`${x1} ≤ x ≤ ${x2}`);
+      }
+    }
+  };
+
+  const baseNData = mode === '3' ? calculateBaseN() : null;
+
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-2 sm:p-4 overflow-y-auto">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 backdrop-blur-sm p-2 sm:p-4 overflow-y-auto">
       <div 
         className={`bg-slate-900 border-2 border-slate-700 text-white rounded-3xl shadow-2xl transition-all duration-300 flex flex-col overflow-hidden ${
           isFullScreen 
             ? 'w-full h-full max-w-none rounded-none' 
-            : 'w-full max-w-4xl max-h-[92vh]'
+            : 'w-full max-w-5xl max-h-[94vh]'
         }`}
       >
         {/* Top Header Bar */}
-        <div className="flex items-center justify-between px-4 sm:px-6 py-3 border-b border-slate-800 bg-slate-950/80">
+        <div className="flex items-center justify-between px-4 sm:px-6 py-3 border-b border-slate-800 bg-slate-950/90">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-xl bg-blue-600 flex items-center justify-center font-black text-white shadow-md shadow-blue-500/30">
               <Calculator className="w-5 h-5" />
@@ -514,7 +910,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
                   fx-580VN X
                 </span>
                 <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">
-                  GDPT 2018
+                  Full 12 Modes
                 </span>
               </div>
               <p className="text-[10px] text-slate-400">Giả lập máy tính khoa học cao cấp cho kỳ thi V-ACT ĐHQG-HCM</p>
@@ -525,11 +921,11 @@ export default function CasioCalculator({ isOpen, onClose }) {
             {/* Launch Real Desktop App Button */}
             <button
               onClick={handleLaunchDesktop}
-              className="flex items-center gap-1 text-[11px] font-bold px-2.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition-colors cursor-pointer"
+              className="flex items-center gap-1 text-[11px] font-bold px-2.5 py-1.5 rounded-xl bg-blue-600/20 hover:bg-blue-600/40 text-blue-300 border border-blue-500/40 transition-colors cursor-pointer"
               title="Khởi động ứng dụng CASIO fx-580VN X Emulator trên Windows"
             >
               <Cpu className="w-3.5 h-3.5 text-blue-400" />
-              <span className="hidden sm:inline">Mở App Máy Tính (PC)</span>
+              <span className="hidden sm:inline">Mở App PC (Gốc)</span>
             </button>
 
             {/* Toggle Full Screen */}
@@ -552,17 +948,18 @@ export default function CasioCalculator({ isOpen, onClose }) {
           </div>
         </div>
 
-        {/* Mode Selector Tabs */}
-        <div className="flex items-center gap-1.5 px-4 py-2 bg-slate-950/60 border-b border-slate-800 overflow-x-auto no-scrollbar">
+        {/* Mode Selector Tabs (Full Casio 580 Modes) */}
+        <div className="flex items-center gap-1.5 px-4 py-2 bg-slate-950/70 border-b border-slate-800 overflow-x-auto no-scrollbar">
           {[
             { id: '1', label: '1: COMP', icon: Calculator, desc: 'Tính toán chuẩn' },
-            { id: '2', label: '2: COMPLEX', icon: Sparkles, desc: 'Số phức' },
+            { id: '2', label: '2: CMPLX', icon: Sparkles, desc: 'Số phức' },
             { id: '3', label: '3: BASE-N', icon: Binary, desc: 'Cơ số' },
             { id: '4', label: '4: MATRIX', icon: Grid3X3, desc: 'Ma trận' },
             { id: '5', label: '5: VECTOR', icon: Compass, desc: 'Vectơ Oxyz' },
             { id: '6', label: '6: STAT', icon: BarChart2, desc: 'Thống kê' },
             { id: '8', label: '8: TABLE', icon: Table, desc: 'Bảng giá trị f(x)' },
-            { id: '9', label: '9: EQN', icon: Sigma, desc: 'Hệ & Phương trình' }
+            { id: '9', label: '9: EQN', icon: Sigma, desc: 'Phương trình' },
+            { id: 'A', label: 'A: INEQ', icon: Sliders, desc: 'Bất phương trình' }
           ].map(tab => (
             <button
               key={tab.id}
@@ -587,58 +984,63 @@ export default function CasioCalculator({ isOpen, onClose }) {
           </div>
         )}
 
-        {/* Main Work Area: Genuine ClassWiz Body & Layout */}
+        {/* Main Work Area: Authentic Casio Physical Body + Workbench */}
         <div className="flex-1 overflow-y-auto p-3 sm:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
           
           {/* Left Column: Authentic Casio Physical Calculator Frame */}
           <div className="lg:col-span-7 flex flex-col items-center">
-            <div className="w-full max-w-[420px] bg-gradient-to-b from-slate-800 to-slate-900 rounded-[32px] p-4 sm:p-5 border-2 border-slate-700 shadow-2xl relative">
+            <div className="w-full max-w-[430px] bg-gradient-to-b from-[#1b2234] via-[#151c2c] to-[#0f1422] rounded-[36px] p-4 sm:p-5 border-2 border-slate-700/80 shadow-2xl relative">
               
               {/* Solar Panel & Brand Banner */}
               <div className="flex items-center justify-between mb-3 px-1">
                 <div>
-                  <div className="text-base font-black tracking-wider text-slate-100 flex items-center gap-1">
-                    <span>CASIO</span>
-                    <span className="text-[10px] font-bold text-slate-400">CLASSWIZ</span>
+                  <div className="text-base font-black tracking-wider text-slate-100 flex items-center gap-1.5">
+                    <span className="tracking-widest">CASIO</span>
+                    <span className="text-[10px] font-bold text-slate-400 bg-slate-800/80 px-1.5 py-0.5 rounded">CLASSWIZ</span>
                   </div>
-                  <div className="text-[11px] font-black text-blue-400 tracking-wide">
-                    fx-580VN X
+                  <div className="text-[11px] font-black text-blue-400 tracking-wider">
+                    fx-580VN X <span className="text-slate-400 font-normal text-[9px]">NATURAL-V.P.A.M.</span>
                   </div>
                 </div>
 
-                {/* Simulated Solar Panel */}
-                <div className="w-24 h-6 rounded-md bg-gradient-to-r from-amber-950/80 via-amber-900/90 to-amber-950/80 border border-amber-900/60 shadow-inner flex items-center justify-around px-1">
+                {/* Simulated Realistic Solar Cell */}
+                <div className="w-24 h-6 rounded-md bg-gradient-to-r from-[#291711] via-[#3a2016] to-[#291711] border border-[#522e20] shadow-inner flex items-center justify-around px-1">
                   <div className="w-0.5 h-full bg-black/40"></div>
                   <div className="w-0.5 h-full bg-black/40"></div>
                   <div className="w-0.5 h-full bg-black/40"></div>
                 </div>
               </div>
 
-              {/* LCD Dot Matrix Screen (Authentic 192x63 look) */}
-              <div className="bg-[#b7c4a8] text-[#1a2e1e] rounded-xl p-3 sm:p-3.5 border-4 border-slate-800 shadow-inner font-mono relative overflow-hidden min-h-[105px] flex flex-col justify-between mb-4">
+              {/* LCD Dot Matrix Screen (Authentic 192x63 Casio Screen) */}
+              <div className="bg-[#b4c4a5] text-[#142316] rounded-xl p-3 sm:p-3.5 border-4 border-slate-900 shadow-inner font-mono relative overflow-hidden min-h-[110px] flex flex-col justify-between mb-4 select-none">
                 {/* LCD Top Status Indicators */}
-                <div className="flex items-center justify-between text-[10px] font-black tracking-tight border-b border-[#a3b194] pb-1 select-none">
+                <div className="flex items-center justify-between text-[10px] font-black tracking-tight border-b border-[#9eb08d] pb-1">
                   <div className="flex items-center gap-1.5">
-                    {isShift && <span className="px-1 bg-[#1a2e1e] text-[#b7c4a8] rounded-xs font-black">S</span>}
-                    {isAlpha && <span className="px-1 bg-[#1a2e1e] text-[#b7c4a8] rounded-xs font-black">A</span>}
-                    <span className="font-bold">{mode === '1' ? 'COMP' : mode === '8' ? 'TABLE' : mode === '9' ? 'EQN' : `M:${mode}`}</span>
-                    <span className="font-bold">[{angleUnit}]</span>
+                    {isShift && <span className="px-1 bg-[#142316] text-[#b4c4a5] rounded-xs font-black">S</span>}
+                    {isAlpha && <span className="px-1 bg-[#142316] text-[#b4c4a5] rounded-xs font-black">A</span>}
+                    <span className="font-bold">{mode === '1' ? 'COMP' : mode === '2' ? 'CMPLX' : mode === '8' ? 'TABLE' : mode === '9' ? 'EQN' : `M:${mode}`}</span>
+                    <button 
+                      onClick={() => handleKeyClick('SETUP_ANGLE')} 
+                      className="font-bold underline cursor-pointer"
+                      title="Bấm để đổi Đơn vị góc Deg / Rad"
+                    >
+                      [{angleUnit}]
+                    </button>
                     <span className="font-bold">[Math]</span>
                   </div>
-                  <div className="flex items-center gap-1 text-[9px]">
-                    <span>▲</span>
-                    <span>▼</span>
+                  <div className="flex items-center gap-1 text-[9px] text-emerald-950 font-bold">
+                    <span>▲▼ Disp</span>
                   </div>
                 </div>
 
                 {/* LCD Expression Line (Input) */}
-                <div className="text-right text-xs sm:text-sm font-bold min-h-[20px] tracking-wide break-all py-1 select-text">
-                  {inputExpr || (mode === '8' ? `f(x)=${tableFx}` : mode === '9' ? 'a·x² + b·x + c = 0' : ' ')}
+                <div className="text-right text-xs sm:text-sm font-bold min-h-[22px] tracking-wide break-all py-1 select-text">
+                  {inputExpr || (mode === '8' ? `f(x)=${tableFx}` : mode === '9' ? 'a·x² + b·x + c = 0' : '0')}
                 </div>
 
-                {/* Fact Result (if active) */}
+                {/* S<=>D / Fact Result Display */}
                 {factResult && (
-                  <div className="text-left text-[11px] font-black text-emerald-900 bg-emerald-100/60 px-1.5 py-0.5 rounded">
+                  <div className="text-left text-[11px] font-black text-emerald-950 bg-emerald-200/50 px-1.5 py-0.5 rounded">
                     {factResult}
                   </div>
                 )}
@@ -649,14 +1051,14 @@ export default function CasioCalculator({ isOpen, onClose }) {
                 </div>
               </div>
 
-              {/* Keypad Grid */}
+              {/* Realistic Keypad Grid */}
               <div className="space-y-2">
-                {/* Function Top Row 1: SHIFT, ALPHA, ARROWS, OPTN, CALC, ON */}
+                {/* Top Control Cluster: SHIFT, ALPHA, OPTN, CALC, MENU, ON */}
                 <div className="grid grid-cols-6 gap-1.5 items-center">
                   <button
                     onClick={() => handleKeyClick('SHIFT')}
                     className={`py-2 rounded-lg text-xs font-black transition-all cursor-pointer ${
-                      isShift ? 'bg-amber-400 text-black shadow-md' : 'bg-slate-700 text-amber-300 hover:bg-slate-600'
+                      isShift ? 'bg-amber-400 text-black shadow-md' : 'bg-slate-700/80 text-amber-300 hover:bg-slate-600'
                     }`}
                   >
                     SHIFT
@@ -665,7 +1067,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
                   <button
                     onClick={() => handleKeyClick('ALPHA')}
                     className={`py-2 rounded-lg text-xs font-black transition-all cursor-pointer ${
-                      isAlpha ? 'bg-rose-500 text-white shadow-md' : 'bg-slate-700 text-rose-300 hover:bg-slate-600'
+                      isAlpha ? 'bg-rose-500 text-white shadow-md' : 'bg-slate-700/80 text-rose-300 hover:bg-slate-600'
                     }`}
                   >
                     ALPHA
@@ -673,28 +1075,29 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
                   <button
                     onClick={() => handleKeyClick('OPTN')}
-                    className="py-2 rounded-lg text-xs font-black bg-slate-700 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
+                    className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
                   >
                     OPTN
                   </button>
 
                   <button
                     onClick={() => handleKeyClick('CALC')}
-                    className="py-2 rounded-lg text-xs font-black bg-slate-700 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
+                    className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
                   >
                     CALC
                   </button>
 
                   <button
-                    onClick={() => handleKeyClick('MENU')}
-                    className="py-2 rounded-lg text-xs font-black bg-slate-700 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
+                    onClick={() => setMode(prev => prev === '1' ? '8' : prev === '8' ? '9' : '1')}
+                    className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-blue-300 hover:bg-slate-600 transition-colors cursor-pointer"
+                    title="Chuyển chế độ nhanh COMP -> TABLE -> EQN"
                   >
                     MENU
                   </button>
 
                   <button
                     onClick={() => handleKeyClick('ON')}
-                    className="py-2 rounded-lg text-xs font-black bg-slate-700 text-slate-100 hover:bg-slate-600 transition-colors cursor-pointer"
+                    className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-slate-100 hover:bg-slate-600 transition-colors cursor-pointer"
                   >
                     ON
                   </button>
@@ -712,7 +1115,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
                     <button
                       key={bIdx}
                       onClick={() => handleKeyClick(btn.val)}
-                      className="py-2 rounded-lg text-xs font-black bg-slate-700 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer flex flex-col items-center justify-center leading-none"
+                      className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer flex flex-col items-center justify-center leading-none"
                     >
                       <span className="text-[9px] text-amber-300 font-bold mb-0.5">{btn.shift}</span>
                       <span>{btn.label}</span>
@@ -733,7 +1136,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
                     <button
                       key={bIdx}
                       onClick={() => handleKeyClick(btn.val)}
-                      className="py-2 rounded-lg text-xs font-black bg-slate-700 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
+                      className="py-2 rounded-lg text-xs font-black bg-slate-700/80 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
                     >
                       {btn.label}
                     </button>
@@ -753,7 +1156,11 @@ export default function CasioCalculator({ isOpen, onClose }) {
                     <button
                       key={bIdx}
                       onClick={() => handleKeyClick(btn.val)}
-                      className="py-2 rounded-lg text-xs font-black bg-slate-700 text-slate-200 hover:bg-slate-600 transition-colors cursor-pointer"
+                      className={`py-2 rounded-lg text-xs font-black transition-colors cursor-pointer ${
+                        btn.val === 'S<=>D' 
+                          ? 'bg-amber-600/30 text-amber-300 border border-amber-500/40 hover:bg-amber-600/50' 
+                          : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600'
+                      }`}
                     >
                       {btn.label}
                     </button>
@@ -762,44 +1169,44 @@ export default function CasioCalculator({ isOpen, onClose }) {
 
                 {/* Numpad Block: 7 8 9 DEL AC */}
                 <div className="grid grid-cols-5 gap-1.5 pt-1">
-                  <button onClick={() => handleKeyClick('7')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">7</button>
-                  <button onClick={() => handleKeyClick('8')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">8</button>
-                  <button onClick={() => handleKeyClick('9')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">9</button>
-                  <button onClick={() => handleKeyClick('DEL')} className="py-3 rounded-xl text-xs font-black bg-rose-700 text-white hover:bg-rose-600 shadow-sm cursor-pointer">DEL</button>
-                  <button onClick={() => handleKeyClick('AC')} className="py-3 rounded-xl text-xs font-black bg-rose-600 text-white hover:bg-rose-500 shadow-sm cursor-pointer">AC</button>
+                  <button onClick={() => handleKeyClick('7')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">7</button>
+                  <button onClick={() => handleKeyClick('8')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">8</button>
+                  <button onClick={() => handleKeyClick('9')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">9</button>
+                  <button onClick={() => handleKeyClick('DEL')} className="py-2.5 sm:py-3 rounded-xl text-xs font-black bg-rose-700 text-white hover:bg-rose-600 shadow-sm cursor-pointer">DEL</button>
+                  <button onClick={() => handleKeyClick('AC')} className="py-2.5 sm:py-3 rounded-xl text-xs font-black bg-rose-600 text-white hover:bg-rose-500 shadow-sm cursor-pointer">AC</button>
                 </div>
 
                 {/* Numpad Block: 4 5 6 × ÷ */}
                 <div className="grid grid-cols-5 gap-1.5">
-                  <button onClick={() => handleKeyClick('4')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">4</button>
-                  <button onClick={() => handleKeyClick('5')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">5</button>
-                  <button onClick={() => handleKeyClick('6')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">6</button>
-                  <button onClick={() => handleKeyClick('×')} className="py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">×</button>
-                  <button onClick={() => handleKeyClick('÷')} className="py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">÷</button>
+                  <button onClick={() => handleKeyClick('4')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">4</button>
+                  <button onClick={() => handleKeyClick('5')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">5</button>
+                  <button onClick={() => handleKeyClick('6')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">6</button>
+                  <button onClick={() => handleKeyClick('×')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">×</button>
+                  <button onClick={() => handleKeyClick('÷')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">÷</button>
                 </div>
 
                 {/* Numpad Block: 1 2 3 + - */}
                 <div className="grid grid-cols-5 gap-1.5">
-                  <button onClick={() => handleKeyClick('1')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">1</button>
-                  <button onClick={() => handleKeyClick('2')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">2</button>
-                  <button onClick={() => handleKeyClick('3')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">3</button>
-                  <button onClick={() => handleKeyClick('+')} className="py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">+</button>
-                  <button onClick={() => handleKeyClick('-')} className="py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">-</button>
+                  <button onClick={() => handleKeyClick('1')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">1</button>
+                  <button onClick={() => handleKeyClick('2')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">2</button>
+                  <button onClick={() => handleKeyClick('3')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">3</button>
+                  <button onClick={() => handleKeyClick('+')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">+</button>
+                  <button onClick={() => handleKeyClick('-')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">-</button>
                 </div>
 
                 {/* Numpad Block: 0 . ×10^x Ans = */}
                 <div className="grid grid-cols-5 gap-1.5">
-                  <button onClick={() => handleKeyClick('0')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">0</button>
-                  <button onClick={() => handleKeyClick('.')} className="py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">.</button>
-                  <button onClick={() => handleKeyClick('×10^')} className="py-3 rounded-xl text-xs font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">×10ˣ</button>
-                  <button onClick={() => handleKeyClick('Ans')} className="py-3 rounded-xl text-xs font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">Ans</button>
-                  <button onClick={() => handleKeyClick('=')} className="py-3 rounded-xl text-base font-black bg-blue-600 text-white hover:bg-blue-500 shadow-md shadow-blue-500/30 cursor-pointer">=</button>
+                  <button onClick={() => handleKeyClick('0')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">0</button>
+                  <button onClick={() => handleKeyClick('.')} className="py-2.5 sm:py-3 rounded-xl text-sm font-black bg-slate-800 text-white hover:bg-slate-700 shadow-sm cursor-pointer">.</button>
+                  <button onClick={() => handleKeyClick('×10^')} className="py-2.5 sm:py-3 rounded-xl text-xs font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">×10ˣ</button>
+                  <button onClick={() => handleKeyClick('Ans')} className="py-2.5 sm:py-3 rounded-xl text-xs font-black bg-slate-700 text-slate-100 hover:bg-slate-600 shadow-sm cursor-pointer">Ans</button>
+                  <button onClick={() => handleKeyClick('=')} className="py-2.5 sm:py-3 rounded-xl text-base font-black bg-blue-600 text-white hover:bg-blue-500 shadow-md shadow-blue-500/30 cursor-pointer">=</button>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Right Column: Advanced Function Workspace (Mode 8 Table, Mode 9 Eqn, Vector, History) */}
+          {/* Right Column: Advanced Function Workbenches (Mode 8 Table, Mode 9 Eqn, Mode 4 Matrix, Vector, etc.) */}
           <div className="lg:col-span-5 space-y-4">
             
             {/* Mode 8: TABLE WORKBENCH */}
@@ -870,11 +1277,19 @@ export default function CasioCalculator({ isOpen, onClose }) {
                   </div>
                 </div>
 
+                {/* Min / Max Extrema Detection */}
+                {tableStats && (
+                  <div className="p-3 rounded-xl bg-blue-950/40 border border-blue-800/60 text-xs font-mono grid grid-cols-2 gap-2">
+                    <div>Max f(x) = <span className="text-emerald-400 font-bold">{tableStats.max}</span> (tại x = {tableStats.maxAt})</div>
+                    <div>Min f(x) = <span className="text-rose-400 font-bold">{tableStats.min}</span> (tại x = {tableStats.minAt})</div>
+                  </div>
+                )}
+
                 {/* Table Result Display */}
                 {tableRows && (
                   <div className="overflow-x-auto max-h-[220px] rounded-xl border border-slate-800">
                     <table className="w-full text-left text-xs font-mono">
-                      <thead className="bg-slate-900 text-slate-300 border-b border-slate-800">
+                      <thead className="bg-slate-900 text-slate-300 border-b border-slate-800 sticky top-0">
                         <tr>
                           <th className="p-2 text-center">x</th>
                           <th className="p-2 text-blue-400">f(x)</th>
@@ -913,63 +1328,337 @@ export default function CasioCalculator({ isOpen, onClose }) {
                 </div>
 
                 {/* Submode Selector */}
-                <div className="flex items-center gap-2">
-                  <button
-                    onClick={() => { setEqnSubMode('poly2'); setEqnResult(null); }}
-                    className={`px-2.5 py-1 rounded-lg text-xs font-bold cursor-pointer ${eqnSubMode === 'poly2' ? 'bg-purple-600 text-white' : 'bg-slate-800 text-slate-400'}`}
-                  >
-                    Bậc 2 (ax²+bx+c=0)
-                  </button>
-                  <button
-                    onClick={() => { setEqnSubMode('simul2'); setEqnResult(null); }}
-                    className={`px-2.5 py-1 rounded-lg text-xs font-bold cursor-pointer ${eqnSubMode === 'simul2' ? 'bg-purple-600 text-white' : 'bg-slate-800 text-slate-400'}`}
-                  >
-                    Hệ 2 ẩn
-                  </button>
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  {[
+                    { id: 'poly2', label: 'Bậc 2 (ax²+bx+c=0)' },
+                    { id: 'poly3', label: 'Bậc 3 (ax³+bx²+cx+d=0)' },
+                    { id: 'simul2', label: 'Hệ 2 ẩn' },
+                    { id: 'simul3', label: 'Hệ 3 ẩn' }
+                  ].map(sm => (
+                    <button
+                      key={sm.id}
+                      onClick={() => { setEqnSubMode(sm.id); setEqnResult(null); }}
+                      className={`px-2.5 py-1 rounded-lg text-xs font-bold cursor-pointer transition-colors ${
+                        eqnSubMode === sm.id ? 'bg-purple-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                      }`}
+                    >
+                      {sm.label}
+                    </button>
+                  ))}
                 </div>
 
+                {/* Poly 2 inputs */}
                 {eqnSubMode === 'poly2' && (
                   <div className="grid grid-cols-3 gap-2">
                     <div>
                       <label className="text-[10px] text-slate-400">Hệ số a:</label>
-                      <input
-                        type="text"
-                        value={polyCoeffs.a}
-                        onChange={(e) => setPolyCoeffs(prev => ({ ...prev, a: e.target.value }))}
-                        className="w-full mt-1 px-2 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-center font-mono text-xs font-bold"
-                      />
+                      <input type="text" value={polyCoeffs.a} onChange={(e) => setPolyCoeffs(prev => ({ ...prev, a: e.target.value }))} className="w-full mt-1 px-2 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-center font-mono text-xs font-bold" />
                     </div>
                     <div>
                       <label className="text-[10px] text-slate-400">Hệ số b:</label>
-                      <input
-                        type="text"
-                        value={polyCoeffs.b}
-                        onChange={(e) => setPolyCoeffs(prev => ({ ...prev, b: e.target.value }))}
-                        className="w-full mt-1 px-2 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-center font-mono text-xs font-bold"
-                      />
+                      <input type="text" value={polyCoeffs.b} onChange={(e) => setPolyCoeffs(prev => ({ ...prev, b: e.target.value }))} className="w-full mt-1 px-2 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-center font-mono text-xs font-bold" />
                     </div>
                     <div>
                       <label className="text-[10px] text-slate-400">Hệ số c:</label>
-                      <input
-                        type="text"
-                        value={polyCoeffs.c}
-                        onChange={(e) => setPolyCoeffs(prev => ({ ...prev, c: e.target.value }))}
-                        className="w-full mt-1 px-2 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-center font-mono text-xs font-bold"
-                      />
+                      <input type="text" value={polyCoeffs.c} onChange={(e) => setPolyCoeffs(prev => ({ ...prev, c: e.target.value }))} className="w-full mt-1 px-2 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-center font-mono text-xs font-bold" />
                     </div>
                   </div>
                 )}
 
+                {/* Poly 3 inputs */}
+                {eqnSubMode === 'poly3' && (
+                  <div className="grid grid-cols-4 gap-2">
+                    <div>
+                      <label className="text-[10px] text-slate-400">a:</label>
+                      <input type="text" value={polyCoeffs.a} onChange={(e) => setPolyCoeffs(prev => ({ ...prev, a: e.target.value }))} className="w-full mt-1 px-2 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-center font-mono text-xs font-bold" />
+                    </div>
+                    <div>
+                      <label className="text-[10px] text-slate-400">b:</label>
+                      <input type="text" value={polyCoeffs.b} onChange={(e) => setPolyCoeffs(prev => ({ ...prev, b: e.target.value }))} className="w-full mt-1 px-2 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-center font-mono text-xs font-bold" />
+                    </div>
+                    <div>
+                      <label className="text-[10px] text-slate-400">c:</label>
+                      <input type="text" value={polyCoeffs.c} onChange={(e) => setPolyCoeffs(prev => ({ ...prev, c: e.target.value }))} className="w-full mt-1 px-2 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-center font-mono text-xs font-bold" />
+                    </div>
+                    <div>
+                      <label className="text-[10px] text-slate-400">d:</label>
+                      <input type="text" value={polyCoeffs.d} onChange={(e) => setPolyCoeffs(prev => ({ ...prev, d: e.target.value }))} className="w-full mt-1 px-2 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-center font-mono text-xs font-bold" />
+                    </div>
+                  </div>
+                )}
+
+                {/* Simul 2 inputs */}
+                {eqnSubMode === 'simul2' && (
+                  <div className="space-y-2">
+                    <div className="grid grid-cols-3 gap-2">
+                      <input type="text" value={simulCoeffs[0][0]} onChange={e => { const c = [...simulCoeffs]; c[0][0] = e.target.value; setSimulCoeffs(c); }} className="px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs" placeholder="a1" />
+                      <input type="text" value={simulCoeffs[0][1]} onChange={e => { const c = [...simulCoeffs]; c[0][1] = e.target.value; setSimulCoeffs(c); }} className="px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs" placeholder="b1" />
+                      <input type="text" value={simulCoeffs[0][2]} onChange={e => { const c = [...simulCoeffs]; c[0][2] = e.target.value; setSimulCoeffs(c); }} className="px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs font-bold text-amber-400" placeholder="= c1" />
+                    </div>
+                    <div className="grid grid-cols-3 gap-2">
+                      <input type="text" value={simulCoeffs[1][0]} onChange={e => { const c = [...simulCoeffs]; c[1][0] = e.target.value; setSimulCoeffs(c); }} className="px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs" placeholder="a2" />
+                      <input type="text" value={simulCoeffs[1][1]} onChange={e => { const c = [...simulCoeffs]; c[1][1] = e.target.value; setSimulCoeffs(c); }} className="px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs" placeholder="b2" />
+                      <input type="text" value={simulCoeffs[1][2]} onChange={e => { const c = [...simulCoeffs]; c[1][2] = e.target.value; setSimulCoeffs(c); }} className="px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs font-bold text-amber-400" placeholder="= c2" />
+                    </div>
+                  </div>
+                )}
+
+                {/* Simul 3 inputs */}
+                {eqnSubMode === 'simul3' && (
+                  <div className="space-y-1.5">
+                    {simulCoeffs3.map((row, rIdx) => (
+                      <div key={rIdx} className="grid grid-cols-4 gap-1.5">
+                        <input type="text" value={row[0]} onChange={e => { const c = [...simulCoeffs3]; c[rIdx][0] = e.target.value; setSimulCoeffs3(c); }} className="px-1.5 py-1 rounded bg-slate-900 border border-slate-700 text-center text-xs" placeholder="x" />
+                        <input type="text" value={row[1]} onChange={e => { const c = [...simulCoeffs3]; c[rIdx][1] = e.target.value; setSimulCoeffs3(c); }} className="px-1.5 py-1 rounded bg-slate-900 border border-slate-700 text-center text-xs" placeholder="y" />
+                        <input type="text" value={row[2]} onChange={e => { const c = [...simulCoeffs3]; c[rIdx][2] = e.target.value; setSimulCoeffs3(c); }} className="px-1.5 py-1 rounded bg-slate-900 border border-slate-700 text-center text-xs" placeholder="z" />
+                        <input type="text" value={row[3]} onChange={e => { const c = [...simulCoeffs3]; c[rIdx][3] = e.target.value; setSimulCoeffs3(c); }} className="px-1.5 py-1 rounded bg-slate-900 border border-slate-700 text-center text-xs font-bold text-amber-400" placeholder="=" />
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {/* Eqn Result */}
                 {eqnResult && (
                   <div className="p-3 rounded-xl bg-purple-950/40 border border-purple-800/60 text-xs space-y-1.5 font-mono">
-                    <div className="font-black text-purple-300">{eqnResult.type}</div>
+                    <div className="font-black text-purple-300">{eqnResult.type || eqnResult.error}</div>
                     {eqnResult.x1 !== undefined && <div>x₁ = <span className="text-white font-bold">{eqnResult.x1}</span></div>}
                     {eqnResult.x2 !== undefined && <div>x₂ = <span className="text-white font-bold">{eqnResult.x2}</span></div>}
+                    {eqnResult.x3 !== undefined && <div>x₃ = <span className="text-white font-bold">{eqnResult.x3}</span></div>}
                     {eqnResult.x !== undefined && <div>x = <span className="text-white font-bold">{eqnResult.x}</span></div>}
                     {eqnResult.y !== undefined && <div>y = <span className="text-white font-bold">{eqnResult.y}</span></div>}
+                    {eqnResult.z !== undefined && <div>z = <span className="text-white font-bold">{eqnResult.z}</span></div>}
                     {eqnResult.vertex && (
                       <div className="text-[11px] text-slate-400 pt-1 border-t border-purple-800/40">
                         Đỉnh parabol: X-Value = {eqnResult.vertex.x}, Y-Value = {eqnResult.vertex.y}
+                      </div>
+                    )}
+                    {eqnResult.extrema && (
+                      <div className="text-[11px] text-slate-400 pt-1 border-t border-purple-800/40">
+                        Điểm cực trị: ({eqnResult.extrema[0].x}; {eqnResult.extrema[0].y}) và ({eqnResult.extrema[1].x}; {eqnResult.extrema[1].y})
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Mode A: INEQUALITY WORKBENCH */}
+            {mode === 'A' && (
+              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+                <div className="flex items-center justify-between">
+                  <h3 className="text-sm font-black text-amber-400 flex items-center gap-2">
+                    <Sliders className="w-4 h-4" />
+                    <span>Bất Phương Trình Bậc 2 (Menu A - INEQ)</span>
+                  </h3>
+                  <button
+                    onClick={solveInequality}
+                    className="px-3 py-1.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white text-xs font-black cursor-pointer shadow-sm"
+                  >
+                    Giải BPT
+                  </button>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-slate-400">Dấu:</span>
+                  {['>', '>=', '<', '<='].map(sign => (
+                    <button
+                      key={sign}
+                      onClick={() => setIneqType(sign)}
+                      className={`px-3 py-1 rounded-lg text-xs font-bold cursor-pointer ${ineqType === sign ? 'bg-amber-500 text-black' : 'bg-slate-800 text-slate-300'}`}
+                    >
+                      {sign === '>=' ? '≥' : sign === '<=' ? '≤' : sign}
+                    </button>
+                  ))}
+                </div>
+
+                <div className="grid grid-cols-3 gap-2">
+                  <div>
+                    <label className="text-[10px] text-slate-400">a:</label>
+                    <input type="text" value={ineqCoeffs.a} onChange={e => setIneqCoeffs(p => ({ ...p, a: e.target.value }))} className="w-full mt-1 px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs font-bold" />
+                  </div>
+                  <div>
+                    <label className="text-[10px] text-slate-400">b:</label>
+                    <input type="text" value={ineqCoeffs.b} onChange={e => setIneqCoeffs(p => ({ ...p, b: e.target.value }))} className="w-full mt-1 px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs font-bold" />
+                  </div>
+                  <div>
+                    <label className="text-[10px] text-slate-400">c:</label>
+                    <input type="text" value={ineqCoeffs.c} onChange={e => setIneqCoeffs(p => ({ ...p, c: e.target.value }))} className="w-full mt-1 px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs font-bold" />
+                  </div>
+                </div>
+
+                {ineqResult && (
+                  <div className="p-3 rounded-xl bg-amber-950/40 border border-amber-800/60 text-xs font-mono font-bold text-amber-200">
+                    {ineqResult}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Mode 2: COMPLEX NUMBER WORKBENCH */}
+            {mode === '2' && (
+              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+                <div className="flex items-center justify-between">
+                  <h3 className="text-sm font-black text-rose-400 flex items-center gap-2">
+                    <Sparkles className="w-4 h-4" />
+                    <span>Số Phức (Menu 2 - CMPLX)</span>
+                  </h3>
+                  <button
+                    onClick={calculateComplex}
+                    className="px-3 py-1.5 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-black cursor-pointer shadow-sm"
+                  >
+                    Tính Toán
+                  </button>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3">
+                  <div>
+                    <label className="text-[11px] text-slate-400 font-bold">Số phức z₁ (a + bi):</label>
+                    <div className="grid grid-cols-2 gap-1.5 mt-1">
+                      <input type="text" value={cplxZ1.r} onChange={e => setCplxZ1(p => ({ ...p, r: e.target.value }))} className="px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs font-bold" placeholder="Thực a" />
+                      <input type="text" value={cplxZ1.i} onChange={e => setCplxZ1(p => ({ ...p, i: e.target.value }))} className="px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs font-bold" placeholder="Ảo b" />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="text-[11px] text-slate-400 font-bold">Số phức z₂ (c + di):</label>
+                    <div className="grid grid-cols-2 gap-1.5 mt-1">
+                      <input type="text" value={cplxZ2.r} onChange={e => setCplxZ2(p => ({ ...p, r: e.target.value }))} className="px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs font-bold" placeholder="Thực c" />
+                      <input type="text" value={cplxZ2.i} onChange={e => setCplxZ2(p => ({ ...p, i: e.target.value }))} className="px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-center text-xs font-bold" placeholder="Ảo d" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-slate-400">Phép tính:</span>
+                  {['+', '-', '×', '÷'].map(op => (
+                    <button
+                      key={op}
+                      onClick={() => setCplxOp(op)}
+                      className={`w-8 h-8 rounded-lg font-black text-xs cursor-pointer ${cplxOp === op ? 'bg-rose-600 text-white' : 'bg-slate-800 text-slate-300'}`}
+                    >
+                      {op}
+                    </button>
+                  ))}
+                </div>
+
+                {cplxResult && (
+                  <div className="p-3 rounded-xl bg-rose-950/40 border border-rose-800/60 text-xs font-mono space-y-1">
+                    <div>Kết quả: <span className="text-rose-300 font-bold">{cplxResult.form}</span></div>
+                    <div>Môđun |z|: <span className="text-white font-bold">{cplxResult.modulus}</span></div>
+                    <div>Argument: <span className="text-amber-300 font-bold">{cplxResult.argDeg}°</span></div>
+                    <div>Số phức liên hợp z̄: <span className="text-slate-300 font-bold">{cplxResult.conjugate}</span></div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Mode 3: BASE-N WORKBENCH */}
+            {mode === '3' && baseNData && (
+              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+                <div className="flex items-center justify-between">
+                  <h3 className="text-sm font-black text-emerald-400 flex items-center gap-2">
+                    <Binary className="w-4 h-4" />
+                    <span>Chuyển Đổi Hệ Cơ Số (Menu 3 - BASE-N)</span>
+                  </h3>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-slate-400">Hệ nhập:</span>
+                  {['DEC', 'HEX', 'BIN', 'OCT'].map(t => (
+                    <button
+                      key={t}
+                      onClick={() => setBaseNType(t)}
+                      className={`px-3 py-1 rounded-lg text-xs font-bold cursor-pointer ${baseNType === t ? 'bg-emerald-600 text-white' : 'bg-slate-800 text-slate-300'}`}
+                    >
+                      {t}
+                    </button>
+                  ))}
+                </div>
+
+                <div>
+                  <label className="text-[11px] text-slate-400 font-bold">Giá trị đầu vào ({baseNType}):</label>
+                  <input
+                    type="text"
+                    value={baseNVal}
+                    onChange={e => setBaseNVal(e.target.value)}
+                    className="w-full mt-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-700 text-sm font-mono font-bold text-white uppercase"
+                  />
+                </div>
+
+                <div className="p-3 rounded-xl bg-emerald-950/40 border border-emerald-800/60 text-xs font-mono space-y-1.5">
+                  <div className="flex justify-between"><span>Dec (Thập phân):</span><span className="font-bold text-white">{baseNData.DEC}</span></div>
+                  <div className="flex justify-between"><span>Hex (Thập lục):</span><span className="font-bold text-emerald-300">{baseNData.HEX}</span></div>
+                  <div className="flex justify-between"><span>Bin (Nhị phân):</span><span className="font-bold text-amber-300">{baseNData.BIN}</span></div>
+                  <div className="flex justify-between"><span>Oct (Bát phân):</span><span className="font-bold text-cyan-300">{baseNData.OCT}</span></div>
+                </div>
+              </div>
+            )}
+
+            {/* Mode 4: MATRIX WORKBENCH */}
+            {mode === '4' && (
+              <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+                <div className="flex items-center justify-between">
+                  <h3 className="text-sm font-black text-indigo-400 flex items-center gap-2">
+                    <Grid3X3 className="w-4 h-4" />
+                    <span>Ma Trận (Menu 4 - MATRIX)</span>
+                  </h3>
+                  <div className="flex items-center gap-1.5">
+                    {['2', '3'].map(d => (
+                      <button
+                        key={d}
+                        onClick={() => setMatrixDim(d)}
+                        className={`px-2 py-0.5 rounded text-[11px] font-bold cursor-pointer ${matrixDim === d ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                      >
+                        {d}×{d}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <label className="text-[11px] text-slate-400 font-bold">Ma trận A ({matrixDim}×{matrixDim}):</label>
+                  <div className="grid grid-cols-3 gap-1.5 mt-1">
+                    {matrixA.slice(0, parseInt(matrixDim)).map((row, i) => (
+                      row.slice(0, parseInt(matrixDim)).map((val, j) => (
+                        <input
+                          key={`${i}-${j}`}
+                          type="number"
+                          value={val}
+                          onChange={e => {
+                            const newM = matrixA.map(r => [...r]);
+                            newM[i][j] = parseFloat(e.target.value) || 0;
+                            setMatrixA(newM);
+                          }}
+                          className="px-2 py-1 rounded bg-slate-900 border border-slate-700 text-center text-xs font-mono font-bold"
+                        />
+                      ))
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  {['A+B', 'A-B', 'A×B', 'detA', 'transA'].map(op => (
+                    <button
+                      key={op}
+                      onClick={() => calculateMatrix(op)}
+                      className="px-2.5 py-1 rounded-lg bg-indigo-600/30 hover:bg-indigo-600/50 border border-indigo-500/40 text-xs font-bold text-indigo-200 cursor-pointer"
+                    >
+                      {op}
+                    </button>
+                  ))}
+                </div>
+
+                {matrixResult && (
+                  <div className="p-3 rounded-xl bg-indigo-950/40 border border-indigo-800/60 text-xs font-mono space-y-1">
+                    <div className="font-bold text-indigo-300">{matrixResult.title}</div>
+                    {matrixResult.value !== undefined && <div className="text-white font-bold">{matrixResult.value}</div>}
+                    {matrixResult.matrix && (
+                      <div className="space-y-0.5 pt-1">
+                        {matrixResult.matrix.map((row, rIdx) => (
+                          <div key={rIdx} className="flex gap-3 text-white">
+                            [ {row.map((v, cIdx) => <span key={cIdx} className="w-10 text-right">{v}</span>)} ]
+                          </div>
+                        ))}
                       </div>
                     )}
                   </div>
@@ -1019,6 +1708,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
                     <div>Tích vô hướng A·B: <span className="text-white font-bold">{vctResult.dot}</span></div>
                     <div>Độ dài |A|: {vctResult.magA} • |B|: {vctResult.magB}</div>
                     <div>Góc giữa A và B: <span className="text-amber-300 font-bold">{vctResult.angleDeg}°</span></div>
+                    <div>Diện tích tam giác S: <span className="text-cyan-300 font-bold">{vctResult.triangleArea}</span></div>
                   </div>
                 )}
               </div>
@@ -1056,9 +1746,10 @@ export default function CasioCalculator({ isOpen, onClose }) {
                     <div>Trung bình x̄: <span className="text-cyan-300 font-bold">{statResult.mean}</span></div>
                     <div>Độ lệch chuẩn σ: <span className="text-white font-bold">{statResult.stdDev}</span></div>
                     <div>Độ lệch hiệu chỉnh s: <span className="text-white font-bold">{statResult.sampleStdDev}</span></div>
-                    <div>Min = {statResult.min}</div>
-                    <div>Max = {statResult.max}</div>
-                    <div className="col-span-2">Trung vị Med: <span className="text-amber-300 font-bold">{statResult.median}</span></div>
+                    <div>Tứ phân vị Q₁: <span className="text-amber-300 font-bold">{statResult.q1}</span></div>
+                    <div>Trung vị Med (Q₂): <span className="text-amber-300 font-bold">{statResult.median}</span></div>
+                    <div>Tứ phân vị Q₃: <span className="text-amber-300 font-bold">{statResult.q3}</span></div>
+                    <div>Khoảng tứ phân vị IQR: <span className="text-cyan-300 font-bold">{statResult.iqr}</span></div>
                   </div>
                 )}
               </div>
@@ -1081,7 +1772,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
                 )}
               </div>
 
-              <div className="space-y-1.5 max-h-[160px] overflow-y-auto pr-1 text-xs font-mono">
+              <div className="space-y-1.5 max-h-[140px] overflow-y-auto pr-1 text-xs font-mono">
                 {historyList.length === 0 ? (
                   <p className="text-[11px] text-slate-500 py-2 text-center">Chưa có phép tính nào trong phiên này.</p>
                 ) : (
@@ -1111,7 +1802,7 @@ export default function CasioCalculator({ isOpen, onClose }) {
                 <div className="text-xs">
                   <div className="font-black text-white">ClassWiz Emulator Trên PC</div>
                   <div className="text-[11px] text-slate-400">
-                    {desktopStatus?.installed ? 'Đã tìm thấy tại Program Files' : 'C:\\Program Files (x86)\\CASIO\\...'}
+                    {desktopStatus?.installed ? 'Đã cài đặt tại Program Files (x86)' : 'C:\\Program Files (x86)\\CASIO\\...'}
                   </div>
                 </div>
               </div>

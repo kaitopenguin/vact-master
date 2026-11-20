@@ -91,12 +91,12 @@ export default function Navbar({
     {
       id: 'hello-kitty',
       name: 'Hello Kitty',
-      english: 'Kawaii Pastel Pink',
-      desc: 'Hồng pastel & nơ đỏ ruby xinh xắn',
+      english: 'My Melody Pastel',
+      desc: 'Hồng pastel dịu mắt, chống chói lóa',
       icon: Heart,
-      color: '#fff0f5',
-      borderColor: '#e11d48',
-      badge: 'Sanrio Pink'
+      color: '#FBFDFB',
+      borderColor: '#F62E70',
+      badge: 'My Melody'
     },
     {
       id: 'cinnamoroll',

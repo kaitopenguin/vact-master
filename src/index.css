@@ -96,22 +96,23 @@
     --accent-bg-subtle: #e0f2fe;
   }
 
-  /* 6. HELLO KITTY (Kawaii Sweet Sakura Pink & Ruby Bow) */
+  /* 6. HELLO KITTY (My Melody & Sanrio Soft Pastel Palette - Chống Chói Mắt, Êm Dịu) */
+  /* Palette: #F62E70, #F98EAA, #F6BBC4, #FBFDFB, #FACCD7 */
   body.theme-hello-kitty {
-    --bg-page: #fff0f5;
-    --bg-nav: rgba(255, 240, 245, 0.95);
-    --bg-card: #ffffff;
-    --bg-card-subtle: #ffe4ec;
-    --bg-card-hover: #fcc2d7;
-    --border-color: #fbcfe8;
-    --border-strong: #f472b6;
-    --text-primary: #4c0519;
-    --text-secondary: #701a31;
-    --text-muted: #9f1239;
-    --accent: #e11d48;
-    --accent-hover: #be123c;
+    --bg-page: #FAF2F5; /* Nền ngọc trai phớt hồng siêu dịu, triệt tiêu hoàn toàn độ chói */
+    --bg-nav: rgba(251, 253, 251, 0.94);
+    --bg-card: #FBFDFB; /* Thẻ trắng kem êm dịu từ bảng màu, không gắt mắt */
+    --bg-card-subtle: #FDF0F3;
+    --bg-card-hover: #FACCD7;
+    --border-color: #F6BBC4; /* Viền hồng pastel thanh thoát, tinh tế */
+    --border-strong: #F98EAA;
+    --text-primary: #331b24; /* Chữ nâu mận espresso sẫm, độ tương phản 13:1, không mỏi mắt */
+    --text-secondary: #5c3845;
+    --text-muted: #8e5b6c;
+    --accent: #F62E70; /* Sắc hoa hồng quả mọng ngọt ngào */
+    --accent-hover: #e01d5d;
     --accent-text: #ffffff;
-    --accent-bg-subtle: #ffe4e6;
+    --accent-bg-subtle: #FACCD7;
   }
 
   /* 7. CINNAMOROLL (Fluffy Dreamy Cloud Sky Blue & Marshmallow) */
@@ -324,33 +325,33 @@ body.theme-frutiger-aero .bg-blue-600:hover {
   background: linear-gradient(180deg, #0ea5e9 0%, #0369a1 100%) !important;
 }
 
-/* 6. Hello Kitty Sweet Pink & Ruby Bow Overrides */
+/* 6. Hello Kitty Sweet Pastel Overrides (Chuẩn Bảng Màu Coolors My Melody, Chống Mỏi Mắt) */
 body.theme-hello-kitty .vact-card {
-  box-shadow: 0 4px 20px -2px rgba(244, 114, 182, 0.22), 0 0 0 1px rgba(251, 182, 206, 0.4) !important;
+  box-shadow: 0 4px 18px -2px rgba(246, 187, 196, 0.28), 0 0 0 1px rgba(246, 187, 196, 0.45) !important;
   border-radius: 1.25rem !important;
 }
 body.theme-hello-kitty .text-blue-600,
 body.theme-hello-kitty .text-blue-700,
 body.theme-hello-kitty .dark\:text-blue-400 {
-  color: #e11d48 !important;
+  color: #F62E70 !important;
 }
 body.theme-hello-kitty .bg-blue-600 {
-  background: linear-gradient(180deg, #f43f5e 0%, #e11d48 100%) !important;
+  background: linear-gradient(180deg, #F98EAA 0%, #F62E70 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 10px rgba(225, 29, 72, 0.35) !important;
+  box-shadow: 0 2px 10px rgba(246, 46, 112, 0.3) !important;
 }
 body.theme-hello-kitty .bg-blue-600:hover {
-  background: linear-gradient(180deg, #e11d48 0%, #be123c 100%) !important;
+  background: linear-gradient(180deg, #F62E70 0%, #d81b5c 100%) !important;
 }
 body.theme-hello-kitty .bg-blue-100,
 body.theme-hello-kitty .bg-blue-50,
 body.theme-hello-kitty .dark\:bg-blue-950 {
-  background-color: #ffe4e6 !important;
-  color: #9f1239 !important;
-  border-color: #fda4af !important;
+  background-color: #FDF0F3 !important;
+  color: #F62E70 !important;
+  border-color: #F6BBC4 !important;
 }
 body.theme-hello-kitty .katex {
-  color: #4c0519 !important;
+  color: #331b24 !important;
 }
 
 /* 7. Cinnamoroll Dreamy Fluffy Cloud Blue Overrides */
