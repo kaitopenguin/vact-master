@@ -23,23 +23,60 @@ export function cleanMathText(raw) {
     .replace(//g, ']')
     .replace(//g, '(')
     .replace(//g, ')')
+    .replace(//g, '-')
+    .replace(//g, ' \\cdot ')
+    .replace(//g, '')
+    .replace(//g, '^\\circ')
+    .replace(/||/g, ']')
+    .replace(/||/g, '\\}')
+    .replace(//g, '\\bullet')
+    .replace(//g, '\\alpha')
+    .replace(//g, "'")
+    .replace(//g, '\\eta')
+    .replace(//g, '')
+    .replace(//g, '\\int ')
     .replace(//g, ' \\ge ')
     .replace(//g, ' \\le ')
     .replace(//g, ' \\ne ')
     .replace(//g, ' \\in ')
     .replace(//g, ' \\notin ')
-    .replace(//g, '')
-    .replace(//g, '')
-    .replace(//g, '')
+    .replace(/|||/g, '')
     .replace(//g, '\\pi ')
-    .replace(//g, '\\mathbb{R}')
+    .replace(/|/g, '\\mathbb{R}')
+    .replace(//g, '\\Delta')
+    .replace(//g, '\\setminus')
+    .replace(//g, '\\{')
+    .replace(//g, '\\}')
     .replace(/|/g, '')
     .replace(/[−–]/g, '-')
     .replace(//g, '+')
     .replace(//g, '=')
     .replace(//g, '<')
     .replace(//g, '>')
-    .replace(/□/g, '\\ge ');
+    .replace(//g, ' \\times ')
+    .replace(//g, '\\Delta')
+    .replace(//g, '^\\circ')
+    .replace(/â–¡|□/g, ' \\ge ')
+    .replace(/ï€«/g, '+')
+    .replace(/ï€­/g, '-')
+    .replace(/ï€½/g, '=')
+    .replace(/ï‚¹/g, '\\ne')
+    .replace(/ï‚±/g, '\\pm')
+    .replace(/ï‚³/g, '\\ge')
+    .replace(/ï‚£/g, '\\le')
+    .replace(/ïƒŽ/g, '\\in')
+    .replace(/ïƒ /g, '\\notin')
+    .replace(/ïƒˆ/g, '\\cup')
+    .replace(/ïƒ‡/g, '\\cap')
+    .replace(/ï‚®/g, '\\to')
+    .replace(/ïƒž/g, '\\Rightarrow')
+    .replace(/ïƒ›/g, '\\Leftrightarrow')
+    .replace(/ï °/g, '\\pi')
+    .replace(/ï‚¥/g, '\\infty')
+    .replace(/ï‚¡/g, '\\mathbb{R}')
+    .replace(/||/g, '\\left(')
+    .replace(/||/g, '\\right)')
+    .replace(/[\uF000-\uF0FF]/g, '');
 }
 
 /**
@@ -48,7 +85,19 @@ export function cleanMathText(raw) {
 function MathInline({ text, className = '' }) {
   const parts = useMemo(() => {
     if (!text) return [];
-    const sanitized = cleanMathText(text);
+    let sanitized = cleanMathText(text);
+
+    // Defensive auto-wrap for un-delimited LaTeX expressions or math formulas
+    if (!sanitized.includes('$')) {
+      const hasLatex = /\\[a-zA-Z]+|\^\{?[0-9a-zA-Z\^\*\+\-]+\}?|_\{?[0-9a-zA-Z\^\*\+\-]+\}?/.test(sanitized);
+      if (hasLatex) {
+        const stripped = sanitized.replace(/\\text\{[^{}]*\}|\\[a-zA-Z]+(\{[^{}]*\}|\[[^\[\]]*\])?/g, '');
+        const hasVietnameseWords = /[a-zA-ZÀ-Ỹà-ỹ]{4,}/.test(stripped);
+        if (!hasVietnameseWords || sanitized.startsWith('\\begin{') || sanitized.startsWith('\\text{')) {
+          sanitized = `$${sanitized}$`;
+        }
+      }
+    }
 
     // Regex matching $$...$$ (block) or $...$ (inline)
     const regex = /(\$\$[\s\S]*?\$\$|\$[^\$\n]+?\$)/g;
@@ -191,7 +240,14 @@ export default function MathRenderer({ content, className = '' }) {
   const blocks = useMemo(() => {
     if (!content || typeof content !== 'string') return [];
 
-    const lines = content.split('\n');
+    let formatted = content;
+    // Format glued markdown table rows if separated by '| |' on a single line
+    if (!formatted.includes('\n|') && formatted.includes('|') && (formatted.includes(':---') || formatted.includes('---:'))) {
+      formatted = formatted.replace(/\|\s*\|\s*/g, '|\n|');
+      formatted = formatted.replace(/(:\s*)(\|)/g, '$1\n\n$2');
+    }
+
+    const lines = formatted.split('\n');
     const result = [];
     let currentTable = null;
     let currentText = [];
