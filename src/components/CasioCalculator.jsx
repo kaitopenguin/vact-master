@@ -480,48 +480,85 @@ export default function CasioCalculator({ isOpen, onClose, theme }) {
     // SHIFT KEY COMBINATIONS
     if (isShift) {
       setIsShift(false);
+
+      // Row 2: Roots, Fractions, Factorial, Powers, Logarithms
+      if (key === '√(' || key === '√□') { setInputExpr(prev => prev + '∛('); return; }
+      if (key === '/' || key === '□/□') { setInputExpr(prev => prev + ' mixed '); return; }
+      if (key === '^2' || key === 'x²') { setInputExpr(prev => prev + '!'); return; }
+      if (key === '^' || key === 'x^□') { setInputExpr(prev => prev + '^(1/'); return; }
+      if (key === 'log(' || key === 'log') { setInputExpr(prev => prev + '10^('); return; }
+      if (key === 'ln(' || key === 'ln') { setInputExpr(prev => prev + 'e^('); return; }
+
+      // Row 3: Pol, FACT, Colon, Arc-Trig (sin⁻¹, cos⁻¹, tan⁻¹)
+      if (key === '-') { setInputExpr(prev => prev + 'Pol('); return; }
       if (key === '°') {
-        // FACT (Prime factorization)
         const val = parseInt(resultVal, 10);
         if (!isNaN(val) && val > 1 && val < 10000000) {
           const factors = [];
           let d = 2;
           let temp = val;
           while (temp >= d * d) {
-            if (temp % d === 0) {
-              factors.push(d);
-              temp /= d;
-            } else {
-              d++;
-            }
+            if (temp % d === 0) { factors.push(d); temp /= d; } else { d++; }
           }
           factors.push(temp);
           const countMap = {};
           factors.forEach(f => countMap[f] = (countMap[f] || 0) + 1);
-          const factStr = Object.entries(countMap)
-            .map(([prime, pwr]) => pwr > 1 ? `${prime}^${pwr}` : `${prime}`)
-            .join(' × ');
+          const factStr = Object.entries(countMap).map(([p, pwr]) => pwr > 1 ? `${p}^${pwr}` : `${p}`).join(' × ');
           setFactResult(`${val} = ${factStr}`);
+        } else {
+          setFactResult('Chỉ phân tích số nguyên dương > 1');
         }
         return;
       }
-      if (key === 'x^2') { setInputExpr(prev => prev + '√('); return; }
-      if (key === 'x^□') { setInputExpr(prev => prev + '^(1/'); return; }
-      if (key === 'ln') { setInputExpr(prev => prev + 'e^('); return; }
-      if (key === 'log') { setInputExpr(prev => prev + '10^('); return; }
-      if (key === 'sin') { setInputExpr(prev => prev + 'sin⁻¹('); return; }
-      if (key === 'cos') { setInputExpr(prev => prev + 'cos⁻¹('); return; }
-      if (key === 'tan') { setInputExpr(prev => prev + 'tan⁻¹('); return; }
+      if (key === 'x') { setInputExpr(prev => prev + ':'); return; }
+      if (key === 'sin(' || key === 'sin') { setInputExpr(prev => prev + 'sin⁻¹('); return; }
+      if (key === 'cos(' || key === 'cos') { setInputExpr(prev => prev + 'cos⁻¹('); return; }
+      if (key === 'tan(' || key === 'tan') { setInputExpr(prev => prev + 'tan⁻¹('); return; }
+
+      // Row 4: RCL, ENG, %, Abs, Fraction toggle, M-
+      if (key === 'STO') { setFactResult(`Bộ nhớ: M=${memRegisters.M||0}, X=${memRegisters.X||0}, Y=${memRegisters.Y||0}`); return; }
+      if (key === 'ENG') { setInputExpr(prev => prev + 'E'); return; }
+      if (key === '(') { setInputExpr(prev => prev + '%'); return; }
+      if (key === ')') { setInputExpr(prev => prev + 'Abs('); return; }
+      if (key === 'S<=>D' || key === 'S⇔D') {
+        const num = parseFloat(resultVal);
+        if (!isNaN(num)) setFactResult(decimalToFraction(num));
+        return;
+      }
+      if (key === 'M+') {
+        const num = parseFloat(resultVal) || 0;
+        setMemRegisters(prev => ({ ...prev, M: (prev.M || 0) - num }));
+        setFactResult(`M = ${(memRegisters.M || 0) - num}`);
+        return;
+      }
+
+      // Numpad row 1: CONST, CONV, RESET, INS, OFF
+      if (key === '7') { setInputExpr(prev => prev + '299792458'); setFactResult('Hằng số c = 299.792.458 m/s'); return; }
+      if (key === '8') { setFactResult('Menu Chuyển đổi đơn vị (CONV)'); return; }
+      if (key === '9') {
+        setMemRegisters({ Ans: 0, A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, X: 0, Y: 0, M: 0 });
+        setInputExpr('');
+        setResultVal('0');
+        setFactResult('Đã RESET tất cả biến bộ nhớ về 0');
+        return;
+      }
+      if (key === 'DEL') { setFactResult('Chế độ chèn INS'); return; }
+      if (key === 'AC') { onClose(); return; }
+
+      // Numpad row 2 & 3: nPr, nCr, GCD, LCM
       if (key === '×') { setInputExpr(prev => prev + 'P'); return; }
       if (key === '÷') { setInputExpr(prev => prev + 'C'); return; }
-      if (key === '×10^') { setInputExpr(prev => prev + 'π'); return; }
-      if (key === 'Ans') { setInputExpr(prev => prev + String(memRegisters.Ans)); return; }
-      if (key === 'S<=>D') {
-        // Toggle fraction display
-        const num = parseFloat(resultVal);
-        if (!isNaN(num)) {
-          setFactResult(decimalToFraction(num));
-        }
+      if (key === '+') { setInputExpr(prev => prev + 'GCD('); return; }
+      if (key === '-') { setInputExpr(prev => prev + 'LCM('); return; }
+
+      // Numpad bottom: Rnd, Ran#, Pi (π), %, Approximate
+      if (key === '0') { setInputExpr(prev => prev + 'Rnd('); return; }
+      if (key === '.') { setInputExpr(prev => prev + 'Ran#'); return; }
+      if (key === '×10^' || key === '×10ˣ') { setInputExpr(prev => prev + 'π'); return; }
+      if (key === 'Ans') { setInputExpr(prev => prev + '%'); return; }
+      if (key === '=') {
+        const res = evaluateMath(inputExpr);
+        setResultVal(res);
         return;
       }
     }
@@ -529,9 +566,29 @@ export default function CasioCalculator({ isOpen, onClose, theme }) {
     // ALPHA KEY COMBINATIONS
     if (isAlpha) {
       setIsAlpha(false);
-      if (key === ')') { setInputExpr(prev => prev + 'x'); return; }
-      if (key === 'S<=>D') { setInputExpr(prev => prev + 'y'); return; }
-      if (['A', 'B', 'C', 'D', 'E', 'F', 'M'].includes(key)) {
+
+      // Row 3: Letters A, B, C, D, E, F
+      if (key === '-') { setInputExpr(prev => prev + 'A'); return; }
+      if (key === '°') { setInputExpr(prev => prev + 'B'); return; }
+      if (key === 'x') { setInputExpr(prev => prev + 'C'); return; }
+      if (key === 'sin(' || key === 'sin') { setInputExpr(prev => prev + 'D'); return; }
+      if (key === 'cos(' || key === 'cos') { setInputExpr(prev => prev + 'E'); return; }
+      if (key === 'tan(' || key === 'tan') { setInputExpr(prev => prev + 'F'); return; }
+
+      // Row 4: Letters X, Y, M
+      if (key === ')') { setInputExpr(prev => prev + 'X'); return; }
+      if (key === 'S<=>D' || key === 'S⇔D') { setInputExpr(prev => prev + 'Y'); return; }
+      if (key === 'M+') { setInputExpr(prev => prev + 'M'); return; }
+
+      // CALC key -> '='
+      if (key === 'CALC') { setInputExpr(prev => prev + '='); return; }
+
+      // Bottom Row: Euler constant e, PreAns, Comma
+      if (key === '×10^' || key === '×10ˣ') { setInputExpr(prev => prev + 'e'); return; }
+      if (key === 'Ans') { setInputExpr(prev => prev + 'PreAns'); return; }
+      if (key === '0') { setInputExpr(prev => prev + ','); return; }
+
+      if (['A', 'B', 'C', 'D', 'E', 'F', 'X', 'Y', 'M'].includes(key)) {
         setInputExpr(prev => prev + key);
         return;
       }
@@ -1316,21 +1373,25 @@ export default function CasioCalculator({ isOpen, onClose, theme }) {
                 {/* Math Row 3: (-), °'", x, sin, cos, tan */}
                 <div className="grid grid-cols-6 gap-1.5">
                   {[
-                    { label: '(-)', val: '-' },
-                    { label: '° \' "', val: '°' },
-                    { label: 'x', val: 'x' },
-                    { label: 'sin', val: 'sin(' },
-                    { label: 'cos', val: 'cos(' },
-                    { label: 'tan', val: 'tan(' }
+                    { label: '(-)', shift: 'Pol', alpha: 'A', val: '-' },
+                    { label: '° \' "', shift: 'FACT', alpha: 'B', val: '°' },
+                    { label: 'x', shift: ':', alpha: 'C', val: 'x' },
+                    { label: 'sin', shift: 'sin⁻¹', alpha: 'D', val: 'sin(' },
+                    { label: 'cos', shift: 'cos⁻¹', alpha: 'E', val: 'cos(' },
+                    { label: 'tan', shift: 'tan⁻¹', alpha: 'F', val: 'tan(' }
                   ].map((btn, bIdx) => (
                     <button
                       key={bIdx}
                       onClick={() => handleKeyClick(btn.val)}
-                      className={`py-2 rounded-lg text-xs font-black transition-colors cursor-pointer ${
-                        isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600'
+                      className={`py-1.5 sm:py-2 rounded-lg text-xs font-black transition-all cursor-pointer flex flex-col items-center justify-between ${
+                        isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7] shadow-xs' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600'
                       }`}
                     >
-                      {btn.label}
+                      <div className="w-full flex items-center justify-between px-1 text-[8px] leading-none mb-0.5">
+                        <span className={`font-bold ${isShift ? 'text-amber-400 font-black' : (isHK ? 'text-[#F62E70]/80' : 'text-amber-300/80')}`}>{btn.shift}</span>
+                        <span className={`font-bold ${isAlpha ? 'text-rose-500 font-black' : 'text-rose-400/80'}`}>{btn.alpha}</span>
+                      </div>
+                      <span className="text-xs font-black">{btn.label}</span>
                     </button>
                   ))}
                 </div>
@@ -1338,101 +1399,128 @@ export default function CasioCalculator({ isOpen, onClose, theme }) {
                 {/* Math Row 4: STO, ENG, (, ), S<=>D, M+ */}
                 <div className="grid grid-cols-6 gap-1.5">
                   {[
-                    { label: 'STO', val: 'STO' },
-                    { label: 'ENG', val: 'ENG' },
-                    { label: '(', val: '(' },
-                    { label: ')', val: ')' },
-                    { label: 'S⇔D', val: 'S<=>D' },
-                    { label: 'M+', val: 'M+' }
+                    { label: 'STO', shift: 'RCL', alpha: '', val: 'STO' },
+                    { label: 'ENG', shift: '←', alpha: '', val: 'ENG' },
+                    { label: '(', shift: '%', alpha: '', val: '(' },
+                    { label: ')', shift: 'Abs', alpha: 'X', val: ')' },
+                    { label: 'S⇔D', shift: 'a b/c', alpha: 'Y', val: 'S<=>D' },
+                    { label: 'M+', shift: 'M-', alpha: 'M', val: 'M+' }
                   ].map((btn, bIdx) => (
                     <button
                       key={bIdx}
                       onClick={() => handleKeyClick(btn.val)}
-                      className={`py-2 rounded-lg text-xs font-black transition-colors cursor-pointer ${
+                      className={`py-1.5 sm:py-2 rounded-lg text-xs font-black transition-all cursor-pointer flex flex-col items-center justify-between ${
                         btn.val === 'S<=>D' 
-                          ? (isHK ? 'bg-[#FACCD7] text-[#F62E70] border border-[#F6BBC4] hover:bg-[#F98EAA] hover:text-white' : 'bg-amber-600/30 text-amber-300 border border-amber-500/40 hover:bg-amber-600/50')
+                          ? (isHK ? 'bg-[#FACCD7] text-[#F62E70] border border-[#F6BBC4] hover:bg-[#F98EAA]' : 'bg-amber-600/30 text-amber-300 border border-amber-500/40 hover:bg-amber-600/50')
                           : (isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700/80 text-slate-200 hover:bg-slate-600')
                       }`}
                     >
-                      {btn.label}
+                      <div className="w-full flex items-center justify-between px-1 text-[8px] leading-none mb-0.5">
+                        <span className={`font-bold ${isShift ? 'text-amber-400 font-black' : (isHK ? 'text-[#F62E70]/80' : 'text-amber-300/80')}`}>{btn.shift}</span>
+                        <span className={`font-bold ${isAlpha ? 'text-rose-500 font-black' : 'text-rose-400/80'}`}>{btn.alpha}</span>
+                      </div>
+                      <span className="text-xs font-black">{btn.label}</span>
                     </button>
                   ))}
                 </div>
 
                 {/* Numpad Block: 7 8 9 DEL AC */}
                 <div className="grid grid-cols-5 gap-1.5 pt-1">
-                  <button onClick={() => handleKeyClick('7')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>7</button>
-                  <button onClick={() => handleKeyClick('8')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>8</button>
-                  <button onClick={() => handleKeyClick('9')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>9</button>
-                  <button onClick={() => handleKeyClick('DEL')} className={`py-2.5 sm:py-3 rounded-xl text-xs font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-[#F62E70] text-white hover:bg-[#e02663] shadow-pink-500/20' : 'bg-rose-700 text-white hover:bg-rose-600'
-                  }`}>DEL</button>
-                  <button onClick={() => handleKeyClick('AC')} className={`py-2.5 sm:py-3 rounded-xl text-xs font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-[#F62E70] text-white hover:bg-[#e02663] shadow-pink-500/20' : 'bg-rose-600 text-white hover:bg-rose-500'
-                  }`}>AC</button>
+                  {[
+                    { label: '7', shift: 'CONST', val: '7' },
+                    { label: '8', shift: 'CONV', val: '8' },
+                    { label: '9', shift: 'RESET', val: '9' },
+                    { label: 'DEL', shift: 'INS', val: 'DEL', isDel: true },
+                    { label: 'AC', shift: 'OFF', val: 'AC', isAc: true }
+                  ].map((btn, bIdx) => (
+                    <button
+                      key={bIdx}
+                      onClick={() => handleKeyClick(btn.val)}
+                      className={`py-2 sm:py-2.5 rounded-xl text-sm font-black transition-all shadow-xs cursor-pointer flex flex-col items-center justify-between ${
+                        btn.isDel || btn.isAc
+                          ? (isHK ? 'bg-[#F62E70] text-white hover:bg-[#e02663] shadow-pink-500/20' : btn.isDel ? 'bg-rose-700 text-white hover:bg-rose-600' : 'bg-rose-600 text-white hover:bg-rose-500')
+                          : (isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700')
+                      }`}
+                    >
+                      <span className={`text-[8px] font-bold leading-none mb-0.5 ${btn.isDel || btn.isAc ? 'text-pink-200' : (isHK ? 'text-[#F62E70]' : 'text-amber-300')}`}>{btn.shift}</span>
+                      <span className="text-xs sm:text-sm font-black">{btn.label}</span>
+                    </button>
+                  ))}
                 </div>
 
                 {/* Numpad Block: 4 5 6 × ÷ */}
                 <div className="grid grid-cols-5 gap-1.5">
-                  <button onClick={() => handleKeyClick('4')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>4</button>
-                  <button onClick={() => handleKeyClick('5')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>5</button>
-                  <button onClick={() => handleKeyClick('6')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>6</button>
-                  <button onClick={() => handleKeyClick('×')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-[#FACCD7] text-[#4A1525] hover:bg-[#F98EAA] hover:text-white border border-[#F6BBC4]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
-                  }`}>×</button>
-                  <button onClick={() => handleKeyClick('÷')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-[#FACCD7] text-[#4A1525] hover:bg-[#F98EAA] hover:text-white border border-[#F6BBC4]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
-                  }`}>÷</button>
+                  {[
+                    { label: '4', shift: '', val: '4' },
+                    { label: '5', shift: '', val: '5' },
+                    { label: '6', shift: '', val: '6' },
+                    { label: '×', shift: 'nPr', val: '×', isOp: true },
+                    { label: '÷', shift: 'nCr', val: '÷', isOp: true }
+                  ].map((btn, bIdx) => (
+                    <button
+                      key={bIdx}
+                      onClick={() => handleKeyClick(btn.val)}
+                      className={`py-2 sm:py-2.5 rounded-xl text-sm font-black transition-all shadow-xs cursor-pointer flex flex-col items-center justify-between ${
+                        btn.isOp
+                          ? (isHK ? 'bg-[#FACCD7] text-[#4A1525] hover:bg-[#F98EAA] border border-[#F6BBC4]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600')
+                          : (isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700')
+                      }`}
+                    >
+                      <span className={`text-[8px] font-bold leading-none mb-0.5 ${isHK ? 'text-[#F62E70]' : 'text-amber-300'}`}>{btn.shift}</span>
+                      <span className="text-xs sm:text-sm font-black">{btn.label}</span>
+                    </button>
+                  ))}
                 </div>
 
                 {/* Numpad Block: 1 2 3 + - */}
                 <div className="grid grid-cols-5 gap-1.5">
-                  <button onClick={() => handleKeyClick('1')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>1</button>
-                  <button onClick={() => handleKeyClick('2')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>2</button>
-                  <button onClick={() => handleKeyClick('3')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>3</button>
-                  <button onClick={() => handleKeyClick('+')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-[#FACCD7] text-[#4A1525] hover:bg-[#F98EAA] hover:text-white border border-[#F6BBC4]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
-                  }`}>+</button>
-                  <button onClick={() => handleKeyClick('-')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-[#FACCD7] text-[#4A1525] hover:bg-[#F98EAA] hover:text-white border border-[#F6BBC4]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
-                  }`}>-</button>
+                  {[
+                    { label: '1', shift: '', val: '1' },
+                    { label: '2', shift: '', val: '2' },
+                    { label: '3', shift: '', val: '3' },
+                    { label: '+', shift: 'GCD', val: '+', isOp: true },
+                    { label: '-', shift: 'LCM', val: '-', isOp: true }
+                  ].map((btn, bIdx) => (
+                    <button
+                      key={bIdx}
+                      onClick={() => handleKeyClick(btn.val)}
+                      className={`py-2 sm:py-2.5 rounded-xl text-sm font-black transition-all shadow-xs cursor-pointer flex flex-col items-center justify-between ${
+                        btn.isOp
+                          ? (isHK ? 'bg-[#FACCD7] text-[#4A1525] hover:bg-[#F98EAA] border border-[#F6BBC4]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600')
+                          : (isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700')
+                      }`}
+                    >
+                      <span className={`text-[8px] font-bold leading-none mb-0.5 ${isHK ? 'text-[#F62E70]' : 'text-amber-300'}`}>{btn.shift}</span>
+                      <span className="text-xs sm:text-sm font-black">{btn.label}</span>
+                    </button>
+                  ))}
                 </div>
 
                 {/* Numpad Block: 0 . ×10^x Ans = */}
                 <div className="grid grid-cols-5 gap-1.5">
-                  <button onClick={() => handleKeyClick('0')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>0</button>
-                  <button onClick={() => handleKeyClick('.')} className={`py-2.5 sm:py-3 rounded-xl text-sm font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700'
-                  }`}>.</button>
-                  <button onClick={() => handleKeyClick('×10^')} className={`py-2.5 sm:py-3 rounded-xl text-xs font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
-                  }`}>×10ˣ</button>
-                  <button onClick={() => handleKeyClick('Ans')} className={`py-2.5 sm:py-3 rounded-xl text-xs font-black transition-colors shadow-xs cursor-pointer ${
-                    isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-700 text-slate-100 hover:bg-slate-600'
-                  }`}>Ans</button>
-                  <button onClick={() => handleKeyClick('=')} className={`py-2.5 sm:py-3 rounded-xl text-base font-black transition-all cursor-pointer ${
-                    isHK ? 'bg-gradient-to-r from-[#F62E70] to-[#F98EAA] text-white hover:brightness-105 shadow-md shadow-pink-500/40' : 'bg-blue-600 text-white hover:bg-blue-500 shadow-md shadow-blue-500/30'
-                  }`}>=</button>
+                  {[
+                    { label: '0', shift: 'Rnd', alpha: ',', val: '0' },
+                    { label: '.', shift: 'Ran#', alpha: '', val: '.' },
+                    { label: '×10ˣ', shift: 'π', alpha: 'e', val: '×10^' },
+                    { label: 'Ans', shift: '%', alpha: 'PreAns', val: 'Ans' },
+                    { label: '=', shift: '≈', alpha: '', val: '=', isEq: true }
+                  ].map((btn, bIdx) => (
+                    <button
+                      key={bIdx}
+                      onClick={() => handleKeyClick(btn.val)}
+                      className={`py-2 sm:py-2.5 rounded-xl text-sm font-black transition-all shadow-xs cursor-pointer flex flex-col items-center justify-between ${
+                        btn.isEq
+                          ? (isHK ? 'bg-gradient-to-r from-[#F62E70] to-[#F98EAA] text-white hover:brightness-105 shadow-md shadow-pink-500/40' : 'bg-blue-600 text-white hover:bg-blue-500 shadow-md shadow-blue-500/30')
+                          : (isHK ? 'bg-white text-[#4A1525] hover:bg-pink-50 border border-[#FACCD7]' : 'bg-slate-800 text-white hover:bg-slate-700')
+                      }`}
+                    >
+                      <div className="w-full flex items-center justify-between px-1 text-[8px] leading-none mb-0.5">
+                        <span className={`font-bold ${btn.isEq ? 'text-white/80' : (isHK ? 'text-[#F62E70]' : 'text-amber-300')}`}>{btn.shift}</span>
+                        <span className="font-bold text-rose-500 leading-none">{btn.alpha}</span>
+                      </div>
+                      <span className="text-xs sm:text-sm font-black">{btn.label}</span>
+                    </button>
+                  ))}
                 </div>
               </div>
             </div>
