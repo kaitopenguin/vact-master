@@ -5,7 +5,6 @@ import {
   Sparkles, 
   ShieldAlert, 
   Target, 
-  Calculator, 
   BarChart3,
   Microscope,
   Copy,
@@ -14,7 +13,7 @@ import {
 } from 'lucide-react';
 import { EXAM_TIPS } from '../data/tipsData';
 
-export default function TipsView({ fontSize = 'normal', onOpenCasio }) {
+export default function TipsView({ fontSize = 'normal' }) {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [copiedId, setCopiedId] = useState(null);
@@ -22,7 +21,7 @@ export default function TipsView({ fontSize = 'normal', onOpenCasio }) {
   const categories = [
     { id: 'all', label: 'Tất cả bí kíp' },
     { id: '⏱️ Quản lý thời gian', label: '⏱️ Thời gian' },
-    { id: '🔢 Kỹ năng Casio', label: '🔢 Bấm máy Cacao' },
+    { id: '🔢 Kỹ năng Casio', label: '🔢 Kỹ năng Toán học' },
     { id: '🧠 Tư duy Logic', label: '🧠 Tư duy Logic' },
     { id: '📊 Phân tích số liệu', label: '📊 Phân tích Số liệu' },
     { id: '🔬 Suy luận Khoa học', label: '🔬 Khoa học' },
@@ -46,8 +45,8 @@ export default function TipsView({ fontSize = 'normal', onOpenCasio }) {
     if (cat.includes('Thời gian') || cat.includes('thời gian')) {
       return { icon: Clock, color: 'text-blue-600 bg-blue-50 dark:bg-blue-950 dark:text-blue-300 border-blue-200 dark:border-blue-800' };
     }
-    if (cat.includes('Casio')) {
-      return { icon: Calculator, color: 'text-emerald-600 bg-emerald-50 dark:bg-emerald-950 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800' };
+    if (cat.includes('Casio') || cat.includes('Toán')) {
+      return { icon: Target, color: 'text-emerald-600 bg-emerald-50 dark:bg-emerald-950 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800' };
     }
     if (cat.includes('Số liệu') || cat.includes('số liệu')) {
       return { icon: BarChart3, color: 'text-cyan-600 bg-cyan-50 dark:bg-cyan-950 dark:text-cyan-300 border-cyan-200 dark:border-cyan-800' };
@@ -75,23 +74,12 @@ export default function TipsView({ fontSize = 'normal', onOpenCasio }) {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
             <h1 className="text-2xl sm:text-4xl font-black vact-text-primary tracking-tight">
-              Cẩm Nang Bí Kíp, Mẹo Bấm Máy & Phản Xạ Phòng Thi
+              Cẩm Nang Bí Kíp, Mẹo Giải Nhanh & Phản Xạ Phòng Thi
             </h1>
             <p className="mt-2 vact-text-secondary max-w-3xl text-xs sm:text-base leading-relaxed font-medium">
               Đúc kết những chiến thuật sống còn giúp thí sinh tối ưu hóa từng giây làm bài, nhận diện bẫy, loại trừ phương án sai và bứt phá 900+ điểm V-ACT.
             </p>
           </div>
-
-          {/* Quick Cacao Launch */}
-          {onOpenCasio && (
-            <button
-              onClick={onOpenCasio}
-              className="self-start md:self-auto flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs shadow-md shadow-indigo-500/20 active:scale-95 transition-all cursor-pointer shrink-0"
-            >
-              <Calculator className="w-4 h-4" />
-              <span>Mở Cacao 580VNX</span>
-            </button>
-          )}
         </div>
       </div>
 
@@ -195,19 +183,6 @@ export default function TipsView({ fontSize = 'normal', onOpenCasio }) {
                   ))}
                 </div>
               </div>
-
-              {/* Card Footer: Action button if Casio */}
-              {isCasioTip && onOpenCasio && (
-                <div className="mt-5 pt-3 border-t vact-border">
-                  <button
-                    onClick={onOpenCasio}
-                    className="w-full flex items-center justify-center gap-2 px-3 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs cursor-pointer transition-colors shadow-xs"
-                  >
-                    <Calculator className="w-4 h-4" />
-                    <span>Mở máy tính Cacao fx-580VN X thực hành ngay</span>
-                  </button>
-                </div>
-              )}
             </div>
           );
         })}

@@ -7,7 +7,6 @@ import {
   ChevronLeft,
   Lightbulb, 
   AlertTriangle, 
-  Calculator, 
   CheckCircle2, 
   Bookmark,
   Compass,
@@ -19,7 +18,7 @@ import {
 } from 'lucide-react';
 import { THEORY_BOOKS } from '../data/theoryBooksData';
 
-export default function TheoryView({ fontSize = 'normal', onOpenCasio }) {
+export default function TheoryView({ fontSize = 'normal' }) {
   const [selectedBookId, setSelectedBookId] = useState(THEORY_BOOKS[0].id);
   const [selectedChapterId, setSelectedChapterId] = useState(THEORY_BOOKS[0].chapters[0].id);
   const [searchQuery, setSearchQuery] = useState('');
@@ -76,19 +75,9 @@ export default function TheoryView({ fontSize = 'normal', onOpenCasio }) {
               Kho Sách Giáo Trình & Lý Thuyết ĐHQG-HCM
             </h1>
             <p className="mt-2 vact-text-secondary max-w-4xl text-xs sm:text-base leading-relaxed">
-              Mỗi phân môn được biên soạn thành một cuốn sách chuyên khảo độc lập: phân loại tỉ mỉ theo cấu trúc 120 câu, ma trận bẫy ngôn ngữ, thuật toán máy tính Cacao 580 và tư duy suy luận khoa học.
+              Mỗi phân môn được biên soạn thành một cuốn sách chuyên khảo độc lập: phân loại tỉ mỉ theo cấu trúc 120 câu, ma trận bẫy ngôn ngữ, thuật toán giải nhanh và tư duy suy luận khoa học.
             </p>
           </div>
-
-          {/* Quick Cacao 580 Button in Header */}
-          <button
-            onClick={onOpenCasio}
-            className="self-start md:self-auto flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-black text-xs shadow-md shadow-blue-500/20 active:scale-95 transition-all cursor-pointer shrink-0"
-            title="Mở máy tính khoa học Cacao fx-580VN X trực tiếp"
-          >
-            <Calculator className="w-4 h-4" />
-            <span>Mở Cacao fx-580VN X</span>
-          </button>
         </div>
       </div>
 
@@ -305,7 +294,7 @@ export default function TheoryView({ fontSize = 'normal', onOpenCasio }) {
                     icon = <Compass className="w-5 h-5 text-blue-600 shrink-0" />;
                   } else if (isCasio) {
                     calloutStyle = 'bg-indigo-50/80 dark:bg-indigo-950/40 border-indigo-300 dark:border-indigo-800 text-indigo-950 dark:text-indigo-100';
-                    icon = <Calculator className="w-5 h-5 text-indigo-600 shrink-0" />;
+                    icon = <Compass className="w-5 h-5 text-indigo-600 shrink-0" />;
                   }
 
                   return (
@@ -315,14 +304,6 @@ export default function TheoryView({ fontSize = 'normal', onOpenCasio }) {
                           {icon}
                           <span>{sec.heading}</span>
                         </div>
-                        {isCasio && onOpenCasio && (
-                          <button
-                            onClick={onOpenCasio}
-                            className="px-3 py-1 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-[11px] font-black cursor-pointer shadow-xs transition-colors shrink-0"
-                          >
-                            Bấm máy ngay
-                          </button>
-                        )}
                       </div>
                       <p className="text-xs sm:text-sm leading-relaxed whitespace-pre-line font-medium pl-7">
                         {sec.text}
@@ -348,27 +329,6 @@ export default function TheoryView({ fontSize = 'normal', onOpenCasio }) {
                 return null;
               })}
             </div>
-
-            {/* Quick Casio Callout Banner for Math & Logic Books */}
-            {(currentBook.id === 'book-toan' || currentBook.id === 'book-logic') && (
-              <div className="mt-8 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center shrink-0">
-                    <Calculator className="w-5 h-5 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-black text-sm">Cần thực hành bấm máy cho chương này?</h4>
-                    <p className="text-xs text-blue-100 font-medium">Mở máy tính khoa học Cacao fx-580VN X trực tiếp trên trình duyệt hoặc chạy ứng dụng trên máy.</p>
-                  </div>
-                </div>
-                <button
-                  onClick={onOpenCasio}
-                  className="px-4 py-2 rounded-xl bg-white text-blue-700 font-black text-xs hover:bg-blue-50 transition-colors cursor-pointer shrink-0"
-                >
-                  Khởi động Cacao 580
-                </button>
-              </div>
-            )}
 
             {/* Book Pagination Footer (Chương trước / Chương tiếp theo) */}
             <div className="mt-8 pt-6 border-t vact-border flex items-center justify-between gap-3">

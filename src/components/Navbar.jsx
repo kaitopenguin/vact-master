@@ -17,7 +17,6 @@ import {
   ChevronDown,
   Check,
   ShieldCheck,
-  Calculator,
   Library,
   Eye,
   Volume2,
@@ -48,8 +47,7 @@ export default function Navbar({
   blueLightShield = 'eink',
   setBlueLightShield,
   mistakeCount, 
-  onOpenSecurity,
-  onOpenCasio
+  onOpenSecurity
 }) {
   const [isThemeMenuOpen, setIsThemeMenuOpen] = useState(false);
   const [soundProfile, setSoundProfileState] = useState(getSoundProfile());
@@ -438,16 +436,6 @@ export default function Navbar({
                   )}
                 </button>
               )}
-
-              {/* Cacao 580VNX Simulator Button */}
-              <button
-                onClick={onOpenCasio}
-                className="flex items-center gap-1.5 text-xs font-black px-2.5 sm:px-3 py-1.5 rounded-xl border border-blue-500/40 bg-blue-50/60 dark:bg-blue-950/40 text-blue-700 dark:text-blue-300 shadow-xs hover:border-blue-500 transition-colors cursor-pointer"
-                title="Mở máy tính khoa học Cacao fx-580VN X trực tiếp trên web hoặc ứng dụng máy tính"
-              >
-                <Calculator className="w-4 h-4 text-blue-600 dark:text-blue-400 shrink-0" />
-                <span className="hidden sm:inline">Cacao 580</span>
-              </button>
 
               {/* Security & WAF Status Button */}
               <button

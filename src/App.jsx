@@ -8,14 +8,12 @@ import VideoView from './components/VideoView';
 import RoadmapView from './components/RoadmapView';
 import MistakeView from './components/MistakeView';
 import SecurityDashboard from './components/SecurityDashboard';
-import CasioCalculator from './components/CasioCalculator';
 import { HelloKittyFloatingCompanion } from './components/HelloKittyDecor';
 import { playSwitchSound } from './utils/creamyAudio';
 
 export default function App() {
   const [currentTab, setCurrentTab] = useState('exam');
   const [isSecurityModalOpen, setIsSecurityModalOpen] = useState(false);
-  const [isCasioModalOpen, setIsCasioModalOpen] = useState(false);
   
   // Eye-care Theme state: 'light' | 'sepia' | 'dark'
   const [theme, setTheme] = useState(() => {
@@ -138,7 +136,6 @@ export default function App() {
         setBlueLightShield={setBlueLightShield}
         mistakeCount={mistakes.length}
         onOpenSecurity={() => setIsSecurityModalOpen(true)}
-        onOpenCasio={() => setIsCasioModalOpen(true)}
       />
 
       {/* Main Content Area - Extra bottom padding for iOS Home bar & Bottom nav */}
@@ -161,14 +158,12 @@ export default function App() {
         {currentTab === 'theory' && (
           <TheoryView 
             fontSize={fontSize} 
-            onOpenCasio={() => setIsCasioModalOpen(true)}
           />
         )}
 
         {currentTab === 'tips' && (
           <TipsView 
             fontSize={fontSize} 
-            onOpenCasio={() => setIsCasioModalOpen(true)}
           />
         )}
 
@@ -191,13 +186,6 @@ export default function App() {
       {isSecurityModalOpen && (
         <SecurityDashboard onClose={() => setIsSecurityModalOpen(false)} />
       )}
-
-      {/* Cacao fx-580VN X Online Calculator & App Launcher */}
-      <CasioCalculator 
-        isOpen={isCasioModalOpen} 
-        onClose={() => setIsCasioModalOpen(false)} 
-        theme={theme}
-      />
 
       {/* Hello Kitty Interactive Companion Mascot for Girlfriend */}
       {theme === 'hello-kitty' && <HelloKittyFloatingCompanion />}
