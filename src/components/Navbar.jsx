@@ -19,8 +19,18 @@ import {
   ShieldCheck,
   Calculator,
   Library,
-  Eye
+  Eye,
+  Volume2,
+  VolumeX
 } from 'lucide-react';
+import { HelloKittyBow } from './HelloKittyDecor';
+import { 
+  getCreamySoundEnabled, 
+  setCreamySoundEnabled, 
+  playCreamySwitch, 
+  playKittyPurr, 
+  playKittySparkle 
+} from '../utils/creamyAudio';
 
 export default function Navbar({ 
   currentTab, 
@@ -36,6 +46,7 @@ export default function Navbar({
   onOpenCasio
 }) {
   const [isThemeMenuOpen, setIsThemeMenuOpen] = useState(false);
+  const [soundEnabled, setSoundEnabled] = useState(getCreamySoundEnabled());
 
   const themes = [
     {
@@ -134,23 +145,37 @@ export default function Navbar({
           <div className="flex items-center justify-between py-2 sm:py-2.5 gap-2 border-b vact-border">
             {/* Brand Logo */}
             <div 
-              onClick={() => setCurrentTab('exam')} 
+              onClick={() => {
+                playCreamySwitch(1.1);
+                setCurrentTab('exam');
+              }} 
               className="flex items-center gap-2 sm:gap-3 cursor-pointer select-none shrink-0"
             >
               <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-blue-600 text-white font-black text-lg sm:text-xl flex items-center justify-center shadow-md shadow-blue-500/20 shrink-0">
-                V
+                {theme === 'hello-kitty' ? '🎀' : 'V'}
               </div>
               <div>
                 <div className="flex items-center gap-1.5 sm:gap-2">
-                  <span className="font-black text-sm sm:text-lg vact-text-primary tracking-tight">
+                  <span className="font-black text-sm sm:text-lg vact-text-primary tracking-tight flex items-center gap-1">
                     V-ACT <span className="text-blue-600">Master</span>
+                    {theme === 'hello-kitty' && (
+                      <HelloKittyBow size={20} className="inline-block animate-bounce-subtle ml-0.5" />
+                    )}
                   </span>
-                  <span className="text-[10px] font-black px-1.5 py-0.2 rounded-full bg-emerald-600 text-white hidden xs:inline-block">
-                    Free
-                  </span>
+                  {theme === 'hello-kitty' ? (
+                    <span className="text-[10px] font-black px-2 py-0.5 rounded-full bg-[#FACCD7] text-[#F62E70] border border-[#F98EAA] hidden xs:inline-flex items-center gap-1 shadow-2xs">
+                      💖 Bé Yêu
+                    </span>
+                  ) : (
+                    <span className="text-[10px] font-black px-1.5 py-0.2 rounded-full bg-emerald-600 text-white hidden xs:inline-block">
+                      Free
+                    </span>
+                  )}
                 </div>
                 <p className="text-[10px] sm:text-[11px] vact-text-muted font-medium hidden md:block">
-                  Luyện thi ĐGNL ĐHQG TP.HCM • Chuẩn GDPT 2018
+                  {theme === 'hello-kitty' 
+                    ? 'Chuyên trang luyện thi ĐHQG TP.HCM dành tặng bé yêu 🌸' 
+                    : 'Luyện thi ĐGNL ĐHQG TP.HCM • Chuẩn GDPT 2018'}
                 </p>
               </div>
             </div>
@@ -244,6 +269,12 @@ export default function Navbar({
                               onClick={() => {
                                 setTheme(t.id);
                                 setIsThemeMenuOpen(false);
+                                if (t.id === 'hello-kitty') {
+                                  playKittyPurr();
+                                  setTimeout(() => playKittySparkle(), 140);
+                                } else {
+                                  playCreamySwitch(1.1);
+                                }
                               }}
                               className={`w-full text-left p-2.5 rounded-xl transition-all flex items-center justify-between group cursor-pointer ${
                                 isActive 
@@ -289,6 +320,40 @@ export default function Navbar({
                   </>
                 )}
               </div>
+
+              {/* Creamy Mechanical Sound Toggle */}
+              <button
+                onClick={() => {
+                  const next = !soundEnabled;
+                  setSoundEnabled(next);
+                  setCreamySoundEnabled(next);
+                  if (next) {
+                    if (theme === 'hello-kitty') {
+                      playKittyPurr();
+                    } else {
+                      playCreamySwitch(1.2);
+                    }
+                  }
+                }}
+                className={`flex items-center gap-1.5 p-1.5 sm:px-3 sm:py-1.5 rounded-xl text-xs font-black border transition-all cursor-pointer ${
+                  soundEnabled 
+                    ? 'vact-card border vact-border vact-text-primary text-[#F62E70] ring-1 ring-[#F6BBC4]' 
+                    : 'vact-card-subtle border vact-border opacity-60'
+                }`}
+                title={soundEnabled ? 'Âm thanh creamy: Đang BẬT (Bấm để tắt)' : 'Âm thanh creamy: Đang TẮT (Bấm để bật)'}
+              >
+                {soundEnabled ? (
+                  <>
+                    <Volume2 className="w-3.5 h-3.5 text-[#F62E70] animate-pulse" />
+                    <span className="hidden sm:inline font-bold">Creamy FX</span>
+                  </>
+                ) : (
+                  <>
+                    <VolumeX className="w-3.5 h-3.5 vact-text-muted" />
+                    <span className="hidden sm:inline font-medium vact-text-muted">Mute</span>
+                  </>
+                )}
+              </button>
 
               {/* Hardware-Grade Digital Blue Light Shield (Kính Lọc Ánh Sáng Xanh Tích Hợp) */}
               {setBlueLightShield && (
@@ -349,7 +414,10 @@ export default function Navbar({
               return (
                 <button
                   key={item.id}
-                  onClick={() => setCurrentTab(item.id)}
+                  onClick={() => {
+                    playCreamySwitch(1.0);
+                    setCurrentTab(item.id);
+                  }}
                   className={`whitespace-nowrap flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-black transition-all shrink-0 cursor-pointer ${
                     isActive 
                       ? 'bg-blue-600 text-white shadow-xs ring-2 ring-blue-400/40' 
@@ -378,7 +446,10 @@ export default function Navbar({
       <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 vact-nav border-t vact-border pb-safe shadow-lg">
         <div className="grid grid-cols-5 items-center px-1 py-1.5 text-[10px] font-black">
           <button
-            onClick={() => setCurrentTab('exam')}
+            onClick={() => {
+              playCreamySwitch(1.0);
+              setCurrentTab('exam');
+            }}
             className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
               currentTab === 'exam' ? 'text-blue-600 font-extrabold' : 'vact-text-muted hover:vact-text-primary'
             }`}
@@ -388,7 +459,10 @@ export default function Navbar({
           </button>
 
           <button
-            onClick={() => setCurrentTab('books')}
+            onClick={() => {
+              playCreamySwitch(1.0);
+              setCurrentTab('books');
+            }}
             className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
               currentTab === 'books' ? 'text-blue-600 font-extrabold' : 'vact-text-muted hover:vact-text-primary'
             }`}
@@ -398,7 +472,10 @@ export default function Navbar({
           </button>
 
           <button
-            onClick={() => setCurrentTab('theory')}
+            onClick={() => {
+              playCreamySwitch(1.0);
+              setCurrentTab('theory');
+            }}
             className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
               currentTab === 'theory' ? 'text-blue-600 font-extrabold' : 'vact-text-muted hover:vact-text-primary'
             }`}
@@ -408,7 +485,10 @@ export default function Navbar({
           </button>
 
           <button
-            onClick={() => setCurrentTab('tips')}
+            onClick={() => {
+              playCreamySwitch(1.0);
+              setCurrentTab('tips');
+            }}
             className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
               currentTab === 'tips' ? 'text-blue-600 font-extrabold' : 'vact-text-muted hover:vact-text-primary'
             }`}
@@ -418,7 +498,10 @@ export default function Navbar({
           </button>
 
           <button
-            onClick={() => setCurrentTab('mistakes')}
+            onClick={() => {
+              playCreamySwitch(1.0);
+              setCurrentTab('mistakes');
+            }}
             className={`flex flex-col items-center justify-center py-1 rounded-xl relative transition-all ${
               currentTab === 'mistakes' ? 'text-blue-600 font-extrabold' : 'vact-text-muted hover:vact-text-primary'
             }`}

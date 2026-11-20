@@ -9,6 +9,8 @@ import RoadmapView from './components/RoadmapView';
 import MistakeView from './components/MistakeView';
 import SecurityDashboard from './components/SecurityDashboard';
 import CasioCalculator from './components/CasioCalculator';
+import { HelloKittyFloatingCompanion } from './components/HelloKittyDecor';
+import { playCreamySwitch } from './utils/creamyAudio';
 
 export default function App() {
   const [currentTab, setCurrentTab] = useState('exam');
@@ -88,6 +90,23 @@ export default function App() {
     }
   }, [mistakes]);
 
+  // Global Creamy Sound click effect for tactile mechanical switch feel on all buttons
+  useEffect(() => {
+    const handleGlobalClick = (e) => {
+      // Bấm vào bất kỳ nút bấm hoặc phần tử tương tác nào đều có tiếng creamy switch đầm ấm
+      const target = e.target.closest('button, [role="button"], input[type="radio"], a, .creamy-tap');
+      if (target) {
+        // Tránh trigger trùng lặp nếu phần tử đã tự phát âm thanh riêng (data-custom-sound)
+        if (!target.dataset.customSound) {
+          playCreamySwitch(1.0);
+        }
+      }
+    };
+
+    window.addEventListener('click', handleGlobalClick, { passive: true });
+    return () => window.removeEventListener('click', handleGlobalClick);
+  }, []);
+
   const handleSaveMistake = (question) => {
     setMistakes((prev) => {
       if (prev.some((q) => q.id === question.id)) {
@@ -129,6 +148,7 @@ export default function App() {
             onSaveMistake={handleSaveMistake}
             savedMistakeIds={mistakes.map((m) => m.id)}
             fontSize={fontSize}
+            theme={theme}
           />
         )}
 
@@ -177,6 +197,9 @@ export default function App() {
         isOpen={isCasioModalOpen} 
         onClose={() => setIsCasioModalOpen(false)} 
       />
+
+      {/* Hello Kitty Interactive Companion Mascot for Girlfriend */}
+      {theme === 'hello-kitty' && <HelloKittyFloatingCompanion />}
 
       {/* Footer */}
       <footer className="border-t vact-border py-8 pb-32 md:pb-8 text-center text-xs vact-text-muted">

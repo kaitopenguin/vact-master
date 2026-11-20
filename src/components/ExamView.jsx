@@ -32,8 +32,21 @@ import { EXAM_LIST, QUESTIONS_DATA } from '../data/examData';
 import confetti from 'canvas-confetti';
 import MathRenderer from './MathRenderer';
 import { calculateVactIrtScore } from '../utils/vactIrtScoring';
+import { 
+  HelloKittyBow, 
+  HelloKittyAvatar, 
+  HelloKittyCardHeader, 
+  StrawberrySticker, 
+  CuteOptionBadge 
+} from './HelloKittyDecor';
+import { 
+  playCreamySwitch, 
+  playBubblePop, 
+  playKittySparkle, 
+  playKittyFanfare 
+} from '../utils/creamyAudio';
 
-export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize = 'normal' }) {
+export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize = 'normal', theme = 'light' }) {
   const [selectedExamId, setSelectedExamId] = useState(null);
   const [examState, setExamState] = useState('list'); // 'list' | 'taking' | 'result'
   const [filterCategory, setFilterCategory] = useState('all');
@@ -127,6 +140,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
   };
 
   const handleSelectOption = (qId, optionIdx) => {
+    playBubblePop(optionIdx + 1);
     setAnswers(prev => ({
       ...prev,
       [qId]: optionIdx
@@ -134,6 +148,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
   };
 
   const toggleFlag = (qId) => {
+    playKittySparkle();
     setFlagged(prev => ({
       ...prev,
       [qId]: !prev[qId]
@@ -145,11 +160,13 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
     setExamState('result');
     setIsMobilePaletteOpen(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    playKittyFanfare();
     try {
       confetti({
-        particleCount: 80,
-        spread: 70,
-        origin: { y: 0.6 }
+        particleCount: 100,
+        spread: 80,
+        origin: { y: 0.6 },
+        colors: theme === 'hello-kitty' ? ['#F62E70', '#F98EAA', '#F6BBC4', '#FACCD7', '#FFD54F', '#FFFFFF'] : undefined
       });
     } catch {
       // ignore
@@ -299,8 +316,9 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                   </span>
                 </div>
 
-                <h3 className="text-base sm:text-xl font-black vact-text-primary mb-1.5 sm:mb-2 leading-snug">
-                  {exam.title}
+                <h3 className="text-base sm:text-xl font-black vact-text-primary mb-1.5 sm:mb-2 leading-snug flex items-center gap-1.5">
+                  {theme === 'hello-kitty' && <HelloKittyBow size={20} className="inline-block shrink-0" />}
+                  <span>{exam.title}</span>
                 </h3>
                 
                 <p className="text-xs sm:text-sm vact-text-secondary mb-4 sm:mb-5 leading-relaxed line-clamp-2">
@@ -324,8 +342,17 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                   onClick={() => handleStartExam(exam.id, 'all')}
                   className="w-full min-h-[44px] flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-black text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 active:scale-[0.98] text-white shadow-md shadow-blue-500/20 transition-all cursor-pointer"
                 >
-                  <Play className="w-4 h-4 fill-current" />
-                  Bắt đầu thi thử toàn phần (150p)
+                  {theme === 'hello-kitty' ? (
+                    <>
+                      <HelloKittyBow size={18} color="#fff" centerColor="#FACCD7" />
+                      <span>Bắt đầu làm bài cùng bé yêu (150p) 💖</span>
+                    </>
+                  ) : (
+                    <>
+                      <Play className="w-4 h-4 fill-current" />
+                      <span>Bắt đầu thi thử toàn phần (150p)</span>
+                    </>
+                  )}
                 </button>
 
                 <div>
@@ -373,6 +400,14 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
 
     return (
       <div className="max-w-7xl mx-auto px-3 sm:px-6 py-3 sm:py-6">
+        {/* Hello Kitty Cute Study Header Banner */}
+        {theme === 'hello-kitty' && (
+          <HelloKittyCardHeader 
+            title={selectedExam?.title || 'BÀI THI CHUẨN HÓA V-ACT'} 
+            subtitle="Chúc bé yêu làm bài thật tốt! Tự tin 950+ nha 💖" 
+          />
+        )}
+
         {/* Top Sticky Quiz Control Bar for iOS */}
         <div className="vact-card border vact-border rounded-2xl p-3 sm:p-4 mb-4 sm:mb-6 shadow-sm sticky top-14 sm:top-24 z-30">
           <div className="flex items-center justify-between gap-2">
@@ -432,6 +467,24 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
           {/* Question Stem & Options */}
           <div className="lg:col-span-3 space-y-4 sm:space-y-6">
             <div className="vact-card border vact-border rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-sm">
+              {/* Question Header with Hello Kitty decoration */}
+              <div className="flex items-center justify-between mb-3.5 pb-2 border-b vact-border">
+                <div className="flex items-center gap-2">
+                  {theme === 'hello-kitty' && (
+                    <HelloKittyBow size={22} className="inline-block animate-bounce-subtle" />
+                  )}
+                  <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-blue-600 dark:text-blue-400">
+                    Câu hỏi {currentIndex + 1} / {totalQ}
+                  </span>
+                </div>
+                {theme === 'hello-kitty' && (
+                  <div className="flex items-center gap-1.5 text-xs font-bold text-[#5c3845] bg-[#FDF0F3] px-3 py-1 rounded-full border border-[#F6BBC4]">
+                    <StrawberrySticker size={15} />
+                    <span>Tự tin lên nhé bé! ✨</span>
+                  </div>
+                )}
+              </div>
+
               {/* [NGỮ LIỆU / ĐỀ BÀI CHUNG] - Đóng khung rõ ràng theo chuẩn khảo thí V-ACT */}
               {currentQ.passage && (
                 <div className="mb-4 sm:mb-6 p-4 sm:p-5 rounded-2xl border-2 border-blue-500/40 bg-blue-50/30 dark:bg-blue-950/30 shadow-xs">
@@ -464,13 +517,17 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                           : 'vact-card border vact-border hover:border-blue-400'
                       }`}
                     >
-                      <div className={`w-6 h-6 sm:w-7 sm:h-7 rounded-lg sm:rounded-xl font-black text-xs flex items-center justify-center shrink-0 transition-all ${
-                        isSelected 
-                          ? 'bg-blue-600 text-white shadow-xs' 
-                          : 'vact-card-subtle vact-text-secondary border vact-border'
-                      }`}>
-                        {String.fromCharCode(65 + optIdx)}
-                      </div>
+                      {theme === 'hello-kitty' ? (
+                        <CuteOptionBadge letter={String.fromCharCode(65 + optIdx)} isSelected={isSelected} />
+                      ) : (
+                        <div className={`w-6 h-6 sm:w-7 sm:h-7 rounded-lg sm:rounded-xl font-black text-xs flex items-center justify-center shrink-0 transition-all ${
+                          isSelected 
+                            ? 'bg-blue-600 text-white shadow-xs' 
+                            : 'vact-card-subtle vact-text-secondary border vact-border'
+                        }`}>
+                          {String.fromCharCode(65 + optIdx)}
+                        </div>
+                      )}
                       <div className={`text-xs sm:text-base leading-relaxed font-bold flex-1 ${
                         isSelected ? 'text-blue-700 dark:text-blue-300' : 'vact-text-primary'
                       }`}>
@@ -486,7 +543,10 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
             <div className="flex items-center justify-between gap-2">
               <button
                 disabled={currentIndex === 0}
-                onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
+                onClick={() => {
+                  playCreamySwitch(1.0);
+                  setCurrentIndex(prev => Math.max(0, prev - 1));
+                }}
                 className="flex items-center gap-1 sm:gap-1.5 px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl font-black text-xs vact-card border vact-border vact-text-primary disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer shadow-xs active:scale-[0.98]"
               >
                 <ChevronLeft className="w-4 h-4" />
@@ -499,7 +559,10 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
 
               <button
                 disabled={currentIndex === totalQ - 1}
-                onClick={() => setCurrentIndex(prev => Math.min(totalQ - 1, prev + 1))}
+                onClick={() => {
+                  playCreamySwitch(1.0);
+                  setCurrentIndex(prev => Math.min(totalQ - 1, prev + 1));
+                }}
                 className="flex items-center gap-1 sm:gap-1.5 px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl font-black text-xs bg-blue-600 hover:bg-blue-700 text-white disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer shadow-xs active:scale-[0.98]"
               >
                 Câu tiếp
@@ -512,7 +575,10 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
           <div className="hidden lg:block lg:col-span-1">
             <div className="vact-card border vact-border rounded-3xl p-5 shadow-sm sticky top-48">
               <h3 className="font-black text-xs uppercase tracking-wider vact-text-muted mb-3 flex items-center justify-between">
-                <span>Mục lục câu hỏi</span>
+                <span className="flex items-center gap-1.5">
+                  {theme === 'hello-kitty' && <HelloKittyBow size={16} />}
+                  Mục lục câu hỏi
+                </span>
                 <span className="text-blue-600 font-bold">{answeredCount}/{totalQ}</span>
               </h3>
 
@@ -530,7 +596,10 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                   return (
                     <button
                       key={q.id}
-                      onClick={() => setCurrentIndex(idx)}
+                      onClick={() => {
+                        playCreamySwitch(1.0);
+                        setCurrentIndex(idx);
+                      }}
                       className={`h-9 rounded-xl text-xs font-bold transition-all flex items-center justify-center cursor-pointer ${btnClass}`}
                     >
                       {idx + 1}
@@ -541,11 +610,15 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
 
               <div className="mt-4 pt-4 border-t vact-border space-y-2 text-[11px] font-bold vact-text-muted">
                 <div className="flex items-center gap-2">
-                  <div className="w-3.5 h-3.5 rounded-md bg-blue-600"></div>
+                  <div className="w-3.5 h-3.5 rounded-md bg-blue-600 flex items-center justify-center text-[9px] text-white">
+                    {theme === 'hello-kitty' ? '💖' : ''}
+                  </div>
                   <span>Đã trả lời ({answeredCount})</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="w-3.5 h-3.5 rounded-md bg-amber-400 border border-amber-500"></div>
+                  <div className="w-3.5 h-3.5 rounded-md bg-amber-400 border border-amber-500 flex items-center justify-center text-[9px]">
+                    {theme === 'hello-kitty' ? '🎀' : ''}
+                  </div>
                   <span>Đã gắn cờ ({Object.keys(flagged).filter(k => flagged[k]).length})</span>
                 </div>
                 <div className="flex items-center gap-2">
@@ -591,6 +664,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                     <button
                       key={q.id}
                       onClick={() => {
+                        playCreamySwitch(1.0);
                         setCurrentIndex(idx);
                         setIsMobilePaletteOpen(false);
                       }}
@@ -629,6 +703,28 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
   if (examState === 'result') {
     return (
       <div className="max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-8">
+        {/* Hello Kitty Sweet Girlfriend Celebration Card */}
+        {theme === 'hello-kitty' && (
+          <div className="mb-6 p-5 sm:p-7 rounded-3xl bg-gradient-to-r from-[#FDF0F3] via-[#FBFDFB] to-[#FDF0F3] border-2 border-[#F6BBC4] shadow-md text-center relative overflow-hidden">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 mb-2.5">
+              <HelloKittyAvatar size={52} className="animate-bounce-subtle" />
+              <div className="text-center sm:text-left">
+                <span className="text-[11px] font-bold uppercase tracking-wider text-[#F62E70] bg-[#FACCD7] px-3 py-0.5 rounded-full border border-[#F98EAA] inline-flex items-center gap-1 shadow-2xs">
+                  💖 Dành Tặng Riêng Cho Bé Yêu 🎀
+                </span>
+                <h3 className="text-xl sm:text-2xl font-black text-[#331b24] mt-1">
+                  Bé yêu đã hoàn thành bài thi xuất sắc quá! 🎉
+                </h3>
+              </div>
+              <HelloKittyBow size={36} className="hidden sm:inline-block" />
+            </div>
+            <p className="text-xs sm:text-sm text-[#5c3845] font-medium max-w-xl mx-auto leading-relaxed">
+              Dù điểm số thế nào thì trong mắt anh, bé luôn là cô gái chăm chỉ, thông minh và tuyệt vời nhất trần đời! 
+              Nghỉ ngơi chút xíu rồi cùng đi ăn món ngon bé thích nhé! 🌸✨
+            </p>
+          </div>
+        )}
+
         {/* IRT Psychometric Result Dashboard */}
         <div className="vact-card border vact-border rounded-2xl sm:rounded-3xl p-5 sm:p-10 shadow-sm mb-6 sm:mb-8 text-center">
           <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-[11px] sm:text-xs font-black bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 mb-3 sm:mb-4 border border-blue-300 dark:border-blue-800">
@@ -636,8 +732,10 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
             Báo Cáo Năng Lực Chuẩn Hóa IRT (3-Parameter Logistic Model) • Thang Điểm 1.200
           </div>
 
-          <h2 className="text-3xl sm:text-6xl font-black vact-text-primary tracking-tight mb-3">
-            {totalCalculatedScore} <span className="text-lg sm:text-2xl vact-text-muted font-bold">/ 1.200đ</span>
+          <h2 className="text-3xl sm:text-6xl font-black vact-text-primary tracking-tight mb-3 flex items-center justify-center gap-2">
+            {theme === 'hello-kitty' && <HelloKittyBow size={32} className="hidden sm:inline-block" />}
+            <span>{totalCalculatedScore}</span>
+            <span className="text-lg sm:text-2xl vact-text-muted font-bold">/ 1.200đ</span>
           </h2>
 
           {/* IRT Psychometric Badges */}
