@@ -48,6 +48,7 @@ import {
 
 export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize = 'normal', theme = 'light' }) {
   const [selectedExamId, setSelectedExamId] = useState(null);
+  const selectedExam = useMemo(() => EXAM_LIST.find(e => e.id === selectedExamId), [selectedExamId]);
   const [examState, setExamState] = useState('list'); // 'list' | 'taking' | 'result'
   const [filterCategory, setFilterCategory] = useState('all');
   const [filterSection, setFilterSection] = useState('all'); // 'all' or section id
