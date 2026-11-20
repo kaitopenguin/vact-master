@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { 
   Clock, 
   Flag, 
@@ -20,11 +20,18 @@ import {
   Filter,
   ArrowRight,
   ListOrdered,
-  X
+  X,
+  TrendingUp,
+  Target,
+  GraduationCap,
+  AlertTriangle,
+  Zap,
+  Sparkles
 } from 'lucide-react';
 import { EXAM_LIST, QUESTIONS_DATA } from '../data/examData';
 import confetti from 'canvas-confetti';
 import MathRenderer from './MathRenderer';
+import { calculateVactIrtScore } from '../utils/vactIrtScoring';
 
 export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize = 'normal' }) {
   const [selectedExamId, setSelectedExamId] = useState(null);
@@ -46,7 +53,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
   if (filterCategory === 'official') {
     filteredExams = EXAM_LIST.filter(e => e.category === 'official');
   } else if (filterCategory === 'latest') {
-    filteredExams = EXAM_LIST.filter(e => e.category === 'empire' || e.category === 'vnno1');
+    filteredExams = EXAM_LIST.filter(e => e.category === 'latest' || e.category === 'empire' || e.category === 'vnno1');
   } else if (filterCategory === 'bank') {
     filteredExams = EXAM_LIST.filter(e => e.category === 'bank');
   } else if (filterCategory === 'moon') {
@@ -161,45 +168,19 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
     }
   });
 
-  // Calculate 4 Official Sub-Scores
-  const calculateOfficialScores = () => {
-    const counts = {
-      vietnamese: { total: 0, correct: 0, name: 'Hợp phần Tiếng Việt', max: 300 },
-      english: { total: 0, correct: 0, name: 'Hợp phần Tiếng Anh', max: 300 },
-      math: { total: 0, correct: 0, name: 'Hợp phần Toán học', max: 300 },
-      science: { total: 0, correct: 0, name: 'Hợp phần Tư duy khoa học (Logic, Số liệu & KH)', max: 300 },
-    };
+  // Calculate Authentic V-ACT IRT Score & Diagnostics
+  const irtResult = useMemo(() => {
+    if (!currentQuestions || currentQuestions.length === 0) return null;
+    return calculateVactIrtScore(currentQuestions, answers);
+  }, [currentQuestions, answers]);
 
-    currentQuestions.forEach(q => {
-      let bucket = 'science';
-      if (q.section === 'vietnamese') bucket = 'vietnamese';
-      else if (q.section === 'english') bucket = 'english';
-      else if (q.section === 'math') bucket = 'math';
-
-      counts[bucket].total++;
-      if (answers[q.id] === q.correctAnswer) {
-        counts[bucket].correct++;
-      }
-    });
-
-    let totalCalculatedScore = 0;
-    const scores = {};
-
-    Object.keys(counts).forEach(k => {
-      const item = counts[k];
-      const score = item.total > 0 ? Math.round((item.correct / item.total) * item.max) : 0;
-      scores[k] = {
-        ...item,
-        score,
-        percentage: item.total > 0 ? Math.round((item.correct / item.total) * 100) : 0
-      };
-      totalCalculatedScore += score;
-    });
-
-    return { scores, totalCalculatedScore };
+  const totalCalculatedScore = irtResult ? irtResult.finalIrtScore : 0;
+  const officialScores = irtResult ? irtResult.subScores : {
+    vietnamese: { name: 'Sử dụng Tiếng Việt', score: 0, correct: 0, total: 30, percentage: 0 },
+    english: { name: 'Sử dụng Tiếng Anh', score: 0, correct: 0, total: 30, percentage: 0 },
+    math: { name: 'Toán học & Định lượng', score: 0, correct: 0, total: 30, percentage: 0 },
+    science: { name: 'Tư duy khoa học & Logic', score: 0, correct: 0, total: 30, percentage: 0 }
   };
-
-  const { scores: officialScores, totalCalculatedScore } = calculateOfficialScores();
 
   // =========================================================================
   // VIEW 1: Exam List Dashboard
@@ -636,22 +617,39 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
   if (examState === 'result') {
     return (
       <div className="max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-8">
-        {/* Score Overview Card */}
+        {/* IRT Psychometric Result Dashboard */}
         <div className="vact-card border vact-border rounded-2xl sm:rounded-3xl p-5 sm:p-10 shadow-sm mb-6 sm:mb-8 text-center">
           <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-[11px] sm:text-xs font-black bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 mb-3 sm:mb-4 border border-blue-300 dark:border-blue-800">
             <Award className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600" />
-            Kết Quả Chuẩn Hóa Theo Mô Hình IRT (Thang Điểm 1.200)
+            Báo Cáo Năng Lực Chuẩn Hóa IRT (3-Parameter Logistic Model) • Thang Điểm 1.200
           </div>
 
-          <h2 className="text-3xl sm:text-5xl font-black vact-text-primary tracking-tight mb-2">
+          <h2 className="text-3xl sm:text-6xl font-black vact-text-primary tracking-tight mb-3">
             {totalCalculatedScore} <span className="text-lg sm:text-2xl vact-text-muted font-bold">/ 1.200đ</span>
           </h2>
+
+          {/* IRT Psychometric Badges */}
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-4">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-900 dark:bg-indigo-950 dark:text-indigo-200 border border-indigo-300 dark:border-indigo-800">
+              <TrendingUp className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
+              {irtResult?.percentileRank || 'Top 15% Toàn Quốc'}
+            </span>
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-purple-100 text-purple-900 dark:bg-purple-950 dark:text-purple-200 border border-purple-300 dark:border-purple-800">
+              <Sparkles className="w-3.5 h-3.5 text-purple-600 dark:text-purple-400" />
+              Năng lực tiềm ẩn θ = {irtResult?.estimatedTheta > 0 ? '+' : ''}{irtResult?.estimatedTheta || '0.00'}
+            </span>
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200 border border-emerald-300 dark:border-emerald-800">
+              <Target className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+              {irtResult?.performanceTier || 'Năng lực Tốt'}
+            </span>
+          </div>
           
-          <p className="text-xs sm:text-base vact-text-secondary font-medium max-w-xl mx-auto mb-6 sm:mb-8">
+          <p className="text-xs sm:text-base vact-text-secondary font-medium max-w-2xl mx-auto mb-6 sm:mb-8 leading-relaxed">
             Bạn đã làm đúng <strong>{correctCount} / {totalQ}</strong> câu hỏi ({Math.round((correctCount / totalQ) * 100)}%).
-            {totalCalculatedScore >= 900 ? ' Xuất sắc! Năng lực cạnh tranh vào các trường top đầu ĐHQG TP.HCM rất cao.' :
-             totalCalculatedScore >= 750 ? ' Rất tốt! Đạt ngưỡng điểm chuẩn của đa số ngành xét tuyển V-ACT.' :
-             ' Cần rèn luyện thêm các chuyên đề để bứt phá mục tiêu 800+ điểm.'}
+            {totalCalculatedScore >= 950 ? ' Xuất sắc đỉnh cao! Điểm số thuộc nhóm Top 2% thí sinh có thực lực cao nhất, sẵn sàng cạnh tranh vào các ngành tinh hoa và học bổng ĐHQG TP.HCM.' :
+             totalCalculatedScore >= 850 ? ' Rất tốt! Năng lực vượt trội đạt ngưỡng an toàn trúng tuyển các ngành Khoa học Máy tính, AI, Kinh tế đối ngoại, Y Dược.' :
+             totalCalculatedScore >= 700 ? ' Khá tốt! Đạt ngưỡng điểm chuẩn của đa số các chương trình đào tạo chuẩn tại ĐHQG TP.HCM. Cần trau dồi thêm câu phân hóa để vươn tới 850+.' :
+             ' Cần rèn luyện thêm kỹ năng xử lý câu hỏi tư duy logic và toán thực tế để bứt phá mục tiêu điểm số.'}
           </p>
 
           {/* 4 Official Sub-Score Cards - 2 cols on mobile, 4 cols on desktop */}
@@ -659,23 +657,144 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
             {Object.keys(officialScores).map(key => {
               const item = officialScores[key];
               return (
-                <div key={key} className="p-3 sm:p-4 rounded-xl sm:rounded-2xl vact-card-subtle border vact-border text-left">
-                  <div className="text-[10px] sm:text-xs font-black vact-text-muted mb-0.5 truncate">{item.name}</div>
-                  <div className="text-xl sm:text-2xl font-black text-blue-600 dark:text-blue-400">
-                    {item.score} <span className="text-[10px] sm:text-xs font-bold vact-text-muted">/ 300đ</span>
+                <div key={key} className="p-3 sm:p-4 rounded-xl sm:rounded-2xl vact-card-subtle border vact-border text-left flex flex-col justify-between">
+                  <div>
+                    <div className="text-[10px] sm:text-xs font-black vact-text-muted mb-0.5 truncate">{item.name}</div>
+                    <div className="text-xl sm:text-2xl font-black text-blue-600 dark:text-blue-400">
+                      {item.score} <span className="text-[10px] sm:text-xs font-bold vact-text-muted">/ 300đ</span>
+                    </div>
                   </div>
-                  <div className="mt-1 text-[10px] sm:text-xs font-bold vact-text-secondary">
-                    Đúng {item.correct}/{item.total} ({item.percentage}%)
+                  <div className="mt-2">
+                    <div className="w-full bg-slate-200 dark:bg-slate-700 h-1.5 rounded-full overflow-hidden mb-1.5">
+                      <div 
+                        className="bg-blue-600 dark:bg-blue-400 h-full rounded-full transition-all duration-500" 
+                        style={{ width: `${Math.min(100, Math.round((item.score / 300) * 100))}%` }}
+                      />
+                    </div>
+                    <div className="text-[10px] sm:text-xs font-bold vact-text-secondary flex justify-between">
+                      <span>Đúng {item.correct}/{item.total}</span>
+                      <span>{item.percentage}%</span>
+                    </div>
                   </div>
                 </div>
               );
             })}
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-2.5 sm:gap-3">
+          {/* 4 Cognitive Taxonomy Levels */}
+          {irtResult?.cognitiveStats && (
+            <div className="mb-6 sm:mb-8 text-left border-t border-b vact-border py-5">
+              <h4 className="text-xs sm:text-sm font-black uppercase tracking-wider vact-text-muted mb-3 flex items-center gap-1.5">
+                <BarChart2 className="w-4 h-4 text-blue-600" />
+                Phân Tích 4 Cấp Độ Tư Duy Khảo Thí (Cognitive Taxonomy)
+              </h4>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3">
+                {Object.keys(irtResult.cognitiveStats).map(cogKey => {
+                  const cog = irtResult.cognitiveStats[cogKey];
+                  const pct = cog.total > 0 ? Math.round((cog.correct / cog.total) * 100) : 0;
+                  return (
+                    <div key={cogKey} className="p-3 rounded-xl vact-card-subtle border vact-border">
+                      <div className="text-[11px] font-black vact-text-primary mb-1 truncate">{cog.name}</div>
+                      <div className="text-lg font-black text-blue-600 dark:text-blue-400 mb-1">{pct}%</div>
+                      <div className="w-full bg-slate-200 dark:bg-slate-700 h-1.5 rounded-full overflow-hidden mb-1">
+                        <div 
+                          className={`h-full rounded-full ${
+                            pct >= 80 ? 'bg-emerald-500' : pct >= 50 ? 'bg-blue-500' : 'bg-amber-500'
+                          }`}
+                          style={{ width: `${pct}%` }}
+                        />
+                      </div>
+                      <div className="text-[10px] font-bold vact-text-muted">Đúng {cog.correct}/{cog.total} câu</div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* Strategic Performance Insights: Missed Easy vs Mastered Hard */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8 text-left">
+            {/* Missed Easy Questions */}
+            <div className="p-4 rounded-2xl bg-amber-50/60 dark:bg-amber-950/20 border border-amber-300 dark:border-amber-800">
+              <div className="flex items-center gap-2 text-amber-700 dark:text-amber-400 font-black text-xs sm:text-sm mb-2">
+                <AlertTriangle className="w-4 h-4 shrink-0" />
+                Cảnh Báo Mất Điểm Đáng Tiếc ({irtResult?.missedEasyQuestions?.length || 0} câu)
+              </div>
+              <p className="text-[11px] sm:text-xs text-amber-800 dark:text-amber-300 font-medium leading-relaxed">
+                {irtResult?.missedEasyQuestions && irtResult.missedEasyQuestions.length > 0 ? (
+                  <>
+                    Bạn đã để mất điểm ở các câu hỏi mức độ Nhận biết/Thông hiểu nền tảng: {
+                      irtResult.missedEasyQuestions.slice(0, 5).map(m => `Câu ${m.num} (${m.section})`).join(', ')
+                    }{irtResult.missedEasyQuestions.length > 5 ? '...' : ''}. Hãy xem lại kỹ năng làm bài để tránh sai ngu!
+                  </>
+                ) : (
+                  'Xuất sắc! Bạn không để mất điểm ở bất kỳ câu hỏi nhận biết cơ bản nào.'
+                )}
+              </p>
+            </div>
+
+            {/* Mastered Hard Questions */}
+            <div className="p-4 rounded-2xl bg-indigo-50/60 dark:bg-indigo-950/20 border border-indigo-300 dark:border-indigo-800">
+              <div className="flex items-center gap-2 text-indigo-700 dark:text-indigo-400 font-black text-xs sm:text-sm mb-2">
+                <Zap className="w-4 h-4 shrink-0" />
+                Thế Mạnh Phân Hóa Đỉnh Cao ({irtResult?.masteredHardQuestions?.length || 0} câu)
+              </div>
+              <p className="text-[11px] sm:text-xs text-indigo-800 dark:text-indigo-300 font-medium leading-relaxed">
+                {irtResult?.masteredHardQuestions && irtResult.masteredHardQuestions.length > 0 ? (
+                  <>
+                    Đạt đẳng cấp phân loại cao ở các câu vận dụng cao: {
+                      irtResult.masteredHardQuestions.slice(0, 5).map(m => `Câu ${m.num}`).join(', ')
+                    }{irtResult.masteredHardQuestions.length > 5 ? '...' : ''}. Đây là chìa khóa then chốt giúp bạn bứt phá vào nhóm dẫn đầu.
+                  </>
+                ) : (
+                  'Rèn luyện thêm các dạng bài toán thực tế và logic ma trận nâng cao để nâng điểm phân hóa 900+.'
+                )}
+              </p>
+            </div>
+          </div>
+
+          {/* University Admission Prospects for VNU-HCM */}
+          {irtResult?.admissionProspects && (
+            <div className="mb-6 sm:mb-8 text-left">
+              <h4 className="text-xs sm:text-sm font-black uppercase tracking-wider vact-text-muted mb-3 flex items-center gap-1.5">
+                <GraduationCap className="w-4 h-4 text-blue-600" />
+                Dự Báo Cơ Hội Trúng Tuyển Các Trường Thành Viên ĐHQG TP.HCM
+              </h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
+                {irtResult.admissionProspects.map((adm, aIdx) => (
+                  <div key={aIdx} className="p-3.5 rounded-2xl vact-card-subtle border vact-border flex flex-col justify-between">
+                    <div>
+                      <div className="flex items-center justify-between gap-1 mb-1">
+                        <span className="font-black text-xs sm:text-sm vact-text-primary">{adm.school}</span>
+                        <span className="text-[10px] font-black px-1.5 py-0.5 rounded-md bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300">
+                          {adm.code}
+                        </span>
+                      </div>
+                      <div className="text-[11px] vact-text-muted font-medium mb-2">
+                        Điểm chuẩn tham chiếu: <strong className="vact-text-secondary">{adm.benchmark}</strong>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-between pt-2 border-t vact-border">
+                      <span className="text-[11px] font-bold vact-text-secondary">Khả năng:</span>
+                      <span className={`text-[11px] font-black px-2 py-0.5 rounded-full ${
+                        adm.status === 'Rất cao' ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300' :
+                        adm.status === 'Khả quan' ? 'bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300' :
+                        adm.status === 'Cạnh tranh' ? 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300' :
+                        'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-400'
+                      }`}>
+                        {adm.status} ({adm.chance}%)
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-2.5 sm:gap-3 pt-2">
             <button
               onClick={() => handleStartExam(selectedExamId, filterSection)}
-              className="w-full sm:w-auto flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-black text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20 transition-all cursor-pointer active:scale-[0.98]"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-black text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20 transition-all cursor-pointer active:scale-[0.98]"
             >
               <RotateCcw className="w-4 h-4" />
               Làm lại đề thi này
@@ -683,7 +802,7 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
 
             <button
               onClick={() => setExamState('list')}
-              className="w-full sm:w-auto flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-black text-xs sm:text-sm vact-card border vact-border vact-text-primary hover:border-blue-500 transition-all cursor-pointer shadow-xs active:scale-[0.98]"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-black text-xs sm:text-sm vact-card border vact-border vact-text-primary hover:border-blue-500 transition-all cursor-pointer shadow-xs active:scale-[0.98]"
             >
               <Layers className="w-4 h-4" />
               Chọn đề thi khác
