@@ -40,17 +40,23 @@ export default function App() {
     }
   });
 
-  // Theme application
+  // Theme application (7 Designer Themes: dark, light, sepia, retro, frutiger-aero, hello-kitty, cinnamoroll)
   useEffect(() => {
-    document.body.classList.remove('theme-light', 'theme-sepia', 'theme-dark', 'dark');
+    document.body.classList.remove(
+      'theme-light', 
+      'theme-sepia', 
+      'theme-dark', 
+      'theme-retro', 
+      'theme-frutiger-aero', 
+      'theme-hello-kitty', 
+      'theme-cinnamoroll', 
+      'dark'
+    );
     if (theme === 'dark') {
       document.body.classList.add('theme-dark', 'dark');
       document.documentElement.classList.add('dark');
-    } else if (theme === 'sepia') {
-      document.body.classList.add('theme-sepia');
-      document.documentElement.classList.remove('dark');
     } else {
-      document.body.classList.add('theme-light');
+      document.body.classList.add(`theme-${theme}`);
       document.documentElement.classList.remove('dark');
     }
     localStorage.setItem('vact_theme_mode', theme);

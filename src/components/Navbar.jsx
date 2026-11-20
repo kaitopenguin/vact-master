@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { 
   BookOpen, 
   GraduationCap, 
@@ -9,6 +9,13 @@ import {
   Moon, 
   Sun,
   Coffee,
+  Monitor,
+  Sparkles,
+  Heart,
+  Cloud,
+  Palette,
+  ChevronDown,
+  Check,
   ShieldCheck,
   Calculator,
   Library,
@@ -28,6 +35,82 @@ export default function Navbar({
   onOpenSecurity,
   onOpenCasio
 }) {
+  const [isThemeMenuOpen, setIsThemeMenuOpen] = useState(false);
+
+  const themes = [
+    {
+      id: 'dark',
+      name: 'Tối',
+      english: 'Obsidian Dark',
+      desc: 'Sắc sảo, chuẩn Linear & Raycast',
+      icon: Moon,
+      color: '#0b0f19',
+      borderColor: '#3b82f6',
+      badge: 'Pro Dark'
+    },
+    {
+      id: 'light',
+      name: 'Sáng',
+      english: 'Clean Daylight',
+      desc: 'Sáng dịu tự nhiên chuẩn WCAG AAA',
+      icon: Sun,
+      color: '#ffffff',
+      borderColor: '#cbd5e1',
+      badge: 'Daylight'
+    },
+    {
+      id: 'sepia',
+      name: 'Dịu mắt',
+      english: 'E-Ink 3800K',
+      desc: 'Giấy ngà ấm thư giãn mắt cận',
+      icon: Coffee,
+      color: '#fbf5e8',
+      borderColor: '#c2410c',
+      badge: 'Bảo vệ mắt'
+    },
+    {
+      id: 'retro',
+      name: 'Retro',
+      english: 'Vintage 90s',
+      desc: 'Cổ điển thập niên 90s & Workstation',
+      icon: Monitor,
+      color: '#ece6dc',
+      borderColor: '#0f766e',
+      badge: 'Classic'
+    },
+    {
+      id: 'frutiger-aero',
+      name: 'Frutiger Aero',
+      english: 'Aqua Web 2.0',
+      desc: 'Bóng kính, trời xanh & biển ngọc',
+      icon: Sparkles,
+      color: '#e0f2fe',
+      borderColor: '#0284c7',
+      badge: 'Aero Glass'
+    },
+    {
+      id: 'hello-kitty',
+      name: 'Hello Kitty',
+      english: 'Kawaii Pastel Pink',
+      desc: 'Hồng pastel & nơ đỏ ruby xinh xắn',
+      icon: Heart,
+      color: '#fff0f5',
+      borderColor: '#e11d48',
+      badge: 'Sanrio Pink'
+    },
+    {
+      id: 'cinnamoroll',
+      name: 'Cinnamoroll',
+      english: 'Fluffy Cloud Blue',
+      desc: 'Xanh mây bồng bềnh & marshmallow',
+      icon: Cloud,
+      color: '#f0f7ff',
+      borderColor: '#0284c7',
+      badge: 'Sanrio Blue'
+    }
+  ];
+
+  const currentThemeObj = themes.find(t => t.id === theme) || themes[0];
   const navItems = [
     { id: 'exam', label: 'Thi thử V-ACT', icon: GraduationCap },
     { id: 'books', label: 'Tủ Sách & Đề PDF', icon: Library, badge: '3 Bộ đề' },
@@ -112,43 +195,99 @@ export default function Navbar({
                 </button>
               </div>
 
-              {/* 3-State Eye-Care Mode (Tối ưu quang học cho người cận thị & loạn thị) */}
-              <div className="flex items-center p-0.5 sm:p-1 rounded-xl vact-card-subtle gap-0.5 sm:gap-1 border vact-border" title="Chọn chế độ màu màn hình chống mỏi mắt">
+              {/* 7-Theme Designer Palette Switcher (Tối, Sáng, Dịu mắt, Retro, Frutiger Aero, Hello Kitty, Cinnamoroll) */}
+              <div className="relative">
                 <button
-                  onClick={() => setTheme('light')}
-                  className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center transition-all cursor-pointer ${
-                    theme === 'light' 
-                      ? 'bg-white text-amber-600 shadow-xs border border-amber-300' 
-                      : 'vact-text-muted hover:vact-text-primary'
+                  onClick={() => setIsThemeMenuOpen(!isThemeMenuOpen)}
+                  className={`flex items-center gap-1.5 p-1.5 sm:px-3 sm:py-1.5 rounded-xl text-xs font-black border transition-all cursor-pointer ${
+                    isThemeMenuOpen 
+                      ? 'ring-2 ring-blue-500 bg-blue-50 dark:bg-slate-800' 
+                      : 'vact-card border vact-border vact-text-primary hover:border-blue-400'
                   }`}
-                  title="Chế độ Sáng dịu tự nhiên (WCAG AAA 10:1)"
+                  title="Chọn chủ đề giao diện (7 Themes: Tối, Sáng, Dịu mắt, Retro, Frutiger Aero, Hello Kitty, Cinnamoroll)"
                 >
-                  <Sun className="w-4 h-4" />
+                  <div 
+                    className="w-3.5 h-3.5 rounded-full border shadow-2xs shrink-0 flex items-center justify-center"
+                    style={{ backgroundColor: currentThemeObj.color, borderColor: currentThemeObj.borderColor }}
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: currentThemeObj.borderColor }}></span>
+                  </div>
+                  <span className="hidden sm:inline font-bold">Theme: {currentThemeObj.name}</span>
+                  <ChevronDown className={`w-3.5 h-3.5 vact-text-muted transition-transform duration-200 ${isThemeMenuOpen ? 'rotate-180' : ''}`} />
                 </button>
 
-                <button
-                  onClick={() => setTheme('sepia')}
-                  className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center transition-all font-bold cursor-pointer ${
-                    theme === 'sepia' 
-                      ? 'bg-[#c2410c] text-white shadow-xs' 
-                      : 'vact-text-muted hover:vact-text-primary'
-                  }`}
-                  title="Chế độ Giấy ấm E-Ink (3800K - Khuyên dùng số 1 cho người cận thị khi luyện đề lâu)"
-                >
-                  <Coffee className="w-4 h-4" />
-                </button>
+                {/* Dropdown Menu */}
+                {isThemeMenuOpen && (
+                  <>
+                    <div 
+                      className="fixed inset-0 z-40" 
+                      onClick={() => setIsThemeMenuOpen(false)}
+                    />
+                    <div className="absolute right-0 mt-2 w-72 sm:w-80 rounded-2xl vact-card border vact-border shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
+                      <div className="px-3 py-2 border-b vact-border mb-1 flex items-center justify-between">
+                        <div className="flex items-center gap-1.5">
+                          <Palette className="w-4 h-4 text-blue-500" />
+                          <span className="text-xs font-black uppercase tracking-wider vact-text-primary">Chọn Giao Diện (7 Themes)</span>
+                        </div>
+                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 font-bold">
+                          Designer
+                        </span>
+                      </div>
 
-                <button
-                  onClick={() => setTheme('dark')}
-                  className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center transition-all cursor-pointer ${
-                    theme === 'dark' 
-                      ? 'bg-blue-600 text-white shadow-xs border border-blue-400/40 shadow-blue-500/20' 
-                      : 'vact-text-muted hover:vact-text-primary'
-                  }`}
-                  title="Chế độ Tối Obsidian Hiện Đại (Sắc sảo, chuyên nghiệp & dịu mắt)"
-                >
-                  <Moon className="w-4 h-4" />
-                </button>
+                      <div className="space-y-1 max-h-[70vh] overflow-y-auto pr-0.5">
+                        {themes.map((t) => {
+                          const IconComponent = t.icon;
+                          const isActive = theme === t.id;
+                          return (
+                            <button
+                              key={t.id}
+                              onClick={() => {
+                                setTheme(t.id);
+                                setIsThemeMenuOpen(false);
+                              }}
+                              className={`w-full text-left p-2.5 rounded-xl transition-all flex items-center justify-between group cursor-pointer ${
+                                isActive 
+                                  ? 'bg-blue-500/10 border border-blue-500/30' 
+                                  : 'hover:bg-slate-500/10 border border-transparent'
+                              }`}
+                            >
+                              <div className="flex items-center gap-2.5">
+                                <div 
+                                  className="w-8 h-8 rounded-lg flex items-center justify-center border shrink-0 shadow-2xs"
+                                  style={{ backgroundColor: t.color, borderColor: t.borderColor }}
+                                >
+                                  <IconComponent className="w-4 h-4" style={{ color: t.borderColor }} />
+                                </div>
+                                <div>
+                                  <div className="flex items-center gap-1.5">
+                                    <span className="text-xs font-black vact-text-primary">
+                                      {t.name}
+                                    </span>
+                                    <span className="text-[10px] font-medium vact-text-muted">
+                                      ({t.english})
+                                    </span>
+                                    {t.badge && (
+                                      <span className="text-[9px] font-bold px-1.5 py-0.2 rounded-md bg-slate-500/15 vact-text-secondary">
+                                        {t.badge}
+                                      </span>
+                                    )}
+                                  </div>
+                                  <p className="text-[11px] vact-text-muted line-clamp-1 leading-snug">
+                                    {t.desc}
+                                  </p>
+                                </div>
+                              </div>
+
+                              {isActive && (
+                                <Check className="w-4 h-4 text-blue-500 shrink-0 ml-2" />
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  </>
+                )}
               </div>
 
               {/* Hardware-Grade Digital Blue Light Shield (Kính Lọc Ánh Sáng Xanh Tích Hợp) */}
