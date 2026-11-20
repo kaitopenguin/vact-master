@@ -182,6 +182,18 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
     science: { name: 'Tư duy khoa học & Logic', score: 0, correct: 0, total: 30, percentage: 0 }
   };
 
+  const targetSchoolsList = useMemo(() => {
+    const score = totalCalculatedScore || 0;
+    return [
+      { school: 'Trường ĐH Bách Khoa (HCMUT)', code: 'QSB', benchmark: '850 - 980đ', status: score >= 880 ? 'Rất cao' : score >= 800 ? 'Khả quan' : score >= 700 ? 'Cạnh tranh' : 'Cần nỗ lực', chance: Math.min(99, Math.max(12, Math.round((score / 980) * 100))) },
+      { school: 'Trường ĐH Khoa học Tự nhiên (HCMUS)', code: 'QST', benchmark: '780 - 920đ', status: score >= 800 ? 'Rất cao' : score >= 720 ? 'Khả quan' : score >= 650 ? 'Cạnh tranh' : 'Cần nỗ lực', chance: Math.min(99, Math.max(15, Math.round((score / 920) * 100))) },
+      { school: 'Trường ĐH Công nghệ Thông tin (UIT)', code: 'QSC', benchmark: '820 - 950đ', status: score >= 850 ? 'Rất cao' : score >= 760 ? 'Khả quan' : score >= 680 ? 'Cạnh tranh' : 'Cần nỗ lực', chance: Math.min(99, Math.max(14, Math.round((score / 950) * 100))) },
+      { school: 'Trường ĐH Kinh tế - Luật (UEL)', code: 'QSK', benchmark: '800 - 930đ', status: score >= 820 ? 'Rất cao' : score >= 740 ? 'Khả quan' : score >= 670 ? 'Cạnh tranh' : 'Cần nỗ lực', chance: Math.min(99, Math.max(16, Math.round((score / 930) * 100))) },
+      { school: 'Trường ĐH KHXH & Nhân văn (USSH)', code: 'QSX', benchmark: '720 - 860đ', status: score >= 750 ? 'Rất cao' : score >= 680 ? 'Khả quan' : score >= 600 ? 'Cạnh tranh' : 'Cần nỗ lực', chance: Math.min(99, Math.max(20, Math.round((score / 860) * 100))) },
+      { school: 'Trường ĐH Quốc Tế (IU)', code: 'QSI', benchmark: '700 - 840đ', status: score >= 720 ? 'Rất cao' : score >= 650 ? 'Khả quan' : score >= 580 ? 'Cạnh tranh' : 'Cần nỗ lực', chance: Math.min(99, Math.max(22, Math.round((score / 840) * 100))) }
+    ];
+  }, [totalCalculatedScore]);
+
   // =========================================================================
   // VIEW 1: Exam List Dashboard
   // =========================================================================
@@ -632,15 +644,15 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
           <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-4">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-900 dark:bg-indigo-950 dark:text-indigo-200 border border-indigo-300 dark:border-indigo-800">
               <TrendingUp className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
-              {irtResult?.percentileRank || 'Top 15% Toàn Quốc'}
+              {irtResult ? `Top ${Math.max(1, 100 - Math.round(irtResult.percentileRank))}% Toàn Quốc` : 'Top 15% Toàn Quốc'}
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-purple-100 text-purple-900 dark:bg-purple-950 dark:text-purple-200 border border-purple-300 dark:border-purple-800">
               <Sparkles className="w-3.5 h-3.5 text-purple-600 dark:text-purple-400" />
-              Năng lực tiềm ẩn θ = {irtResult?.estimatedTheta > 0 ? '+' : ''}{irtResult?.estimatedTheta || '0.00'}
+              Năng lực tiềm ẩn θ = {irtResult?.theta !== undefined ? (irtResult.theta > 0 ? '+' : '') + irtResult.theta : '0.00'}
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200 border border-emerald-300 dark:border-emerald-800">
               <Target className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
-              {irtResult?.performanceTier || 'Năng lực Tốt'}
+              {irtResult?.admissionProspect?.tier || 'Năng lực Tốt'}
             </span>
           </div>
           
@@ -754,42 +766,40 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
           </div>
 
           {/* University Admission Prospects for VNU-HCM */}
-          {irtResult?.admissionProspects && (
-            <div className="mb-6 sm:mb-8 text-left">
-              <h4 className="text-xs sm:text-sm font-black uppercase tracking-wider vact-text-muted mb-3 flex items-center gap-1.5">
-                <GraduationCap className="w-4 h-4 text-blue-600" />
-                Dự Báo Cơ Hội Trúng Tuyển Các Trường Thành Viên ĐHQG TP.HCM
-              </h4>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
-                {irtResult.admissionProspects.map((adm, aIdx) => (
-                  <div key={aIdx} className="p-3.5 rounded-2xl vact-card-subtle border vact-border flex flex-col justify-between">
-                    <div>
-                      <div className="flex items-center justify-between gap-1 mb-1">
-                        <span className="font-black text-xs sm:text-sm vact-text-primary">{adm.school}</span>
-                        <span className="text-[10px] font-black px-1.5 py-0.5 rounded-md bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300">
-                          {adm.code}
-                        </span>
-                      </div>
-                      <div className="text-[11px] vact-text-muted font-medium mb-2">
-                        Điểm chuẩn tham chiếu: <strong className="vact-text-secondary">{adm.benchmark}</strong>
-                      </div>
-                    </div>
-                    <div className="flex items-center justify-between pt-2 border-t vact-border">
-                      <span className="text-[11px] font-bold vact-text-secondary">Khả năng:</span>
-                      <span className={`text-[11px] font-black px-2 py-0.5 rounded-full ${
-                        adm.status === 'Rất cao' ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300' :
-                        adm.status === 'Khả quan' ? 'bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300' :
-                        adm.status === 'Cạnh tranh' ? 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300' :
-                        'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-400'
-                      }`}>
-                        {adm.status} ({adm.chance}%)
+          <div className="mb-6 sm:mb-8 text-left">
+            <h4 className="text-xs sm:text-sm font-black uppercase tracking-wider vact-text-muted mb-3 flex items-center gap-1.5">
+              <GraduationCap className="w-4 h-4 text-blue-600" />
+              Dự Báo Cơ Hội Trúng Tuyển Các Trường Thành Viên ĐHQG TP.HCM
+            </h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
+              {targetSchoolsList.map((adm, aIdx) => (
+                <div key={aIdx} className="p-3.5 rounded-2xl vact-card-subtle border vact-border flex flex-col justify-between">
+                  <div>
+                    <div className="flex items-center justify-between gap-1 mb-1">
+                      <span className="font-black text-xs sm:text-sm vact-text-primary">{adm.school}</span>
+                      <span className="text-[10px] font-black px-1.5 py-0.5 rounded-md bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300">
+                        {adm.code}
                       </span>
                     </div>
+                    <div className="text-[11px] vact-text-muted font-medium mb-2">
+                      Điểm chuẩn tham chiếu: <strong className="vact-text-secondary">{adm.benchmark}</strong>
+                    </div>
                   </div>
-                ))}
-              </div>
+                  <div className="flex items-center justify-between pt-2 border-t vact-border">
+                    <span className="text-[11px] font-bold vact-text-secondary">Khả năng:</span>
+                    <span className={`text-[11px] font-black px-2 py-0.5 rounded-full ${
+                      adm.status === 'Rất cao' ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300' :
+                      adm.status === 'Khả quan' ? 'bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300' :
+                      adm.status === 'Cạnh tranh' ? 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300' :
+                      'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-400'
+                    }`}>
+                      {adm.status} ({adm.chance}%)
+                    </span>
+                  </div>
+                </div>
+              ))}
             </div>
-          )}
+          </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2.5 sm:gap-3 pt-2">
             <button
