@@ -29,3 +29,6 @@ dist-ssr
 .vercel
 *.mjs 
 all_garbled_issues.json
+
+scratch*
+audit*

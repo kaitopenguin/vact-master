@@ -486,15 +486,15 @@ export default function Navbar({
         </div>
       </header>
 
-      {/* iOS Mobile Bottom Navigation Bar (Visible on mobile screen <= 768px) */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 vact-nav border-t vact-border pb-safe shadow-lg">
-        <div className="grid grid-cols-5 items-center px-1 py-1.5 text-[10px] font-black">
+      {/* iOS Mobile Bottom Navigation Bar (Visible on mobile screen <= 768px, >=44px tap targets) */}
+      <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 vact-nav border-t vact-border bottom-bar-safe shadow-lg">
+        <div className="grid grid-cols-5 items-center px-1 py-1 text-[10px] font-black">
           <button
             onClick={() => {
               playSwitchSound(1.0);
               setCurrentTab('exam');
             }}
-            className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
+            className={`min-h-[44px] flex flex-col items-center justify-center py-1 rounded-xl transition-all touch-manipulation cursor-pointer ${
               currentTab === 'exam' ? 'text-blue-600 font-extrabold' : 'vact-text-muted hover:vact-text-primary'
             }`}
           >
@@ -507,7 +507,7 @@ export default function Navbar({
               playSwitchSound(1.0);
               setCurrentTab('books');
             }}
-            className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
+            className={`min-h-[44px] flex flex-col items-center justify-center py-1 rounded-xl transition-all touch-manipulation cursor-pointer ${
               currentTab === 'books' ? 'text-blue-600 font-extrabold' : 'vact-text-muted hover:vact-text-primary'
             }`}
           >
@@ -520,7 +520,7 @@ export default function Navbar({
               playSwitchSound(1.0);
               setCurrentTab('theory');
             }}
-            className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
+            className={`min-h-[44px] flex flex-col items-center justify-center py-1 rounded-xl transition-all touch-manipulation cursor-pointer ${
               currentTab === 'theory' ? 'text-blue-600 font-extrabold' : 'vact-text-muted hover:vact-text-primary'
             }`}
           >
@@ -533,7 +533,7 @@ export default function Navbar({
               playSwitchSound(1.0);
               setCurrentTab('tips');
             }}
-            className={`flex flex-col items-center justify-center py-1 rounded-xl transition-all ${
+            className={`min-h-[44px] flex flex-col items-center justify-center py-1 rounded-xl transition-all touch-manipulation cursor-pointer ${
               currentTab === 'tips' ? 'text-blue-600 font-extrabold' : 'vact-text-muted hover:vact-text-primary'
             }`}
           >
@@ -546,7 +546,7 @@ export default function Navbar({
               playSwitchSound(1.0);
               setCurrentTab('mistakes');
             }}
-            className={`flex flex-col items-center justify-center py-1 rounded-xl relative transition-all ${
+            className={`min-h-[44px] flex flex-col items-center justify-center py-1 rounded-xl relative transition-all touch-manipulation cursor-pointer ${
               currentTab === 'mistakes' ? 'text-blue-600 font-extrabold' : 'vact-text-muted hover:vact-text-primary'
             }`}
           >

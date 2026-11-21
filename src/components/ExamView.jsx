@@ -26,12 +26,14 @@ import {
   GraduationCap,
   AlertTriangle,
   Zap,
-  Sparkles
+  Sparkles,
+  Shuffle
 } from 'lucide-react';
 import { EXAM_LIST, QUESTIONS_DATA } from '../data/examData';
 import confetti from 'canvas-confetti';
 import MathRenderer from './MathRenderer';
 import { calculateVactIrtScore } from '../utils/vactIrtScoring';
+import { generateRandomExam } from '../utils/randomExamGenerator';
 import { 
   HelloKittyBow, 
   HelloKittyAvatar, 
@@ -46,6 +48,105 @@ import {
   playKittySparkle, 
   playKittyFanfare 
 } from '../utils/creamyAudio';
+
+/**
+ * Isolated Question Card Component (Memoized to prevent per-second timer re-renders)
+ */
+const QuestionCard = React.memo(function QuestionCard({
+  currentQ,
+  currentIndex,
+  totalQ,
+  selectedOption,
+  theme,
+  slideDirection,
+  touchHandlers,
+  onSelectOption
+}) {
+  return (
+    <div 
+      {...touchHandlers}
+      className={`vact-card border vact-border rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-sm transition-transform duration-200 ease-out transform-gpu-smooth select-none ${
+        slideDirection === 'left' 
+          ? '-translate-x-3 opacity-90' 
+          : slideDirection === 'right' 
+            ? 'translate-x-3 opacity-90' 
+            : 'translate-x-0 opacity-100'
+      }`}
+      style={{ touchAction: 'pan-y' }}
+    >
+      {/* Question Header with Hello Kitty decoration */}
+      <div className="flex items-center justify-between mb-3.5 pb-2 border-b vact-border">
+        <div className="flex items-center gap-2">
+          {theme === 'hello-kitty' && (
+            <HelloKittyBow size={22} className="inline-block animate-bounce-subtle" />
+          )}
+          <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-blue-600 dark:text-blue-400">
+            Câu hỏi {currentIndex + 1} / {totalQ}
+          </span>
+        </div>
+        {theme === 'hello-kitty' && (
+          <div className="flex items-center gap-1.5 text-xs font-bold text-[#5c3845] bg-[#FDF0F3] px-3 py-1 rounded-full border border-[#F6BBC4]">
+            <StrawberrySticker size={15} />
+            <span>Tự tin lên nhé bé! ✨</span>
+          </div>
+        )}
+      </div>
+
+      {/* [NGỮ LIỆU / ĐỀ BÀI CHUNG] - Đóng khung rõ ràng theo chuẩn khảo thí V-ACT */}
+      {currentQ.passage && (
+        <div className="mb-4 sm:mb-6 p-4 sm:p-5 rounded-2xl border-2 border-blue-500/40 bg-blue-50/30 dark:bg-blue-950/30 shadow-xs">
+          <div className="flex items-center gap-2 text-xs font-black text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-2">
+            <BookOpen className="w-4 h-4" />
+            <span>[NGỮ LIỆU / ĐỀ BÀI CHUNG]</span>
+          </div>
+          <div className="text-xs sm:text-base leading-relaxed font-medium vact-text-primary">
+            <MathRenderer content={currentQ.passage} />
+          </div>
+        </div>
+      )}
+
+      {/* Question Text */}
+      <div className="text-sm sm:text-lg font-black vact-text-primary leading-relaxed mb-4 sm:mb-6">
+        <MathRenderer content={currentQ.question} />
+      </div>
+
+      {/* Options List with 48px min touch target */}
+      <div className="space-y-2.5 sm:space-y-3">
+        {currentQ.options.map((option, optIdx) => {
+          const isSelected = selectedOption === optIdx;
+          return (
+            <div
+              key={optIdx}
+              onClick={() => onSelectOption(currentQ.id, optIdx)}
+              className={`min-h-[48px] p-3 sm:p-4 rounded-xl sm:rounded-2xl border transition-all cursor-pointer flex items-start gap-2.5 sm:gap-3 active:scale-[0.98] touch-manipulation ${
+                isSelected 
+                  ? 'border-2 border-blue-600 bg-blue-50/40 dark:bg-blue-950/40 shadow-xs' 
+                  : 'vact-card border vact-border hover:border-blue-400'
+              }`}
+            >
+              {theme === 'hello-kitty' ? (
+                <CuteOptionBadge letter={String.fromCharCode(65 + optIdx)} isSelected={isSelected} />
+              ) : (
+                <div className={`w-6 h-6 sm:w-7 sm:h-7 rounded-lg sm:rounded-xl font-black text-xs flex items-center justify-center shrink-0 transition-all ${
+                  isSelected 
+                    ? 'bg-blue-600 text-white shadow-xs' 
+                    : 'vact-card-subtle vact-text-secondary border vact-border'
+                }`}>
+                  {String.fromCharCode(65 + optIdx)}
+                </div>
+              )}
+              <div className={`text-xs sm:text-base leading-relaxed font-bold flex-1 ${
+                isSelected ? 'text-blue-700 dark:text-blue-300' : 'vact-text-primary'
+              }`}>
+                <MathRenderer content={typeof option === 'string' ? option.replace(/^[A-D]\.\s*/, '') : option} />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+});
 
 export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize = 'normal', theme = 'light' }) {
   const [selectedExamId, setSelectedExamId] = useState(null);
@@ -106,6 +207,62 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
     
     // Duration: 150m for full, or proportional time for practice
     const duration = sectionOnly === 'all' ? 150 * 60 : Math.max(15 * 60, filtered.length * 75);
+    setTimeLeft(duration);
+    setIsTimerRunning(true);
+    setExamState('taking');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Touch swipe states for silky-smooth mobile gesture transitions
+  const [touchStart, setTouchStart] = useState({ x: 0, y: 0, time: 0 });
+  const [slideDirection, setSlideDirection] = useState('none');
+
+  const handleTouchStart = (e) => {
+    const touch = e.touches[0];
+    setTouchStart({ x: touch.clientX, y: touch.clientY, time: Date.now() });
+  };
+
+  const handleTouchEnd = (e) => {
+    if (!touchStart.time) return;
+    const touch = e.changedTouches[0];
+    const dx = touch.clientX - touchStart.x;
+    const dy = touch.clientY - touchStart.y;
+    const dt = Date.now() - touchStart.time;
+
+    // Detect intentional horizontal swipe: |dx| > 45px, |dx| > |dy| * 1.3, within 500ms
+    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.3 && dt < 500) {
+      if (dx < 0 && currentIndex < currentQuestions.length - 1) {
+        // Swipe Left -> Next Question
+        setSlideDirection('left');
+        requestAnimationFrame(() => {
+          playSwitchSound(1.0);
+          setCurrentIndex(prev => Math.min(currentQuestions.length - 1, prev + 1));
+          setTimeout(() => setSlideDirection('none'), 180);
+        });
+      } else if (dx > 0 && currentIndex > 0) {
+        // Swipe Right -> Previous Question
+        setSlideDirection('right');
+        requestAnimationFrame(() => {
+          playSwitchSound(1.0);
+          setCurrentIndex(prev => Math.max(0, prev - 1));
+          setTimeout(() => setSlideDirection('none'), 180);
+        });
+      }
+    }
+    setTouchStart({ x: 0, y: 0, time: 0 });
+  };
+
+  const handleStartRandomExam = (sectionOnly = 'all') => {
+    playKittySparkle();
+    const generated = generateRandomExam(QUESTIONS_DATA, { sectionOnly });
+    setSelectedExamId(generated.id);
+    setFilterSection(sectionOnly);
+    setCurrentQuestions(generated.questions);
+    setCurrentIndex(0);
+    setAnswers({});
+    setFlagged({});
+
+    const duration = sectionOnly === 'all' ? 150 * 60 : 40 * 60;
     setTimeLeft(duration);
     setIsTimerRunning(true);
     setExamState('taking');
@@ -269,6 +426,63 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
             <div className="text-[11px] sm:text-xs vact-text-muted mt-1 leading-relaxed">
               Lập bảng ma trận & suy luận khoa học tình huống
             </div>
+          </div>
+        </div>
+
+        {/* Dynamic Random Exam Generator Card (Cluster-Preserving Algorithm) */}
+        <div className="mb-6 sm:mb-8 p-4 sm:p-6 rounded-2xl sm:rounded-3xl border-2 border-blue-500/40 bg-gradient-to-r from-blue-50/50 via-indigo-50/30 to-purple-50/40 dark:from-blue-950/40 dark:via-indigo-950/30 dark:to-purple-950/30 shadow-md">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="space-y-1">
+              <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] sm:text-xs font-black bg-blue-600 text-white shadow-2xs">
+                <Shuffle className="w-3 h-3 animate-spin" />
+                Ngân Hàng 4.080 Câu Hỏi • Trộn Chuẩn Khảo Thí V-ACT
+              </div>
+              <h2 className="text-base sm:text-xl font-black vact-text-primary">
+                Tạo Đề Thi Ngẫu Nhiên (Bảo Toàn Trọn Vẹn Cụm Ngữ Liệu)
+              </h2>
+              <p className="text-xs sm:text-sm vact-text-secondary max-w-2xl leading-relaxed">
+                Hệ thống tự động bốc ngẫu nhiên câu hỏi theo đúng tỷ lệ 4 phần (30 câu/phần). Các câu hỏi thuộc cùng một bài đọc, bảng số liệu hoặc đồ thị dùng chung được giữ nguyên khối, không bị xé lẻ hay xáo trộn thứ tự logic.
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 w-full md:w-auto shrink-0">
+              <button
+                onClick={() => handleStartRandomExam('all')}
+                className="min-h-[44px] flex items-center justify-center gap-2 px-5 py-3 rounded-xl sm:rounded-2xl font-black text-xs sm:text-sm bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 active:scale-[0.98] text-white shadow-md shadow-blue-500/25 transition-all cursor-pointer touch-manipulation"
+              >
+                <Play className="w-4 h-4 fill-current" />
+                <span>Tạo Đề 120 Câu (150p)</span>
+              </button>
+            </div>
+          </div>
+
+          {/* Quick Sub-test practice buttons with >=44px tap target */}
+          <div className="mt-3 pt-3 border-t vact-border/60 flex flex-wrap items-center gap-2">
+            <span className="text-[11px] font-black vact-text-muted">Hoặc tạo ngẫu nhiên 30 câu theo hợp phần:</span>
+            <button
+              onClick={() => handleStartRandomExam('vietnamese')}
+              className="min-h-[44px] px-3 py-1.5 rounded-xl vact-card border vact-border hover:border-blue-400 vact-text-primary text-xs font-bold transition-all cursor-pointer touch-manipulation active:scale-[0.98]"
+            >
+              Tiếng Việt (30 câu)
+            </button>
+            <button
+              onClick={() => handleStartRandomExam('english')}
+              className="min-h-[44px] px-3 py-1.5 rounded-xl vact-card border vact-border hover:border-blue-400 vact-text-primary text-xs font-bold transition-all cursor-pointer touch-manipulation active:scale-[0.98]"
+            >
+              Tiếng Anh (30 câu)
+            </button>
+            <button
+              onClick={() => handleStartRandomExam('math')}
+              className="min-h-[44px] px-3 py-1.5 rounded-xl vact-card border vact-border hover:border-blue-400 vact-text-primary text-xs font-bold transition-all cursor-pointer touch-manipulation active:scale-[0.98]"
+            >
+              Toán học (30 câu)
+            </button>
+            <button
+              onClick={() => handleStartRandomExam('science_all')}
+              className="min-h-[44px] px-3 py-1.5 rounded-xl vact-card border vact-border hover:border-blue-400 vact-text-primary text-xs font-bold transition-all cursor-pointer touch-manipulation active:scale-[0.98]"
+            >
+              Tư duy KH (30 câu)
+            </button>
           </div>
         </div>
 
@@ -466,80 +680,21 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
 
         {/* Main Question & Answer Container */}
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-          {/* Question Stem & Options */}
+          {/* Question Stem & Options (Memoized for silky-smooth performance & 0 timer re-renders) */}
           <div className="lg:col-span-3 space-y-4 sm:space-y-6">
-            <div className="vact-card border vact-border rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-sm">
-              {/* Question Header with Hello Kitty decoration */}
-              <div className="flex items-center justify-between mb-3.5 pb-2 border-b vact-border">
-                <div className="flex items-center gap-2">
-                  {theme === 'hello-kitty' && (
-                    <HelloKittyBow size={22} className="inline-block animate-bounce-subtle" />
-                  )}
-                  <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-blue-600 dark:text-blue-400">
-                    Câu hỏi {currentIndex + 1} / {totalQ}
-                  </span>
-                </div>
-                {theme === 'hello-kitty' && (
-                  <div className="flex items-center gap-1.5 text-xs font-bold text-[#5c3845] bg-[#FDF0F3] px-3 py-1 rounded-full border border-[#F6BBC4]">
-                    <StrawberrySticker size={15} />
-                    <span>Tự tin lên nhé bé! ✨</span>
-                  </div>
-                )}
-              </div>
-
-              {/* [NGỮ LIỆU / ĐỀ BÀI CHUNG] - Đóng khung rõ ràng theo chuẩn khảo thí V-ACT */}
-              {currentQ.passage && (
-                <div className="mb-4 sm:mb-6 p-4 sm:p-5 rounded-2xl border-2 border-blue-500/40 bg-blue-50/30 dark:bg-blue-950/30 shadow-xs">
-                  <div className="flex items-center gap-2 text-xs font-black text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-2">
-                    <BookOpen className="w-4 h-4" />
-                    <span>[NGỮ LIỆU / ĐỀ BÀI CHUNG]</span>
-                  </div>
-                  <div className="text-xs sm:text-base leading-relaxed font-medium vact-text-primary">
-                    <MathRenderer content={currentQ.passage} />
-                  </div>
-                </div>
-              )}
-
-              {/* Question Text */}
-              <div className="text-sm sm:text-lg font-black vact-text-primary leading-relaxed mb-4 sm:mb-6">
-                <MathRenderer content={currentQ.question} />
-              </div>
-
-              {/* Options List */}
-              <div className="space-y-2.5 sm:space-y-3">
-                {currentQ.options.map((option, optIdx) => {
-                  const isSelected = answers[currentQ.id] === optIdx;
-                  return (
-                    <div
-                      key={optIdx}
-                      onClick={() => handleSelectOption(currentQ.id, optIdx)}
-                      className={`min-h-[50px] p-3 sm:p-4 rounded-xl sm:rounded-2xl border transition-all cursor-pointer flex items-start gap-2.5 sm:gap-3 active:scale-[0.98] ${
-                        isSelected 
-                          ? 'border-2 border-blue-600 bg-blue-50/40 dark:bg-blue-950/40 shadow-xs' 
-                          : 'vact-card border vact-border hover:border-blue-400'
-                      }`}
-                    >
-                      {theme === 'hello-kitty' ? (
-                        <CuteOptionBadge letter={String.fromCharCode(65 + optIdx)} isSelected={isSelected} />
-                      ) : (
-                        <div className={`w-6 h-6 sm:w-7 sm:h-7 rounded-lg sm:rounded-xl font-black text-xs flex items-center justify-center shrink-0 transition-all ${
-                          isSelected 
-                            ? 'bg-blue-600 text-white shadow-xs' 
-                            : 'vact-card-subtle vact-text-secondary border vact-border'
-                        }`}>
-                          {String.fromCharCode(65 + optIdx)}
-                        </div>
-                      )}
-                      <div className={`text-xs sm:text-base leading-relaxed font-bold flex-1 ${
-                        isSelected ? 'text-blue-700 dark:text-blue-300' : 'vact-text-primary'
-                      }`}>
-                        <MathRenderer content={typeof option === 'string' ? option.replace(/^[A-D]\.\s*/, '') : option} />
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
+            <QuestionCard
+              currentQ={currentQ}
+              currentIndex={currentIndex}
+              totalQ={totalQ}
+              selectedOption={answers[currentQ.id]}
+              theme={theme}
+              slideDirection={slideDirection}
+              touchHandlers={{
+                onTouchStart: handleTouchStart,
+                onTouchEnd: handleTouchEnd
+              }}
+              onSelectOption={handleSelectOption}
+            />
 
             {/* Bottom Question Switcher */}
             <div className="flex items-center justify-between gap-2">

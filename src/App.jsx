@@ -10,8 +10,10 @@ import MistakeView from './components/MistakeView';
 import SecurityDashboard from './components/SecurityDashboard';
 import { HelloKittyFloatingCompanion } from './components/HelloKittyDecor';
 import { playSwitchSound } from './utils/creamyAudio';
+import { useDeviceDetection } from './hooks/useDeviceDetection';
 
 export default function App() {
+  const deviceInfo = useDeviceDetection();
   const [currentTab, setCurrentTab] = useState('exam');
   const [isSecurityModalOpen, setIsSecurityModalOpen] = useState(false);
   

@@ -479,7 +479,42 @@ body.font-scale-xlarge .katex {
   font-weight: 700 !important;
 }
 
-/* Tối ưu hóa đặc thù cho iPhone 14 Pro Max (Dynamic Island, Safe Areas) và Xiaomi (MIUI / HyperOS) */
+/* ========================================================================= */
+/* MOBILE-FIRST RESPONSIVE ARCHITECTURE & VIEWPORT ADAPTATION (360px - 440px) */
+/* ========================================================================= */
+
+:root {
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}
+
+html, body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+/* 100dvh with 100vh fallback for older mobile browsers */
+.h-screen-dvh {
+  height: 100vh;
+  height: 100dvh;
+}
+
+.min-h-screen-dvh {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.max-h-screen-dvh {
+  max-height: 100vh;
+  max-height: 100dvh;
+}
+
+/* Strict Safe Area Insets for iPhone Dynamic Island & Home Indicator */
 .pt-safe {
   padding-top: max(0.5rem, env(safe-area-inset-top));
 }
@@ -491,6 +526,62 @@ body.font-scale-xlarge .katex {
 .px-safe {
   padding-left: max(0.75rem, env(safe-area-inset-left));
   padding-right: max(0.75rem, env(safe-area-inset-right));
+}
+
+.bottom-bar-safe {
+  padding-bottom: max(1.5rem, calc(0.5rem + env(safe-area-inset-bottom)));
+}
+
+/* iOS Safari: Prevent automatic zoom on input focus by enforcing >= 16px */
+input, textarea, select {
+  font-size: 16px !important;
+  touch-action: manipulation;
+}
+
+/* Ergonomic Touch Targets (>= 44x44px) & 300ms delay elimination */
+button, [role="button"], a.touch-btn {
+  touch-action: manipulation;
+}
+
+@media screen and (max-width: 480px) {
+  button:not(.compact-btn), [role="button"]:not(.compact-btn) {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+}
+
+/* Fluid Typography with clamp() for dynamic screen widths (360px - 440px) */
+.fluid-title {
+  font-size: clamp(1.15rem, 4.5vw, 1.85rem);
+  line-height: 1.3;
+}
+
+.fluid-heading {
+  font-size: clamp(0.95rem, 3.5vw, 1.35rem);
+  line-height: 1.35;
+}
+
+.fluid-body {
+  font-size: clamp(0.875rem, 2.8vw, 1.05rem);
+  line-height: 1.6;
+}
+
+.fluid-caption {
+  font-size: clamp(0.72rem, 2.2vw, 0.85rem);
+}
+
+/* Responsive Media and Canvas constraint */
+img, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hardware-accelerated GPU animation primitives */
+.transform-gpu-smooth {
+  transform: translate3d(0, 0, 0);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
 /* iPhone 14 Pro Max (430x932px, @3x retina) & Xiaomi Display Engine Optimization */
@@ -508,12 +599,6 @@ body.font-scale-xlarge .katex {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-  }
-  
-  /* Đảm bảo tap targets >= 44px trên màn hình cảm ứng di động */
-  button, [role="button"], a {
-    min-height: 38px;
-    touch-action: manipulation;
   }
 }
 

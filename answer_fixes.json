@@ -1,0 +1,202 @@
+[
+  {
+    "qId": "vact-synthetic-de-01-q82",
+    "qNum": 82,
+    "examId": "vact-synthetic-de-01",
+    "oldAnswer": "C",
+    "newAnswer": "D",
+    "reason": "Dãy cấp số cộng số lẻ $u_n = 2n - 1 \\implies \\sum_{i=1}^{10} u_i = 100 \\implies T = 2^{100}$"
+  },
+  {
+    "qId": "vact-synthetic-de-01-q83",
+    "qNum": 83,
+    "examId": "vact-synthetic-de-01",
+    "oldAnswer": "A",
+    "newAnswer": "B",
+    "reason": "Công thức xác suất toàn phần: $P(B) = 0,80 \\times 0,98 + 0,20 \\times 0,04 = 0,792$"
+  },
+  {
+    "qId": "vact-synthetic-de-01-q84",
+    "qNum": 84,
+    "examId": "vact-synthetic-de-01",
+    "oldAnswer": "A",
+    "newAnswer": "B",
+    "reason": "Áp dụng công thức Bayes: $P(A|B) = \\frac{P(B|A)P(A)}{P(B)} = \\frac{0,98 \\times 0,80}{0,792} = \\frac{98}{99}$"
+  },
+  {
+    "qId": "vact-synthetic-de-04-q61",
+    "qNum": 61,
+    "examId": "vact-synthetic-de-04",
+    "oldAnswer": "B",
+    "newAnswer": "A",
+    "reason": "Biến đổi $(5/3)^x = 5/13 < 1 \\implies x < 0$. Số nghiệm nguyên dương là 0."
+  },
+  {
+    "qId": "vact-synthetic-de-04-q83",
+    "qNum": 83,
+    "examId": "vact-synthetic-de-04",
+    "oldAnswer": "A",
+    "newAnswer": "C",
+    "reason": "Xác suất biến cố A: $P(A) = \\frac{|A|}{|\\Omega|} = \\frac{48}{90} = \\frac{8}{15}$"
+  },
+  {
+    "qId": "vact-synthetic-de-04-q89",
+    "qNum": 89,
+    "examId": "vact-synthetic-de-04",
+    "oldAnswer": "A",
+    "newAnswer": "D",
+    "reason": "Đơn vị tính là nghìn đồng: 8.000đ/kg ngô = 8 nghìn, 10.000đ/kg đậu nành = 10 nghìn $\\implies f(x, y) = 8x + 10y$"
+  },
+  {
+    "qId": "vact-moon-de-01-q65",
+    "qNum": 65,
+    "examId": "vact-moon-de-01",
+    "oldAnswer": "C",
+    "newAnswer": "D",
+    "reason": "Dãy cấp số cộng số lẻ $u_n = 2n - 1 \\implies \\sum_{i=1}^{10} u_i = 100 \\implies T = 2^{100}$"
+  },
+  {
+    "qId": "vact-moon-de-01-q66",
+    "qNum": 66,
+    "examId": "vact-moon-de-01",
+    "oldAnswer": "A",
+    "newAnswer": "B",
+    "reason": "Công thức xác suất toàn phần: $P(B) = 0,80 \\times 0,98 + 0,20 \\times 0,04 = 0,792$"
+  },
+  {
+    "qId": "vact-moon-de-01-q67",
+    "qNum": 67,
+    "examId": "vact-moon-de-01",
+    "oldAnswer": "A",
+    "newAnswer": "B",
+    "reason": "Áp dụng công thức Bayes: $P(A|B) = \\frac{P(B|A)P(A)}{P(B)} = \\frac{0,98 \\times 0,80}{0,792} = \\frac{98}{99}$"
+  },
+  {
+    "qId": "vact-moon-de-04-q83",
+    "qNum": 83,
+    "examId": "vact-moon-de-04",
+    "oldAnswer": "B",
+    "newAnswer": "A",
+    "reason": "Biến đổi $(5/3)^x = 5/13 < 1 \\implies x < 0$. Số nghiệm nguyên dương là 0."
+  },
+  {
+    "qId": "vact-moon-de-05-q66",
+    "qNum": 66,
+    "examId": "vact-moon-de-05",
+    "oldAnswer": "B",
+    "newAnswer": "A",
+    "reason": "Biến đổi $(5/3)^x = 5/13 < 1 \\implies x < 0$. Số nghiệm nguyên dương là 0."
+  },
+  {
+    "qId": "vact-moon-de-05-q88",
+    "qNum": 88,
+    "examId": "vact-moon-de-05",
+    "oldAnswer": "A",
+    "newAnswer": "C",
+    "reason": "Xác suất biến cố A: $P(A) = \\frac{|A|}{|\\Omega|} = \\frac{48}{90} = \\frac{8}{15}$"
+  },
+  {
+    "qId": "vact-moon-de-06-q71",
+    "qNum": 71,
+    "examId": "vact-moon-de-06",
+    "oldAnswer": "A",
+    "newAnswer": "C",
+    "reason": "Xác suất biến cố A: $P(A) = \\frac{|A|}{|\\Omega|} = \\frac{48}{90} = \\frac{8}{15}$"
+  },
+  {
+    "qId": "vact-moon-de-06-q77",
+    "qNum": 77,
+    "examId": "vact-moon-de-06",
+    "oldAnswer": "A",
+    "newAnswer": "D",
+    "reason": "Đơn vị tính là nghìn đồng: 8.000đ/kg ngô = 8 nghìn, 10.000đ/kg đậu nành = 10 nghìn $\\implies f(x, y) = 8x + 10y$"
+  },
+  {
+    "qId": "vact-moon-de-15-q88",
+    "qNum": 88,
+    "examId": "vact-moon-de-15",
+    "oldAnswer": "C",
+    "newAnswer": "D",
+    "reason": "Dãy cấp số cộng số lẻ $u_n = 2n - 1 \\implies \\sum_{i=1}^{10} u_i = 100 \\implies T = 2^{100}$"
+  },
+  {
+    "qId": "vact-moon-de-15-q89",
+    "qNum": 89,
+    "examId": "vact-moon-de-15",
+    "oldAnswer": "A",
+    "newAnswer": "B",
+    "reason": "Công thức xác suất toàn phần: $P(B) = 0,80 \\times 0,98 + 0,20 \\times 0,04 = 0,792$"
+  },
+  {
+    "qId": "vact-moon-de-15-q90",
+    "qNum": 90,
+    "examId": "vact-moon-de-15",
+    "oldAnswer": "A",
+    "newAnswer": "B",
+    "reason": "Áp dụng công thức Bayes: $P(A|B) = \\frac{P(B|A)P(A)}{P(B)} = \\frac{0,98 \\times 0,80}{0,792} = \\frac{98}{99}$"
+  },
+  {
+    "qId": "vact-moon-de-16-q71",
+    "qNum": 71,
+    "examId": "vact-moon-de-16",
+    "oldAnswer": "C",
+    "newAnswer": "D",
+    "reason": "Dãy cấp số cộng số lẻ $u_n = 2n - 1 \\implies \\sum_{i=1}^{10} u_i = 100 \\implies T = 2^{100}$"
+  },
+  {
+    "qId": "vact-moon-de-16-q72",
+    "qNum": 72,
+    "examId": "vact-moon-de-16",
+    "oldAnswer": "A",
+    "newAnswer": "B",
+    "reason": "Công thức xác suất toàn phần: $P(B) = 0,80 \\times 0,98 + 0,20 \\times 0,04 = 0,792$"
+  },
+  {
+    "qId": "vact-moon-de-16-q73",
+    "qNum": 73,
+    "examId": "vact-moon-de-16",
+    "oldAnswer": "A",
+    "newAnswer": "B",
+    "reason": "Áp dụng công thức Bayes: $P(A|B) = \\frac{P(B|A)P(A)}{P(B)} = \\frac{0,98 \\times 0,80}{0,792} = \\frac{98}{99}$"
+  },
+  {
+    "qId": "vact-moon-de-19-q89",
+    "qNum": 89,
+    "examId": "vact-moon-de-19",
+    "oldAnswer": "B",
+    "newAnswer": "A",
+    "reason": "Biến đổi $(5/3)^x = 5/13 < 1 \\implies x < 0$. Số nghiệm nguyên dương là 0."
+  },
+  {
+    "qId": "vact-moon-de-20-q72",
+    "qNum": 72,
+    "examId": "vact-moon-de-20",
+    "oldAnswer": "B",
+    "newAnswer": "A",
+    "reason": "Biến đổi $(5/3)^x = 5/13 < 1 \\implies x < 0$. Số nghiệm nguyên dương là 0."
+  },
+  {
+    "qId": "vact-moon-de-21-q77",
+    "qNum": 77,
+    "examId": "vact-moon-de-21",
+    "oldAnswer": "A",
+    "newAnswer": "C",
+    "reason": "Xác suất biến cố A: $P(A) = \\frac{|A|}{|\\Omega|} = \\frac{48}{90} = \\frac{8}{15}$"
+  },
+  {
+    "qId": "vact-moon-de-21-q83",
+    "qNum": 83,
+    "examId": "vact-moon-de-21",
+    "oldAnswer": "A",
+    "newAnswer": "D",
+    "reason": "Đơn vị tính là nghìn đồng: 8.000đ/kg ngô = 8 nghìn, 10.000đ/kg đậu nành = 10 nghìn $\\implies f(x, y) = 8x + 10y$"
+  },
+  {
+    "qId": "vact-moon-de-22-q66",
+    "qNum": 66,
+    "examId": "vact-moon-de-22",
+    "oldAnswer": "A",
+    "newAnswer": "D",
+    "reason": "Đơn vị tính là nghìn đồng: 8.000đ/kg ngô = 8 nghìn, 10.000đ/kg đậu nành = 10 nghìn $\\implies f(x, y) = 8x + 10y$"
+  }
+]
