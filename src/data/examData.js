@@ -1,4 +1,4 @@
-// V-ACT Master Comprehensive Exam Database (Standard 2018 Curriculum)
+﻿// V-ACT Master Comprehensive Exam Database (Standard 2018 Curriculum)
 // Fully verified, cleaned and optimized
 
 export const EXAM_LIST = [
@@ -5481,7 +5481,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n2 2 12 0 x y z \\alpha + + - = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n$x^2 + y^2 + z^2 + \\alpha z - 12 = 0$.",
       "question": "Gọi $H, K$ lần lượt là hình chiếu vuông góc của $A, B$ trên mặt phẳng $(\\alpha)$. Tổng độ dài của hai đoạn thẳng $AH + BK$ bằng:",
       "options": [
         "A. 4",
@@ -5503,7 +5503,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n2 2 12 0 x y z \\alpha + + - = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n$x^2 + y^2 + z^2 + \\alpha z - 12 = 0$.",
       "question": "Điểm $M$ di động trên $(\\alpha)$ sao cho $MA = 2MB$. Biết rằng $M$ luôn thuộc một đường tròn $(\\omega)$ cố định. Hoành độ của tâm đường tròn $(\\omega)$ bằng:",
       "options": [
         "A. 2",
@@ -10611,7 +10611,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\n1 2 1 2 4 3 1 : , : . 2 3 1 1 1 2 x y z x y z d d - + - - + = = = = - - Đường thẳng d đi qua A , vuông góc với 1 d và cắt 2 d . Mặt phẳng ( ) P đi qua gốc tọa độ O và chứa đường thẳng d .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\n$d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$, $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$. Đường thẳng $d$ đi qua $A$, vuông góc với $d_1$ và cắt $d_2$. Mặt phẳng $(P)$ đi qua gốc tọa độ $O$ và chứa đường thẳng $d$.",
       "question": "Vectơ chỉ phương của $d$ có dạng $\\vec{u} = (-2; m; n)$. Tính $m + n$:",
       "options": [
         "A. 7",
@@ -10633,7 +10633,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\n1 2 1 2 4 3 1 : , : . 2 3 1 1 1 2 x y z x y z d d - + - - + = = = = - - Đường thẳng d đi qua A , vuông góc với 1 d và cắt 2 d . Mặt phẳng ( ) P đi qua gốc tọa độ O và chứa đường thẳng d .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\n$d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$, $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$. Đường thẳng $d$ đi qua $A$, vuông góc với $d_1$ và cắt $d_2$. Mặt phẳng $(P)$ đi qua gốc tọa độ $O$ và chứa đường thẳng $d$.",
       "question": "Mặt phẳng $(P)$ có vectơ pháp tuyến $\\vec{n}_P = (a; b; 1)$. Tính $a^2 + b^2$:",
       "options": [
         "A. 135",
@@ -10655,7 +10655,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n3 2 x at y b t = + = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Tính giá trị a b -",
       "options": [
         "A. 2 -",
@@ -10677,7 +10677,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n3 2 x at y b t = + = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Tọa độ tâm $I$ của đường tròn là:",
       "options": [
         "A. I(5; 1)",
@@ -10699,7 +10699,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n3 2 x at y b t = + = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Hoành độ giao điểm của tiếp tuyến với đường tròn $(C)$ tại điểm $B$ với trục hoành là:",
       "options": [
         "A. -2",
@@ -10787,7 +10787,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho cấp số cộng ( ) n u thỏa mãn 1 2 2 3 4 8 u u u u + = + = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_1 + 2u_2 = 3u_4$ và $u_1 cdot u_2 = 8$.",
       "question": "Tính tổng 1 2 2 3 49 50 1 1 1 ... S u u u u u u = + + + ?",
       "options": [
         "A. $S = \\frac{50}{99}$",
@@ -10809,7 +10809,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho cấp số cộng ( ) n u thỏa mãn 1 2 2 3 4 8 u u u u + = + = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_1 + 2u_2 = 3u_4$ và $u_1 cdot u_2 = 8$.",
       "question": "Gọi $(v_n)$ là dãy số có $v_n = 2^{u_n}$. Tính $T = v_1 \\cdot v_2 \\cdots v_{10}$:",
       "options": [
         "A. $T = 2^{80}$",
@@ -10941,7 +10941,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 - 2x^2 + 3mx + 4 - 2m$ có đồ thị $(C)$ và điểm $C(1; 4)$.",
       "question": "Với $m = 0$, phương trình $f(x) = 2$ có bao nhiêu nghiệm phân biệt?",
       "options": [
         "A. 0",
@@ -10963,7 +10963,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 - 2x^2 + 3mx + 4 - 2m$ có đồ thị $(C)$ và điểm $C(1; 4)$.",
       "question": "Tổng các giá trị $m$ nguyên thuộc đoạn $[-5; 5]$ để hàm số có hai điểm cực trị là:",
       "options": [
         "A. 0",
@@ -10985,7 +10985,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 - 2x^2 + 3mx + 4 - 2m$ có đồ thị $(C)$ và điểm $C(1; 4)$.",
       "question": "Tính tổng các giá trị nguyên dương của $m$ để $(C)$ có hai điểm cực trị $A, B$ sao cho tam giác $ABC$ có diện tích bằng 4:",
       "options": [
         "A. 6",
@@ -11007,7 +11007,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 - 2x^2 + 3mx + 4 - 2m$ có đồ thị $(C)$ và điểm $C(1; 4)$.",
       "question": "Có tất cả bao nhiêu cách xếp chỗ ngồi nếu B ngồi tại vị trí số 8?",
       "options": [
         "A. 8",
@@ -11029,7 +11029,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 - 2x^2 + 3mx + 4 - 2m$ có đồ thị $(C)$ và điểm $C(1; 4)$.",
       "question": "Nếu C ngồi ghế số 7 thì thêm dữ kiện nào sau đây sẽ khiến F chỉ có thể chọn ngồi ở 1 ghế duy nhất?",
       "options": [
         "A. G ngồi ghế số 8.",
@@ -11051,7 +11051,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 - 2x^2 + 3mx + 4 - 2m$ có đồ thị $(C)$ và điểm $C(1; 4)$.",
       "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất? A. A, B, D. B. A, G, E. C. A, C, D. D. A, B, E.",
       "options": [
         "A. Phương án A",
@@ -16225,7 +16225,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 + \\frac{3}{2}mx^2$ có đồ thị $(C)$, với $m$ là tham số thực.",
       "question": "Tìm $m$ để tâm đối xứng $I$ của đồ thị $(C)$ thuộc đường thẳng $x - 3y + 3 = 0$:",
       "options": [
         "A. $m \\in \\left(\\frac{1}{2}; \\frac{3}{2}\\right)$",
@@ -16247,7 +16247,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 + \\frac{3}{2}mx^2$ có đồ thị $(C)$, với $m$ là tham số thực.",
       "question": "Phương trình tiếp tuyến của đồ thị $(C)$ tại giao điểm của ( C ) và trục tung là.",
       "options": [
         "A. $y = -2$",
@@ -16269,7 +16269,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 + \\frac{3}{2}mx^2$ có đồ thị $(C)$, với $m$ là tham số thực.",
       "question": "Tổng các giá trị của m để đồ thị hàm số ( C ) có hai điểm cực trị , A B sao cho diện tích tam giác OAB bằng 2 ( O là gốc tọa độ) là",
       "options": [
         "A. 1.",
@@ -16291,7 +16291,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 + \\frac{3}{2}mx^2$ có đồ thị $(C)$, với $m$ là tham số thực.",
       "question": "Nếu tổ của B nằm cách tổ của X đúng 1 tổ thì ai ngồi ở tổ 4?",
       "options": [
         "A. Y, O, L",
@@ -16313,7 +16313,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 + \\frac{3}{2}mx^2$ có đồ thị $(C)$, với $m$ là tham số thực.",
       "question": "Tổ nào sau đây không thể có đúng 2 người (trừ tổ 2)?",
       "options": [
         "A. 1",
@@ -16335,7 +16335,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số $y = x^3 + \\frac{3}{2}mx^2$ có đồ thị $(C)$, với $m$ là tham số thực.",
       "question": "Nếu Y ngồi ở tổ 4 thì điều nào sau đây đúng?",
       "options": [
         "A. A ngồi tổ 4",
@@ -18537,7 +18537,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\n2 1 0 P x y z - + - = . Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
       "question": "Giao điểm của mặt phẳng $(Q)$ với trục $Oz$ là điểm:",
       "options": [
         "A. K(0; 0; 2)",
@@ -18559,7 +18559,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\n2 1 0 P x y z - + - = . Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
       "question": "Vectơ chỉ phương của đường thẳng $d = (P) \\cap (Q)$ có dạng $\\vec{u} = (2; a; b)$. Tính $b - a$:",
       "options": [
         "A. 2",
@@ -18581,7 +18581,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Hoành độ điểm B là:",
       "options": [
         "A. 6",
@@ -18603,7 +18603,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Tổng hoành độ và tung độ của ' C là:",
       "options": [
         "A. 3 4 0 x y - + = .",
@@ -18625,7 +18625,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -23953,7 +23953,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho đồ thị hàm số $y = f(x)$ như hình vẽ. Mệnh đề nào sau đây đúng?",
       "options": [
         "A. $\\text{Hàm số nghịch biến trên } (0; 2)$",
@@ -23975,7 +23975,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
       "options": [
         "A. 1 0 x y - - =",
@@ -23997,7 +23997,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Điểm $M(a; b)$ thuộc đường thẳng $y = 3x - 2$ sao cho tổng khoảng cách từ $M$ đến hai điểm cực trị nhỏ nhất. Giá trị nhỏ nhất đó bằng:",
       "options": [
         "A. $4\\sqrt{5}$",
@@ -24019,7 +24019,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Phương trình 2 2 3 5 x x x + - = + có tổng các nghiệm nguyên là",
       "options": [
         "A. 2 - .",
@@ -24041,7 +24041,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Tìm điều kiện của tham số m để hệ phương trình 1 mx y m x my - = - + = - có nghiệm duy nhất.",
       "options": [
         "A. $1 m = \\pm .$",
@@ -24063,7 +24063,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Biết sin cot cot 4 sin sin 4 x kx x x x - = với mọi x để các biểu thức có nghĩa. Lúc đó giá trị của k là",
       "options": [
         "A. $\\frac{5}{4}$",
@@ -24085,7 +24085,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho hàm số $f(x) = 5^{x^3} \\cdot 8^{x^2}$. Khẳng định nào sau đây là khẳng định sai?",
       "options": [
         "A. $f(x) \\le 1 \\Leftrightarrow x^3 \\log_2 5 + 2x \\le 0$",
@@ -24107,7 +24107,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Có bao nhiêu giá trị nguyên của tham số $m$ trong đoạn $[-2025; 2025]$ để phương trình $\\log_2^2(x - 1) = \\log_2(mx - 8)$ có hai nghiệm phân biệt?",
       "options": [
         "A. 7",
@@ -24129,7 +24129,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho hai số thực a , b đều lớn hơn 1. Giá trị nhỏ nhất của biểu thức 4 1 1 log log ab ab S a b = + bằng",
       "options": [
         "A. $\\frac{4}{9}$",
@@ -24151,7 +24151,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số 3 27 2 x y x = - - song song với trục hoành?",
       "options": [
         "A. 1.",
@@ -24173,7 +24173,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho hàm số $y = \\frac{\\sqrt{4 - x^2}}{x^3 - mx^2 + 4x}$. Số giá trị nguyên $m \\in [-5; 5]$ để hàm số có đúng 1 đường tiệm cận đứng là:",
       "options": [
         "A. 5",
@@ -24195,7 +24195,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Trong tam giác $ABC$, biết $\\widehat{A} = 30^\\circ$, $\\widehat{B} = 45^\\circ$ và cạnh $a = BC = 6$. Tính độ dài cạnh $b = AC$:",
       "options": [
         "A. $b = 6\\sqrt{2}$",
@@ -24217,7 +24217,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Nếu A vào trước F thì D phải vào trạm thứ mấy để được thứ tự các xe vào trạm là duy nhất?",
       "options": [
         "A. Thứ 2",
@@ -24239,7 +24239,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Nếu C vào trạm thứ 3 thì điều nào sau đây chắc chắn đúng?",
       "options": [
         "A. F về sau A",
@@ -24261,7 +24261,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho các phát biểu sau: 1. F vào ngay trước D 2. B cách A tối đa 4 xe 3. E hoặc B vào cuối cùng 4. A vào ngay giữa F và C Nếu C, D vào liên tiếp theo thứ tự thì có bao nhiêu điều trên có thể đúng?",
       "options": [
         "A. 1",
@@ -26419,7 +26419,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Với $m = 0$, phương trình $f(x) = 2$ có bao nhiêu nghiệm phân biệt?",
       "options": [
         "A. 0",
@@ -26441,7 +26441,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Tổng các giá trị $m$ nguyên thuộc đoạn $[-5; 5]$ để hàm số có hai điểm cực trị là:",
       "options": [
         "A. 0",
@@ -26463,7 +26463,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Tính tổng các giá trị nguyên dương của $m$ để $(C)$ có hai điểm cực trị $A, B$ sao cho tam giác $ABC$ có diện tích bằng 4:",
       "options": [
         "A. 6",
@@ -26485,7 +26485,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Phương trình: 3 2 1 1 3 1 3 x x x x x x + + + = + + - + + có bao nhiêu nghiệm?",
       "options": [
         "A. 0 .",
@@ -26507,7 +26507,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Hệ phương trình $\\begin{cases} x^3 + 2x = y^3 + 2y \\\\ x^2 + y^2 = 2xy + 3 \\end{cases}$ có bao nhiêu nghiệm?",
       "options": [
         "A. 3",
@@ -26529,7 +26529,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Để phương trình $3^{x^2 + 2x} - (2m - 1) \\cdot 3^{x^2 + x} + m - 2 = 0$ có nghiệm thì $m \\in [a; b] \\setminus \\{c\\}$. Tính $a + b + c$:",
       "options": [
         "A. 10",
@@ -26551,7 +26551,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Có bao nhiêu giá trị nguyên $m \\in [-2021; 2021]$ để phương trình $\\log_2(10m - x) = 2^x + m$ có nghiệm thực?",
       "options": [
         "A. 2012",
@@ -26573,7 +26573,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho $a, b > 0$, $a \\ne 1$ thỏa mãn $\\log_a b = \\frac{b}{4}$ và $\\log_2 a = \\frac{16}{b}$. Tổng $a + b$ bằng:",
       "options": [
         "A. 12 .",
@@ -26595,7 +26595,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Trong các hàm số được cho dưới đây, hàm số nào có tập xác định là $D = \\mathbb{R}$?",
       "options": [
         "A. $y = \\ln(x^2 - 1)$",
@@ -26617,7 +26617,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\sqrt{6} - \\sqrt{2}$",
@@ -26639,7 +26639,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho ; ;c a b là độ dài 3 cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
       "options": [
         "A. 2 a ab ac < +",
@@ -26661,7 +26661,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Số nghiệm trong đoạn $[0; 2\\pi]$ của phương trình $2\\cos^2 x - 2\\sin 2x = -1$ là:",
       "options": [
         "A. 2",
@@ -26683,7 +26683,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
         "A. 2 3 1 x x y x - = - .",
@@ -26705,7 +26705,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho $f(x)$ là hàm số bậc 3, biết hàm số đạt cực đại tại $x = 3$ và đạt cực tiểu tại $x = -2$. Tổng số đường tiệm cận của đồ thị hàm số $y = \\frac{1}{f(x)}$ là:",
       "options": [
         "A. 5",
@@ -26727,7 +26727,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho $\\lim_{x \\to 2} \\frac{x^2 + ax + b}{x - 2} = 3$ với $a, b \\in \\mathbb{R}$. Tổng $S = a^2 + b^2$ bằng:",
       "options": [
         "A. 1",
@@ -26749,7 +26749,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Giao điểm của đường thẳng $AB$ và mặt phẳng $(P)$ là:",
       "options": [
         "A. $I\\left(\\frac{2}{3}; \\frac{4}{3}; \\frac{13}{3}\\right)$",
@@ -26771,7 +26771,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Gọi $(\\alpha)$ là mặt phẳng đi qua $A, B$ và vuông góc với $(P)$, phương trình của mặt phẳng $(\\alpha)$ có dạng $ax + by + cz + d = 0$. Tính $T = a + b + c + d$:",
       "options": [
         "A. T = -3",
@@ -26793,7 +26793,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho cấp số nhân $(u_n)$ có công bội $q$. Mệnh đề nào sau đây đúng?",
       "options": [
         "A. u_1 - q = 0",
@@ -26815,7 +26815,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho dãy số vô hạn $(v_n)$ thỏa mãn $v_n = 2^{-n} u_n$. Tổng các số hạng của $(v_n)$ xấp xỉ bằng:",
       "options": [
         "A. 3",
@@ -26837,7 +26837,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Đẳng thức nào sau đây đúng?",
       "options": [
         "A. $9 x y + \\ge$",
@@ -26859,7 +26859,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Phát biểu nào đúng nhất về mối quan hệ giữa giá trị LD50 và tỷ lệ hình thành khối u ở các dòng tế bào khi tăng nồng độ Thuốc A?",
       "options": [
         "A. Dòng tế bào có LD50 càng thấp thì tỷ lệ hình thành khối u ở nồng độ cao của Thuốc A càng lớn.",
@@ -26881,7 +26881,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Hai dòng tế bào Y và Z cùng xuất phát từ tuyến tiền liệt nhưng lại có LD50 chênh lệch nhau rất lớn (70,0 so với 818,0 μg/L). Kết quả Hình 1 cũng cho thấy dòng Z duy trì tỷ lệ hình thành khối u ở nồng độ cao tốt hơn hẳn dòng Y. Giải thích nào sau đây hợp lý nhất cho sự khác biệt này?",
       "options": [
         "A. Sự chênh lệch LD50 là do sai số thí nghiệm trong quá trình chuẩn bị môi trường nuôi cấy.",
@@ -34543,7 +34543,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tìm $m$ để tâm đối xứng $I$ của đồ thị $(C)$ thuộc đường thẳng $x - 3y + 3 = 0$:",
       "options": [
         "A. $m \\in \\left(\\frac{1}{2}; \\frac{3}{2}\\right)$",
@@ -34565,7 +34565,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Phương trình tiếp tuyến của đồ thị $(C)$ tại giao điểm của ( C ) và trục tung là.",
       "options": [
         "A. $y = -2$",
@@ -34587,7 +34587,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tổng các giá trị của m để đồ thị hàm số ( C ) có hai điểm cực trị , A B sao cho diện tích tam giác OAB bằng 2 ( O là gốc tọa độ) là",
       "options": [
         "A. 1.",
@@ -34609,7 +34609,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Số các nghiệm nguyên dương của phương trình $3^{x+2} - 5^{x+2} = 5^x - 3^x$ là:",
       "options": [
         "A. 0",
@@ -34631,7 +34631,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $(x + 1)(mx + 2) = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
       "options": [
         "A. 2",
@@ -34653,7 +34653,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Trong một cuộc thi có 50 câu hỏi. Mỗi câu trả lời đúng được 20 điểm, còn trả lời sai bị trừ 15 điểm. Một học sinh được tất cả 650 điểm. Hỏi bạn đó trả lời được mấy câu đúng?",
       "options": [
         "A. 29",
@@ -34675,7 +34675,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho $a = \\frac{1}{2}$ và $(a + 1)(b + 1) = 2$; đặt $\\tan x = a, \\tan y = b$ với $x, y \\in \\left(0; \\frac{\\pi}{2}\\right)$. Tính $x + y$:",
       "options": [
         "A. $\\frac{\\pi}{3}$",
@@ -34697,7 +34697,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Dãy số $(u_n)$ nào sau đây có giới hạn khác số 1 khi $n \\to +\\infty$?",
       "options": [
         "A. $u_n = \\frac{n^{2018} - (n - 1)^{2018}}{n^{2017}}$",
@@ -34719,7 +34719,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho ba số thực dương a , b , c đều khác 1 thỏa mãn log 2log 4log a b c b c a = = và 2 3 48 a b c + + = . Khi đó P abc = bằng bao nhiêu?",
       "options": [
         "A. 324 .",
@@ -34741,7 +34741,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho $n$ là số nguyên dương và $a > 0$, $a \\ne 1$. Tìm $n$ sao cho $\\log_a 2019 + \\log_{a^2} 2019 + \\log_{a^3} 2019 + \\dots + \\log_{a^n} 2019 = 2033136 \\log_a 2019$.",
       "options": [
         "A. $n = 2017$",
@@ -34763,7 +34763,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tìm tập xác định của hàm số $y = \\log_2(2x - 1)$:",
       "options": [
         "A. $D = \\left(-\\infty; \\frac{1}{2}\\right)$",
@@ -36811,7 +36811,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tìm $m$ để tâm đối xứng $I$ của đồ thị $(C)$ thuộc đường thẳng $x - 3y + 3 = 0$:",
       "options": [
         "A. $m \\in \\left(\\frac{1}{2}; \\frac{3}{2}\\right)$",
@@ -36833,7 +36833,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Phương trình tiếp tuyến của đồ thị $(C)$ tại giao điểm của ( C ) và trục tung là.",
       "options": [
         "A. $y = -2$",
@@ -36855,7 +36855,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tổng các giá trị của m để đồ thị hàm số ( C ) có hai điểm cực trị , A B sao cho diện tích tam giác OAB bằng 2 ( O là gốc tọa độ) là",
       "options": [
         "A. 1.",
@@ -36877,7 +36877,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Số các nghiệm nguyên dương của phương trình $3^{x+2} - 5^{x+2} = 5^x - 3^x$ là:",
       "options": [
         "A. 0",
@@ -36899,7 +36899,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $(x + 1)(mx + 2) = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
       "options": [
         "A. 2",
@@ -36921,7 +36921,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Trong một cuộc thi có 50 câu hỏi. Mỗi câu trả lời đúng được 20 điểm, còn trả lời sai bị trừ 15 điểm. Một học sinh được tất cả 650 điểm. Hỏi bạn đó trả lời được mấy câu đúng?",
       "options": [
         "A. 29",
@@ -36943,7 +36943,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho $a = \\frac{1}{2}$ và $(a + 1)(b + 1) = 2$; đặt $\\tan x = a, \\tan y = b$ với $x, y \\in \\left(0; \\frac{\\pi}{2}\\right)$. Tính $x + y$:",
       "options": [
         "A. $\\frac{\\pi}{3}$",
@@ -36965,7 +36965,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Dãy số $(u_n)$ nào sau đây có giới hạn khác số 1 khi $n \\to +\\infty$?",
       "options": [
         "A. $u_n = \\frac{n^{2018} - (n - 1)^{2018}}{n^{2017}}$",
@@ -36987,7 +36987,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho ba số thực dương a , b , c đều khác 1 thỏa mãn log 2log 4log a b c b c a = = và 2 3 48 a b c + + = . Khi đó P abc = bằng bao nhiêu?",
       "options": [
         "A. 324 .",
@@ -37009,7 +37009,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho $n$ là số nguyên dương và $a > 0$, $a \\ne 1$. Tìm $n$ sao cho $\\log_a 2019 + \\log_{a^2} 2019 + \\log_{a^3} 2019 + \\dots + \\log_{a^n} 2019 = 2033136 \\log_a 2019$.",
       "options": [
         "A. $n = 2017$",
@@ -37031,7 +37031,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tìm tập xác định của hàm số $y = \\log_2(2x - 1)$:",
       "options": [
         "A. $D = \\left(-\\infty; \\frac{1}{2}\\right)$",
@@ -37053,7 +37053,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. 7 3 cm 3 .",
@@ -37075,7 +37075,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^\\circ$. Tính $BC$:",
       "options": [
         "A. $\\frac{3}{3}$",
@@ -37097,7 +37097,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Số đường tiệm cận đứng của đồ thị hàm số $y = \\frac{x^2 - 3x + 2}{(x - 2)\\sin(4x)}$ trên khoảng $(0; \\pi)$ là:",
       "options": [
         "A. 1",
@@ -37119,7 +37119,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 77:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tiếp tuyến của đồ thị hàm số 4 3 2 1 x y x - = + cùng với 2 tiệm cận tạo thành một tam giác có diện tích bằng:",
       "options": [
         "A. 6 .",
@@ -37141,7 +37141,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\n2 1 0 P x y z - + - = . Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
       "question": "Giao điểm của mặt phẳng $(Q)$ với trục $Oz$ là điểm:",
       "options": [
         "A. K(0; 0; 2)",
@@ -37163,7 +37163,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\n2 1 0 P x y z - + - = . Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
       "question": "Vectơ chỉ phương của đường thẳng $d = (P) \\cap (Q)$ có dạng $\\vec{u} = (2; a; b)$. Tính $b - a$:",
       "options": [
         "A. 2",
@@ -37185,7 +37185,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Hoành độ điểm B là:",
       "options": [
         "A. 6",
@@ -37207,7 +37207,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Tổng hoành độ và tung độ của ' C là:",
       "options": [
         "A. 3 4 0 x y - + = .",
@@ -37229,7 +37229,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -37427,7 +37427,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 111:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
       "question": "VĐV nào không thể về đích cuối cùng, ngoại trừ?",
       "options": [
         "A. Q.",
@@ -39453,7 +39453,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 65:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 65:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Hoành độ điểm B là:",
       "options": [
         "A. 6",
@@ -39475,7 +39475,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 65:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 65:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Tổng hoành độ và tung độ của ' C là:",
       "options": [
         "A. 3 4 0 x y - + = .",
@@ -39497,7 +39497,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 65:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 65:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -39761,7 +39761,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 77 và 78:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
       "question": "Gọi $x$ là số kg ngô và $y$ là số kg đậu nành ($x, y \\ge 0$), $f(x, y)$ là hàm biểu diễn chi phí mua ngô và đậu nành (nghìn đồng):",
       "options": [
         "A. $f(x, y) = 8000x + 10000y$",
@@ -39783,7 +39783,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 77 và 78:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
       "question": "Chi phí thấp nhất để trộn hai loại thức ăn trên đồng thời đảm bảo đủ dinh dưỡng bằng bao nhiêu?",
       "options": [
         "A. $\\frac{4640}{11}$",
@@ -39805,7 +39805,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Số nghiệm của phương trình 2 2 3 86 19 3 16 0 x x x x - + - - + = là.",
       "options": [
         "A. 4.",
@@ -39827,7 +39827,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Một đoàn xe chở 290 tấn xi măng cho một công trình xây đập thủy điện. Đoàn xe có 57 chiếc gồm 3 loại: loại chở 3 tấn, xe chở 5 tấn và xe chở 7,5 tấn. Nếu dùng tất cả xe loại 7,5 tấn chở ba chuyến thì được số xi măng bằng tổng số xi măng do loại xe 5 tấn bở ba chuyến và loại xe 3 tấn chở hai chuyến. Hỏi số xe mỗi loại?",
       "options": [
         "A. 20 xe loại chở 3 tấn, 19 xe loại chở 5 tấn và 18 xe loại 7,5 tấn.",
@@ -39849,7 +39849,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Số giá trị nguyên của m để phương trình 2 4 1 x m - = + có bốn nghiệm phân biệt là:",
       "options": [
         "A. 4.",
@@ -39871,7 +39871,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Giá trị của tham số $m$ để phương trình $4^{x+1} - 2^{x+2} + m = 0$ có hai nghiệm $x_1, x_2$ thoả mãn $x_1 + x_2 = 1$ là:",
       "options": [
         "A. m = 2",
@@ -39893,7 +39893,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho các số thực $x, y$ thỏa mãn $4\\log_2^2\\left(x + \\frac{1}{x}\\right) = 14y - y^2 - 45$. Tính giá trị của biểu thức $P = x^2 + y^2 - 4xy + 5$:",
       "options": [
         "A. 2",
@@ -39915,7 +39915,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho hàm số $y = f(x)$ xác định và liên tục trên $\\mathbb{R}$, có bảng xét dấu đạo hàm như sau: $f'(x) > 0$ trên $(-\\infty; -1)$ và $(2; +\\infty)$, $f'(x) < 0$ trên $(-1; 2)$. Hàm số đã cho đạt cực đại tại điểm nào?",
       "options": [
         "A. x = -1",
@@ -39937,7 +39937,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Tìm tập xác định của hàm số $y = (x - 1)^{\\frac{1}{3}}$:",
       "options": [
         "A. $D = \\mathbb{R} \\setminus \\{1\\}$",
@@ -39959,7 +39959,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho tam giác $ABC$ nội tiếp đường tròn bán kính $R$, có $AB = R, AC = R\\sqrt{3}$. Tính góc $A$ biết góc $B$ là góc tù:",
       "options": [
         "A. $45^\\circ$",
@@ -39981,7 +39981,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho tam giác $ABC$ có $BC = 5$, $\\sin(A + B) = \\frac{1}{2}$, $\\cos(A - B) = \\frac{\\sqrt{3}}{2}$. Tính $AC$:",
       "options": [
         "A. 5 3 3",
@@ -40003,7 +40003,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Nghiệm của phương trình $8\\cos x \\sin 2x \\cos 4x = \\sqrt{2}$ là:",
       "options": [
         "A. $x = \\frac{\\pi}{32} + \\frac{k\\pi}{4} \\text{ hoặc } x = \\frac{3\\pi}{32} + \\frac{k\\pi}{4} \\; (k \\in \\mathbb{Z})$",
@@ -40025,7 +40025,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
         "A. 1 2 1 x y x - = + .",
@@ -40047,7 +40047,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Tìm tất cả các giá trị thực của tham số m sao cho đồ thị hàm số 2 2 1 1 x y m x m + = + - có bốn đường tiệm cận.",
       "options": [
         "A. 0 m > .",
@@ -40069,7 +40069,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Thông tin nào không nói về vai trò của người nhập cư trong nền kinh tế Canada?",
       "options": [
         "A. Đóng góp trực tiếp vào tăng trưởng GDP.",
@@ -40091,7 +40091,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Điều kiện nào giúp Canada duy trì lợi ích từ nhập cư lâu dài?",
       "options": [
         "A. Ưu tiên nhập cư phổ thông thay vì nhóm lao động có kỹ năng cao nhằm cân bằng cơ cấu ngành.",
@@ -40113,7 +40113,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Sự kết hợp giữa nhập cư và đa văn hóa mang lại ý nghĩa gì đối với quá trình phát triển của Canada trong thế kỷ XXI?",
       "options": [
         "A. Tạo nên môi trường kinh tế sáng tạo, nơi sự đa dạng văn hóa trở thành nguồn lực cho đổi mới và tăng trưởng bền vững.",
@@ -40135,7 +40135,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Mô hình hoạt động của Công ty S (lấy tiền của người đầu tư sau trả lãi cho người đầu tư trước) được xếp vào loại hình rủi ro nào dưới đây trong thị trường tài chính?",
       "options": [
         "A. Rủi ro thị trường.",
@@ -40157,7 +40157,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Việc Công ty S cam kết lợi nhuận cố định cao bất thường (30%/năm) đã vi trách nhiệm đạo đức nào dưới đây của người kinh doanh?",
       "options": [
         "A. Vi phạm trách nhiệm Trung thực.",
@@ -40179,7 +40179,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Trong trường hợp này, để bảo vệ quyền lợi cá nhân và tránh bị lừa đảo trong tương lai, Anh K nên thực hiện hành vi nào dưới đây?",
       "options": [
         "A. Tố cáo mọi công ty cam kết lợi nhuận cao trước khi đầu tư.",
@@ -40201,7 +40201,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Phòng thí nghiệm nào đang tiến hành thí nghiệm Màu Đỏ?",
       "options": [
         "A. Phòng 1.",
@@ -40223,7 +40223,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Lấy tổng số phòng thí nghiệm của người tiến hành thí nghiệm Màu Đỏ và Màu Cam. So sánh kết quả này với tổng số mẫu vật của người ở Phòng 2 và Phòng 4. Mối quan hệ nào sau đây là đúng?",
       "options": [
         "A. Tổng số phòng lớn hơn tổng số mẫu vật.",
@@ -40245,7 +40245,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 99:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Nếu số mãu vật của P chia hết cho số phòng thì Q dùng bao nhiêu mẫu vật?",
       "options": [
         "A. 11",
@@ -47665,7 +47665,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho đồ thị hàm số $y = f(x)$ như hình vẽ. Mệnh đề nào sau đây đúng?",
       "options": [
         "A. $\\text{Hàm số nghịch biến trên } (0; 2)$",
@@ -47687,7 +47687,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
       "options": [
         "A. 1 0 x y - - =",
@@ -47709,7 +47709,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Điểm $M(a; b)$ thuộc đường thẳng $y = 3x - 2$ sao cho tổng khoảng cách từ $M$ đến hai điểm cực trị nhỏ nhất. Giá trị nhỏ nhất đó bằng:",
       "options": [
         "A. $4\\sqrt{5}$",
@@ -47731,7 +47731,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Một lớp học có tất cả học sinh đều học tiếng Anh hoặc tiếng Pháp. Trong đó, có 25 học sinh học tiếng Anh, 20 học sinh học tiếng Pháp và 8 học sinh học cả tiếng Anh và tiếng Pháp. Tổng số học sinh của lớp học đó là:",
       "options": [
         "A. 37.",
@@ -47753,7 +47753,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Đặt a = log_27(5), b = log_8(7), c = log_2(3). Khi đó giá trị của log_12(35) được biểu diễn theo a, b, c là:",
       "options": [
         "A. (3ac + 3b) / (1 + c)",
@@ -47775,7 +47775,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Biết rằng $\\lim_{x \\to +\\infty} \\left(\\sqrt{x^2 + ax + 1} - bx\\right) = 2$. Giá trị của $P = ab$ là:",
       "options": [
         "A. P = 4",
@@ -47797,7 +47797,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho hàm số f(x) = x^2 - 2x + 1. Đạo hàm của hàm số tại điểm x = 1 là:",
       "options": [
         "A. f'(1) = 1",
@@ -47819,7 +47819,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho hàm số $y = f(x)$ xác định trên $\\mathbb{R}$ và có $f'(x) = x(x + 1)^3(x - 2)^5$. Số điểm cực tiểu của hàm số là:",
       "options": [
         "A. 1",
@@ -47841,7 +47841,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Số đường tiệm cận của đồ thị hàm số 2 2 4 3 4 x x y x - + = - là:",
       "options": [
         "A. 1.",
@@ -47863,7 +47863,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Với $m = 3$, giá trị lớn nhất của hàm số $y = f(x)$ trên đoạn $[0; 3]$ là:",
       "options": [
         "A. 5",
@@ -47885,7 +47885,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Hàm số $y = f(x)$ nghịch biến trên khoảng $(1; 3)$ khi và chỉ khi:",
       "options": [
         "A. $m \\ge 1$",
@@ -47907,7 +47907,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Đường thẳng $y = 1$ cắt đồ thị hàm số $y = f(x)$ tại hai điểm phân biệt có hoành độ lớn hơn 2 khi và chỉ khi:",
       "options": [
         "A. m > 3",
@@ -47929,7 +47929,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Ta có công sai $d$ của cấp số cộng $(u_n)$ là:",
       "options": [
         "A. d = 2",
@@ -47951,7 +47951,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho cấp số cộng (u_n) thỏa mãn u_2 + u_6 = 18 và u_3 + u_7 = 22. Giá trị của số hạng đầu u_1 và công sai d là:",
       "options": [
         "A. u_1 = 3, d = 2",
@@ -47973,7 +47973,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Nếu bác nông dân trồng x (ha) lúa và y (ha) khoai thì số ki-lô-gam phân bón cần sử dụng là biểu thức nào sau đây?",
       "options": [
         "A. 20x + 10y (kg)",
@@ -47995,7 +47995,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Chủ tịch Hồ Chí Minh đã tìm đến chủ nghĩa nào để làm cẩm nang cho con đường giải phóng dân tộc?",
       "options": [
         "A. Chủ nghĩa tư bản.",
@@ -48017,7 +48017,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Việc truyền bá chủ nghĩa Mác - Lênin vào phong trào công nhân và yêu nước Việt Nam đã giúp Hồ Chí Minh chuẩn bị về những yếu tố nào cho cách mạng?",
       "options": [
         "A. Văn hóa và nghệ thuật.",
@@ -48039,7 +48039,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Vận dụng tư tưởng “thức tỉnh tinh thần của một dân tộc” của Hồ Chí Minh vào bối cảnh hiện nay, nhiệm vụ trọng yếu của công tác tư tưởng Đảng là gì?",
       "options": [
         "A. Đẩy mạnh giáo dục chủ nghĩa Mác - Lênin theo phương pháp truyền thống nhằm tạo sự đồng thuận tuyệt đối trong tư tưởng.",
@@ -52861,7 +52861,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\n\\nTrong không gian với hệ tọa độ $Oxyz$, cho điểm $A(2; 2; 3)$ và hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n\\nTrong không gian với hệ tọa độ $Oxyz$, cho điểm $A(2; 2; 3)$ và hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Khoảng cách từ điểm A đến mặt phẳng (P) bằng:",
       "options": [
         "A. 3.",
@@ -55679,7 +55679,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n2 2 12 0 x y z \\alpha + + - = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n$x^2 + y^2 + z^2 + \\alpha z - 12 = 0$.",
       "question": "Phương trình tổng quát đường cao kẻ từ $C$ có dạng $ax - y + b = 0$. Tính $a + b$:",
       "options": [
         "A. 2",
@@ -55701,7 +55701,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n2 2 12 0 x y z \\alpha + + - = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n$x^2 + y^2 + z^2 + \\alpha z - 12 = 0$.",
       "question": "Tổng bình phương hoành độ và tung độ của điểm A gần nhất là?",
       "options": [
         "A. 141, 5",
@@ -58233,7 +58233,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76 Một xưởng chế tạo hai loại sản phẩm X và Y. Mỗi sản phẩm X cần 2 giờ gia công và 1 đơn vị nguyên liệu A; mỗi sản phẩm Y cần 1 giờ gia công và 2 đơn vị nguyên liệu A. Xưởng có tối đa 40 giờ gia công và 36 đơn vị nguyên liệu A trong một tuần. Số lượng sản phẩm X và Y phải là số nguyên không âm.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi Một xưởng chế tạo hai loại sản phẩm X và Y. Mỗi sản phẩm X cần 2 giờ gia công và 1 đơn vị nguyên liệu A; mỗi sản phẩm Y cần 1 giờ gia công và 2 đơn vị nguyên liệu A. Xưởng có tối đa 40 giờ gia công và 36 đơn vị nguyên liệu A trong một tuần. Số lượng sản phẩm X và Y phải là số nguyên không âm.",
       "question": "Tìm số nguyên $m$ để bất phương trình $\\log_2(4x + m) \\le x + 2$ có đúng 3 nghiệm nguyên.",
       "options": [
         "A. $m = -1$",
@@ -59179,7 +59179,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 119:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
       "question": "Để giảm hàm lượng Mg2+ trong mẫu nước trên, người ta có thể sử dụng các vật liệu polime có khả năng trao đổi cation. Nhưng sau một thời gian sử dụng, các hạt nhựa trao đổi ion không còn khả năng hút ion Mg2+ từ nước cứng. Ý nào dưới đây có thể là nguyên nhân và cách khắc phục?",
       "options": [
         "A. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách sục khí CO2 đến dư vào để hòa tan kết tủa.",
@@ -61095,7 +61095,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nDựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87 Một khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm đáy bằng 8 (đơn vị).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm đáy bằng 8 (đơn vị).",
       "question": "Biết sin cot cot 4 sin sin 4 x kx x x x - = với mọi x để các biểu thức có nghĩa. Lúc đó giá trị của k là",
       "options": [
         "A. $\\frac{5}{4}$",
@@ -61117,7 +61117,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nDựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87 Một khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm đáy bằng 8 (đơn vị).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm đáy bằng 8 (đơn vị).",
       "question": "Cho hàm số $f(x) = 5^{x^3} \\cdot 8^{x^2}$. Khẳng định nào sau đây là khẳng định sai?",
       "options": [
         "A. $f(x) \\le 1 \\Leftrightarrow x^3 \\log_2 5 + 2x \\le 0$",
@@ -61799,7 +61799,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nDựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120 An và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời câu 118:\nAn và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
       "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất? A. A, B, D. B. A, G, E. C. A, C, D. D. A, B, E.",
       "options": [
         "A. Phương án A",
@@ -63583,7 +63583,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 79 và 80:\n1 2 1 2 4 3 1 : , : . 2 3 1 1 1 2 x y z x y z d d - + - - + = = = = - - Đường thẳng d đi qua A , vuông góc với 1 d và cắt 2 d . Mặt phẳng ( ) P đi qua gốc tọa độ O và chứa đường thẳng d .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 79 và 80:\n$d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$, $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$. Đường thẳng $d$ đi qua $A$, vuông góc với $d_1$ và cắt $d_2$. Mặt phẳng $(P)$ đi qua gốc tọa độ $O$ và chứa đường thẳng $d$.",
       "question": "Vectơ chỉ phương của $d$ có dạng $\\vec{u} = (-2; m; n)$. Tính $m + n$:",
       "options": [
         "A. 7",
@@ -63605,7 +63605,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 79 và 80:\n1 2 1 2 4 3 1 : , : . 2 3 1 1 1 2 x y z x y z d d - + - - + = = = = - - Đường thẳng d đi qua A , vuông góc với 1 d và cắt 2 d . Mặt phẳng ( ) P đi qua gốc tọa độ O và chứa đường thẳng d .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 79 và 80:\n$d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$, $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$. Đường thẳng $d$ đi qua $A$, vuông góc với $d_1$ và cắt $d_2$. Mặt phẳng $(P)$ đi qua gốc tọa độ $O$ và chứa đường thẳng $d$.",
       "question": "Mặt phẳng $(P)$ có vectơ pháp tuyến $\\vec{n}_P = (a; b; 1)$. Tính $a^2 + b^2$:",
       "options": [
         "A. 135",
@@ -63627,7 +63627,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 81 đến 83:\n3 2 x at y b t = + = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 81 đến 83:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Tính giá trị a b -",
       "options": [
         "A. 2 -",
@@ -63649,7 +63649,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 81 đến 83:\n3 2 x at y b t = + = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 81 đến 83:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Tọa độ tâm $I$ của đường tròn là:",
       "options": [
         "A. I(5; 1)",
@@ -63671,7 +63671,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 81 đến 83:\n3 2 x at y b t = + = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 81 đến 83:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Hoành độ giao điểm của tiếp tuyến với đường tròn $(C)$ tại điểm $B$ với trục hoành là:",
       "options": [
         "A. -2",
@@ -65851,7 +65851,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 62 và 63:\n1 2 1 2 4 3 1 : , : . 2 3 1 1 1 2 x y z x y z d d - + - - + = = = = - - Đường thẳng d đi qua A , vuông góc với 1 d và cắt 2 d . Mặt phẳng ( ) P đi qua gốc tọa độ O và chứa đường thẳng d .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 62 và 63:\n$d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$, $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$. Đường thẳng $d$ đi qua $A$, vuông góc với $d_1$ và cắt $d_2$. Mặt phẳng $(P)$ đi qua gốc tọa độ $O$ và chứa đường thẳng $d$.",
       "question": "Vectơ chỉ phương của $d$ có dạng $\\vec{u} = (-2; m; n)$. Tính $m + n$:",
       "options": [
         "A. 7",
@@ -65873,7 +65873,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 62 và 63:\n1 2 1 2 4 3 1 : , : . 2 3 1 1 1 2 x y z x y z d d - + - - + = = = = - - Đường thẳng d đi qua A , vuông góc với 1 d và cắt 2 d . Mặt phẳng ( ) P đi qua gốc tọa độ O và chứa đường thẳng d .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 62 và 63:\n$d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$, $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$. Đường thẳng $d$ đi qua $A$, vuông góc với $d_1$ và cắt $d_2$. Mặt phẳng $(P)$ đi qua gốc tọa độ $O$ và chứa đường thẳng $d$.",
       "question": "Mặt phẳng $(P)$ có vectơ pháp tuyến $\\vec{n}_P = (a; b; 1)$. Tính $a^2 + b^2$:",
       "options": [
         "A. 135",
@@ -65895,7 +65895,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 64 đến 66:\n3 2 x at y b t = + = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 64 đến 66:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Tính giá trị a b -",
       "options": [
         "A. 2 -",
@@ -65917,7 +65917,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 64 đến 66:\n3 2 x at y b t = + = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 64 đến 66:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Tọa độ tâm $I$ của đường tròn là:",
       "options": [
         "A. I(5; 1)",
@@ -65939,7 +65939,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 64 đến 66:\n3 2 x at y b t = + = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 64 đến 66:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Hoành độ giao điểm của tiếp tuyến với đường tròn $(C)$ tại điểm $B$ với trục hoành là:",
       "options": [
         "A. -2",
@@ -66181,7 +66181,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Với $m = 0$, phương trình $f(x) = 2$ có bao nhiêu nghiệm phân biệt?",
       "options": [
         "A. 0",
@@ -66203,7 +66203,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Tổng các giá trị $m$ nguyên thuộc đoạn $[-5; 5]$ để hàm số có hai điểm cực trị là:",
       "options": [
         "A. 0",
@@ -66225,7 +66225,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Tính tổng các giá trị nguyên dương của $m$ để $(C)$ có hai điểm cực trị $A, B$ sao cho tam giác $ABC$ có diện tích bằng 4:",
       "options": [
         "A. 6",
@@ -66247,7 +66247,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Phương trình: 3 2 1 1 3 1 3 x x x x x x + + + = + + - + + có bao nhiêu nghiệm?",
       "options": [
         "A. 0 .",
@@ -66269,7 +66269,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Hệ phương trình $\\begin{cases} x^3 + 2x = y^3 + 2y \\\\ x^2 + y^2 = 2xy + 3 \\end{cases}$ có bao nhiêu nghiệm?",
       "options": [
         "A. 3",
@@ -66291,7 +66291,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Để phương trình $3^{x^2 + 2x} - (2m - 1) \\cdot 3^{x^2 + x} + m - 2 = 0$ có nghiệm thì $m \\in [a; b] \\setminus \\{c\\}$. Tính $a + b + c$:",
       "options": [
         "A. 10",
@@ -66313,7 +66313,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Có bao nhiêu giá trị nguyên $m \\in [-2021; 2021]$ để phương trình $\\log_2(10m - x) = 2^x + m$ có nghiệm thực?",
       "options": [
         "A. 2012",
@@ -66335,7 +66335,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho $a, b > 0$, $a \\ne 1$ thỏa mãn $\\log_a b = \\frac{b}{4}$ và $\\log_2 a = \\frac{16}{b}$. Tổng $a + b$ bằng:",
       "options": [
         "A. 12 .",
@@ -66357,7 +66357,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Trong các hàm số được cho dưới đây, hàm số nào có tập xác định là $D = \\mathbb{R}$?",
       "options": [
         "A. $y = \\ln(x^2 - 1)$",
@@ -66379,7 +66379,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\sqrt{6} - \\sqrt{2}$",
@@ -66401,7 +66401,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho ; ;c a b là độ dài 3 cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
       "options": [
         "A. 2 a ab ac < +",
@@ -66423,7 +66423,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Số nghiệm trong đoạn $[0; 2\\pi]$ của phương trình $2\\cos^2 x - 2\\sin 2x = -1$ là:",
       "options": [
         "A. 2",
@@ -66445,7 +66445,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
         "A. 2 3 1 x x y x - = - .",
@@ -66467,7 +66467,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Cho $f(x)$ là hàm số bậc 3, biết hàm số đạt cực đại tại $x = 3$ và đạt cực tiểu tại $x = -2$. Tổng số đường tiệm cận của đồ thị hàm số $y = \\frac{1}{f(x)}$ là:",
       "options": [
         "A. 5",
@@ -66489,7 +66489,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Nếu ta dùng NaCl thay cho ethylene glycol với cùng nồng độ molan, ΔTF sẽ:",
       "options": [
         "A. Bằng nhau",
@@ -66511,7 +66511,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 2 3 4 2 y x mx m = - + - có đồ thị ( ) C và điểm ( ) 1;4 C .",
+      "passage": null,
       "question": "Hòa tan 100g ethylene glycol ( 62, 07 / = M g mol ) vào 400g nước. Nhiệt độ đông đặc của dung dịch thu được là bao nhiêu độ C?",
       "options": [
         "A. -5,5 oC.",
@@ -74305,7 +74305,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tìm $m$ để tâm đối xứng $I$ của đồ thị $(C)$ thuộc đường thẳng $x - 3y + 3 = 0$:",
       "options": [
         "A. $m \\in \\left(\\frac{1}{2}; \\frac{3}{2}\\right)$",
@@ -74327,7 +74327,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Phương trình tiếp tuyến của đồ thị $(C)$ tại giao điểm của ( C ) và trục tung là.",
       "options": [
         "A. $y = -2$",
@@ -74349,7 +74349,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tổng các giá trị của m để đồ thị hàm số ( C ) có hai điểm cực trị , A B sao cho diện tích tam giác OAB bằng 2 ( O là gốc tọa độ) là",
       "options": [
         "A. 1.",
@@ -74371,7 +74371,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Số các nghiệm nguyên dương của phương trình $3^{x+2} - 5^{x+2} = 5^x - 3^x$ là:",
       "options": [
         "A. 0",
@@ -74393,7 +74393,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $(x + 1)(mx + 2) = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
       "options": [
         "A. 2",
@@ -74415,7 +74415,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Thầy Dũng mua chocolate về khao nhân sự, thầy chọn một loại bất kì và thanh toán cho cửa hàng 284,24 nghìn VND. Nếu thầy chỉ mua 17 viên loại đó thì loại chocolate mà thầy chọn là?",
       "options": [
         "A. Hạnh nhân",
@@ -74437,7 +74437,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Câu lạc bộ Wanna Win (WW) mua socola về khao nhân sự, WW chọn 3 loại Hạnh nhân, Hạt dẻ cười và Matcha. Trong đó, Matcha được mua lẻ (không mua theo hộp), Hạt dẻ cười 5 hộp và Hạnh nhân 3 hộp. WW được voucher giảm giá 20% (tối đa 200 nghìn VND) trên giá gốc. Biết rằng WW đã thanh toán cho thương hiệu này 3088,44 nghìn VND. WW mua lẻ loại matcha mấy viên?",
       "options": [
         "A. Mua lẻ 15 viên",
@@ -74459,7 +74459,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Khi chuẩn độ một dung dịch vitamin C theo các bước như thí nghiệm 1 cần 31 giọt dung dịch I2 đến khi chất chỉ thị đổi màu. Nồng độ dung dịch vitamin C này (mg/mL) có giá trị gần nhất với giá trị nào sau đây?",
       "options": [
         "A. 0,30.",
@@ -74481,7 +74481,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Dựa trên kết quả của Thí nghiệm 1 và 2, nồng độ vitamin C trong nước ép lemon gần nhất với nồng độ nào sau đây?",
       "options": [
         "A. 0,10 mg/mL.",
@@ -74503,7 +74503,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Dựa trên kết quả của Thí nghiệm 1, khối lượng của vitamin C trong 1,0 mL mẫu đã phản ứng với mỗi giọt dung dịch I2 xấp xỉ là bao nhiêu?",
       "options": [
         "A. 0,02 mg.",
@@ -74525,7 +74525,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 96:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cơ chế tạo ra dòng điện trong pin mặt trời dựa trên",
       "options": [
         "A. Hiện tượng cảm ứng điện từ.",
@@ -75053,7 +75053,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 120:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": null,
       "question": "Gọi a là giá trị trung bình mỗi năm thay đổi loại Bacopa; b là giá trị trung bình mỗi năm thay đổi của loại Schisandra. Giá trị a như thế nào so với b?",
       "options": [
         "A. ít hơn 23,33%",
@@ -76573,7 +76573,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tìm $m$ để tâm đối xứng $I$ của đồ thị $(C)$ thuộc đường thẳng $x - 3y + 3 = 0$:",
       "options": [
         "A. $m \\in \\left(\\frac{1}{2}; \\frac{3}{2}\\right)$",
@@ -76595,7 +76595,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Phương trình tiếp tuyến của đồ thị $(C)$ tại giao điểm của ( C ) và trục tung là.",
       "options": [
         "A. $y = -2$",
@@ -76617,7 +76617,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tổng các giá trị của m để đồ thị hàm số ( C ) có hai điểm cực trị , A B sao cho diện tích tam giác OAB bằng 2 ( O là gốc tọa độ) là",
       "options": [
         "A. 1.",
@@ -76639,7 +76639,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Số các nghiệm nguyên dương của phương trình $3^{x+2} - 5^{x+2} = 5^x - 3^x$ là:",
       "options": [
         "A. 0",
@@ -76661,7 +76661,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $(x + 1)(mx + 2) = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
       "options": [
         "A. 2",
@@ -76683,7 +76683,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Trong một cuộc thi có 50 câu hỏi. Mỗi câu trả lời đúng được 20 điểm, còn trả lời sai bị trừ 15 điểm. Một học sinh được tất cả 650 điểm. Hỏi bạn đó trả lời được mấy câu đúng?",
       "options": [
         "A. 29",
@@ -76705,7 +76705,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho $a = \\frac{1}{2}$ và $(a + 1)(b + 1) = 2$; đặt $\\tan x = a, \\tan y = b$ với $x, y \\in \\left(0; \\frac{\\pi}{2}\\right)$. Tính $x + y$:",
       "options": [
         "A. $\\frac{\\pi}{3}$",
@@ -76727,7 +76727,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Dãy số $(u_n)$ nào sau đây có giới hạn khác số 1 khi $n \\to +\\infty$?",
       "options": [
         "A. $u_n = \\frac{n^{2018} - (n - 1)^{2018}}{n^{2017}}$",
@@ -76749,7 +76749,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho ba số thực dương a , b , c đều khác 1 thỏa mãn log 2log 4log a b c b c a = = và 2 3 48 a b c + + = . Khi đó P abc = bằng bao nhiêu?",
       "options": [
         "A. 324 .",
@@ -76771,7 +76771,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho $n$ là số nguyên dương và $a > 0$, $a \\ne 1$. Tìm $n$ sao cho $\\log_a 2019 + \\log_{a^2} 2019 + \\log_{a^3} 2019 + \\dots + \\log_{a^n} 2019 = 2033136 \\log_a 2019$.",
       "options": [
         "A. $n = 2017$",
@@ -76793,7 +76793,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tìm tập xác định của hàm số $y = \\log_2(2x - 1)$:",
       "options": [
         "A. $D = \\left(-\\infty; \\frac{1}{2}\\right)$",
@@ -76815,7 +76815,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. 7 3 cm 3 .",
@@ -76837,7 +76837,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^\\circ$. Tính $BC$:",
       "options": [
         "A. $\\frac{3}{3}$",
@@ -76859,7 +76859,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Số đường tiệm cận đứng của đồ thị hàm số $y = \\frac{x^2 - 3x + 2}{(x - 2)\\sin(4x)}$ trên khoảng $(0; \\pi)$ là:",
       "options": [
         "A. 1",
@@ -76881,7 +76881,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số 3 2 3 2 y x mx = + + có đồ thị ( ) C , với m là tham số thực.",
+      "passage": null,
       "question": "Tiếp tuyến của đồ thị hàm số 4 3 2 1 x y x - = + cùng với 2 tiệm cận tạo thành một tam giác có diện tích bằng:",
       "options": [
         "A. 6 .",
@@ -76903,7 +76903,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 84 và 85:\n2 1 0 P x y z - + - = . Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 84 và 85:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
       "question": "Giao điểm của mặt phẳng $(Q)$ với trục $Oz$ là điểm:",
       "options": [
         "A. K(0; 0; 2)",
@@ -76925,7 +76925,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 84 và 85:\n2 1 0 P x y z - + - = . Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 84 và 85:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
       "question": "Vectơ chỉ phương của đường thẳng $d = (P) \\cap (Q)$ có dạng $\\vec{u} = (2; a; b)$. Tính $b - a$:",
       "options": [
         "A. 2",
@@ -76947,7 +76947,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Hoành độ điểm B là:",
       "options": [
         "A. 6",
@@ -76969,7 +76969,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Tổng hoành độ và tung độ của ' C là:",
       "options": [
         "A. 3 4 0 x y - + = .",
@@ -76991,7 +76991,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -79171,7 +79171,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 67 và 68:\n2 1 0 P x y z - + - = . Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 67 và 68:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
       "question": "Giao điểm của mặt phẳng $(Q)$ với trục $Oz$ là điểm:",
       "options": [
         "A. K(0; 0; 2)",
@@ -79193,7 +79193,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 67 và 68:\n2 1 0 P x y z - + - = . Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 67 và 68:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
       "question": "Vectơ chỉ phương của đường thẳng $d = (P) \\cap (Q)$ có dạng $\\vec{u} = (2; a; b)$. Tính $b - a$:",
       "options": [
         "A. 2",
@@ -79215,7 +79215,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 71:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 71:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Hoành độ điểm B là:",
       "options": [
         "A. 6",
@@ -79237,7 +79237,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 71:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 71:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Tổng hoành độ và tung độ của ' C là:",
       "options": [
         "A. 3 4 0 x y - + = .",
@@ -79259,7 +79259,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 71:\n6 0 BD x y + - = . Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 71:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -79523,7 +79523,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Gọi $x$ là số kg ngô và $y$ là số kg đậu nành ($x, y \\ge 0$), $f(x, y)$ là hàm biểu diễn chi phí mua ngô và đậu nành (nghìn đồng):",
       "options": [
         "A. $f(x, y) = 8000x + 10000y$",
@@ -79545,7 +79545,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Chi phí thấp nhất để trộn hai loại thức ăn trên đồng thời đảm bảo đủ dinh dưỡng bằng bao nhiêu?",
       "options": [
         "A. $\\frac{4640}{11}$",
@@ -79567,7 +79567,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Số nghiệm của phương trình 2 2 3 86 19 3 16 0 x x x x - + - - + = là.",
       "options": [
         "A. 4.",
@@ -79589,7 +79589,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Một đoàn xe chở 290 tấn xi măng cho một công trình xây đập thủy điện. Đoàn xe có 57 chiếc gồm 3 loại: loại chở 3 tấn, xe chở 5 tấn và xe chở 7,5 tấn. Nếu dùng tất cả xe loại 7,5 tấn chở ba chuyến thì được số xi măng bằng tổng số xi măng do loại xe 5 tấn bở ba chuyến và loại xe 3 tấn chở hai chuyến. Hỏi số xe mỗi loại?",
       "options": [
         "A. 20 xe loại chở 3 tấn, 19 xe loại chở 5 tấn và 18 xe loại 7,5 tấn.",
@@ -79611,7 +79611,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Số giá trị nguyên của m để phương trình 2 4 1 x m - = + có bốn nghiệm phân biệt là:",
       "options": [
         "A. 4.",
@@ -79633,7 +79633,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Giá trị của tham số $m$ để phương trình $4^{x+1} - 2^{x+2} + m = 0$ có hai nghiệm $x_1, x_2$ thoả mãn $x_1 + x_2 = 1$ là:",
       "options": [
         "A. m = 2",
@@ -79655,7 +79655,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho các số thực $x, y$ thỏa mãn $4\\log_2^2\\left(x + \\frac{1}{x}\\right) = 14y - y^2 - 45$. Tính giá trị của biểu thức $P = x^2 + y^2 - 4xy + 5$:",
       "options": [
         "A. 2",
@@ -79677,7 +79677,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho hàm số $y = f(x)$ xác định và liên tục trên $\\mathbb{R}$, có bảng xét dấu đạo hàm như sau: $f'(x) > 0$ trên $(-\\infty; -1)$ và $(2; +\\infty)$, $f'(x) < 0$ trên $(-1; 2)$. Hàm số đã cho đạt cực đại tại điểm nào?",
       "options": [
         "A. x = -1",
@@ -79699,7 +79699,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Chất nào sau đây không phải là cơ chất (nguyên liệu) của RuBisCo?",
       "options": [
         "A. Ribulose-1,5-bisphosphate (RuBP).",
@@ -79721,7 +79721,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Tại sao trong điều kiện cường độ ánh sáng mạnh, thực vật C4 không xảy ra hô hấp sáng?",
       "options": [
         "A. Không có chu trình calvin và RuBisCo.",
@@ -79743,7 +79743,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Có bao nhiêu phát biểu sau đây là đúng khi nói về quá trình hô hấp sáng ở thực vật C3? I. Có cơ chất đầu tiên của chuỗi phản ứng là O2 và RuBP. II. Diễn ra qua 3 bào quan lục lạp, peroxysome và ti thể. II. Tạo ra ATP và giải phóng CO2 IV. Làm tiêu hao sản phẩm quang hợp.",
       "options": [
         "A. 1.",
@@ -81791,7 +81791,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Gọi $x$ là số kg ngô và $y$ là số kg đậu nành ($x, y \\ge 0$), $f(x, y)$ là hàm biểu diễn chi phí mua ngô và đậu nành (nghìn đồng):",
       "options": [
         "A. $f(x, y) = 8000x + 10000y$",
@@ -81813,7 +81813,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Chi phí thấp nhất để trộn hai loại thức ăn trên đồng thời đảm bảo đủ dinh dưỡng bằng bao nhiêu?",
       "options": [
         "A. $\\frac{4640}{11}$",
@@ -81835,7 +81835,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Số nghiệm của phương trình 2 2 3 86 19 3 16 0 x x x x - + - - + = là.",
       "options": [
         "A. 4.",
@@ -81857,7 +81857,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Một đoàn xe chở 290 tấn xi măng cho một công trình xây đập thủy điện. Đoàn xe có 57 chiếc gồm 3 loại: loại chở 3 tấn, xe chở 5 tấn và xe chở 7,5 tấn. Nếu dùng tất cả xe loại 7,5 tấn chở ba chuyến thì được số xi măng bằng tổng số xi măng do loại xe 5 tấn bở ba chuyến và loại xe 3 tấn chở hai chuyến. Hỏi số xe mỗi loại?",
       "options": [
         "A. 20 xe loại chở 3 tấn, 19 xe loại chở 5 tấn và 18 xe loại 7,5 tấn.",
@@ -81879,7 +81879,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Số giá trị nguyên của m để phương trình 2 4 1 x m - = + có bốn nghiệm phân biệt là:",
       "options": [
         "A. 4.",
@@ -81901,7 +81901,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Giá trị của tham số $m$ để phương trình $4^{x+1} - 2^{x+2} + m = 0$ có hai nghiệm $x_1, x_2$ thoả mãn $x_1 + x_2 = 1$ là:",
       "options": [
         "A. m = 2",
@@ -81923,7 +81923,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho các số thực $x, y$ thỏa mãn $4\\log_2^2\\left(x + \\frac{1}{x}\\right) = 14y - y^2 - 45$. Tính giá trị của biểu thức $P = x^2 + y^2 - 4xy + 5$:",
       "options": [
         "A. 2",
@@ -81945,7 +81945,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho hàm số $y = f(x)$ xác định và liên tục trên $\\mathbb{R}$, có bảng xét dấu đạo hàm như sau: $f'(x) > 0$ trên $(-\\infty; -1)$ và $(2; +\\infty)$, $f'(x) < 0$ trên $(-1; 2)$. Hàm số đã cho đạt cực đại tại điểm nào?",
       "options": [
         "A. x = -1",
@@ -81967,7 +81967,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Tìm tập xác định của hàm số $y = (x - 1)^{\\frac{1}{3}}$:",
       "options": [
         "A. $D = \\mathbb{R} \\setminus \\{1\\}$",
@@ -81989,7 +81989,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho tam giác $ABC$ nội tiếp đường tròn bán kính $R$, có $AB = R, AC = R\\sqrt{3}$. Tính góc $A$ biết góc $B$ là góc tù:",
       "options": [
         "A. $45^\\circ$",
@@ -82011,7 +82011,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho tam giác $ABC$ có $BC = 5$, $\\sin(A + B) = \\frac{1}{2}$, $\\cos(A - B) = \\frac{\\sqrt{3}}{2}$. Tính $AC$:",
       "options": [
         "A. 5 3 3",
@@ -82033,7 +82033,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Nghiệm của phương trình $8\\cos x \\sin 2x \\cos 4x = \\sqrt{2}$ là:",
       "options": [
         "A. $x = \\frac{\\pi}{32} + \\frac{k\\pi}{4} \\text{ hoặc } x = \\frac{3\\pi}{32} + \\frac{k\\pi}{4} \\; (k \\in \\mathbb{Z})$",
@@ -82055,7 +82055,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
         "A. 1 2 1 x y x - = + .",
@@ -82077,7 +82077,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Tìm tất cả các giá trị thực của tham số m sao cho đồ thị hàm số 2 2 1 1 x y m x m + = + - có bốn đường tiệm cận.",
       "options": [
         "A. 0 m > .",
@@ -82099,7 +82099,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 80:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": null,
       "question": "Cho $A = \\lim_{x \\to 2} (x^2 - 3x + 1)$ và $B = \\lim_{x \\to 2} \\frac{x^2 - 5x + 6}{x - 2}$. Kết luận nào sau đây đúng?",
       "options": [
         "A. A = -B",
@@ -87427,7 +87427,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho đồ thị hàm số $y = f(x)$ như hình vẽ. Mệnh đề nào sau đây đúng?",
       "options": [
         "A. $\\text{Hàm số nghịch biến trên } (0; 2)$",
@@ -87449,7 +87449,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
       "options": [
         "A. 1 0 x y - - =",
@@ -87471,7 +87471,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Điểm $M(a; b)$ thuộc đường thẳng $y = 3x - 2$ sao cho tổng khoảng cách từ $M$ đến hai điểm cực trị nhỏ nhất. Giá trị nhỏ nhất đó bằng:",
       "options": [
         "A. $4\\sqrt{5}$",
@@ -87493,7 +87493,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Một lớp học có tất cả học sinh đều học tiếng Anh hoặc tiếng Pháp. Trong đó, có 25 học sinh học tiếng Anh, 20 học sinh học tiếng Pháp và 8 học sinh học cả tiếng Anh và tiếng Pháp. Tổng số học sinh của lớp học đó là:",
       "options": [
         "A. 37.",
@@ -87515,7 +87515,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Đặt a = log_27(5), b = log_8(7), c = log_2(3). Khi đó giá trị của log_12(35) được biểu diễn theo a, b, c là:",
       "options": [
         "A. (3ac + 3b) / (1 + c)",
@@ -87537,7 +87537,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Biết rằng $\\lim_{x \\to +\\infty} \\left(\\sqrt{x^2 + ax + 1} - bx\\right) = 2$. Giá trị của $P = ab$ là:",
       "options": [
         "A. P = 4",
@@ -87559,7 +87559,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho hàm số f(x) = x^2 - 2x + 1. Đạo hàm của hàm số tại điểm x = 1 là:",
       "options": [
         "A. f'(1) = 1",
@@ -87581,7 +87581,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho hàm số $y = f(x)$ xác định trên $\\mathbb{R}$ và có $f'(x) = x(x + 1)^3(x - 2)^5$. Số điểm cực tiểu của hàm số là:",
       "options": [
         "A. 1",
@@ -87603,7 +87603,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Số đường tiệm cận của đồ thị hàm số 2 2 4 3 4 x x y x - + = - là:",
       "options": [
         "A. 1.",
@@ -87625,7 +87625,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Lực đẩy của tên lửa ion trong chân không được tạo ra nhờ",
       "options": [
         "A. Áp suất của khí nóng sinh ra khi đốt nhiên liệu.",
@@ -87647,7 +87647,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Xét các phát biểu sau về động cơ tên lửa ion: (1) Động cơ ion chỉ hoạt động được trong môi trường có không khí. (2) Vận tốc phụt của ion càng lớn thì lực đẩy càng mạnh. (3) Nguồn năng lượng điện của động cơ ion thường là pin mặt trời. (4) So với tên lửa hóa học, động cơ ion tiêu tốn ít nhiên liệu hơn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -87669,7 +87669,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 93:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Một động cơ ion phóng ra các ion xenon với vận tốc $v = 3{,}0 \\times 10^4\\text{ m/s}$, khối lượng phóng ra mỗi giây là $2{,}0 \\times 10^{-5}\\text{ kg/s}$. Lực đẩy do động cơ tạo ra là:",
       "options": [
         "A. $0{,}3\\text{ N}$",
@@ -89695,7 +89695,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 67:\nCho hàm số $f(x) = x^3 - 3x + 2$ có đồ thị $(C)$.",
       "question": "Cho đồ thị hàm số $y = f(x)$ như hình vẽ. Mệnh đề nào sau đây đúng?",
       "options": [
         "A. $\\text{Hàm số nghịch biến trên } (0; 2)$",
@@ -89717,7 +89717,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 67:\nCho hàm số $f(x) = x^3 - 3x + 2$ có đồ thị $(C)$.",
       "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
       "options": [
         "A. 1 0 x y - - =",
@@ -89739,7 +89739,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 67:\nCho hàm số $f(x) = x^3 - 3x + 2$ có đồ thị $(C)$.",
       "question": "Điểm $M(a; b)$ thuộc đường thẳng $y = 3x - 2$ sao cho tổng khoảng cách từ $M$ đến hai điểm cực trị nhỏ nhất. Giá trị nhỏ nhất đó bằng:",
       "options": [
         "A. $4\\sqrt{5}$",
@@ -89761,7 +89761,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Một lớp học có tất cả học sinh đều học tiếng Anh hoặc tiếng Pháp. Trong đó, có 25 học sinh học tiếng Anh, 20 học sinh học tiếng Pháp và 8 học sinh học cả tiếng Anh và tiếng Pháp. Tổng số học sinh của lớp học đó là:",
       "options": [
         "A. 37.",
@@ -89783,7 +89783,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Đặt a = log_27(5), b = log_8(7), c = log_2(3). Khi đó giá trị của log_12(35) được biểu diễn theo a, b, c là:",
       "options": [
         "A. (3ac + 3b) / (1 + c)",
@@ -89805,7 +89805,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Biết rằng $\\lim_{x \\to +\\infty} \\left(\\sqrt{x^2 + ax + 1} - bx\\right) = 2$. Giá trị của $P = ab$ là:",
       "options": [
         "A. P = 4",
@@ -89827,7 +89827,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho hàm số f(x) = x^2 - 2x + 1. Đạo hàm của hàm số tại điểm x = 1 là:",
       "options": [
         "A. f'(1) = 1",
@@ -89849,7 +89849,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho hàm số $y = f(x)$ xác định trên $\\mathbb{R}$ và có $f'(x) = x(x + 1)^3(x - 2)^5$. Số điểm cực tiểu của hàm số là:",
       "options": [
         "A. 1",
@@ -89871,7 +89871,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Số đường tiệm cận của đồ thị hàm số 2 2 4 3 4 x x y x - + = - là:",
       "options": [
         "A. 1.",
@@ -89893,7 +89893,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Với $m = 3$, giá trị lớn nhất của hàm số $y = f(x)$ trên đoạn $[0; 3]$ là:",
       "options": [
         "A. 5",
@@ -89915,7 +89915,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Hàm số $y = f(x)$ nghịch biến trên khoảng $(1; 3)$ khi và chỉ khi:",
       "options": [
         "A. $m \\ge 1$",
@@ -89937,7 +89937,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Đường thẳng $y = 1$ cắt đồ thị hàm số $y = f(x)$ tại hai điểm phân biệt có hoành độ lớn hơn 2 khi và chỉ khi:",
       "options": [
         "A. m > 3",
@@ -89959,7 +89959,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Ta có công sai $d$ của cấp số cộng $(u_n)$ là:",
       "options": [
         "A. d = 2",
@@ -89981,7 +89981,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho cấp số cộng (u_n) thỏa mãn u_2 + u_6 = 18 và u_3 + u_7 = 22. Giá trị của số hạng đầu u_1 và công sai d là:",
       "options": [
         "A. u_1 = 3, d = 2",
@@ -90003,7 +90003,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 79 và 80:\nMột bác nông dân có 10 ha đất, 150 kg phân bón và 30 ngày công để canh tác. Mỗi ha lúa cần 20 kg phân bón và 2 ngày công, cho lợi nhuận 50 triệu đồng. Mỗi ha khoai cần 10 kg phân bón và 1 ngày công, cho lợi nhuận 60 triệu đồng.",
       "question": "Nếu bác nông dân trồng x (ha) lúa và y (ha) khoai thì số ki-lô-gam phân bón cần sử dụng là biểu thức nào sau đây?",
       "options": [
         "A. 20x + 10y (kg)",
@@ -90025,7 +90025,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 79 và 80:\nMột bác nông dân có 10 ha đất, 150 kg phân bón và 30 ngày công để canh tác. Mỗi ha lúa cần 20 kg phân bón và 2 ngày công, cho lợi nhuận 50 triệu đồng. Mỗi ha khoai cần 10 kg phân bón và 1 ngày công, cho lợi nhuận 60 triệu đồng.",
       "question": "Để đạt được lợi nhuận cao nhất thỏa mãn các điều kiện về đất, phân bón và ngày công, bác nông dân cần trồng x (ha) lúa. Giá trị của x là:",
       "options": [
         "A. x = 2",
@@ -90047,7 +90047,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Khi $m = -5$, tổng tất cả các nghiệm của phương trình là:",
       "options": [
         "A. 0",
@@ -90069,7 +90069,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Phương trình có hai nghiệm phân biệt khi và chỉ khi:",
       "options": [
         "A. m > 4",
@@ -90091,7 +90091,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Cho bất phương trình log_2(5^x - 1) * log_2(2*5^x - 2) ≥ m. Khi m = 2, tập nghiệm của bất phương trình là:",
       "options": [
         "A. (-∞; 1]",
@@ -90113,7 +90113,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Gọi S là tập tất cả các giá trị nguyên của m sao cho bất phương trình có đúng 3 nghiệm nguyên. Số phần tử của S là:",
       "options": [
         "A. 0.",
@@ -90135,7 +90135,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nMột phòng kiểm định chất lượng lấy ngẫu nhiên 4 chai nước từ 16 chai của 3 phân xưởng X (6 chai), Y (6 chai), Z (4 chai) để phân tích.",
       "question": "Số cách chọn 4 chai nước từ 16 chai của ba phân xưởng X, Y, Z để phân tích là:",
       "options": [
         "A. 1960.",
@@ -90157,7 +90157,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nMột phòng kiểm định chất lượng lấy ngẫu nhiên 4 chai nước từ 16 chai của 3 phân xưởng X (6 chai), Y (6 chai), Z (4 chai) để phân tích.",
       "question": "Xác suất để cả ba phân xưởng X, Y, Z đều có chai nước được chọn để phân tích là:",
       "options": [
         "A. 33,3%.",
@@ -90179,7 +90179,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nMột phòng kiểm định chất lượng lấy ngẫu nhiên 4 chai nước từ 16 chai của 3 phân xưởng X (6 chai), Y (6 chai), Z (4 chai) để phân tích.",
       "question": "Xác suất để phân xưởng X có ít nhất một chai nước được chọn để phân tích là:",
       "options": [
         "A. 93,1%.",
@@ -90201,7 +90201,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho tam giác $ABC$ có $AB = 5$, $AC = 7$ và $\\cos(\\hat{A}) = \\frac{1}{5}$.",
       "question": "Giá trị của tích vô hướng $\\vec{AB} \\cdot \\vec{AC}$ là:",
       "options": [
         "A. 19",
@@ -90223,7 +90223,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho tam giác $ABC$ có $AB = 5$, $AC = 7$ và $\\cos(\\hat{A}) = \\frac{1}{5}$.",
       "question": "Độ dài đường cao $h_a$ kẻ từ $A$ của tam giác $ABC$ là:",
       "options": [
         "A. $h_a = 2\\sqrt{6}$",
@@ -90245,7 +90245,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho tam giác $ABC$ có $AB = 5$, $AC = 7$ và $\\cos(\\hat{A}) = \\frac{1}{5}$.",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -90267,7 +90267,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Nếu P đứng vị trí 2, có 2 người ở giữa E và D thì cần điều kiện nào sau đây để có duy nhất 1 cách xếp?",
       "options": [
         "A. P cách B một vị trí",
@@ -90289,7 +90289,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 92:\nDựa vào thông tin dưới đây để trả lời các câu hỏi Cho hàm số ( ) 3 2 3 2 f x x x = - + có đồ thị (C).",
+      "passage": null,
       "question": "Nếu L đứng ngay bên trái B và D, E đứng cạnh nhau thì ai không thể đứng cạnh N?",
       "options": [
         "A. C",
@@ -90641,7 +90641,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 108:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
       "question": "Danh sách nào dưới đây có thể là thứ tự các học sinh đạt giải, từ giải nhất đến giải năm?",
       "options": [
         "A. M, P, N, Q, R.",
