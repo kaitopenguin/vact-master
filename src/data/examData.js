@@ -1,4 +1,4 @@
-﻿// V-ACT Master Comprehensive Exam Database (Standard 2018 Curriculum)
+// V-ACT Master Comprehensive Exam Database (Standard 2018 Curriculum)
 // Fully verified, cleaned and optimized
 
 export const EXAM_LIST = [
@@ -1258,12 +1258,12 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 8 đến 12:\n“Nước ở đâu mà tuôn mãi không thôi. Nước rung rào rào trên lá. Nước tràn trên mặt đất. Nước chảy theo những thân cây. Rừng ướt sũng, đất ướt sũng, và trời mãi cũng chẳng thấy khô hơn. Mới xế chiều mà rừng đã muốn tối om. Rừng như xị ra. Mặt trời vẫn còn đâu đó giữa đường chân trời. Nó đang thổi hồng một đám mây màu xám chì, giống như đống trấu ủ giữa sương mù đặc sệt.” (Chu Lai, Nắng đồng bằng)",
       "question": "Dòng nào dưới đây chứa các biện pháp tu từ xuất hiện trong văn bản trên?",
       "options": [
-        "A. Phép điệp, so sánh, phóng đại. C. Phép điệp, nói giảm, nói tránh, so sánh.",
-        "B. C. Phép điệp, nói giảm, nói tránh, so sánh.",
-        "C. Phép điệp, nói giảm, nói tránh, so sánh. B. Phép điệp, hoán dụ, so sánh.",
+        "A. Phép điệp, so sánh, phóng đại.",
+        "B. Phép điệp, hoán dụ, so sánh.",
+        "C. Phép điệp, nói giảm, nói tránh, so sánh.",
         "D. Phép điệp, so sánh, nhân hóa."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 8: Vận dụng kiến thức trọng tâm của phân môn Tiếng Việt để loại trừ phương án nhiễu và chọn đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
@@ -2905,7 +2905,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 83 và 84:\nx - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -2927,7 +2927,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 83 và 84:\nx - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Phương trình đường cao kẻ từ $C$ là:",
       "options": [
         "A. x - y - 4 = 0",
@@ -3172,12 +3172,12 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 98:\n- Mỗi xe chỉ chở tối đa 3 người. - Mỗi xe phải có 1 giáo viên. - O và S phải ngồi cùng một xe. - K và L không ngồi cùng một xe. - N và R không ngồi cùng một xe.",
       "question": "Điều nào sau đây không thể đúng trong cách sắp xếp người ngồi trên các xe?",
       "options": [
-        "A. K và S có thể ngồi cùng một xe. C. N và S có thể ngồi cùng một xe.",
-        "B. C. N và S có thể ngồi cùng một xe.",
-        "C. N và S có thể ngồi cùng một xe. B. L và R có thể ngồi cùng một xe.",
+        "A. K và S có thể ngồi cùng một xe.",
+        "B. L và R có thể ngồi cùng một xe.",
+        "C. N và S có thể ngồi cùng một xe.",
         "D. O và T có thể ngồi cùng một xe."
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 95: Vận dụng kiến thức trọng tâm của phân môn Tư duy khoa học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -4117,8 +4117,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
-      "question": "Thanh niên phải có tinh thần xung phong, gương mẫu; bất cứ việc gì tập thể cần thì thanh niên phải làm với tinh thần trách nhiệm cao nhất; song phải luôn luôn khiêm tốn, thật thà, không được phô trương, dối trá. Đó cũng là một thái độ đúng đắn của thanh niên đối với nhân dân, của cá nhân đối với tập thể. Thanh niên phải dành thì giờ nhất định để giúp đỡ cha mẹ, săn sóc các em, chăm lo một phần công việc gia đình. Người thanh niên nào không biết tí gì đến việc nhà, không kính yêu cha mẹ, không thương mến người thân trong gia đình thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được? Thanh niên cần phải biết tổ chức tốt cuộc sống gia đình hợp với những tiêu chuẩn đạo đức mới nhằm tạo điều kiện cho mọi người trong gia đình làm tròn nghĩa vụ công dân, hoàn thành nhiệm vụ cách mạng”. (Lê Duẩn - Con đường tu dưỡng rèn luyện đạo đức của thanh niên) “Người thanh niên nào không biết tí gì đến việc nhà… thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được?” đóng vai trò gì trong đoạn văn?",
+      "passage": "“Thanh niên phải có tinh thần xung phong, gương mẫu; bất cứ việc gì tập thể cần thì thanh niên phải làm với tinh thần trách nhiệm cao nhất; song phải luôn luôn khiêm tốn, thật thà, không được phô trương, dối trá. Đó cũng là một thái độ đúng đắn của thanh niên đối với nhân dân, của cá nhân đối với tập thể. Thanh niên phải dành thì giờ nhất định để giúp đỡ cha mẹ, săn sóc các em, chăm lo một phần công việc gia đình. Người thanh niên nào không biết tí gì đến việc nhà, không kính yêu cha mẹ, không thương mến người thân trong gia đình thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được? Thanh niên cần phải biết tổ chức tốt cuộc sống gia đình hợp với những tiêu chuẩn đạo đức mới nhằm tạo điều kiện cho mọi người trong gia đình làm tròn nghĩa vụ công dân, hoàn thành nhiệm vụ cách mạng.”\n(Lê Duẩn - Con đường tu dưỡng rèn luyện đạo đức của thanh niên)",
+      "question": "Câu văn “Người thanh niên nào không biết tí gì đến việc nhà… thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được?” đóng vai trò gì trong đoạn văn?",
       "options": [
         "A. Nhấn mạnh mối quan hệ tất yếu giữa đạo đức gia đình và trách nhiệm xã hội.",
         "B. Bộc lộ cảm xúc phê phán trực tiếp của người viết đối với thanh niên thiếu trách nhiệm trong đời sống.",
@@ -5327,7 +5327,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75:\nCó hai hồ nuôi cá chép Nhật. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng, Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó hai hồ nuôi cá chép thí nghiệm, được đánh số là hồ thứ nhất và hồ thứ hai. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng. Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
       "question": "Xác suất để chọn được con cá màu vàng từ hồ thứ hai:",
       "options": [
         "A. $\\frac{43}{210}$",
@@ -5349,7 +5349,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75:\nCó hai hồ nuôi cá chép Nhật. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng, Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó hai hồ nuôi cá chép thí nghiệm, được đánh số là hồ thứ nhất và hồ thứ hai. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng. Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
       "question": "Xác suất để chọn được con cá màu vàng không bị đánh dấu:",
       "options": [
         "A. $\\frac{7}{15}$",
@@ -5503,7 +5503,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\nTrong không gian $Oxyz$, cho hai điểm $A(10; 6; -2)$, $B(5; 10; -9)$ và mặt phẳng $(\\alpha): 2x + 2y + z - 12 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong không gian $Oxyz$, cho mặt phẳng $(\\alpha): x + 2y - 2z + 1 = 0$ và hai điểm $A(1; 1; -1), B(2; 1; 0)$.",
       "question": "Điểm $M$ di động trên $(\\alpha)$ sao cho $MA = 2MB$. Biết rằng $M$ luôn thuộc một đường tròn $(\\omega)$ cố định. Hoành độ của tâm đường tròn $(\\omega)$ bằng:",
       "options": [
         "A. 2",
@@ -5525,7 +5525,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(-1; -2)$. Trung điểm cạnh $AC$ là $I(-3; 4)$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Khoảng cách từ I đến AB là bao nhiêu?",
       "options": [
         "A. 2 .",
@@ -5547,7 +5547,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(-1; -2)$. Trung điểm cạnh $AC$ là $I(-3; 4)$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Phương trình tổng quát đường cao kẻ từ $C$ có dạng $ax - y + b = 0$. Tính $a + b$:",
       "options": [
         "A. 2",
@@ -5569,7 +5569,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(-1; -2)$. Trung điểm cạnh $AC$ là $I(-3; 4)$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Tổng bình phương hoành độ và tung độ của điểm A gần nhất là?",
       "options": [
         "A. 141, 5",
@@ -5591,7 +5591,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hàm số $y = \\frac{x^2 + mx + m}{x + 1}$ có đồ thị $(C)$, với $m$ là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hàm số $y = \\frac{x^2 + mx + m}{x + 1}$ có đồ thị là $(C_m)$.",
       "question": "Với $m = 1$, khi đó phương trình đường thẳng đi qua 2 điểm cực trị của đồ thị hàm số là:",
       "options": [
         "A. y = x",
@@ -5613,7 +5613,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hàm số $y = \\frac{x^2 + mx + m}{x + 1}$ có đồ thị $(C)$, với $m$ là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hàm số $y = \\frac{x^2 + mx + m}{x + 1}$ có đồ thị là $(C_m)$.",
       "question": "Với $m = \\frac{1}{2}$, khi đó tâm đối xứng của đồ thị hàm số $(C)$ có tọa độ là điểm nào sau đây:",
       "options": [
         "A. $\\left(1; -\\frac{3}{2}\\right)$",
@@ -5657,7 +5657,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hình chóp $S.ABC$ có ba cạnh bên $SA, SB, SC$ đôi một vuông góc tại $S$. Biết $SA = a, SB = 2a, SC = 3a$. Gọi $H$ là hình chiếu của $S$ lên $AB$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khối chóp . S ABC :",
       "options": [
         "A. 3 6a .",
@@ -5679,7 +5679,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hình chóp $S.ABC$ có ba cạnh bên $SA, SB, SC$ đôi một vuông góc tại $S$. Biết $SA = a, SB = 2a, SC = 3a$. Gọi $H$ là hình chiếu của $S$ lên $AB$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính góc giữa hai mặt phẳng $(SBC)$ và $(ABC)$ (làm tròn đến độ):",
       "options": [
         "A. $41^\\circ$",
@@ -5701,7 +5701,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hình chóp $S.ABC$ có ba cạnh bên $SA, SB, SC$ đôi một vuông góc tại $S$. Biết $SA = a, SB = 2a, SC = 3a$. Gọi $H$ là hình chiếu của $S$ lên $AB$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khới chóp . S HBC :",
       "options": [
         "A. 3 4 5 a .",
@@ -6561,8 +6561,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
-      "question": "Hai mươi bảy cây số trên sông Di, câu chuyện của hai người đàn bà cô quạnh với đầy những oán ghét, thủ đoạn, những màn trả đũa vặt vãnh như tơ nhện giăng lên bọn cậu nhùng nhằng. Xu thờ ơ với chuyện đàn bà, day qua chuyện khác: - Xứ này còn cái gì trôi nữa? - À, có nhà trôi. - Tụi cháu cũng mới đi coi nhà trôi đây, hay ho gì đâu, toàn người chết. Vụ rừng trôi nó làm sao? […] - Hồi bảy tám tuổi thím còn thấy miếu trôi. - À, vụ đó sao? - Thì miếu đó thờ một cô gái bị dìm chết dưới sông […] - Còn gì trôi nữa không? - Kể tới tết Lào còn chưa hết. Sao không hỏi có gì không trôi không? - Có cái gì không trôi? - Đâu biết, vì ta đang trôi. (Nguyễn Ngọc Tư, Sông) Nội dung không đúng khi nói về ý nghĩa của dòng sông trong đoạn trích trên:",
+      "passage": "Hai mươi bảy cây số trên sông Di, câu chuyện của hai người đàn bà cô quạnh với đầy những oán ghét, thủ đoạn, những màn trả đũa vặt vãnh như tơ nhện giăng lên bọn cậu nhùng nhằng. Xu thờ ơ với chuyện đàn bà, day qua chuyện khác:\n- Xứ này còn cái gì trôi nữa?\n- À, có nhà trôi.\n- Tụi cháu cũng mới đi coi nhà trôi đây, hay ho gì đâu, toàn người chết. Vụ rừng trôi nó làm sao? […]\n- Hồi bảy tám tuổi thím còn thấy miếu trôi.\n- À, vụ đó sao?\n- Thì miếu đó thờ một cô gái bị dìm chết dưới sông […]\n- Còn gì trôi nữa không?\n- Kể tới tết Lào còn chưa hết. Sao không hỏi có gì không trôi không?\n- Có cái gì không trôi?\n- Đâu biết, vì ta đang trôi.\n(Nguyễn Ngọc Tư, Sông)",
+      "question": "Nội dung không đúng khi nói về ý nghĩa của dòng sông trong đoạn trích trên:",
       "options": [
         "A. Dòng sông biểu tượng cho sự trôi chảy, vô định của kiếp người.",
         "B. Dòng sông mang theo nỗi buồn, sự mất mát trong cuộc sống.",
@@ -7969,7 +7969,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): mx + 2y - z + 1 = 0$ với $m$ là tham số thực, và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z}{-1}$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): mx + 2y - z + 1 = 0$ với $m$ là tham số thực, và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z}{-1}$.",
       "question": "Tìm m để đường thẳng d song song với mặt phẳng (P).",
       "options": [
         "A. Không tồn tại m.",
@@ -7991,7 +7991,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): mx + 2y - z + 1 = 0$ với $m$ là tham số thực, và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z}{-1}$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): mx + 2y - z + 1 = 0$ với $m$ là tham số thực, và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z}{-1}$.",
       "question": "Tìm m để đường thẳng d vuông góc với mặt phẳng (P).",
       "options": [
         "A. Không tồn tại m.",
@@ -8414,7 +8414,7 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. B và G.",
         "B. H và",
-        "C. C. I và C.",
+        "C. I và C.",
         "D. G và H."
       ],
       "correctAnswer": 3,
@@ -8458,7 +8458,7 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. E.",
         "B.",
-        "C. C. S.",
+        "C. S.",
         "D. J."
       ],
       "correctAnswer": 3,
@@ -8480,7 +8480,7 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. E.",
         "B.",
-        "C. C. S.",
+        "C. S.",
         "D. J."
       ],
       "correctAnswer": 0,
@@ -9137,15 +9137,15 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
-      "question": "Đọc đoạn trích sau và trả lời câu hỏi: Xưa kia đại vương trông thấy phong cảnh núi Tản Viên đẹp đẽ bèn làm một con đường từ bến Bạch Phiên đi lên phía nam núi Tản Viên, qua động An Vệ, tới các ngọn nguồn lạch suối đều dựng điện để nghỉ ngơi. Rồi lại đi qua rìa núi đến chòm núi có mây che thì định cư ở đó. Đôi lúc rong chơi trên sông Tiểu Hoàng xem đánh cá; phàm đi qua các làng xóm đều dựng điện để nghỉ ngơi. Về sau, nhân dân theo dấu vết các điện đó mà lập đền miếu để thờ cúng. Lại theo truyện cũ ở sách Giao Châu ký của Lỗ Công, tương truyền rằng đại vương Sơn Tinh họ Nguyễn cùng vui ở với loài thủy tộc ở đất Gia Ninh, huyện Phong Châu. Thời Chu Noãn Vương, Hùng Vương thứ mười tám đến ở đất Việt Trì, Châu Phong, lấy quốc hiệu là Văn Lang. Vua có người con gái tên là Ngọc Hoa có sắc đẹp; Thục Vương Phán cầu hôn, nhà vua không bằng lòng, muốn chọn rể hiền. (Trích Lĩnh Nam chích quái)",
+      "passage": "Xưa kia đại vương trông thấy phong cảnh núi Tản Viên đẹp đẽ bèn làm một con đường từ bến Bạch Phiên đi lên phía nam núi Tản Viên, qua động An Vệ, tới các ngọn nguồn lạch suối đều dựng điện để nghỉ ngơi. Rồi lại đi qua rìa núi đến chòm núi có mây che thì định cư ở đó. Đôi lúc rong chơi trên sông Tiểu Hoàng xem đánh cá; phàm đi qua các làng xóm đều dựng điện để nghỉ ngơi. Về sau, nhân dân theo dấu vết các điện đó mà lập đền miếu để thờ cúng. Lại theo truyện cũ ở sách Giao Châu ký của Lỗ Công, tương truyền rằng đại vương Sơn Tinh họ Nguyễn cùng vui ở với loài thủy tộc ở đất Gia Ninh, huyện Phong Châu. Thời Chu Noãn Vương, Hùng Vương thứ mười tám đến ở đất Việt Trì, Châu Phong, lấy quốc hiệu là Văn Lang. Vua có người con gái tên là Ngọc Hoa có sắc đẹp; Thục Vương Phán cầu hôn, nhà vua không bằng lòng, muốn chọn rể hiền.\n(Trích Lĩnh Nam chích quái)",
+      "question": "Ý nghĩa văn hóa, tín ngưỡng nổi bật được thể hiện trong đoạn trích trên là gì?",
       "options": [
         "A. Tư duy lý tưởng hóa các vị vua thời xưa để làm gương răn dạy con cháu.",
         "B. Niềm tôn kính đối với những vị anh hùng có công bảo vệ đất nước khỏi ngoại xâm.",
         "C. Tín ngưỡng thờ thần tự nhiên, phản ánh quan niệm con người gắn bó mật thiết với sông núi.",
         "D. Quan niệm \"trọng nam khinh nữ\" được thể hiện qua việc tôn thờ nhân vật nam thần trong truyền thuyết."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
@@ -9467,7 +9467,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMá tôi vẫn đi tìm dì Hai Giang - vợ cũ của ba tôi. Ngày xưa, nội tôi không đồng ý cho họ lấy nhau, họ dắt díu nhau bỏ đi. Họ có một đứa con gái bị rơi sông mà chết. Ba tôi sống quá cơ cực, lại luôn khắc khoải nhớ nội nên quay về cưới má tôi, bỏ mặc họ bơ vơ. Má tôi nói, nội chưa từng la mắng má, nhưng má vẫn hận nội đến chết mới thôi. “Bộ hết người rồi sao mà nội bây cưới tao cho ổng? Đó!” - bà chỉ tay ra bến - “Gần hết đời rồi tao có được vui đâu!” Đó là lúc “ổng” - tức ba tôi - chống cây gậy, khật khừ lang thang xuống bến, ông già tha thiết nhìn ra sông… Có khi, ngồi lặng lẽ dòm, ai cũng nghe đau xót như ai lấy cật tre cứa tới cứa lui trong lòng. Có những đêm, ba tôi hút thuốc dữ lắm, cứ nhìn chong chong ra ngọn đèn đỏ ối, nhỏ nhoi, buồn hiu ngoài kia. Ba tôi thở dài. Má tôi chạy qua khóc với nội tôi: “Biết chừng nào ảnh mới quên chuyện xưa, hả má?”\nChuyện xảy ra lâu rồi, nhưng người ta vẫn còn nhớ, vẫn còn cắm sào trước bến nhớ ba tôi. Vậy mà biểu ba tôi quên cái rụp thì sao quên cho được? Mà, cũng vì ba tôi quên không được nên má tôi mới thương ông nhiều. Con người ta, nhất là đàn ông, thương ai mà vì nỗi gì đó quay lưng rồi quên mất tiêu thì đúng là không tử tế, không đáng tin chút nào. Với tôi, ba tôi thì quên hay không cũng được – ba đã sống tốt với cả nhà tôi lắm rồi. Ông sống tử tế đến vô cùng, đến mức thừa, như thể ông gửi gắm cả tình thương yêu cho người vắng mặt. Và cũng như má tôi, ba cũng không sống được mấy ngày vui – vui thật, vui đúng nghĩa. Hồi tôi còn nhỏ, còn sống chung với bà nội, đêm đêm cả nhà đi ngủ, ba tôi ngồi hút thuốc trên bộ vạc kê trước nhà, chống rèm lên, ngó ra sông. Kiểu ngồi: một chân xếp bằng, chân kia dựng lên, tay cầm điếu thuốc tì lên đầu gối – đêm này qua đêm khác, kiểu ngồi không đổi. Nửa đêm, má tôi đi ém mùng lại, tôi thức giấc, ngó ra chỉ thấy đốm lửa lập lòe – lúc đỏ rực, lúc tắt thiu tiu. Má tôi ngồi trong mùng, lặng lẽ nhìn ba, còn ba thì nhìn ra sông. Mơ hồ, dường như mình mắc nợ ai đó. Cả nhà tôi lúc nào cũng cảm thấy không vui – dù đang hạnh phúc (hai thứ này, sao lại không thể đi chung?). Không thấy ai đòi nhưng nợ vẫn cứ là nợ – nó rờn rờn, quanh quất trong chái bếp ngày ngày khói tỏa, trong mấy chiếc giường ngủ con con, trong hai bữa cơm mỗi ngày. Cho tới lúc cuối đời, chắc nội tôi vẫn còn băn khoăn trong lòng. Khi nội tôi vừa khuất, má quyết định gặp “đối thủ” một lần – chỉ định nhìn vậy thôi.\n(Dòng nhớ, Nguyễn Ngọc Tư)",
       "question": "Đáp án nào KHÔNG phải là đặc điểm của truyện ngắn hiện đại trong đoạn văn “Dòng nhớ” - Nguyễn Ngọc Tư?",
       "options": [
         "A. Khai thác những góc khuất tâm lý con người thông qua những chi tiết nhỏ, đời thường, không kịch tính.",
@@ -9489,7 +9489,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMá tôi vẫn đi tìm dì Hai Giang - vợ cũ của ba tôi. Ngày xưa, nội tôi không đồng ý cho họ lấy nhau, họ dắt díu nhau bỏ đi. Họ có một đứa con gái bị rơi sông mà chết. Ba tôi sống quá cơ cực, lại luôn khắc khoải nhớ nội nên quay về cưới má tôi, bỏ mặc họ bơ vơ. Má tôi nói, nội chưa từng la mắng má, nhưng má vẫn hận nội đến chết mới thôi. “Bộ hết người rồi sao mà nội bây cưới tao cho ổng? Đó!” - bà chỉ tay ra bến - “Gần hết đời rồi tao có được vui đâu!” Đó là lúc “ổng” - tức ba tôi - chống cây gậy, khật khừ lang thang xuống bến, ông già tha thiết nhìn ra sông… Có khi, ngồi lặng lẽ dòm, ai cũng nghe đau xót như ai lấy cật tre cứa tới cứa lui trong lòng. Có những đêm, ba tôi hút thuốc dữ lắm, cứ nhìn chong chong ra ngọn đèn đỏ ối, nhỏ nhoi, buồn hiu ngoài kia. Ba tôi thở dài. Má tôi chạy qua khóc với nội tôi: “Biết chừng nào ảnh mới quên chuyện xưa, hả má?”\nChuyện xảy ra lâu rồi, nhưng người ta vẫn còn nhớ, vẫn còn cắm sào trước bến nhớ ba tôi. Vậy mà biểu ba tôi quên cái rụp thì sao quên cho được? Mà, cũng vì ba tôi quên không được nên má tôi mới thương ông nhiều. Con người ta, nhất là đàn ông, thương ai mà vì nỗi gì đó quay lưng rồi quên mất tiêu thì đúng là không tử tế, không đáng tin chút nào. Với tôi, ba tôi thì quên hay không cũng được – ba đã sống tốt với cả nhà tôi lắm rồi. Ông sống tử tế đến vô cùng, đến mức thừa, như thể ông gửi gắm cả tình thương yêu cho người vắng mặt. Và cũng như má tôi, ba cũng không sống được mấy ngày vui – vui thật, vui đúng nghĩa. Hồi tôi còn nhỏ, còn sống chung với bà nội, đêm đêm cả nhà đi ngủ, ba tôi ngồi hút thuốc trên bộ vạc kê trước nhà, chống rèm lên, ngó ra sông. Kiểu ngồi: một chân xếp bằng, chân kia dựng lên, tay cầm điếu thuốc tì lên đầu gối – đêm này qua đêm khác, kiểu ngồi không đổi. Nửa đêm, má tôi đi ém mùng lại, tôi thức giấc, ngó ra chỉ thấy đốm lửa lập lòe – lúc đỏ rực, lúc tắt thiu tiu. Má tôi ngồi trong mùng, lặng lẽ nhìn ba, còn ba thì nhìn ra sông. Mơ hồ, dường như mình mắc nợ ai đó. Cả nhà tôi lúc nào cũng cảm thấy không vui – dù đang hạnh phúc (hai thứ này, sao lại không thể đi chung?). Không thấy ai đòi nhưng nợ vẫn cứ là nợ – nó rờn rờn, quanh quất trong chái bếp ngày ngày khói tỏa, trong mấy chiếc giường ngủ con con, trong hai bữa cơm mỗi ngày. Cho tới lúc cuối đời, chắc nội tôi vẫn còn băn khoăn trong lòng. Khi nội tôi vừa khuất, má quyết định gặp “đối thủ” một lần – chỉ định nhìn vậy thôi.\n(Dòng nhớ, Nguyễn Ngọc Tư)",
       "question": "Chọn đáp án đúng nhất thể hiện thông điệp mà đoạn văn “Dòng nhớ” - Nguyễn Ngọc Tư muốn gửi gắm?",
       "options": [
         "A. Ký ức và nỗi day dứt không tan biến theo thời gian, mà len vào đời sống hiện tại, khiến con người luôn sống trong cảm giác mắc nợ quá khứ.",
@@ -9511,7 +9511,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMá tôi vẫn đi tìm dì Hai Giang - vợ cũ của ba tôi. Ngày xưa, nội tôi không đồng ý cho họ lấy nhau, họ dắt díu nhau bỏ đi. Họ có một đứa con gái bị rơi sông mà chết. Ba tôi sống quá cơ cực, lại luôn khắc khoải nhớ nội nên quay về cưới má tôi, bỏ mặc họ bơ vơ. Má tôi nói, nội chưa từng la mắng má, nhưng má vẫn hận nội đến chết mới thôi. “Bộ hết người rồi sao mà nội bây cưới tao cho ổng? Đó!” - bà chỉ tay ra bến - “Gần hết đời rồi tao có được vui đâu!” Đó là lúc “ổng” - tức ba tôi - chống cây gậy, khật khừ lang thang xuống bến, ông già tha thiết nhìn ra sông… Có khi, ngồi lặng lẽ dòm, ai cũng nghe đau xót như ai lấy cật tre cứa tới cứa lui trong lòng. Có những đêm, ba tôi hút thuốc dữ lắm, cứ nhìn chong chong ra ngọn đèn đỏ ối, nhỏ nhoi, buồn hiu ngoài kia. Ba tôi thở dài. Má tôi chạy qua khóc với nội tôi: “Biết chừng nào ảnh mới quên chuyện xưa, hả má?”\nChuyện xảy ra lâu rồi, nhưng người ta vẫn còn nhớ, vẫn còn cắm sào trước bến nhớ ba tôi. Vậy mà biểu ba tôi quên cái rụp thì sao quên cho được? Mà, cũng vì ba tôi quên không được nên má tôi mới thương ông nhiều. Con người ta, nhất là đàn ông, thương ai mà vì nỗi gì đó quay lưng rồi quên mất tiêu thì đúng là không tử tế, không đáng tin chút nào. Với tôi, ba tôi thì quên hay không cũng được – ba đã sống tốt với cả nhà tôi lắm rồi. Ông sống tử tế đến vô cùng, đến mức thừa, như thể ông gửi gắm cả tình thương yêu cho người vắng mặt. Và cũng như má tôi, ba cũng không sống được mấy ngày vui – vui thật, vui đúng nghĩa. Hồi tôi còn nhỏ, còn sống chung với bà nội, đêm đêm cả nhà đi ngủ, ba tôi ngồi hút thuốc trên bộ vạc kê trước nhà, chống rèm lên, ngó ra sông. Kiểu ngồi: một chân xếp bằng, chân kia dựng lên, tay cầm điếu thuốc tì lên đầu gối – đêm này qua đêm khác, kiểu ngồi không đổi. Nửa đêm, má tôi đi ém mùng lại, tôi thức giấc, ngó ra chỉ thấy đốm lửa lập lòe – lúc đỏ rực, lúc tắt thiu tiu. Má tôi ngồi trong mùng, lặng lẽ nhìn ba, còn ba thì nhìn ra sông. Mơ hồ, dường như mình mắc nợ ai đó. Cả nhà tôi lúc nào cũng cảm thấy không vui – dù đang hạnh phúc (hai thứ này, sao lại không thể đi chung?). Không thấy ai đòi nhưng nợ vẫn cứ là nợ – nó rờn rờn, quanh quất trong chái bếp ngày ngày khói tỏa, trong mấy chiếc giường ngủ con con, trong hai bữa cơm mỗi ngày. Cho tới lúc cuối đời, chắc nội tôi vẫn còn băn khoăn trong lòng. Khi nội tôi vừa khuất, má quyết định gặp “đối thủ” một lần – chỉ định nhìn vậy thôi.\n(Dòng nhớ, Nguyễn Ngọc Tư)",
       "question": "Đặc điểm chung của các nhân vật trong truyện ngắn “Dòng nhớ” - Nguyễn Ngọc Tư là gì?",
       "options": [
         "A. Họ đều là những con người từng trải, sống nhiều mất mát nên chọn cách im lặng để giấu nỗi đau vào bên trong.",
@@ -9533,7 +9533,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMá tôi vẫn đi tìm dì Hai Giang - vợ cũ của ba tôi. Ngày xưa, nội tôi không đồng ý cho họ lấy nhau, họ dắt díu nhau bỏ đi. Họ có một đứa con gái bị rơi sông mà chết. Ba tôi sống quá cơ cực, lại luôn khắc khoải nhớ nội nên quay về cưới má tôi, bỏ mặc họ bơ vơ. Má tôi nói, nội chưa từng la mắng má, nhưng má vẫn hận nội đến chết mới thôi. “Bộ hết người rồi sao mà nội bây cưới tao cho ổng? Đó!” - bà chỉ tay ra bến - “Gần hết đời rồi tao có được vui đâu!” Đó là lúc “ổng” - tức ba tôi - chống cây gậy, khật khừ lang thang xuống bến, ông già tha thiết nhìn ra sông… Có khi, ngồi lặng lẽ dòm, ai cũng nghe đau xót như ai lấy cật tre cứa tới cứa lui trong lòng. Có những đêm, ba tôi hút thuốc dữ lắm, cứ nhìn chong chong ra ngọn đèn đỏ ối, nhỏ nhoi, buồn hiu ngoài kia. Ba tôi thở dài. Má tôi chạy qua khóc với nội tôi: “Biết chừng nào ảnh mới quên chuyện xưa, hả má?”\nChuyện xảy ra lâu rồi, nhưng người ta vẫn còn nhớ, vẫn còn cắm sào trước bến nhớ ba tôi. Vậy mà biểu ba tôi quên cái rụp thì sao quên cho được? Mà, cũng vì ba tôi quên không được nên má tôi mới thương ông nhiều. Con người ta, nhất là đàn ông, thương ai mà vì nỗi gì đó quay lưng rồi quên mất tiêu thì đúng là không tử tế, không đáng tin chút nào. Với tôi, ba tôi thì quên hay không cũng được – ba đã sống tốt với cả nhà tôi lắm rồi. Ông sống tử tế đến vô cùng, đến mức thừa, như thể ông gửi gắm cả tình thương yêu cho người vắng mặt. Và cũng như má tôi, ba cũng không sống được mấy ngày vui – vui thật, vui đúng nghĩa. Hồi tôi còn nhỏ, còn sống chung với bà nội, đêm đêm cả nhà đi ngủ, ba tôi ngồi hút thuốc trên bộ vạc kê trước nhà, chống rèm lên, ngó ra sông. Kiểu ngồi: một chân xếp bằng, chân kia dựng lên, tay cầm điếu thuốc tì lên đầu gối – đêm này qua đêm khác, kiểu ngồi không đổi. Nửa đêm, má tôi đi ém mùng lại, tôi thức giấc, ngó ra chỉ thấy đốm lửa lập lòe – lúc đỏ rực, lúc tắt thiu tiu. Má tôi ngồi trong mùng, lặng lẽ nhìn ba, còn ba thì nhìn ra sông. Mơ hồ, dường như mình mắc nợ ai đó. Cả nhà tôi lúc nào cũng cảm thấy không vui – dù đang hạnh phúc (hai thứ này, sao lại không thể đi chung?). Không thấy ai đòi nhưng nợ vẫn cứ là nợ – nó rờn rờn, quanh quất trong chái bếp ngày ngày khói tỏa, trong mấy chiếc giường ngủ con con, trong hai bữa cơm mỗi ngày. Cho tới lúc cuối đời, chắc nội tôi vẫn còn băn khoăn trong lòng. Khi nội tôi vừa khuất, má quyết định gặp “đối thủ” một lần – chỉ định nhìn vậy thôi.\n(Dòng nhớ, Nguyễn Ngọc Tư)",
       "question": "Truyện ngắn “Dòng nhớ” của Nguyễn Ngọc Tư được viết theo phong cách sáng tác nào?",
       "options": [
         "A. Phong cách hiện thực phê phán, tập trung phản ánh xung đột xã hội và những mặt trái của đời sống nông thôn.",
@@ -9555,7 +9555,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMá tôi vẫn đi tìm dì Hai Giang - vợ cũ của ba tôi. Ngày xưa, nội tôi không đồng ý cho họ lấy nhau, họ dắt díu nhau bỏ đi. Họ có một đứa con gái bị rơi sông mà chết. Ba tôi sống quá cơ cực, lại luôn khắc khoải nhớ nội nên quay về cưới má tôi, bỏ mặc họ bơ vơ. Má tôi nói, nội chưa từng la mắng má, nhưng má vẫn hận nội đến chết mới thôi. “Bộ hết người rồi sao mà nội bây cưới tao cho ổng? Đó!” - bà chỉ tay ra bến - “Gần hết đời rồi tao có được vui đâu!” Đó là lúc “ổng” - tức ba tôi - chống cây gậy, khật khừ lang thang xuống bến, ông già tha thiết nhìn ra sông… Có khi, ngồi lặng lẽ dòm, ai cũng nghe đau xót như ai lấy cật tre cứa tới cứa lui trong lòng. Có những đêm, ba tôi hút thuốc dữ lắm, cứ nhìn chong chong ra ngọn đèn đỏ ối, nhỏ nhoi, buồn hiu ngoài kia. Ba tôi thở dài. Má tôi chạy qua khóc với nội tôi: “Biết chừng nào ảnh mới quên chuyện xưa, hả má?”\nChuyện xảy ra lâu rồi, nhưng người ta vẫn còn nhớ, vẫn còn cắm sào trước bến nhớ ba tôi. Vậy mà biểu ba tôi quên cái rụp thì sao quên cho được? Mà, cũng vì ba tôi quên không được nên má tôi mới thương ông nhiều. Con người ta, nhất là đàn ông, thương ai mà vì nỗi gì đó quay lưng rồi quên mất tiêu thì đúng là không tử tế, không đáng tin chút nào. Với tôi, ba tôi thì quên hay không cũng được – ba đã sống tốt với cả nhà tôi lắm rồi. Ông sống tử tế đến vô cùng, đến mức thừa, như thể ông gửi gắm cả tình thương yêu cho người vắng mặt. Và cũng như má tôi, ba cũng không sống được mấy ngày vui – vui thật, vui đúng nghĩa. Hồi tôi còn nhỏ, còn sống chung với bà nội, đêm đêm cả nhà đi ngủ, ba tôi ngồi hút thuốc trên bộ vạc kê trước nhà, chống rèm lên, ngó ra sông. Kiểu ngồi: một chân xếp bằng, chân kia dựng lên, tay cầm điếu thuốc tì lên đầu gối – đêm này qua đêm khác, kiểu ngồi không đổi. Nửa đêm, má tôi đi ém mùng lại, tôi thức giấc, ngó ra chỉ thấy đốm lửa lập lòe – lúc đỏ rực, lúc tắt thiu tiu. Má tôi ngồi trong mùng, lặng lẽ nhìn ba, còn ba thì nhìn ra sông. Mơ hồ, dường như mình mắc nợ ai đó. Cả nhà tôi lúc nào cũng cảm thấy không vui – dù đang hạnh phúc (hai thứ này, sao lại không thể đi chung?). Không thấy ai đòi nhưng nợ vẫn cứ là nợ – nó rờn rờn, quanh quất trong chái bếp ngày ngày khói tỏa, trong mấy chiếc giường ngủ con con, trong hai bữa cơm mỗi ngày. Cho tới lúc cuối đời, chắc nội tôi vẫn còn băn khoăn trong lòng. Khi nội tôi vừa khuất, má quyết định gặp “đối thủ” một lần – chỉ định nhìn vậy thôi.\n(Dòng nhớ, Nguyễn Ngọc Tư)",
       "question": "Trong đoạn trích, cách sử dụng cụm từ “mắc nợ ai đó” và “nợ vẫn cứ là nợ” thể hiện hiệu quả diễn đạt gì về mặt nghĩa và sắc thái biểu cảm?",
       "options": [
         "A. Gợi lên sự ràng buộc tài chính cụ thể giữa các nhân vật trong gia đình và người vắng mặt ở quá khứ.",
@@ -11052,12 +11052,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
-      "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất? A. A, B, D. B. A, G, E. C. A, C, D. D. A, B, E.",
+      "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. A, B, D.",
+        "B. A, G, E.",
+        "C. A, C, D.",
+        "D. A, B, E."
       ],
       "correctAnswer": 1,
       "explanation": "A = 1 cố định. Ghế 7 trống nên cặp C-D chỉ có thể là (2,6) hoặc (4,8). Thử các trường hợp hợp lệ (xem điều kiện B cạnh A, F chỉ chẵn, D không kề F, quy tắc khi B=8, và điều kiện về E đối diện A) ta thu được 3 xếp hợp lệ — trong cả 3 phương án E luôn ở ghế 3, G luôn ở ghế 5 (và A ở ghế 1). B, C, D, F thay đổi giữa các phương án. Vậy những người chắc chắn nằm cố định là A, G, E. Đáp án: B.",
@@ -11074,12 +11074,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
-      "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4? A. C, E-F, A-B, D. B. A-B, D-E, C, F. C. C, A-B, D-E, F. D. F-D, A-B, C, E.",
+      "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. C, E-F, A-B, D.",
+        "B. A-B, D-E, C, F.",
+        "C. C, A-B, D-E, F.",
+        "D. F-D, A-B, C, E."
       ],
       "correctAnswer": 2,
       "explanation": "Nếu tiết 2 có 2 học sinh => F học tiết 4. Chỉ có 2 lớp có 2 học sinh, đó là lớp tiết 2 và tiết 3. Giữa C và D có 1 lớp => C phải học tiết 1 hoặc tiết 2. Mà nếu C học tiết 2 => D học tiết 4. Nhưng F học tiết 4 và tiết 4 chỉ có 1 học sinh => C phải học tiết 1. Có C học tiết 1 => D học tiết 3 => Tiết 3 còn thiếu 1 học sinh, tiết 2 còn thiếu 2 học sinh. A, B luôn cùng lớp => A, B học tiết 2. Còn lại E học tiết 3. => Thứ tự đúng: C, A-B, D-E, F. Đáp án: C.",
@@ -11096,14 +11096,14 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
-      "question": "Nếu F học một mình thì tiết 3 có ai học? A. D. B. C. C. A, B. D. D, E.",
+      "question": "Nếu F học một mình thì tiết 3 có ai học?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. D.",
+        "B. C.",
+        "C. A, B.",
+        "D. D, E."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": "Ở câu hỏi 1 ta có: Nếu tiết 2 có 2 học sinh thì thứ tự học sinh xếp theo tiết sẽ là: C, A-B, D-E, F. Tiếp theo ta xét trường hợp nếu tiết 2 không có 2 học sinh. Tiết 3 có 2 học sinh, tiết 1 có 1 học sinh. Mà ta xét trường hợp tiết 2 có 1 học sinh => Tiết 4 phải có 2 học sinh. Nếu C học tiết 1 => D học tiết 3 => A, B học tiết 4. Vì F học một mình => F học tiết 2. Còn lại E học tiết 3. => Thứ tự: C, F, D-E, A-B. Nếu C học tiết 2 => D học tiết 4 => A, B học tiết 3 => F học tiết 1. Còn lại E học tiết 4. => Thứ tự: F, C, A-B, D-E. Ta có dữ kiện môn của B không học cạnh môn Anh => Trường hợp 1 thỏa mãn vì môn Anh có thể dạy ở tiết 2. Tuy nhiên trường hợp 2, nếu B học tiết 3 => Môn Anh phải dạy ở tiết 1 (MÂU THUẪN) => Trong 2 thứ tự thỏa mãn dữ kiện, ở tiết 3 chắc chắn là D và E. Đáp án: D.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -17283,13 +17283,13 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "\"Theo Trung tâm Dự báo Khí tượng Thủy văn, do ảnh hưởng của một đợt không khí lạnh tăng cường, nhiệt độ tại các tỉnh miền núi phía Bắc đã đột ngột sa sút xuống dưới 10 độ C. \"",
-      "question": "Câu trên bị mắc lỗi gì? A. Sai dùng từ B. Sai cấu tạo ngữ pháp C. Sai logic D. Lỗi câu mơ hồ",
+      "passage": "“Theo Trung tâm Dự báo Khí tượng Thủy văn, do ảnh hưởng của một đợt không khí lạnh tăng cường, nhiệt độ tại các tỉnh miền núi phía Bắc đã đột ngột sa sút xuống dưới 10 độ C.”",
+      "question": "Câu trên bị mắc lỗi gì?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. Sai dùng từ.",
+        "B. Sai cấu tạo ngữ pháp.",
+        "C. Sai logic.",
+        "D. Lỗi câu mơ hồ."
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -17393,7 +17393,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n“Quan niệm này dẫn đến một quy định đối với việc hát - kể sử thi như sau: Đã bắt đầu hát - kể một sử thi nào đó thì phải hát - kể cho đến hết. Dù phải ngắt ra làm nhiều đêm nhưng không được phép bỏ dở. Làm như vậy các nhân vật trong truyện sẽ quở trách, vì không nói hết được số phận của họ. Vả chăng như trên đã nói, người nghe không chỉ đến để nghe theo ý nghĩa thưởng thức, mà là để “sống” với câu chuyện.”\nKhông phải chỉ có ngày xưa, mà gần đây, tình yêu quý say mê sử thi vẫn còn sâu nặng trong các tộc người. Ka Sô Liễng ghi lại thực tế gần đây như sau:\n“Đêm hôm đó, nhà bên có đám cúng rất to, có đánh cồng đánh chiêng nhảy múa, nhưng khi ông Kpa Y Méo cất tiếng hát sử thi Chi Lơ Kôk thì hình như có nam châm đã thu hút mọi người vây quanh, lớp trong, lớp ngoài xung quanh ông. Nhân dân xã Krông Pa yêu quý Kpa Y Méo như thế nào thì nhân dân xã Phú Mỡ, Xuân Lãnh, Suối Cối yêu quý ông Ma Phửi cũng như vậy...”\nTôi đã từng chứng kiến những đêm bà con dân tộc Chăm ở làng Hội, xã Phú Mỡ ngồi nghe ông Ma Phửi hát sử thi Xing Chi Ôn suốt đêm. Họ ngồi, nằm chật nhà ông Ma Phửi chăm chú nghe ông hát - kể trường ca Xing Chi Ôn. Họ chăm chú lắng nghe và nuốt từng câu, từng chữ. Họ cứ ngồi nghe như vậy cả đêm, sáng mai vẫn đi làm rẫy, làm nương bình thường, họ mang theo những nhân vật trường ca trong đầu và mong cho tối đến để tiếp tục được nghe hát sử thi.”\n(Phan Đăng Nhật, Sử thi Tây Nguyên trong xã hội đương đại, Tạp chí Di sản văn hóa phi vật thể, số 4/2008)",
       "question": "Nội dung chính của văn bản trên là gì?",
       "options": [
         "A. Vai trò của các nghệ nhân trong việc sáng tác và lưu truyền sử thi ở Tây Nguyên.",
@@ -17415,7 +17415,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n“Quan niệm này dẫn đến một quy định đối với việc hát - kể sử thi như sau: Đã bắt đầu hát - kể một sử thi nào đó thì phải hát - kể cho đến hết. Dù phải ngắt ra làm nhiều đêm nhưng không được phép bỏ dở. Làm như vậy các nhân vật trong truyện sẽ quở trách, vì không nói hết được số phận của họ. Vả chăng như trên đã nói, người nghe không chỉ đến để nghe theo ý nghĩa thưởng thức, mà là để “sống” với câu chuyện.”\nKhông phải chỉ có ngày xưa, mà gần đây, tình yêu quý say mê sử thi vẫn còn sâu nặng trong các tộc người. Ka Sô Liễng ghi lại thực tế gần đây như sau:\n“Đêm hôm đó, nhà bên có đám cúng rất to, có đánh cồng đánh chiêng nhảy múa, nhưng khi ông Kpa Y Méo cất tiếng hát sử thi Chi Lơ Kôk thì hình như có nam châm đã thu hút mọi người vây quanh, lớp trong, lớp ngoài xung quanh ông. Nhân dân xã Krông Pa yêu quý Kpa Y Méo như thế nào thì nhân dân xã Phú Mỡ, Xuân Lãnh, Suối Cối yêu quý ông Ma Phửi cũng như vậy...”\nTôi đã từng chứng kiến những đêm bà con dân tộc Chăm ở làng Hội, xã Phú Mỡ ngồi nghe ông Ma Phửi hát sử thi Xing Chi Ôn suốt đêm. Họ ngồi, nằm chật nhà ông Ma Phửi chăm chú nghe ông hát - kể trường ca Xing Chi Ôn. Họ chăm chú lắng nghe và nuốt từng câu, từng chữ. Họ cứ ngồi nghe như vậy cả đêm, sáng mai vẫn đi làm rẫy, làm nương bình thường, họ mang theo những nhân vật trường ca trong đầu và mong cho tối đến để tiếp tục được nghe hát sử thi.”\n(Phan Đăng Nhật, Sử thi Tây Nguyên trong xã hội đương đại, Tạp chí Di sản văn hóa phi vật thể, số 4/2008)",
       "question": "Yếu tố nào cho thấy đồng bào không chỉ nghe mà còn “sống” cùng sử thi?",
       "options": [
         "A. Họ lắng nghe say sưa và mang theo nhân vật sử thi trong suy nghĩ ban ngày.",
@@ -17437,7 +17437,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n“Quan niệm này dẫn đến một quy định đối với việc hát - kể sử thi như sau: Đã bắt đầu hát - kể một sử thi nào đó thì phải hát - kể cho đến hết. Dù phải ngắt ra làm nhiều đêm nhưng không được phép bỏ dở. Làm như vậy các nhân vật trong truyện sẽ quở trách, vì không nói hết được số phận của họ. Vả chăng như trên đã nói, người nghe không chỉ đến để nghe theo ý nghĩa thưởng thức, mà là để “sống” với câu chuyện.”\nKhông phải chỉ có ngày xưa, mà gần đây, tình yêu quý say mê sử thi vẫn còn sâu nặng trong các tộc người. Ka Sô Liễng ghi lại thực tế gần đây như sau:\n“Đêm hôm đó, nhà bên có đám cúng rất to, có đánh cồng đánh chiêng nhảy múa, nhưng khi ông Kpa Y Méo cất tiếng hát sử thi Chi Lơ Kôk thì hình như có nam châm đã thu hút mọi người vây quanh, lớp trong, lớp ngoài xung quanh ông. Nhân dân xã Krông Pa yêu quý Kpa Y Méo như thế nào thì nhân dân xã Phú Mỡ, Xuân Lãnh, Suối Cối yêu quý ông Ma Phửi cũng như vậy...”\nTôi đã từng chứng kiến những đêm bà con dân tộc Chăm ở làng Hội, xã Phú Mỡ ngồi nghe ông Ma Phửi hát sử thi Xing Chi Ôn suốt đêm. Họ ngồi, nằm chật nhà ông Ma Phửi chăm chú nghe ông hát - kể trường ca Xing Chi Ôn. Họ chăm chú lắng nghe và nuốt từng câu, từng chữ. Họ cứ ngồi nghe như vậy cả đêm, sáng mai vẫn đi làm rẫy, làm nương bình thường, họ mang theo những nhân vật trường ca trong đầu và mong cho tối đến để tiếp tục được nghe hát sử thi.”\n(Phan Đăng Nhật, Sử thi Tây Nguyên trong xã hội đương đại, Tạp chí Di sản văn hóa phi vật thể, số 4/2008)",
       "question": "Thái độ, tình cảm của đồng bào đối với các nghệ nhân hát sử thi được thể hiện như thế nào?",
       "options": [
         "A. Họ vây quanh lắng nghe và dành cho nghệ nhân sự yêu mến đặc biệt.",
@@ -17459,7 +17459,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n“Quan niệm này dẫn đến một quy định đối với việc hát - kể sử thi như sau: Đã bắt đầu hát - kể một sử thi nào đó thì phải hát - kể cho đến hết. Dù phải ngắt ra làm nhiều đêm nhưng không được phép bỏ dở. Làm như vậy các nhân vật trong truyện sẽ quở trách, vì không nói hết được số phận của họ. Vả chăng như trên đã nói, người nghe không chỉ đến để nghe theo ý nghĩa thưởng thức, mà là để “sống” với câu chuyện.”\nKhông phải chỉ có ngày xưa, mà gần đây, tình yêu quý say mê sử thi vẫn còn sâu nặng trong các tộc người. Ka Sô Liễng ghi lại thực tế gần đây như sau:\n“Đêm hôm đó, nhà bên có đám cúng rất to, có đánh cồng đánh chiêng nhảy múa, nhưng khi ông Kpa Y Méo cất tiếng hát sử thi Chi Lơ Kôk thì hình như có nam châm đã thu hút mọi người vây quanh, lớp trong, lớp ngoài xung quanh ông. Nhân dân xã Krông Pa yêu quý Kpa Y Méo như thế nào thì nhân dân xã Phú Mỡ, Xuân Lãnh, Suối Cối yêu quý ông Ma Phửi cũng như vậy...”\nTôi đã từng chứng kiến những đêm bà con dân tộc Chăm ở làng Hội, xã Phú Mỡ ngồi nghe ông Ma Phửi hát sử thi Xing Chi Ôn suốt đêm. Họ ngồi, nằm chật nhà ông Ma Phửi chăm chú nghe ông hát - kể trường ca Xing Chi Ôn. Họ chăm chú lắng nghe và nuốt từng câu, từng chữ. Họ cứ ngồi nghe như vậy cả đêm, sáng mai vẫn đi làm rẫy, làm nương bình thường, họ mang theo những nhân vật trường ca trong đầu và mong cho tối đến để tiếp tục được nghe hát sử thi.”\n(Phan Đăng Nhật, Sử thi Tây Nguyên trong xã hội đương đại, Tạp chí Di sản văn hóa phi vật thể, số 4/2008)",
       "question": "Cách lập luận trong văn bản trên được thể hiện như thế nào?",
       "options": [
         "A. Tác giả sử dụng cách lập luận kết hợp giữa dẫn chứng thực tế và miêu tả sinh động, nhấn mạnh sức hấp dẫn của sử thi đối với cộng đồng người nghe dân tộc Tây Nguyên.",
@@ -17481,7 +17481,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n“Quan niệm này dẫn đến một quy định đối với việc hát - kể sử thi như sau: Đã bắt đầu hát - kể một sử thi nào đó thì phải hát - kể cho đến hết. Dù phải ngắt ra làm nhiều đêm nhưng không được phép bỏ dở. Làm như vậy các nhân vật trong truyện sẽ quở trách, vì không nói hết được số phận của họ. Vả chăng như trên đã nói, người nghe không chỉ đến để nghe theo ý nghĩa thưởng thức, mà là để “sống” với câu chuyện.”\nKhông phải chỉ có ngày xưa, mà gần đây, tình yêu quý say mê sử thi vẫn còn sâu nặng trong các tộc người. Ka Sô Liễng ghi lại thực tế gần đây như sau:\n“Đêm hôm đó, nhà bên có đám cúng rất to, có đánh cồng đánh chiêng nhảy múa, nhưng khi ông Kpa Y Méo cất tiếng hát sử thi Chi Lơ Kôk thì hình như có nam châm đã thu hút mọi người vây quanh, lớp trong, lớp ngoài xung quanh ông. Nhân dân xã Krông Pa yêu quý Kpa Y Méo như thế nào thì nhân dân xã Phú Mỡ, Xuân Lãnh, Suối Cối yêu quý ông Ma Phửi cũng như vậy...”\nTôi đã từng chứng kiến những đêm bà con dân tộc Chăm ở làng Hội, xã Phú Mỡ ngồi nghe ông Ma Phửi hát sử thi Xing Chi Ôn suốt đêm. Họ ngồi, nằm chật nhà ông Ma Phửi chăm chú nghe ông hát - kể trường ca Xing Chi Ôn. Họ chăm chú lắng nghe và nuốt từng câu, từng chữ. Họ cứ ngồi nghe như vậy cả đêm, sáng mai vẫn đi làm rẫy, làm nương bình thường, họ mang theo những nhân vật trường ca trong đầu và mong cho tối đến để tiếp tục được nghe hát sử thi.”\n(Phan Đăng Nhật, Sử thi Tây Nguyên trong xã hội đương đại, Tạp chí Di sản văn hóa phi vật thể, số 4/2008)",
       "question": "Đề tài chính của văn bản trên là gì?",
       "options": [
         "A. Văn bản tập trung phản ánh vai trò của sử thi trong việc giải trí sau lao động, qua đó nhấn mạnh giá trị tinh thần của loại hình nghệ thuật truyền thống ở Tây Nguyên.",
@@ -18625,7 +18625,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -18933,7 +18933,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Nếu J được đặt vào cốc C7 thì K phải được đặt vào",
       "options": [
         "A. C2.",
@@ -18955,7 +18955,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Điều nào sau đây phải đúng về thứ tự các viên bi nếu N được đặt ở cốc 2?",
       "options": [
         "A. K được đặt bên trái J.",
@@ -18977,7 +18977,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 93:\nMỗi ngày, tổng năng lượng ít nhất là 2400 đơn vị, tổng protein từ 1600 đến 2500 đơn vị, tỷ lệ giữa khối lượng đậu nành và ngô phải đảm bảo: Lượng đậu nành không ít hơn một phần ba lượng ngô, và không nhiều hơn gấp đôi lượng ngô. Giá tiền mỗi kg ngô là 8 nghìn đồng, mỗi kg đậu nành là 10 nghìn đồng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Thứ tự nào dưới đây là thứ tự có thể xảy ra của các viên bi trong 3 cốc liên tiếp?",
       "options": [
         "A. J, M, K.",
@@ -19048,8 +19048,8 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. Q.",
         "B. V.",
-        "C. Phương án C",
-        "D. D. F"
+        "C. D.",
+        "D. F."
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án: D. D không thể về đích cuối cùng. T không về đích cuối cùng. R về đích sau V => V không thể về đích cuối cùng. Q về đích trước T => Q không thể về đích cuối cùng. TH A về cuối: 1 2 3 4 5 6 7 Q F T V D R A TH R về cuối: 1 2 3 4 5 6 7 A V D Q F T R TH F về cuối: 1 2 3 4 5 6 7 V Q D T A R F",
@@ -22988,7 +22988,7 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 31 đến 35:\nQuestions: Read the passage carefully. Researchers have developed a self-healing concrete capable of automatically sealing small cracks, allowing building walls to “heal” themselves much like human skin regenerates after a cut or scrape. The innovation relies on a bacterial additive that triggers the formation of calcium carbonate, a white mineral often seen as limescale in sinks and showers. This compound, known for its durability and stability, has been associated with the self-healing properties found in ancient structures such as the Pantheon and the Colosseum. “Calcium carbonate forms naturally from calcium alone, but bacteria accelerate this transformation,” explains Alejandro Montesinos, head of the Decarbonization, Climate Change, and Circular Economy Research Group at Tec de Monterrey. The key player in this process is the bacterium Bacillus subtilis, which feeds on carbon dioxide (CO₂) and produces calcium carbonate through biomineralization. In the presence of moisture, the bacteria use nutrients such as calcium and magnesium, capturing CO₂ and combining these elements to form mineral deposits that gradually turn into rock. As a result, the bacteria effectively seal cracks in concrete as part of their life cycle. Before dying, the organisms release spores that remain dormant until conditions become favorable again—ensuring that the self-healing process can restart years later. This technique not only strengthens materials but also offers a sustainable approach to reducing emissions from the cement industry, which generates roughly 2.3 billion tons of CO₂ annually, or about 7 percent of global emissions. A major challenge is ensuring that the bacteria can survive in concrete’s highly alkaline environment. Standard strains die quickly due to its extreme pH. To solve this, researchers embed bacterial spores in a protective matrix within the concrete mix. When a crack forms, the spores are exposed, germinate, and begin producing calcium carbonate in the presence of water and nutrients. In laboratory tests, narrow cracks measuring one to two millimeters wide healed completely within 15 to 30 days. The next stage of research involves adapting the process for real-world construction under different humidity and CO₂ levels. Although promising, this self-healing concrete is intended primarily for small fissures rather than large structural fractures. “It’s not suitable for load-bearing walls or heavy- support structures,” notes Montesinos. The bacteria can function in both indoor and outdoor settings but cannot survive extreme heat above 100 °C. Still, their spores may remain viable for decades, potentially reactivating when exposed to moisture. Montesinos envisions this material as a finishing layer, similar to plaster, that could enhance durability while supporting circular-economy principles. Ultimately, this research reframes CO₂ not as waste but as a valuable resource—one that can help build structures capable of repairing themselves and reducing the environmental impact of modern construction. (Adapted from: https://tecscience.tec.mx/en/biotechnology/self-healing-concrete/) Choose an option (A, B, C, or D) that best answers each question.",
       "question": "The itinerary leaves us ______ time between sessions that grabbing lunch becomes impractical unless we skip the Q&",
       "options": [
-        "A. A. so little",
+        "A. so little",
         "B. so few",
         "C. such little",
         "D. too few Questions: Each of the following sentences has one error (A, B, C, or D). Find it and blacken your choice on your answer sheet."
@@ -24217,7 +24217,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Nếu A vào trước F thì D phải vào trạm thứ mấy để được thứ tự các xe vào trạm là duy nhất?",
       "options": [
         "A. Thứ 2",
@@ -24239,7 +24239,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Nếu C vào trạm thứ 3 thì điều nào sau đây chắc chắn đúng?",
       "options": [
         "A. F về sau A",
@@ -24261,7 +24261,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Cho các phát biểu sau: 1. F vào ngay trước D 2. B cách A tối đa 4 xe 3. E hoặc B vào cuối cùng 4. A vào ngay giữa F và C Nếu C, D vào liên tiếp theo thứ tự thì có bao nhiêu điều trên có thể đúng?",
       "options": [
         "A. 1",
@@ -24284,12 +24284,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nA, B, C, D, E, T và P thành 3 nhóm khác nhau (nhóm 1, nhóm 2, nhóm 3). Biết rằng: 1. C là bạn học sinh duy nhất 1 mình trong nhóm 2. Mỗi nhóm không được quá 4 học sinh 3. Mỗi học sinh chỉ được bố trí vào đúng một nhóm 4. A và B luôn được bố trí chung vào một nhóm 5. D luôn khác nhóm với E và T",
-      "question": "Nếu T và A được sắp xếp vào chung vào nhóm 2 thì tất cả những người có thể xếp vào nhóm 3 là những ai? A. D, P, C. B. T, P. C. D, P. D. D, C.",
+      "question": "Nếu T và A được sắp xếp vào chung vào nhóm 2 thì tất cả những người có thể xếp vào nhóm 3 là những ai?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. D, P, C.",
+        "B. T, P.",
+        "C. D, P.",
+        "D. D, C."
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án: A. Tiền xử lý: - 7 người chia làm 3 nhóm, C luôn ở 1 nhóm => 2 nhóm còn lại mỗi nhóm có 3 người hoặc 1 nhóm 2 người, 1 nhóm 4 người. T và A chung nhóm 2 mà B và A luôn chung nhóm => Nhóm 2 có 3 thành viên Còn nhóm 1 và nhóm 3, mà D khác nhóm E và T mà T nhóm 2, C ở nhóm 1 người => E sẽ phải ở nhóm 2 => Nhóm 2 đủ 4 thành viên Vậy, D ở nhóm có 2 thành viên, và ở chung nhóm với P. Như vậy, nhóm 3 chỉ có thể là {C} hoặc {D, P}",
@@ -35093,7 +35093,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 99 đến 107:\nTheo Bộ Lao động Mỹ công bố ngày 1-8, trong tháng 7/2025, nền kinh tế Mỹ chỉ tạo thêm 73.000 việc làm mới, mức thấp nhất kể từ đại dịch COVID-19. Con số này giảm mạnh so với trung bình 250.000 việc làm/tháng giai đoạn 2018-2019 và thấp hơn kỳ vọng thị trường (khoảng 200.000 việc làm). Cùng thời điểm, tỷ lệ thất nghiệp tăng từ 4,1% lên 4,2%, cho thấy thị trường lao động đang suy yếu. Ngoài ra, dữ liệu tháng 5 và 6 cũng đã được điều chỉnh giảm tổng cộng 110.000 việc làm, phản ánh tình trạng tuyển dụng kém khả quan hơn so với ước tính ban đầu. Các chuyên gia nhận định nguyên nhân chủ yếu đến từ tác động tiêu cực của thuế quan, sự không ổn định trong chính sách kinh tế và tâm lý e ngại đầu tư của doanh nghiệp. Trong khi đó, Tổng thống Trump cáo buộc số liệu “gian lận” và cho rằng chính quyền đang “thao túng thông tin”. Tuy nhiên, nhiều tổ chức nghiên cứu cảnh báo rằng nếu xu hướng yếu kém này kéo dài, Mỹ có thể đối mặt với tình trạng mất nửa triệu việc làm chỉ trong vài tháng, tác động trực tiếp đến niềm tin tiêu dùng, thị trường chứng khoán và tốc độ tăng trưởng GDP.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Nếu J được đặt vào cốc C7 thì K phải được đặt vào",
       "options": [
         "A. C2.",
@@ -35115,7 +35115,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 99 đến 107:\nTheo Bộ Lao động Mỹ công bố ngày 1-8, trong tháng 7/2025, nền kinh tế Mỹ chỉ tạo thêm 73.000 việc làm mới, mức thấp nhất kể từ đại dịch COVID-19. Con số này giảm mạnh so với trung bình 250.000 việc làm/tháng giai đoạn 2018-2019 và thấp hơn kỳ vọng thị trường (khoảng 200.000 việc làm). Cùng thời điểm, tỷ lệ thất nghiệp tăng từ 4,1% lên 4,2%, cho thấy thị trường lao động đang suy yếu. Ngoài ra, dữ liệu tháng 5 và 6 cũng đã được điều chỉnh giảm tổng cộng 110.000 việc làm, phản ánh tình trạng tuyển dụng kém khả quan hơn so với ước tính ban đầu. Các chuyên gia nhận định nguyên nhân chủ yếu đến từ tác động tiêu cực của thuế quan, sự không ổn định trong chính sách kinh tế và tâm lý e ngại đầu tư của doanh nghiệp. Trong khi đó, Tổng thống Trump cáo buộc số liệu “gian lận” và cho rằng chính quyền đang “thao túng thông tin”. Tuy nhiên, nhiều tổ chức nghiên cứu cảnh báo rằng nếu xu hướng yếu kém này kéo dài, Mỹ có thể đối mặt với tình trạng mất nửa triệu việc làm chỉ trong vài tháng, tác động trực tiếp đến niềm tin tiêu dùng, thị trường chứng khoán và tốc độ tăng trưởng GDP.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Điều nào sau đây phải đúng về thứ tự các viên bi nếu N được đặt ở cốc 2?",
       "options": [
         "A. K được đặt bên trái J.",
@@ -35137,7 +35137,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 99 đến 107:\nTheo Bộ Lao động Mỹ công bố ngày 1-8, trong tháng 7/2025, nền kinh tế Mỹ chỉ tạo thêm 73.000 việc làm mới, mức thấp nhất kể từ đại dịch COVID-19. Con số này giảm mạnh so với trung bình 250.000 việc làm/tháng giai đoạn 2018-2019 và thấp hơn kỳ vọng thị trường (khoảng 200.000 việc làm). Cùng thời điểm, tỷ lệ thất nghiệp tăng từ 4,1% lên 4,2%, cho thấy thị trường lao động đang suy yếu. Ngoài ra, dữ liệu tháng 5 và 6 cũng đã được điều chỉnh giảm tổng cộng 110.000 việc làm, phản ánh tình trạng tuyển dụng kém khả quan hơn so với ước tính ban đầu. Các chuyên gia nhận định nguyên nhân chủ yếu đến từ tác động tiêu cực của thuế quan, sự không ổn định trong chính sách kinh tế và tâm lý e ngại đầu tư của doanh nghiệp. Trong khi đó, Tổng thống Trump cáo buộc số liệu “gian lận” và cho rằng chính quyền đang “thao túng thông tin”. Tuy nhiên, nhiều tổ chức nghiên cứu cảnh báo rằng nếu xu hướng yếu kém này kéo dài, Mỹ có thể đối mặt với tình trạng mất nửa triệu việc làm chỉ trong vài tháng, tác động trực tiếp đến niềm tin tiêu dùng, thị trường chứng khoán và tốc độ tăng trưởng GDP.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Thứ tự nào dưới đây là thứ tự có thể xảy ra của các viên bi trong 3 cốc liên tiếp?",
       "options": [
         "A. J, M, K.",
@@ -35208,8 +35208,8 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. Q.",
         "B. V.",
-        "C. Phương án C",
-        "D. D. F"
+        "C. D.",
+        "D. F."
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án: D. D không thể về đích cuối cùng. T không về đích cuối cùng. R về đích sau V => V không thể về đích cuối cùng. Q về đích trước T => Q không thể về đích cuối cùng. TH A về cuối: 1 2 3 4 5 6 7 Q F T V D R A TH R về cuối: 1 2 3 4 5 6 7 A V D Q F T R TH F về cuối: 1 2 3 4 5 6 7 V Q D T A R F",
@@ -37229,7 +37229,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -37432,8 +37432,8 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. Q.",
         "B. V.",
-        "C. Phương án C",
-        "D. D. F"
+        "C. D.",
+        "D. F."
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án: D. D không thể về đích cuối cùng. T không về đích cuối cùng. R về đích sau V => V không thể về đích cuối cùng. Q về đích trước T => Q không thể về đích cuối cùng. TH A về cuối: 1 2 3 4 5 6 7 Q F T V D R A TH R về cuối: 1 2 3 4 5 6 7 A V D Q F T R TH F về cuối: 1 2 3 4 5 6 7 V Q D T A R F",
@@ -39497,7 +39497,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 65:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -41171,7 +41171,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": null,
       "question": "\"Thuyết tương đối của Albert Einstein, một trong hai lý thuyết vật lý quan trọng nhất của thế kỷ 20, đã làm thay đổi hoàn toàn những quan niệm của chúng ta về không gian, thời gian và lực hấp dẫn.\"Câu trên bị mắc lỗi gì?",
       "options": [
         "A. Sai logic",
@@ -41193,7 +41193,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": null,
       "question": "\"Nhiều nghiên cứu đã đề cập đến vấn đề thần kinh ở trẻ nhỏ, đặc biệt là những trường hợp phát sinh các rối loạn phản ứng.\" Từ nào bị dùng sai trong câu trên?",
       "options": [
         "A. đề cập",
@@ -41215,7 +41215,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": null,
       "question": "Pê-nê-lốp thận trọng đáp: - Già ơi! Dù già sáng suốt đến đâu, già cũng không sao hiểu thấu những ý định huyền bí của thần linh bất tử. Nhưng thôi, gác chuyện đó lại. Bây giờ ta hãy xuống nhà với Tê-lê-mác để xem xác chết của bọn cầu hôn và người giết chúng. Nói xong, nàng bước xuống lầu. Lòng nàng rất đỗi phân vân: nàng không biết nên đứng xa xa hỏi chuyện người chồng yêu quý của mình hay nên lại gần, ôm lấy đầu, cầm lấy tay người mà hôn? Khi vào đến nhà, bước qua ngưỡng cửa bằng đá, nàng đến ngồi trước mặt Uy-lít-xơ, dưới ánh lửa hồng, dựa vào bức tường đối diện, còn Uy-lít-xơ thì ngồi tựa vào một cái cột cao, mắt nhìn xuống đất, đợi xem bây giờ tận mắt trông thấy mình rồi, người vợ cao quý của mình sẽ nói gì với mình. Nhưng nàng vẫn ngồi lặng thinh trên ghế hồi lâu, lòng sửng sốt: khi thì đăm đăm âu yếm nhìn chồng, khi lại không nhận ra chồng dưới bộ áo quần rách mướp. (Hô-me-rơ - Ô-đi-xê, theo bản dịch ra văn xuôi của Phan Thị Miến, NXB Văn học, Hà Nội, 1983) Nhân vật Pê-nê-lốp trong đoạn trích được thể hiện là người như thế nào?",
       "options": [
         "A. Người phụ nữ thận trọng, giàu tình cảm, biết nghi ngờ và suy xét mọi điều dù đứng trước người chồng sau bao năm xa cách.",
@@ -41237,7 +41237,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": null,
       "question": "Nghe những lời giận dữ đó của Ra-ma, Gia-na-ki đau đớn đến nghẹt thở, như một cây dây leo bị vòi voi quật nát. Nghe những lời tố cáo chưa từng có, trước mặt đông đủ mọi người, Gia-na-ki xấu hổ cho số kiếp của nàng. Nàng muốn tự chôn vùi cả hình hài thân xác của mình. Mỗi lời nói của Ra-ma xuyên vào trái tim nàng như một mũi tên. Nước mắt nàng đổ ra như suối. Lấy tà áo lau nước mắt, rồi bằng giọng nghẹn ngào, nức nở, nàng nói: \"Cớ sao chàng lại dùng những lời lẽ gay gắt khó tả như vậy đối với thiếp, giống như một kẻ thấp hèn chửi mắng một con mụ thấp hèn? Thiếp đâu phải là người như chàng tưởng! Thiếp có thể lấy tư cách của thiếp ra mà thề, hãy tin vào danh dự của thiếp. Suy từ hành vi của loại phụ nữ thấp hèn, chàng đã ngờ vực tất cả giới phụ nữ, nhưng như thế đâu có phải. Nếu chàng có hiểu biết thiếp chút đỉnh thì xin hãy từ bỏ mối ngờ vực không căn cứ đó đi.\" (Ra-ma-ya-na, tập III, theo bản dịch ra văn xuôi của Phạm Thủy Ba, NXB Văn học, Hà Nội, 1989) Qua đoạn trích, nhân vật Gia-na-ki được thể hiện với phẩm chất nổi bật nào sau đây?",
       "options": [
         "A. Người phụ nữ giàu lòng tự trọng, kiên cường bảo vệ phẩm hạnh và danh dự.",
@@ -41259,7 +41259,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": null,
       "question": "Trong các đặc điểm dưới đây, đặc điểm nào không phải là đặc trưng của truyện trung đại Việt Nam?",
       "options": [
         "A. Cốt truyện đơn tuyến, kết cấu theo trình tự thời gian",
@@ -41347,13 +41347,13 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\n\"Tạo hóa gây chi cuộc hí trường? Đến nay thấm thoắt mấy tinh sương! Lối xưa xe ngựa hồn thu thảo, Nền cũ lâu đài bóng tịch dương. Đá vẫn trơ gan cùng tuế nguyệt, Nước còn chau mặt với tang thương. Nghìn năm gương cũ soi kim cổ, Cảnh đấy người đây luống đoạn trường?\" (Bà Huyện Thanh Quan, Thăng Long thành hoài cổ, theo Các nhà thơ nữ Việt Nam sáng tác và phê bình, NXB Giáo dục, 2001)",
-      "question": "\"Theo Trung tâm Dự báo Khí tượng Thủy văn, do ảnh hưởng của một đợt không khí lạnh tăng cường, nhiệt độ tại các tỉnh miền núi phía Bắc đã đột ngột sa sút xuống dưới 10 độ C. \" Câu trên bị mắc lỗi gì? A. Sai dùng từ B. Sai cấu tạo ngữ pháp C. Sai logic D. Lỗi câu mơ hồ",
+      "passage": "“Theo Trung tâm Dự báo Khí tượng Thủy văn, do ảnh hưởng của một đợt không khí lạnh tăng cường, nhiệt độ tại các tỉnh miền núi phía Bắc đã đột ngột sa sút xuống dưới 10 độ C.”",
+      "question": "Câu trên bị mắc lỗi gì?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. Sai dùng từ.",
+        "B. Sai cấu tạo ngữ pháp.",
+        "C. Sai logic.",
+        "D. Lỗi câu mơ hồ."
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -43085,7 +43085,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 110:\nNiên giám Thống kê 2025 - Tổng cục Thống kê; Báo cáo kinh tế - xã hội quý III/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Nếu A vào trước F thì D phải vào trạm thứ mấy để được thứ tự các xe vào trạm là duy nhất?",
       "options": [
         "A. Thứ 2",
@@ -43107,7 +43107,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 110:\nNiên giám Thống kê 2025 - Tổng cục Thống kê; Báo cáo kinh tế - xã hội quý III/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Nếu C vào trạm thứ 3 thì điều nào sau đây chắc chắn đúng?",
       "options": [
         "A. F về sau A",
@@ -43129,7 +43129,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 110:\nNiên giám Thống kê 2025 - Tổng cục Thống kê; Báo cáo kinh tế - xã hội quý III/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Cho các phát biểu sau: 1. F vào ngay trước D 2. B cách A tối đa 4 xe 3. E hoặc B vào cuối cùng 4. A vào ngay giữa F và C Nếu C, D vào liên tiếp theo thứ tự thì có bao nhiêu điều trên có thể đúng?",
       "options": [
         "A. 1",
@@ -43152,12 +43152,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 111 đến 113:\nA, B, C, D, E, T và P thành 3 nhóm khác nhau (nhóm 1, nhóm 2, nhóm 3). Biết rằng: 1. C là bạn học sinh duy nhất 1 mình trong nhóm 2. Mỗi nhóm không được quá 4 học sinh 3. Mỗi học sinh chỉ được bố trí vào đúng một nhóm 4. A và B luôn được bố trí chung vào một nhóm 5. D luôn khác nhóm với E và T",
-      "question": "Nếu T và A được sắp xếp vào chung vào nhóm 2 thì tất cả những người có thể xếp vào nhóm 3 là những ai? A. D, P, C. B. T, P. C. D, P. D. D, C.",
+      "question": "Nếu T và A được sắp xếp vào chung vào nhóm 2 thì tất cả những người có thể xếp vào nhóm 3 là những ai?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. D, P, C.",
+        "B. T, P.",
+        "C. D, P.",
+        "D. D, C."
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án: A. Tiền xử lý: - 7 người chia làm 3 nhóm, C luôn ở 1 nhóm => 2 nhóm còn lại mỗi nhóm có 3 người hoặc 1 nhóm 2 người, 1 nhóm 4 người. T và A chung nhóm 2 mà B và A luôn chung nhóm => Nhóm 2 có 3 thành viên Còn nhóm 1 và nhóm 3, mà D khác nhóm E và T mà T nhóm 2, C ở nhóm 1 người => E sẽ phải ở nhóm 2 => Nhóm 2 đủ 4 thành viên Vậy, D ở nhóm có 2 thành viên, và ở chung nhóm với P. Như vậy, nhóm 3 chỉ có thể là {C} hoặc {D, P}",
@@ -43747,13 +43747,13 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "\"Theo Trung tâm Dự báo Khí tượng Thủy văn, do ảnh hưởng của một đợt không khí lạnh tăng cường, nhiệt độ tại các tỉnh miền núi phía Bắc đã đột ngột sa sút xuống dưới 10 độ C. \"",
-      "question": "Câu trên bị mắc lỗi gì? A. Sai dùng từ B. Sai cấu tạo ngữ pháp C. Sai logic D. Lỗi câu mơ hồ",
+      "passage": "“Theo Trung tâm Dự báo Khí tượng Thủy văn, do ảnh hưởng của một đợt không khí lạnh tăng cường, nhiệt độ tại các tỉnh miền núi phía Bắc đã đột ngột sa sút xuống dưới 10 độ C.”",
+      "question": "Câu trên bị mắc lỗi gì?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. Sai dùng từ.",
+        "B. Sai cấu tạo ngữ pháp.",
+        "C. Sai logic.",
+        "D. Lỗi câu mơ hồ."
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -43813,7 +43813,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMá tôi vẫn đi tìm dì Hai Giang - vợ cũ của ba tôi. Ngày xưa, nội tôi không đồng ý cho họ lấy nhau, họ dắt díu nhau bỏ đi. Họ có một đứa con gái bị rơi sông mà chết. Ba tôi sống quá cơ cực, lại luôn khắc khoải nhớ nội nên quay về cưới má tôi, bỏ mặc họ bơ vơ. Má tôi nói, nội chưa từng la mắng má, nhưng má vẫn hận nội đến chết mới thôi. “Bộ hết người rồi sao mà nội bây cưới tao cho ổng? Đó!” - bà chỉ tay ra bến - “Gần hết đời rồi tao có được vui đâu!” Đó là lúc “ổng” - tức ba tôi - chống cây gậy, khật khừ lang thang xuống bến, ông già tha thiết nhìn ra sông… Có khi, ngồi lặng lẽ dòm, ai cũng nghe đau xót như ai lấy cật tre cứa tới cứa lui trong lòng. Có những đêm, ba tôi hút thuốc dữ lắm, cứ nhìn chong chong ra ngọn đèn đỏ ối, nhỏ nhoi, buồn hiu ngoài kia. Ba tôi thở dài. Má tôi chạy qua khóc với nội tôi: “Biết chừng nào ảnh mới quên chuyện xưa, hả má?”\nChuyện xảy ra lâu rồi, nhưng người ta vẫn còn nhớ, vẫn còn cắm sào trước bến nhớ ba tôi. Vậy mà biểu ba tôi quên cái rụp thì sao quên cho được? Mà, cũng vì ba tôi quên không được nên má tôi mới thương ông nhiều. Con người ta, nhất là đàn ông, thương ai mà vì nỗi gì đó quay lưng rồi quên mất tiêu thì đúng là không tử tế, không đáng tin chút nào. Với tôi, ba tôi thì quên hay không cũng được – ba đã sống tốt với cả nhà tôi lắm rồi. Ông sống tử tế đến vô cùng, đến mức thừa, như thể ông gửi gắm cả tình thương yêu cho người vắng mặt. Và cũng như má tôi, ba cũng không sống được mấy ngày vui – vui thật, vui đúng nghĩa. Hồi tôi còn nhỏ, còn sống chung với bà nội, đêm đêm cả nhà đi ngủ, ba tôi ngồi hút thuốc trên bộ vạc kê trước nhà, chống rèm lên, ngó ra sông. Kiểu ngồi: một chân xếp bằng, chân kia dựng lên, tay cầm điếu thuốc tì lên đầu gối – đêm này qua đêm khác, kiểu ngồi không đổi. Nửa đêm, má tôi đi ém mùng lại, tôi thức giấc, ngó ra chỉ thấy đốm lửa lập lòe – lúc đỏ rực, lúc tắt thiu tiu. Má tôi ngồi trong mùng, lặng lẽ nhìn ba, còn ba thì nhìn ra sông. Mơ hồ, dường như mình mắc nợ ai đó. Cả nhà tôi lúc nào cũng cảm thấy không vui – dù đang hạnh phúc (hai thứ này, sao lại không thể đi chung?). Không thấy ai đòi nhưng nợ vẫn cứ là nợ – nó rờn rờn, quanh quất trong chái bếp ngày ngày khói tỏa, trong mấy chiếc giường ngủ con con, trong hai bữa cơm mỗi ngày. Cho tới lúc cuối đời, chắc nội tôi vẫn còn băn khoăn trong lòng. Khi nội tôi vừa khuất, má quyết định gặp “đối thủ” một lần – chỉ định nhìn vậy thôi.\n(Dòng nhớ, Nguyễn Ngọc Tư)",
       "question": "Trong đoạn trích trên, điểm nhìn trần thuật được sử dụng là gì?",
       "options": [
         "A. Ngôi thứ ba, từ điểm nhìn của nhân vật anh đĩ Chuột.",
@@ -43835,7 +43835,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMá tôi vẫn đi tìm dì Hai Giang - vợ cũ của ba tôi. Ngày xưa, nội tôi không đồng ý cho họ lấy nhau, họ dắt díu nhau bỏ đi. Họ có một đứa con gái bị rơi sông mà chết. Ba tôi sống quá cơ cực, lại luôn khắc khoải nhớ nội nên quay về cưới má tôi, bỏ mặc họ bơ vơ. Má tôi nói, nội chưa từng la mắng má, nhưng má vẫn hận nội đến chết mới thôi. “Bộ hết người rồi sao mà nội bây cưới tao cho ổng? Đó!” - bà chỉ tay ra bến - “Gần hết đời rồi tao có được vui đâu!” Đó là lúc “ổng” - tức ba tôi - chống cây gậy, khật khừ lang thang xuống bến, ông già tha thiết nhìn ra sông… Có khi, ngồi lặng lẽ dòm, ai cũng nghe đau xót như ai lấy cật tre cứa tới cứa lui trong lòng. Có những đêm, ba tôi hút thuốc dữ lắm, cứ nhìn chong chong ra ngọn đèn đỏ ối, nhỏ nhoi, buồn hiu ngoài kia. Ba tôi thở dài. Má tôi chạy qua khóc với nội tôi: “Biết chừng nào ảnh mới quên chuyện xưa, hả má?”\nChuyện xảy ra lâu rồi, nhưng người ta vẫn còn nhớ, vẫn còn cắm sào trước bến nhớ ba tôi. Vậy mà biểu ba tôi quên cái rụp thì sao quên cho được? Mà, cũng vì ba tôi quên không được nên má tôi mới thương ông nhiều. Con người ta, nhất là đàn ông, thương ai mà vì nỗi gì đó quay lưng rồi quên mất tiêu thì đúng là không tử tế, không đáng tin chút nào. Với tôi, ba tôi thì quên hay không cũng được – ba đã sống tốt với cả nhà tôi lắm rồi. Ông sống tử tế đến vô cùng, đến mức thừa, như thể ông gửi gắm cả tình thương yêu cho người vắng mặt. Và cũng như má tôi, ba cũng không sống được mấy ngày vui – vui thật, vui đúng nghĩa. Hồi tôi còn nhỏ, còn sống chung với bà nội, đêm đêm cả nhà đi ngủ, ba tôi ngồi hút thuốc trên bộ vạc kê trước nhà, chống rèm lên, ngó ra sông. Kiểu ngồi: một chân xếp bằng, chân kia dựng lên, tay cầm điếu thuốc tì lên đầu gối – đêm này qua đêm khác, kiểu ngồi không đổi. Nửa đêm, má tôi đi ém mùng lại, tôi thức giấc, ngó ra chỉ thấy đốm lửa lập lòe – lúc đỏ rực, lúc tắt thiu tiu. Má tôi ngồi trong mùng, lặng lẽ nhìn ba, còn ba thì nhìn ra sông. Mơ hồ, dường như mình mắc nợ ai đó. Cả nhà tôi lúc nào cũng cảm thấy không vui – dù đang hạnh phúc (hai thứ này, sao lại không thể đi chung?). Không thấy ai đòi nhưng nợ vẫn cứ là nợ – nó rờn rờn, quanh quất trong chái bếp ngày ngày khói tỏa, trong mấy chiếc giường ngủ con con, trong hai bữa cơm mỗi ngày. Cho tới lúc cuối đời, chắc nội tôi vẫn còn băn khoăn trong lòng. Khi nội tôi vừa khuất, má quyết định gặp “đối thủ” một lần – chỉ định nhìn vậy thôi.\n(Dòng nhớ, Nguyễn Ngọc Tư)",
       "question": "Thông điệp chính được thể hiện trong văn bản trên là gì?",
       "options": [
         "A. Muốn thành công cần tập trung vào việc tránh xa năng lượng tiêu cực để có một cuộc sống an nhàn, thảnh thơi hơn mỗi ngày.",
@@ -43857,7 +43857,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n“Quan niệm này dẫn đến một quy định đối với việc hát - kể sử thi như sau: Đã bắt đầu hát - kể một sử thi nào đó thì phải hát - kể cho đến hết. Dù phải ngắt ra làm nhiều đêm nhưng không được phép bỏ dở. Làm như vậy các nhân vật trong truyện sẽ quở trách, vì không nói hết được số phận của họ. Vả chăng như trên đã nói, người nghe không chỉ đến để nghe theo ý nghĩa thưởng thức, mà là để “sống” với câu chuyện.”\nKhông phải chỉ có ngày xưa, mà gần đây, tình yêu quý say mê sử thi vẫn còn sâu nặng trong các tộc người. Ka Sô Liễng ghi lại thực tế gần đây như sau:\n“Đêm hôm đó, nhà bên có đám cúng rất to, có đánh cồng đánh chiêng nhảy múa, nhưng khi ông Kpa Y Méo cất tiếng hát sử thi Chi Lơ Kôk thì hình như có nam châm đã thu hút mọi người vây quanh, lớp trong, lớp ngoài xung quanh ông. Nhân dân xã Krông Pa yêu quý Kpa Y Méo như thế nào thì nhân dân xã Phú Mỡ, Xuân Lãnh, Suối Cối yêu quý ông Ma Phửi cũng như vậy...”\nTôi đã từng chứng kiến những đêm bà con dân tộc Chăm ở làng Hội, xã Phú Mỡ ngồi nghe ông Ma Phửi hát sử thi Xing Chi Ôn suốt đêm. Họ ngồi, nằm chật nhà ông Ma Phửi chăm chú nghe ông hát - kể trường ca Xing Chi Ôn. Họ chăm chú lắng nghe và nuốt từng câu, từng chữ. Họ cứ ngồi nghe như vậy cả đêm, sáng mai vẫn đi làm rẫy, làm nương bình thường, họ mang theo những nhân vật trường ca trong đầu và mong cho tối đến để tiếp tục được nghe hát sử thi.”\n(Phan Đăng Nhật, Sử thi Tây Nguyên trong xã hội đương đại, Tạp chí Di sản văn hóa phi vật thể, số 4/2008)",
       "question": "Nội dung chính của văn bản trên là gì?",
       "options": [
         "A. Vai trò của các nghệ nhân trong việc sáng tác và lưu truyền sử thi ở Tây Nguyên.",
@@ -43879,7 +43879,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n“Quan niệm này dẫn đến một quy định đối với việc hát - kể sử thi như sau: Đã bắt đầu hát - kể một sử thi nào đó thì phải hát - kể cho đến hết. Dù phải ngắt ra làm nhiều đêm nhưng không được phép bỏ dở. Làm như vậy các nhân vật trong truyện sẽ quở trách, vì không nói hết được số phận của họ. Vả chăng như trên đã nói, người nghe không chỉ đến để nghe theo ý nghĩa thưởng thức, mà là để “sống” với câu chuyện.”\nKhông phải chỉ có ngày xưa, mà gần đây, tình yêu quý say mê sử thi vẫn còn sâu nặng trong các tộc người. Ka Sô Liễng ghi lại thực tế gần đây như sau:\n“Đêm hôm đó, nhà bên có đám cúng rất to, có đánh cồng đánh chiêng nhảy múa, nhưng khi ông Kpa Y Méo cất tiếng hát sử thi Chi Lơ Kôk thì hình như có nam châm đã thu hút mọi người vây quanh, lớp trong, lớp ngoài xung quanh ông. Nhân dân xã Krông Pa yêu quý Kpa Y Méo như thế nào thì nhân dân xã Phú Mỡ, Xuân Lãnh, Suối Cối yêu quý ông Ma Phửi cũng như vậy...”\nTôi đã từng chứng kiến những đêm bà con dân tộc Chăm ở làng Hội, xã Phú Mỡ ngồi nghe ông Ma Phửi hát sử thi Xing Chi Ôn suốt đêm. Họ ngồi, nằm chật nhà ông Ma Phửi chăm chú nghe ông hát - kể trường ca Xing Chi Ôn. Họ chăm chú lắng nghe và nuốt từng câu, từng chữ. Họ cứ ngồi nghe như vậy cả đêm, sáng mai vẫn đi làm rẫy, làm nương bình thường, họ mang theo những nhân vật trường ca trong đầu và mong cho tối đến để tiếp tục được nghe hát sử thi.”\n(Phan Đăng Nhật, Sử thi Tây Nguyên trong xã hội đương đại, Tạp chí Di sản văn hóa phi vật thể, số 4/2008)",
       "question": "Yếu tố nào cho thấy đồng bào không chỉ nghe mà còn “sống” cùng sử thi?",
       "options": [
         "A. Họ lắng nghe say sưa và mang theo nhân vật sử thi trong suy nghĩ ban ngày.",
@@ -43901,7 +43901,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n“Quan niệm này dẫn đến một quy định đối với việc hát - kể sử thi như sau: Đã bắt đầu hát - kể một sử thi nào đó thì phải hát - kể cho đến hết. Dù phải ngắt ra làm nhiều đêm nhưng không được phép bỏ dở. Làm như vậy các nhân vật trong truyện sẽ quở trách, vì không nói hết được số phận của họ. Vả chăng như trên đã nói, người nghe không chỉ đến để nghe theo ý nghĩa thưởng thức, mà là để “sống” với câu chuyện.”\nKhông phải chỉ có ngày xưa, mà gần đây, tình yêu quý say mê sử thi vẫn còn sâu nặng trong các tộc người. Ka Sô Liễng ghi lại thực tế gần đây như sau:\n“Đêm hôm đó, nhà bên có đám cúng rất to, có đánh cồng đánh chiêng nhảy múa, nhưng khi ông Kpa Y Méo cất tiếng hát sử thi Chi Lơ Kôk thì hình như có nam châm đã thu hút mọi người vây quanh, lớp trong, lớp ngoài xung quanh ông. Nhân dân xã Krông Pa yêu quý Kpa Y Méo như thế nào thì nhân dân xã Phú Mỡ, Xuân Lãnh, Suối Cối yêu quý ông Ma Phửi cũng như vậy...”\nTôi đã từng chứng kiến những đêm bà con dân tộc Chăm ở làng Hội, xã Phú Mỡ ngồi nghe ông Ma Phửi hát sử thi Xing Chi Ôn suốt đêm. Họ ngồi, nằm chật nhà ông Ma Phửi chăm chú nghe ông hát - kể trường ca Xing Chi Ôn. Họ chăm chú lắng nghe và nuốt từng câu, từng chữ. Họ cứ ngồi nghe như vậy cả đêm, sáng mai vẫn đi làm rẫy, làm nương bình thường, họ mang theo những nhân vật trường ca trong đầu và mong cho tối đến để tiếp tục được nghe hát sử thi.”\n(Phan Đăng Nhật, Sử thi Tây Nguyên trong xã hội đương đại, Tạp chí Di sản văn hóa phi vật thể, số 4/2008)",
       "question": "Thái độ, tình cảm của đồng bào đối với các nghệ nhân hát sử thi được thể hiện như thế nào?",
       "options": [
         "A. Họ vây quanh lắng nghe và dành cho nghệ nhân sự yêu mến đặc biệt.",
@@ -45353,7 +45353,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 90 và 91:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp tứ giác đều . S ABCD có cạnh đáy bằng 2a , cạnh bên bằng 3a , O là tâm đáy.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Cho các phát biểu sau: 1. F vào ngay trước D 2. B cách A tối đa 4 xe 3. E hoặc B vào cuối cùng 4. A vào ngay giữa F và C Nếu C, D vào liên tiếp theo thứ tự thì có bao nhiêu điều trên có thể đúng?",
       "options": [
         "A. 1",
@@ -45376,12 +45376,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 92 đến 94:\nA, B, C, D, E, T và P thành 3 nhóm khác nhau (nhóm 1, nhóm 2, nhóm 3). Biết rằng: 1. C là bạn học sinh duy nhất 1 mình trong nhóm 2. Mỗi nhóm không được quá 4 học sinh 3. Mỗi học sinh chỉ được bố trí vào đúng một nhóm 4. A và B luôn được bố trí chung vào một nhóm 5. D luôn khác nhóm với E và T",
-      "question": "Nếu T và A được sắp xếp vào chung vào nhóm 2 thì tất cả những người có thể xếp vào nhóm 3 là những ai? A. D, P, C. B. T, P. C. D, P. D. D, C.",
+      "question": "Nếu T và A được sắp xếp vào chung vào nhóm 2 thì tất cả những người có thể xếp vào nhóm 3 là những ai?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. D, P, C.",
+        "B. T, P.",
+        "C. D, P.",
+        "D. D, C."
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án: A. Tiền xử lý: - 7 người chia làm 3 nhóm, C luôn ở 1 nhóm => 2 nhóm còn lại mỗi nhóm có 3 người hoặc 1 nhóm 2 người, 1 nhóm 4 người. T và A chung nhóm 2 mà B và A luôn chung nhóm => Nhóm 2 có 3 thành viên Còn nhóm 1 và nhóm 3, mà D khác nhóm E và T mà T nhóm 2, C ở nhóm 1 người => E sẽ phải ở nhóm 2 => Nhóm 2 đủ 4 thành viên Vậy, D ở nhóm có 2 thành viên, và ở chung nhóm với P. Như vậy, nhóm 3 chỉ có thể là {C} hoặc {D, P}",
@@ -46147,13 +46147,13 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "\"Theo Trung tâm Dự báo Khí tượng Thủy văn, do ảnh hưởng của một đợt không khí lạnh tăng cường, nhiệt độ tại các tỉnh miền núi phía Bắc đã đột ngột sa sút xuống dưới 10 độ C. \"",
-      "question": "Câu trên bị mắc lỗi gì? A. Sai dùng từ B. Sai cấu tạo ngữ pháp C. Sai logic D. Lỗi câu mơ hồ",
+      "passage": "“Theo Trung tâm Dự báo Khí tượng Thủy văn, do ảnh hưởng của một đợt không khí lạnh tăng cường, nhiệt độ tại các tỉnh miền núi phía Bắc đã đột ngột sa sút xuống dưới 10 độ C.”",
+      "question": "Câu trên bị mắc lỗi gì?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. Sai dùng từ.",
+        "B. Sai cấu tạo ngữ pháp.",
+        "C. Sai logic.",
+        "D. Lỗi câu mơ hồ."
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -49848,7 +49848,7 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 38 đến 55:\nQuestions: Read the passage carefully. Researchers have developed a self-healing concrete capable of automatically sealing small cracks, allowing building walls to “heal” themselves much like human skin regenerates after a cut or scrape. The innovation relies on a bacterial additive that triggers the formation of calcium carbonate, a white mineral often seen as limescale in sinks and showers. This compound, known for its durability and stability, has been associated with the self-healing properties found in ancient structures such as the Pantheon and the Colosseum. “Calcium carbonate forms naturally from calcium alone, but bacteria accelerate this transformation,” explains Alejandro Montesinos, head of the Decarbonization, Climate Change, and Circular Economy Research Group at Tec de Monterrey. The key player in this process is the bacterium Bacillus subtilis, which feeds on carbon dioxide (CO₂) and produces calcium carbonate through biomineralization. In the presence of moisture, the bacteria use nutrients such as calcium and magnesium, capturing CO₂ and combining these elements to form mineral deposits that gradually turn into rock. As a result, the bacteria effectively seal cracks in concrete as part of their life cycle. Before dying, the organisms release spores that remain dormant until conditions become favorable again—ensuring that the self-healing process can restart years later. This technique not only strengthens materials but also offers a sustainable approach to reducing emissions from the cement industry, which generates roughly 2.3 billion tons of CO₂ annually, or about 7 percent of global emissions. A major challenge is ensuring that the bacteria can survive in concrete’s highly alkaline environment. Standard strains die quickly due to its extreme pH. To solve this, researchers embed bacterial spores in a protective matrix within the concrete mix. When a crack forms, the spores are exposed, germinate, and begin producing calcium carbonate in the presence of water and nutrients. In laboratory tests, narrow cracks measuring one to two millimeters wide healed completely within 15 to 30 days. The next stage of research involves adapting the process for real-world construction under different humidity and CO₂ levels. Although promising, this self-healing concrete is intended primarily for small fissures rather than large structural fractures. “It’s not suitable for load-bearing walls or heavy- support structures,” notes Montesinos. The bacteria can function in both indoor and outdoor settings but cannot survive extreme heat above 100 °C. Still, their spores may remain viable for decades, potentially reactivating when exposed to moisture. Montesinos envisions this material as a finishing layer, similar to plaster, that could enhance durability while supporting circular-economy principles. Ultimately, this research reframes CO₂ not as waste but as a valuable resource—one that can help build structures capable of repairing themselves and reducing the environmental impact of modern construction. (Adapted from: https://tecscience.tec.mx/en/biotechnology/self-healing-concrete/) Choose an option (A, B, C, or D) that best answers each question.",
       "question": "The itinerary leaves us ______ time between sessions that grabbing lunch becomes impractical unless we skip the Q&",
       "options": [
-        "A. A. so little",
+        "A. so little",
         "B. so few",
         "C. such little",
         "D. too few Questions: Each of the following sentences has one error (A, B, C, or D). Find it and blacken your choice on your answer sheet."
@@ -50483,7 +50483,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 83 và 84:\nx - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -50505,7 +50505,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Phương trình đường cao kẻ từ $C$ là:",
       "options": [
         "A. x - y - 4 = 0",
@@ -50970,12 +50970,12 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n15 Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108 Năng lượng riêng Es là lượng năng lượng được tạo ra từ một đơn vị khối lượng của nhiên liệu: Es = E/m (với E (J) là năng lượng và m (kg) là khối lượng của nhiên liệu). Năng lượng riêng của than là 3,200.107 J/kg. Than là nguồn năng lượng không tái tạo và phát thải nhiều khí CO2 gây ra hiệu ứng nhà kính nhất (thải ra 8,200.102 g CO2 để tạo 1,000 kWh điện năng). Biết một nhà máy điện than có công suất 1,244.103 MW và hiệu suất 40,00% (chỉ có 40,00% năng lượng tạo ra từ than chuyển thành điện năng).",
       "question": "Điều nào sau đây không thể đúng trong cách sắp xếp người ngồi trên các xe?",
       "options": [
-        "A. K và S có thể ngồi cùng một xe. C. N và S có thể ngồi cùng một xe.",
-        "B. C. N và S có thể ngồi cùng một xe.",
-        "C. N và S có thể ngồi cùng một xe. B. L và R có thể ngồi cùng một xe.",
+        "A. K và S có thể ngồi cùng một xe.",
+        "B. L và R có thể ngồi cùng một xe.",
+        "C. N và S có thể ngồi cùng một xe.",
         "D. O và T có thể ngồi cùng một xe."
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 95: Vận dụng kiến thức trọng tâm của phân môn Tư duy khoa học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -52204,7 +52204,7 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 31 đến 42:\nQuestions: Read the passage carefully. Researchers have developed a self-healing concrete capable of automatically sealing small cracks, allowing building walls to “heal” themselves much like human skin regenerates after a cut or scrape. The innovation relies on a bacterial additive that triggers the formation of calcium carbonate, a white mineral often seen as limescale in sinks and showers. This compound, known for its durability and stability, has been associated with the self-healing properties found in ancient structures such as the Pantheon and the Colosseum. “Calcium carbonate forms naturally from calcium alone, but bacteria accelerate this transformation,” explains Alejandro Montesinos, head of the Decarbonization, Climate Change, and Circular Economy Research Group at Tec de Monterrey. The key player in this process is the bacterium Bacillus subtilis, which feeds on carbon dioxide (CO₂) and produces calcium carbonate through biomineralization. In the presence of moisture, the bacteria use nutrients such as calcium and magnesium, capturing CO₂ and combining these elements to form mineral deposits that gradually turn into rock. As a result, the bacteria effectively seal cracks in concrete as part of their life cycle. Before dying, the organisms release spores that remain dormant until conditions become favorable again—ensuring that the self-healing process can restart years later. This technique not only strengthens materials but also offers a sustainable approach to reducing emissions from the cement industry, which generates roughly 2.3 billion tons of CO₂ annually, or about 7 percent of global emissions. A major challenge is ensuring that the bacteria can survive in concrete’s highly alkaline environment. Standard strains die quickly due to its extreme pH. To solve this, researchers embed bacterial spores in a protective matrix within the concrete mix. When a crack forms, the spores are exposed, germinate, and begin producing calcium carbonate in the presence of water and nutrients. In laboratory tests, narrow cracks measuring one to two millimeters wide healed completely within 15 to 30 days. The next stage of research involves adapting the process for real-world construction under different humidity and CO₂ levels. Although promising, this self-healing concrete is intended primarily for small fissures rather than large structural fractures. “It’s not suitable for load-bearing walls or heavy- support structures,” notes Montesinos. The bacteria can function in both indoor and outdoor settings but cannot survive extreme heat above 100 °C. Still, their spores may remain viable for decades, potentially reactivating when exposed to moisture. Montesinos envisions this material as a finishing layer, similar to plaster, that could enhance durability while supporting circular-economy principles. Ultimately, this research reframes CO₂ not as waste but as a valuable resource—one that can help build structures capable of repairing themselves and reducing the environmental impact of modern construction. (Adapted from: https://tecscience.tec.mx/en/biotechnology/self-healing-concrete/) Choose an option (A, B, C, or D) that best answers each question.",
       "question": "The itinerary leaves us ______ time between sessions that grabbing lunch becomes impractical unless we skip the Q&",
       "options": [
-        "A. A. so little",
+        "A. so little",
         "B. so few",
         "C. such little",
         "D. too few Questions: Each of the following sentences has one error (A, B, C, or D). Find it and blacken your choice on your answer sheet."
@@ -52751,7 +52751,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -52773,7 +52773,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Phương trình đường cao kẻ từ $C$ là:",
       "options": [
         "A. x - y - 4 = 0",
@@ -52927,7 +52927,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75:\nCó hai hồ nuôi cá chép Nhật. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng, Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
+      "passage": null,
       "question": "Số nghiệm thực của hệ phương trình $\\begin{cases} 4^x = 2^{y+1} + 1 \\\\ 2^x + y - 1 = 0 \\end{cases}$ là:",
       "options": [
         "A. 1",
@@ -52949,7 +52949,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nMột công ty cần in ít nhất 540 văn bản và 144 trang màu để chuẩn bị hội nghị. Có 2 máy in gồm hai loại M và N có thể thuê. Thời gian thuê tối đa cho cho máy loại M là 10 giờ, loại N là 12 giờ. Giá thuê lần lượt máy in loại M, N là 200 nghìn đồng/giờ và 180 nghìn đồng/giờ. Biết máy in loại M in được 40 văn bản/giờ và 8 trang màu/giờ, máy in loại N in được 30 văn bản/giờ và 12 trang màu/giờ. Gọi x , y lần lượt là số giờ thuê máy M, N.",
+      "passage": null,
       "question": "Tìm $m$ để phương trình $\\sqrt{2x^2 + mx + 2} = 2x + 1$ có hai nghiệm phân biệt.",
       "options": [
         "A. $m < \\frac{9}{2}$",
@@ -52971,7 +52971,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nMột công ty cần in ít nhất 540 văn bản và 144 trang màu để chuẩn bị hội nghị. Có 2 máy in gồm hai loại M và N có thể thuê. Thời gian thuê tối đa cho cho máy loại M là 10 giờ, loại N là 12 giờ. Giá thuê lần lượt máy in loại M, N là 200 nghìn đồng/giờ và 180 nghìn đồng/giờ. Biết máy in loại M in được 40 văn bản/giờ và 8 trang màu/giờ, máy in loại N in được 30 văn bản/giờ và 12 trang màu/giờ. Gọi x , y lần lượt là số giờ thuê máy M, N.",
+      "passage": null,
       "question": "[EMPIRE TEAM] Cho $a, b, c > 1$. Biết rằng biểu thức $P = \\log_a(bc) + \\log_b(ac) + 4\\log_c(ab)$ đạt giá trị nhỏ nhất $m$ khi $\\log_b c = n$. Tính giá trị $m + n$.",
       "options": [
         "A. m + n = 12",
@@ -52993,7 +52993,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\n12 Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80 Để kiểm tra chất lượng nước uống đóng chai của ba phân xưởng X, Y, Z, đoàn kiểm tra lấy ngẫu nhiên 7 chai nước của phân xưởng X, 4 chai nước của phân xưởng Y và 5 chai nước của phân xưởng Z. Sau đó lấy ngẫu nhiên 4 chai nước từ 16 chai ở trên để kiểm tra hàm lượng fluor theo quy định.",
+      "passage": null,
       "question": "Cho đồ thị vô hướng có trọng số. Số ghi trên mỗi cạnh là độ dài quãng đường (km). Một xe điện phục vụ nội bộ đi từ A đến E với vận tốc không đổi 30 km/h. Thời gian di chuyển ngắn nhất là:",
       "options": [
         "A. 22 phút",
@@ -53015,7 +53015,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\n12 Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80 Để kiểm tra chất lượng nước uống đóng chai của ba phân xưởng X, Y, Z, đoàn kiểm tra lấy ngẫu nhiên 7 chai nước của phân xưởng X, 4 chai nước của phân xưởng Y và 5 chai nước của phân xưởng Z. Sau đó lấy ngẫu nhiên 4 chai nước từ 16 chai ở trên để kiểm tra hàm lượng fluor theo quy định.",
+      "passage": null,
       "question": "Có năm địa điểm , , , , A B C D E . Một số địa điểm có đường đi tới nhau môt tả bằng các cạnh với độ dài quãng đường tính theo kilomet cho bởi số gắn với cạnh đó như hình vẽ. Một người đưa thư xuất phát từ bưu điện ở vị trí C , cần đi qua tất cả các đường và sau đó phải trở về vị trí ban đầu C . Tổng số kilomet mà người đưa thư phải đi nhỏ nhất là bao nhiêu?",
       "options": [
         "A. 43",
@@ -53037,7 +53037,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\n12 Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80 Để kiểm tra chất lượng nước uống đóng chai của ba phân xưởng X, Y, Z, đoàn kiểm tra lấy ngẫu nhiên 7 chai nước của phân xưởng X, 4 chai nước của phân xưởng Y và 5 chai nước của phân xưởng Z. Sau đó lấy ngẫu nhiên 4 chai nước từ 16 chai ở trên để kiểm tra hàm lượng fluor theo quy định.",
+      "passage": null,
       "question": "Từ một miếng tôn có hình dạng là nửa đường tròn bán kính 1 m , người ta cắt ra một hình chữ nhật. Hỏi có thể cắt được miếng tôn có diện tích lớn nhất là bao nhiêu?",
       "options": [
         "A. 2 1, 6 m .",
@@ -53059,7 +53059,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nCho tam giác $ABC$ có độ dài các cạnh là $AB = 5, BC = 6, CA = 7$.",
+      "passage": null,
       "question": "Số giờ có ánh sáng của một thành phố A trong ngày thứ $t$ của năm 2017 được cho bởi hàm số $d(t) = 4\\sin\\left[\\frac{\\pi}{178}(t - 60)\\right] + 10$, với $t \\in \\mathbb{Z}$ và $0 < t \\le 365$. Ngày nào sau đây thành phố A có nhiều giờ có ánh sáng nhất?",
       "options": [
         "A. 28 tháng 5",
@@ -53081,7 +53081,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nCho tam giác $ABC$ có độ dài các cạnh là $AB = 5, BC = 6, CA = 7$.",
+      "passage": null,
       "question": "Cho hai vectơ $\\vec{a}$ và $\\vec{b}$ có $|\\vec{a}| = 5$, $|\\vec{b}| = 12$ và $|\\vec{a} + \\vec{b}| = 13$. Khi đó cosin của góc giữa hai vectơ $\\vec{a} - \\vec{b}$ và $\\vec{a} + \\vec{b}$ bằng:",
       "options": [
         "A. $\\frac{12}{13}$",
@@ -53103,7 +53103,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 83 và 84:\nx - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
+      "passage": null,
       "question": "Cho hàm số $y = \\frac{2x - 1}{x - 1}$ có đồ thị là $(C)$. Lập phương trình tiếp tuyến của đồ thị $(C)$ sao cho tiếp tuyến này cắt các trục $Ox, Oy$ lần lượt tại hai điểm $A, B$ thỏa mãn $OA = 4OB$.",
       "options": [
         "A. $y = -\\frac{1}{4}x + \\frac{5}{4} \\text{ hoặc } y = -\\frac{1}{4}x + \\frac{13}{4}$",
@@ -53125,7 +53125,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 83 và 84:\nx - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
+      "passage": null,
       "question": "Cho dãy $(x_k)$ được xác định như sau: $x_k = \\frac{1}{2!} + \\frac{2}{3!} + \\dots + \\frac{k}{(k+1)!}$. Tìm $\\lim u_n$ với $u_n = x_1 + x_2 + \\dots + x_{2011}$.",
       "options": [
         "A. $+\\infty$",
@@ -53147,7 +53147,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 2a, khoảng cách giữa hai đường thẳng SA và CD bằng 3. a",
+      "passage": null,
       "question": "Trong mặt phẳng tọa độ Oxy cho elip $(E): \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ ($a > b > 0$) và đường tròn $(C): x^2 + y^2 = 7$. Để diện tích elip $(E)$ đạt giá trị nhỏ nhất thì tích $ab$ bằng:",
       "options": [
         "A. $ab = 7\\sqrt{7}$",
@@ -53169,7 +53169,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 2a, khoảng cách giữa hai đường thẳng SA và CD bằng 3. a",
+      "passage": null,
       "question": "Biết $f(x)$ là hàm số liên tục trên $\\mathbb{R}$ và $\\int_{0}^{6} f(x)\\,dx = 4$, $\\int_{2}^{6} f(t)\\,dt = -3$. Khi đó $\\int_{0}^{2} [f(v) - 3]\\,dv$ bằng:",
       "options": [
         "A. 1",
@@ -53191,7 +53191,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 2a, khoảng cách giữa hai đường thẳng SA và CD bằng 3. a",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó hai hồ nuôi cá chép thí nghiệm, được đánh số là hồ thứ nhất và hồ thứ hai. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng. Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
       "question": "Xác suất để chọn được con cá màu vàng từ hồ thứ hai:",
       "options": [
         "A. $\\frac{43}{210}$",
@@ -53213,7 +53213,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó hai hồ nuôi cá chép thí nghiệm, được đánh số là hồ thứ nhất và hồ thứ hai. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng. Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
       "question": "Xác suất để chọn được con cá màu vàng không bị đánh dấu:",
       "options": [
         "A. $\\frac{7}{15}$",
@@ -55459,7 +55459,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó hai hồ nuôi cá chép thí nghiệm, được đánh số là hồ thứ nhất và hồ thứ hai. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng. Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
       "question": "Xác suất để chọn được con cá màu vàng từ hồ thứ hai:",
       "options": [
         "A. $\\frac{43}{210}$",
@@ -55481,7 +55481,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó hai hồ nuôi cá chép thí nghiệm, được đánh số là hồ thứ nhất và hồ thứ hai. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng. Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
       "question": "Xác suất để chọn được con cá màu vàng không bị đánh dấu:",
       "options": [
         "A. $\\frac{7}{15}$",
@@ -55635,7 +55635,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\nCho cấp số cộng $(u_n)$ có các số hạng đều dương, tổng 4 số hạng đầu bằng 44 và $u_1 \\cdot u_2 = 45$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong không gian $Oxyz$, cho mặt phẳng $(\\alpha): x + 2y - 2z + 1 = 0$ và hai điểm $A(1; 1; -1), B(2; 1; 0)$.",
       "question": "Điểm $M$ di động trên $(\\alpha)$ sao cho $MA = 2MB$. Biết rằng $M$ luôn thuộc một đường tròn $(\\omega)$ cố định. Hoành độ của tâm đường tròn $(\\omega)$ bằng:",
       "options": [
         "A. 2",
@@ -55657,7 +55657,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\nCho cấp số cộng $(u_n)$ có các số hạng đều dương, tổng 4 số hạng đầu bằng 44 và $u_1 \\cdot u_2 = 45$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Khoảng cách từ I đến AB là bao nhiêu?",
       "options": [
         "A. 2 .",
@@ -55679,7 +55679,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n$x^2 + y^2 + z^2 + \\alpha z - 12 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Phương trình tổng quát đường cao kẻ từ $C$ có dạng $ax - y + b = 0$. Tính $a + b$:",
       "options": [
         "A. 2",
@@ -55701,7 +55701,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n$x^2 + y^2 + z^2 + \\alpha z - 12 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Tổng bình phương hoành độ và tung độ của điểm A gần nhất là?",
       "options": [
         "A. 141, 5",
@@ -55723,7 +55723,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nTrong mặt phẳng toạ độ Oxy, cho tam giác ABC có trực tâm $H(-2; 1)$ , chân đường cao hạ từ đỉnh C là $K(1; -2)$ . Trung điểm cạnh AC là ( ) 3; 4 I -",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hàm số $y = \\frac{x^2 + mx + m}{x + 1}$ có đồ thị là $(C_m)$.",
       "question": "Với $m = 1$, khi đó phương trình đường thẳng đi qua 2 điểm cực trị của đồ thị hàm số là:",
       "options": [
         "A. y = x",
@@ -55745,7 +55745,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nTrong mặt phẳng toạ độ Oxy, cho tam giác ABC có trực tâm $H(-2; 1)$ , chân đường cao hạ từ đỉnh C là $K(1; -2)$ . Trung điểm cạnh AC là ( ) 3; 4 I -",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hàm số $y = \\frac{x^2 + mx + m}{x + 1}$ có đồ thị là $(C_m)$.",
       "question": "Với $m = \\frac{1}{2}$, khi đó tâm đối xứng của đồ thị hàm số $(C)$ có tọa độ là điểm nào sau đây:",
       "options": [
         "A. $\\left(1; -\\frac{3}{2}\\right)$",
@@ -55767,7 +55767,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nTrong mặt phẳng toạ độ Oxy, cho tam giác ABC có trực tâm $H(-2; 1)$ , chân đường cao hạ từ đỉnh C là $K(1; -2)$ . Trung điểm cạnh AC là ( ) 3; 4 I -",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nCho hàm số $y = \\frac{x^2 + mx + m}{x + 1}$ có đồ thị là $(C_m)$.",
       "question": "Gọi $S$ là tập hợp tất cả các giá trị thực của tham số $m$ sao cho giá trị lớn nhất của hàm số $y = \\frac{x^2 + mx + m}{x + 1}$ trên $[1; 2]$ bằng 2. Tổng các phần tử của $S$ là:",
       "options": [
         "A. $-\\frac{35}{6}$",
@@ -55789,7 +55789,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 2a, khoảng cách giữa hai đường thẳng SA và CD bằng 3. a",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khối chóp . S ABC :",
       "options": [
         "A. 3 6a .",
@@ -55811,7 +55811,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 2a, khoảng cách giữa hai đường thẳng SA và CD bằng 3. a",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính góc giữa hai mặt phẳng $(SBC)$ và $(ABC)$ (làm tròn đến độ):",
       "options": [
         "A. $41^\\circ$",
@@ -55833,7 +55833,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 2a, khoảng cách giữa hai đường thẳng SA và CD bằng 3. a",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khới chóp . S HBC :",
       "options": [
         "A. 3 4 5 a .",
@@ -57903,7 +57903,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong không gian $Oxyz$, cho mặt phẳng $(\\alpha): x + 2y - 2z + 1 = 0$ và hai điểm $A(1; 1; -1), B(2; 1; 0)$.",
       "question": "Điểm $M$ di động trên $(\\alpha)$ sao cho $MA = 2MB$. Biết rằng $M$ luôn thuộc một đường tròn $(\\omega)$ cố định. Hoành độ của tâm đường tròn $(\\omega)$ bằng:",
       "options": [
         "A. 2",
@@ -57925,7 +57925,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Khoảng cách từ I đến AB là bao nhiêu?",
       "options": [
         "A. 2 .",
@@ -57947,7 +57947,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Phương trình tổng quát đường cao kẻ từ $C$ có dạng $ax - y + b = 0$. Tính $a + b$:",
       "options": [
         "A. 2",
@@ -57969,7 +57969,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Tổng bình phương hoành độ và tung độ của điểm A gần nhất là?",
       "options": [
         "A. 141, 5",
@@ -57991,7 +57991,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hàm số $y = \\frac{x^2 + mx + m}{x + 1}$ có đồ thị là $(C_m)$.",
       "question": "Với $m = 1$, khi đó phương trình đường thẳng đi qua 2 điểm cực trị của đồ thị hàm số là:",
       "options": [
         "A. y = x",
@@ -58013,7 +58013,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hàm số $y = \\frac{x^2 + mx + m}{x + 1}$ có đồ thị là $(C_m)$.",
       "question": "Với $m = \\frac{1}{2}$, khi đó tâm đối xứng của đồ thị hàm số $(C)$ có tọa độ là điểm nào sau đây:",
       "options": [
         "A. $\\left(1; -\\frac{3}{2}\\right)$",
@@ -58057,7 +58057,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khối chóp . S ABC :",
       "options": [
         "A. 3 6a .",
@@ -58079,7 +58079,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính góc giữa hai mặt phẳng $(SBC)$ và $(ABC)$ (làm tròn đến độ):",
       "options": [
         "A. $41^\\circ$",
@@ -58101,7 +58101,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khới chóp . S HBC :",
       "options": [
         "A. 3 4 5 a .",
@@ -58299,7 +58299,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng Oxy cho ba điểm $P(2; 3), Q(8; 7), R(-1; 4)$.",
+      "passage": null,
       "question": "Cho hàm số $f(x) = \\begin{cases} x + m, & x < 1 \\\\ \\log_2(x + m), & x \\ge 1 \\end{cases}$. Hàm số liên tục tại $x = 1$ khi:",
       "options": [
         "A. $m = 1$",
@@ -58321,7 +58321,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng Oxy cho ba điểm $P(2; 3), Q(8; 7), R(-1; 4)$.",
+      "passage": null,
       "question": "Cho hàm số $y = \\frac{2x^2 - 3x + 2}{x - 1}$. Mệnh đề nào sau đây đúng?",
       "options": [
         "A. Hàm số có đúng một tiệm cận đứng.",
@@ -58343,7 +58343,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng Oxy cho ba điểm $P(2; 3), Q(8; 7), R(-1; 4)$.",
+      "passage": null,
       "question": "Tính nguyên hàm $\\int x e^{2x} \\, dx$:",
       "options": [
         "A. $\\frac{1}{2}xe^{2x} - \\frac{1}{4}e^{2x} + C$",
@@ -58365,7 +58365,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nTrong mặt phẳng toạ độ Oxy, cho tam giác ABC có trực tâm $H(-2; 1)$ , chân đường cao hạ từ đỉnh C là $K(1; -2)$ . Trung điểm cạnh AC là ( ) 3; 4 I -",
+      "passage": null,
       "question": "Gọi $D$ là miền phẳng giới hạn bởi hai đường $y = x^2$ và $y = x + 2$. Thể tích khối tròn xoay thu được khi quay miền $D$ quanh trục $Ox$ là:",
       "options": [
         "A. $\\frac{81\\pi}{10}$",
@@ -58387,7 +58387,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nTrong mặt phẳng toạ độ Oxy, cho tam giác ABC có trực tâm $H(-2; 1)$ , chân đường cao hạ từ đỉnh C là $K(1; -2)$ . Trung điểm cạnh AC là ( ) 3; 4 I -",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): mx + 2y - z + 1 = 0$ với $m$ là tham số thực, và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z}{-1}$.",
       "question": "Tìm m để đường thẳng d song song với mặt phẳng (P).",
       "options": [
         "A. Không tồn tại $m$",
@@ -58409,7 +58409,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nTrong mặt phẳng toạ độ Oxy, cho tam giác ABC có trực tâm $H(-2; 1)$ , chân đường cao hạ từ đỉnh C là $K(1; -2)$ . Trung điểm cạnh AC là ( ) 3; 4 I -",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): mx + 2y - z + 1 = 0$ với $m$ là tham số thực, và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z}{-1}$.",
       "question": "Tìm m để đường thẳng d vuông góc với mặt phẳng (P).",
       "options": [
         "A. Không tồn tại $m$",
@@ -58920,7 +58920,7 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. B và G.",
         "B. H và",
-        "C. C. I và C.",
+        "C. I và C.",
         "D. G và H."
       ],
       "correctAnswer": 3,
@@ -58964,7 +58964,7 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. E.",
         "B.",
-        "C. C. S.",
+        "C. S.",
         "D. J."
       ],
       "correctAnswer": 3,
@@ -58986,7 +58986,7 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. E.",
         "B.",
-        "C. C. S.",
+        "C. S.",
         "D. J."
       ],
       "correctAnswer": 0,
@@ -60655,7 +60655,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): mx + 2y - z + 1 = 0$ với $m$ là tham số thực, và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z}{-1}$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): mx + 2y - z + 1 = 0$ với $m$ là tham số thực, và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z}{-1}$.",
       "question": "Tìm m để đường thẳng d song song với mặt phẳng (P).",
       "options": [
         "A. Không tồn tại m.",
@@ -60677,7 +60677,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): mx + 2y - z + 1 = 0$ với $m$ là tham số thực, và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z}{-1}$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): mx + 2y - z + 1 = 0$ với $m$ là tham số thực, và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z}{-1}$.",
       "question": "Tìm m để đường thẳng d vuông góc với mặt phẳng (P).",
       "options": [
         "A. Không tồn tại m.",
@@ -61095,7 +61095,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm đáy bằng 8 (đơn vị).",
+      "passage": null,
       "question": "Biết sin cot cot 4 sin sin 4 x kx x x x - = với mọi x để các biểu thức có nghĩa. Lúc đó giá trị của k là",
       "options": [
         "A. $\\frac{5}{4}$",
@@ -61117,7 +61117,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm đáy bằng 8 (đơn vị).",
+      "passage": null,
       "question": "Cho hàm số $f(x) = 5^{x^3} \\cdot 8^{x^2}$. Khẳng định nào sau đây là khẳng định sai?",
       "options": [
         "A. $f(x) \\le 1 \\Leftrightarrow x^3 \\log_2 5 + 2x \\le 0$",
@@ -61139,7 +61139,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hàm số $f(x) = x^3 + (m + 1)x^2 - (2m - 1)x + m - 3$.",
+      "passage": null,
       "question": "Có bao nhiêu giá trị nguyên của tham số $m$ trong đoạn $[-2025; 2025]$ để phương trình $\\log_2^2(x - 1) = \\log_2(mx - 8)$ có hai nghiệm phân biệt?",
       "options": [
         "A. 7",
@@ -61210,7 +61210,7 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. E.",
         "B.",
-        "C. C. S.",
+        "C. S.",
         "D. J."
       ],
       "correctAnswer": 0,
@@ -61800,12 +61800,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 116 đến 118:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
-      "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất? A. A, B, D. B. A, G, E. C. A, C, D. D. A, B, E.",
+      "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. A, B, D.",
+        "B. A, G, E.",
+        "C. A, C, D.",
+        "D. A, B, E."
       ],
       "correctAnswer": 1,
       "explanation": "A = 1 cố định. Ghế 7 trống nên cặp C-D chỉ có thể là (2,6) hoặc (4,8). Thử các trường hợp hợp lệ (xem điều kiện B cạnh A, F chỉ chẵn, D không kề F, quy tắc khi B=8, và điều kiện về E đối diện A) ta thu được 3 xếp hợp lệ — trong cả 3 phương án E luôn ở ghế 3, G luôn ở ghế 5 (và A ở ghế 1). B, C, D, F thay đổi giữa các phương án. Vậy những người chắc chắn nằm cố định là A, G, E. Đáp án: B.",
@@ -61822,12 +61822,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 119 và 120:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
-      "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4? A. C, E-F, A-B, D. B. A-B, D-E, C, F. C. C, A-B, D-E, F. D. F-D, A-B, C, E.",
+      "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. C, E-F, A-B, D.",
+        "B. A-B, D-E, C, F.",
+        "C. C, A-B, D-E, F.",
+        "D. F-D, A-B, C, E."
       ],
       "correctAnswer": 2,
       "explanation": "Nếu tiết 2 có 2 học sinh => F học tiết 4. Chỉ có 2 lớp có 2 học sinh, đó là lớp tiết 2 và tiết 3. Giữa C và D có 1 lớp => C phải học tiết 1 hoặc tiết 2. Mà nếu C học tiết 2 => D học tiết 4. Nhưng F học tiết 4 và tiết 4 chỉ có 1 học sinh => C phải học tiết 1. Có C học tiết 1 => D học tiết 3 => Tiết 3 còn thiếu 1 học sinh, tiết 2 còn thiếu 2 học sinh. A, B luôn cùng lớp => A, B học tiết 2. Còn lại E học tiết 3. => Thứ tự đúng: C, A-B, D-E, F. Đáp án: C.",
@@ -61844,14 +61844,14 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 119 và 120:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
-      "question": "Nếu F học một mình thì tiết 3 có ai học? A. D. B. C. C. A, B. D. D, E.",
+      "question": "Nếu F học một mình thì tiết 3 có ai học?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. D.",
+        "B. C.",
+        "C. A, B.",
+        "D. D, E."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": "Ở câu hỏi 1 ta có: Nếu tiết 2 có 2 học sinh thì thứ tự học sinh xếp theo tiết sẽ là: C, A-B, D-E, F. Tiếp theo ta xét trường hợp nếu tiết 2 không có 2 học sinh. Tiết 3 có 2 học sinh, tiết 1 có 1 học sinh. Mà ta xét trường hợp tiết 2 có 1 học sinh => Tiết 4 phải có 2 học sinh. Nếu C học tiết 1 => D học tiết 3 => A, B học tiết 4. Vì F học một mình => F học tiết 2. Còn lại E học tiết 3. => Thứ tự: C, F, D-E, A-B. Nếu C học tiết 2 => D học tiết 4 => A, B học tiết 3 => F học tiết 1. Còn lại E học tiết 4. => Thứ tự: F, C, A-B, D-E. Ta có dữ kiện môn của B không học cạnh môn Anh => Trường hợp 1 thỏa mãn vì môn Anh có thể dạy ở tiết 2. Tuy nhiên trường hợp 2, nếu B học tiết 3 => Môn Anh phải dạy ở tiết 1 (MÂU THUẪN) => Trong 2 thứ tự thỏa mãn dữ kiện, ở tiết 3 chắc chắn là D và E. Đáp án: D.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
@@ -62505,8 +62505,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nCửa sông Là cửa nhưng không then khóa Cũng không khép lại bao giờ Mênh mông một vùng sóng mở Mở ra bao nỗi đợi chờ. Nơi nhìn dòng sông chan man Gửi lại phù sa bãi bồi Để nước ngọt ùa ra biển Sau cuộc hành trình xa xôi. Nơi cá đối vào đẻ trứng Nơi tôm rảo đến búng cồng Cần câu uốn cong lưỡi sóng Thuyền ai lấp lóa đêm trăng. Nơi con tàu chào mặt đất Còi ngân lên khúc giã từ Cửa sông tiễn người ra biển Mây trắng lành như phong thư. Nơi biển tìm về với đất Bình yên con sóng nhỏ bạc đầu Chất muối hòa trong vị ngọt Thành vùng nước lợ nông sâu. Dù giáp mặt cùng biển rộng Cửa sông chẳng dit cội nguồn Lá xanh mỗi lần trôi xuống Bồng… nhớ một vùng núi non… ( Cửa sông, Quang Huy, Thivien.net)",
-      "question": "\"Tôi sinh ra trên một cù lao giữa sông Tiền. Nói là cù lao nổi lên giữa con sông nhưng cũng lớn lắm - cù lao có đến ba làng: Mỹ Tân, Mỹ Phú, Mỹ Hòa. Ba làng có ba cái chợ, chẳng thua ai. Mỗi làng có một cái trường, dù cột cây, mái lá cũng là trường. Thua ở nơi khác là không có xe hơi, nhưng có xe ngựa, xuồng ghe thì không đâu bằng. Tàu không có, nhưng ngày nào lũ nhỏ cũng lao xuống thấy tàu chạy lên chạy xuống - cái thú vui của lũ nhỏ chúng tôi là nhìn sóng và lúc tắm thì được nhoi sóng mỗi khi có một con tàu chạy qua bến. Cái mà dân cù lao tôi thấy thiếu nhất là không được xem hát.\" (Nguyễn Quang Sáng, Tôi thích làm vua, theo baovannghe.vn) Đặc điểm nào sau đây thể hiện rõ dấu ấn thể loại hồi ức - tự truyện trong đoạn trích Tôi thích làm vua (Nguyễn Quang Sáng)?",
+      "passage": "“Tôi sinh ra trên một cù lao giữa sông Tiền. Nói là cù lao nổi lên giữa con sông nhưng cũng lớn lắm - cù lao có đến ba làng: Mỹ Tân, Mỹ Phú, Mỹ Hòa. Ba làng có ba cái chợ, chẳng thua ai. Mỗi làng có một cái trường, dù cột cây, mái lá cũng là trường. Thua ở nơi khác là không có xe hơi, nhưng có xe ngựa, xuồng ghe thì không đâu bằng. Tàu không có, nhưng ngày nào lũ nhỏ cũng lao xuống thấy tàu chạy lên chạy xuống - cái thú vui của lũ nhỏ chúng tôi là nhìn sóng và lúc tắm thì được nhoi sóng mỗi khi có một con tàu chạy qua bến. Cái mà dân cù lao tôi thấy thiếu nhất là không được xem hát.”\n(Nguyễn Quang Sáng, Tôi thích làm vua, theo baovannghe.vn)",
+      "question": "Đặc điểm nào sau đây thể hiện rõ dấu ấn thể loại hồi ức - tự truyện trong đoạn trích Tôi thích làm vua (Nguyễn Quang Sáng)?",
       "options": [
         "A. Cách kể ở ngôi thứ nhất, tái hiện lại những kỷ niệm tuổi thơ gắn với không gian sống quen thuộc.",
         "B. Việc sử dụng hình ảnh sóng nước, tàu chạy để khơi gợi vẻ đẹp thiên nhiên miền Tây Nam Bộ.",
@@ -64024,12 +64024,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
-      "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất? A. A, B, D. B. A, G, E. C. A, C, D. D. A, B, E.",
+      "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. A, B, D.",
+        "B. A, G, E.",
+        "C. A, C, D.",
+        "D. A, B, E."
       ],
       "correctAnswer": 1,
       "explanation": "A = 1 cố định. Ghế 7 trống nên cặp C-D chỉ có thể là (2,6) hoặc (4,8). Thử các trường hợp hợp lệ (xem điều kiện B cạnh A, F chỉ chẵn, D không kề F, quy tắc khi B=8, và điều kiện về E đối diện A) ta thu được 3 xếp hợp lệ — trong cả 3 phương án E luôn ở ghế 3, G luôn ở ghế 5 (và A ở ghế 1). B, C, D, F thay đổi giữa các phương án. Vậy những người chắc chắn nằm cố định là A, G, E. Đáp án: B.",
@@ -64046,12 +64046,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
-      "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4? A. C, E-F, A-B, D. B. A-B, D-E, C, F. C. C, A-B, D-E, F. D. F-D, A-B, C, E.",
+      "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. C, E-F, A-B, D.",
+        "B. A-B, D-E, C, F.",
+        "C. C, A-B, D-E, F.",
+        "D. F-D, A-B, C, E."
       ],
       "correctAnswer": 2,
       "explanation": "Nếu tiết 2 có 2 học sinh => F học tiết 4. Chỉ có 2 lớp có 2 học sinh, đó là lớp tiết 2 và tiết 3. Giữa C và D có 1 lớp => C phải học tiết 1 hoặc tiết 2. Mà nếu C học tiết 2 => D học tiết 4. Nhưng F học tiết 4 và tiết 4 chỉ có 1 học sinh => C phải học tiết 1. Có C học tiết 1 => D học tiết 3 => Tiết 3 còn thiếu 1 học sinh, tiết 2 còn thiếu 2 học sinh. A, B luôn cùng lớp => A, B học tiết 2. Còn lại E học tiết 3. => Thứ tự đúng: C, A-B, D-E, F. Đáp án: C.",
@@ -64068,14 +64068,14 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
-      "question": "Nếu F học một mình thì tiết 3 có ai học? A. D. B. C. C. A, B. D. D, E.",
+      "question": "Nếu F học một mình thì tiết 3 có ai học?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. D.",
+        "B. C.",
+        "C. A, B.",
+        "D. D, E."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": "Ở câu hỏi 1 ta có: Nếu tiết 2 có 2 học sinh thì thứ tự học sinh xếp theo tiết sẽ là: C, A-B, D-E, F. Tiếp theo ta xét trường hợp nếu tiết 2 không có 2 học sinh. Tiết 3 có 2 học sinh, tiết 1 có 1 học sinh. Mà ta xét trường hợp tiết 2 có 1 học sinh => Tiết 4 phải có 2 học sinh. Nếu C học tiết 1 => D học tiết 3 => A, B học tiết 4. Vì F học một mình => F học tiết 2. Còn lại E học tiết 3. => Thứ tự: C, F, D-E, A-B. Nếu C học tiết 2 => D học tiết 4 => A, B học tiết 3 => F học tiết 1. Còn lại E học tiết 4. => Thứ tự: F, C, A-B, D-E. Ta có dữ kiện môn của B không học cạnh môn Anh => Trường hợp 1 thỏa mãn vì môn Anh có thể dạy ở tiết 2. Tuy nhiên trường hợp 2, nếu B học tiết 3 => Môn Anh phải dạy ở tiết 1 (MÂU THUẪN) => Trong 2 thứ tự thỏa mãn dữ kiện, ở tiết 3 chắc chắn là D và E. Đáp án: D.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
@@ -64905,8 +64905,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
-      "question": "\"Tôi sinh ra trên một cù lao giữa sông Tiền. Nói là cù lao nổi lên giữa con sông nhưng cũng lớn lắm - cù lao có đến ba làng: Mỹ Tân, Mỹ Phú, Mỹ Hòa. Ba làng có ba cái chợ, chẳng thua ai. Mỗi làng có một cái trường, dù cột cây, mái lá cũng là trường. Thua ở nơi khác là không có xe hơi, nhưng có xe ngựa, xuồng ghe thì không đâu bằng. Tàu không có, nhưng ngày nào lũ nhỏ cũng lao xuống thấy tàu chạy lên chạy xuống - cái thú vui của lũ nhỏ chúng tôi là nhìn sóng và lúc tắm thì được nhoi sóng mỗi khi có một con tàu chạy qua bến. Cái mà dân cù lao tôi thấy thiếu nhất là không được xem hát.\" (Nguyễn Quang Sáng, Tôi thích làm vua, theo baovannghe.vn) Đặc điểm nào sau đây thể hiện rõ dấu ấn thể loại hồi ức - tự truyện trong đoạn trích Tôi thích làm vua (Nguyễn Quang Sáng)?",
+      "passage": "“Tôi sinh ra trên một cù lao giữa sông Tiền. Nói là cù lao nổi lên giữa con sông nhưng cũng lớn lắm - cù lao có đến ba làng: Mỹ Tân, Mỹ Phú, Mỹ Hòa. Ba làng có ba cái chợ, chẳng thua ai. Mỗi làng có một cái trường, dù cột cây, mái lá cũng là trường. Thua ở nơi khác là không có xe hơi, nhưng có xe ngựa, xuồng ghe thì không đâu bằng. Tàu không có, nhưng ngày nào lũ nhỏ cũng lao xuống thấy tàu chạy lên chạy xuống - cái thú vui của lũ nhỏ chúng tôi là nhìn sóng và lúc tắm thì được nhoi sóng mỗi khi có một con tàu chạy qua bến. Cái mà dân cù lao tôi thấy thiếu nhất là không được xem hát.”\n(Nguyễn Quang Sáng, Tôi thích làm vua, theo baovannghe.vn)",
+      "question": "Đặc điểm nào sau đây thể hiện rõ dấu ấn thể loại hồi ức - tự truyện trong đoạn trích Tôi thích làm vua (Nguyễn Quang Sáng)?",
       "options": [
         "A. Cách kể ở ngôi thứ nhất, tái hiện lại những kỷ niệm tuổi thơ gắn với không gian sống quen thuộc.",
         "B. Việc sử dụng hình ảnh sóng nước, tàu chạy để khơi gợi vẻ đẹp thiên nhiên miền Tây Nam Bộ.",
@@ -67305,8 +67305,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
-      "question": "\"Tôi sinh ra trên một cù lao giữa sông Tiền. Nói là cù lao nổi lên giữa con sông nhưng cũng lớn lắm - cù lao có đến ba làng: Mỹ Tân, Mỹ Phú, Mỹ Hòa. Ba làng có ba cái chợ, chẳng thua ai. Mỗi làng có một cái trường, dù cột cây, mái lá cũng là trường. Thua ở nơi khác là không có xe hơi, nhưng có xe ngựa, xuồng ghe thì không đâu bằng. Tàu không có, nhưng ngày nào lũ nhỏ cũng lao xuống thấy tàu chạy lên chạy xuống - cái thú vui của lũ nhỏ chúng tôi là nhìn sóng và lúc tắm thì được nhoi sóng mỗi khi có một con tàu chạy qua bến. Cái mà dân cù lao tôi thấy thiếu nhất là không được xem hát.\" (Nguyễn Quang Sáng, Tôi thích làm vua, theo baovannghe.vn) Đặc điểm nào sau đây thể hiện rõ dấu ấn thể loại hồi ức - tự truyện trong đoạn trích Tôi thích làm vua (Nguyễn Quang Sáng)?",
+      "passage": "“Tôi sinh ra trên một cù lao giữa sông Tiền. Nói là cù lao nổi lên giữa con sông nhưng cũng lớn lắm - cù lao có đến ba làng: Mỹ Tân, Mỹ Phú, Mỹ Hòa. Ba làng có ba cái chợ, chẳng thua ai. Mỗi làng có một cái trường, dù cột cây, mái lá cũng là trường. Thua ở nơi khác là không có xe hơi, nhưng có xe ngựa, xuồng ghe thì không đâu bằng. Tàu không có, nhưng ngày nào lũ nhỏ cũng lao xuống thấy tàu chạy lên chạy xuống - cái thú vui của lũ nhỏ chúng tôi là nhìn sóng và lúc tắm thì được nhoi sóng mỗi khi có một con tàu chạy qua bến. Cái mà dân cù lao tôi thấy thiếu nhất là không được xem hát.”\n(Nguyễn Quang Sáng, Tôi thích làm vua, theo baovannghe.vn)",
+      "question": "Đặc điểm nào sau đây thể hiện rõ dấu ấn thể loại hồi ức - tự truyện trong đoạn trích Tôi thích làm vua (Nguyễn Quang Sáng)?",
       "options": [
         "A. Cách kể ở ngôi thứ nhất, tái hiện lại những kỷ niệm tuổi thơ gắn với không gian sống quen thuộc.",
         "B. Việc sử dụng hình ảnh sóng nước, tàu chạy để khơi gợi vẻ đẹp thiên nhiên miền Tây Nam Bộ.",
@@ -67594,12 +67594,12 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n“Tôi vừa bỏ học sau sáu học kỳ “dùi kinh nấu sử” ở trường Luật. Suốt thời gian đó, sở thích duy nhất của tôi là đọc sách. Tôi có thể đọc ngấu nghiến bất cứ cuốn sách nào vớ được và học thuộc lòng những bài thơ độc đáo của Thế kỷ vàng Tây Ban Nha. Tôi đã đọc hầu hết các bản dịch cũng như nguyên bản các tác phẩm được coi là nổi tiếng lúc bấy giờ và những cuốn sách đó đã cho tôi hiểu được kỹ năng cũng như các tiểu xảo cần có khi viết tiểu thuyết.” (Gabriel Garcia Marquez, Sống để kể lại)",
       "question": "Dòng nào dưới đây chứa các biện pháp tu từ xuất hiện trong văn bản trên?",
       "options": [
-        "A. Phép điệp, so sánh, phóng đại. C. Phép điệp, nói giảm, nói tránh, so sánh.",
-        "B. C. Phép điệp, nói giảm, nói tránh, so sánh.",
-        "C. Phép điệp, nói giảm, nói tránh, so sánh. B. Phép điệp, hoán dụ, so sánh.",
+        "A. Phép điệp, so sánh, phóng đại.",
+        "B. Phép điệp, hoán dụ, so sánh.",
+        "C. Phép điệp, nói giảm, nói tránh, so sánh.",
         "D. Phép điệp, so sánh, nhân hóa."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 8: Vận dụng kiến thức trọng tâm của phân môn Tiếng Việt để loại trừ phương án nhiễu và chọn đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
@@ -69994,12 +69994,12 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 10 đến 14:\n“Nước ở đâu mà tuôn mãi không thôi. Nước rung rào rào trên lá. Nước tràn trên mặt đất. Nước chảy theo những thân cây. Rừng ướt sũng, đất ướt sũng, và trời mãi cũng chẳng thấy khô hơn. Mới xế chiều mà rừng đã muốn tối om. Rừng như xị ra. Mặt trời vẫn còn đâu đó giữa đường chân trời. Nó đang thổi hồng một đám mây màu xám chì, giống như đống trấu ủ giữa sương mù đặc sệt.” (Chu Lai, Nắng đồng bằng)",
       "question": "Dòng nào dưới đây chứa các biện pháp tu từ xuất hiện trong văn bản trên?",
       "options": [
-        "A. Phép điệp, so sánh, phóng đại. C. Phép điệp, nói giảm, nói tránh, so sánh.",
-        "B. C. Phép điệp, nói giảm, nói tránh, so sánh.",
-        "C. Phép điệp, nói giảm, nói tránh, so sánh. B. Phép điệp, hoán dụ, so sánh.",
+        "A. Phép điệp, so sánh, phóng đại.",
+        "B. Phép điệp, hoán dụ, so sánh.",
+        "C. Phép điệp, nói giảm, nói tránh, so sánh.",
         "D. Phép điệp, so sánh, nhân hóa."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 8: Vận dụng kiến thức trọng tâm của phân môn Tiếng Việt để loại trừ phương án nhiễu và chọn đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -74855,7 +74855,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 105 đến 113:\nTheo Bộ Lao động Mỹ công bố ngày 1-8, trong tháng 7/2025, nền kinh tế Mỹ chỉ tạo thêm 73.000 việc làm mới, mức thấp nhất kể từ đại dịch COVID-19. Con số này giảm mạnh so với trung bình 250.000 việc làm/tháng giai đoạn 2018-2019 và thấp hơn kỳ vọng thị trường (khoảng 200.000 việc làm). Cùng thời điểm, tỷ lệ thất nghiệp tăng từ 4,1% lên 4,2%, cho thấy thị trường lao động đang suy yếu. Ngoài ra, dữ liệu tháng 5 và 6 cũng đã được điều chỉnh giảm tổng cộng 110.000 việc làm, phản ánh tình trạng tuyển dụng kém khả quan hơn so với ước tính ban đầu. Các chuyên gia nhận định nguyên nhân chủ yếu đến từ tác động tiêu cực của thuế quan, sự không ổn định trong chính sách kinh tế và tâm lý e ngại đầu tư của doanh nghiệp. Trong khi đó, Tổng thống Trump cáo buộc số liệu “gian lận” và cho rằng chính quyền đang “thao túng thông tin”. Tuy nhiên, nhiều tổ chức nghiên cứu cảnh báo rằng nếu xu hướng yếu kém này kéo dài, Mỹ có thể đối mặt với tình trạng mất nửa triệu việc làm chỉ trong vài tháng, tác động trực tiếp đến niềm tin tiêu dùng, thị trường chứng khoán và tốc độ tăng trưởng GDP.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Nếu J được đặt vào cốc C7 thì K phải được đặt vào",
       "options": [
         "A. C2.",
@@ -74877,7 +74877,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 105 đến 113:\nTheo Bộ Lao động Mỹ công bố ngày 1-8, trong tháng 7/2025, nền kinh tế Mỹ chỉ tạo thêm 73.000 việc làm mới, mức thấp nhất kể từ đại dịch COVID-19. Con số này giảm mạnh so với trung bình 250.000 việc làm/tháng giai đoạn 2018-2019 và thấp hơn kỳ vọng thị trường (khoảng 200.000 việc làm). Cùng thời điểm, tỷ lệ thất nghiệp tăng từ 4,1% lên 4,2%, cho thấy thị trường lao động đang suy yếu. Ngoài ra, dữ liệu tháng 5 và 6 cũng đã được điều chỉnh giảm tổng cộng 110.000 việc làm, phản ánh tình trạng tuyển dụng kém khả quan hơn so với ước tính ban đầu. Các chuyên gia nhận định nguyên nhân chủ yếu đến từ tác động tiêu cực của thuế quan, sự không ổn định trong chính sách kinh tế và tâm lý e ngại đầu tư của doanh nghiệp. Trong khi đó, Tổng thống Trump cáo buộc số liệu “gian lận” và cho rằng chính quyền đang “thao túng thông tin”. Tuy nhiên, nhiều tổ chức nghiên cứu cảnh báo rằng nếu xu hướng yếu kém này kéo dài, Mỹ có thể đối mặt với tình trạng mất nửa triệu việc làm chỉ trong vài tháng, tác động trực tiếp đến niềm tin tiêu dùng, thị trường chứng khoán và tốc độ tăng trưởng GDP.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Điều nào sau đây phải đúng về thứ tự các viên bi nếu N được đặt ở cốc 2?",
       "options": [
         "A. K được đặt bên trái J.",
@@ -74899,7 +74899,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 105 đến 113:\nTheo Bộ Lao động Mỹ công bố ngày 1-8, trong tháng 7/2025, nền kinh tế Mỹ chỉ tạo thêm 73.000 việc làm mới, mức thấp nhất kể từ đại dịch COVID-19. Con số này giảm mạnh so với trung bình 250.000 việc làm/tháng giai đoạn 2018-2019 và thấp hơn kỳ vọng thị trường (khoảng 200.000 việc làm). Cùng thời điểm, tỷ lệ thất nghiệp tăng từ 4,1% lên 4,2%, cho thấy thị trường lao động đang suy yếu. Ngoài ra, dữ liệu tháng 5 và 6 cũng đã được điều chỉnh giảm tổng cộng 110.000 việc làm, phản ánh tình trạng tuyển dụng kém khả quan hơn so với ước tính ban đầu. Các chuyên gia nhận định nguyên nhân chủ yếu đến từ tác động tiêu cực của thuế quan, sự không ổn định trong chính sách kinh tế và tâm lý e ngại đầu tư của doanh nghiệp. Trong khi đó, Tổng thống Trump cáo buộc số liệu “gian lận” và cho rằng chính quyền đang “thao túng thông tin”. Tuy nhiên, nhiều tổ chức nghiên cứu cảnh báo rằng nếu xu hướng yếu kém này kéo dài, Mỹ có thể đối mặt với tình trạng mất nửa triệu việc làm chỉ trong vài tháng, tác động trực tiếp đến niềm tin tiêu dùng, thị trường chứng khoán và tốc độ tăng trưởng GDP.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Thứ tự nào dưới đây là thứ tự có thể xảy ra của các viên bi trong 3 cốc liên tiếp?",
       "options": [
         "A. J, M, K.",
@@ -74970,8 +74970,8 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. Q.",
         "B. V.",
-        "C. Phương án C",
-        "D. D. F"
+        "C. D.",
+        "D. F."
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án: D. D không thể về đích cuối cùng. T không về đích cuối cùng. R về đích sau V => V không thể về đích cuối cùng. Q về đích trước T => Q không thể về đích cuối cùng. TH A về cuối: 1 2 3 4 5 6 7 Q F T V D R A TH R về cuối: 1 2 3 4 5 6 7 A V D Q F T R TH F về cuối: 1 2 3 4 5 6 7 V Q D T A R F",
@@ -75671,8 +75671,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nngười đọc khôn ngoan sẽ đọc trực tiếp trong cuộc đời thay vì nhìn vào trang sách (4). Suy cho cùng, thế giới mà người đọc tìm thấy và muốn thấy trong những trang văn bao giờ cũng là thế giới đã được lọc qua tâm hồn của người viết; đó là thế giới đã được nhà văn tháo ra và lắp lại theo một cấu trúc và tỉ lệ hoàn toàn khác (5). Thông qua cung cách thiết kế cái thế giới văn chương đó, nhà văn gửi đi những thông điệp và tìm kiếm sự chia sẻ (6). Những thông tin đủ loại của đời thường, đã có báo chí, đài truyền hình và bà hàng xóm cung cấp (7). Người đọc thông minh bao giờ cũng chờ đợi ở những trang văn một hiện thực khác - một hiện thực cao hơn so với hiện thực ngoài kia (8). (Nguyễn Nhật Ánh, Cảm ơn người lớn)",
-      "question": "Thanh niên phải có tinh thần xung phong, gương mẫu; bất cứ việc gì tập thể cần thì thanh niên phải làm với tinh thần trách nhiệm cao nhất; song phải luôn luôn khiêm tốn, thật thà, không được phô trương, dối trá. Đó cũng là một thái độ đúng đắn của thanh niên đối với nhân dân, của cá nhân đối với tập thể. Thanh niên phải dành thì giờ nhất định để giúp đỡ cha mẹ, săn sóc các em, chăm lo một phần công việc gia đình. Người thanh niên nào không biết tí gì đến việc nhà, không kính yêu cha mẹ, không thương mến người thân trong gia đình thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được? Thanh niên cần phải biết tổ chức tốt cuộc sống gia đình hợp với những tiêu chuẩn đạo đức mới nhằm tạo điều kiện cho mọi người trong gia đình làm tròn nghĩa vụ công dân, hoàn thành nhiệm vụ cách mạng”. (Lê Duẩn - Con đường tu dưỡng rèn luyện đạo đức của thanh niên) “Người thanh niên nào không biết tí gì đến việc nhà… thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được?” đóng vai trò gì trong đoạn văn?",
+      "passage": "“Thanh niên phải có tinh thần xung phong, gương mẫu; bất cứ việc gì tập thể cần thì thanh niên phải làm với tinh thần trách nhiệm cao nhất; song phải luôn luôn khiêm tốn, thật thà, không được phô trương, dối trá. Đó cũng là một thái độ đúng đắn của thanh niên đối với nhân dân, của cá nhân đối với tập thể. Thanh niên phải dành thì giờ nhất định để giúp đỡ cha mẹ, săn sóc các em, chăm lo một phần công việc gia đình. Người thanh niên nào không biết tí gì đến việc nhà, không kính yêu cha mẹ, không thương mến người thân trong gia đình thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được? Thanh niên cần phải biết tổ chức tốt cuộc sống gia đình hợp với những tiêu chuẩn đạo đức mới nhằm tạo điều kiện cho mọi người trong gia đình làm tròn nghĩa vụ công dân, hoàn thành nhiệm vụ cách mạng.”\n(Lê Duẩn - Con đường tu dưỡng rèn luyện đạo đức của thanh niên)",
+      "question": "Câu văn “Người thanh niên nào không biết tí gì đến việc nhà… thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được?” đóng vai trò gì trong đoạn văn?",
       "options": [
         "A. Nhấn mạnh mối quan hệ tất yếu giữa đạo đức gia đình và trách nhiệm xã hội.",
         "B. Bộc lộ cảm xúc phê phán trực tiếp của người viết đối với thanh niên thiếu trách nhiệm trong đời sống.",
@@ -76991,7 +76991,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -77057,7 +77057,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 94:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
+      "passage": null,
       "question": "Việc công ty của anh Thanh và đối tác nước ngoài phải tuân thủ các điều khoản hợp đồng đã ký kết, dù có sự khác biệt về luật pháp giữa hai quốc gia, thể hiện nguyên tắc nào của pháp luật quốc tế?",
       "options": [
         "A. Nguyên tắc không can thiệp vào công việc nội bộ của nhau.",
@@ -77079,7 +77079,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 94:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Nếu J được đặt vào cốc C7 thì K phải được đặt vào",
       "options": [
         "A. C2.",
@@ -77101,7 +77101,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 94:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Điều nào sau đây phải đúng về thứ tự các viên bi nếu N được đặt ở cốc 2?",
       "options": [
         "A. K được đặt bên trái J.",
@@ -77123,7 +77123,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 94:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n7 viên bi J, K, L, M, N, O và P cần phải được đặt vào 7 chiếc cốc xếp thành hàng ngang và được đánh số từ C1 đến C7 theo thứ tự từ trái sang phải, mỗi viên trong 1 cốc:\n● M phải được đặt vào C1.\n● K phải được đặt bên phải L và P.\n● L được đặt trước J nhưng sau N.\n● O không được đặt ở cốc cuối cùng.\n● J và N được đặt cách nhau 2 cốc.",
       "question": "Thứ tự nào dưới đây là thứ tự có thể xảy ra của các viên bi trong 3 cốc liên tiếp?",
       "options": [
         "A. J, M, K.",
@@ -77194,8 +77194,8 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. Q.",
         "B. V.",
-        "C. Phương án C",
-        "D. D. F"
+        "C. D.",
+        "D. F."
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án: D. D không thể về đích cuối cùng. T không về đích cuối cùng. R về đích sau V => V không thể về đích cuối cùng. Q về đích trước T => Q không thể về đích cuối cùng. TH A về cuối: 1 2 3 4 5 6 7 Q F T V D R A TH R về cuối: 1 2 3 4 5 6 7 A V D Q F T R TH F về cuối: 1 2 3 4 5 6 7 V Q D T A R F",
@@ -78071,8 +78071,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
-      "question": "Thanh niên phải có tinh thần xung phong, gương mẫu; bất cứ việc gì tập thể cần thì thanh niên phải làm với tinh thần trách nhiệm cao nhất; song phải luôn luôn khiêm tốn, thật thà, không được phô trương, dối trá. Đó cũng là một thái độ đúng đắn của thanh niên đối với nhân dân, của cá nhân đối với tập thể. Thanh niên phải dành thì giờ nhất định để giúp đỡ cha mẹ, săn sóc các em, chăm lo một phần công việc gia đình. Người thanh niên nào không biết tí gì đến việc nhà, không kính yêu cha mẹ, không thương mến người thân trong gia đình thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được? Thanh niên cần phải biết tổ chức tốt cuộc sống gia đình hợp với những tiêu chuẩn đạo đức mới nhằm tạo điều kiện cho mọi người trong gia đình làm tròn nghĩa vụ công dân, hoàn thành nhiệm vụ cách mạng”. (Lê Duẩn - Con đường tu dưỡng rèn luyện đạo đức của thanh niên) “Người thanh niên nào không biết tí gì đến việc nhà… thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được?” đóng vai trò gì trong đoạn văn?",
+      "passage": "“Thanh niên phải có tinh thần xung phong, gương mẫu; bất cứ việc gì tập thể cần thì thanh niên phải làm với tinh thần trách nhiệm cao nhất; song phải luôn luôn khiêm tốn, thật thà, không được phô trương, dối trá. Đó cũng là một thái độ đúng đắn của thanh niên đối với nhân dân, của cá nhân đối với tập thể. Thanh niên phải dành thì giờ nhất định để giúp đỡ cha mẹ, săn sóc các em, chăm lo một phần công việc gia đình. Người thanh niên nào không biết tí gì đến việc nhà, không kính yêu cha mẹ, không thương mến người thân trong gia đình thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được? Thanh niên cần phải biết tổ chức tốt cuộc sống gia đình hợp với những tiêu chuẩn đạo đức mới nhằm tạo điều kiện cho mọi người trong gia đình làm tròn nghĩa vụ công dân, hoàn thành nhiệm vụ cách mạng.”\n(Lê Duẩn - Con đường tu dưỡng rèn luyện đạo đức của thanh niên)",
+      "question": "Câu văn “Người thanh niên nào không biết tí gì đến việc nhà… thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được?” đóng vai trò gì trong đoạn văn?",
       "options": [
         "A. Nhấn mạnh mối quan hệ tất yếu giữa đạo đức gia đình và trách nhiệm xã hội.",
         "B. Bộc lộ cảm xúc phê phán trực tiếp của người viết đối với thanh niên thiếu trách nhiệm trong đời sống.",
@@ -79259,7 +79259,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 71:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -80471,8 +80471,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
-      "question": "Thanh niên phải có tinh thần xung phong, gương mẫu; bất cứ việc gì tập thể cần thì thanh niên phải làm với tinh thần trách nhiệm cao nhất; song phải luôn luôn khiêm tốn, thật thà, không được phô trương, dối trá. Đó cũng là một thái độ đúng đắn của thanh niên đối với nhân dân, của cá nhân đối với tập thể. Thanh niên phải dành thì giờ nhất định để giúp đỡ cha mẹ, săn sóc các em, chăm lo một phần công việc gia đình. Người thanh niên nào không biết tí gì đến việc nhà, không kính yêu cha mẹ, không thương mến người thân trong gia đình thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được? Thanh niên cần phải biết tổ chức tốt cuộc sống gia đình hợp với những tiêu chuẩn đạo đức mới nhằm tạo điều kiện cho mọi người trong gia đình làm tròn nghĩa vụ công dân, hoàn thành nhiệm vụ cách mạng”. (Lê Duẩn - Con đường tu dưỡng rèn luyện đạo đức của thanh niên) “Người thanh niên nào không biết tí gì đến việc nhà… thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được?” đóng vai trò gì trong đoạn văn?",
+      "passage": "“Thanh niên phải có tinh thần xung phong, gương mẫu; bất cứ việc gì tập thể cần thì thanh niên phải làm với tinh thần trách nhiệm cao nhất; song phải luôn luôn khiêm tốn, thật thà, không được phô trương, dối trá. Đó cũng là một thái độ đúng đắn của thanh niên đối với nhân dân, của cá nhân đối với tập thể. Thanh niên phải dành thì giờ nhất định để giúp đỡ cha mẹ, săn sóc các em, chăm lo một phần công việc gia đình. Người thanh niên nào không biết tí gì đến việc nhà, không kính yêu cha mẹ, không thương mến người thân trong gia đình thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được? Thanh niên cần phải biết tổ chức tốt cuộc sống gia đình hợp với những tiêu chuẩn đạo đức mới nhằm tạo điều kiện cho mọi người trong gia đình làm tròn nghĩa vụ công dân, hoàn thành nhiệm vụ cách mạng.”\n(Lê Duẩn - Con đường tu dưỡng rèn luyện đạo đức của thanh niên)",
+      "question": "Câu văn “Người thanh niên nào không biết tí gì đến việc nhà… thì ngoài xã hội làm sao có lòng yêu mến nhân dân thực sự được?” đóng vai trò gì trong đoạn văn?",
       "options": [
         "A. Nhấn mạnh mối quan hệ tất yếu giữa đạo đức gia đình và trách nhiệm xã hội.",
         "B. Bộc lộ cảm xúc phê phán trực tiếp của người viết đối với thanh niên thiếu trách nhiệm trong đời sống.",
@@ -80933,8 +80933,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nngười đọc khôn ngoan sẽ đọc trực tiếp trong cuộc đời thay vì nhìn vào trang sách (4). Suy cho cùng, thế giới mà người đọc tìm thấy và muốn thấy trong những trang văn bao giờ cũng là thế giới đã được lọc qua tâm hồn của người viết; đó là thế giới đã được nhà văn tháo ra và lắp lại theo một cấu trúc và tỉ lệ hoàn toàn khác (5). Thông qua cung cách thiết kế cái thế giới văn chương đó, nhà văn gửi đi những thông điệp và tìm kiếm sự chia sẻ (6). Những thông tin đủ loại của đời thường, đã có báo chí, đài truyền hình và bà hàng xóm cung cấp (7). Người đọc thông minh bao giờ cũng chờ đợi ở những trang văn một hiện thực khác - một hiện thực cao hơn so với hiện thực ngoài kia (8). (Nguyễn Nhật Ánh, Cảm ơn người lớn)",
-      "question": "Hai mươi bảy cây số trên sông Di, câu chuyện của hai người đàn bà cô quạnh với đầy những oán ghét, thủ đoạn, những màn trả đũa vặt vãnh như tơ nhện giăng lên bọn cậu nhùng nhằng. Xu thờ ơ với chuyện đàn bà, day qua chuyện khác: - Xứ này còn cái gì trôi nữa? - À, có nhà trôi. - Tụi cháu cũng mới đi coi nhà trôi đây, hay ho gì đâu, toàn người chết. Vụ rừng trôi nó làm sao? […] - Hồi bảy tám tuổi thím còn thấy miếu trôi. - À, vụ đó sao? - Thì miếu đó thờ một cô gái bị dìm chết dưới sông […] - Còn gì trôi nữa không? - Kể tới tết Lào còn chưa hết. Sao không hỏi có gì không trôi không? - Có cái gì không trôi? - Đâu biết, vì ta đang trôi. (Nguyễn Ngọc Tư, Sông) Nội dung không đúng khi nói về ý nghĩa của dòng sông trong đoạn trích trên:",
+      "passage": "Hai mươi bảy cây số trên sông Di, câu chuyện của hai người đàn bà cô quạnh với đầy những oán ghét, thủ đoạn, những màn trả đũa vặt vãnh như tơ nhện giăng lên bọn cậu nhùng nhằng. Xu thờ ơ với chuyện đàn bà, day qua chuyện khác:\n- Xứ này còn cái gì trôi nữa?\n- À, có nhà trôi.\n- Tụi cháu cũng mới đi coi nhà trôi đây, hay ho gì đâu, toàn người chết. Vụ rừng trôi nó làm sao? […]\n- Hồi bảy tám tuổi thím còn thấy miếu trôi.\n- À, vụ đó sao?\n- Thì miếu đó thờ một cô gái bị dìm chết dưới sông […]\n- Còn gì trôi nữa không?\n- Kể tới tết Lào còn chưa hết. Sao không hỏi có gì không trôi không?\n- Có cái gì không trôi?\n- Đâu biết, vì ta đang trôi.\n(Nguyễn Ngọc Tư, Sông)",
+      "question": "Nội dung không đúng khi nói về ý nghĩa của dòng sông trong đoạn trích trên:",
       "options": [
         "A. Dòng sông biểu tượng cho sự trôi chảy, vô định của kiếp người.",
         "B. Dòng sông mang theo nỗi buồn, sự mất mát trong cuộc sống.",
@@ -82847,7 +82847,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nNiên giám Thống kê 2025 - Tổng cục Thống kê; Báo cáo kinh tế - xã hội quý III/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Nếu A vào trước F thì D phải vào trạm thứ mấy để được thứ tự các xe vào trạm là duy nhất?",
       "options": [
         "A. Thứ 2",
@@ -82869,7 +82869,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nNiên giám Thống kê 2025 - Tổng cục Thống kê; Báo cáo kinh tế - xã hội quý III/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Nếu C vào trạm thứ 3 thì điều nào sau đây chắc chắn đúng?",
       "options": [
         "A. F về sau A",
@@ -82891,7 +82891,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nNiên giám Thống kê 2025 - Tổng cục Thống kê; Báo cáo kinh tế - xã hội quý III/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Cho các phát biểu sau: 1. F vào ngay trước D 2. B cách A tối đa 4 xe 3. E hoặc B vào cuối cùng 4. A vào ngay giữa F và C Nếu C, D vào liên tiếp theo thứ tự thì có bao nhiêu điều trên có thể đúng?",
       "options": [
         "A. 1",
@@ -82914,12 +82914,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 119:\nA, B, C, D, E, T và P thành 3 nhóm khác nhau (nhóm 1, nhóm 2, nhóm 3). Biết rằng: 1. C là bạn học sinh duy nhất 1 mình trong nhóm 2. Mỗi nhóm không được quá 4 học sinh 3. Mỗi học sinh chỉ được bố trí vào đúng một nhóm 4. A và B luôn được bố trí chung vào một nhóm 5. D luôn khác nhóm với E và T",
-      "question": "Nếu T và A được sắp xếp vào chung vào nhóm 2 thì tất cả những người có thể xếp vào nhóm 3 là những ai? A. D, P, C. B. T, P. C. D, P. D. D, C.",
+      "question": "Nếu T và A được sắp xếp vào chung vào nhóm 2 thì tất cả những người có thể xếp vào nhóm 3 là những ai?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. D, P, C.",
+        "B. T, P.",
+        "C. D, P.",
+        "D. D, C."
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án: A. Tiền xử lý: - 7 người chia làm 3 nhóm, C luôn ở 1 nhóm => 2 nhóm còn lại mỗi nhóm có 3 người hoặc 1 nhóm 2 người, 1 nhóm 4 người. T và A chung nhóm 2 mà B và A luôn chung nhóm => Nhóm 2 có 3 thành viên Còn nhóm 1 và nhóm 3, mà D khác nhóm E và T mà T nhóm 2, C ở nhóm 1 người => E sẽ phải ở nhóm 2 => Nhóm 2 đủ 4 thành viên Vậy, D ở nhóm có 2 thành viên, và ở chung nhóm với P. Như vậy, nhóm 3 chỉ có thể là {C} hoặc {D, P}",
@@ -83333,8 +83333,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
-      "question": "Hai mươi bảy cây số trên sông Di, câu chuyện của hai người đàn bà cô quạnh với đầy những oán ghét, thủ đoạn, những màn trả đũa vặt vãnh như tơ nhện giăng lên bọn cậu nhùng nhằng. Xu thờ ơ với chuyện đàn bà, day qua chuyện khác: - Xứ này còn cái gì trôi nữa? - À, có nhà trôi. - Tụi cháu cũng mới đi coi nhà trôi đây, hay ho gì đâu, toàn người chết. Vụ rừng trôi nó làm sao? […] - Hồi bảy tám tuổi thím còn thấy miếu trôi. - À, vụ đó sao? - Thì miếu đó thờ một cô gái bị dìm chết dưới sông […] - Còn gì trôi nữa không? - Kể tới tết Lào còn chưa hết. Sao không hỏi có gì không trôi không? - Có cái gì không trôi? - Đâu biết, vì ta đang trôi. (Nguyễn Ngọc Tư, Sông) Nội dung không đúng khi nói về ý nghĩa của dòng sông trong đoạn trích trên:",
+      "passage": "Hai mươi bảy cây số trên sông Di, câu chuyện của hai người đàn bà cô quạnh với đầy những oán ghét, thủ đoạn, những màn trả đũa vặt vãnh như tơ nhện giăng lên bọn cậu nhùng nhằng. Xu thờ ơ với chuyện đàn bà, day qua chuyện khác:\n- Xứ này còn cái gì trôi nữa?\n- À, có nhà trôi.\n- Tụi cháu cũng mới đi coi nhà trôi đây, hay ho gì đâu, toàn người chết. Vụ rừng trôi nó làm sao? […]\n- Hồi bảy tám tuổi thím còn thấy miếu trôi.\n- À, vụ đó sao?\n- Thì miếu đó thờ một cô gái bị dìm chết dưới sông […]\n- Còn gì trôi nữa không?\n- Kể tới tết Lào còn chưa hết. Sao không hỏi có gì không trôi không?\n- Có cái gì không trôi?\n- Đâu biết, vì ta đang trôi.\n(Nguyễn Ngọc Tư, Sông)",
+      "question": "Nội dung không đúng khi nói về ý nghĩa của dòng sông trong đoạn trích trên:",
       "options": [
         "A. Dòng sông biểu tượng cho sự trôi chảy, vô định của kiếp người.",
         "B. Dòng sông mang theo nỗi buồn, sự mất mát trong cuộc sống.",
@@ -83597,7 +83597,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n[1] Dân trí tài chính là mức độ hiểu biết, kỹ năng, thái độ để đưa ra các quyết định tài chính đúng đắn và quản lý tài chính cá nhân hiệu quả. Nó có thể được đo qua: (i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số.\n[2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính.\n[3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí).\n[4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
       "question": "Văn bản trên đã sử dụng những cách trình bày thông tin nào sau đây?",
       "options": [
         "A. Liệt kê, phân loại đối tượng.",
@@ -83619,7 +83619,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n[1] Dân trí tài chính là mức độ hiểu biết, kỹ năng, thái độ để đưa ra các quyết định tài chính đúng đắn và quản lý tài chính cá nhân hiệu quả. Nó có thể được đo qua: (i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số.\n[2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính.\n[3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí).\n[4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
       "question": "Việc trích dẫn số liệu của các năm 2021, 2023 có tác dụng gì?",
       "options": [
         "A. Cung cấp minh chứng cụ thể cho thấy khả năng khai thác các dịch vụ tài chính ở Việt Nam còn thấp so với quy mô dân số.",
@@ -83641,7 +83641,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n[1] Dân trí tài chính là mức độ hiểu biết, kỹ năng, thái độ để đưa ra các quyết định tài chính đúng đắn và quản lý tài chính cá nhân hiệu quả. Nó có thể được đo qua: (i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số.\n[2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính.\n[3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí).\n[4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
       "question": "Quan điểm chính của người viết được thể hiện qua văn bản là gì?",
       "options": [
         "A. Nhận định thực trạng dân trí tài chính Việt Nam hiện đang còn ở mức thấp và sự cần thiết giáo dục tài chính cho trẻ em.",
@@ -85071,7 +85071,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 97:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Nếu A vào trước F thì D phải vào trạm thứ mấy để được thứ tự các xe vào trạm là duy nhất?",
       "options": [
         "A. Thứ 2",
@@ -85093,7 +85093,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 97:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Nếu C vào trạm thứ 3 thì điều nào sau đây chắc chắn đúng?",
       "options": [
         "A. F về sau A",
@@ -85115,7 +85115,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 97:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSau khi hoàn thành chương trình học về logistics ở bậc đại học, bạn được tuyển dụng vào một bến xe để tối ưu hóa quy trình vận hành chuyến xe. Công việc của bạn là áp dụng các nguyên lý đã học để cải thiện hiệu quả di chuyển của các phương tiện. Bạn sẽ đưa các xe, gồm A, B, C, D, E, F, G, vào trạm theo một quy tắc nhất định nhằm tối ưu hóa sự luân chuyển và giảm thiểu thời gian chờ đợi:\n1. B vào sớm nhất\n2. A vào trước C\n3. E vào sau A\n4. G vào ngay trước E\n5. Nếu C vào thứ 3 thì D vào trễ nhất\n6. F không vào thứ 6 và thứ 7",
       "question": "Cho các phát biểu sau: 1. F vào ngay trước D 2. B cách A tối đa 4 xe 3. E hoặc B vào cuối cùng 4. A vào ngay giữa F và C Nếu C, D vào liên tiếp theo thứ tự thì có bao nhiêu điều trên có thể đúng?",
       "options": [
         "A. 1",
@@ -85138,12 +85138,12 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 98 đến 100:\nA, B, C, D, E, T và P thành 3 nhóm khác nhau (nhóm 1, nhóm 2, nhóm 3). Biết rằng: 1. C là bạn học sinh duy nhất 1 mình trong nhóm 2. Mỗi nhóm không được quá 4 học sinh 3. Mỗi học sinh chỉ được bố trí vào đúng một nhóm 4. A và B luôn được bố trí chung vào một nhóm 5. D luôn khác nhóm với E và T",
-      "question": "Nếu T và A được sắp xếp vào chung vào nhóm 2 thì tất cả những người có thể xếp vào nhóm 3 là những ai? A. D, P, C. B. T, P. C. D, P. D. D, C.",
+      "question": "Nếu T và A được sắp xếp vào chung vào nhóm 2 thì tất cả những người có thể xếp vào nhóm 3 là những ai?",
       "options": [
-        "A. Phương án A",
-        "B. Phương án B",
-        "C. Phương án C",
-        "D. Phương án D"
+        "A. D, P, C.",
+        "B. T, P.",
+        "C. D, P.",
+        "D. D, C."
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án: A. Tiền xử lý: - 7 người chia làm 3 nhóm, C luôn ở 1 nhóm => 2 nhóm còn lại mỗi nhóm có 3 người hoặc 1 nhóm 2 người, 1 nhóm 4 người. T và A chung nhóm 2 mà B và A luôn chung nhóm => Nhóm 2 có 3 thành viên Còn nhóm 1 và nhóm 3, mà D khác nhóm E và T mà T nhóm 2, C ở nhóm 1 người => E sẽ phải ở nhóm 2 => Nhóm 2 đủ 4 thành viên Vậy, D ở nhóm có 2 thành viên, và ở chung nhóm với P. Như vậy, nhóm 3 chỉ có thể là {C} hoặc {D, P}",
@@ -85733,8 +85733,8 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
-      "question": "Hai mươi bảy cây số trên sông Di, câu chuyện của hai người đàn bà cô quạnh với đầy những oán ghét, thủ đoạn, những màn trả đũa vặt vãnh như tơ nhện giăng lên bọn cậu nhùng nhằng. Xu thờ ơ với chuyện đàn bà, day qua chuyện khác: - Xứ này còn cái gì trôi nữa? - À, có nhà trôi. - Tụi cháu cũng mới đi coi nhà trôi đây, hay ho gì đâu, toàn người chết. Vụ rừng trôi nó làm sao? […] - Hồi bảy tám tuổi thím còn thấy miếu trôi. - À, vụ đó sao? - Thì miếu đó thờ một cô gái bị dìm chết dưới sông […] - Còn gì trôi nữa không? - Kể tới tết Lào còn chưa hết. Sao không hỏi có gì không trôi không? - Có cái gì không trôi? - Đâu biết, vì ta đang trôi. (Nguyễn Ngọc Tư, Sông) Nội dung không đúng khi nói về ý nghĩa của dòng sông trong đoạn trích trên:",
+      "passage": "Hai mươi bảy cây số trên sông Di, câu chuyện của hai người đàn bà cô quạnh với đầy những oán ghét, thủ đoạn, những màn trả đũa vặt vãnh như tơ nhện giăng lên bọn cậu nhùng nhằng. Xu thờ ơ với chuyện đàn bà, day qua chuyện khác:\n- Xứ này còn cái gì trôi nữa?\n- À, có nhà trôi.\n- Tụi cháu cũng mới đi coi nhà trôi đây, hay ho gì đâu, toàn người chết. Vụ rừng trôi nó làm sao? […]\n- Hồi bảy tám tuổi thím còn thấy miếu trôi.\n- À, vụ đó sao?\n- Thì miếu đó thờ một cô gái bị dìm chết dưới sông […]\n- Còn gì trôi nữa không?\n- Kể tới tết Lào còn chưa hết. Sao không hỏi có gì không trôi không?\n- Có cái gì không trôi?\n- Đâu biết, vì ta đang trôi.\n(Nguyễn Ngọc Tư, Sông)",
+      "question": "Nội dung không đúng khi nói về ý nghĩa của dòng sông trong đoạn trích trên:",
       "options": [
         "A. Dòng sông biểu tượng cho sự trôi chảy, vô định của kiếp người.",
         "B. Dòng sông mang theo nỗi buồn, sự mất mát trong cuộc sống.",
@@ -88727,15 +88727,15 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n(i) mức độ hiểu biết kiến thức tài chính; (ii) khả năng quản lý tài chính cá nhân và ra quyết định tài chính; (iii) mức độ tiếp cận và sử dụng dịch vụ tài chính. Tại Việt Nam, cách thứ ba thường được sử dụng và cho thấy thực trạng dân trí tài chính còn khá thấp. Theo Ngân hàng Thế giới (2021), tỷ lệ người Việt Nam có tài khoản ngân hàng chỉ đạt 69%, thấp hơn các nước phát triển (80-100%). Hoặc theo Ủy ban Chứng khoán Nhà nước (2023), số lượng tài khoản chứng khoán tại Việt Nam chỉ chiếm hơn 7% quy mô dân số. [2] Dân trí tài chính thấp có thể dẫn đến những hệ quả như mất tiền trong các vụ lừa đảo tài chính, đầu tư sai, mất vốn, khủng hoảng nợ cá nhân, thiếu chuẩn bị cho tương lai tài chính. [3] Khảo sát của nhóm nghiên cứu cho thấy gần 75% số người được hỏi cho rằng giáo dục tài chính cho trẻ em là cần thiết. Điều này rất quan trọng vì: - Trẻ em và thanh thiếu niên thường tiếp xúc với gia đình, nhà trường, xã hội và các chính sách nhà nước, nên có cơ hội tiếp nhận sự giáo dục tài chính từ nhiều phía. - Khi được giáo dục tài chính sớm, kiến thức và thói quen tài chính tốt không chỉ ảnh hưởng đến các em mà còn có thể tạo ra những tác động tích cực, bền vững cho toàn xã hội. - Tuổi thiếu niên thuộc giai đoạn đầu của vòng đời tài chính, khi các em bắt đầu tiếp thu những kiến thức cơ bản về tài chính. Sau đó là giai đoạn tích lũy tài sản. Để tích lũy hiệu quả, các cá nhân cần có hiểu biết và kỹ năng để lập kế hoạch tài chính, đầu tư và quản lý nợ, chuẩn bị tốt hơn cho những giai đoạn tiếp theo của cuộc đời (bảo vệ tài sản và tiêu dùng trong hưu trí). [4] Như vậy, giáo dục tài chính cho trẻ em là yêu cầu cấp bách, góp phần nâng cao dân trí tài chính, giảm thiểu rủi ro và cải thiện khả năng đạt các mục tiêu tài chính dài hạn.",
-      "question": "Đọc đoạn trích sau và trả lời câu hỏi: Xưa kia đại vương trông thấy phong cảnh núi Tản Viên đẹp đẽ bèn làm một con đường từ bến Bạch Phiên đi lên phía nam núi Tản Viên, qua động An Vệ, tới các ngọn nguồn lạch suối đều dựng điện để nghỉ ngơi. Rồi lại đi qua rìa núi đến chòm núi có mây che thì định cư ở đó. Đôi lúc rong chơi trên sông Tiểu Hoàng xem đánh cá; phàm đi qua các làng xóm đều dựng điện để nghỉ ngơi. Về sau, nhân dân theo dấu vết các điện đó mà lập đền miếu để thờ cúng. Lại theo truyện cũ ở sách Giao Châu ký của Lỗ Công, tương truyền rằng đại vương Sơn Tinh họ Nguyễn cùng vui ở với loài thủy tộc ở đất Gia Ninh, huyện Phong Châu. Thời Chu Noãn Vương, Hùng Vương thứ mười tám đến ở đất Việt Trì, Châu Phong, lấy quốc hiệu là Văn Lang. Vua có người con gái tên là Ngọc Hoa có sắc đẹp; Thục Vương Phán cầu hôn, nhà vua không bằng lòng, muốn chọn rể hiền. (Trích Lĩnh Nam chích quái)",
+      "passage": "Xưa kia đại vương trông thấy phong cảnh núi Tản Viên đẹp đẽ bèn làm một con đường từ bến Bạch Phiên đi lên phía nam núi Tản Viên, qua động An Vệ, tới các ngọn nguồn lạch suối đều dựng điện để nghỉ ngơi. Rồi lại đi qua rìa núi đến chòm núi có mây che thì định cư ở đó. Đôi lúc rong chơi trên sông Tiểu Hoàng xem đánh cá; phàm đi qua các làng xóm đều dựng điện để nghỉ ngơi. Về sau, nhân dân theo dấu vết các điện đó mà lập đền miếu để thờ cúng. Lại theo truyện cũ ở sách Giao Châu ký của Lỗ Công, tương truyền rằng đại vương Sơn Tinh họ Nguyễn cùng vui ở với loài thủy tộc ở đất Gia Ninh, huyện Phong Châu. Thời Chu Noãn Vương, Hùng Vương thứ mười tám đến ở đất Việt Trì, Châu Phong, lấy quốc hiệu là Văn Lang. Vua có người con gái tên là Ngọc Hoa có sắc đẹp; Thục Vương Phán cầu hôn, nhà vua không bằng lòng, muốn chọn rể hiền.\n(Trích Lĩnh Nam chích quái)",
+      "question": "Ý nghĩa văn hóa, tín ngưỡng nổi bật được thể hiện trong đoạn trích trên là gì?",
       "options": [
         "A. Tư duy lý tưởng hóa các vị vua thời xưa để làm gương răn dạy con cháu.",
         "B. Niềm tôn kính đối với những vị anh hùng có công bảo vệ đất nước khỏi ngoại xâm.",
         "C. Tín ngưỡng thờ thần tự nhiên, phản ánh quan niệm con người gắn bó mật thiết với sông núi.",
         "D. Quan niệm \"trọng nam khinh nữ\" được thể hiện qua việc tôn thờ nhân vật nam thần trong truyền thuyết."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
@@ -90245,7 +90245,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho tam giác $ABC$ có $AB = 5$, $AC = 7$ và $\\cos(\\hat{A}) = \\frac{1}{5}$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng $Oxy$, cho tam giác $ABC$ có phương trình đường cao $AD: x - 3y - 6 = 0$, phương trình đường cao $BE: x - 3y - 10 = 0$, phương trình cạnh $AB: x - y - 2 = 0$.",
       "question": "Tung độ của điểm $A$ là:",
       "options": [
         "A. y_A = 0",
@@ -90732,12 +90732,12 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nMột đoàn khảo sát thực địa gồm 3 giáo viên là R, S, T; 3 học sinh nữ là J, K, L và 2 học sinh nam là N, O; mỗi người được đi trên một trong 3 xe ô tô và thoả mãn các điều kiện sau: - Mỗi xe chỉ chở tối đa 3 người. - Mỗi xe phải có 1 giáo viên. - O và S phải ngồi cùng một xe. - K và L không ngồi cùng một xe. - N và R không ngồi cùng một xe.",
       "question": "Điều nào sau đây không thể đúng trong cách sắp xếp người ngồi trên các xe?",
       "options": [
-        "A. K và S có thể ngồi cùng một xe. C. N và S có thể ngồi cùng một xe.",
-        "B. C. N và S có thể ngồi cùng một xe.",
-        "C. N và S có thể ngồi cùng một xe. B. L và R có thể ngồi cùng một xe.",
+        "A. K và S có thể ngồi cùng một xe.",
+        "B. L và R có thể ngồi cùng một xe.",
+        "C. N và S có thể ngồi cùng một xe.",
         "D. O và T có thể ngồi cùng một xe."
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 95: Vận dụng kiến thức trọng tâm của phân môn Tư duy khoa học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
