@@ -2424,10 +2424,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Một lớp học có tất cả học sinh đều học tiếng Anh hoặc tiếng Pháp. Trong đó, có 25 học sinh học tiếng Anh, 20 học sinh học tiếng Pháp và 8 học sinh học cả tiếng Anh và tiếng Pháp. Tổng số học sinh của lớp học đó là:",
       "options": [
-        "A. 37.",
-        "B. 45.",
-        "C. 53.",
-        "D. 41."
+        "A. 37",
+        "B. 45",
+        "C. 53",
+        "D. 41"
       ],
       "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 61: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -2532,12 +2532,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số đường tiệm cận của đồ thị hàm số 2 2 4 3 4 x x y x - + = - là:",
+      "question": "Số đường tiệm cận của đồ thị hàm số $y = \\frac{x^2 - 4x + 3}{x^2 - 4}$ là:",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 66: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -2553,7 +2553,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số3 2 ( ) 2 3( 1) 6 1, f x x m x mx = - + + + với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số $f(x) = 2x^3 - 3(m + 1)x^2 + 6mx + 1$ với $m$ là tham số thực.",
       "question": "Với $m = 3$, giá trị lớn nhất của hàm số $y = f(x)$ trên đoạn $[0; 3]$ là:",
       "options": [
         "A. 5",
@@ -2575,7 +2575,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số3 2 ( ) 2 3( 1) 6 1, f x x m x mx = - + + + với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số $f(x) = 2x^3 - 3(m + 1)x^2 + 6mx + 1$ với $m$ là tham số thực.",
       "question": "Hàm số $y = f(x)$ nghịch biến trên khoảng $(1; 3)$ khi và chỉ khi:",
       "options": [
         "A. $m \\ge 1$",
@@ -2597,13 +2597,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số3 2 ( ) 2 3( 1) 6 1, f x x m x mx = - + + + với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số $f(x) = 2x^3 - 3(m + 1)x^2 + 6mx + 1$ với $m$ là tham số thực.",
       "question": "Đường thẳng $y = 1$ cắt đồ thị hàm số $y = f(x)$ tại hai điểm phân biệt có hoành độ lớn hơn 2 khi và chỉ khi:",
       "options": [
-        "A. m > 3",
-        "B. m < 3",
-        "C. m > 9",
-        "D. m < 9"
+        "A. $m > 3$",
+        "B. $m < 3$",
+        "C. $m > 9$",
+        "D. $m < 9$"
       ],
       "correctAnswer": 0,
       "explanation": "Phân tích phương pháp giải chi tiết câu 69: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -2619,13 +2619,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng $(u_n)$ xác định bởi2 6 3 7 18 22. u u u u",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_2 + u_6 = 18$ và $u_3 + u_7 = 22$.",
       "question": "Ta có công sai $d$ của cấp số cộng $(u_n)$ là:",
       "options": [
-        "A. d = 2",
-        "B. d = -2",
-        "C. d = 3",
-        "D. d = -3"
+        "A. $d = 2$",
+        "B. $d = -2$",
+        "C. $d = 3$",
+        "D. $d = -3$"
       ],
       "correctAnswer": 0,
       "explanation": "Phân tích phương pháp giải chi tiết câu 70: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -2641,13 +2641,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng $(u_n)$ xác định bởi2 6 3 7 18 22. u u u u",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_2 + u_6 = 18$ và $u_3 + u_7 = 22$.",
       "question": "Cho cấp số cộng (u_n) thỏa mãn u_2 + u_6 = 18 và u_3 + u_7 = 22. Giá trị của số hạng đầu u_1 và công sai d là:",
       "options": [
-        "A. u_1 = 3, d = 2",
-        "B. u_1 = 2, d = 3",
-        "C. u_1 = 1, d = 2",
-        "D. u_1 = 4, d = 2"
+        "A. $u_1 = 3, d = 2$",
+        "B. $u_1 = 2, d = 3$",
+        "C. $u_1 = 1, d = 2$",
+        "D. $u_1 = 4, d = 2$"
       ],
       "correctAnswer": 0,
       "explanation": "Từ hệ u_1 + d + u_1 + 5d = 18 (2u_1 + 6d = 18) và 2u_1 + 8d = 22 => 2d = 4 => d = 2, suy ra u_1 = 3.",
@@ -2776,10 +2776,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nCho bất phương trình 2 log (5 1) .x m",
       "question": "Gọi S là tập tất cả các giá trị nguyên của m sao cho bất phương trình có đúng 3 nghiệm nguyên. Số phần tử của S là:",
       "options": [
-        "A. 0.",
-        "B. 1.",
-        "C. 2.",
-        "D. 3."
+        "A. 0",
+        "B. 1",
+        "C. 2",
+        "D. 3"
       ],
       "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 77: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -2798,10 +2798,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\n12 Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80 Để kiểm tra chất lượng nước uống đóng chai của ba phân xưởng X, Y, Z, đoàn kiểm tra lấy ngẫu nhiên 7 chai nước của phân xưởng X, 4 chai nước của phân xưởng Y và 5 chai nước của phân xưởng Z. Sau đó lấy ngẫu nhiên 4 chai nước từ 16 chai ở trên để kiểm tra hàm lượng fluor theo quy định.",
       "question": "Số cách chọn 4 chai nước từ 16 chai của ba phân xưởng X, Y, Z để phân tích là:",
       "options": [
-        "A. 1960.",
-        "B. 1820.",
-        "C. 1920.",
-        "D. 1880."
+        "A. 1960",
+        "B. 1820",
+        "C. 1920",
+        "D. 1880"
       ],
       "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 78: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -3018,10 +3018,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Khoảng cách từ điểm A đến mặt phẳng (P) bằng:",
       "options": [
-        "A. 3.",
-        "B. 4.",
-        "C. 2.",
-        "D. 6."
+        "A. 3",
+        "B. 4",
+        "C. 2",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "Phân tích phương pháp giải chi tiết câu 88: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -5159,7 +5159,7 @@ export const QUESTIONS_DATA = {
         "C. 39",
         "D. 40"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Đi từ C đến E theo đường đi Euler dài: 2 1 4 3 5 6 10 31 + + + + + + = Đi từ E đến C với quảng đường ngắn nhất dài: 5 1 2 8 + + = Vậy tổng số kilomet mà người đưa thư phải đi nhỏ nhất là 31 8 39 + = .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -5174,12 +5174,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Từ một miếng tôn có hình dạng là nửa đường tròn bán kính 1 m , người ta cắt ra một hình chữ nhật. Hỏi có thể cắt được miếng tôn có diện tích lớn nhất là bao nhiêu?",
+      "question": "Từ một miếng tôn có hình dạng là nửa hình tròn bán kính 1 m, người ta cắt ra một hình chữ nhật. Hỏi diện tích lớn nhất của hình chữ nhật cắt được là bao nhiêu?",
       "options": [
-        "A. 2 1, 6 m .",
-        "B. 2 2 m .",
-        "C. 2 1 m .",
-        "D. 2 0,8 m ."
+        "A. $1{,}6\\text{ m}^2$",
+        "B. $2\\text{ m}^2$",
+        "C. $1\\text{ m}^2$",
+        "D. $0{,}8\\text{ m}^2$"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Xét đường tròn bán kính 1, ta cắt trên đó một hình chữ nhật ABCD . Khi đó 1 . .sin 2 ABCD S AC BD \\alpha = 2 sin 2 \\alpha = \\le . Dấu bằng xảy ra khi và chỉ khi 90 \\alpha = ^\\circ . Vậy diện tích lớn nhất của miếng tôn cắt trên nửa đường tròn bằng 1.",
@@ -5374,10 +5374,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75:\nCó hai hồ nuôi cá chép Nhật. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng, Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
       "question": "Giả sử con cá bắt được có màu vàng, tính xác suất để con cá màu vàng này không bị đánh dấu.(làm tròn kết quả 2 chữ số thập phân)",
       "options": [
-        "A. 0,87 .",
-        "B. 0,67 .",
-        "C. 0,13 .",
-        "D. 0,39 ."
+        "A. 0,87",
+        "B. 0,67",
+        "C. 0,13",
+        "D. 0,39"
       ],
       "correctAnswer": 0,
       "explanation": "Xem giải thích chi tiết trong tài liệu đáp án.",
@@ -5418,10 +5418,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nMột công ty cần in ít nhất 540 văn bản và 144 trang màu để chuẩn bị hội nghị. Có 2 máy in gồm hai loại M và N có thể thuê. Thời gian thuê tối đa cho cho máy loại M là 10 giờ, loại N là 12 giờ. Giá thuê lần lượt máy in loại M, N là 200 nghìn đồng/giờ và 180 nghìn đồng/giờ. Biết máy in loại M in được 40 văn bản/giờ và 8 trang màu/giờ, máy in loại N in được 30 văn bản/giờ và 12 trang màu/giờ. Gọi x , y lần lượt là số giờ thuê máy M, N.",
       "question": "Chi phí thuê máy thấp nhất bằng.",
       "options": [
-        "A. 2960 .",
-        "B. 2880 .",
-        "C. 3060 .",
-        "D. 2160 ."
+        "A. 2960",
+        "B. 2880",
+        "C. 3060",
+        "D. 2160"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B Có x , y lần lượt là số giờ thuê máy M và N. ( ) 0; 0 \\ge \\ge x y Thuê máy in loại M: giá 200 nghìn đồng/giờ Suy ra thuê x giờ là 200x nghìn đồng. Thuê máy in loại N: giá 180 nghìn đồng/giờ Suy ra thuê y giờ là 180y nghìn đồng. Ta có hệ ràng buộc ( ) ( ) ( ) ( ) ( ) 0 10 1 0 10 0 10 2 0 12 * 40 30 540 4 3 54 3 8 12 144 2 3 36 4 \\le \\le \\le \\le \\le \\le \\le \\le + \\ge + \\ge + \\ge + \\ge x x x y x y x y x y x y Trước hết ta biểu diễn miền nghiệm của hệ ( ) * : Vẽ các đường thẳng : 0 : 10 : 0 : 12 : 4 3 54 : 2 3 36 = = = = + = + = Oy x a x Ox y b y d x y m x y . Chọn ( ) 8; 10 E có tọa độ thỏa mãn tất cả các bất phương trình trong hệ, nên miền bị tô đậm là hình tứ giác ABCD , tính cả ba cạnh , , , AB BC CD AD trong hình vẽ dưới là miền nghiệm của hệ bất phương trình đã cho. Tọa độ các điểm , , , A B C D + \\{ \\} = \\cap A d b nên tọa độ của nó là nghiệm của hệ ( ) 4 3 54 4,5 4,5 ;12 12 12 + = = = = x y x A y y . + \\{ \\} = \\cap B b a nên tọa độ của nó là nghiệm của hệ ( ) 12 10 ;12 10 = = y B x . + \\{ \\} = \\cap C m a nên tọa độ của nó là nghiệm của hệ 10 2 3 36 16 10 ; 16 10 3 3 x x y C x y = + = \\left( \\right) \\left( \\right)= = \\left( \\right) . + \\{ \\} = \\cap D d m nên tọa độ của nó là nghiệm của hệ ( ) 4 3 54 9 9 ; 6 2 3 36 6 + = = + = = x y x D x y y . * Tính giá trị của 200 180 + x y tại tất cả các đỉnh của tứ giác ABCD . ( ) ; x y ( ) 4, 5 ; 12 A ( ) 10 ; 12 B 16 10 ; 3 \\left( \\right) \\left( \\right) \\left( \\right) C ( ) 9 ; 6 D 200 180 + x y 3060 4160 2960 2880 Suy ra giá trị nhỏ nhất 200 180 + x y là 2880, hay chi phí thấp nhất khi 9 ; 6 = = x y .",
@@ -5528,10 +5528,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Khoảng cách từ I đến AB là bao nhiêu?",
       "options": [
-        "A. 2 .",
-        "B. 3 .",
-        "C. 5 .",
-        "D. 6 ."
+        "A. 2",
+        "B. 3",
+        "C. 5",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "( ) ( ) 1; 1 1;1 = - - = AB KH n AC đi qua ( ) 1; 2 K - và có ( ) 1;1 = AB n Suy ra: ( ) ( ) :1. 1 1. 2 0 : 1 0 + + - = + - = AB x y AB x y ( ) ( ) 2 2 3 4 1 ; 2 1 1 + - - = = + d I AB",
@@ -5658,12 +5658,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
-      "question": "Tính thể tích khối chóp . S ABC :",
+      "question": "Tính thể tích khối chóp $S.ABC$:",
       "options": [
-        "A. 3 6a .",
-        "B. 3 a .",
-        "C. 3 2a .",
-        "D. 3 3a ."
+        "A. $\\frac{a^3\\sqrt{2}}{2}$",
+        "B. $a^3$",
+        "C. $2a^3$",
+        "D. $3a^3$"
       ],
       "correctAnswer": 0,
       "explanation": "3 1 1 2 3 6 6 V SA SB SC a a a a = \\cdot \\cdot = \\cdot \\cdot \\cdot =",
@@ -5702,12 +5702,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
-      "question": "Tính thể tích khới chóp . S HBC :",
+      "question": "Tính thể tích khối chóp $S.HBC$:",
       "options": [
-        "A. 3 4 5 a .",
-        "B. 3 3 7 a .",
-        "C. 3 3 5 a .",
-        "D. 3 6 7 a ."
+        "A. $\\frac{4a^3}{5}$",
+        "B. $\\frac{3a^3}{7}$",
+        "C. $\\frac{3a^3}{5}$",
+        "D. $\\frac{6a^3}{7}$"
       ],
       "correctAnswer": 0,
       "explanation": "( ) ( ) 4 2 , ,0 , 0, 2 , 0 , 0, 0,3 5 5 a a SH SB a SC a \\left( \\right) = = = \\left( \\right) \\left( \\right) . Gọi ( ) ( ) , 2 , 0 1; 2; 0 AB B A a a u = - = - = - . Điểm H AB \\in nên có dạng ( ) ( ) , 2 , 0 , 2 , 0 H a t t SH a t t = + - = + - Vì H là hình chiếu của S lên AB SH AB 0. SH u \\cdot = ( ) 4 2 1. 4 0 , , 0 5 5 5 a a a a t t t H \\left( \\right) + + = = - \\left( \\right) \\left( \\right) Ta có: ( ) ( )2 2 3 4 2 24 , 6 , 0, 0 , 6 , 0,0 , , 0 . 5 5 5 a a SB SC a SB SC SH a a \\left( \\right) ] ] = = \\cdot = \\left( \\right) ] ] \\left( \\right) Suy ra 3 3 . 1 1 24 4 , . 6 6 5 5 S HBC V SB SC SH a a ] = \\cdot = ]= PHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU",
@@ -5921,15 +5921,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nThời gian (phút) [0,30) [30,60) [60,90) [90,120) [120,150) Số người 75 125 250 82 18",
-      "question": "Khoảng chứa tứ phân vị Q3 của mẫu số liệu trên là?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nKhảo sát thời gian tự học mỗi ngày (tính bằng phút) của 550 học sinh, kết quả được cho bởi bảng số liệu ghép nhóm sau:\n\n| Thời gian (phút) | $[0; 30)$ | $[30; 60)$ | $[60; 90)$ | $[90; 120)$ | $[120; 150)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| **Số học sinh** | 75 | 125 | 250 | 82 | 18 |",
+      "question": "Khoảng chứa tứ phân vị $Q_3$ của mẫu số liệu trên là:",
       "options": [
-        "A. [30,60)",
-        "B. [60,90)",
-        "C. [90,120)",
-        "D. [120,150)"
+        "A. [30; 60)",
+        "B. [60; 90)",
+        "C. [90; 120)",
+        "D. [120; 150)"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Xem giải thích chi tiết trong tài liệu đáp án.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -5943,7 +5943,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nThời gian (phút) [0,30) [30,60) [60,90) [90,120) [120,150) Số người 75 125 250 82 18",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nKhảo sát thời gian tự học mỗi ngày (tính bằng phút) của 550 học sinh, kết quả được cho bởi bảng số liệu ghép nhóm sau:\n\n| Thời gian (phút) | $[0; 30)$ | $[30; 60)$ | $[60; 90)$ | $[90; 120)$ | $[120; 150)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| **Số học sinh** | 75 | 125 | 250 | 82 | 18 |",
       "question": "Thời gian tự học trung bình của mẫu số liệu trên là bao nhiêu?",
       "options": [
         "A. 63,64",
@@ -5965,13 +5965,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nThời gian (phút) [0,30) [30,60) [60,90) [90,120) [120,150) Số người 75 125 250 82 18",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nKhảo sát thời gian tự học mỗi ngày (tính bằng phút) của 550 học sinh, kết quả được cho bởi bảng số liệu ghép nhóm sau:\n\n| Thời gian (phút) | $[0; 30)$ | $[30; 60)$ | $[60; 90)$ | $[90; 120)$ | $[120; 150)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| **Số học sinh** | 75 | 125 | 250 | 82 | 18 |",
       "question": "Phương sai của mẫu số liệu trên nằm trong khoảng nào sau đây?",
       "options": [
-        "A. [800;825)",
-        "B. [875;900)",
-        "C. [850;875)",
-        "D. [825;850)"
+        "A. [800; 825)",
+        "B. [875; 900)",
+        "C. [850; 875)",
+        "D. [825; 850)"
       ],
       "correctAnswer": 2,
       "explanation": "Ta có: 2 2 2 2 2 0 30 30 60 60 90 90 120 120 150 75. 125. 250. 82. 18. 2 2 2 2 2 5287,90 550 + + + + + \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) + + + + \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Do đó, phương sai là 5287,90 - 66,432 = 874,12 Vậy chọn C 3.2. SUY LUẬN KHOA HỌC",
@@ -6057,11 +6057,11 @@ export const QUESTIONS_DATA = {
       "question": "Từ mô tả trên, nhận định nào sau đây là phù hợp nhất?",
       "options": [
         "A. Mực chất lỏng tăng nhanh lúc đầu rồi chậm dần.",
-        "B. Mực chất lỏng tăng tỉ lệ thuận với độ tăng nhiệt độ.",
-        "C. Mực chất lỏng chỉ tăng khi nhiệt độ vượt quá 20 oC .",
+        "B. Mực chất lỏng dâng lên tỉ lệ thuận với độ tăng nhiệt độ.",
+        "C. Mực chất lỏng chỉ tăng khi nhiệt độ vượt quá $20^\\circ\\text{C}$.",
         "D. Mực chất lỏng tăng không theo quy luật xác định."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "- Cụm từ \"dâng đều\" nghĩa là nhiệt độ tăng thêm một lượng bao nhiêu thì mực chất lỏng cũng dâng thêm một lượng bấy nhiêu. - Cho thấy mối quan hệ tuyến tính - h \\Delta tỉ lệ thuận t \\Delta Loại A (tăng nhanh rồi chậm - không tuyến tính) Loại D (không quy luật). Loại C ( 20 oC vừa chạm vạch 0 , có nghĩa là đã dâng từ trước đó rồi)",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -7752,10 +7752,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Một hệ thống truyền tải điện gồm 6 trạm A, B, C, D, E, F. Các tuyến dây điện được lắp đặt như sơ đồ bên phải. Kỹ sư muốn kiểm tra toàn bộ hệ thống bằng cách đi từ trạm A đến trạm F, đi qua mỗi trạm đúng một lần. Số cách đi như vậy là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 63] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -8060,10 +8060,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 77 và 78:\nMột nhà máy sản xuất theo chu kỳ: ngày đầu tiên sản xuất 12 sản phẩm; sau đó mỗi ngày sản lượng tăng đều một lượng cố định so với ngày liền trước đó. Vào ngày thứ 9 nhà máy sản xuất 84 sản phẩm.",
       "question": "Tổng sản lượng của nhà máy trong 10 ngày đầu là",
       "options": [
-        "A. 420.",
-        "B. 525.",
-        "C. 480.",
-        "D. 660."
+        "A. 420",
+        "B. 525",
+        "C. 480",
+        "D. 660"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 77] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -8082,10 +8082,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 77 và 78:\nMột nhà máy sản xuất theo chu kỳ: ngày đầu tiên sản xuất 12 sản phẩm; sau đó mỗi ngày sản lượng tăng đều một lượng cố định so với ngày liền trước đó. Vào ngày thứ 9 nhà máy sản xuất 84 sản phẩm.",
       "question": "Số ngày nhỏ nhất sao cho sản lượng trong một ngày đạt ít nhất 10.000 sản phẩm là",
       "options": [
-        "A. 1110.",
-        "B. 1111.",
-        "C. 1109.",
-        "D. 1112."
+        "A. 1110",
+        "B. 1111",
+        "C. 1109",
+        "D. 1112"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 78] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -8126,10 +8126,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng $Oxy$ cho ba điểm $P(2; 3), Q(8; 7), R(-1; 4)$.",
       "question": "Diện tích tam giác PQR bằng",
       "options": [
-        "A. 9.",
-        "B. 12.",
-        "C. 15.",
-        "D. 18."
+        "A. 9",
+        "B. 12",
+        "C. 15",
+        "D. 18"
       ],
       "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 80] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -8236,10 +8236,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nMột khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm đáy bằng 8 (đơn vị).",
       "question": "Thể tích của khối chóp là",
       "options": [
-        "A. 72.",
-        "B. 96.",
-        "C. 108.",
-        "D. 144."
+        "A. 72",
+        "B. 96",
+        "C. 108",
+        "D. 144"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 85] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -8500,10 +8500,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Trong giai đoạn 1950 - 1954, năm nào ghi nhận tỷ trọng viện trợ của Mỹ chiếm hơn một nửa tổng chi phí chiến tranh của Pháp ở Đông Dương?",
       "options": [
-        "A. 1951.",
-        "B. 1952.",
-        "C. 1953.",
-        "D. 1954."
+        "A. 1951",
+        "B. 1952",
+        "C. 1953",
+        "D. 1954"
       ],
       "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 97] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -10348,12 +10348,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Phương trình 2 2 3 5 x x x + - = + có tổng các nghiệm nguyên là",
+      "question": "Phương trình $|x^2 + 2x - 3| = x + 5$ có tổng các nghiệm nguyên là:",
       "options": [
-        "A. 2 - .",
-        "B. 3 - .",
-        "C. 1 - .",
-        "D. 4 - ."
+        "A. -2",
+        "B. -3",
+        "C. -1",
+        "D. -4"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B. TH1: 2 2 3 0 x x + - > 3 1 x x < - [ \\Leftrightarrow > ] . Khi đó phương trình trở thành: 2 2 3 5 x x x + - = + 2 8 0 x x \\Leftrightarrow + - = 1 33 2 1 33 2 x x [ - + = \\Leftrightarrow - - = ] . TH2: 2 2 3 0 x x + - < 3 1 x \\Leftrightarrow - < < . Khi đó phương trình trở thành: 2 2 3 5 x x x - - + = + 2 3 2 0 x x \\Leftrightarrow + + = 1 2 x x = - [ \\Leftrightarrow = - ] . Vậy tổng các nghiệm nguyên là 1 2 3 T = - - = - .",
@@ -10370,12 +10370,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tìm điều kiện của tham số m để hệ phương trình 1 mx y m x my - = - + = - có nghiệm duy nhất.",
+      "question": "Tìm điều kiện của tham số $m$ để hệ phương trình $\\begin{cases} mx - y = 1 \\\\ x + my = m \\end{cases}$ có nghiệm duy nhất.",
       "options": [
-        "A. $1 m = \\pm .$",
-        "B. $1 m \\ne - .$",
-        "C. $1 m \\ne .$",
-        "D. $1 m \\ne \\pm .$"
+        "A. $m = \\pm 1$",
+        "B. $m \\ne -1$",
+        "C. $m \\ne 1$",
+        "D. $m \\ne \\pm 1$"
       ],
       "correctAnswer": 3,
       "explanation": "Chọn D. Ta có 1 1 m D m - = - 2 1 m = - Để hệ có nghiệm duy nhất thì 0 D \\ne 2 1 0 m \\Leftrightarrow - \\ne 1 m \\Leftrightarrow \\ne \\pm .",
@@ -10392,7 +10392,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Biết sin cot cot 4 sin sin 4 x kx x x x - = với mọi x để các biểu thức có nghĩa. Lúc đó giá trị của k là",
+      "question": "Biết $\\frac{\\sin x - \\cot x}{\\cot 4x - \\sin x} = \\frac{\\sin 4x}{\\sin kx}$ với mọi $x$ để biểu thức có nghĩa. Lúc đó giá trị của $k$ là:",
       "options": [
         "A. $\\frac{5}{4}$",
         "B. $\\frac{3}{4}$",
@@ -10458,12 +10458,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho hai số thực a , b đều lớn hơn 1. Giá trị nhỏ nhất của biểu thức 4 1 1 log log ab ab S a b = + bằng",
+      "question": "Cho hai số thực $a, b > 1$. Giá trị nhỏ nhất của biểu thức $S = \\frac{1}{\\log_a(ab)} + \\frac{4}{\\log_b(ab)}$ bằng:",
       "options": [
         "A. $\\frac{4}{9}$",
         "B. $\\frac{9}{4}$",
         "C. $\\frac{9}{2}$",
-        "D. 1 4"
+        "D. $\\frac{1}{4}$"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B Ta có 4 1 1 log log ab ab S a b = + ( ) 4 log log a b ab ab = + ( ) 1 1 log log 1 4 a b b a = + + + 1 5 log 4 log 4 a a b b = + + . Đặt loga x b = . Do a , 1 b > nên 0 x > . Khi đó 1 5 4 4 S x x = + + 1 5 9 2 . 4 4 4 x x \\ge + = (Áp dụng BĐT Cauchy cho hai số dương x và 1 4 x ). Dấu \" \" = xảy ra 1 1 1 4 2 2 0 0 x x x x x x = = \\pm \\Leftrightarrow \\Leftrightarrow \\Rightarrow = > > . Vậy 9 min 4 S = tại 1 log 2 a b b a = \\Leftrightarrow = .",
@@ -10480,12 +10480,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số 3 27 2 x y x = - - song song với trục hoành?",
+      "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số $y = \\frac{x^3 - 27}{x - 2}$ song song với trục hoành?",
       "options": [
-        "A. 1.",
-        "B. 0 .",
-        "C. 2 .",
-        "D. 3 ."
+        "A. 1",
+        "B. 0",
+        "C. 2",
+        "D. 3"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 3 2 2 2 6 ( 2) x x y x - ' = - . Do đó ( ) ( ) 0 2 0 0 0 0 0 0 2 3 0 3 x y x x x x = [ ' = \\Leftrightarrow - = \\Leftrightarrow = ] . Ta có (0) 27 0 y = - \\ne (nhận) và (3) 0 y = (loại vì khi đó tiếp tuyến trùng trục hoành). Đáp số: 1 .",
@@ -10590,14 +10590,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác ABC vuông tại , 3 , 4 , A AB a AC a AH = = là đường cao. Tính độ dài AH:",
+      "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 3a, AC = 4a$. Gọi $AH$ là đường cao. Tính độ dài $AH$:",
       "options": [
-        "A. 8 5 a .",
-        "B. 5a .",
-        "C. 12 5 a .",
-        "D. 9 5 a ."
+        "A. $\\frac{8a}{5}$",
+        "B. $5a$",
+        "C. $\\frac{12a}{5}$",
+        "D. $\\frac{9a}{5}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "2 2 2 2 (3 ) (4 ) 5 . BC AB AC a a a = + = + = Đường cao AH trong tam giác vuông tại A thỏa: 2 3 4 12 12 . 5 5 5 AB AC a a a AH a BC a a \\cdot \\cdot = = = =",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
@@ -10658,10 +10658,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Tính giá trị a b -",
       "options": [
-        "A. 2 -",
-        "B. 4 .",
-        "C. 2 .",
-        "D. 4 - ."
+        "A. -2",
+        "B. 4",
+        "C. 2",
+        "D. -4"
       ],
       "correctAnswer": 0,
       "explanation": "Trung điểm ( ) 3;3 M . AB có ( ) VTCP 4; 2 u = \\Rightarrow đường trung trực có ( ) VTCP 1; 2 v = - (vuông góc với u ). Phương trình tham số đường trung trực: 3 1, 3 2 3 2 x t a b a b y t = + \\Rightarrow = = \\Rightarrow - = - = -",
@@ -10721,13 +10721,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp S ABC \\cdot có đáy là tam giác vuông cân tại A thoả mãn ( ) , AC BC a SA ABC = = và 5 SB a = .",
-      "question": "Tính thể tích hình chop S.ABC:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
+      "question": "Tính thể tích khối chóp $S.ABC$:",
       "options": [
-        "A. 2 4 a .",
-        "B. 4 a .",
-        "C. 2 a .",
-        "D. 2 2 a ."
+        "A. $\\frac{a^3}{3}$",
+        "B. $\\frac{a^3\\sqrt{5}}{6}$",
+        "C. $\\frac{a^3}{6}$",
+        "D. $\\frac{2a^3}{3}$"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 2 3 2 1 2, 2 5 2 3 1 1 1 3 3 3 3 2 6 ABC ABC AB a S a SA SB AB a a a a V S SA a a = = = - = - = = \\cdot = \\cdot \\cdot = \\Delta \\Delta",
@@ -10743,13 +10743,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp S ABC \\cdot có đáy là tam giác vuông cân tại A thoả mãn ( ) , AC BC a SA ABC = = và 5 SB a = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
       "question": "Tính sin góc giữa đường thẳng SC và mặt phẳng (SAB):",
       "options": [
-        "A. $\\frac{3}{4}$",
-        "B. $\\frac{2}{4}$",
-        "C. $\\frac{3}{3}$",
-        "D. 2 2"
+        "A. $\\frac{\\sqrt{2}}{4}$",
+        "B. $\\frac{\\sqrt{5}}{5}$",
+        "C. $\\frac{\\sqrt{5}}{4}$",
+        "D. $\\frac{1}{2}$"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi C' là hình chiếu của C lên ( ) SAB ( ) ( )\\bullet \\bullet , SC SAB CSC = ' \\Rightarrow 2 2 2 2 2 2 2 2 . . 2 ' , 3 2 2 CA CB a a a CC SC SA AC a a a CA CB a a = = = = + = + = + + Lại có: ( ) ' 2 2 sin ' : 2 2 4 CC a CSC a SC = = =",
@@ -10765,15 +10765,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp S ABC \\cdot có đáy là tam giác vuông cân tại A thoả mãn ( ) , AC BC a SA ABC = = và 5 SB a = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
       "question": "Tính góc giữa hai mặt phẳng (SBC) và (SAC):",
       "options": [
-        "A. $\\frac{0}{45}$",
-        "B. $\\frac{0}{90}$",
-        "C. $\\frac{0}{60}$",
-        "D. $\\frac{0}{30}$"
+        "A. $45^\\circ$",
+        "B. $90^\\circ$",
+        "C. $60^\\circ$",
+        "D. $30^\\circ$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Ta có: ( ) ( ) ( ) BC AC BC SAC SBC SAC BC SA \\Rightarrow \\Rightarrow",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -10788,7 +10788,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_1 + 2u_2 = 3u_4$ và $u_1 cdot u_2 = 8$.",
-      "question": "Tính tổng 1 2 2 3 49 50 1 1 1 ... S u u u u u u = + + + ?",
+      "question": "Tính tổng $S = \\frac{1}{u_1 u_2} + \\frac{1}{u_2 u_3} + \\dots + \\frac{1}{u_{49} u_{50}}$:",
       "options": [
         "A. $S = \\frac{50}{99}$",
         "B. $S = \\frac{48}{99}$",
@@ -10897,13 +10897,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột phân xưởng có hai máy đặc chủng 1 2 , T T , sản xuất hai loại sản phẩm ký hiệu là A và . B Một tấn sản phẩm loại A lãi 3 triệu đồng, một tấn sản phẩm loại B lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại A phải dùng máy 1 T trong 3 giờ và máy 2 T trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại B phải dùng máy 1 T trong 2 giờ và máy 2 T trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy 1 T làm việc không quá 6 giờ một ngày, máy 2 T làm việc không quá 4 giờ một ngày.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột phân xưởng có hai máy đặc chủng $T_1, T_2$, sản xuất hai loại sản phẩm ký hiệu là $A$ và $B$. Mỗi tấn sản phẩm loại $A$ lãi 3 triệu đồng, một tấn sản phẩm loại $B$ lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại $A$ phải dùng máy $T_1$ trong 3 giờ và máy $T_2$ trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại $B$ phải dùng máy $T_1$ trong 2 giờ và máy $T_2$ trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy $T_1$ làm việc không quá 6 giờ một ngày, máy $T_2$ làm việc không quá 4 giờ một ngày.",
       "question": "Gọi $x$ là số tấn sản phẩm loại A và $y$ là số tấn sản phẩm loại B. Khi đó $F(x, y)$ là hàm mục tiêu biểu diễn tổng lợi nhuận thu được:",
       "options": [
-        "A. F(x, y) = 3x + 2y",
-        "B. F(x, y) = 2x + 3y",
-        "C. F(x, y) = 4x + 3y",
-        "D. F(x, y) = 3x + 4y"
+        "A. $F(x, y) = 3x + 2y$",
+        "B. $F(x, y) = 2x + 3y$",
+        "C. $F(x, y) = 3x + y$",
+        "D. $F(x, y) = 2x + y$"
       ],
       "correctAnswer": 0,
       "explanation": "Chọn A Gọi x là số tấn sản phẩm loại A và y là số tấn sản phẩm loại B . Số tiền lãi khi bán x là số tấn sản phẩm loại A và y là số tấn sản phẩm loại B lần lượt là 3 , 2 x y . Vậy ( ) , 3 2 . F x y x y = +",
@@ -10919,15 +10919,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột phân xưởng có hai máy đặc chủng 1 2 , T T , sản xuất hai loại sản phẩm ký hiệu là A và . B Một tấn sản phẩm loại A lãi 3 triệu đồng, một tấn sản phẩm loại B lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại A phải dùng máy 1 T trong 3 giờ và máy 2 T trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại B phải dùng máy 1 T trong 2 giờ và máy 2 T trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy 1 T làm việc không quá 6 giờ một ngày, máy 2 T làm việc không quá 4 giờ một ngày.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột phân xưởng có hai máy đặc chủng $T_1, T_2$, sản xuất hai loại sản phẩm ký hiệu là $A$ và $B$. Mỗi tấn sản phẩm loại $A$ lãi 3 triệu đồng, một tấn sản phẩm loại $B$ lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại $A$ phải dùng máy $T_1$ trong 3 giờ và máy $T_2$ trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại $B$ phải dùng máy $T_1$ trong 2 giờ và máy $T_2$ trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy $T_1$ làm việc không quá 6 giờ một ngày, máy $T_2$ làm việc không quá 4 giờ một ngày.",
       "question": "Gọi E là số tiền lãi lớn nhất mà phân xưởng này có thể thu được trong một ngày. Giá trị của E bằng bao nhiêu?",
       "options": [
-        "A. E = 5",
-        "B. E = 4",
-        "C. E = 6",
-        "D. E = 7"
+        "A. 6 triệu đồng",
+        "B. 7 triệu đồng",
+        "C. 8 triệu đồng",
+        "D. 9 triệu đồng"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Chọn C Số giờ làm việc của máy 1 T là 3 2 x y + và của máy 2 T là 2x y + . Vì mỗi ngày máy 1 T không được làm việc quá 6 giờ và máy 2 T không làm việc quá 4 giờ nên ta có ràng buộc: 3 2 6 2 4 . , 0 x y x y x y + \\le + \\le \\ge Vẽ miền nghiệm của hệ bất phương trình ta được miền như hình. Khi đó: ( ) ( ) ( ) 0; 0 0 0;3 6 2;0 6 F F F = = = Vậy giá trị của E là 6. E =",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -11340,9 +11340,9 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nThảm họa hạt nhân Fukushima. Vào tháng 3 năm 2011, sau một trận động đất mạnh, lò phản ứng hạt nhân Fukushima ở Nhật Bản đã tự động ngừng hoạt động. Lò phản ứng hạt nhân tạo ra nhiệt bằng cách phân tách các nguyên tử urani trong một quá trình được gọi là phân hạch hạt nhân. Phân hạch hạt nhân 𝑈𝑟𝑎𝑛𝑖𝑢𝑚 được chứa trong các thanh nhiên liệu của lò phản ứng. Một phản ứng dây chuyền được thiết lập bởi các 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 được giải phóng trong quá trình phân hạch và chúng tiếp tục phân tách nhiều nguyên tử 𝑢𝑟𝑎𝑛𝑖 hơn. Công suất đầu ra của lò phản ứng được điều chỉnh bằng cách kiểm soát số lượng 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hiện diện trong thanh nhiên liệu. Thanh điều khiển làm bằng chất hấp thụ 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 sẽ thu giữ 𝑛𝑒𝑢𝑡𝑟𝑜𝑛. Hấp thụ nhiều 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hơn trong thanh điều khiển có nghĩa là có ít 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hơn có thể gây ra phân hạch. Do đó, đẩy thanh điều khiển sâu hơn vào lò phản ứng sẽ làm giảm công suất đầu ra của nó và việc rút thanh điều khiển sẽ làm tăng công suất đầu ra. Lò phản ứng hạt nhân Fukushima vẫn tiếp tục tạo ra nhiệt ngay cả sau khi phản ứng dây chuyền đã dừng lại do sự phân rã phóng xạ của các đồng vị được tạo ra trong quá trình phân hạch hạt nhân. Sự phân rã này không thể dừng lại và nhiệt sinh ra phải được loại bỏ bằng cách tuần hoàn nước làm mát qua lõi lò phản ứng. Khi lò phản ứng bị đóng do động đất, các máy bơm để duy trì nước làm mát tuần hoàn phải được cung cấp điện từ lưới điện quốc gia hoặc máy phát điện diesel. Tuy nhiên, các kết nối với lưới điện đã bị hư hỏng do động đất và các máy phát điện diesel đã bị phá hủy bởi sóng thần sau trận động đất. Kết quả là, không có hệ thống làm mát nào cho lõi lò phản ứng và điều này dẫn đến các vụ nổ và sau đó giải phóng bức xạ, bao gồm các đồng vị phóng xạ như 𝑐𝑎𝑒𝑠𝑖𝑢𝑚 và 𝑖𝑜𝑑𝑖𝑑𝑒, vào môi trường.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Lò phản ứng hạt nhân tạo ra nhiệt bằng cách phân tách các nguyên tử urani trong một quá trình được gọi là phân hạch hạt nhân. (𝐼𝐼) Công suất đầu ra của lò phản ứng được điều chỉnh bằng cách kiểm soát số lượng 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hiện diện trong thanh nhiên liệu. (𝐼𝐼𝐼) Lò phản ứng hạt nhân Fukushima vẫn tiếp tục tạo ra nhiệt ngay cả sau khi phản ứng dây chuyền đã dừng lại do sự phân rã phóng xạ của các đồng vị được tạo ra trong quá trình phân hạch hạt nhân. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
+        "A. 1",
+        "B. 2",
+        "C. 3",
         "D. Không phát biểu nào đúng."
       ],
       "correctAnswer": 2,
@@ -12990,12 +12990,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Phương trình: 3 2 1 1 3 1 3 x x x x x x + + + = + + - + + có bao nhiêu nghiệm?",
+      "question": "Phương trình $\\sqrt{x + 3} + \\sqrt{x + 2} = \\sqrt{x^2 - 1} + \\sqrt{x + 1}$ có bao nhiêu nghiệm?",
       "options": [
-        "A. 0 .",
-        "B. 3 .",
-        "C. 2 .",
-        "D. 1."
+        "A. 0",
+        "B. 3",
+        "C. 2",
+        "D. 1"
       ],
       "correctAnswer": 0,
       "explanation": "Phương trình có dạng A B C D + = + với . . , AC B D = cụ thể ta có 3 2 3 1 ( 3) ( 1)( 1) 1, 3 x x x x x x x + \\cdot + = + - + = + + nên sẽ viết về dạng A C D B - = - và bình phương để giải phương trình hệ quả. Từ đó có Lời giải: sau: Điều kiện: 1. x \\ge - ( ) 2 3 3 2 2 2 1 1 1 3 1 3 1 1 3 3 x x x x x x x x x x x x \\left( \\right) + + + + = + + - + \\Rightarrow - + = - + - + \\left( \\right) \\left( \\right) + +\\left( \\right) 3 3 2 2 1 1 3 2 3 1 1 2 1 1 3 3 x x x x x x x x x x x x + + \\Leftrightarrow + + - \\cdot + = - + + + - - + \\cdot + + + 3 2 3 2 3 3 2 2 1 1 1 ( 3)( 1) 1 3 3 3 3 x x x x x x x x x x x x x x + \\Leftrightarrow = - - \\Leftrightarrow + = + - - \\Leftrightarrow + = - - + - - + 2 2 1 3 2 4 4 2 2 0 1 3 x x x x x x [ = + \\Leftrightarrow - - \\Leftrightarrow - - = \\Leftrightarrow = - ] So với điều kiện và thế vào phương trình ban đầu, ta có phương trình vô nghiệm.",
@@ -13080,10 +13080,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho $a, b > 0$, $a \\ne 1$ thỏa mãn $\\log_a b = \\frac{b}{4}$ và $\\log_2 a = \\frac{16}{b}$. Tổng $a + b$ bằng:",
       "options": [
-        "A. 12 .",
-        "B. 10 .",
-        "C. 18 .",
-        "D. 16 ."
+        "A. 12",
+        "B. 10",
+        "C. 18",
+        "D. 16"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 16 2 16 log 2 b a a b = \\Leftrightarrow = . Như vậy: 16 2 2 2 log log log log 4 16 4 16 b a b b b b b b b = = = \\Leftrightarrow = \\Leftrightarrow = . Mà 16 2 b a = do đó ta được 2 a = .",
@@ -13124,12 +13124,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
-        "A. $\\sqrt{6} - \\sqrt{2}$",
-        "B. $\\sqrt{6} + \\sqrt{2}$",
-        "C. $4\\sqrt{3} - 4$",
-        "D. $2\\sqrt{2}$"
+        "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
+        "B. $7\\text{ cm}$",
+        "C. $\\frac{7\\sqrt{2}}{2}\\text{ cm}$",
+        "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^\\circ Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^\\circ = \\Rightarrow = = = + ^\\circ . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
@@ -13144,14 +13144,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho ; ;c a b là độ dài 3 cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
+      "question": "Cho $a, b, c$ là độ dài ba cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
       "options": [
-        "A. 2 a ab ac < +",
-        "B. 2 2 2 2 a c b ac + < + .",
-        "C. 2 2 2 2 b c a bc + > + .",
-        "D. 2 ab bc b + > ."
+        "A. $a^2 < ab + ac$",
+        "B. $a^2 + c^2 < b^2 + 2ac$",
+        "C. $b^2 + c^2 > a^2 + 2bc$",
+        "D. $ab + bc > b^2$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Do 2 2 2 2 .cos 2 b c a bc A bc + - = \\le \\Rightarrow 2 2 2 2 b c a bc + \\le + nên mệnh đề C sai. Áp dụng bất đẳng thức tam giác ta có 2 a b c a ab ac < + \\Rightarrow < + ; mệnh đề A đúng. Tương tự 2 a c b ab bc b + > \\Rightarrow + > ;mệnh đề D đúng. Ta có: 2 2 2 2 .cos 2 a c b ac B ac + - = < 2 2 2 2 a c b ac \\Rightarrow + < + ;mệnh đề B đúng.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
@@ -13190,10 +13190,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
-        "A. 2 3 1 x x y x - = - .",
-        "B. 2 3 2 3 x y x + = - .",
-        "C. 2 2 3 2 x y x x - = - .",
-        "D. 2 1 3 x y x - = + ."
+        "A. 2 3 1 x x y x - = -",
+        "B. 2 3 2 3 x y x + = -",
+        "C. 2 2 3 2 x y x x - = -",
+        "D. 2 1 3 x y x - = +"
       ],
       "correctAnswer": 0,
       "explanation": "2 3 lim 1 x x x x \\to \\pm \\infty - = \\pm \\infty - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - không có đường tiệm cận ngang. 2 2 3 1 3 1 lim ; lim 2 3 2 2 3 2 x x x x x x \\to +\\infty \\to -\\infty + + = = - - - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - có hai đường tiệm cận ngang. 2 1 3 x y x - = + có tập xác định [ ] 1;1 - \\Rightarrow đồ thị hàm số không có đường tiệm cận ngang. 2 2 3 lim 0 2 x x x x \\to \\pm \\infty - = - \\Rightarrow Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y =",
@@ -13589,7 +13589,7 @@ export const QUESTIONS_DATA = {
         "A. $\\frac{1}{2}$",
         "B. $\\frac{1}{6}$",
         "C. $\\frac{1}{4}$",
-        "D. 1."
+        "D. 1"
       ],
       "correctAnswer": 0,
       "explanation": "( ) 2 2 2 1 1 1 1 x x f x x x x + + = = + + + + Tiệm cận xiên: 1 y x = + Tiệm cận xiên cắt Ox tại ( ) 1;0 A - , cắt Oy tại ( ) 0;1 B Tam giác OAB vuông cân nên có diện tích là 1 1 1 . .1.1 2 2 2 OA OB = =",
@@ -13630,10 +13630,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hàm số $f(x) = \\frac{x^2 + 2x + 2}{x + 1}$ có đồ thị $(C)$.",
       "question": "Trên (C) có 2 điểm sao cho khoảng cách từ điểm đó đến trục hoành bằng hai lần khoảng cách từ điểm đó đến trục tung. Gọi m là tổng hoành độ của hai điểm đó. Giá trị của m là",
       "options": [
-        "A. 3 2 - .",
+        "A. 3 2 -",
         "B. $\\frac{2}{2}$",
-        "C. 2 .",
-        "D. 0 ."
+        "C. 2",
+        "D. 0"
       ],
       "correctAnswer": 0,
       "explanation": "Khoảng cách từ ( ) , M x y đến trục hoành và trục tung lần lượt là | | y và | | x . Khoảng cách từ M đến trục hoành bằng 2 lần khoảng cách từ M đến trục tung | | 2 | | 2 y x y x \\Leftrightarrow = \\Leftrightarrow = \\pm . Bài toán trở thành tìm các giao điểm của đồ thị (C) với 2 đường thẳng 2 y x = và 2 y x = - . Giao của đồ thị (C) với đường thẳng 2 y x = ta có phương trình: 2 2 2 2 2 1 x x x x x + + = \\Leftrightarrow = \\pm + 2 \\Rightarrow giao điểm: ( ) ( ) 1 2 2, 2 2 ; 2, 2 2 M M - - Giao của đồ thị (C) với đường thẳng 2 y x = - ta có phương trình 2 2 2 2 2 3 4 2 0 1 x x x x x x + + - = \\Leftrightarrow + + = + (vô nghiệm) Vậy ( ) 2 2 0 m = + - =",
@@ -13982,10 +13982,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nthực hiện công và truyển nhiệt. Nếu vật đồng thời nhận nhiệt và nhận công từ bên ngoài thì đểu làm tăng nội năng của vật. Theo định luật bảo toàn và chuyển hoá năng lượng thì độ biến thiên nội năng của vật bằng tổng công và nhiệt lượng mà vật nhận được: Δ𝑈 = 𝐴 + 𝑄 Trong đó: Δ𝑈 là độ biến thiên nội năng của vật. 𝐴 và 𝑄 là các giá trị đại số. o 𝑄 > 0: vật nhận nhiệt lượng; 𝑄 < 0: vật truyền nhiệt lượng. o 𝐴 > 0: vật nhận công; 𝐴 < 0: vật thực hiện công.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Nội năng phụ thuộc vào nhiệt độ của vật. (𝐼𝐼) Nội năng phụ thuộc vào thể tích của vật. (𝐼𝐼𝐼) Có hai cách để làm nội năng của vật thay đổi là thực hiện công và truyền nhiệt. (𝐼𝑉) Nội năng của vật là tổng động năng và thế năng của vật. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Phát biểu (𝐼), (𝐼𝐼)và (𝐼𝐼𝐼) là đúng.",
@@ -15720,14 +15720,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong mặt phẳng với hệ tọa độ Oxy , cho hình vuông ABCD có diện tích bằng 36, đường thẳng chứa cạnh AB song song với trục Ox , các đỉnh , A B và C lần lượt nằm trên đồ thị của các hàm số log , log a a y x y x = = và 3 log a y x = với a là số thực lớn hơn 1. Tìm a .",
+      "question": "Trong mặt phẳng với hệ tọa độ $Oxy$, cho hình vuông $ABCD$ có diện tích bằng 36, đường thẳng chứa cạnh $AB$ song song với trục $Ox$, các đỉnh $A, B$ và $C$ lần lượt nằm trên đồ thị của các hàm số $y = \\log_a x$, $y = \\log_{\\sqrt{a}} x$ và $y = \\log_{\\sqrt[3]{a}} x$ với $a > 1$. Tìm $a$:",
       "options": [
-        "A. 3 a =",
-        "B. 3 6 a =",
-        "C. 6 a =",
-        "D. 6 3 a ="
+        "A. $a = \\sqrt{3}$",
+        "B. $a = \\sqrt[3]{6}$",
+        "C. $a = 6$",
+        "D. $a = 3$"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": "AB song song với trục Ox có nghĩa có cùng tung độ do đó: ( ) ( ) , , ,m m A a m B a m . Chú ý rằng nếu AB song song với trục Ox thì BC vuông góc với trục Ox có nghĩa có cùng hoành độ do vậy ta có 3 , 2 m m C a \\left( \\right) \\left( \\right) \\left( \\right) bởi 3 3 log 2 m a m a = . Vì hình vuông ABCD có diện tích bằng 36 nên có 3 6 6 12 2 m m m AB BC a a m m = = \\Leftrightarrow - = - = \\Leftrightarrow = \\pm . Nếu 12 m = - thì 12 6 6 1 1 1 6 1 3 a a a - = \\Leftrightarrow = < vô lý. Chọn D .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -15764,7 +15764,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác ABC có ; ; BC a CA b BA c = = = và diện tích là S . Biết 2 2 ( ) S b a c = - - . Giá trị của tan 2 B là",
+      "question": "Cho tam giác $ABC$ có $BC = a, CA = b, AB = c$ và diện tích là $S$. Biết $S = b^2 - (a - c)^2$. Giá trị của $\\tan \\frac{B}{2}$ là:",
       "options": [
         "A. $\\frac{1}{4}$",
         "B. $\\frac{1}{2}$",
@@ -15832,10 +15832,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có đạo hàm $f'(x) = (x + 1)^2 (x - 2)(x^2 - mx + m + 6)$. Có bao nhiêu số nguyên $m$ để hàm số $y = f(x)$ có đúng hai điểm cực trị?",
       "options": [
-        "A. 4.",
-        "B. 5.",
-        "C. 7.",
-        "D. 6."
+        "A. 4",
+        "B. 5",
+        "C. 7",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có ( ) ( )( )( ) ( ) 2 2 2 2 1 2 6 0 1 2 6 0 1 x f x x x x mx m x x mx m [ = - = + - - + + = \\Leftrightarrow = - + + = ] ' Xét các trường hợp sau: +) Trường hợp 1: Phương trình (1) vô nghiệm 2 Δ 6 0 2 3 m m m \\Leftrightarrow = - - < \\Leftrightarrow - < < . Hàm số ( ) y f x = có đúng hai điểm cực trị là 1; 2 x x = = - . +) Trường hợp 2: Phương trình (1) có nghiệm kép 2 2 Δ 6 0 3 m m m m = - [ \\Leftrightarrow = - - = \\Leftrightarrow = ] . \\bullet Với 2 m = - thì ( ) ( )( )( ) ( )2 3 2 1 4 4 1 ( 2) f x x x x x x x ' = + - + + = - + . Hàm số ( ) y f x = có đúng 2 điểm cực trị là 1; 2 x x = = - . \\bullet Với 3 m = thì ( ) ( )( ) 2 2 1 ( 3) f x x x x = + - - ' . Hàm số ( ) y f x = có đúng 2 điểm cực trị là 1; 2 x x = = - . +) Trường hợp 3: 1 x = là nghiệm của (1) 7 m \\Rightarrow = . Khi đó, ( ) ( )( )( ) ( ) ( )2 2 2 1 14 13 2 ( 1) 13 f x x x x x x x x = + - - + = + - - ' Hàm số ( ) y f x = có đúng 2 điểm cực trị là 2; 13 x x = - = . +) Trường hợp 4: 2 x = - là một nghiệm của (1) 2 m \\Rightarrow = - . Khi đó, ( ) ( )( )( ) ( )2 3 2 1 4 4 1 ( 2) f x x x x x x x ' = + - + + = - + +) Trường hợp 5: Phương trình (1) có hai nghiệm phân biệt khác 1 và -2 Δ 0 3; 2 2; 7 7 m m m m m > > < - \\Leftrightarrow \\Leftrightarrow \\ne - \\ne \\ne . Khi đó, PT: ( ) 0 f x ' = sẽ có 4 nghiệm phân biệt. ⇒ Hàm số ( ) y f x = có 4 điểm cực trị (loại) Vậy, tập hợp các giá trị nguyên của tham số m là \\{ \\} 2; 1;0;1; 2;3; 7 - - .",
@@ -15852,14 +15852,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Có bao nhiêu giá trị nguyên của tham số m để đồ thị của hàm số 2 1 8 2 x y mx x - = - + có đúng bốn đường tiệm cận?",
+      "question": "Có bao nhiêu giá trị nguyên của tham số $m$ để đồ thị hàm số $y = \\frac{x - 1}{\\sqrt{mx^2 - 8x + 2}}$ có đúng bốn đường tiệm cận?",
       "options": [
-        "A. 8.",
-        "B. 6.",
-        "C. 7.",
-        "D. Vô số."
+        "A. 8",
+        "B. 6",
+        "C. 7",
+        "D. Vô số"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Nhận thấy để đồ thị có đúng bốn đường tiệm cận thì phải có 2 TCN và 2 TCN Dùng quy tắc tương đương để tìm điêu kiện của m Khi x \\infty \\to thì 2 1 8 2 x y mx x - = - + es 2 x x x m mx = Vậy 0 m \\ge Nếu 0 m = thì 1 8 2 x y x - = - + TXĐ: 1 ; 4 D \\infty \\left( \\right) = - \\left( \\right) \\left( \\right) , khi đó chỉ có 1 TCN. Vậy 0 m = không thỏa. Nếu: 0 m > thì 1 1 lim , lim x x y y m m \\infty \\infty \\to - \\to + = - = \\Rightarrow có 2 TCN. Đồ thị có đúng 4 đường tiệm cận ⇔ đồ thị có đúng 2 đường tiệm cận đứng 2 8 2 0 mx x \\Leftrightarrow - + = có hai nghiệm phân biệt khác 16 2 0 8 1 8 2 0 6 m m m m - > < \\Leftrightarrow \\Leftrightarrow - + \\ne \\ne Kết hợp với 0, m m > \\in ta được \\{ \\} 1; 2;3; 4;5;7 m \\in",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
@@ -15876,10 +15876,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Biết rằng $\\lim_{x \\to 3} \\frac{\\sqrt{2x + 3} - 3}{x - 3} = \\frac{a}{b}$ với $a, b$ là các số nguyên dương, phân số $\\frac{a}{b}$ tối giản. Giá trị của $a + b$ bằng:",
       "options": [
-        "A. 5.",
-        "B. 6.",
-        "C. 7.",
-        "D. 8."
+        "A. 5",
+        "B. 6",
+        "C. 7",
+        "D. 8"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: ( ) ( )( ) ( )3 2 3 2 3 3 3 2 3 3 2 3 3 2 6 3 lim lim lim 3 3 3 3 3 3 x x x x x x x x x x x \\to - \\to - \\to - + - + + = = = - - - + . Suy ra 3 6 a b a b = = \\Rightarrow + = .",
@@ -15895,7 +15895,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\n, : 1 2 3 2 1 2 x y z x y z d d - + - + + = = = = - và 2 2 3 : 1 3 2 x y z d + - = = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai đường thẳng $d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$ và $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$, cùng đường thẳng $d: \\frac{x-5}{1} = \\frac{y+7}{-2} = \\frac{z-3}{3}$.",
       "question": "Viết phương trình mặt phẳng $(P)$ chứa đường thẳng $d$ và song song với đường thẳng $d_1$:",
       "options": [
         "A. 7x - 8y - 3z + 100 = 0",
@@ -15917,7 +15917,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\n, : 1 2 3 2 1 2 x y z x y z d d - + - + + = = = = - và 2 2 3 : 1 3 2 x y z d + - = = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai đường thẳng $d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$ và $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$, cùng đường thẳng $d: \\frac{x-5}{1} = \\frac{y+7}{-2} = \\frac{z-3}{3}$.",
       "question": "Gọi $\\Delta$ là đường thẳng song song với $d$ đồng thời cắt cả hai đường thẳng $d_1$ và $d_2$. Đường thẳng $\\Delta$ đi qua điểm nào sau đây:",
       "options": [
         "A. (-3; -12; 10)",
@@ -15939,15 +15939,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
-      "question": "Biết 4095 2048 n S = , tìm n .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số nhân $(u_n)$ có $u_1 = 1$ và công bội $q = \\frac{1}{2}$.",
+      "question": "Biết $S_n = \\frac{4095}{2048}$, tìm $n$.",
       "options": [
         "A. $n = 10$",
         "B. $n = 13$",
         "C. $n = 12$",
         "D. $n = 11$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Ta có 1 1 1 2 4095 1 4095 1 1 1 12 1 2048 2 4096 2 40961 2 n n n n S n \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right)= = \\Rightarrow - = \\Rightarrow = \\Rightarrow = \\left( \\right) \\left( \\right) -",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
@@ -15961,7 +15961,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số nhân $(u_n)$ có $u_1 = 1$ và công bội $q = \\frac{1}{2}$.",
       "question": "Tính $S = u_1 + 2u_2 + 3u_3 + \\dots + 2025u_{2025}$:",
       "options": [
         "A. $S = 2025 \\cdot 4^{2027} - 2$",
@@ -16027,13 +16027,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
-      "question": "Phương trình đường thẳng đi qua M và song song với BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
+      "question": "Phương trình đường thẳng đi qua $M$ và song song với $BC$ là:",
       "options": [
-        "A. 5 11 0 x y - - = .",
-        "B. 5 11 0 x y - + = .",
-        "C. 5 11 0 x y + - = .",
-        "D. 5 11 0 x y + + = ."
+        "A. $x - 5y + 1 = 0$",
+        "B. $x - 5y - 1 = 0$",
+        "C. $5x - y + 29 = 0$",
+        "D. $x + 5y + 11 = 0$"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi d là đường thẳng đi qua M và song song với BC , khi đó d có vectơ pháp tuyến ( ) 1; 5 n = - Suy ra phương trình đường thẳng của ( ) ( )( ) : 6 5 1 0 : 5 11 0 d x y d x y - + - + = \\Rightarrow - - =",
@@ -16049,13 +16049,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
-      "question": "Phương trình đường trung trực của BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
+      "question": "Phương trình đường trung trực của đoạn thẳng $BC$ là:",
       "options": [
-        "A. 5 3 0 x y + - = .",
-        "B. 5 3 0 x y + + = .",
-        "C. 5 3 0 x y - - = .",
-        "D. 5 3 0 x y - + = ."
+        "A. $5x + y - 3 = 0$",
+        "B. $5x - y + 13 = 0$",
+        "C. $x + 5y - 7 = 0$",
+        "D. $5x + y + 3 = 0$"
       ],
       "correctAnswer": 0,
       "explanation": "Tọa độ giao điểm N của d và AB là nghiệm của hệ: ( ) 5 11 0 4 4; 3 3 2 6 0 3 x y x N x y y - - = = - \\Leftrightarrow \\Rightarrow - - - + = = - Đường trung trực của BC cũng chính là đường trung trực của MN Tam giác ABC cân tại A nên A nằm trên đường trung trực của MN . Đường trung trực của MN đi qua trung điểm ( ) 1; 2 I - và nhận ( ) 10; 2 MN = - - làm vectơ pháp tuyến nên có phương trình: ( )( ) ( )( ) 10 1 2 2 0 5 3 0 x y x y - - + - + = \\Leftrightarrow + - =",
@@ -16071,7 +16071,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
       "question": "Gọi tọa độ điểm $C(x_C; y_C)$. Tổng $x_C + y_C$ bằng:",
       "options": [
         "A. 4",
@@ -16079,7 +16079,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. -3"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Tọa độ điểm A là nghiệm của hệ ( ) 3 2 6 0 0 0;3 5 3 0 3 x y x A x y y - + = = \\Leftrightarrow \\Rightarrow + - = = Đường thẳng chứa cạnh AC đi qua điểm ( ) 0;3 A và nhận ( ) 6; 4 AM = - làm vectơ chỉ phương nên có phương trình là: 6 3 4 x t AC y t = \\Rightarrow = - có phương trình tổng quát là 2 3 9 0 x y + - = . Khi đó tọa độ điểm C là nghiệm của hệ ( ) 5 2 0 3 3;1 4 2 3 9 0 1 C C x y x C x y x y y - + = = \\Leftrightarrow \\Rightarrow \\Rightarrow + = + - = = .",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
@@ -16272,10 +16272,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 93:\nCho hàm số $y = x^3 + \\frac{3}{2}mx^2$ có đồ thị $(C)$, với $m$ là tham số thực.",
       "question": "Tổng các giá trị của m để đồ thị hàm số ( C ) có hai điểm cực trị , A B sao cho diện tích tam giác OAB bằng 2 ( O là gốc tọa độ) là",
       "options": [
-        "A. 1.",
-        "B. 0.",
+        "A. 1",
+        "B. 0",
         "C. 2",
-        "D. -1."
+        "D. -1"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 2 0 3 6 0 2 x y x mx y x m = [ = + \\Rightarrow = \\Leftrightarrow = - ' ] ' Để hàm số có cực đại, cực tiểu thì phương trình 0 y' = có hai nghiệm phân biệt 0 m \\Leftrightarrow \\ne Khi đó, tọa độ các điểm cực trị là: ( ) ( )3 0; 2 ; 2 ; 4 2 A B m m - + ( ) ( ) 1 1 1 ; 2 ; 2 2 2 1 2 OAB m S OA d B OA d B OA m m = [ = \\Leftrightarrow \\cdot = \\Leftrightarrow = \\Leftrightarrow - = \\Leftrightarrow = - ] (thỏa mãn) Vậy với 1 m = \\pm thì hàm số có 2 cực trị thỏa mãn đề bài.",
@@ -18384,12 +18384,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho ba số thực dương a , b , c đều khác 1 thỏa mãn log 2log 4log a b c b c a = = và 2 3 48 a b c + + = . Khi đó P abc = bằng bao nhiêu?",
+      "question": "Cho ba số thực dương $a, b, c$ đều khác 1 thỏa mãn $\\log_a b = 2\\log_b c = 4\\log_c a$ và $a + 2b + 3c = 48$. Khi đó $P = abc$ bằng bao nhiêu?",
       "options": [
-        "A. 324 .",
-        "B. 243.",
-        "C. 521.",
-        "D. 512 ."
+        "A. 324",
+        "B. 243",
+        "C. 521",
+        "D. 512"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B Do a , b , c đều khác 1 nên loga b , logb c và logc a đều khác 0 . Ta có 2 log 2 log log .log 2 log log 2 log a b a c b a b b c c b c c c = \\Leftrightarrow = \\Leftrightarrow = và 2 log 4 log log .log 4 log log 4 log a c a c c c c b a c b a b a = \\Leftrightarrow = \\Leftrightarrow = . Suy ra 2 2 log .log 8log .log log 2 a c b c a c b c a b = \\Leftrightarrow = . Do đó 2 b a = và log 2log 2 a b b c b c = = \\Rightarrow = . Theo giả thiết 2 16 2 3 48 5 48 0 5 3 a a b c a a a [ = - + + = \\Leftrightarrow + - = \\Leftrightarrow = ] . Do các số a , b , c dương nên 3 9 a b c = \\Rightarrow = = , vậy 243 P abc = = .",
@@ -18452,10 +18452,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
-        "A. 7 3 cm 3 .",
-        "B. 7 cm .",
-        "C. 7 2 cm 2 .",
-        "D. 7 5 cm 5 ."
+        "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
+        "B. $7\\text{ cm}$",
+        "C. $\\frac{7\\sqrt{2}}{2}\\text{ cm}$",
+        "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 2 1 2 cos 8 5 2 8 5 64 25 40 49 7 2 a b c bc A a cm = + - = + - \\cdot \\cdot \\cdot = + - = \\Rightarrow = Bán kính đường tròn ngoại tiếp R : 7 7 7 3 2 cm. sin 2sin 3 3 3 2 2 a a R R A A = \\Rightarrow = = = = \\cdot",
@@ -18475,7 +18475,7 @@ export const QUESTIONS_DATA = {
       "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^\\circ$. Tính $BC$:",
       "options": [
         "A. $\\frac{3}{3}$",
-        "B. 3 .",
+        "B. 3",
         "C. $\\frac{6}{3}$",
         "D. $\\frac{6}{2}$"
       ],
@@ -18516,12 +18516,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tiếp tuyến của đồ thị hàm số 4 3 2 1 x y x - = + cùng với 2 tiệm cận tạo thành một tam giác có diện tích bằng:",
+      "question": "Tiếp tuyến của đồ thị hàm số $y = \\frac{4x - 3}{2x + 1}$ cùng với hai đường tiệm cận tạo thành một tam giác có diện tích bằng:",
       "options": [
-        "A. 6 .",
-        "B. 7 .",
-        "C. 5 .",
-        "D. 4 ."
+        "A. 6",
+        "B. 7",
+        "C. 5",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C Gọi ( ) 0 0 ; M x y là điểm nằm trên đồ thị hàm số, 0 1 2 x \\ne - . ( )2 10 2 1 y x ' = + Phương trình tiếp tuyến tại M : ( ) 0 0 0 ( ) y f x x x y ' = - + ( ) ( ) 0 0 2 0 0 4 3 10 2 1 2 1 x y x x x x - \\Rightarrow = - + + + Tiệm cận đứng: 1 2 x = - , tiệm cận ngang: 2 y = Gọi A là giao điểm của tiếp tuyến với tiệm cận đứng 1 2 A x \\Rightarrow = - ( ) 0 0 0 2 0 0 0 4 3 4 8 10 1 2 2 1 2 1 2 1 A x x y x x x x - - \\left( \\right) \\Rightarrow = - - + = \\left( \\right) + + \\left( \\right) + . Vậy 0 0 4 8 1 ; 2 2 1 x A x \\left( \\right) - - \\left( \\right) + \\left( \\right) Gọi B là giao điểm của tiếp tuyến với tiệm cận ngang 2 B y \\Rightarrow = ( ) ( ) 0 0 2 0 0 4 3 10 2 2 1 2 1 B x x x x x - \\Rightarrow = - + + + 0 1 2 2 B x x \\Rightarrow = + . Vậy 0 4 1; 2 2 x B + \\left( \\right) \\left( \\right) \\left( \\right) Giao điểm 2 tiệm cận là 1 ; 2 2 I \\left( \\right) - \\left( \\right) \\left( \\right) Ta có: 0 0 10 10 0; 2 1 2 1 IA IA x x \\left( \\right) = - \\Rightarrow = \\left( \\right) + + \\left( \\right) ( ) 0 0 2 1; 0 2 1 IB x IB x = + \\Rightarrow = + Tam giác IAB vuông tại I nên 0 0 1 1 10 . . 2 1 5 2 2 2 1 IAB S IA IB x x = = + = + .",
@@ -18537,15 +18537,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai điểm $A(1; 2; 3)$ và $B(5; 2; 1)$. Mặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi $(Q)$ là mặt phẳng trung trực của đoạn thẳng $AB$ (mặt phẳng chứa mọi điểm $C$ sao cho tam giác $ABC$ cân tại $C$).",
       "question": "Giao điểm của mặt phẳng $(Q)$ với trục $Oz$ là điểm:",
       "options": [
-        "A. K(0; 0; 2)",
-        "B. K(0; 0; 4)",
-        "C. K(0; 0; -4)",
-        "D. K(0; 0; -2)"
+        "A. $K(0; 0; 2)$",
+        "B. $K(0; 0; 4)$",
+        "C. $K(0; 0; -4)$",
+        "D. $K(0; 0; -2)$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "( ) ( ) ( ) 4,0, 2 2,0, 1 2,0, 1 . Q AB n = - - \\Rightarrow = - Trung điểm ( ) 3, 2, 2 I . Phương trình ( ) Q : ( ) ( ) 2 3 1 2 0 2 4 0. x z x z - - - = \\Rightarrow - - = Trục : 0, 0 Oz x y = = . Thé vào ( ) : 2 0 4 0 4 Q z z \\cdot - - = \\Rightarrow = - . ( ) ( ) 0, 0, 4 . Q Oz K \\Rightarrow \\cap = -",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
@@ -18559,7 +18559,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai điểm $A(1; 2; 3)$ và $B(5; 2; 1)$. Mặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi $(Q)$ là mặt phẳng trung trực của đoạn thẳng $AB$ (mặt phẳng chứa mọi điểm $C$ sao cho tam giác $ABC$ cân tại $C$).",
       "question": "Vectơ chỉ phương của đường thẳng $d = (P) \\cap (Q)$ có dạng $\\vec{u} = (2; a; b)$. Tính $b - a$:",
       "options": [
         "A. 2",
@@ -18581,13 +18581,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có đỉnh $C(0; 2)$, đường phân giác trong kẻ từ $B$ là $BD: x + 6y - 6 = 0$, đường trung tuyến kẻ từ $A$ là $AK: x - y - 2 = 0$. Gọi $C'$ là điểm đối xứng của $C$ qua đường thẳng $BD$.",
       "question": "Hoành độ điểm B là:",
       "options": [
         "A. 6",
-        "B. 6 - .",
-        "C. 4 .",
-        "D. 4 - ."
+        "B. -6",
+        "C. 4",
+        "D. -4"
       ],
       "correctAnswer": 0,
       "explanation": "Đặt ( ) , 6 B B B B B x y BD x y \\in \\Rightarrow + = . Trung điểm K của 0 2 : , 2 2 B B x y BC K + + \\left( \\right) \\left( \\right) \\left( \\right) . vì 2 : 2 0 2 0 6 0 2 2 B B B B x y K AK x y x y + \\in - - = \\Rightarrow - - = \\Rightarrow - - = Giải hệ ( ) 6, 6,0 . 6 B B B B x y B x y + = \\Rightarrow - =",
@@ -18603,13 +18603,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
-      "question": "Tổng hoành độ và tung độ của ' C là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có đỉnh $C(0; 2)$, đường phân giác trong kẻ từ $B$ là $BD: x + 6y - 6 = 0$, đường trung tuyến kẻ từ $A$ là $AK: x - y - 2 = 0$. Gọi $C'$ là điểm đối xứng của $C$ qua đường thẳng $BD$.",
+      "question": "Tổng hoành độ và tung độ của điểm $C'$ là:",
       "options": [
-        "A. 3 4 0 x y - + = .",
-        "B. 3 4 0 x y + - = .",
-        "C. 3 2 0 x y + + = .",
-        "D. 3 2 0 x y - + = ."
+        "A. 10",
+        "B. 8",
+        "C. 6",
+        "D. 12"
       ],
       "correctAnswer": 0,
       "explanation": "( )( ) ( )( ) 2 2 1 0 1 2 6 4 2. 2 2 C C ax by c t a b + - + + = - = - = = + ( )' ' 2 0 2.1.2 4 4;6 2 2 2.1.2 6 C C C C x x at C y y bt = = + = \\Rightarrow = + ' \\Rightarrow + = + =",
@@ -18647,15 +18647,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
       "question": "Tính thể tích hình chóp S.ABCD:",
       "options": [
-        "A. 3 2 6 a .",
-        "B. 3 2 3 a .",
-        "C. 3 3 3 a .",
-        "D. 3 3 6 a ."
+        "A. $\\frac{a^3 \\sqrt{2}}{6}$",
+        "B. $\\frac{a^3 \\sqrt{2}}{3}$",
+        "C. $\\frac{a^3 \\sqrt{3}}{3}$",
+        "D. $\\frac{a^3 \\sqrt{6}}{6}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "3 2 . 1 1 2 2 3 3 3 S ABCD ABCD a V S SA a a = \\cdot \\cdot = \\cdot \\cdot =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
@@ -18669,15 +18669,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
-      "question": "Tính khoảng cách từ A đến mặt phẳng:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
+      "question": "Tính khoảng cách từ điểm $A$ đến mặt phẳng $(SBD)$:",
       "options": [
-        "A. 5 5 a .",
-        "B. 10 5 a .",
-        "C. 5 10 a .",
-        "D. 10 10 a"
+        "A. $\\frac{a\\sqrt{5}}{5}$",
+        "B. $\\frac{a\\sqrt{10}}{5}$",
+        "C. $\\frac{a\\sqrt{5}}{10}$",
+        "D. $\\frac{a\\sqrt{10}}{10}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "2 2 2 2 ( 2) ( 2) 2 SC SA AC a a a = + = + = . 2 2 2 2 2 10 2 2 2 a a SO SA AO a \\left( \\right) \\Rightarrow = + = + = \\left( \\right) \\left( \\right) \\left( \\right) ( ) ( ) SBD SAO và giao tuyến là ( ) ( ) ( ) , , AH SO d A SBD d A SO \\Rightarrow = = . Với 2 2 2 10 2, , 2 2 a a SA a AO SO SA AO = = = + = . Suy ra: ( ) ( ) ( ) ( ) 2 2 2 2 , , 10 5 5 2 10 a a a a d A SBD AH d A SBD a \\cdot = = = \\Rightarrow =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
@@ -18691,15 +18691,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
-      "question": "Tính góc giữa đường thẳng SC và mặt phẳng:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
+      "question": "Tính góc giữa đường thẳng $SC$ và mặt phẳng $(SBD)$ (làm tròn đến hàng phần trăm độ):",
       "options": [
-        "A. 0 28,34 .",
-        "B. 0 18, 43 .",
-        "C. 0 15,88 .",
-        "D. 0 22,58 ."
+        "A. $28{,}34^\\circ$",
+        "B. $18{,}43^\\circ$",
+        "C. $15{,}88^\\circ$",
+        "D. $22{,}58^\\circ$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) , 1 ; ; , 10 5 d A SBD OA a d C SBD d A SBD OC d C SBD = = \\Rightarrow = = Ta tính: ( ) ( )\\bullet , SC SBD \\alpha = qua công thức ( ) ( ) , 10 10 sin : 2 5 10 d C SBD a a SC \\alpha = = =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -18716,10 +18716,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Trong một buổi tập đồng diễn sinh hoạt hè 2025 của xóm 𝑋, có 6 học sinh gồm 2 học sinh lớp 𝐴, 2 học sinh lớp 𝐵 và 2 học sinh lớp 𝐶 của trường 𝑌 tham gia. Các học sinh này được xếp ngẫu nhiên vào 3 hàng, mỗi hàng có 2 học sinh (không tính thứ tự 2 học sinh trong cùng một hàng).",
       "question": "Gọi Ω là không gian mẫu gồm tất cả các cách xếp 6 học sinh vào 3 hàng như trên. Số phần tử của Ω bằng",
       "options": [
-        "A. 60.",
-        "B. 90.",
-        "C. 720.",
-        "D. 15."
+        "A. 60",
+        "B. 90",
+        "C. 720",
+        "D. 15"
       ],
       "correctAnswer": 1,
       "explanation": "Ta cần đếm số cách xếp 6 học sinh phân biệt vào 3 hàng, mỗi hàng 2 học sinh, không xét thứ tự trong cùng một hàng, nhưng 3 hàng là khác nhau. \\bullet Chọn 2 bạn vào Hàng 1: C଺ ଶcách. \\bullet Còn 4 bạn, chọn 2 bạn vào Hàng 2: Cସ ଶcách. \\bullet Còn 2 bạn, tất nhiên vào Hàng 3: Cଶ ଶ = 1cách. Vậy ∣ Ω ∣= C଺ ଶ ⋅ Cସ ଶ ⋅ Cଶ ଶ = 15 ⋅ 6 ⋅ 1 = 90. Chọn đáp án: B. (90).",
@@ -18738,10 +18738,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Trong một buổi tập đồng diễn sinh hoạt hè 2025 của xóm 𝑋, có 6 học sinh gồm 2 học sinh lớp 𝐴, 2 học sinh lớp 𝐵 và 2 học sinh lớp 𝐶 của trường 𝑌 tham gia. Các học sinh này được xếp ngẫu nhiên vào 3 hàng, mỗi hàng có 2 học sinh (không tính thứ tự 2 học sinh trong cùng một hàng).",
       "question": "Gọi 𝐴 là biến cố “không có hai học sinh cùng lớp nào được xếp vào cùng một hàng”. Số phần tử của 𝐴là",
       "options": [
-        "A. 48.",
-        "B. 46.",
-        "C. 42.",
-        "D. 44."
+        "A. 48",
+        "B. 46",
+        "C. 42",
+        "D. 44"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi 3 hàng là H1, H2, H3. Mỗi hàng có 2 bạn khác lớp. Vì có 2 bạn A, 2 bạn B, 2 bạn C, nên: \\bullet Mỗi lớp xuất hiện đúng 2 lần. \\bullet Mỗi hàng là 1 trong 3 kiểu: AB, AC, BC. Nếu một kiểu nào đó (ví dụ 𝐴𝐵 ) xuất hiện 2 lần, thì lớp 𝐴 và 𝐵 đã dùng hết 2 bạn → không còn 𝐴, 𝐵 để ghép với C → vô lý. Do đó, mỗi kiểu AB, AC, BC xuất hiện đứng 1 lần. 1. Bưởc 1: Xếp kiểu lớp cho 3 hàng Sắp xếp 3 kiểu: AB, AC, BC vào 3 hàng phân biệt: 3! = 6 cách. 2. Bước 2: Gán học sinh cụ thể (xét một cách sấp kiểu bất kỳ, chẳng hạn H1: AB, H2: AC, H3: BC ) \\bullet Hai bạn A vào 2 hàng có A(H1, H2): 2 ! cách \\bullet Hai bạn B vào H1, H3: 2 ! cách \\bullet Hai bạn C vào H2, H3: 2! cách Tổng số cách cho một cấu hình kiểu lớp: 2! ⋅ 2! ⋅ 2! = 8 cách. 3. Kết hợp lại: |𝐴| = 3! ⋅ 2! ⋅ 2! ⋅ 2! = 6 ⋅ 8 = 48. Két luận: |𝐴| = 48",
@@ -18801,7 +18801,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\n3 2 3 4 y x x mx m = - + + - và đường thẳng : 3 d y x = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\nCho đồ thị $(C_m): y = x^3 - 3x^2 + mx + 4 - m$ và đường thẳng $d: y = x - 3$.",
       "question": "Tổng các giá trị nguyên dương của tham số $m$ để đồ thị $(C_m)$ đồng biến trên $\\mathbb{R}$ là:",
       "options": [
         "A. 2",
@@ -18823,7 +18823,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\n3 2 3 4 y x x mx m = - + + - và đường thẳng : 3 d y x = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\nCho đồ thị $(C_m): y = x^3 - 3x^2 + mx + 4 - m$ và đường thẳng $d: y = x - 3$.",
       "question": "Tìm điều kiện của tham số $m$ để đồ thị $(C_m)$ cắt đường thẳng $d$ tại ba điểm phân biệt:",
       "options": [
         "A. m < 0",
@@ -18845,13 +18845,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho phương trình tham số m ( ) ( )2 2 2 2 log log 3 0 x x m - + - = có nghiệm [ ] 1;8 x \\in .",
-      "question": "Tại 3 m = , tổng hai nghiệm của phương trình là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nCho phương trình tham số $m$: $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$.",
+      "question": "Tại $m = 3$, tổng các nghiệm của phương trình là:",
       "options": [
-        "A. 5 .",
+        "A. 5",
         "B. $\\frac{5}{2}$",
         "C. $\\frac{7}{2}$",
-        "D. 7 ."
+        "D. 7"
       ],
       "correctAnswer": 0,
       "explanation": "Đặt 2 t log x = . ( ) ( )2 2 2 2 log log 0 x x - = trở thành 2 2 0 0 2 t t t hayt - = \\Leftrightarrow = = suy ra 1 4 x hayx = =",
@@ -18867,15 +18867,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho phương trình tham số m ( ) ( )2 2 2 2 log log 3 0 x x m - + - = có nghiệm [ ] 1;8 x \\in .",
-      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$ có hai nghiệm phân biệt $x_1, x_2 \\in [1; 4]$:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nCho phương trình tham số $m$: $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$.",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình có hai nghiệm phân biệt $x_1, x_2 \\in [1; 8]$:",
       "options": [
         "A. $6 \\le m \\le 9$",
         "B. $3 \\le m \\le 6$",
         "C. $2 \\le m \\le 3$",
         "D. $2 \\le m \\le 6$"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "Chọn D Đặt 2 t log x = . Vì [ ] 1;8 x \\in nên [ ] 0;3 t \\in . Phương trình ( ) ( )2 2 2 2 log log 3 0 x x m - + - = trở thành 2 2 2 3 0 2 3 t t m m t t - + - = \\Leftrightarrow = - + , [ ] 0;3 t \\in . Ta có bảng biến thiên của hàm số 2 2 3 m t t = - + : t m' m 0 3 1 0 - + 3 6 2 nên [ ] 2; 6 m \\in .",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
@@ -18915,7 +18915,7 @@ export const QUESTIONS_DATA = {
       "question": "Chi phí thấp nhất để trộn hai loại thức ăn trên đồng thời đảm bảo đủ dinh dưỡng bằng bao nhiêu?",
       "options": [
         "A. $\\frac{4640}{11}$",
-        "B. 480.",
+        "B. 480",
         "C. $\\frac{1750}{3}$",
         "D. $\\frac{5440}{11}$"
       ],
@@ -19197,13 +19197,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nđồng/kWh), chưa tính thuế giá trị gia tăng VAT (10% so với giá trị hóa đơn gốc) Mức tính Giá cũ: áp dụng từ ngày 1/1/2023 Giá mới: áp dụng từ ngày 8/9/2024 kWh từ 0 đến 50 1450 1780 kWh từ 51 đến 100 1556 2000 kWh từ 101 đến 200 1985 2150 kWh từ 201 đến 300 2200 2550 kWh từ 301 đến 400 2570 2990 kWh từ 401 trở lên 2800 3460",
-      "question": "Trong giai đoạn khắc mạch bằng 2 2 H O và HCl, người ta quan sát thấy tốc độ thoát khí tăng lên đột ngột khi dung dịch bắt đầu chuyển sang màu xanh đặc trưng. Nguyên nhân chính của hiện tượng này là gì?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong công nghệ sản xuất mạch in (PCB), dung dịch ăn mòn đồng thường sử dụng hỗn hợp $\\text{H}_2\\text{O}_2$ và $\\text{HCl}$. Phản ứng ăn mòn xảy ra theo phương trình: $\\text{Cu} + \\text{H}_2\\text{O}_2 + 2\\text{HCl} \\rightarrow \\text{CuCl}_2 + 2\\text{H}_2\\text{O}$.",
+      "question": "Trong giai đoạn khắc mạch bằng $\\text{H}_2\\text{O}_2$ và $\\text{HCl}$, người ta quan sát thấy tốc độ thoát khí tăng lên đột ngột khi dung dịch bắt đầu chuyển sang màu xanh đặc trưng. Nguyên nhân chính của hiện tượng này là gì?",
       "options": [
-        "A. Do phản ứng sinh ra khí 2 H mạnh khi acid tiếp xúc kim loại.",
-        "B. Do ion 2+ Cu sinh ra đóng vai trò chất xúc tác làm 2 2 H O phân hủy nhanh tạo ra khí 2 O .",
+        "A. Do nồng độ $\\text{H}_2\\text{O}_2$ tăng cao dần về cuối phản ứng.",
+        "B. Do ion $\\text{Cu}^{2+}$ sinh ra đóng vai trò chất xúc tác làm $\\text{H}_2\\text{O}_2$ phân hủy nhanh tạo ra khí $\\text{O}_2$.",
         "C. Do nhiệt độ dung dịch giảm xuống làm khí ít tan và thoát ra ngoài.",
-        "D. Do nồng độ HCl tăng cao về cuối phản ứng."
+        "D. Do nồng độ $\\text{HCl}$ tăng cao về cuối phản ứng."
       ],
       "correctAnswer": 1,
       "explanation": "Đáp án B Phản ứng ăn mòn kim loại và phản ứng phân hủy H2O2 đều là các phản ứng tỏa nhiệt (Exothermic). Do đó, nhiệt độ dung dịch sẽ tăng lên (nóng lên) chứ không phải giảm xuống. Mặc dù nhiệt độ tăng làm độ tan của khí giảm, nhưng nguyên nhân chính của việc \"sủi bọt mạnh đột ngột\" là do lượng khí O2 được sinh ra ồ ạt từ phản ứng phân hủy, chứ không chỉ đơn thuần là khí cũ thoát ra do nóng.",
@@ -19266,10 +19266,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^\\circ\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Phát biểu (𝐼), (𝐼𝐼) và (𝐼𝐼𝐼) là phát biểu đúng.",
@@ -19376,10 +19376,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nO2 cao, RuBisCo thể hiện hoạt tính carboxylase gắn RuBP (Ribulose-1,5-bisphosphate) với CO2 để tạo ra 2 phân tử 3- phosphoglycerate (PGA), PGA được chuyển hóa tiếp trong chu trình Calvin để tạo ra glucose. Nếu tỉ lệ giữa nồng độ CO2: O2 thấp và nhiệt độ môi trường cao, RuBisCo thể hiện hoạt tính oxygenase gắn RuBP với O2 và phân giải RuBP thành PGA và phosphoglycolate (2PG). 2PG tiếp tục được chuyển hóa trong lục lạp, peroxisome và ti thể (Hình bên dưới). Quá trình phân giải RuBP trong điều kiện có ánh sáng và oxygene được gọi là hô hấp sáng. Hô hấp sáng phân giải sản phẩm quang hợp tạo ra CO2 và một số bước chuyển hóa cần cung cấp ATP và NADPH, dẫn đến làm hao tổn sản phẩm quang hợp. Thực vật C3 có pha sáng và pha tối (chu trình Calvin) diễn ra trong cùng một lục lạp. Trong điều kiện khí hậu ôn đới, nhiệt độ thấp và cường độ ánh sáng trung bình nên lượng oxygene tạo ra từ pha sáng của thực vật C3 không quá lớn, vì vậy tỉ lệ nồng độ CO2: O2 vẫn duy trì mức cao, RuBisCo duy trì hoạt tính carboxylase. Nếu thực vật C3 quang hợp trong điều kiện nhiệt độ cao, cường độ ánh sáng mạnh sẽ dẫn đến tăng mức quang phân li nước, kết quả tạo ra quá nhiều oxygene làm tỉ lệ nồng độ CO2: O2 giảm xuống mức thấp, tạo điều kiện cho hô hấp sáng xảy ra. Trong quá trình tiến hóa, từ một nhánh thực vật C3 được chọn lọc tự nhiên chọn lọc thành thực vật C4 không có hô hấp sáng. Thực vật C4 có 2 loại lục lạp với 2 nhóm chức năng khác nhau gồm: Lục lạp của tế bào mô giậu thực hiện pha sáng có nồng độ O2 cao và enzyme xúc tác một chất C3 với CO2 hình thành nên chất C4, C4 được chuyển vào tế bào bao bó mạch. Tế bào bao bó mạch có nồng độ O2 thấp, C4 phân giải thành C3 và CO2 duy trì nồng độ CO2 cao cung cấp cho chu trình Calvin.",
       "question": "Có bao nhiêu phát biểu sau đây là đúng khi nói về quá trình hô hấp sáng ở thực vật C3? I. Có cơ chất đầu tiên của chuỗi phản ứng là O2 và RuBP. II. Diễn ra qua 3 bào quan lục lạp, peroxysome và ti thể. II. Tạo ra ATP và giải phóng CO2 IV. Làm tiêu hao sản phẩm quang hợp.",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 4.",
-        "D. 3."
+        "A. 1",
+        "B. 2",
+        "C. 4",
+        "D. 3"
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án: D Giải thích chi tiết: I đúng. Giải thích: Hô hấp sáng bắt đầu khi RuBisCo gắn RuBP với O₂, tạo thành PGA và phosphoglycolate → cơ chất là O₂ và RuBP. II đúng. Giải thích: Quá trình hô hấp sáng liên quan đến 3 bào quan: lục lạp (chuyển hóa 2PG), peroxisome (oxy hóa glycolate), và ti thể (chuyển hóa glycine → serine, giải phóng CO₂ và NH₃). III sai. Giải thích: Hô hấp sáng không tạo ra ATP, mà tiêu hao ATP và NADPH → chỉ giải phóng CO₂, không sinh năng lượng. IV đúng. Giải thích: Quá trình này tiêu hao sản phẩm quang hợp (ATP, NADPH) và giải phóng CO₂ → hao tổn kết quả quang hợp.",
@@ -20916,12 +20916,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số nghiệm của phương trình 2 2 3 86 19 3 16 0 x x x x - + - - + = là.",
+      "question": "Số nghiệm của phương trình $x^2 - 3x + 86 - 19\\sqrt{x^2 - 3x + 16} = 0$ là:",
       "options": [
-        "A. 4.",
-        "B. 1.",
-        "C. 3.",
-        "D. 2."
+        "A. 4",
+        "B. 1",
+        "C. 3",
+        "D. 2"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 3 86 19 3 16 0 3 16 19 3 16 70 0* x x x x x x x x - + - - + = \\Leftrightarrow - + - - + + = Đặt 2 3 16, 0 t x x t = - + \\ge . Khi đó 2 14 * 19 70 0 5 t n t t t n = [ \\Rightarrow - + = \\Leftrightarrow = ] Với 2 2 15 14 3 16 14 3 180 0 12 x t x x x x x = [ = \\Rightarrow - + = \\Leftrightarrow - - = \\Leftrightarrow = - ] . Với 2 2 3 3 5 25 3 16 5 3 9 0 3 3 5 2 x t x x x x x [ + = = \\Rightarrow - + = \\Leftrightarrow - - = \\Leftrightarrow - = ] . Vậy phương trình đã cho có 4 nghiệm.",
@@ -20960,14 +20960,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số giá trị nguyên của m để phương trình 2 4 1 x m - = + có bốn nghiệm phân biệt là:",
+      "question": "Số giá trị nguyên của tham số $m$ để phương trình $|x^2 - 4| = m + 1$ có bốn nghiệm phân biệt là:",
       "options": [
-        "A. 4.",
-        "B. 2.",
-        "C. 3.",
-        "D. 5."
+        "A. 4",
+        "B. 2",
+        "C. 3",
+        "D. 5"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "(Chú ý: Phương trình 0 B A B A B A B \\ge = \\Leftrightarrow = [ ] ] = - ] ] Ta có: ( ) ( ) ( ) 2 2 2 2 2 1 1 4 1 * 5 0 1 4 1 3 0 2 4 1 m m x m x m x m x m x m \\ge - \\ge - [ - = + \\Leftrightarrow \\Leftrightarrow - - = [ - = + + - = - = - - ] ] Để phương trình (*) có bốn nghiệm phân biệt thì các phương trình (1);(2) đều có hai nghiệm phân biệt và các nghiệm của phương trình (1) đều không là nghiệm của phương trình (2) và ngược lại. Khi đó m phải thỏa mãn các điều kiện sau: 2 2 1 1 5 0 5 1 3 3 0 3 5 3 1 m m m m m m m x m x m m \\ge - \\ge - + > > - \\Leftrightarrow \\Leftrightarrow - < < - + > < - - \\ne + - \\ne - . Do m \\in nên \\{ \\} 0;1; 2 m \\in . Vậy có 3 giá trị nguyên của m thoả mãn yêu cầu bài toán.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
@@ -21094,12 +21094,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $BC = 5$, $\\sin(A + B) = \\frac{1}{2}$, $\\cos(A - B) = \\frac{\\sqrt{3}}{2}$. Tính $AC$:",
       "options": [
-        "A. 5 3 3",
+        "A. $\\frac{5\\sqrt{3}}{3}$",
         "B. $\\frac{5}{2}$",
         "C. $\\frac{5}{3}$",
-        "D. 5 3 2 ."
+        "D. $\\frac{5\\sqrt{3}}{2}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^\\circ . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^\\circ .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
@@ -21138,10 +21138,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
-        "A. 1 2 1 x y x - = + .",
-        "B. 2 1 4 y x = - .",
-        "C. 3 5 1 x y x + = - .",
-        "D. 2 9 x y x x = - + ."
+        "A. 1 2 1 x y x - = +",
+        "B. 2 1 4 y x = -",
+        "C. 3 5 1 x y x + = -",
+        "D. 2 9 x y x x = - +"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 2 2 2 2 1 1 lim , lim 4 4 x x x x \\infty \\infty + - \\to \\to - = - = - - - suy ra đồ thị hàm số có hai đường tiệm cận đứng 2 x = \\pm . và 2 1 lim 0 4 x x \\infty \\to = - suy ra đồ thị hàm số có đường tiệm cận ngang 0 y = . Vậy đồ thị hàm số 2 1 4 y x = - có ba đường tiệm cận.",
@@ -21158,14 +21158,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tìm tất cả các giá trị thực của tham số m sao cho đồ thị hàm số 2 2 1 1 x y m x m + = + - có bốn đường tiệm cận.",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ sao cho đồ thị hàm số $y = \\frac{x + 1}{mx^2 - 2x + 1}$ có đúng bốn đường tiệm cận:",
       "options": [
-        "A. 0 m > .",
-        "B. Với mọi giá trị của m .",
-        "C. $1, 0 m m < \\ne và 1 5 2 m - \\pm \\ne .$",
-        "D. 1 m < hoặc 1 m > ."
+        "A. $m > 0$",
+        "B. Với mọi giá trị của $m$",
+        "C. $m < 1, m \\ne 0$ và $m \\ne \\frac{-1 \\pm \\sqrt{5}}{2}$",
+        "D. $m < 1$ hoặc $m > 1$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Với 0 m = thì hàm số không xác định. Do đó 0 m \\ne (1). Ta có 2 2 1 1 lim lim 1 x x x y m m x m \\infty \\infty \\to + \\to + + = = + - và 2 2 1 1 lim lim 1 x x x y m m x m \\infty \\infty \\to - \\to - + - = = + - . \\Rightarrow Đồ thị hàm số có 2 đường tiệm cận ngang. Để đồ thị hàm số có bốn đường tiệm cận thì cần tìm m để đồ thị hàm số có 2 đường tiệm cận đứng, nghĩa là cần tìm m để phương trình ( ) 2 2 1 0 g x m x m = + - = có hai nghiệm phân biệt khác -1 ĐK: ( ) ( ) 2 2 1 1 Δ 4 1 0 0 0 1 1 0 1 5 1 5 2 2 m m m m m m g m m m m < < = - - > \\Leftrightarrow \\ne \\Leftrightarrow \\ne - = + - \\ne - \\pm - \\pm \\ne \\ne Kết hợp (1) (2) có 1 0 1 5 2 m m m < \\ne - \\pm \\ne",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
@@ -21201,7 +21201,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 74 và 75:\n2 2 0 P x y z m - - + = và điểm ( ) 3;0; 1 A - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 74 và 75:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y - 2z + m = 0$ và điểm $A(3; 0; -1)$.",
       "question": "Nếu khoảng cách từ điểm $A$ đến mặt phẳng $(P)$ bằng 1 thì tích các giá trị của $m$ là:",
       "options": [
         "A. 25",
@@ -21223,15 +21223,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 74 và 75:\n2 2 0 P x y z m - - + = và điểm ( ) 3;0; 1 A - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 74 và 75:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y - 2z + m = 0$ và điểm $A(3; 0; -1)$.",
       "question": "Khi $m = 1$, gọi $H(a; b; c)$ là hình chiếu của $A$ trên mặt phẳng $(P)$. Tính $T = a + b + c$:",
       "options": [
-        "A. T = -3",
-        "B. T = 1",
-        "C. T = -1",
-        "D. T = 3"
+        "A. $T = -3$",
+        "B. $T = 1$",
+        "C. $T = -1$",
+        "D. $T = 3$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "explanation": "Đường thẳng d qua A và vuông góc với mặt phẳng ( ) P nên nhận vecto pháp tuyến ( ) 2; 1; 2 n = - - của ( ) P làm vec tơ chỉ phương, có phương trình là: 3 2 1 2 x t y t z t = + = - = - - . Do H d \\in nên ( ) 3 2 ; ; 1 2 H t t t + - - - . Ta lại có ( ) ( ) ( ) ( ) 2 3 2 2 1 2 1 0 9 9 0 1 H P t t t t t \\in \\Rightarrow + - - - - - + = \\Leftrightarrow + = \\Leftrightarrow = - Suy ra ( ) 1;1;1 H . Như vậy 1 1 1 3 T = + + = .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
@@ -21245,13 +21245,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\n3 2 1 2 1 2 7 2 5 u u u u u - + = + và 4 8 u =",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nCho cấp số nhân $(u_n)$ có công bội $q > 0$ thỏa mãn $\\frac{u_3 - 2u_2 + u_1}{u_2 - u_1} = \\frac{7}{2}$ và $u_4 = 8$.",
       "question": "Công bội của cấp số nhân là",
       "options": [
-        "A. 2.",
-        "B. 1.",
-        "C. 3.",
-        "D. 5."
+        "A. 2",
+        "B. 1",
+        "C. 3",
+        "D. 5"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 1 0 u \\ne vì nếu 1 0 u = thì * 0, n u n N = \\in nên 4 8 u = sẽ vô lý 2 3 2 1 1 1 1 2 1 1 1 2 7 2. 7 2 5 2 5 u u u u q u q u u u u q u - + - + = \\Leftrightarrow = + + Suy ra 2 2 2 2 2 1 7 10 5 5 14 7 10 19 2 0 1 2 1 5 10 q q q q q q q q q q = [ - + = \\Leftrightarrow - + = + \\Leftrightarrow - - = \\Leftrightarrow + = - ] Mà 0 q > nên 2 q =",
@@ -21267,7 +21267,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\n3 2 1 2 1 2 7 2 5 u u u u u - + = + và 4 8 u =",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nCho cấp số nhân $(u_n)$ có công bội $q > 0$ thỏa mãn $\\frac{u_3 - 2u_2 + u_1}{u_2 - u_1} = \\frac{7}{2}$ và $u_4 = 8$.",
       "question": "Với dãy số $(v_n)$ thỏa mãn $v_n = u_n^3$. Tính $v_3$:",
       "options": [
         "A. 64",
@@ -21314,9 +21314,9 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Bạn Nam cần ít nhất 900 đơn vị protein và 400 đơn vị lipit trong thức ăn mỗi ngày. Mỗi kiogam thịt bò chứa 800 đơn vị protein và 200 đơn vị lipit. Mỗi kilogam thịt lợn chứa 600 đơn vị protein và 400 đơn vị lipit. Biết rằng Nam chỉ mua nhiều nhất 1,6 kg thịt bò và 1,1 kg thịt lợn. Giá tiền một kg thịt bò là 160 nghìn đồng, một kg thịt lợn là 110 nghìn đồng. Gọi , x y lần lượt là số kg thịt bò và thịt lợn mà Nam cần mua.",
       "question": "Giá trị , x y để tổng số tiền Nam phải trả là ít nhất nhưng vẫn đảm bảo lượng protein và lipit trong thức ăn?",
       "options": [
-        "A. 0,3 x = và 1,1 y = .",
-        "B. 0,3 x = và 0, 7 y = .",
-        "C. 0, 6 x = và 0, 7 y = .",
+        "A. 0,3 x = và 1,1 y =",
+        "B. 0,3 x = và 0, 7 y =",
+        "C. 0, 6 x = và 0, 7 y =",
         "D. 1, 6 x = và 0, 2 y ="
       ],
       "correctAnswer": 0,
@@ -21333,7 +21333,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
       "question": "Tọa độ điểm $A$ là:",
       "options": [
         "A. (3; 1)",
@@ -21341,7 +21341,7 @@ export const QUESTIONS_DATA = {
         "C. (3; -1)",
         "D. (-3; 1)"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Tọa độ điểm A là nghiệm của hệ phương trình: 2 7 0 3 4 1 0 1 x y x x y y + + = = - \\Leftrightarrow - - = = - . Vậy ( ) 3; 1 A - - .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -21355,7 +21355,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
       "question": "Tọa độ điểm $C$ là:",
       "options": [
         "A. (5; 5)",
@@ -21377,15 +21377,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
-      "question": "Phương trình của đường thẳng BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
+      "question": "Phương trình của đường thẳng $BC$ là:",
       "options": [
-        "A. 4 3 0 x y - + = .",
-        "B. 4 15 0 x y - + = .",
-        "C. 2 15 0 x y + - = .",
-        "D. 3 2 0 2 x y + + = ."
+        "A. $4x - y + 3 = 0$",
+        "B. $4x - y - 15 = 0$",
+        "C. $2x + y - 15 = 0$",
+        "D. $3x + 2y - 12 = 0$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Đường thẳng BC song song với đường thẳng AD nên phương trình đường thẳng BC có dạng: 4 0 x y c - + = với 1 c \\ne - . ( ) 5;5 C thuộc đường thẳng BC nên: 5 4.5 0 15 c c - + = \\Leftrightarrow = . Vậy phương trình đường thẳng BC là: 4 15 0 x y - + =",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
@@ -21465,7 +21465,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
       "question": "Tính góc giữa $SD$ và mặt phẳng $(ABCD)$ (làm tròn đến độ):",
       "options": [
         "A. $30^\\circ$",
@@ -21473,7 +21473,7 @@ export const QUESTIONS_DATA = {
         "C. $60^\\circ$",
         "D. $50^\\circ$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
@@ -21487,13 +21487,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
-      "question": "Tính tan của góc giữa hai mặt phẳng ( SCD ) và ( ABCD ).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
+      "question": "Tính tan của góc giữa hai mặt phẳng $(SCD)$ và $(ABCD)$:",
       "options": [
-        "A. $\\frac{15}{2}$",
-        "B. $\\frac{15}{3}$",
+        "A. $\\frac{\\sqrt{15}}{2}$",
+        "B. $\\frac{\\sqrt{15}}{3}$",
         "C. $\\frac{\\sqrt{15}}{4}$",
-        "D. $\\frac{15}{5}$"
+        "D. $\\frac{\\sqrt{15}}{5}$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -21509,15 +21509,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
-      "question": "Gọi G là trọng tâm tam giác ABD , tính khoảng cách từ G đến mặt phẳng ( SCD ).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
+      "question": "Gọi $G$ là trọng tâm tam giác $ABD$, tính khoảng cách từ $G$ đến mặt phẳng $(SCD)$:",
       "options": [
         "A. $\\frac{3a\\sqrt{285}}{57}$",
         "B. $\\frac{a\\sqrt{285}}{114}$",
         "C. $\\frac{a\\sqrt{285}}{57}$",
         "D. $\\frac{2a\\sqrt{285}}{57}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^\\circ 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
@@ -21531,15 +21531,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 93:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Mệnh đề nào sau đây đúng?",
       "options": [
-        "A. Hàm số đồng biến trên ( ) ; 1 \\infty - - và ( ) 1; \\infty - + .Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "B. Hàm số nghịch biến trên ( ) ; 1 \\infty - - và ( ) 1; \\infty - + .Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "C. Hàm số nghịch biến trên ( ) ( ) ; 1 1; \\infty \\infty - - \\cup - +Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
-        "D. $Hàm số đồng biến trên \\{ \\} 1 R - \\setminus .$"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "2 3 0 ( 1) y x - = < + ' Hàm số đã cho luôn nghịch biến trên từng khoảng xác định.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
@@ -21553,15 +21553,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 93:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Tâm đối xứng của đồ thị hàm số là $I(a; b)$. Tính $a + b$:",
       "options": [
-        "A. -1",
-        "B. 3",
-        "C. -3",
-        "D. -2"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Tiệm cận đứng của đồ thị hàm số là 1 x = - . Tiệm cận ngang của đồ thị hàm số là 2 y = - . Tâm đối xứng là ( ) 1; 2 I - - .",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
@@ -21575,15 +21575,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 93:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Phòng thí nghiệm nào đang tiến hành thí nghiệm Màu Đỏ?",
       "options": [
-        "A. Phòng 1.",
-        "B. Phòng 2.",
-        "C. Phòng 3.",
-        "D. Phòng 5."
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Đáp án: A. Lập bảng tóm tắt các dữ kiện đã có như sau: Tên Phòng Màu chủ đạo Số mẫu vật P 5 Cam 11/15 Q 1 Đỏ 15/11 R 4 Vàng 13 S 2 Xanh Lá 17 T 3 Tím 19 Một số suy luận để lập nên bảng trên: Thí nghiệm dùng 13 mẫu vật ở phòng 4; Người ở có thí nghiệm màu Vàng dùng 13 mẫu vật; R là người tiến hành thí nghiệm Màu Vàng => Gộp lại những dữ kiện trên, ta biết: R thí nghiệm ở Phòng 4, màu sắc chủ đạo là màu Vàng và R dùng 13 mẫu vật. Có một nhà khoa học thực hiện thí nghiệm có màu cùng chữ cái đầu với người đó => Cặp T- Tím => T làm thí nghiệm có màu Tím. Nhà khoa học ở Phòng 3 làm thí nghiệm màu Tím. Thí nghiệm 19 mẫu vật được thực hiện bởi T => T thí nghiệm ở Phòng 3, làm thí nghiệm màu Tím và có 19 mẫu vật. Q không ở Phòng 2 hay Phòng 5 => Q ở Phòng 1/3/4. Tuy nhiên R ở Phòng 4 và T ở Phòng 3 => Q ở Phòng 1. P và S có thể ở Phòng 2 hoặc 5. Tuy nhiên P không ở Phòng 2 => P ở Phòng 5 và S ở Phòng 2. P và Q có thể có màu Cam hoặc Đỏ. Tuy nhiên thí nghiệm màu Đỏ không ở Phòng 5, và P ở Phòng 5 => Thí nghiệm màu Đỏ được thực hiện bởi Q ở Phòng 1.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
@@ -21597,15 +21597,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 93:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Lấy tổng số phòng thí nghiệm của người tiến hành thí nghiệm Màu Đỏ và Màu Cam. So sánh kết quả này với tổng số mẫu vật của người ở Phòng 2 và Phòng 4. Mối quan hệ nào sau đây là đúng?",
       "options": [
-        "A. Tổng số phòng lớn hơn tổng số mẫu vật.",
-        "B. Tổng số phòng bằng tổng số mẫu vật.",
-        "C. Tổng số mẫu vật gấp 5 lần tổng số phòng.",
-        "D. Tổng số mẫu vật gấp 3 lần tổng số phòng."
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Đáp án: C. - Tổng số phòng của Đỏ và Cam: 1 + 5 = 6 - Tổng số mẫu vật của người ở Phòng 2 và Phòng 4: 17 + 13 = 30 => Tổng số mẫu vật gấp 5 lần tổng số phòng.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
@@ -21619,15 +21619,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 93:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Nếu số mãu vật của P chia hết cho số phòng thì Q dùng bao nhiêu mẫu vật?",
       "options": [
-        "A. 11",
-        "B. 13",
-        "C. 15",
-        "D. 17"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Đáp án: A. Số mẫu vật của P chia hết cho số phòng => Số mẫu vật là 15. Q có thể dùng 11 hoặc 15 mẫu vật => Q có 11 mẫu vật",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
@@ -21666,10 +21666,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n1. Bộ lạc Sự Thật (Kỵ Sĩ): Luôn luôn nói thật. 2. Bộ lạc Dối Trá (Kẻ Lừa Đảo): Luôn luôn nói dối. 3. Bộ lạc Luân Phiên (Quân Bài): Luân phiên nói thật và nói dối (Câu thứ nhất nói thật, câu thứ hai nói dối, câu thứ ba nói thật,.). Mỗi người A, B, C thuộc về một Bộ lạc khác nhau. Họ đưa ra các tuyên bố theo thứ tự sau: Người Câu nói 1 Câu nói 2 A \"B là Bộ lạc Sự Thật.\" \"C là Bộ lạc Luân Phiên.\" B \"C là Bộ lạc Dối Trá.\" \"A là Bộ lạc Luân Phiên.\" C \"A là Bộ lạc Sự Thật.\" \"B là Bộ lạc Dối Trá\"",
       "question": "Nếu C là Bộ lạc Sự Thật thì có bao nhiêu câu nói gây mâu thuẫn?",
       "options": [
-        "A. 3.",
-        "B. 4.",
-        "C. 1.",
-        "D. 5."
+        "A. 3",
+        "B. 4",
+        "C. 1",
+        "D. 5"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án: A. Nếu C là Bộ lạc Sự Thật => Câu nói 1 của A và C gây mâu thuẫn. C nói thật => B là Bộ lạc Dối Trá => A là Bộ lạc Luân Phiên. Nhưng câu nói 2 của B nói A là Bọ lạc Luân Phiên => Là câu nói đúng => Câu nói 2 của B gây mâu thuẫn.",
@@ -21861,13 +21861,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThống kê về số lượng nhà máy trong một số trung tâm công nghiệp lớn của thế giới trong năm 2025 và sự thay đổi của nó so với năm 2020. Kết quả thể hiện như hình dưới",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Sử dụng dữ liệu của thí nghiệm ban đầu (15,0g Glucose trong 200g nước). Tính nhiệt độ sôi của dung dịch thu được? Kết quả làm tròn đến hai chữ số sau dấu phẩy.",
       "options": [
-        "A. 100,21 oC.",
-        "B. 105,21 oC.",
-        "C. 107,21 oC.",
-        "D. 109,21 oC."
+        "$100{,}21^\\circ\\text{C}$",
+        "$105{,}21^\\circ\\text{C}$",
+        "$107{,}21^\\circ\\text{C}$",
+        "$109{,}21^\\circ\\text{C}$"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Khối lượng mol glucose = 180,0 g/mol. → Số mol = 15,0: 180,0 = 0,0833 mol → m = 0,0833: 0,200 = 0,4165 mol/kg → ΔTb = 0,512 × 0,4165 = 0,213 °C → Nhiệt độ sôi dung dịch 100, 00 0, 2133 100, 2133... = + =",
@@ -21883,13 +21883,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThống kê về số lượng nhà máy trong một số trung tâm công nghiệp lớn của thế giới trong năm 2025 và sự thay đổi của nó so với năm 2020. Kết quả thể hiện như hình dưới",
-      "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết. (2) Dung dịch chứa 1 mol Glucose ( 6 12 6 C H O ) trong 1 kg nước. (3) Dung dịch chứa 0,5 mol 2 MgCl trong 1 kg nước (giả sử điện ly hoàn toàn). (4) Dung dịch chứa 1 mol NaCl trong 1 kg nước (giả sử điện ly hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết; (2) Dung dịch chứa 1 mol Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) trong 1 kg nước; (3) Dung dịch chứa 0,5 mol $\\text{MgCl}_2$ trong 1 kg nước (giả sử điện li hoàn toàn); (4) Dung dịch chứa 1 mol $\\text{NaCl}$ trong 1 kg nước (giả sử điện li hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao):",
       "options": [
-        "A. (1) < (2) < (3) < (4).",
-        "B. (1) < (3) < (2) < (4).",
-        "C. (1) < (2) < (4) < (3).",
-        "D. (4) < (3) < (2) < (1)."
+        "A. (1) < (2) < (3) < (4)",
+        "B. (1) < (3) < (2) < (4)",
+        "C. (1) < (2) = (3) < (4)",
+        "D. (4) < (3) < (2) < (1)"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^\\circ C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
@@ -23580,14 +23580,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Phương trình 10 1 3 5 9 4 2 2 x x x x + + - = + + - có tổng các nghiệm là",
+      "question": "Phương trình $\\sqrt{10x + 1} - \\sqrt{2x - 2} = \\sqrt{9x + 4} - \\sqrt{3x - 5}$ có tổng các nghiệm là:",
       "options": [
-        "A. 0 .",
-        "B. 3 .",
-        "C. 2 .",
-        "D. 1."
+        "A. 0",
+        "B. 3",
+        "C. 2",
+        "D. 1"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Phương trình có dạng: A B C D + = + với , A C B D + = + cụ thể: (10 1) (2 2) (9 4) (3 5) 12 1, x x x x x + + - = + + - = - nên ta sẽ chuyển vế đưa về dạng: A C D B - = - và bình phương hai vế. Nhưng do khi chuyển vế và bình phương là ta đã giải phương trình hệ quả, vì vậy khi giải xong ta cần thay thế nghiệm vào phương trình đầu đề bài nhằm nhận, loại nghiệm thích hợp. Ta có Lời giải: Điều kiện: 5 , 3 x \\ge khi đó: 10 1 3 5 9 4 2 2 10 1 2 2 9 4 3 5 x x x x x x x x + + - = + + - \\Leftrightarrow + - - = + - - 2 2 ( 10 1 2 2) ( 9 4 3 5) x x x x \\Rightarrow + - - = + - - 12 1 2 (10 1)(2 2) 12 1 2 (9 4)(3 5) x x x x x x \\Leftrightarrow - - + - = - - + - 2 6 (10 1)(2 2) (9 4)(3 5) 7 15 18 0 3, 7 x x x x x x x x \\Leftrightarrow + - = + - \\Leftrightarrow - - = \\Leftrightarrow = = - \\cdot So với điều kiện và thế vào phương trình ban đầu, phương trình có nghiệm 3. x =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
@@ -23623,7 +23623,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\n3 0 Q x y z + + = , ( ) : 2 0 R x y z - + = và điểm ( ) 2;1; 3 B - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(Q): x + y + 3z = 0$, $(R): 2x - y + z = 0$ và điểm $B(2; 1; -3)$.",
       "question": "Tính cosin của góc giữa 2 mặt phẳng $(Q)$ và $(R)$:",
       "options": [
         "A. $-\\frac{2\\sqrt{66}}{33}$",
@@ -23645,13 +23645,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\n3 0 Q x y z + + = , ( ) : 2 0 R x y z - + = và điểm ( ) 2;1; 3 B - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(Q): x + y + 3z = 0$, $(R): 2x - y + z = 0$ và điểm $B(2; 1; -3)$.",
       "question": "Phương trình của mặt phẳng $(P)$ đi qua điểm $B$, đồng thời vuông góc với hai mặt phẳng $(Q)$ và $(R)$ là:",
       "options": [
-        "A. 4x + 5y - 3z + 22 = 0",
-        "B. 4x - 5y - 3z - 12 = 0",
-        "C. 4x + 5y - 3z - 22 = 0",
-        "D. 2x + 3y - 14z = 0"
+        "A. $4x + 5y - 3z + 22 = 0$",
+        "B. $4x - 5y - 3z - 12 = 0$",
+        "C. $4x + 5y - 3z - 22 = 0$",
+        "D. $2x + 3y - 14z = 0$"
       ],
       "correctAnswer": 2,
       "explanation": "Mặt phẳng ( ) P vuông góc với hai mặt phẳng ( ) : 3 0 Q x y z + + = và ( ) : 2 0 R x y z - + = Suy ra, là một VTPT của mặt phẳng ( ) P Vậy phương trình mặt phẳng ( ) P là: ( ) ( ) ( ) 4 2 5 1 3 3 0 4 5 3 22 0 x y z x y z - + - - + = \\Leftrightarrow + - - = .",
@@ -23667,8 +23667,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\n1 1; u = * 1 2 3 , .n n n u u n + = + \\in \\infty",
-      "question": "Gọi $(v_n)$ là dãy số thỏa $v_n = u_n - 3n$. Tính $S = v_1 + v_2 + \\dots + v_{10}$:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nCho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 2u_n + 3n$ với mọi $n \\in \\mathbb{N}^*$.",
+      "question": "Gọi $(v_n)$ là dãy số thỏa mãn $v_n = u_n + 3n + 6$. Tính $S = v_1 + v_2 + \\dots + v_{10}$:",
       "options": [
         "A. -2046",
         "B. -4092",
@@ -23689,15 +23689,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\n1 1; u = * 1 2 3 , .n n n u u n + = + \\in \\infty",
-      "question": "20 u là một số có mấy chữ số?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nCho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 2u_n + 3n$ với mọi $n \\in \\mathbb{N}^*$.",
+      "question": "$u_{20}$ là một số có mấy chữ số?",
       "options": [
-        "A. 8 .",
-        "B. 7 .",
-        "C. 9 .",
-        "D. 10 ."
+        "A. 5",
+        "B. 6",
+        "C. 7",
+        "D. 8"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Ta có 1 1. 2 .n n n v v q - = = - . Vậy 20 20 20 3 3 2 3 2 3485735825n n n n n u v u = + = - \\Rightarrow = - = .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
@@ -23755,13 +23755,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
-      "question": "Độ dài đường cao kẻ từ đỉnh A là (làm tròn đến hàng phần trăm)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
+      "question": "Độ dài đường cao kẻ từ đỉnh $A$ là (làm tròn đến hàng phần trăm):",
       "options": [
-        "A. 6,36 .",
-        "B. 6,63 .",
-        "C. 6,30 .",
-        "D. 6,40 ."
+        "A. 6,36",
+        "B. 5,66",
+        "C. 7,07",
+        "D. 4,24"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi H là hình chiếu vuông góc của A trên \\Delta , khi đó H là trung điểm của BC Ta có 2 2 1 4 4 9 ( , ) 6,36 2 1 1 AH d A - - - = \\Delta = = +",
@@ -23777,13 +23777,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
-      "question": "Độ dài cạnh AB là (làm tròn đến hàng phần trăm)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
+      "question": "Độ dài cạnh $AB$ là (làm tròn đến hàng phần trăm):",
       "options": [
-        "A. 7,00.",
-        "B. 6,96.",
-        "C. 6,90.",
-        "D. 48,50."
+        "A. 7,35",
+        "B. 6,85",
+        "C. 8,12",
+        "D. 6,36"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 2 2.18 4 2 2 2 9 2 ABC S BC BH CH AH = = = \\Rightarrow = = 2 2 81 97 8 6,96 2 2 AB AH BH \\Rightarrow = + = + =",
@@ -23799,15 +23799,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
       "question": "Gọi tọa độ điểm $B$ là $B(a; b)$, tính $a + b$:",
       "options": [
-        "A. 1",
-        "B. -7",
-        "C. -1",
-        "D. 7"
+        "A. 2",
+        "B. -2",
+        "C. 0",
+        "D. 4"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "Vậy 97 2 AB AC = = , suy ra , B C thuộc đường tròn tâm ( 1; 4) A - và bán kính 97 2 R = có phương trình: 2 2 97 ( 1) ( 4) 2 x y + + - = Khi đó tọa độ , B C là nghiệm của hệ: 2 2 4 0 97 ( 1) ( 4) 2 x y x y - - = + + - = 2 3 4 2 5 4 28 33 0 2 xy x x x y = = - \\Leftrightarrow \\Leftrightarrow - + = = - hoặc 11 2 3 2 x y = = . Vậy 3 5 11 3 ; , ; 2 2 2 2 B C \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) hoặc 11 3 3 5 ; , ; 2 2 2 2 B C \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) . Mà điểm B có tung độ âm nên 3 5 ; 2 2 B\\left( \\right) - \\left( \\right) \\left( \\right) . Vậy 1 a b + = -",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
@@ -23979,9 +23979,9 @@ export const QUESTIONS_DATA = {
       "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
       "options": [
         "A. 1 0 x y - - =",
-        "B. 1 0 x y - + = .",
-        "C. 1 0 x y + - = .",
-        "D. 1 0 x y + + = ."
+        "B. 1 0 x y - + =",
+        "C. 1 0 x y + - =",
+        "D. 1 0 x y + + ="
       ],
       "correctAnswer": 0,
       "explanation": "( ) 6 6 0 1 0 f x x x y '' = - = \\Leftrightarrow = \\Rightarrow = Vậy tâm đối xứng là ( ) 1;0 I nằm trên đường thẳng 1 0 x y - - =",
@@ -24020,12 +24020,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Phương trình 2 2 3 5 x x x + - = + có tổng các nghiệm nguyên là",
+      "question": "Phương trình $|x^2 + 2x - 3| = x + 5$ có tổng các nghiệm nguyên là:",
       "options": [
-        "A. 2 - .",
-        "B. 3 - .",
-        "C. 1 - .",
-        "D. 4 - ."
+        "A. -2",
+        "B. -3",
+        "C. -1",
+        "D. -4"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B. TH1: 2 2 3 0 x x + - > 3 1 x x < - [ \\Leftrightarrow > ] . Khi đó phương trình trở thành: 2 2 3 5 x x x + - = + 2 8 0 x x \\Leftrightarrow + - = 1 33 2 1 33 2 x x [ - + = \\Leftrightarrow - - = ] . TH2: 2 2 3 0 x x + - < 3 1 x \\Leftrightarrow - < < . Khi đó phương trình trở thành: 2 2 3 5 x x x - - + = + 2 3 2 0 x x \\Leftrightarrow + + = 1 2 x x = - [ \\Leftrightarrow = - ] . Vậy tổng các nghiệm nguyên là 1 2 3 T = - - = - .",
@@ -24042,12 +24042,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tìm điều kiện của tham số m để hệ phương trình 1 mx y m x my - = - + = - có nghiệm duy nhất.",
+      "question": "Tìm điều kiện của tham số $m$ để hệ phương trình $\\begin{cases} mx - y = 1 \\\\ x + my = m \\end{cases}$ có nghiệm duy nhất.",
       "options": [
-        "A. $1 m = \\pm .$",
-        "B. $1 m \\ne - .$",
-        "C. $1 m \\ne .$",
-        "D. $1 m \\ne \\pm .$"
+        "A. $m = \\pm 1$",
+        "B. $m \\ne -1$",
+        "C. $m \\ne 1$",
+        "D. $m \\ne \\pm 1$"
       ],
       "correctAnswer": 3,
       "explanation": "Chọn D. Ta có 1 1 m D m - = - 2 1 m = - Để hệ có nghiệm duy nhất thì 0 D \\ne 2 1 0 m \\Leftrightarrow - \\ne 1 m \\Leftrightarrow \\ne \\pm .",
@@ -24064,7 +24064,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Biết sin cot cot 4 sin sin 4 x kx x x x - = với mọi x để các biểu thức có nghĩa. Lúc đó giá trị của k là",
+      "question": "Biết $\\frac{\\sin x - \\cot x}{\\cot 4x - \\sin x} = \\frac{\\sin 4x}{\\sin kx}$ với mọi $x$ để biểu thức có nghĩa. Lúc đó giá trị của $k$ là:",
       "options": [
         "A. $\\frac{5}{4}$",
         "B. $\\frac{3}{4}$",
@@ -24130,12 +24130,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho hai số thực a , b đều lớn hơn 1. Giá trị nhỏ nhất của biểu thức 4 1 1 log log ab ab S a b = + bằng",
+      "question": "Cho hai số thực $a, b > 1$. Giá trị nhỏ nhất của biểu thức $S = \\frac{1}{\\log_a(ab)} + \\frac{4}{\\log_b(ab)}$ bằng:",
       "options": [
         "A. $\\frac{4}{9}$",
         "B. $\\frac{9}{4}$",
         "C. $\\frac{9}{2}$",
-        "D. 1 4"
+        "D. $\\frac{1}{4}$"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B Ta có 4 1 1 log log ab ab S a b = + ( ) 4 log log a b ab ab = + ( ) 1 1 log log 1 4 a b b a = + + + 1 5 log 4 log 4 a a b b = + + . Đặt loga x b = . Do a , 1 b > nên 0 x > . Khi đó 1 5 4 4 S x x = + + 1 5 9 2 . 4 4 4 x x \\ge + = (Áp dụng BĐT Cauchy cho hai số dương x và 1 4 x ). Dấu \" \" = xảy ra 1 1 1 4 2 2 0 0 x x x x x x = = \\pm \\Leftrightarrow \\Leftrightarrow \\Rightarrow = > > . Vậy 9 min 4 S = tại 1 log 2 a b b a = \\Leftrightarrow = .",
@@ -24152,12 +24152,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số 3 27 2 x y x = - - song song với trục hoành?",
+      "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số $y = \\frac{x^3 - 27}{x - 2}$ song song với trục hoành?",
       "options": [
-        "A. 1.",
-        "B. 0 .",
-        "C. 2 .",
-        "D. 3 ."
+        "A. 1",
+        "B. 0",
+        "C. 2",
+        "D. 3"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 3 2 2 2 6 ( 2) x x y x - ' = - . Do đó ( ) ( ) 0 2 0 0 0 0 0 0 2 3 0 3 x y x x x x = [ ' = \\Leftrightarrow - = \\Leftrightarrow = ] . Ta có (0) 27 0 y = - \\ne (nhận) và (3) 0 y = (loại vì khi đó tiếp tuyến trùng trục hoành). Đáp số: 1 .",
@@ -24503,7 +24503,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 108:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong tầng bình lưu, các hợp chất chlorofluorocarbon (CFC) bị phân rã bởi tia cực tím giải phóng các gốc chlorine tự do ($\\text{Cl}^\\bullet$). Mỗi gốc $\\text{Cl}^\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy phân tử ozone ($\\text{O}_3$): $\\text{Cl}^\\bullet + \\text{O}_3 \\rightarrow \\text{ClO}^\\bullet + \\text{O}_2$.",
       "question": "Giả thiết trung bình một gốc Cl• phá huỷ 1 000 phân tử ozone. Khối lượng ozone bị phá huỷ bởi lượng gốc Cl• trên là",
       "options": [
         "A. 144 kg.",
@@ -26202,10 +26202,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Tính thể tích hình chop S.ABC:",
       "options": [
-        "A. 2 4 a .",
-        "B. 4 a .",
-        "C. 2 a .",
-        "D. 2 2 a ."
+        "A. 2 4 a",
+        "B. 4 a",
+        "C. 2 a",
+        "D. 2 2 a"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 2 3 2 1 2, 2 5 2 3 1 1 1 3 3 3 3 2 6 ABC ABC AB a S a SA SB AB a a a a V S SA a a = = = - = - = = \\cdot = \\cdot \\cdot = \\Delta \\Delta",
@@ -26246,10 +26246,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Tính góc giữa hai mặt phẳng (SBC) và (SAC):",
       "options": [
-        "A. $\\frac{0}{45}$",
-        "B. $\\frac{0}{90}$",
-        "C. $\\frac{0}{60}$",
-        "D. $\\frac{0}{30}$"
+        "A. $$45^\\circ$$",
+        "B. $$90^\\circ$$",
+        "C. $$60^\\circ$$",
+        "D. $$30^\\circ$$"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: ( ) ( ) ( ) BC AC BC SAC SBC SAC BC SA \\Rightarrow \\Rightarrow",
@@ -26265,8 +26265,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nCho cấp số cộng ( ) n u thỏa mãn 1 2 2 3 4 8 u u u u + = + = .",
-      "question": "Tính tổng 1 2 2 3 49 50 1 1 1 ... S u u u u u u = + + + ?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_1 + 2u_2 = 3u_4$ và $u_1 \\cdot u_2 = 8$.",
+      "question": "Tính tổng $S = \\frac{1}{u_1 u_2} + \\frac{1}{u_2 u_3} + \\dots + \\frac{1}{u_{49} u_{50}}$:",
       "options": [
         "A. $S = \\frac{50}{99}$",
         "B. $S = \\frac{48}{99}$",
@@ -26287,7 +26287,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nCho cấp số cộng ( ) n u thỏa mãn 1 2 2 3 4 8 u u u u + = + = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_1 + 2u_2 = 3u_4$ và $u_1 \\cdot u_2 = 8$.",
       "question": "Gọi $(v_n)$ là dãy số có $v_n = 2^{u_n}$. Tính $T = v_1 \\cdot v_2 \\cdots v_{10}$:",
       "options": [
         "A. $T = 2^{80}$",
@@ -26375,13 +26375,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 69 và 70:\nMột phân xưởng có hai máy đặc chủng 1 2 , T T , sản xuất hai loại sản phẩm ký hiệu là A và . B Một tấn sản phẩm loại A lãi 3 triệu đồng, một tấn sản phẩm loại B lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại A phải dùng máy 1 T trong 3 giờ và máy 2 T trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại B phải dùng máy 1 T trong 2 giờ và máy 2 T trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy 1 T làm việc không quá 6 giờ một ngày, máy 2 T làm việc không quá 4 giờ một ngày.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột phân xưởng có hai máy đặc chủng $T_1, T_2$, sản xuất hai loại sản phẩm ký hiệu là $A$ và $B$. Mỗi tấn sản phẩm loại $A$ lãi 3 triệu đồng, một tấn sản phẩm loại $B$ lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại $A$ phải dùng máy $T_1$ trong 3 giờ và máy $T_2$ trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại $B$ phải dùng máy $T_1$ trong 2 giờ và máy $T_2$ trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy $T_1$ làm việc không quá 6 giờ một ngày, máy $T_2$ làm việc không quá 4 giờ một ngày.",
       "question": "Gọi $x$ là số tấn sản phẩm loại A và $y$ là số tấn sản phẩm loại B. Khi đó $F(x, y)$ là hàm mục tiêu biểu diễn tổng lợi nhuận thu được:",
       "options": [
-        "A. F(x, y) = 3x + 2y",
-        "B. F(x, y) = 2x + 3y",
-        "C. F(x, y) = 4x + 3y",
-        "D. F(x, y) = 3x + 4y"
+        "A. $F(x, y) = 3x + 2y$",
+        "B. $F(x, y) = 2x + 3y$",
+        "C. $F(x, y) = 3x + y$",
+        "D. $F(x, y) = 2x + y$"
       ],
       "correctAnswer": 0,
       "explanation": "Chọn A Gọi x là số tấn sản phẩm loại A và y là số tấn sản phẩm loại B . Số tiền lãi khi bán x là số tấn sản phẩm loại A và y là số tấn sản phẩm loại B lần lượt là 3 , 2 x y . Vậy ( ) , 3 2 . F x y x y = +",
@@ -26397,15 +26397,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 69 và 70:\nMột phân xưởng có hai máy đặc chủng 1 2 , T T , sản xuất hai loại sản phẩm ký hiệu là A và . B Một tấn sản phẩm loại A lãi 3 triệu đồng, một tấn sản phẩm loại B lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại A phải dùng máy 1 T trong 3 giờ và máy 2 T trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại B phải dùng máy 1 T trong 2 giờ và máy 2 T trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy 1 T làm việc không quá 6 giờ một ngày, máy 2 T làm việc không quá 4 giờ một ngày.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột phân xưởng có hai máy đặc chủng $T_1, T_2$, sản xuất hai loại sản phẩm ký hiệu là $A$ và $B$. Mỗi tấn sản phẩm loại $A$ lãi 3 triệu đồng, một tấn sản phẩm loại $B$ lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại $A$ phải dùng máy $T_1$ trong 3 giờ và máy $T_2$ trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại $B$ phải dùng máy $T_1$ trong 2 giờ và máy $T_2$ trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy $T_1$ làm việc không quá 6 giờ một ngày, máy $T_2$ làm việc không quá 4 giờ một ngày.",
       "question": "Gọi E là số tiền lãi lớn nhất mà phân xưởng này có thể thu được trong một ngày. Giá trị của E bằng bao nhiêu?",
       "options": [
-        "A. E = 5",
-        "B. E = 4",
-        "C. E = 6",
-        "D. E = 7"
+        "A. 6 triệu đồng",
+        "B. 7 triệu đồng",
+        "C. 8 triệu đồng",
+        "D. 9 triệu đồng"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Chọn C Số giờ làm việc của máy 1 T là 3 2 x y + và của máy 2 T là 2x y + . Vì mỗi ngày máy 1 T không được làm việc quá 6 giờ và máy 2 T không làm việc quá 4 giờ nên ta có ràng buộc: 3 2 6 2 4 . , 0 x y x y x y + \\le + \\le \\ge Vẽ miền nghiệm của hệ bất phương trình ta được miền như hình. Khi đó: ( ) ( ) ( ) 0; 0 0 0;3 6 2;0 6 F F F = = = Vậy giá trị của E là 6. E =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -26486,12 +26486,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Phương trình: 3 2 1 1 3 1 3 x x x x x x + + + = + + - + + có bao nhiêu nghiệm?",
+      "question": "Phương trình $\\sqrt{x + 3} + \\sqrt{x + 2} = \\sqrt{x^2 - 1} + \\sqrt{x + 1}$ có bao nhiêu nghiệm?",
       "options": [
-        "A. 0 .",
-        "B. 3 .",
-        "C. 2 .",
-        "D. 1."
+        "A. 0",
+        "B. 3",
+        "C. 2",
+        "D. 1"
       ],
       "correctAnswer": 0,
       "explanation": "Phương trình có dạng A B C D + = + với . . , AC B D = cụ thể ta có 3 2 3 1 ( 3) ( 1)( 1) 1, 3 x x x x x x x + \\cdot + = + - + = + + nên sẽ viết về dạng A C D B - = - và bình phương để giải phương trình hệ quả. Từ đó có Lời giải: sau: Điều kiện: 1. x \\ge - ( ) 2 3 3 2 2 2 1 1 1 3 1 3 1 1 3 3 x x x x x x x x x x x x \\left( \\right) + + + + = + + - + \\Rightarrow - + = - + - + \\left( \\right) \\left( \\right) + +\\left( \\right) 3 3 2 2 1 1 3 2 3 1 1 2 1 1 3 3 x x x x x x x x x x x x + + \\Leftrightarrow + + - \\cdot + = - + + + - - + \\cdot + + + 3 2 3 2 3 3 2 2 1 1 1 ( 3)( 1) 1 3 3 3 3 x x x x x x x x x x x x x x + \\Leftrightarrow = - - \\Leftrightarrow + = + - - \\Leftrightarrow + = - - + - - + 2 2 1 3 2 4 4 2 2 0 1 3 x x x x x x [ = + \\Leftrightarrow - - \\Leftrightarrow - - = \\Leftrightarrow = - ] So với điều kiện và thế vào phương trình ban đầu, ta có phương trình vô nghiệm.",
@@ -26576,10 +26576,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho $a, b > 0$, $a \\ne 1$ thỏa mãn $\\log_a b = \\frac{b}{4}$ và $\\log_2 a = \\frac{16}{b}$. Tổng $a + b$ bằng:",
       "options": [
-        "A. 12 .",
-        "B. 10 .",
-        "C. 18 .",
-        "D. 16 ."
+        "A. 12",
+        "B. 10",
+        "C. 18",
+        "D. 16"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 16 2 16 log 2 b a a b = \\Leftrightarrow = . Như vậy: 16 2 2 2 log log log log 4 16 4 16 b a b b b b b b b = = = \\Leftrightarrow = \\Leftrightarrow = . Mà 16 2 b a = do đó ta được 2 a = .",
@@ -26620,12 +26620,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
-        "A. $\\sqrt{6} - \\sqrt{2}$",
-        "B. $\\sqrt{6} + \\sqrt{2}$",
-        "C. $4\\sqrt{3} - 4$",
-        "D. $2\\sqrt{2}$"
+        "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
+        "B. $7\\text{ cm}$",
+        "C. $\\frac{7\\sqrt{2}}{2}\\text{ cm}$",
+        "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^\\circ Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^\\circ = \\Rightarrow = = = + ^\\circ . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -26640,14 +26640,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho ; ;c a b là độ dài 3 cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
+      "question": "Cho $a, b, c$ là độ dài ba cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
       "options": [
-        "A. 2 a ab ac < +",
-        "B. 2 2 2 2 a c b ac + < + .",
-        "C. 2 2 2 2 b c a bc + > + .",
-        "D. 2 ab bc b + > ."
+        "A. $a^2 < ab + ac$",
+        "B. $a^2 + c^2 < b^2 + 2ac$",
+        "C. $b^2 + c^2 > a^2 + 2bc$",
+        "D. $ab + bc > b^2$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Do 2 2 2 2 .cos 2 b c a bc A bc + - = \\le \\Rightarrow 2 2 2 2 b c a bc + \\le + nên mệnh đề C sai. Áp dụng bất đẳng thức tam giác ta có 2 a b c a ab ac < + \\Rightarrow < + ; mệnh đề A đúng. Tương tự 2 a c b ab bc b + > \\Rightarrow + > ;mệnh đề D đúng. Ta có: 2 2 2 2 .cos 2 a c b ac B ac + - = < 2 2 2 2 a c b ac \\Rightarrow + < + ;mệnh đề B đúng.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
@@ -26686,10 +26686,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
-        "A. 2 3 1 x x y x - = - .",
-        "B. 2 3 2 3 x y x + = - .",
-        "C. 2 2 3 2 x y x x - = - .",
-        "D. 2 1 3 x y x - = + ."
+        "A. 2 3 1 x x y x - = -",
+        "B. 2 3 2 3 x y x + = -",
+        "C. 2 2 3 2 x y x x - = -",
+        "D. 2 1 3 x y x - = +"
       ],
       "correctAnswer": 0,
       "explanation": "2 3 lim 1 x x x x \\to \\pm \\infty - = \\pm \\infty - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - không có đường tiệm cận ngang. 2 2 3 1 3 1 lim ; lim 2 3 2 2 3 2 x x x x x x \\to +\\infty \\to -\\infty + + = = - - - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - có hai đường tiệm cận ngang. 2 1 3 x y x - = + có tập xác định [ ] 1;1 - \\Rightarrow đồ thị hàm số không có đường tiệm cận ngang. 2 2 3 lim 0 2 x x x x \\to \\pm \\infty - = - \\Rightarrow Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y =",
@@ -27434,10 +27434,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 119:\nthực hiện công và truyển nhiệt. Nếu vật đồng thời nhận nhiệt và nhận công từ bên ngoài thì đểu làm tăng nội năng của vật. Theo định luật bảo toàn và chuyển hoá năng lượng thì độ biến thiên nội năng của vật bằng tổng công và nhiệt lượng mà vật nhận được: Δ𝑈 = 𝐴 + 𝑄 Trong đó: Δ𝑈 là độ biến thiên nội năng của vật. 𝐴 và 𝑄 là các giá trị đại số. o 𝑄 > 0: vật nhận nhiệt lượng; 𝑄 < 0: vật truyền nhiệt lượng. o 𝐴 > 0: vật nhận công; 𝐴 < 0: vật thực hiện công.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Nội năng phụ thuộc vào nhiệt độ của vật. (𝐼𝐼) Nội năng phụ thuộc vào thể tích của vật. (𝐼𝐼𝐼) Có hai cách để làm nội năng của vật thay đổi là thực hiện công và truyền nhiệt. (𝐼𝑉) Nội năng của vật là tổng động năng và thế năng của vật. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Phát biểu (𝐼), (𝐼𝐼)và (𝐼𝐼𝐼) là đúng.",
@@ -28844,10 +28844,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho $a, b > 0$, $a \\ne 1$ thỏa mãn $\\log_a b = \\frac{b}{4}$ và $\\log_2 a = \\frac{16}{b}$. Tổng $a + b$ bằng:",
       "options": [
-        "A. 12 .",
-        "B. 10 .",
-        "C. 18 .",
-        "D. 16 ."
+        "A. 12",
+        "B. 10",
+        "C. 18",
+        "D. 16"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 16 2 16 log 2 b a a b = \\Leftrightarrow = . Như vậy: 16 2 2 2 log log log log 4 16 4 16 b a b b b b b b b = = = \\Leftrightarrow = \\Leftrightarrow = . Mà 16 2 b a = do đó ta được 2 a = .",
@@ -28888,12 +28888,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
-        "A. $\\sqrt{6} - \\sqrt{2}$",
-        "B. $\\sqrt{6} + \\sqrt{2}$",
-        "C. $4\\sqrt{3} - 4$",
-        "D. $2\\sqrt{2}$"
+        "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
+        "B. $7\\text{ cm}$",
+        "C. $\\frac{7\\sqrt{2}}{2}\\text{ cm}$",
+        "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^\\circ Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^\\circ = \\Rightarrow = = = + ^\\circ . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
@@ -28908,14 +28908,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho ; ;c a b là độ dài 3 cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
+      "question": "Cho $a, b, c$ là độ dài ba cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
       "options": [
-        "A. 2 a ab ac < +",
-        "B. 2 2 2 2 a c b ac + < + .",
-        "C. 2 2 2 2 b c a bc + > + .",
-        "D. 2 ab bc b + > ."
+        "A. $a^2 < ab + ac$",
+        "B. $a^2 + c^2 < b^2 + 2ac$",
+        "C. $b^2 + c^2 > a^2 + 2bc$",
+        "D. $ab + bc > b^2$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Do 2 2 2 2 .cos 2 b c a bc A bc + - = \\le \\Rightarrow 2 2 2 2 b c a bc + \\le + nên mệnh đề C sai. Áp dụng bất đẳng thức tam giác ta có 2 a b c a ab ac < + \\Rightarrow < + ; mệnh đề A đúng. Tương tự 2 a c b ab bc b + > \\Rightarrow + > ;mệnh đề D đúng. Ta có: 2 2 2 2 .cos 2 a c b ac B ac + - = < 2 2 2 2 a c b ac \\Rightarrow + < + ;mệnh đề B đúng.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
@@ -28954,10 +28954,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
-        "A. 2 3 1 x x y x - = - .",
-        "B. 2 3 2 3 x y x + = - .",
-        "C. 2 2 3 2 x y x x - = - .",
-        "D. 2 1 3 x y x - = + ."
+        "A. 2 3 1 x x y x - = -",
+        "B. 2 3 2 3 x y x + = -",
+        "C. 2 2 3 2 x y x x - = -",
+        "D. 2 1 3 x y x - = +"
       ],
       "correctAnswer": 0,
       "explanation": "2 3 lim 1 x x x x \\to \\pm \\infty - = \\pm \\infty - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - không có đường tiệm cận ngang. 2 2 3 1 3 1 lim ; lim 2 3 2 2 3 2 x x x x x x \\to +\\infty \\to -\\infty + + = = - - - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - có hai đường tiệm cận ngang. 2 1 3 x y x - = + có tập xác định [ ] 1;1 - \\Rightarrow đồ thị hàm số không có đường tiệm cận ngang. 2 2 3 lim 0 2 x x x x \\to \\pm \\infty - = - \\Rightarrow Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y =",
@@ -29353,7 +29353,7 @@ export const QUESTIONS_DATA = {
         "A. $\\frac{1}{2}$",
         "B. $\\frac{1}{6}$",
         "C. $\\frac{1}{4}$",
-        "D. 1."
+        "D. 1"
       ],
       "correctAnswer": 0,
       "explanation": "( ) 2 2 2 1 1 1 1 x x f x x x x + + = = + + + + Tiệm cận xiên: 1 y x = + Tiệm cận xiên cắt Ox tại ( ) 1;0 A - , cắt Oy tại ( ) 0;1 B Tam giác OAB vuông cân nên có diện tích là 1 1 1 . .1.1 2 2 2 OA OB = =",
@@ -29394,10 +29394,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Trên (C) có 2 điểm sao cho khoảng cách từ điểm đó đến trục hoành bằng hai lần khoảng cách từ điểm đó đến trục tung. Gọi m là tổng hoành độ của hai điểm đó. Giá trị của m là",
       "options": [
-        "A. 3 2 - .",
+        "A. 3 2 -",
         "B. $\\frac{2}{2}$",
-        "C. 2 .",
-        "D. 0 ."
+        "C. 2",
+        "D. 0"
       ],
       "correctAnswer": 0,
       "explanation": "Khoảng cách từ ( ) , M x y đến trục hoành và trục tung lần lượt là | | y và | | x . Khoảng cách từ M đến trục hoành bằng 2 lần khoảng cách từ M đến trục tung | | 2 | | 2 y x y x \\Leftrightarrow = \\Leftrightarrow = \\pm . Bài toán trở thành tìm các giao điểm của đồ thị (C) với 2 đường thẳng 2 y x = và 2 y x = - . Giao của đồ thị (C) với đường thẳng 2 y x = ta có phương trình: 2 2 2 2 2 1 x x x x x + + = \\Leftrightarrow = \\pm + 2 \\Rightarrow giao điểm: ( ) ( ) 1 2 2, 2 2 ; 2, 2 2 M M - - Giao của đồ thị (C) với đường thẳng 2 y x = - ta có phương trình 2 2 2 2 2 3 4 2 0 1 x x x x x x + + - = \\Leftrightarrow + + = + (vô nghiệm) Vậy ( ) 2 2 0 m = + - =",
@@ -29658,10 +29658,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 98 đến 100:\nthực hiện công và truyển nhiệt. Nếu vật đồng thời nhận nhiệt và nhận công từ bên ngoài thì đểu làm tăng nội năng của vật. Theo định luật bảo toàn và chuyển hoá năng lượng thì độ biến thiên nội năng của vật bằng tổng công và nhiệt lượng mà vật nhận được: Δ𝑈 = 𝐴 + 𝑄 Trong đó: Δ𝑈 là độ biến thiên nội năng của vật. 𝐴 và 𝑄 là các giá trị đại số. o 𝑄 > 0: vật nhận nhiệt lượng; 𝑄 < 0: vật truyền nhiệt lượng. o 𝐴 > 0: vật nhận công; 𝐴 < 0: vật thực hiện công.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Nội năng phụ thuộc vào nhiệt độ của vật. (𝐼𝐼) Nội năng phụ thuộc vào thể tích của vật. (𝐼𝐼𝐼) Có hai cách để làm nội năng của vật thay đổi là thực hiện công và truyền nhiệt. (𝐼𝑉) Nội năng của vật là tổng động năng và thế năng của vật. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Phát biểu (𝐼), (𝐼𝐼)và (𝐼𝐼𝐼) là đúng.",
@@ -31621,7 +31621,7 @@ export const QUESTIONS_DATA = {
         "A. $\\frac{1}{2}$",
         "B. $\\frac{1}{6}$",
         "C. $\\frac{1}{4}$",
-        "D. 1."
+        "D. 1"
       ],
       "correctAnswer": 0,
       "explanation": "( ) 2 2 2 1 1 1 1 x x f x x x x + + = = + + + + Tiệm cận xiên: 1 y x = + Tiệm cận xiên cắt Ox tại ( ) 1;0 A - , cắt Oy tại ( ) 0;1 B Tam giác OAB vuông cân nên có diện tích là 1 1 1 . .1.1 2 2 2 OA OB = =",
@@ -31662,10 +31662,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Trên (C) có 2 điểm sao cho khoảng cách từ điểm đó đến trục hoành bằng hai lần khoảng cách từ điểm đó đến trục tung. Gọi m là tổng hoành độ của hai điểm đó. Giá trị của m là",
       "options": [
-        "A. 3 2 - .",
+        "A. 3 2 -",
         "B. $\\frac{2}{2}$",
-        "C. 2 .",
-        "D. 0 ."
+        "C. 2",
+        "D. 0"
       ],
       "correctAnswer": 0,
       "explanation": "Khoảng cách từ ( ) , M x y đến trục hoành và trục tung lần lượt là | | y và | | x . Khoảng cách từ M đến trục hoành bằng 2 lần khoảng cách từ M đến trục tung | | 2 | | 2 y x y x \\Leftrightarrow = \\Leftrightarrow = \\pm . Bài toán trở thành tìm các giao điểm của đồ thị (C) với 2 đường thẳng 2 y x = và 2 y x = - . Giao của đồ thị (C) với đường thẳng 2 y x = ta có phương trình: 2 2 2 2 2 1 x x x x x + + = \\Leftrightarrow = \\pm + 2 \\Rightarrow giao điểm: ( ) ( ) 1 2 2, 2 2 ; 2, 2 2 M M - - Giao của đồ thị (C) với đường thẳng 2 y x = - ta có phương trình 2 2 2 2 2 3 4 2 0 1 x x x x x x + + - = \\Leftrightarrow + + = + (vô nghiệm) Vậy ( ) 2 2 0 m = + - =",
@@ -31770,14 +31770,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong mặt phẳng với hệ tọa độ Oxy , cho hình vuông ABCD có diện tích bằng 36, đường thẳng chứa cạnh AB song song với trục Ox , các đỉnh , A B và C lần lượt nằm trên đồ thị của các hàm số log , log a a y x y x = = và 3 log a y x = với a là số thực lớn hơn 1. Tìm a .",
+      "question": "Trong mặt phẳng với hệ tọa độ $Oxy$, cho hình vuông $ABCD$ có diện tích bằng 36, đường thẳng chứa cạnh $AB$ song song với trục $Ox$, các đỉnh $A, B$ và $C$ lần lượt nằm trên đồ thị của các hàm số $y = \\log_a x$, $y = \\log_{\\sqrt{a}} x$ và $y = \\log_{\\sqrt[3]{a}} x$ với $a > 1$. Tìm $a$:",
       "options": [
-        "A. 3 a =",
-        "B. 3 6 a =",
-        "C. 6 a =",
-        "D. 6 3 a ="
+        "A. $a = \\sqrt{3}$",
+        "B. $a = \\sqrt[3]{6}$",
+        "C. $a = 6$",
+        "D. $a = 3$"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": "AB song song với trục Ox có nghĩa có cùng tung độ do đó: ( ) ( ) , , ,m m A a m B a m . Chú ý rằng nếu AB song song với trục Ox thì BC vuông góc với trục Ox có nghĩa có cùng hoành độ do vậy ta có 3 , 2 m m C a \\left( \\right) \\left( \\right) \\left( \\right) bởi 3 3 log 2 m a m a = . Vì hình vuông ABCD có diện tích bằng 36 nên có 3 6 6 12 2 m m m AB BC a a m m = = \\Leftrightarrow - = - = \\Leftrightarrow = \\pm . Nếu 12 m = - thì 12 6 6 1 1 1 6 1 3 a a a - = \\Leftrightarrow = < vô lý. Chọn D .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
@@ -31814,7 +31814,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác ABC có ; ; BC a CA b BA c = = = và diện tích là S . Biết 2 2 ( ) S b a c = - - . Giá trị của tan 2 B là",
+      "question": "Cho tam giác $ABC$ có $BC = a, CA = b, AB = c$ và diện tích là $S$. Biết $S = b^2 - (a - c)^2$. Giá trị của $\\tan \\frac{B}{2}$ là:",
       "options": [
         "A. $\\frac{1}{4}$",
         "B. $\\frac{1}{2}$",
@@ -31882,10 +31882,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có đạo hàm $f'(x) = (x + 1)^2 (x - 2)(x^2 - mx + m + 6)$. Có bao nhiêu số nguyên $m$ để hàm số $y = f(x)$ có đúng hai điểm cực trị?",
       "options": [
-        "A. 4.",
-        "B. 5.",
-        "C. 7.",
-        "D. 6."
+        "A. 4",
+        "B. 5",
+        "C. 7",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có ( ) ( )( )( ) ( ) 2 2 2 2 1 2 6 0 1 2 6 0 1 x f x x x x mx m x x mx m [ = - = + - - + + = \\Leftrightarrow = - + + = ] ' Xét các trường hợp sau: +) Trường hợp 1: Phương trình (1) vô nghiệm 2 Δ 6 0 2 3 m m m \\Leftrightarrow = - - < \\Leftrightarrow - < < . Hàm số ( ) y f x = có đúng hai điểm cực trị là 1; 2 x x = = - . +) Trường hợp 2: Phương trình (1) có nghiệm kép 2 2 Δ 6 0 3 m m m m = - [ \\Leftrightarrow = - - = \\Leftrightarrow = ] . \\bullet Với 2 m = - thì ( ) ( )( )( ) ( )2 3 2 1 4 4 1 ( 2) f x x x x x x x ' = + - + + = - + . Hàm số ( ) y f x = có đúng 2 điểm cực trị là 1; 2 x x = = - . \\bullet Với 3 m = thì ( ) ( )( ) 2 2 1 ( 3) f x x x x = + - - ' . Hàm số ( ) y f x = có đúng 2 điểm cực trị là 1; 2 x x = = - . +) Trường hợp 3: 1 x = là nghiệm của (1) 7 m \\Rightarrow = . Khi đó, ( ) ( )( )( ) ( ) ( )2 2 2 1 14 13 2 ( 1) 13 f x x x x x x x x = + - - + = + - - ' Hàm số ( ) y f x = có đúng 2 điểm cực trị là 2; 13 x x = - = . +) Trường hợp 4: 2 x = - là một nghiệm của (1) 2 m \\Rightarrow = - . Khi đó, ( ) ( )( )( ) ( )2 3 2 1 4 4 1 ( 2) f x x x x x x x ' = + - + + = - + +) Trường hợp 5: Phương trình (1) có hai nghiệm phân biệt khác 1 và -2 Δ 0 3; 2 2; 7 7 m m m m m > > < - \\Leftrightarrow \\Leftrightarrow \\ne - \\ne \\ne . Khi đó, PT: ( ) 0 f x ' = sẽ có 4 nghiệm phân biệt. ⇒ Hàm số ( ) y f x = có 4 điểm cực trị (loại) Vậy, tập hợp các giá trị nguyên của tham số m là \\{ \\} 2; 1;0;1; 2;3; 7 - - .",
@@ -31902,14 +31902,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Có bao nhiêu giá trị nguyên của tham số m để đồ thị của hàm số 2 1 8 2 x y mx x - = - + có đúng bốn đường tiệm cận?",
+      "question": "Có bao nhiêu giá trị nguyên của tham số $m$ để đồ thị hàm số $y = \\frac{x - 1}{\\sqrt{mx^2 - 8x + 2}}$ có đúng bốn đường tiệm cận?",
       "options": [
-        "A. 8.",
-        "B. 6.",
-        "C. 7.",
-        "D. Vô số."
+        "A. 8",
+        "B. 6",
+        "C. 7",
+        "D. Vô số"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Nhận thấy để đồ thị có đúng bốn đường tiệm cận thì phải có 2 TCN và 2 TCN Dùng quy tắc tương đương để tìm điêu kiện của m Khi x \\infty \\to thì 2 1 8 2 x y mx x - = - + es 2 x x x m mx = Vậy 0 m \\ge Nếu 0 m = thì 1 8 2 x y x - = - + TXĐ: 1 ; 4 D \\infty \\left( \\right) = - \\left( \\right) \\left( \\right) , khi đó chỉ có 1 TCN. Vậy 0 m = không thỏa. Nếu: 0 m > thì 1 1 lim , lim x x y y m m \\infty \\infty \\to - \\to + = - = \\Rightarrow có 2 TCN. Đồ thị có đúng 4 đường tiệm cận ⇔ đồ thị có đúng 2 đường tiệm cận đứng 2 8 2 0 mx x \\Leftrightarrow - + = có hai nghiệm phân biệt khác 16 2 0 8 1 8 2 0 6 m m m m - > < \\Leftrightarrow \\Leftrightarrow - + \\ne \\ne Kết hợp với 0, m m > \\in ta được \\{ \\} 1; 2;3; 4;5;7 m \\in",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -31926,10 +31926,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Biết rằng $\\lim_{x \\to 3} \\frac{\\sqrt{2x + 3} - 3}{x - 3} = \\frac{a}{b}$ với $a, b$ là các số nguyên dương, phân số $\\frac{a}{b}$ tối giản. Giá trị của $a + b$ bằng:",
       "options": [
-        "A. 5.",
-        "B. 6.",
-        "C. 7.",
-        "D. 8."
+        "A. 5",
+        "B. 6",
+        "C. 7",
+        "D. 8"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: ( ) ( )( ) ( )3 2 3 2 3 3 3 2 3 3 2 3 3 2 6 3 lim lim lim 3 3 3 3 3 3 x x x x x x x x x x x \\to - \\to - \\to - + - + + = = = - - - + . Suy ra 3 6 a b a b = = \\Rightarrow + = .",
@@ -31945,7 +31945,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 82 và 83:\n, : 1 2 3 2 1 2 x y z x y z d d - + - + + = = = = - và 2 2 3 : 1 3 2 x y z d + - = = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai đường thẳng $d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$ và $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$, cùng đường thẳng $d: \\frac{x-5}{1} = \\frac{y+7}{-2} = \\frac{z-3}{3}$.",
       "question": "Viết phương trình mặt phẳng $(P)$ chứa đường thẳng $d$ và song song với đường thẳng $d_1$:",
       "options": [
         "A. 7x - 8y - 3z + 100 = 0",
@@ -31967,7 +31967,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 82 và 83:\n, : 1 2 3 2 1 2 x y z x y z d d - + - + + = = = = - và 2 2 3 : 1 3 2 x y z d + - = = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai đường thẳng $d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$ và $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$, cùng đường thẳng $d: \\frac{x-5}{1} = \\frac{y+7}{-2} = \\frac{z-3}{3}$.",
       "question": "Gọi $\\Delta$ là đường thẳng song song với $d$ đồng thời cắt cả hai đường thẳng $d_1$ và $d_2$. Đường thẳng $\\Delta$ đi qua điểm nào sau đây:",
       "options": [
         "A. (-3; -12; 10)",
@@ -31989,15 +31989,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 84 và 85:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
-      "question": "Biết 4095 2048 n S = , tìm n .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số nhân $(u_n)$ có $u_1 = 1$ và công bội $q = \\frac{1}{2}$.",
+      "question": "Biết $S_n = \\frac{4095}{2048}$, tìm $n$.",
       "options": [
         "A. $n = 10$",
         "B. $n = 13$",
         "C. $n = 12$",
         "D. $n = 11$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Ta có 1 1 1 2 4095 1 4095 1 1 1 12 1 2048 2 4096 2 40961 2 n n n n S n \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right)= = \\Rightarrow - = \\Rightarrow = \\Rightarrow = \\left( \\right) \\left( \\right) -",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
@@ -32011,7 +32011,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 84 và 85:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số nhân $(u_n)$ có $u_1 = 1$ và công bội $q = \\frac{1}{2}$.",
       "question": "Tính $S = u_1 + 2u_2 + 3u_3 + \\dots + 2025u_{2025}$:",
       "options": [
         "A. $S = 2025 \\cdot 4^{2027} - 2$",
@@ -32077,13 +32077,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
-      "question": "Phương trình đường thẳng đi qua M và song song với BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
+      "question": "Phương trình đường thẳng đi qua $M$ và song song với $BC$ là:",
       "options": [
-        "A. 5 11 0 x y - - = .",
-        "B. 5 11 0 x y - + = .",
-        "C. 5 11 0 x y + - = .",
-        "D. 5 11 0 x y + + = ."
+        "A. $x - 5y + 1 = 0$",
+        "B. $x - 5y - 1 = 0$",
+        "C. $5x - y + 29 = 0$",
+        "D. $x + 5y + 11 = 0$"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi d là đường thẳng đi qua M và song song với BC , khi đó d có vectơ pháp tuyến ( ) 1; 5 n = - Suy ra phương trình đường thẳng của ( ) ( )( ) : 6 5 1 0 : 5 11 0 d x y d x y - + - + = \\Rightarrow - - =",
@@ -32099,13 +32099,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
-      "question": "Phương trình đường trung trực của BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
+      "question": "Phương trình đường trung trực của đoạn thẳng $BC$ là:",
       "options": [
-        "A. 5 3 0 x y + - = .",
-        "B. 5 3 0 x y + + = .",
-        "C. 5 3 0 x y - - = .",
-        "D. 5 3 0 x y - + = ."
+        "A. $5x + y - 3 = 0$",
+        "B. $5x - y + 13 = 0$",
+        "C. $x + 5y - 7 = 0$",
+        "D. $5x + y + 3 = 0$"
       ],
       "correctAnswer": 0,
       "explanation": "Tọa độ giao điểm N của d và AB là nghiệm của hệ: ( ) 5 11 0 4 4; 3 3 2 6 0 3 x y x N x y y - - = = - \\Leftrightarrow \\Rightarrow - - - + = = - Đường trung trực của BC cũng chính là đường trung trực của MN Tam giác ABC cân tại A nên A nằm trên đường trung trực của MN . Đường trung trực của MN đi qua trung điểm ( ) 1; 2 I - và nhận ( ) 10; 2 MN = - - làm vectơ pháp tuyến nên có phương trình: ( )( ) ( )( ) 10 1 2 2 0 5 3 0 x y x y - - + - + = \\Leftrightarrow + - =",
@@ -32121,7 +32121,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
       "question": "Gọi tọa độ điểm $C(x_C; y_C)$. Tổng $x_C + y_C$ bằng:",
       "options": [
         "A. 4",
@@ -32129,7 +32129,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. -3"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Tọa độ điểm A là nghiệm của hệ ( ) 3 2 6 0 0 0;3 5 3 0 3 x y x A x y y - + = = \\Leftrightarrow \\Rightarrow + - = = Đường thẳng chứa cạnh AC đi qua điểm ( ) 0;3 A và nhận ( ) 6; 4 AM = - làm vectơ chỉ phương nên có phương trình là: 6 3 4 x t AC y t = \\Rightarrow = - có phương trình tổng quát là 2 3 9 0 x y + - = . Khi đó tọa độ điểm C là nghiệm của hệ ( ) 5 2 0 3 3;1 4 2 3 9 0 1 C C x y x C x y x y y - + = = \\Leftrightarrow \\Rightarrow \\Rightarrow + = + - = = .",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
@@ -34150,10 +34150,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có đạo hàm $f'(x) = (x + 1)^2 (x - 2)(x^2 - mx + m + 6)$. Có bao nhiêu số nguyên $m$ để hàm số $y = f(x)$ có đúng hai điểm cực trị?",
       "options": [
-        "A. 4.",
-        "B. 5.",
-        "C. 7.",
-        "D. 6."
+        "A. 4",
+        "B. 5",
+        "C. 7",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có ( ) ( )( )( ) ( ) 2 2 2 2 1 2 6 0 1 2 6 0 1 x f x x x x mx m x x mx m [ = - = + - - + + = \\Leftrightarrow = - + + = ] ' Xét các trường hợp sau: +) Trường hợp 1: Phương trình (1) vô nghiệm 2 Δ 6 0 2 3 m m m \\Leftrightarrow = - - < \\Leftrightarrow - < < . Hàm số ( ) y f x = có đúng hai điểm cực trị là 1; 2 x x = = - . +) Trường hợp 2: Phương trình (1) có nghiệm kép 2 2 Δ 6 0 3 m m m m = - [ \\Leftrightarrow = - - = \\Leftrightarrow = ] . \\bullet Với 2 m = - thì ( ) ( )( )( ) ( )2 3 2 1 4 4 1 ( 2) f x x x x x x x ' = + - + + = - + . Hàm số ( ) y f x = có đúng 2 điểm cực trị là 1; 2 x x = = - . \\bullet Với 3 m = thì ( ) ( )( ) 2 2 1 ( 3) f x x x x = + - - ' . Hàm số ( ) y f x = có đúng 2 điểm cực trị là 1; 2 x x = = - . +) Trường hợp 3: 1 x = là nghiệm của (1) 7 m \\Rightarrow = . Khi đó, ( ) ( )( )( ) ( ) ( )2 2 2 1 14 13 2 ( 1) 13 f x x x x x x x x = + - - + = + - - ' Hàm số ( ) y f x = có đúng 2 điểm cực trị là 2; 13 x x = - = . +) Trường hợp 4: 2 x = - là một nghiệm của (1) 2 m \\Rightarrow = - . Khi đó, ( ) ( )( )( ) ( )2 3 2 1 4 4 1 ( 2) f x x x x x x x ' = + - + + = - + +) Trường hợp 5: Phương trình (1) có hai nghiệm phân biệt khác 1 và -2 Δ 0 3; 2 2; 7 7 m m m m m > > < - \\Leftrightarrow \\Leftrightarrow \\ne - \\ne \\ne . Khi đó, PT: ( ) 0 f x ' = sẽ có 4 nghiệm phân biệt. ⇒ Hàm số ( ) y f x = có 4 điểm cực trị (loại) Vậy, tập hợp các giá trị nguyên của tham số m là \\{ \\} 2; 1;0;1; 2;3; 7 - - .",
@@ -34170,14 +34170,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Có bao nhiêu giá trị nguyên của tham số m để đồ thị của hàm số 2 1 8 2 x y mx x - = - + có đúng bốn đường tiệm cận?",
+      "question": "Có bao nhiêu giá trị nguyên của tham số $m$ để đồ thị hàm số $y = \\frac{x - 1}{\\sqrt{mx^2 - 8x + 2}}$ có đúng bốn đường tiệm cận?",
       "options": [
-        "A. 8.",
-        "B. 6.",
-        "C. 7.",
-        "D. Vô số."
+        "A. 8",
+        "B. 6",
+        "C. 7",
+        "D. Vô số"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Nhận thấy để đồ thị có đúng bốn đường tiệm cận thì phải có 2 TCN và 2 TCN Dùng quy tắc tương đương để tìm điêu kiện của m Khi x \\infty \\to thì 2 1 8 2 x y mx x - = - + es 2 x x x m mx = Vậy 0 m \\ge Nếu 0 m = thì 1 8 2 x y x - = - + TXĐ: 1 ; 4 D \\infty \\left( \\right) = - \\left( \\right) \\left( \\right) , khi đó chỉ có 1 TCN. Vậy 0 m = không thỏa. Nếu: 0 m > thì 1 1 lim , lim x x y y m m \\infty \\infty \\to - \\to + = - = \\Rightarrow có 2 TCN. Đồ thị có đúng 4 đường tiệm cận ⇔ đồ thị có đúng 2 đường tiệm cận đứng 2 8 2 0 mx x \\Leftrightarrow - + = có hai nghiệm phân biệt khác 16 2 0 8 1 8 2 0 6 m m m m - > < \\Leftrightarrow \\Leftrightarrow - + \\ne \\ne Kết hợp với 0, m m > \\in ta được \\{ \\} 1; 2;3; 4;5;7 m \\in",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
@@ -34194,10 +34194,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Biết rằng $\\lim_{x \\to 3} \\frac{\\sqrt{2x + 3} - 3}{x - 3} = \\frac{a}{b}$ với $a, b$ là các số nguyên dương, phân số $\\frac{a}{b}$ tối giản. Giá trị của $a + b$ bằng:",
       "options": [
-        "A. 5.",
-        "B. 6.",
-        "C. 7.",
-        "D. 8."
+        "A. 5",
+        "B. 6",
+        "C. 7",
+        "D. 8"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: ( ) ( )( ) ( )3 2 3 2 3 3 3 2 3 3 2 3 3 2 6 3 lim lim lim 3 3 3 3 3 3 x x x x x x x x x x x \\to - \\to - \\to - + - + + = = = - - - + . Suy ra 3 6 a b a b = = \\Rightarrow + = .",
@@ -34213,7 +34213,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 65 và 66:\n, : 1 2 3 2 1 2 x y z x y z d d - + - + + = = = = - và 2 2 3 : 1 3 2 x y z d + - = = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai đường thẳng $d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$ và $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$, cùng đường thẳng $d: \\frac{x-5}{1} = \\frac{y+7}{-2} = \\frac{z-3}{3}$.",
       "question": "Viết phương trình mặt phẳng $(P)$ chứa đường thẳng $d$ và song song với đường thẳng $d_1$:",
       "options": [
         "A. 7x - 8y - 3z + 100 = 0",
@@ -34235,7 +34235,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 65 và 66:\n, : 1 2 3 2 1 2 x y z x y z d d - + - + + = = = = - và 2 2 3 : 1 3 2 x y z d + - = = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai đường thẳng $d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$ và $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$, cùng đường thẳng $d: \\frac{x-5}{1} = \\frac{y+7}{-2} = \\frac{z-3}{3}$.",
       "question": "Gọi $\\Delta$ là đường thẳng song song với $d$ đồng thời cắt cả hai đường thẳng $d_1$ và $d_2$. Đường thẳng $\\Delta$ đi qua điểm nào sau đây:",
       "options": [
         "A. (-3; -12; 10)",
@@ -34257,15 +34257,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 67 và 68:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
-      "question": "Biết 4095 2048 n S = , tìm n .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số nhân $(u_n)$ có $u_1 = 1$ và công bội $q = \\frac{1}{2}$.",
+      "question": "Biết $S_n = \\frac{4095}{2048}$, tìm $n$.",
       "options": [
         "A. $n = 10$",
         "B. $n = 13$",
         "C. $n = 12$",
         "D. $n = 11$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Ta có 1 1 1 2 4095 1 4095 1 1 1 12 1 2048 2 4096 2 40961 2 n n n n S n \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right)= = \\Rightarrow - = \\Rightarrow = \\Rightarrow = \\left( \\right) \\left( \\right) -",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
@@ -34279,7 +34279,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 67 và 68:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số nhân $(u_n)$ có $u_1 = 1$ và công bội $q = \\frac{1}{2}$.",
       "question": "Tính $S = u_1 + 2u_2 + 3u_3 + \\dots + 2025u_{2025}$:",
       "options": [
         "A. $S = 2025 \\cdot 4^{2027} - 2$",
@@ -34345,13 +34345,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 73:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
-      "question": "Phương trình đường thẳng đi qua M và song song với BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
+      "question": "Phương trình đường thẳng đi qua $M$ và song song với $BC$ là:",
       "options": [
-        "A. 5 11 0 x y - - = .",
-        "B. 5 11 0 x y - + = .",
-        "C. 5 11 0 x y + - = .",
-        "D. 5 11 0 x y + + = ."
+        "A. $x - 5y + 1 = 0$",
+        "B. $x - 5y - 1 = 0$",
+        "C. $5x - y + 29 = 0$",
+        "D. $x + 5y + 11 = 0$"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi d là đường thẳng đi qua M và song song với BC , khi đó d có vectơ pháp tuyến ( ) 1; 5 n = - Suy ra phương trình đường thẳng của ( ) ( )( ) : 6 5 1 0 : 5 11 0 d x y d x y - + - + = \\Rightarrow - - =",
@@ -34367,13 +34367,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 73:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
-      "question": "Phương trình đường trung trực của BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
+      "question": "Phương trình đường trung trực của đoạn thẳng $BC$ là:",
       "options": [
-        "A. 5 3 0 x y + - = .",
-        "B. 5 3 0 x y + + = .",
-        "C. 5 3 0 x y - - = .",
-        "D. 5 3 0 x y - + = ."
+        "A. $5x + y - 3 = 0$",
+        "B. $5x - y + 13 = 0$",
+        "C. $x + 5y - 7 = 0$",
+        "D. $5x + y + 3 = 0$"
       ],
       "correctAnswer": 0,
       "explanation": "Tọa độ giao điểm N của d và AB là nghiệm của hệ: ( ) 5 11 0 4 4; 3 3 2 6 0 3 x y x N x y y - - = = - \\Leftrightarrow \\Rightarrow - - - + = = - Đường trung trực của BC cũng chính là đường trung trực của MN Tam giác ABC cân tại A nên A nằm trên đường trung trực của MN . Đường trung trực của MN đi qua trung điểm ( ) 1; 2 I - và nhận ( ) 10; 2 MN = - - làm vectơ pháp tuyến nên có phương trình: ( )( ) ( )( ) 10 1 2 2 0 5 3 0 x y x y - - + - + = \\Leftrightarrow + - =",
@@ -34389,7 +34389,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 71 đến 73:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
       "question": "Gọi tọa độ điểm $C(x_C; y_C)$. Tổng $x_C + y_C$ bằng:",
       "options": [
         "A. 4",
@@ -34397,7 +34397,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. -3"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Tọa độ điểm A là nghiệm của hệ ( ) 3 2 6 0 0 0;3 5 3 0 3 x y x A x y y - + = = \\Leftrightarrow \\Rightarrow + - = = Đường thẳng chứa cạnh AC đi qua điểm ( ) 0;3 A và nhận ( ) 6; 4 AM = - làm vectơ chỉ phương nên có phương trình là: 6 3 4 x t AC y t = \\Rightarrow = - có phương trình tổng quát là 2 3 9 0 x y + - = . Khi đó tọa độ điểm C là nghiệm của hệ ( ) 5 2 0 3 3;1 4 2 3 9 0 1 C C x y x C x y x y y - + = = \\Leftrightarrow \\Rightarrow \\Rightarrow + = + - = = .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
@@ -34590,10 +34590,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Tổng các giá trị của m để đồ thị hàm số ( C ) có hai điểm cực trị , A B sao cho diện tích tam giác OAB bằng 2 ( O là gốc tọa độ) là",
       "options": [
-        "A. 1.",
-        "B. 0.",
+        "A. 1",
+        "B. 0",
         "C. 2",
-        "D. -1."
+        "D. -1"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 2 0 3 6 0 2 x y x mx y x m = [ = + \\Rightarrow = \\Leftrightarrow = - ' ] ' Để hàm số có cực đại, cực tiểu thì phương trình 0 y' = có hai nghiệm phân biệt 0 m \\Leftrightarrow \\ne Khi đó, tọa độ các điểm cực trị là: ( ) ( )3 0; 2 ; 2 ; 4 2 A B m m - + ( ) ( ) 1 1 1 ; 2 ; 2 2 2 1 2 OAB m S OA d B OA d B OA m m = [ = \\Leftrightarrow \\cdot = \\Leftrightarrow = \\Leftrightarrow - = \\Leftrightarrow = - ] (thỏa mãn) Vậy với 1 m = \\pm thì hàm số có 2 cực trị thỏa mãn đề bài.",
@@ -34720,12 +34720,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho ba số thực dương a , b , c đều khác 1 thỏa mãn log 2log 4log a b c b c a = = và 2 3 48 a b c + + = . Khi đó P abc = bằng bao nhiêu?",
+      "question": "Cho ba số thực dương $a, b, c$ đều khác 1 thỏa mãn $\\log_a b = 2\\log_b c = 4\\log_c a$ và $a + 2b + 3c = 48$. Khi đó $P = abc$ bằng bao nhiêu?",
       "options": [
-        "A. 324 .",
-        "B. 243.",
-        "C. 521.",
-        "D. 512 ."
+        "A. 324",
+        "B. 243",
+        "C. 521",
+        "D. 512"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B Do a , b , c đều khác 1 nên loga b , logb c và logc a đều khác 0 . Ta có 2 log 2 log log .log 2 log log 2 log a b a c b a b b c c b c c c = \\Leftrightarrow = \\Leftrightarrow = và 2 log 4 log log .log 4 log log 4 log a c a c c c c b a c b a b a = \\Leftrightarrow = \\Leftrightarrow = . Suy ra 2 2 log .log 8log .log log 2 a c b c a c b c a b = \\Leftrightarrow = . Do đó 2 b a = và log 2log 2 a b b c b c = = \\Rightarrow = . Theo giả thiết 2 16 2 3 48 5 48 0 5 3 a a b c a a a [ = - + + = \\Leftrightarrow + - = \\Leftrightarrow = ] . Do các số a , b , c dương nên 3 9 a b c = \\Rightarrow = = , vậy 243 P abc = = .",
@@ -35357,13 +35357,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 111 đến 119:\nđồng/kWh), chưa tính thuế giá trị gia tăng VAT (10% so với giá trị hóa đơn gốc) Mức tính Giá cũ: áp dụng từ ngày 1/1/2023 Giá mới: áp dụng từ ngày 8/9/2024 kWh từ 0 đến 50 1450 1780 kWh từ 51 đến 100 1556 2000 kWh từ 101 đến 200 1985 2150 kWh từ 201 đến 300 2200 2550 kWh từ 301 đến 400 2570 2990 kWh từ 401 trở lên 2800 3460",
-      "question": "Trong giai đoạn khắc mạch bằng 2 2 H O và HCl, người ta quan sát thấy tốc độ thoát khí tăng lên đột ngột khi dung dịch bắt đầu chuyển sang màu xanh đặc trưng. Nguyên nhân chính của hiện tượng này là gì?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong công nghệ sản xuất mạch in (PCB), dung dịch ăn mòn đồng thường sử dụng hỗn hợp $\\text{H}_2\\text{O}_2$ và $\\text{HCl}$. Phản ứng ăn mòn xảy ra theo phương trình: $\\text{Cu} + \\text{H}_2\\text{O}_2 + 2\\text{HCl} \\rightarrow \\text{CuCl}_2 + 2\\text{H}_2\\text{O}$.",
+      "question": "Trong giai đoạn khắc mạch bằng $\\text{H}_2\\text{O}_2$ và $\\text{HCl}$, người ta quan sát thấy tốc độ thoát khí tăng lên đột ngột khi dung dịch bắt đầu chuyển sang màu xanh đặc trưng. Nguyên nhân chính của hiện tượng này là gì?",
       "options": [
-        "A. Do phản ứng sinh ra khí 2 H mạnh khi acid tiếp xúc kim loại.",
-        "B. Do ion 2+ Cu sinh ra đóng vai trò chất xúc tác làm 2 2 H O phân hủy nhanh tạo ra khí 2 O .",
+        "A. Do nồng độ $\\text{H}_2\\text{O}_2$ tăng cao dần về cuối phản ứng.",
+        "B. Do ion $\\text{Cu}^{2+}$ sinh ra đóng vai trò chất xúc tác làm $\\text{H}_2\\text{O}_2$ phân hủy nhanh tạo ra khí $\\text{O}_2$.",
         "C. Do nhiệt độ dung dịch giảm xuống làm khí ít tan và thoát ra ngoài.",
-        "D. Do nồng độ HCl tăng cao về cuối phản ứng."
+        "D. Do nồng độ $\\text{HCl}$ tăng cao về cuối phản ứng."
       ],
       "correctAnswer": 1,
       "explanation": "Đáp án B Phản ứng ăn mòn kim loại và phản ứng phân hủy H2O2 đều là các phản ứng tỏa nhiệt (Exothermic). Do đó, nhiệt độ dung dịch sẽ tăng lên (nóng lên) chứ không phải giảm xuống. Mặc dù nhiệt độ tăng làm độ tan của khí giảm, nhưng nguyên nhân chính của việc \"sủi bọt mạnh đột ngột\" là do lượng khí O2 được sinh ra ồ ạt từ phản ứng phân hủy, chứ không chỉ đơn thuần là khí cũ thoát ra do nóng.",
@@ -35426,10 +35426,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 120:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^\\circ\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Phát biểu (𝐼), (𝐼𝐼) và (𝐼𝐼𝐼) là phát biểu đúng.",
@@ -36858,10 +36858,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Tổng các giá trị của m để đồ thị hàm số ( C ) có hai điểm cực trị , A B sao cho diện tích tam giác OAB bằng 2 ( O là gốc tọa độ) là",
       "options": [
-        "A. 1.",
-        "B. 0.",
+        "A. 1",
+        "B. 0",
         "C. 2",
-        "D. -1."
+        "D. -1"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 2 0 3 6 0 2 x y x mx y x m = [ = + \\Rightarrow = \\Leftrightarrow = - ' ] ' Để hàm số có cực đại, cực tiểu thì phương trình 0 y' = có hai nghiệm phân biệt 0 m \\Leftrightarrow \\ne Khi đó, tọa độ các điểm cực trị là: ( ) ( )3 0; 2 ; 2 ; 4 2 A B m m - + ( ) ( ) 1 1 1 ; 2 ; 2 2 2 1 2 OAB m S OA d B OA d B OA m m = [ = \\Leftrightarrow \\cdot = \\Leftrightarrow = \\Leftrightarrow - = \\Leftrightarrow = - ] (thỏa mãn) Vậy với 1 m = \\pm thì hàm số có 2 cực trị thỏa mãn đề bài.",
@@ -36988,12 +36988,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho ba số thực dương a , b , c đều khác 1 thỏa mãn log 2log 4log a b c b c a = = và 2 3 48 a b c + + = . Khi đó P abc = bằng bao nhiêu?",
+      "question": "Cho ba số thực dương $a, b, c$ đều khác 1 thỏa mãn $\\log_a b = 2\\log_b c = 4\\log_c a$ và $a + 2b + 3c = 48$. Khi đó $P = abc$ bằng bao nhiêu?",
       "options": [
-        "A. 324 .",
-        "B. 243.",
-        "C. 521.",
-        "D. 512 ."
+        "A. 324",
+        "B. 243",
+        "C. 521",
+        "D. 512"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B Do a , b , c đều khác 1 nên loga b , logb c và logc a đều khác 0 . Ta có 2 log 2 log log .log 2 log log 2 log a b a c b a b b c c b c c c = \\Leftrightarrow = \\Leftrightarrow = và 2 log 4 log log .log 4 log log 4 log a c a c c c c b a c b a b a = \\Leftrightarrow = \\Leftrightarrow = . Suy ra 2 2 log .log 8log .log log 2 a c b c a c b c a b = \\Leftrightarrow = . Do đó 2 b a = và log 2log 2 a b b c b c = = \\Rightarrow = . Theo giả thiết 2 16 2 3 48 5 48 0 5 3 a a b c a a a [ = - + + = \\Leftrightarrow + - = \\Leftrightarrow = ] . Do các số a , b , c dương nên 3 9 a b c = \\Rightarrow = = , vậy 243 P abc = = .",
@@ -37056,10 +37056,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
-        "A. 7 3 cm 3 .",
-        "B. 7 cm .",
-        "C. 7 2 cm 2 .",
-        "D. 7 5 cm 5 ."
+        "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
+        "B. $7\\text{ cm}$",
+        "C. $\\frac{7\\sqrt{2}}{2}\\text{ cm}$",
+        "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 2 1 2 cos 8 5 2 8 5 64 25 40 49 7 2 a b c bc A a cm = + - = + - \\cdot \\cdot \\cdot = + - = \\Rightarrow = Bán kính đường tròn ngoại tiếp R : 7 7 7 3 2 cm. sin 2sin 3 3 3 2 2 a a R R A A = \\Rightarrow = = = = \\cdot",
@@ -37079,7 +37079,7 @@ export const QUESTIONS_DATA = {
       "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^\\circ$. Tính $BC$:",
       "options": [
         "A. $\\frac{3}{3}$",
-        "B. 3 .",
+        "B. 3",
         "C. $\\frac{6}{3}$",
         "D. $\\frac{6}{2}$"
       ],
@@ -37120,12 +37120,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tiếp tuyến của đồ thị hàm số 4 3 2 1 x y x - = + cùng với 2 tiệm cận tạo thành một tam giác có diện tích bằng:",
+      "question": "Tiếp tuyến của đồ thị hàm số $y = \\frac{4x - 3}{2x + 1}$ cùng với hai đường tiệm cận tạo thành một tam giác có diện tích bằng:",
       "options": [
-        "A. 6 .",
-        "B. 7 .",
-        "C. 5 .",
-        "D. 4 ."
+        "A. 6",
+        "B. 7",
+        "C. 5",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C Gọi ( ) 0 0 ; M x y là điểm nằm trên đồ thị hàm số, 0 1 2 x \\ne - . ( )2 10 2 1 y x ' = + Phương trình tiếp tuyến tại M : ( ) 0 0 0 ( ) y f x x x y ' = - + ( ) ( ) 0 0 2 0 0 4 3 10 2 1 2 1 x y x x x x - \\Rightarrow = - + + + Tiệm cận đứng: 1 2 x = - , tiệm cận ngang: 2 y = Gọi A là giao điểm của tiếp tuyến với tiệm cận đứng 1 2 A x \\Rightarrow = - ( ) 0 0 0 2 0 0 0 4 3 4 8 10 1 2 2 1 2 1 2 1 A x x y x x x x - - \\left( \\right) \\Rightarrow = - - + = \\left( \\right) + + \\left( \\right) + . Vậy 0 0 4 8 1 ; 2 2 1 x A x \\left( \\right) - - \\left( \\right) + \\left( \\right) Gọi B là giao điểm của tiếp tuyến với tiệm cận ngang 2 B y \\Rightarrow = ( ) ( ) 0 0 2 0 0 4 3 10 2 2 1 2 1 B x x x x x - \\Rightarrow = - + + + 0 1 2 2 B x x \\Rightarrow = + . Vậy 0 4 1; 2 2 x B + \\left( \\right) \\left( \\right) \\left( \\right) Giao điểm 2 tiệm cận là 1 ; 2 2 I \\left( \\right) - \\left( \\right) \\left( \\right) Ta có: 0 0 10 10 0; 2 1 2 1 IA IA x x \\left( \\right) = - \\Rightarrow = \\left( \\right) + + \\left( \\right) ( ) 0 0 2 1; 0 2 1 IB x IB x = + \\Rightarrow = + Tam giác IAB vuông tại I nên 0 0 1 1 10 . . 2 1 5 2 2 2 1 IAB S IA IB x x = = + = + .",
@@ -37141,15 +37141,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai điểm $A(1; 2; 3)$ và $B(5; 2; 1)$. Mặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi $(Q)$ là mặt phẳng trung trực của đoạn thẳng $AB$ (mặt phẳng chứa mọi điểm $C$ sao cho tam giác $ABC$ cân tại $C$).",
       "question": "Giao điểm của mặt phẳng $(Q)$ với trục $Oz$ là điểm:",
       "options": [
-        "A. K(0; 0; 2)",
-        "B. K(0; 0; 4)",
-        "C. K(0; 0; -4)",
-        "D. K(0; 0; -2)"
+        "A. $K(0; 0; 2)$",
+        "B. $K(0; 0; 4)$",
+        "C. $K(0; 0; -4)$",
+        "D. $K(0; 0; -2)$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "( ) ( ) ( ) 4,0, 2 2,0, 1 2,0, 1 . Q AB n = - - \\Rightarrow = - Trung điểm ( ) 3, 2, 2 I . Phương trình ( ) Q : ( ) ( ) 2 3 1 2 0 2 4 0. x z x z - - - = \\Rightarrow - - = Trục : 0, 0 Oz x y = = . Thé vào ( ) : 2 0 4 0 4 Q z z \\cdot - - = \\Rightarrow = - . ( ) ( ) 0, 0, 4 . Q Oz K \\Rightarrow \\cap = -",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
@@ -37163,7 +37163,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai điểm $A(1; 2; 3)$ và $B(5; 2; 1)$. Mặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi $(Q)$ là mặt phẳng trung trực của đoạn thẳng $AB$ (mặt phẳng chứa mọi điểm $C$ sao cho tam giác $ABC$ cân tại $C$).",
       "question": "Vectơ chỉ phương của đường thẳng $d = (P) \\cap (Q)$ có dạng $\\vec{u} = (2; a; b)$. Tính $b - a$:",
       "options": [
         "A. 2",
@@ -37185,13 +37185,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có đỉnh $C(0; 2)$, đường phân giác trong kẻ từ $B$ là $BD: x + 6y - 6 = 0$, đường trung tuyến kẻ từ $A$ là $AK: x - y - 2 = 0$. Gọi $C'$ là điểm đối xứng của $C$ qua đường thẳng $BD$.",
       "question": "Hoành độ điểm B là:",
       "options": [
         "A. 6",
-        "B. 6 - .",
-        "C. 4 .",
-        "D. 4 - ."
+        "B. -6",
+        "C. 4",
+        "D. -4"
       ],
       "correctAnswer": 0,
       "explanation": "Đặt ( ) , 6 B B B B B x y BD x y \\in \\Rightarrow + = . Trung điểm K của 0 2 : , 2 2 B B x y BC K + + \\left( \\right) \\left( \\right) \\left( \\right) . vì 2 : 2 0 2 0 6 0 2 2 B B B B x y K AK x y x y + \\in - - = \\Rightarrow - - = \\Rightarrow - - = Giải hệ ( ) 6, 6,0 . 6 B B B B x y B x y + = \\Rightarrow - =",
@@ -37207,13 +37207,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
-      "question": "Tổng hoành độ và tung độ của ' C là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có đỉnh $C(0; 2)$, đường phân giác trong kẻ từ $B$ là $BD: x + 6y - 6 = 0$, đường trung tuyến kẻ từ $A$ là $AK: x - y - 2 = 0$. Gọi $C'$ là điểm đối xứng của $C$ qua đường thẳng $BD$.",
+      "question": "Tổng hoành độ và tung độ của điểm $C'$ là:",
       "options": [
-        "A. 3 4 0 x y - + = .",
-        "B. 3 4 0 x y + - = .",
-        "C. 3 2 0 x y + + = .",
-        "D. 3 2 0 x y - + = ."
+        "A. 10",
+        "B. 8",
+        "C. 6",
+        "D. 12"
       ],
       "correctAnswer": 0,
       "explanation": "( )( ) ( )( ) 2 2 1 0 1 2 6 4 2. 2 2 C C ax by c t a b + - + + = - = - = = + ( )' ' 2 0 2.1.2 4 4;6 2 2 2.1.2 6 C C C C x x at C y y bt = = + = \\Rightarrow = + ' \\Rightarrow + = + =",
@@ -37251,15 +37251,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 83 và 84:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
       "question": "Tính thể tích hình chóp S.ABCD:",
       "options": [
-        "A. 3 2 6 a .",
-        "B. 3 2 3 a .",
-        "C. 3 3 3 a .",
-        "D. 3 3 6 a ."
+        "A. $\\frac{a^3 \\sqrt{2}}{6}$",
+        "B. $\\frac{a^3 \\sqrt{2}}{3}$",
+        "C. $\\frac{a^3 \\sqrt{3}}{3}$",
+        "D. $\\frac{a^3 \\sqrt{6}}{6}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "3 2 . 1 1 2 2 3 3 3 S ABCD ABCD a V S SA a a = \\cdot \\cdot = \\cdot \\cdot =",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
@@ -37273,15 +37273,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 83 và 84:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
-      "question": "Tính khoảng cách từ A đến mặt phẳng:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
+      "question": "Tính khoảng cách từ điểm $A$ đến mặt phẳng $(SBD)$:",
       "options": [
-        "A. 5 5 a .",
-        "B. 10 5 a .",
-        "C. 5 10 a .",
-        "D. 10 10 a"
+        "A. $\\frac{a\\sqrt{5}}{5}$",
+        "B. $\\frac{a\\sqrt{10}}{5}$",
+        "C. $\\frac{a\\sqrt{5}}{10}$",
+        "D. $\\frac{a\\sqrt{10}}{10}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "2 2 2 2 ( 2) ( 2) 2 SC SA AC a a a = + = + = . 2 2 2 2 2 10 2 2 2 a a SO SA AO a \\left( \\right) \\Rightarrow = + = + = \\left( \\right) \\left( \\right) \\left( \\right) ( ) ( ) SBD SAO và giao tuyến là ( ) ( ) ( ) , , AH SO d A SBD d A SO \\Rightarrow = = . Với 2 2 2 10 2, , 2 2 a a SA a AO SO SA AO = = = + = . Suy ra: ( ) ( ) ( ) ( ) 2 2 2 2 , , 10 5 5 2 10 a a a a d A SBD AH d A SBD a \\cdot = = = \\Rightarrow =",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
@@ -37295,13 +37295,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\n3 2 3 4 y x x mx m = - + + - và đường thẳng : 3 d y x = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\nCho đồ thị $(C_m): y = x^3 - 3x^2 + mx + 4 - m$ và đường thẳng $d: y = x - 3$.",
       "question": "Tính góc giữa đường thẳng SC và mặt phẳng:",
       "options": [
-        "A. 0 28,34 .",
-        "B. 0 18, 43 .",
-        "C. 0 15,88 .",
-        "D. 0 22,58 ."
+        "A. $28{,}34^\\circ$",
+        "B. $18{,}43^\\circ$",
+        "C. $15{,}88^\\circ$",
+        "D. $22{,}58^\\circ$"
       ],
       "correctAnswer": 0,
       "explanation": "( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) , 1 ; ; , 10 5 d A SBD OA a d C SBD d A SBD OC d C SBD = = \\Rightarrow = = Ta tính: ( ) ( )\\bullet , SC SBD \\alpha = qua công thức ( ) ( ) , 10 10 sin : 2 5 10 d C SBD a a SC \\alpha = = =",
@@ -37317,13 +37317,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\n3 2 3 4 y x x mx m = - + + - và đường thẳng : 3 d y x = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\nCho đồ thị $(C_m): y = x^3 - 3x^2 + mx + 4 - m$ và đường thẳng $d: y = x - 3$.",
       "question": "Gọi Ω là không gian mẫu gồm tất cả các cách xếp 6 học sinh vào 3 hàng như trên. Số phần tử của Ω bằng",
       "options": [
-        "A. 60.",
-        "B. 90.",
-        "C. 720.",
-        "D. 15."
+        "A. 60",
+        "B. 90",
+        "C. 720",
+        "D. 15"
       ],
       "correctAnswer": 1,
       "explanation": "Ta cần đếm số cách xếp 6 học sinh phân biệt vào 3 hàng, mỗi hàng 2 học sinh, không xét thứ tự trong cùng một hàng, nhưng 3 hàng là khác nhau. \\bullet Chọn 2 bạn vào Hàng 1: C଺ ଶcách. \\bullet Còn 4 bạn, chọn 2 bạn vào Hàng 2: Cସ ଶcách. \\bullet Còn 2 bạn, tất nhiên vào Hàng 3: Cଶ ଶ = 1cách. Vậy ∣ Ω ∣= C଺ ଶ ⋅ Cସ ଶ ⋅ Cଶ ଶ = 15 ⋅ 6 ⋅ 1 = 90. Chọn đáp án: B. (90).",
@@ -37342,10 +37342,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ hỏi Trong một buổi tập đồng diễn sinh hoạt hè 2025 của xóm 𝑋, có 6 học sinh gồm 2 học sinh lớp 𝐴, 2 học sinh lớp 𝐵 và 2 học sinh lớp 𝐶 của trường 𝑌 tham gia. Các học sinh này được xếp ngẫu nhiên vào 3 hàng, mỗi hàng có 2 học sinh (không tính thứ tự 2 học sinh trong cùng một hàng).",
       "question": "Gọi 𝐴 là biến cố “không có hai học sinh cùng lớp nào được xếp vào cùng một hàng”. Số phần tử của 𝐴là",
       "options": [
-        "A. 48.",
-        "B. 46.",
-        "C. 42.",
-        "D. 44."
+        "A. 48",
+        "B. 46",
+        "C. 42",
+        "D. 44"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi 3 hàng là H1, H2, H3. Mỗi hàng có 2 bạn khác lớp. Vì có 2 bạn A, 2 bạn B, 2 bạn C, nên: \\bullet Mỗi lớp xuất hiện đúng 2 lần. \\bullet Mỗi hàng là 1 trong 3 kiểu: AB, AC, BC. Nếu một kiểu nào đó (ví dụ 𝐴𝐵 ) xuất hiện 2 lần, thì lớp 𝐴 và 𝐵 đã dùng hết 2 bạn → không còn 𝐴, 𝐵 để ghép với C → vô lý. Do đó, mỗi kiểu AB, AC, BC xuất hiện đứng 1 lần. 1. Bưởc 1: Xếp kiểu lớp cho 3 hàng Sắp xếp 3 kiểu: AB, AC, BC vào 3 hàng phân biệt: 3! = 6 cách. 2. Bước 2: Gán học sinh cụ thể (xét một cách sấp kiểu bất kỳ, chẳng hạn H1: AB, H2: AC, H3: BC ) \\bullet Hai bạn A vào 2 hàng có A(H1, H2): 2 ! cách \\bullet Hai bạn B vào H1, H3: 2 ! cách \\bullet Hai bạn C vào H2, H3: 2! cách Tổng số cách cho một cấu hình kiểu lớp: 2! ⋅ 2! ⋅ 2! = 8 cách. 3. Kết hợp lại: |𝐴| = 3! ⋅ 2! ⋅ 2! ⋅ 2! = 6 ⋅ 8 = 48. Két luận: |𝐴| = 48",
@@ -37581,13 +37581,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 92 đến 100:\nđồng/kWh), chưa tính thuế giá trị gia tăng VAT (10% so với giá trị hóa đơn gốc) Mức tính Giá cũ: áp dụng từ ngày 1/1/2023 Giá mới: áp dụng từ ngày 8/9/2024 kWh từ 0 đến 50 1450 1780 kWh từ 51 đến 100 1556 2000 kWh từ 101 đến 200 1985 2150 kWh từ 201 đến 300 2200 2550 kWh từ 301 đến 400 2570 2990 kWh từ 401 trở lên 2800 3460",
-      "question": "Trong giai đoạn khắc mạch bằng 2 2 H O và HCl, người ta quan sát thấy tốc độ thoát khí tăng lên đột ngột khi dung dịch bắt đầu chuyển sang màu xanh đặc trưng. Nguyên nhân chính của hiện tượng này là gì?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong công nghệ sản xuất mạch in (PCB), dung dịch ăn mòn đồng thường sử dụng hỗn hợp $\\text{H}_2\\text{O}_2$ và $\\text{HCl}$. Phản ứng ăn mòn xảy ra theo phương trình: $\\text{Cu} + \\text{H}_2\\text{O}_2 + 2\\text{HCl} \\rightarrow \\text{CuCl}_2 + 2\\text{H}_2\\text{O}$.",
+      "question": "Trong giai đoạn khắc mạch bằng $\\text{H}_2\\text{O}_2$ và $\\text{HCl}$, người ta quan sát thấy tốc độ thoát khí tăng lên đột ngột khi dung dịch bắt đầu chuyển sang màu xanh đặc trưng. Nguyên nhân chính của hiện tượng này là gì?",
       "options": [
-        "A. Do phản ứng sinh ra khí 2 H mạnh khi acid tiếp xúc kim loại.",
-        "B. Do ion 2+ Cu sinh ra đóng vai trò chất xúc tác làm 2 2 H O phân hủy nhanh tạo ra khí 2 O .",
+        "A. Do nồng độ $\\text{H}_2\\text{O}_2$ tăng cao dần về cuối phản ứng.",
+        "B. Do ion $\\text{Cu}^{2+}$ sinh ra đóng vai trò chất xúc tác làm $\\text{H}_2\\text{O}_2$ phân hủy nhanh tạo ra khí $\\text{O}_2$.",
         "C. Do nhiệt độ dung dịch giảm xuống làm khí ít tan và thoát ra ngoài.",
-        "D. Do nồng độ HCl tăng cao về cuối phản ứng."
+        "D. Do nồng độ $\\text{HCl}$ tăng cao về cuối phản ứng."
       ],
       "correctAnswer": 1,
       "explanation": "Đáp án B Phản ứng ăn mòn kim loại và phản ứng phân hủy H2O2 đều là các phản ứng tỏa nhiệt (Exothermic). Do đó, nhiệt độ dung dịch sẽ tăng lên (nóng lên) chứ không phải giảm xuống. Mặc dù nhiệt độ tăng làm độ tan của khí giảm, nhưng nguyên nhân chính của việc \"sủi bọt mạnh đột ngột\" là do lượng khí O2 được sinh ra ồ ạt từ phản ứng phân hủy, chứ không chỉ đơn thuần là khí cũ thoát ra do nóng.",
@@ -37650,10 +37650,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 103:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^\\circ\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Phát biểu (𝐼), (𝐼𝐼) và (𝐼𝐼𝐼) là phát biểu đúng.",
@@ -37760,10 +37760,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\nO2 cao, RuBisCo thể hiện hoạt tính carboxylase gắn RuBP (Ribulose-1,5-bisphosphate) với CO2 để tạo ra 2 phân tử 3- phosphoglycerate (PGA), PGA được chuyển hóa tiếp trong chu trình Calvin để tạo ra glucose. Nếu tỉ lệ giữa nồng độ CO2: O2 thấp và nhiệt độ môi trường cao, RuBisCo thể hiện hoạt tính oxygenase gắn RuBP với O2 và phân giải RuBP thành PGA và phosphoglycolate (2PG). 2PG tiếp tục được chuyển hóa trong lục lạp, peroxisome và ti thể (Hình bên dưới). Quá trình phân giải RuBP trong điều kiện có ánh sáng và oxygene được gọi là hô hấp sáng. Hô hấp sáng phân giải sản phẩm quang hợp tạo ra CO2 và một số bước chuyển hóa cần cung cấp ATP và NADPH, dẫn đến làm hao tổn sản phẩm quang hợp. Thực vật C3 có pha sáng và pha tối (chu trình Calvin) diễn ra trong cùng một lục lạp. Trong điều kiện khí hậu ôn đới, nhiệt độ thấp và cường độ ánh sáng trung bình nên lượng oxygene tạo ra từ pha sáng của thực vật C3 không quá lớn, vì vậy tỉ lệ nồng độ CO2: O2 vẫn duy trì mức cao, RuBisCo duy trì hoạt tính carboxylase. Nếu thực vật C3 quang hợp trong điều kiện nhiệt độ cao, cường độ ánh sáng mạnh sẽ dẫn đến tăng mức quang phân li nước, kết quả tạo ra quá nhiều oxygene làm tỉ lệ nồng độ CO2: O2 giảm xuống mức thấp, tạo điều kiện cho hô hấp sáng xảy ra. Trong quá trình tiến hóa, từ một nhánh thực vật C3 được chọn lọc tự nhiên chọn lọc thành thực vật C4 không có hô hấp sáng. Thực vật C4 có 2 loại lục lạp với 2 nhóm chức năng khác nhau gồm: Lục lạp của tế bào mô giậu thực hiện pha sáng có nồng độ O2 cao và enzyme xúc tác một chất C3 với CO2 hình thành nên chất C4, C4 được chuyển vào tế bào bao bó mạch. Tế bào bao bó mạch có nồng độ O2 thấp, C4 phân giải thành C3 và CO2 duy trì nồng độ CO2 cao cung cấp cho chu trình Calvin.",
       "question": "Có bao nhiêu phát biểu sau đây là đúng khi nói về quá trình hô hấp sáng ở thực vật C3? I. Có cơ chất đầu tiên của chuỗi phản ứng là O2 và RuBP. II. Diễn ra qua 3 bào quan lục lạp, peroxysome và ti thể. II. Tạo ra ATP và giải phóng CO2 IV. Làm tiêu hao sản phẩm quang hợp.",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 4.",
-        "D. 3."
+        "A. 1",
+        "B. 2",
+        "C. 4",
+        "D. 3"
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án: D Giải thích chi tiết: I đúng. Giải thích: Hô hấp sáng bắt đầu khi RuBisCo gắn RuBP với O₂, tạo thành PGA và phosphoglycolate → cơ chất là O₂ và RuBP. II đúng. Giải thích: Quá trình hô hấp sáng liên quan đến 3 bào quan: lục lạp (chuyển hóa 2PG), peroxisome (oxy hóa glycolate), và ti thể (chuyển hóa glycine → serine, giải phóng CO₂ và NH₃). III sai. Giải thích: Hô hấp sáng không tạo ra ATP, mà tiêu hao ATP và NADPH → chỉ giải phóng CO₂, không sinh năng lượng. IV đúng. Giải thích: Quá trình này tiêu hao sản phẩm quang hợp (ATP, NADPH) và giải phóng CO₂ → hao tổn kết quả quang hợp.",
@@ -38068,10 +38068,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 119 và 120:\n1. Bộ lạc Sự Thật (Kỵ Sĩ): Luôn luôn nói thật. 2. Bộ lạc Dối Trá (Kẻ Lừa Đảo): Luôn luôn nói dối. 3. Bộ lạc Luân Phiên (Quân Bài): Luân phiên nói thật và nói dối (Câu thứ nhất nói thật, câu thứ hai nói dối, câu thứ ba nói thật,.). Mỗi người A, B, C thuộc về một Bộ lạc khác nhau. Họ đưa ra các tuyên bố theo thứ tự sau: Người Câu nói 1 Câu nói 2 A \"B là Bộ lạc Sự Thật.\" \"C là Bộ lạc Luân Phiên.\" B \"C là Bộ lạc Dối Trá.\" \"A là Bộ lạc Luân Phiên.\" C \"A là Bộ lạc Sự Thật.\" \"B là Bộ lạc Dối Trá\"",
       "question": "Nếu C là Bộ lạc Sự Thật thì có bao nhiêu câu nói gây mâu thuẫn?",
       "options": [
-        "A. 3.",
-        "B. 4.",
-        "C. 1.",
-        "D. 5."
+        "A. 3",
+        "B. 4",
+        "C. 1",
+        "D. 5"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án: A. Nếu C là Bộ lạc Sự Thật => Câu nói 1 của A và C gây mâu thuẫn. C nói thật => B là Bộ lạc Dối Trá => A là Bộ lạc Luân Phiên. Nhưng câu nói 2 của B nói A là Bọ lạc Luân Phiên => Là câu nói đúng => Câu nói 2 của B gây mâu thuẫn.",
@@ -39453,13 +39453,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 65:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có đỉnh $C(0; 2)$, đường phân giác trong kẻ từ $B$ là $BD: x + 6y - 6 = 0$, đường trung tuyến kẻ từ $A$ là $AK: x - y - 2 = 0$. Gọi $C'$ là điểm đối xứng của $C$ qua đường thẳng $BD$.",
       "question": "Hoành độ điểm B là:",
       "options": [
         "A. 6",
-        "B. 6 - .",
-        "C. 4 .",
-        "D. 4 - ."
+        "B. -6",
+        "C. 4",
+        "D. -4"
       ],
       "correctAnswer": 0,
       "explanation": "Đặt ( ) , 6 B B B B B x y BD x y \\in \\Rightarrow + = . Trung điểm K của 0 2 : , 2 2 B B x y BC K + + \\left( \\right) \\left( \\right) \\left( \\right) . vì 2 : 2 0 2 0 6 0 2 2 B B B B x y K AK x y x y + \\in - - = \\Rightarrow - - = \\Rightarrow - - = Giải hệ ( ) 6, 6,0 . 6 B B B B x y B x y + = \\Rightarrow - =",
@@ -39475,13 +39475,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 63 đến 65:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
-      "question": "Tổng hoành độ và tung độ của ' C là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có đỉnh $C(0; 2)$, đường phân giác trong kẻ từ $B$ là $BD: x + 6y - 6 = 0$, đường trung tuyến kẻ từ $A$ là $AK: x - y - 2 = 0$. Gọi $C'$ là điểm đối xứng của $C$ qua đường thẳng $BD$.",
+      "question": "Tổng hoành độ và tung độ của điểm $C'$ là:",
       "options": [
-        "A. 3 4 0 x y - + = .",
-        "B. 3 4 0 x y + - = .",
-        "C. 3 2 0 x y + + = .",
-        "D. 3 2 0 x y - + = ."
+        "A. 10",
+        "B. 8",
+        "C. 6",
+        "D. 12"
       ],
       "correctAnswer": 0,
       "explanation": "( )( ) ( )( ) 2 2 1 0 1 2 6 4 2. 2 2 C C ax by c t a b + - + + = - = - = = + ( )' ' 2 0 2.1.2 4 4;6 2 2 2.1.2 6 C C C C x x at C y y bt = = + = \\Rightarrow = + ' \\Rightarrow + = + =",
@@ -39519,15 +39519,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
       "question": "Tính thể tích hình chóp S.ABCD:",
       "options": [
-        "A. 3 2 6 a .",
-        "B. 3 2 3 a .",
-        "C. 3 3 3 a .",
-        "D. 3 3 6 a ."
+        "A. $\\frac{a^3 \\sqrt{2}}{6}$",
+        "B. $\\frac{a^3 \\sqrt{2}}{3}$",
+        "C. $\\frac{a^3 \\sqrt{3}}{3}$",
+        "D. $\\frac{a^3 \\sqrt{6}}{6}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "3 2 . 1 1 2 2 3 3 3 S ABCD ABCD a V S SA a a = \\cdot \\cdot = \\cdot \\cdot =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
@@ -39541,15 +39541,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
-      "question": "Tính khoảng cách từ A đến mặt phẳng:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
+      "question": "Tính khoảng cách từ điểm $A$ đến mặt phẳng $(SBD)$:",
       "options": [
-        "A. 5 5 a .",
-        "B. 10 5 a .",
-        "C. 5 10 a .",
-        "D. 10 10 a"
+        "A. $\\frac{a\\sqrt{5}}{5}$",
+        "B. $\\frac{a\\sqrt{10}}{5}$",
+        "C. $\\frac{a\\sqrt{5}}{10}$",
+        "D. $\\frac{a\\sqrt{10}}{10}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "2 2 2 2 ( 2) ( 2) 2 SC SA AC a a a = + = + = . 2 2 2 2 2 10 2 2 2 a a SO SA AO a \\left( \\right) \\Rightarrow = + = + = \\left( \\right) \\left( \\right) \\left( \\right) ( ) ( ) SBD SAO và giao tuyến là ( ) ( ) ( ) , , AH SO d A SBD d A SO \\Rightarrow = = . Với 2 2 2 10 2, , 2 2 a a SA a AO SO SA AO = = = + = . Suy ra: ( ) ( ) ( ) ( ) 2 2 2 2 , , 10 5 5 2 10 a a a a d A SBD AH d A SBD a \\cdot = = = \\Rightarrow =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
@@ -39563,15 +39563,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
-      "question": "Tính góc giữa đường thẳng SC và mặt phẳng:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
+      "question": "Tính góc giữa đường thẳng $SC$ và mặt phẳng $(SBD)$ (làm tròn đến hàng phần trăm độ):",
       "options": [
-        "A. 0 28,34 .",
-        "B. 0 18, 43 .",
-        "C. 0 15,88 .",
-        "D. 0 22,58 ."
+        "A. $28{,}34^\\circ$",
+        "B. $18{,}43^\\circ$",
+        "C. $15{,}88^\\circ$",
+        "D. $22{,}58^\\circ$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) , 1 ; ; , 10 5 d A SBD OA a d C SBD d A SBD OC d C SBD = = \\Rightarrow = = Ta tính: ( ) ( )\\bullet , SC SBD \\alpha = qua công thức ( ) ( ) , 10 10 sin : 2 5 10 d C SBD a a SC \\alpha = = =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
@@ -39588,10 +39588,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 69 và 70:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Trong một buổi tập đồng diễn sinh hoạt hè 2025 của xóm 𝑋, có 6 học sinh gồm 2 học sinh lớp 𝐴, 2 học sinh lớp 𝐵 và 2 học sinh lớp 𝐶 của trường 𝑌 tham gia. Các học sinh này được xếp ngẫu nhiên vào 3 hàng, mỗi hàng có 2 học sinh (không tính thứ tự 2 học sinh trong cùng một hàng).",
       "question": "Gọi Ω là không gian mẫu gồm tất cả các cách xếp 6 học sinh vào 3 hàng như trên. Số phần tử của Ω bằng",
       "options": [
-        "A. 60.",
-        "B. 90.",
-        "C. 720.",
-        "D. 15."
+        "A. 60",
+        "B. 90",
+        "C. 720",
+        "D. 15"
       ],
       "correctAnswer": 1,
       "explanation": "Ta cần đếm số cách xếp 6 học sinh phân biệt vào 3 hàng, mỗi hàng 2 học sinh, không xét thứ tự trong cùng một hàng, nhưng 3 hàng là khác nhau. \\bullet Chọn 2 bạn vào Hàng 1: C଺ ଶcách. \\bullet Còn 4 bạn, chọn 2 bạn vào Hàng 2: Cସ ଶcách. \\bullet Còn 2 bạn, tất nhiên vào Hàng 3: Cଶ ଶ = 1cách. Vậy ∣ Ω ∣= C଺ ଶ ⋅ Cସ ଶ ⋅ Cଶ ଶ = 15 ⋅ 6 ⋅ 1 = 90. Chọn đáp án: B. (90).",
@@ -39610,10 +39610,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 69 và 70:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Trong một buổi tập đồng diễn sinh hoạt hè 2025 của xóm 𝑋, có 6 học sinh gồm 2 học sinh lớp 𝐴, 2 học sinh lớp 𝐵 và 2 học sinh lớp 𝐶 của trường 𝑌 tham gia. Các học sinh này được xếp ngẫu nhiên vào 3 hàng, mỗi hàng có 2 học sinh (không tính thứ tự 2 học sinh trong cùng một hàng).",
       "question": "Gọi 𝐴 là biến cố “không có hai học sinh cùng lớp nào được xếp vào cùng một hàng”. Số phần tử của 𝐴là",
       "options": [
-        "A. 48.",
-        "B. 46.",
-        "C. 42.",
-        "D. 44."
+        "A. 48",
+        "B. 46",
+        "C. 42",
+        "D. 44"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi 3 hàng là H1, H2, H3. Mỗi hàng có 2 bạn khác lớp. Vì có 2 bạn A, 2 bạn B, 2 bạn C, nên: \\bullet Mỗi lớp xuất hiện đúng 2 lần. \\bullet Mỗi hàng là 1 trong 3 kiểu: AB, AC, BC. Nếu một kiểu nào đó (ví dụ 𝐴𝐵 ) xuất hiện 2 lần, thì lớp 𝐴 và 𝐵 đã dùng hết 2 bạn → không còn 𝐴, 𝐵 để ghép với C → vô lý. Do đó, mỗi kiểu AB, AC, BC xuất hiện đứng 1 lần. 1. Bưởc 1: Xếp kiểu lớp cho 3 hàng Sắp xếp 3 kiểu: AB, AC, BC vào 3 hàng phân biệt: 3! = 6 cách. 2. Bước 2: Gán học sinh cụ thể (xét một cách sấp kiểu bất kỳ, chẳng hạn H1: AB, H2: AC, H3: BC ) \\bullet Hai bạn A vào 2 hàng có A(H1, H2): 2 ! cách \\bullet Hai bạn B vào H1, H3: 2 ! cách \\bullet Hai bạn C vào H2, H3: 2! cách Tổng số cách cho một cấu hình kiểu lớp: 2! ⋅ 2! ⋅ 2! = 8 cách. 3. Kết hợp lại: |𝐴| = 3! ⋅ 2! ⋅ 2! ⋅ 2! = 6 ⋅ 8 = 48. Két luận: |𝐴| = 48",
@@ -39717,13 +39717,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho phương trình tham số m ( ) ( )2 2 2 2 log log 3 0 x x m - + - = có nghiệm [ ] 1;8 x \\in .",
-      "question": "Tại 3 m = , tổng hai nghiệm của phương trình là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nCho phương trình tham số $m$: $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$.",
+      "question": "Tại $m = 3$, tổng các nghiệm của phương trình là:",
       "options": [
-        "A. 5 .",
+        "A. 5",
         "B. $\\frac{5}{2}$",
         "C. $\\frac{7}{2}$",
-        "D. 7 ."
+        "D. 7"
       ],
       "correctAnswer": 0,
       "explanation": "Đặt 2 t log x = . ( ) ( )2 2 2 2 log log 0 x x - = trở thành 2 2 0 0 2 t t t hayt - = \\Leftrightarrow = = suy ra 1 4 x hayx = =",
@@ -39739,15 +39739,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho phương trình tham số m ( ) ( )2 2 2 2 log log 3 0 x x m - + - = có nghiệm [ ] 1;8 x \\in .",
-      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$ có hai nghiệm phân biệt $x_1, x_2 \\in [1; 4]$:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nCho phương trình tham số $m$: $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$.",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình có hai nghiệm phân biệt $x_1, x_2 \\in [1; 8]$:",
       "options": [
         "A. $6 \\le m \\le 9$",
         "B. $3 \\le m \\le 6$",
         "C. $2 \\le m \\le 3$",
         "D. $2 \\le m \\le 6$"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "Chọn D Đặt 2 t log x = . Vì [ ] 1;8 x \\in nên [ ] 0;3 t \\in . Phương trình ( ) ( )2 2 2 2 log log 3 0 x x m - + - = trở thành 2 2 2 3 0 2 3 t t m m t t - + - = \\Leftrightarrow = - + , [ ] 0;3 t \\in . Ta có bảng biến thiên của hàm số 2 2 3 m t t = - + : t m' m 0 3 1 0 - + 3 6 2 nên [ ] 2; 6 m \\in .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -39787,7 +39787,7 @@ export const QUESTIONS_DATA = {
       "question": "Chi phí thấp nhất để trộn hai loại thức ăn trên đồng thời đảm bảo đủ dinh dưỡng bằng bao nhiêu?",
       "options": [
         "A. $\\frac{4640}{11}$",
-        "B. 480.",
+        "B. 480",
         "C. $\\frac{1750}{3}$",
         "D. $\\frac{5440}{11}$"
       ],
@@ -39806,12 +39806,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số nghiệm của phương trình 2 2 3 86 19 3 16 0 x x x x - + - - + = là.",
+      "question": "Số nghiệm của phương trình $x^2 - 3x + 86 - 19\\sqrt{x^2 - 3x + 16} = 0$ là:",
       "options": [
-        "A. 4.",
-        "B. 1.",
-        "C. 3.",
-        "D. 2."
+        "A. 4",
+        "B. 1",
+        "C. 3",
+        "D. 2"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 3 86 19 3 16 0 3 16 19 3 16 70 0* x x x x x x x x - + - - + = \\Leftrightarrow - + - - + + = Đặt 2 3 16, 0 t x x t = - + \\ge . Khi đó 2 14 * 19 70 0 5 t n t t t n = [ \\Rightarrow - + = \\Leftrightarrow = ] Với 2 2 15 14 3 16 14 3 180 0 12 x t x x x x x = [ = \\Rightarrow - + = \\Leftrightarrow - - = \\Leftrightarrow = - ] . Với 2 2 3 3 5 25 3 16 5 3 9 0 3 3 5 2 x t x x x x x [ + = = \\Rightarrow - + = \\Leftrightarrow - - = \\Leftrightarrow - = ] . Vậy phương trình đã cho có 4 nghiệm.",
@@ -39850,14 +39850,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số giá trị nguyên của m để phương trình 2 4 1 x m - = + có bốn nghiệm phân biệt là:",
+      "question": "Số giá trị nguyên của tham số $m$ để phương trình $|x^2 - 4| = m + 1$ có bốn nghiệm phân biệt là:",
       "options": [
-        "A. 4.",
-        "B. 2.",
-        "C. 3.",
-        "D. 5."
+        "A. 4",
+        "B. 2",
+        "C. 3",
+        "D. 5"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "(Chú ý: Phương trình 0 B A B A B A B \\ge = \\Leftrightarrow = [ ] ] = - ] ] Ta có: ( ) ( ) ( ) 2 2 2 2 2 1 1 4 1 * 5 0 1 4 1 3 0 2 4 1 m m x m x m x m x m x m \\ge - \\ge - [ - = + \\Leftrightarrow \\Leftrightarrow - - = [ - = + + - = - = - - ] ] Để phương trình (*) có bốn nghiệm phân biệt thì các phương trình (1);(2) đều có hai nghiệm phân biệt và các nghiệm của phương trình (1) đều không là nghiệm của phương trình (2) và ngược lại. Khi đó m phải thỏa mãn các điều kiện sau: 2 2 1 1 5 0 5 1 3 3 0 3 5 3 1 m m m m m m m x m x m m \\ge - \\ge - + > > - \\Leftrightarrow \\Leftrightarrow - < < - + > < - - \\ne + - \\ne - . Do m \\in nên \\{ \\} 0;1; 2 m \\in . Vậy có 3 giá trị nguyên của m thoả mãn yêu cầu bài toán.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
@@ -39984,12 +39984,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $BC = 5$, $\\sin(A + B) = \\frac{1}{2}$, $\\cos(A - B) = \\frac{\\sqrt{3}}{2}$. Tính $AC$:",
       "options": [
-        "A. 5 3 3",
+        "A. $\\frac{5\\sqrt{3}}{3}$",
         "B. $\\frac{5}{2}$",
         "C. $\\frac{5}{3}$",
-        "D. 5 3 2 ."
+        "D. $\\frac{5\\sqrt{3}}{2}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^\\circ . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^\\circ .",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -40028,10 +40028,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
-        "A. 1 2 1 x y x - = + .",
-        "B. 2 1 4 y x = - .",
-        "C. 3 5 1 x y x + = - .",
-        "D. 2 9 x y x x = - + ."
+        "A. 1 2 1 x y x - = +",
+        "B. 2 1 4 y x = -",
+        "C. 3 5 1 x y x + = -",
+        "D. 2 9 x y x x = - +"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 2 2 2 2 1 1 lim , lim 4 4 x x x x \\infty \\infty + - \\to \\to - = - = - - - suy ra đồ thị hàm số có hai đường tiệm cận đứng 2 x = \\pm . và 2 1 lim 0 4 x x \\infty \\to = - suy ra đồ thị hàm số có đường tiệm cận ngang 0 y = . Vậy đồ thị hàm số 2 1 4 y x = - có ba đường tiệm cận.",
@@ -40048,14 +40048,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tìm tất cả các giá trị thực của tham số m sao cho đồ thị hàm số 2 2 1 1 x y m x m + = + - có bốn đường tiệm cận.",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ sao cho đồ thị hàm số $y = \\frac{x + 1}{mx^2 - 2x + 1}$ có đúng bốn đường tiệm cận:",
       "options": [
-        "A. 0 m > .",
-        "B. Với mọi giá trị của m .",
-        "C. $1, 0 m m < \\ne và 1 5 2 m - \\pm \\ne .$",
-        "D. 1 m < hoặc 1 m > ."
+        "A. $m > 0$",
+        "B. Với mọi giá trị của $m$",
+        "C. $m < 1, m \\ne 0$ và $m \\ne \\frac{-1 \\pm \\sqrt{5}}{2}$",
+        "D. $m < 1$ hoặc $m > 1$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Với 0 m = thì hàm số không xác định. Do đó 0 m \\ne (1). Ta có 2 2 1 1 lim lim 1 x x x y m m x m \\infty \\infty \\to + \\to + + = = + - và 2 2 1 1 lim lim 1 x x x y m m x m \\infty \\infty \\to - \\to - + - = = + - . \\Rightarrow Đồ thị hàm số có 2 đường tiệm cận ngang. Để đồ thị hàm số có bốn đường tiệm cận thì cần tìm m để đồ thị hàm số có 2 đường tiệm cận đứng, nghĩa là cần tìm m để phương trình ( ) 2 2 1 0 g x m x m = + - = có hai nghiệm phân biệt khác -1 ĐK: ( ) ( ) 2 2 1 1 Δ 4 1 0 0 0 1 1 0 1 5 1 5 2 2 m m m m m m g m m m m < < = - - > \\Leftrightarrow \\ne \\Leftrightarrow \\ne - = + - \\ne - \\pm - \\pm \\ne \\ne Kết hợp (1) (2) có 1 0 1 5 2 m m m < \\ne - \\pm \\ne",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
@@ -40292,10 +40292,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\n1. Bộ lạc Sự Thật (Kỵ Sĩ): Luôn luôn nói thật. 2. Bộ lạc Dối Trá (Kẻ Lừa Đảo): Luôn luôn nói dối. 3. Bộ lạc Luân Phiên (Quân Bài): Luân phiên nói thật và nói dối (Câu thứ nhất nói thật, câu thứ hai nói dối, câu thứ ba nói thật,.). Mỗi người A, B, C thuộc về một Bộ lạc khác nhau. Họ đưa ra các tuyên bố theo thứ tự sau: Người Câu nói 1 Câu nói 2 A \"B là Bộ lạc Sự Thật.\" \"C là Bộ lạc Luân Phiên.\" B \"C là Bộ lạc Dối Trá.\" \"A là Bộ lạc Luân Phiên.\" C \"A là Bộ lạc Sự Thật.\" \"B là Bộ lạc Dối Trá\"",
       "question": "Nếu C là Bộ lạc Sự Thật thì có bao nhiêu câu nói gây mâu thuẫn?",
       "options": [
-        "A. 3.",
-        "B. 4.",
-        "C. 1.",
-        "D. 5."
+        "A. 3",
+        "B. 4",
+        "C. 1",
+        "D. 5"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án: A. Nếu C là Bộ lạc Sự Thật => Câu nói 1 của A và C gây mâu thuẫn. C nói thật => B là Bộ lạc Dối Trá => A là Bộ lạc Luân Phiên. Nhưng câu nói 2 của B nói A là Bọ lạc Luân Phiên => Là câu nói đúng => Câu nói 2 của B gây mâu thuẫn.",
@@ -40487,13 +40487,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 111:\nThống kê về số lượng nhà máy trong một số trung tâm công nghiệp lớn của thế giới trong năm 2025 và sự thay đổi của nó so với năm 2020. Kết quả thể hiện như hình dưới",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Sử dụng dữ liệu của thí nghiệm ban đầu (15,0g Glucose trong 200g nước). Tính nhiệt độ sôi của dung dịch thu được? Kết quả làm tròn đến hai chữ số sau dấu phẩy.",
       "options": [
-        "A. 100,21 oC.",
-        "B. 105,21 oC.",
-        "C. 107,21 oC.",
-        "D. 109,21 oC."
+        "$100{,}21^\\circ\\text{C}$",
+        "$105{,}21^\\circ\\text{C}$",
+        "$107{,}21^\\circ\\text{C}$",
+        "$109{,}21^\\circ\\text{C}$"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Khối lượng mol glucose = 180,0 g/mol. → Số mol = 15,0: 180,0 = 0,0833 mol → m = 0,0833: 0,200 = 0,4165 mol/kg → ΔTb = 0,512 × 0,4165 = 0,213 °C → Nhiệt độ sôi dung dịch 100, 00 0, 2133 100, 2133... = + =",
@@ -40509,13 +40509,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 111:\nThống kê về số lượng nhà máy trong một số trung tâm công nghiệp lớn của thế giới trong năm 2025 và sự thay đổi của nó so với năm 2020. Kết quả thể hiện như hình dưới",
-      "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết. (2) Dung dịch chứa 1 mol Glucose ( 6 12 6 C H O ) trong 1 kg nước. (3) Dung dịch chứa 0,5 mol 2 MgCl trong 1 kg nước (giả sử điện ly hoàn toàn). (4) Dung dịch chứa 1 mol NaCl trong 1 kg nước (giả sử điện ly hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết; (2) Dung dịch chứa 1 mol Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) trong 1 kg nước; (3) Dung dịch chứa 0,5 mol $\\text{MgCl}_2$ trong 1 kg nước (giả sử điện li hoàn toàn); (4) Dung dịch chứa 1 mol $\\text{NaCl}$ trong 1 kg nước (giả sử điện li hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao):",
       "options": [
-        "A. (1) < (2) < (3) < (4).",
-        "B. (1) < (3) < (2) < (4).",
-        "C. (1) < (2) < (4) < (3).",
-        "D. (4) < (3) < (2) < (1)."
+        "A. (1) < (2) < (3) < (4)",
+        "B. (1) < (3) < (2) < (4)",
+        "C. (1) < (2) = (3) < (4)",
+        "D. (4) < (3) < (2) < (1)"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^\\circ C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
@@ -42055,7 +42055,7 @@ export const QUESTIONS_DATA = {
       "question": "Chi phí thấp nhất để trộn hai loại thức ăn trên đồng thời đảm bảo đủ dinh dưỡng bằng bao nhiêu?",
       "options": [
         "A. $\\frac{4640}{11}$",
-        "B. 480.",
+        "B. 480",
         "C. $\\frac{1750}{3}$",
         "D. $\\frac{5440}{11}$"
       ],
@@ -42074,12 +42074,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số nghiệm của phương trình 2 2 3 86 19 3 16 0 x x x x - + - - + = là.",
+      "question": "Số nghiệm của phương trình $x^2 - 3x + 86 - 19\\sqrt{x^2 - 3x + 16} = 0$ là:",
       "options": [
-        "A. 4.",
-        "B. 1.",
-        "C. 3.",
-        "D. 2."
+        "A. 4",
+        "B. 1",
+        "C. 3",
+        "D. 2"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 3 86 19 3 16 0 3 16 19 3 16 70 0* x x x x x x x x - + - - + = \\Leftrightarrow - + - - + + = Đặt 2 3 16, 0 t x x t = - + \\ge . Khi đó 2 14 * 19 70 0 5 t n t t t n = [ \\Rightarrow - + = \\Leftrightarrow = ] Với 2 2 15 14 3 16 14 3 180 0 12 x t x x x x x = [ = \\Rightarrow - + = \\Leftrightarrow - - = \\Leftrightarrow = - ] . Với 2 2 3 3 5 25 3 16 5 3 9 0 3 3 5 2 x t x x x x x [ + = = \\Rightarrow - + = \\Leftrightarrow - - = \\Leftrightarrow - = ] . Vậy phương trình đã cho có 4 nghiệm.",
@@ -42118,14 +42118,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số giá trị nguyên của m để phương trình 2 4 1 x m - = + có bốn nghiệm phân biệt là:",
+      "question": "Số giá trị nguyên của tham số $m$ để phương trình $|x^2 - 4| = m + 1$ có bốn nghiệm phân biệt là:",
       "options": [
-        "A. 4.",
-        "B. 2.",
-        "C. 3.",
-        "D. 5."
+        "A. 4",
+        "B. 2",
+        "C. 3",
+        "D. 5"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "(Chú ý: Phương trình 0 B A B A B A B \\ge = \\Leftrightarrow = [ ] ] = - ] ] Ta có: ( ) ( ) ( ) 2 2 2 2 2 1 1 4 1 * 5 0 1 4 1 3 0 2 4 1 m m x m x m x m x m x m \\ge - \\ge - [ - = + \\Leftrightarrow \\Leftrightarrow - - = [ - = + + - = - = - - ] ] Để phương trình (*) có bốn nghiệm phân biệt thì các phương trình (1);(2) đều có hai nghiệm phân biệt và các nghiệm của phương trình (1) đều không là nghiệm của phương trình (2) và ngược lại. Khi đó m phải thỏa mãn các điều kiện sau: 2 2 1 1 5 0 5 1 3 3 0 3 5 3 1 m m m m m m m x m x m m \\ge - \\ge - + > > - \\Leftrightarrow \\Leftrightarrow - < < - + > < - - \\ne + - \\ne - . Do m \\in nên \\{ \\} 0;1; 2 m \\in . Vậy có 3 giá trị nguyên của m thoả mãn yêu cầu bài toán.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
@@ -42252,12 +42252,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $BC = 5$, $\\sin(A + B) = \\frac{1}{2}$, $\\cos(A - B) = \\frac{\\sqrt{3}}{2}$. Tính $AC$:",
       "options": [
-        "A. 5 3 3",
+        "A. $\\frac{5\\sqrt{3}}{3}$",
         "B. $\\frac{5}{2}$",
         "C. $\\frac{5}{3}$",
-        "D. 5 3 2 ."
+        "D. $\\frac{5\\sqrt{3}}{2}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^\\circ . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^\\circ .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -42296,10 +42296,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
-        "A. 1 2 1 x y x - = + .",
-        "B. 2 1 4 y x = - .",
-        "C. 3 5 1 x y x + = - .",
-        "D. 2 9 x y x x = - + ."
+        "A. 1 2 1 x y x - = +",
+        "B. 2 1 4 y x = -",
+        "C. 3 5 1 x y x + = -",
+        "D. 2 9 x y x x = - +"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 2 2 2 2 1 1 lim , lim 4 4 x x x x \\infty \\infty + - \\to \\to - = - = - - - suy ra đồ thị hàm số có hai đường tiệm cận đứng 2 x = \\pm . và 2 1 lim 0 4 x x \\infty \\to = - suy ra đồ thị hàm số có đường tiệm cận ngang 0 y = . Vậy đồ thị hàm số 2 1 4 y x = - có ba đường tiệm cận.",
@@ -42316,14 +42316,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tìm tất cả các giá trị thực của tham số m sao cho đồ thị hàm số 2 2 1 1 x y m x m + = + - có bốn đường tiệm cận.",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ sao cho đồ thị hàm số $y = \\frac{x + 1}{mx^2 - 2x + 1}$ có đúng bốn đường tiệm cận:",
       "options": [
-        "A. 0 m > .",
-        "B. Với mọi giá trị của m .",
-        "C. $1, 0 m m < \\ne và 1 5 2 m - \\pm \\ne .$",
-        "D. 1 m < hoặc 1 m > ."
+        "A. $m > 0$",
+        "B. Với mọi giá trị của $m$",
+        "C. $m < 1, m \\ne 0$ và $m \\ne \\frac{-1 \\pm \\sqrt{5}}{2}$",
+        "D. $m < 1$ hoặc $m > 1$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Với 0 m = thì hàm số không xác định. Do đó 0 m \\ne (1). Ta có 2 2 1 1 lim lim 1 x x x y m m x m \\infty \\infty \\to + \\to + + = = + - và 2 2 1 1 lim lim 1 x x x y m m x m \\infty \\infty \\to - \\to - + - = = + - . \\Rightarrow Đồ thị hàm số có 2 đường tiệm cận ngang. Để đồ thị hàm số có bốn đường tiệm cận thì cần tìm m để đồ thị hàm số có 2 đường tiệm cận đứng, nghĩa là cần tìm m để phương trình ( ) 2 2 1 0 g x m x m = + - = có hai nghiệm phân biệt khác -1 ĐK: ( ) ( ) 2 2 1 1 Δ 4 1 0 0 0 1 1 0 1 5 1 5 2 2 m m m m m m g m m m m < < = - - > \\Leftrightarrow \\ne \\Leftrightarrow \\ne - = + - \\ne - \\pm - \\pm \\ne \\ne Kết hợp (1) (2) có 1 0 1 5 2 m m m < \\ne - \\pm \\ne",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
@@ -42359,7 +42359,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\n2 2 0 P x y z m - - + = và điểm ( ) 3;0; 1 A - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 74 và 75:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y - 2z + m = 0$ và điểm $A(3; 0; -1)$.",
       "question": "Nếu khoảng cách từ điểm $A$ đến mặt phẳng $(P)$ bằng 1 thì tích các giá trị của $m$ là:",
       "options": [
         "A. 25",
@@ -42381,15 +42381,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\n2 2 0 P x y z m - - + = và điểm ( ) 3;0; 1 A - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 74 và 75:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y - 2z + m = 0$ và điểm $A(3; 0; -1)$.",
       "question": "Khi $m = 1$, gọi $H(a; b; c)$ là hình chiếu của $A$ trên mặt phẳng $(P)$. Tính $T = a + b + c$:",
       "options": [
-        "A. T = -3",
-        "B. T = 1",
-        "C. T = -1",
-        "D. T = 3"
+        "A. $T = -3$",
+        "B. $T = 1$",
+        "C. $T = -1$",
+        "D. $T = 3$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "explanation": "Đường thẳng d qua A và vuông góc với mặt phẳng ( ) P nên nhận vecto pháp tuyến ( ) 2; 1; 2 n = - - của ( ) P làm vec tơ chỉ phương, có phương trình là: 3 2 1 2 x t y t z t = + = - = - - . Do H d \\in nên ( ) 3 2 ; ; 1 2 H t t t + - - - . Ta lại có ( ) ( ) ( ) ( ) 2 3 2 2 1 2 1 0 9 9 0 1 H P t t t t t \\in \\Rightarrow + - - - - - + = \\Leftrightarrow + = \\Leftrightarrow = - Suy ra ( ) 1;1;1 H . Như vậy 1 1 1 3 T = + + = .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -42403,13 +42403,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 77 và 78:\n3 2 1 2 1 2 7 2 5 u u u u u - + = + và 4 8 u =",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nCho cấp số nhân $(u_n)$ có công bội $q > 0$ thỏa mãn $\\frac{u_3 - 2u_2 + u_1}{u_2 - u_1} = \\frac{7}{2}$ và $u_4 = 8$.",
       "question": "Công bội của cấp số nhân là",
       "options": [
-        "A. 2.",
-        "B. 1.",
-        "C. 3.",
-        "D. 5."
+        "A. 2",
+        "B. 1",
+        "C. 3",
+        "D. 5"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 1 0 u \\ne vì nếu 1 0 u = thì * 0, n u n N = \\in nên 4 8 u = sẽ vô lý 2 3 2 1 1 1 1 2 1 1 1 2 7 2. 7 2 5 2 5 u u u u q u q u u u u q u - + - + = \\Leftrightarrow = + + Suy ra 2 2 2 2 2 1 7 10 5 5 14 7 10 19 2 0 1 2 1 5 10 q q q q q q q q q q = [ - + = \\Leftrightarrow - + = + \\Leftrightarrow - - = \\Leftrightarrow + = - ] Mà 0 q > nên 2 q =",
@@ -42425,7 +42425,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 77 và 78:\n3 2 1 2 1 2 7 2 5 u u u u u - + = + và 4 8 u =",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nCho cấp số nhân $(u_n)$ có công bội $q > 0$ thỏa mãn $\\frac{u_3 - 2u_2 + u_1}{u_2 - u_1} = \\frac{7}{2}$ và $u_4 = 8$.",
       "question": "Với dãy số $(v_n)$ thỏa mãn $v_n = u_n^3$. Tính $v_3$:",
       "options": [
         "A. 64",
@@ -42472,9 +42472,9 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 79 và 80:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Bạn Nam cần ít nhất 900 đơn vị protein và 400 đơn vị lipit trong thức ăn mỗi ngày. Mỗi kiogam thịt bò chứa 800 đơn vị protein và 200 đơn vị lipit. Mỗi kilogam thịt lợn chứa 600 đơn vị protein và 400 đơn vị lipit. Biết rằng Nam chỉ mua nhiều nhất 1,6 kg thịt bò và 1,1 kg thịt lợn. Giá tiền một kg thịt bò là 160 nghìn đồng, một kg thịt lợn là 110 nghìn đồng. Gọi , x y lần lượt là số kg thịt bò và thịt lợn mà Nam cần mua.",
       "question": "Giá trị , x y để tổng số tiền Nam phải trả là ít nhất nhưng vẫn đảm bảo lượng protein và lipit trong thức ăn?",
       "options": [
-        "A. 0,3 x = và 1,1 y = .",
-        "B. 0,3 x = và 0, 7 y = .",
-        "C. 0, 6 x = và 0, 7 y = .",
+        "A. 0,3 x = và 1,1 y =",
+        "B. 0,3 x = và 0, 7 y =",
+        "C. 0, 6 x = và 0, 7 y =",
         "D. 1, 6 x = và 0, 2 y ="
       ],
       "correctAnswer": 0,
@@ -42491,7 +42491,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 81 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
       "question": "Tọa độ điểm $A$ là:",
       "options": [
         "A. (3; 1)",
@@ -42499,7 +42499,7 @@ export const QUESTIONS_DATA = {
         "C. (3; -1)",
         "D. (-3; 1)"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Tọa độ điểm A là nghiệm của hệ phương trình: 2 7 0 3 4 1 0 1 x y x x y y + + = = - \\Leftrightarrow - - = = - . Vậy ( ) 3; 1 A - - .",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
@@ -42513,7 +42513,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 81 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
       "question": "Tọa độ điểm $C$ là:",
       "options": [
         "A. (5; 5)",
@@ -42535,15 +42535,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 81 đến 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
-      "question": "Phương trình của đường thẳng BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
+      "question": "Phương trình của đường thẳng $BC$ là:",
       "options": [
-        "A. 4 3 0 x y - + = .",
-        "B. 4 15 0 x y - + = .",
-        "C. 2 15 0 x y + - = .",
-        "D. 3 2 0 2 x y + + = ."
+        "A. $4x - y + 3 = 0$",
+        "B. $4x - y - 15 = 0$",
+        "C. $2x + y - 15 = 0$",
+        "D. $3x + 2y - 12 = 0$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Đường thẳng BC song song với đường thẳng AD nên phương trình đường thẳng BC có dạng: 4 0 x y c - + = với 1 c \\ne - . ( ) 5;5 C thuộc đường thẳng BC nên: 5 4.5 0 15 c c - + = \\Leftrightarrow = . Vậy phương trình đường thẳng BC là: 4 15 0 x y - + =",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
@@ -42623,7 +42623,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 87 đến 89:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
       "question": "Tính góc giữa $SD$ và mặt phẳng $(ABCD)$ (làm tròn đến độ):",
       "options": [
         "A. $30^\\circ$",
@@ -42631,7 +42631,7 @@ export const QUESTIONS_DATA = {
         "C. $60^\\circ$",
         "D. $50^\\circ$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -42645,13 +42645,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 87 đến 89:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
-      "question": "Tính tan của góc giữa hai mặt phẳng ( SCD ) và ( ABCD ).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
+      "question": "Tính tan của góc giữa hai mặt phẳng $(SCD)$ và $(ABCD)$:",
       "options": [
-        "A. $\\frac{15}{2}$",
-        "B. $\\frac{15}{3}$",
+        "A. $\\frac{\\sqrt{15}}{2}$",
+        "B. $\\frac{\\sqrt{15}}{3}$",
         "C. $\\frac{\\sqrt{15}}{4}$",
-        "D. $\\frac{15}{5}$"
+        "D. $\\frac{\\sqrt{15}}{5}$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -42667,15 +42667,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 87 đến 89:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
-      "question": "Gọi G là trọng tâm tam giác ABD , tính khoảng cách từ G đến mặt phẳng ( SCD ).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
+      "question": "Gọi $G$ là trọng tâm tam giác $ABD$, tính khoảng cách từ $G$ đến mặt phẳng $(SCD)$:",
       "options": [
         "A. $\\frac{3a\\sqrt{285}}{57}$",
         "B. $\\frac{a\\sqrt{285}}{114}$",
         "C. $\\frac{a\\sqrt{285}}{57}$",
         "D. $\\frac{2a\\sqrt{285}}{57}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^\\circ 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
@@ -42689,15 +42689,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 92:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Mệnh đề nào sau đây đúng?",
       "options": [
-        "A. Hàm số đồng biến trên ( ) ; 1 \\infty - - và ( ) 1; \\infty - + .Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "B. Hàm số nghịch biến trên ( ) ; 1 \\infty - - và ( ) 1; \\infty - + .Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "C. Hàm số nghịch biến trên ( ) ( ) ; 1 1; \\infty \\infty - - \\cup - +Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
-        "D. $Hàm số đồng biến trên \\{ \\} 1 R - \\setminus .$"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "2 3 0 ( 1) y x - = < + ' Hàm số đã cho luôn nghịch biến trên từng khoảng xác định.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
@@ -42711,13 +42711,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 92:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Sử dụng dữ liệu của thí nghiệm ban đầu (15,0g Glucose trong 200g nước). Tính nhiệt độ sôi của dung dịch thu được? Kết quả làm tròn đến hai chữ số sau dấu phẩy.",
       "options": [
-        "A. 100,21 oC.",
-        "B. 105,21 oC.",
-        "C. 107,21 oC.",
-        "D. 109,21 oC."
+        "$100{,}21^\\circ\\text{C}$",
+        "$105{,}21^\\circ\\text{C}$",
+        "$107{,}21^\\circ\\text{C}$",
+        "$109{,}21^\\circ\\text{C}$"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Khối lượng mol glucose = 180,0 g/mol. → Số mol = 15,0: 180,0 = 0,0833 mol → m = 0,0833: 0,200 = 0,4165 mol/kg → ΔTb = 0,512 × 0,4165 = 0,213 °C → Nhiệt độ sôi dung dịch 100, 00 0, 2133 100, 2133... = + =",
@@ -42733,13 +42733,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 92:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
-      "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết. (2) Dung dịch chứa 1 mol Glucose ( 6 12 6 C H O ) trong 1 kg nước. (3) Dung dịch chứa 0,5 mol 2 MgCl trong 1 kg nước (giả sử điện ly hoàn toàn). (4) Dung dịch chứa 1 mol NaCl trong 1 kg nước (giả sử điện ly hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết; (2) Dung dịch chứa 1 mol Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) trong 1 kg nước; (3) Dung dịch chứa 0,5 mol $\\text{MgCl}_2$ trong 1 kg nước (giả sử điện li hoàn toàn); (4) Dung dịch chứa 1 mol $\\text{NaCl}$ trong 1 kg nước (giả sử điện li hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao):",
       "options": [
-        "A. (1) < (2) < (3) < (4).",
-        "B. (1) < (3) < (2) < (4).",
-        "C. (1) < (2) < (4) < (3).",
-        "D. (4) < (3) < (2) < (1)."
+        "A. (1) < (2) < (3) < (4)",
+        "B. (1) < (3) < (2) < (4)",
+        "C. (1) < (2) = (3) < (4)",
+        "D. (4) < (3) < (2) < (1)"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^\\circ C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
@@ -44740,9 +44740,9 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 62 và 63:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Bạn Nam cần ít nhất 900 đơn vị protein và 400 đơn vị lipit trong thức ăn mỗi ngày. Mỗi kiogam thịt bò chứa 800 đơn vị protein và 200 đơn vị lipit. Mỗi kilogam thịt lợn chứa 600 đơn vị protein và 400 đơn vị lipit. Biết rằng Nam chỉ mua nhiều nhất 1,6 kg thịt bò và 1,1 kg thịt lợn. Giá tiền một kg thịt bò là 160 nghìn đồng, một kg thịt lợn là 110 nghìn đồng. Gọi , x y lần lượt là số kg thịt bò và thịt lợn mà Nam cần mua.",
       "question": "Giá trị , x y để tổng số tiền Nam phải trả là ít nhất nhưng vẫn đảm bảo lượng protein và lipit trong thức ăn?",
       "options": [
-        "A. 0,3 x = và 1,1 y = .",
-        "B. 0,3 x = và 0, 7 y = .",
-        "C. 0, 6 x = và 0, 7 y = .",
+        "A. 0,3 x = và 1,1 y =",
+        "B. 0,3 x = và 0, 7 y =",
+        "C. 0, 6 x = và 0, 7 y =",
         "D. 1, 6 x = và 0, 2 y ="
       ],
       "correctAnswer": 0,
@@ -44759,7 +44759,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 64 đến 66:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
       "question": "Tọa độ điểm $A$ là:",
       "options": [
         "A. (3; 1)",
@@ -44767,7 +44767,7 @@ export const QUESTIONS_DATA = {
         "C. (3; -1)",
         "D. (-3; 1)"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Tọa độ điểm A là nghiệm của hệ phương trình: 2 7 0 3 4 1 0 1 x y x x y y + + = = - \\Leftrightarrow - - = = - . Vậy ( ) 3; 1 A - - .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
@@ -44781,7 +44781,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 64 đến 66:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
       "question": "Tọa độ điểm $C$ là:",
       "options": [
         "A. (5; 5)",
@@ -44803,15 +44803,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 64 đến 66:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
-      "question": "Phương trình của đường thẳng BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
+      "question": "Phương trình của đường thẳng $BC$ là:",
       "options": [
-        "A. 4 3 0 x y - + = .",
-        "B. 4 15 0 x y - + = .",
-        "C. 2 15 0 x y + - = .",
-        "D. 3 2 0 2 x y + + = ."
+        "A. $4x - y + 3 = 0$",
+        "B. $4x - y - 15 = 0$",
+        "C. $2x + y - 15 = 0$",
+        "D. $3x + 2y - 12 = 0$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Đường thẳng BC song song với đường thẳng AD nên phương trình đường thẳng BC có dạng: 4 0 x y c - + = với 1 c \\ne - . ( ) 5;5 C thuộc đường thẳng BC nên: 5 4.5 0 15 c c - + = \\Leftrightarrow = . Vậy phương trình đường thẳng BC là: 4 15 0 x y - + =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
@@ -44891,7 +44891,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
       "question": "Tính góc giữa $SD$ và mặt phẳng $(ABCD)$ (làm tròn đến độ):",
       "options": [
         "A. $30^\\circ$",
@@ -44899,7 +44899,7 @@ export const QUESTIONS_DATA = {
         "C. $60^\\circ$",
         "D. $50^\\circ$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -44913,13 +44913,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
-      "question": "Tính tan của góc giữa hai mặt phẳng ( SCD ) và ( ABCD ).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
+      "question": "Tính tan của góc giữa hai mặt phẳng $(SCD)$ và $(ABCD)$:",
       "options": [
-        "A. $\\frac{15}{2}$",
-        "B. $\\frac{15}{3}$",
+        "A. $\\frac{\\sqrt{15}}{2}$",
+        "B. $\\frac{\\sqrt{15}}{3}$",
         "C. $\\frac{\\sqrt{15}}{4}$",
-        "D. $\\frac{15}{5}$"
+        "D. $\\frac{\\sqrt{15}}{5}$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -44935,15 +44935,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
-      "question": "Gọi G là trọng tâm tam giác ABD , tính khoảng cách từ G đến mặt phẳng ( SCD ).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
+      "question": "Gọi $G$ là trọng tâm tam giác $ABD$, tính khoảng cách từ $G$ đến mặt phẳng $(SCD)$:",
       "options": [
         "A. $\\frac{3a\\sqrt{285}}{57}$",
         "B. $\\frac{a\\sqrt{285}}{114}$",
         "C. $\\frac{a\\sqrt{285}}{57}$",
         "D. $\\frac{2a\\sqrt{285}}{57}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^\\circ 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
@@ -44957,15 +44957,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 77:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Mệnh đề nào sau đây đúng?",
       "options": [
-        "A. Hàm số đồng biến trên ( ) ; 1 \\infty - - và ( ) 1; \\infty - + .Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "B. Hàm số nghịch biến trên ( ) ; 1 \\infty - - và ( ) 1; \\infty - + .Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "C. Hàm số nghịch biến trên ( ) ( ) ; 1 1; \\infty \\infty - - \\cup - +Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
-        "D. $Hàm số đồng biến trên \\{ \\} 1 R - \\setminus .$"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "2 3 0 ( 1) y x - = < + ' Hàm số đã cho luôn nghịch biến trên từng khoảng xác định.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
@@ -44979,15 +44979,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 77:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Tâm đối xứng của đồ thị hàm số là $I(a; b)$. Tính $a + b$:",
       "options": [
-        "A. -1",
-        "B. 3",
-        "C. -3",
-        "D. -2"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Tiệm cận đứng của đồ thị hàm số là 1 x = - . Tiệm cận ngang của đồ thị hàm số là 2 y = - . Tâm đối xứng là ( ) 1; 2 I - - .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
@@ -45001,15 +45001,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 77:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Có bao nhiêu điểm $M \\in (C)$ thỏa mãn tổng khoảng cách từ điểm $M$ đến các đường tiệm cận của đồ thị đạt giá trị nhỏ nhất?",
       "options": [
-        "A. 1",
-        "B. 0",
-        "C. 2",
-        "D. 3"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Gọi điểm ( ) 1 2 , 1 a M a C a - \\left( \\right) \\in \\left( \\right) + \\left( \\right) . Tổng khoảng cách từ mỗi điểm M đến các đường tiệm cận của đồ thị hàm số bằng 2: 1 2 3 1 2 2 1 2 1 1 a a a a a - + + + = \\Leftrightarrow + + = + + . Đặt 1 ( 0) t a t = + > ta có: 2 3 2 2 3 0 t t t t + = \\Leftrightarrow - + = . Phương trình vô nghiệm. Trên đồ thị ( ) C , không có điểm ( ) M C \\in thỏa mãn tổng khoảng cách từ điểm M đến các đường tiệm cận của đồ thị hàm số bằng 2.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
@@ -45023,15 +45023,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 77:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
-      "question": "Phương trình 10 1 3 5 9 4 2 2 x x x x + + - = + + - có tổng các nghiệm là",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
+      "question": "Phương trình $\\sqrt{10x + 1} - \\sqrt{2x - 2} = \\sqrt{9x + 4} - \\sqrt{3x - 5}$ có tổng các nghiệm là:",
       "options": [
-        "A. 0 .",
-        "B. 3 .",
-        "C. 2 .",
-        "D. 1."
+        "A. 0",
+        "B. 3",
+        "C. 2",
+        "D. 1"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Phương trình có dạng: A B C D + = + với , A C B D + = + cụ thể: (10 1) (2 2) (9 4) (3 5) 12 1, x x x x x + + - = + + - = - nên ta sẽ chuyển vế đưa về dạng: A C D B - = - và bình phương hai vế. Nhưng do khi chuyển vế và bình phương là ta đã giải phương trình hệ quả, vì vậy khi giải xong ta cần thay thế nghiệm vào phương trình đầu đề bài nhằm nhận, loại nghiệm thích hợp. Ta có Lời giải: Điều kiện: 5 , 3 x \\ge khi đó: 10 1 3 5 9 4 2 2 10 1 2 2 9 4 3 5 x x x x x x x x + + - = + + - \\Leftrightarrow + - - = + - - 2 2 ( 10 1 2 2) ( 9 4 3 5) x x x x \\Rightarrow + - - = + - - 12 1 2 (10 1)(2 2) 12 1 2 (9 4)(3 5) x x x x x x \\Leftrightarrow - - + - = - - + - 2 6 (10 1)(2 2) (9 4)(3 5) 7 15 18 0 3, 7 x x x x x x x x \\Leftrightarrow + - = + - \\Leftrightarrow - - = \\Leftrightarrow = = - \\cdot So với điều kiện và thế vào phương trình ban đầu, phương trình có nghiệm 3. x =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -45045,15 +45045,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 77:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Hệ phương trình $\\begin{cases} x^2 + 2y^2 = 6 \\\\ y^2 + 2x^2 = 20 \\end{cases}$ có bao nhiêu nghiệm thực?",
       "options": [
-        "A. 2",
-        "B. 1",
-        "C. 4",
-        "D. 0"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "2 2 6 20 x y y x x y y x + = + = (*) Điều kiện: , 0 x y \\ge . Đặt 0 0 u x v y = \\ge = \\ge . 2 2 2 2 2 2 2 2 4 2 2 4 ( ) 6 ( ) 6 6 ( ) ( ) ( ) 2 20 ( ) 20 0 20 uv u v uv u v u v uv uv u v uv u v u v u v u v + = + = + = \\Leftrightarrow \\Leftrightarrow \\Leftrightarrow [ ] + - = + - = + = ] ] 2 2 6 ( 2 ) 20 PS P S P = \\Leftrightarrow - = với 2 , ( 4 ). S u v S P P uv = + \\ge = 2 3 2 3 3 6 6 6 2 3 ( ) 2 20 6 2 20 8 PS PS PS P S PS P P P = = = = \\Leftrightarrow \\Leftrightarrow \\Leftrightarrow \\Leftrightarrow = - = - = = 2 1 3 2 uv u u v v = = \\Leftrightarrow \\Leftrightarrow + = = hoặc 2 1 u v = \\cdot = Suy ra: 1 2 x y = = hoặc 2 1 4 1 x x y y = = \\Leftrightarrow = = hoặc 4 1 x y = \\cdot = So với điều kiện, tập nghiệm của hệ là \\{ \\} ( ; ) (1;4),(4;1) S x y = = \\cdot",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
@@ -45067,7 +45067,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\n3 0 Q x y z + + = , ( ) : 2 0 R x y z - + = và điểm ( ) 2;1; 3 B - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(Q): x + y + 3z = 0$, $(R): 2x - y + z = 0$ và điểm $B(2; 1; -3)$.",
       "question": "Tính cosin của góc giữa 2 mặt phẳng $(Q)$ và $(R)$:",
       "options": [
         "A. $-\\frac{2\\sqrt{66}}{33}$",
@@ -45089,13 +45089,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\n3 0 Q x y z + + = , ( ) : 2 0 R x y z - + = và điểm ( ) 2;1; 3 B - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(Q): x + y + 3z = 0$, $(R): 2x - y + z = 0$ và điểm $B(2; 1; -3)$.",
       "question": "Phương trình của mặt phẳng $(P)$ đi qua điểm $B$, đồng thời vuông góc với hai mặt phẳng $(Q)$ và $(R)$ là:",
       "options": [
-        "A. 4x + 5y - 3z + 22 = 0",
-        "B. 4x - 5y - 3z - 12 = 0",
-        "C. 4x + 5y - 3z - 22 = 0",
-        "D. 2x + 3y - 14z = 0"
+        "A. $4x + 5y - 3z + 22 = 0$",
+        "B. $4x - 5y - 3z - 12 = 0$",
+        "C. $4x + 5y - 3z - 22 = 0$",
+        "D. $2x + 3y - 14z = 0$"
       ],
       "correctAnswer": 2,
       "explanation": "Mặt phẳng ( ) P vuông góc với hai mặt phẳng ( ) : 3 0 Q x y z + + = và ( ) : 2 0 R x y z - + = Suy ra, là một VTPT của mặt phẳng ( ) P Vậy phương trình mặt phẳng ( ) P là: ( ) ( ) ( ) 4 2 5 1 3 3 0 4 5 3 22 0 x y z x y z - + - - + = \\Leftrightarrow + - - = .",
@@ -45111,8 +45111,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n1 1; u = * 1 2 3 , .n n n u u n + = + \\in \\infty",
-      "question": "Gọi $(v_n)$ là dãy số thỏa $v_n = u_n - 3n$. Tính $S = v_1 + v_2 + \\dots + v_{10}$:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nCho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 2u_n + 3n$ với mọi $n \\in \\mathbb{N}^*$.",
+      "question": "Gọi $(v_n)$ là dãy số thỏa mãn $v_n = u_n + 3n + 6$. Tính $S = v_1 + v_2 + \\dots + v_{10}$:",
       "options": [
         "A. -2046",
         "B. -4092",
@@ -45133,15 +45133,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 80 và 81:\n1 1; u = * 1 2 3 , .n n n u u n + = + \\in \\infty",
-      "question": "20 u là một số có mấy chữ số?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nCho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 2u_n + 3n$ với mọi $n \\in \\mathbb{N}^*$.",
+      "question": "$u_{20}$ là một số có mấy chữ số?",
       "options": [
-        "A. 8 .",
-        "B. 7 .",
-        "C. 9 .",
-        "D. 10 ."
+        "A. 5",
+        "B. 6",
+        "C. 7",
+        "D. 8"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Ta có 1 1. 2 .n n n v v q - = = - . Vậy 20 20 20 3 3 2 3 2 3485735825n n n n n u v u = + = - \\Rightarrow = - = .",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
@@ -45199,13 +45199,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 84 đến 86:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
-      "question": "Độ dài đường cao kẻ từ đỉnh A là (làm tròn đến hàng phần trăm)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
+      "question": "Độ dài đường cao kẻ từ đỉnh $A$ là (làm tròn đến hàng phần trăm):",
       "options": [
-        "A. 6,36 .",
-        "B. 6,63 .",
-        "C. 6,30 .",
-        "D. 6,40 ."
+        "A. 6,36",
+        "B. 5,66",
+        "C. 7,07",
+        "D. 4,24"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi H là hình chiếu vuông góc của A trên \\Delta , khi đó H là trung điểm của BC Ta có 2 2 1 4 4 9 ( , ) 6,36 2 1 1 AH d A - - - = \\Delta = = +",
@@ -45221,13 +45221,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 84 đến 86:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
-      "question": "Độ dài cạnh AB là (làm tròn đến hàng phần trăm)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
+      "question": "Độ dài cạnh $AB$ là (làm tròn đến hàng phần trăm):",
       "options": [
-        "A. 7,00.",
-        "B. 6,96.",
-        "C. 6,90.",
-        "D. 48,50."
+        "A. 7,35",
+        "B. 6,85",
+        "C. 8,12",
+        "D. 6,36"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 2 2.18 4 2 2 2 9 2 ABC S BC BH CH AH = = = \\Rightarrow = = 2 2 81 97 8 6,96 2 2 AB AH BH \\Rightarrow = + = + =",
@@ -45243,15 +45243,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 84 đến 86:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
       "question": "Gọi tọa độ điểm $B$ là $B(a; b)$, tính $a + b$:",
       "options": [
-        "A. 1",
-        "B. -7",
-        "C. -1",
-        "D. 7"
+        "A. 2",
+        "B. -2",
+        "C. 0",
+        "D. 4"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "Vậy 97 2 AB AC = = , suy ra , B C thuộc đường tròn tâm ( 1; 4) A - và bán kính 97 2 R = có phương trình: 2 2 97 ( 1) ( 4) 2 x y + + - = Khi đó tọa độ , B C là nghiệm của hệ: 2 2 4 0 97 ( 1) ( 4) 2 x y x y - - = + + - = 2 3 4 2 5 4 28 33 0 2 xy x x x y = = - \\Leftrightarrow \\Leftrightarrow - + = = - hoặc 11 2 3 2 x y = = . Vậy 3 5 11 3 ; , ; 2 2 2 2 B C \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) hoặc 11 3 3 5 ; , ; 2 2 2 2 B C \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) . Mà điểm B có tung độ âm nên 3 5 ; 2 2 B\\left( \\right) - \\left( \\right) \\left( \\right) . Vậy 1 a b + = -",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
@@ -45595,7 +45595,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 106:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong tầng bình lưu, các hợp chất chlorofluorocarbon (CFC) bị phân rã bởi tia cực tím giải phóng các gốc chlorine tự do ($\\text{Cl}^\\bullet$). Mỗi gốc $\\text{Cl}^\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy phân tử ozone ($\\text{O}_3$): $\\text{Cl}^\\bullet + \\text{O}_3 \\rightarrow \\text{ClO}^\\bullet + \\text{O}_2$.",
       "question": "Giả thiết trung bình một gốc Cl• phá huỷ 1 000 phân tử ozone. Khối lượng ozone bị phá huỷ bởi lượng gốc Cl• trên là",
       "options": [
         "A. 144 kg.",
@@ -47379,8 +47379,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 63 và 64:\n1 1; u = * 1 2 3 , .n n n u u n + = + \\in \\infty",
-      "question": "Gọi $(v_n)$ là dãy số thỏa $v_n = u_n - 3n$. Tính $S = v_1 + v_2 + \\dots + v_{10}$:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nCho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 2u_n + 3n$ với mọi $n \\in \\mathbb{N}^*$.",
+      "question": "Gọi $(v_n)$ là dãy số thỏa mãn $v_n = u_n + 3n + 6$. Tính $S = v_1 + v_2 + \\dots + v_{10}$:",
       "options": [
         "A. -2046",
         "B. -4092",
@@ -47401,15 +47401,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 63 và 64:\n1 1; u = * 1 2 3 , .n n n u u n + = + \\in \\infty",
-      "question": "20 u là một số có mấy chữ số?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nCho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 2u_n + 3n$ với mọi $n \\in \\mathbb{N}^*$.",
+      "question": "$u_{20}$ là một số có mấy chữ số?",
       "options": [
-        "A. 8 .",
-        "B. 7 .",
-        "C. 9 .",
-        "D. 10 ."
+        "A. 5",
+        "B. 6",
+        "C. 7",
+        "D. 8"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Ta có 1 1. 2 .n n n v v q - = = - . Vậy 20 20 20 3 3 2 3 2 3485735825n n n n n u v u = + = - \\Rightarrow = - = .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
@@ -47467,13 +47467,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
-      "question": "Độ dài đường cao kẻ từ đỉnh A là (làm tròn đến hàng phần trăm)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
+      "question": "Độ dài đường cao kẻ từ đỉnh $A$ là (làm tròn đến hàng phần trăm):",
       "options": [
-        "A. 6,36 .",
-        "B. 6,63 .",
-        "C. 6,30 .",
-        "D. 6,40 ."
+        "A. 6,36",
+        "B. 5,66",
+        "C. 7,07",
+        "D. 4,24"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi H là hình chiếu vuông góc của A trên \\Delta , khi đó H là trung điểm của BC Ta có 2 2 1 4 4 9 ( , ) 6,36 2 1 1 AH d A - - - = \\Delta = = +",
@@ -47489,13 +47489,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
-      "question": "Độ dài cạnh AB là (làm tròn đến hàng phần trăm)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
+      "question": "Độ dài cạnh $AB$ là (làm tròn đến hàng phần trăm):",
       "options": [
-        "A. 7,00.",
-        "B. 6,96.",
-        "C. 6,90.",
-        "D. 48,50."
+        "A. 7,35",
+        "B. 6,85",
+        "C. 8,12",
+        "D. 6,36"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 2 2.18 4 2 2 2 9 2 ABC S BC BH CH AH = = = \\Rightarrow = = 2 2 81 97 8 6,96 2 2 AB AH BH \\Rightarrow = + = + =",
@@ -47511,15 +47511,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
       "question": "Gọi tọa độ điểm $B$ là $B(a; b)$, tính $a + b$:",
       "options": [
-        "A. 1",
-        "B. -7",
-        "C. -1",
-        "D. 7"
+        "A. 2",
+        "B. -2",
+        "C. 0",
+        "D. 4"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "Vậy 97 2 AB AC = = , suy ra , B C thuộc đường tròn tâm ( 1; 4) A - và bán kính 97 2 R = có phương trình: 2 2 97 ( 1) ( 4) 2 x y + + - = Khi đó tọa độ , B C là nghiệm của hệ: 2 2 4 0 97 ( 1) ( 4) 2 x y x y - - = + + - = 2 3 4 2 5 4 28 33 0 2 xy x x x y = = - \\Leftrightarrow \\Leftrightarrow - + = = - hoặc 11 2 3 2 x y = = . Vậy 3 5 11 3 ; , ; 2 2 2 2 B C \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) hoặc 11 3 3 5 ; , ; 2 2 2 2 B C \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) . Mà điểm B có tung độ âm nên 3 5 ; 2 2 B\\left( \\right) - \\left( \\right) \\left( \\right) . Vậy 1 a b + = -",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
@@ -47691,9 +47691,9 @@ export const QUESTIONS_DATA = {
       "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
       "options": [
         "A. 1 0 x y - - =",
-        "B. 1 0 x y - + = .",
-        "C. 1 0 x y + - = .",
-        "D. 1 0 x y + + = ."
+        "B. 1 0 x y - + =",
+        "C. 1 0 x y + - =",
+        "D. 1 0 x y + + ="
       ],
       "correctAnswer": 0,
       "explanation": "( ) 6 6 0 1 0 f x x x y '' = - = \\Leftrightarrow = \\Rightarrow = Vậy tâm đối xứng là ( ) 1;0 I nằm trên đường thẳng 1 0 x y - - =",
@@ -47734,10 +47734,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Một lớp học có tất cả học sinh đều học tiếng Anh hoặc tiếng Pháp. Trong đó, có 25 học sinh học tiếng Anh, 20 học sinh học tiếng Pháp và 8 học sinh học cả tiếng Anh và tiếng Pháp. Tổng số học sinh của lớp học đó là:",
       "options": [
-        "A. 37.",
-        "B. 45.",
-        "C. 53.",
-        "D. 41."
+        "A. 37",
+        "B. 45",
+        "C. 53",
+        "D. 41"
       ],
       "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 61: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -47842,12 +47842,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số đường tiệm cận của đồ thị hàm số 2 2 4 3 4 x x y x - + = - là:",
+      "question": "Số đường tiệm cận của đồ thị hàm số $y = \\frac{x^2 - 4x + 3}{x^2 - 4}$ là:",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 66: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -48482,10 +48482,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\n0,2 gam ion F- trên cơ thể có trọng lượng 70kg có thể gây tử vong. Tuy nhiên, để giúp men răng thêm chắc và chống chọi các bệnh về sâu răng, ion F- được thêm vào nước uống đóng chai với nồng độ 1mg ion F- trên 1L nước. Trong các loại kem đánh răng, ion F- được bổ sung một lượng nhỏ dưới dạng muối sodium fluoride (NaF).",
       "question": "Một bạn học sinh nặng khoảng 70kg sử dụng loại nước chứa ion F- với lượng 1mg/1L để giúp men răng chắc khỏe, chống sâu răng. Thể tích nước mà bạn học sinh này uống một ngày là bao nhiêu lít thì ion F- có trong nước đạt đến mức có thể gây độc tính?",
       "options": [
-        "A. 225.",
-        "B. 220.",
-        "C. 250.",
-        "D. 200."
+        "A. 225",
+        "B. 220",
+        "C. 250",
+        "D. 200"
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án D 1 mg/ 1L là liều lượng không độc. 0,2 g/ 70kg là liều lượng đến mức F- gây độc tính. 0,2 g = 200 mg tương ứng 200L nước. Vậy một người 70kg uống 200 L nước chứa F- mới có khả năng nhiễm độc fluoride",
@@ -48523,13 +48523,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nproton, electron) chuyển động với vận tốc cực lớn, gần bằng vận tốc ánh sáng. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện F qE = , khiến hạt được gia tốc không đổi. Nếu hiệu điện thế giữa hai bản là U , năng lượng mà hạt nhận được khi đi qua điện trường là: A qU = Năng lượng này được chuyển hoàn toàn thành động năng: 2 1 2 mv qU = → từ đó có thể tính vận tốc của hạt: 2qU v m = Các máy gia tốc có thể dùng nhiều “tầng” điện trường nối tiếp để tăng dần năng lượng hạt. Khi vận tốc hạt tăng lên, khối lượng tương đối tính của nó cũng tăng, và các nhà vật lý phải dùng công thức tương đối tính để tính chính xác năng lượng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTrong máy gia tốc hạt, các hạt mang điện (proton, electron) chuyển động với vận tốc cực lớn. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện $F = qE$, khiến hạt có gia tốc. Nếu hiệu điện thế giữa hai bản là $U$, công của lực điện là $A = qU$. Công này chuyển hóa thành động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}}$.",
       "question": "Trong máy gia tốc, hạt tích điện tăng tốc là do",
       "options": [
-        "A. Tác dụng của từ trường đều.",
-        "B. Lực hấp dẫn của Trái Đất.",
-        "C. Lực điện do hiệu điện thế giữa hai bản kim loại.",
-        "D. Nhiệt độ cao trong buồng gia tốc."
+        "A. Lực điện trường tác dụng sinh công làm tăng động năng của hạt.",
+        "B. Lực từ trường làm biến đổi độ lớn vận tốc của hạt.",
+        "C. Tác dụng của trọng lực Trái Đất.",
+        "D. Sự va chạm đàn hồi giữa các hạt mang điện."
       ],
       "correctAnswer": 0,
       "explanation": "Lực điện F qE = sinh ra từ hiệu điện thế giữa hai bản kim loại tạo gia tốc cho hạt. Đáp án đúng: C.",
@@ -48545,12 +48545,12 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nproton, electron) chuyển động với vận tốc cực lớn, gần bằng vận tốc ánh sáng. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện F qE = , khiến hạt được gia tốc không đổi. Nếu hiệu điện thế giữa hai bản là U , năng lượng mà hạt nhận được khi đi qua điện trường là: A qU = Năng lượng này được chuyển hoàn toàn thành động năng: 2 1 2 mv qU = → từ đó có thể tính vận tốc của hạt: 2qU v m = Các máy gia tốc có thể dùng nhiều “tầng” điện trường nối tiếp để tăng dần năng lượng hạt. Khi vận tốc hạt tăng lên, khối lượng tương đối tính của nó cũng tăng, và các nhà vật lý phải dùng công thức tương đối tính để tính chính xác năng lượng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTrong máy gia tốc hạt, các hạt mang điện (proton, electron) chuyển động với vận tốc cực lớn. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện $F = qE$, khiến hạt có gia tốc. Nếu hiệu điện thế giữa hai bản là $U$, công của lực điện là $A = qU$. Công này chuyển hóa thành động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}}$.",
       "question": "Nếu tăng hiệu điện thế U giữa hai bản lên gấp đôi, thì vận tốc của hạt sẽ",
       "options": [
-        "A. Tăng gấp đôi.",
-        "B. Giảm còn một nửa.",
-        "C. Tăng 2 lần.",
+        "A. Tăng lên $\\sqrt{2}$ lần.",
+        "B. Tăng lên 2 lần.",
+        "C. Tăng lên 4 lần.",
         "D. Không thay đổi."
       ],
       "correctAnswer": 0,
@@ -48567,13 +48567,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nproton, electron) chuyển động với vận tốc cực lớn, gần bằng vận tốc ánh sáng. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện F qE = , khiến hạt được gia tốc không đổi. Nếu hiệu điện thế giữa hai bản là U , năng lượng mà hạt nhận được khi đi qua điện trường là: A qU = Năng lượng này được chuyển hoàn toàn thành động năng: 2 1 2 mv qU = → từ đó có thể tính vận tốc của hạt: 2qU v m = Các máy gia tốc có thể dùng nhiều “tầng” điện trường nối tiếp để tăng dần năng lượng hạt. Khi vận tốc hạt tăng lên, khối lượng tương đối tính của nó cũng tăng, và các nhà vật lý phải dùng công thức tương đối tính để tính chính xác năng lượng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTrong máy gia tốc hạt, các hạt mang điện (proton, electron) chuyển động với vận tốc cực lớn. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện $F = qE$, khiến hạt có gia tốc. Nếu hiệu điện thế giữa hai bản là $U$, công của lực điện là $A = qU$. Công này chuyển hóa thành động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}}$.",
       "question": "Một proton có khối lượng $m = 1{,}67 \\times 10^{-27}\\text{ kg}$ và điện tích $q = 1{,}6 \\times 10^{-19}\\text{ C}$ được gia tốc trong điện trường có hiệu điện thế $U = 2{,}0 \\times 10^6\\text{ V}$. Bỏ qua tương đối tính, vận tốc của proton sau khi ra khỏi điện trường là:",
       "options": [
-        "A. $7 2,0 10 m / s \\times$",
-        "B. $7 6, 2 10 m / s \\times$",
-        "C. $7 1,9 10 m / s \\times$",
-        "D. $7 4,9 10 m / s \\times$"
+        "A. $1{,}96 \\times 10^7\\text{ m/s}$",
+        "B. $2{,}0 \\times 10^7\\text{ m/s}$",
+        "C. $1{,}5 \\times 10^7\\text{ m/s}$",
+        "D. $3{,}0 \\times 10^7\\text{ m/s}$"
       ],
       "correctAnswer": 0,
       "explanation": "( )( )19 6 7 27 2 1, 6 10 2, 0 10 2 2,0 10 m / s 1, 67 10 qU v m - - \\times \\times = = \\times \\times Đáp án đúng: A.",
@@ -50002,10 +50002,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Một lớp học có tất cả học sinh đều học tiếng Anh hoặc tiếng Pháp. Trong đó, có 25 học sinh học tiếng Anh, 20 học sinh học tiếng Pháp và 8 học sinh học cả tiếng Anh và tiếng Pháp. Tổng số học sinh của lớp học đó là:",
       "options": [
-        "A. 37.",
-        "B. 45.",
-        "C. 53.",
-        "D. 41."
+        "A. 37",
+        "B. 45",
+        "C. 53",
+        "D. 41"
       ],
       "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 61: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -50109,13 +50109,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số3 2 ( ) 2 3( 1) 6 1, f x x m x mx = - + + + với m là tham số thực.",
-      "question": "Số đường tiệm cận của đồ thị hàm số 2 2 4 3 4 x x y x - + = - là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số $f(x) = 2x^3 - 3(m + 1)x^2 + 6mx + 1$ với $m$ là tham số thực.",
+      "question": "Số đường tiệm cận của đồ thị hàm số $y = \\frac{x^2 - 4x + 3}{x^2 - 4}$ là:",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 66: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -50131,7 +50131,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số3 2 ( ) 2 3( 1) 6 1, f x x m x mx = - + + + với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số $f(x) = 2x^3 - 3(m + 1)x^2 + 6mx + 1$ với $m$ là tham số thực.",
       "question": "Với $m = 3$, giá trị lớn nhất của hàm số $y = f(x)$ trên đoạn $[0; 3]$ là:",
       "options": [
         "A. 5",
@@ -50153,7 +50153,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số3 2 ( ) 2 3( 1) 6 1, f x x m x mx = - + + + với m là tham số thực.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hàm số $f(x) = 2x^3 - 3(m + 1)x^2 + 6mx + 1$ với $m$ là tham số thực.",
       "question": "Hàm số $y = f(x)$ nghịch biến trên khoảng $(1; 3)$ khi và chỉ khi:",
       "options": [
         "A. $m \\ge 1$",
@@ -50175,7 +50175,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng $(u_n)$ xác định bởi2 6 3 7 18 22. u u u u",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_2 + u_6 = 18$ và $u_3 + u_7 = 22$.",
       "question": "Đường thẳng $y = 1$ cắt đồ thị hàm số $y = f(x)$ tại hai điểm phân biệt có hoành độ lớn hơn 2 khi và chỉ khi:",
       "options": [
         "A. m > 3",
@@ -50197,13 +50197,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng $(u_n)$ xác định bởi2 6 3 7 18 22. u u u u",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_2 + u_6 = 18$ và $u_3 + u_7 = 22$.",
       "question": "Ta có công sai $d$ của cấp số cộng $(u_n)$ là:",
       "options": [
-        "A. d = 2",
-        "B. d = -2",
-        "C. d = 3",
-        "D. d = -3"
+        "A. $d = 2$",
+        "B. $d = -2$",
+        "C. $d = 3$",
+        "D. $d = -3$"
       ],
       "correctAnswer": 0,
       "explanation": "Phân tích phương pháp giải chi tiết câu 70: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -50219,13 +50219,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Cho cấp số cộng $(u_n)$ xác định bởi2 6 3 7 18 22. u u u u",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_2 + u_6 = 18$ và $u_3 + u_7 = 22$.",
       "question": "Cho cấp số cộng (u_n) thỏa mãn u_2 + u_6 = 18 và u_3 + u_7 = 22. Giá trị của số hạng đầu u_1 và công sai d là:",
       "options": [
-        "A. u_1 = 3, d = 2",
-        "B. u_1 = 2, d = 3",
-        "C. u_1 = 1, d = 2",
-        "D. u_1 = 4, d = 2"
+        "A. $u_1 = 3, d = 2$",
+        "B. $u_1 = 2, d = 3$",
+        "C. $u_1 = 1, d = 2$",
+        "D. $u_1 = 4, d = 2$"
       ],
       "correctAnswer": 0,
       "explanation": "Từ hệ u_1 + d + u_1 + 5d = 18 (2u_1 + 6d = 18) và 2u_1 + 8d = 22 => 2d = 4 => d = 2, suy ra u_1 = 3.",
@@ -50354,10 +50354,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\n12 Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80 Để kiểm tra chất lượng nước uống đóng chai của ba phân xưởng X, Y, Z, đoàn kiểm tra lấy ngẫu nhiên 7 chai nước của phân xưởng X, 4 chai nước của phân xưởng Y và 5 chai nước của phân xưởng Z. Sau đó lấy ngẫu nhiên 4 chai nước từ 16 chai ở trên để kiểm tra hàm lượng fluor theo quy định.",
       "question": "Gọi S là tập tất cả các giá trị nguyên của m sao cho bất phương trình có đúng 3 nghiệm nguyên. Số phần tử của S là:",
       "options": [
-        "A. 0.",
-        "B. 1.",
-        "C. 2.",
-        "D. 3."
+        "A. 0",
+        "B. 1",
+        "C. 2",
+        "D. 3"
       ],
       "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 77: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -50376,10 +50376,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\n12 Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80 Để kiểm tra chất lượng nước uống đóng chai của ba phân xưởng X, Y, Z, đoàn kiểm tra lấy ngẫu nhiên 7 chai nước của phân xưởng X, 4 chai nước của phân xưởng Y và 5 chai nước của phân xưởng Z. Sau đó lấy ngẫu nhiên 4 chai nước từ 16 chai ở trên để kiểm tra hàm lượng fluor theo quy định.",
       "question": "Số cách chọn 4 chai nước từ 16 chai của ba phân xưởng X, Y, Z để phân tích là:",
       "options": [
-        "A. 1960.",
-        "B. 1820.",
-        "C. 1920.",
-        "D. 1880."
+        "A. 1960",
+        "B. 1820",
+        "C. 1920",
+        "D. 1880"
       ],
       "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 78: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -50527,13 +50527,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nTrong mặt phẳng Oxy, cho tam giác ABC có phương trình đường cao AD là 3 6 0, x y - - = phương trình đường cao BE là3 10 0, x y - - = phương trình cạnh AB là 2 0. x y - - =",
-      "question": "Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 2a, khoảng cách giữa hai đường thẳng SA và CD bằng a√3. Gọi O là tâm của đáy. Khoảng cách từ O đến mặt phẳng (SAB) bằng:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nCho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $2a$, khoảng cách giữa hai đường thẳng $SA$ và $CD$ bằng $a\\sqrt{3}$. Gọi $O$ là tâm của đáy.",
+      "question": "Khoảng cách từ $O$ đến mặt phẳng $(SAB)$ bằng:",
       "options": [
-        "A. a√3 / 3",
-        "B. a√3 / 2",
-        "C. a√3",
-        "D. 2a√3"
+        "A. $\\frac{a\\sqrt{3}}{3}$",
+        "B. $\\frac{a\\sqrt{3}}{2}$",
+        "C. $a\\sqrt{3}$",
+        "D. $2a\\sqrt{3}$"
       ],
       "correctAnswer": 0,
       "explanation": "Khoảng cách từ O đến (SAB) bằng một nửa khoảng cách từ CD đến (SAB), tính toán theo công thức chiều cao khối chóp đều ta được d = a√3 / 3.",
@@ -50549,13 +50549,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nTrong mặt phẳng Oxy, cho tam giác ABC có phương trình đường cao AD là 3 6 0, x y - - = phương trình đường cao BE là3 10 0, x y - - = phương trình cạnh AB là 2 0. x y - - =",
-      "question": "Thể tích của khối chóp tứ giác đều S.ABCD bằng:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nCho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $2a$, khoảng cách giữa hai đường thẳng $SA$ và $CD$ bằng $a\\sqrt{3}$. Gọi $O$ là tâm của đáy.",
+      "question": "Thể tích của khối chóp tứ giác đều $S.ABCD$ bằng:",
       "options": [
-        "A. 4a^3 * √3 / 3",
-        "B. 2a^3 * √3 / 3",
-        "C. 4a^3",
-        "D. 8a^3 / 3"
+        "A. $\\frac{4a^3\\sqrt{3}}{3}$",
+        "B. $\\frac{2a^3\\sqrt{3}}{3}$",
+        "C. $4a^3$",
+        "D. $\\frac{8a^3}{3}$"
       ],
       "correctAnswer": 0,
       "explanation": "V = 1/3 * S_day * SO = 1/3 * (2a)^2 * a√3 = 4a^3 * √3 / 3.",
@@ -50596,10 +50596,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Khoảng cách từ điểm A đến mặt phẳng (P) bằng:",
       "options": [
-        "A. 3.",
-        "B. 4.",
-        "C. 2.",
-        "D. 6."
+        "A. 3",
+        "B. 4",
+        "C. 2",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "Phân tích phương pháp giải chi tiết câu 88: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -50706,10 +50706,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 93 đến 95:\n0,2 gam ion F- trên cơ thể có trọng lượng 70kg có thể gây tử vong. Tuy nhiên, để giúp men răng thêm chắc và chống chọi các bệnh về sâu răng, ion F- được thêm vào nước uống đóng chai với nồng độ 1mg ion F- trên 1L nước. Trong các loại kem đánh răng, ion F- được bổ sung một lượng nhỏ dưới dạng muối sodium fluoride (NaF).",
       "question": "Một bạn học sinh nặng khoảng 70kg sử dụng loại nước chứa ion F- với lượng 1mg/1L để giúp men răng chắc khỏe, chống sâu răng. Thể tích nước mà bạn học sinh này uống một ngày là bao nhiêu lít thì ion F- có trong nước đạt đến mức có thể gây độc tính?",
       "options": [
-        "A. 225.",
-        "B. 220.",
-        "C. 250.",
-        "D. 200."
+        "A. 225",
+        "B. 220",
+        "C. 250",
+        "D. 200"
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án D 1 mg/ 1L là liều lượng không độc. 0,2 g/ 70kg là liều lượng đến mức F- gây độc tính. 0,2 g = 200 mg tương ứng 200L nước. Vậy một người 70kg uống 200 L nước chứa F- mới có khả năng nhiễm độc fluoride",
@@ -50747,13 +50747,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 98:\nproton, electron) chuyển động với vận tốc cực lớn, gần bằng vận tốc ánh sáng. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện F qE = , khiến hạt được gia tốc không đổi. Nếu hiệu điện thế giữa hai bản là U , năng lượng mà hạt nhận được khi đi qua điện trường là: A qU = Năng lượng này được chuyển hoàn toàn thành động năng: 2 1 2 mv qU = → từ đó có thể tính vận tốc của hạt: 2qU v m = Các máy gia tốc có thể dùng nhiều “tầng” điện trường nối tiếp để tăng dần năng lượng hạt. Khi vận tốc hạt tăng lên, khối lượng tương đối tính của nó cũng tăng, và các nhà vật lý phải dùng công thức tương đối tính để tính chính xác năng lượng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTrong máy gia tốc hạt, các hạt mang điện (proton, electron) chuyển động với vận tốc cực lớn. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện $F = qE$, khiến hạt có gia tốc. Nếu hiệu điện thế giữa hai bản là $U$, công của lực điện là $A = qU$. Công này chuyển hóa thành động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}}$.",
       "question": "Trong máy gia tốc, hạt tích điện tăng tốc là do",
       "options": [
-        "A. Tác dụng của từ trường đều.",
-        "B. Lực hấp dẫn của Trái Đất.",
-        "C. Lực điện do hiệu điện thế giữa hai bản kim loại.",
-        "D. Nhiệt độ cao trong buồng gia tốc."
+        "A. Lực điện trường tác dụng sinh công làm tăng động năng của hạt.",
+        "B. Lực từ trường làm biến đổi độ lớn vận tốc của hạt.",
+        "C. Tác dụng của trọng lực Trái Đất.",
+        "D. Sự va chạm đàn hồi giữa các hạt mang điện."
       ],
       "correctAnswer": 0,
       "explanation": "Lực điện F qE = sinh ra từ hiệu điện thế giữa hai bản kim loại tạo gia tốc cho hạt. Đáp án đúng: C.",
@@ -50769,12 +50769,12 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 98:\nproton, electron) chuyển động với vận tốc cực lớn, gần bằng vận tốc ánh sáng. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện F qE = , khiến hạt được gia tốc không đổi. Nếu hiệu điện thế giữa hai bản là U , năng lượng mà hạt nhận được khi đi qua điện trường là: A qU = Năng lượng này được chuyển hoàn toàn thành động năng: 2 1 2 mv qU = → từ đó có thể tính vận tốc của hạt: 2qU v m = Các máy gia tốc có thể dùng nhiều “tầng” điện trường nối tiếp để tăng dần năng lượng hạt. Khi vận tốc hạt tăng lên, khối lượng tương đối tính của nó cũng tăng, và các nhà vật lý phải dùng công thức tương đối tính để tính chính xác năng lượng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTrong máy gia tốc hạt, các hạt mang điện (proton, electron) chuyển động với vận tốc cực lớn. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện $F = qE$, khiến hạt có gia tốc. Nếu hiệu điện thế giữa hai bản là $U$, công của lực điện là $A = qU$. Công này chuyển hóa thành động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}}$.",
       "question": "Nếu tăng hiệu điện thế U giữa hai bản lên gấp đôi, thì vận tốc của hạt sẽ",
       "options": [
-        "A. Tăng gấp đôi.",
-        "B. Giảm còn một nửa.",
-        "C. Tăng 2 lần.",
+        "A. Tăng lên $\\sqrt{2}$ lần.",
+        "B. Tăng lên 2 lần.",
+        "C. Tăng lên 4 lần.",
         "D. Không thay đổi."
       ],
       "correctAnswer": 0,
@@ -50791,13 +50791,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 98:\nproton, electron) chuyển động với vận tốc cực lớn, gần bằng vận tốc ánh sáng. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện F qE = , khiến hạt được gia tốc không đổi. Nếu hiệu điện thế giữa hai bản là U , năng lượng mà hạt nhận được khi đi qua điện trường là: A qU = Năng lượng này được chuyển hoàn toàn thành động năng: 2 1 2 mv qU = → từ đó có thể tính vận tốc của hạt: 2qU v m = Các máy gia tốc có thể dùng nhiều “tầng” điện trường nối tiếp để tăng dần năng lượng hạt. Khi vận tốc hạt tăng lên, khối lượng tương đối tính của nó cũng tăng, và các nhà vật lý phải dùng công thức tương đối tính để tính chính xác năng lượng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTrong máy gia tốc hạt, các hạt mang điện (proton, electron) chuyển động với vận tốc cực lớn. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện $F = qE$, khiến hạt có gia tốc. Nếu hiệu điện thế giữa hai bản là $U$, công của lực điện là $A = qU$. Công này chuyển hóa thành động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}}$.",
       "question": "Một proton có khối lượng $m = 1{,}67 \\times 10^{-27}\\text{ kg}$ và điện tích $q = 1{,}6 \\times 10^{-19}\\text{ C}$ được gia tốc trong điện trường có hiệu điện thế $U = 2{,}0 \\times 10^6\\text{ V}$. Bỏ qua tương đối tính, vận tốc của proton sau khi ra khỏi điện trường là:",
       "options": [
-        "A. $7 2,0 10 m / s \\times$",
-        "B. $7 6, 2 10 m / s \\times$",
-        "C. $7 1,9 10 m / s \\times$",
-        "D. $7 4,9 10 m / s \\times$"
+        "A. $1{,}96 \\times 10^7\\text{ m/s}$",
+        "B. $2{,}0 \\times 10^7\\text{ m/s}$",
+        "C. $1{,}5 \\times 10^7\\text{ m/s}$",
+        "D. $3{,}0 \\times 10^7\\text{ m/s}$"
       ],
       "correctAnswer": 0,
       "explanation": "( )( )19 6 7 27 2 1, 6 10 2, 0 10 2 2,0 10 m / s 1, 67 10 qU v m - - \\times \\times = = \\times \\times Đáp án đúng: A.",
@@ -51253,7 +51253,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nDựa vào phản ứng nở hoa của thực vật với quang chu kì, thực vật được chia làm ba nhóm. Thực vật ngày dài như thanh long, xà lách ra hoa khi thời gian ban đêm ngắn hơn độ dài đêm tới hạn. Thực vật ngày ngắn như cúc, mía ra hoa khi thời gian ban đêm dài hơn độ dài đêm tới hạn. Thực vật trung tính như cà chua, hướng dương, lúa nước ra hoa không phụ thuộc vào độ dài thời gian chiếu sáng trong ngày. Một nghiên cứu trồng thanh long dưới ánh sáng tự nhiên ngày ngắn (số giờ sáng trong ngày là 10,5 giờ) và có hoặc không có chiếu sáng nhân tạo bằng đèn vào ban đêm. Ba lô thí nghiệm được trồng trong các điều kiện tương tự nhau. Ở lô thí nghiệm 1, cây được chiếu sáng liên tục từ khi mặt trời lặn đến khi mặt trời mọc vào sáng hôm sau. Ở lô thí nghiệm 2, cây được chiếu sáng từ lúc 0 giờ với tổng số giờ chiếu sáng khác nhau trong đêm. Lô đối chứng cây không được chiếu sáng vào ban đêm. Tỉ lệ ra hoa trung bình ở các lô thí nghiệm sau 20 ngày được trình bày trong bảng dưới đây: Điều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": null,
       "question": "Khối lượng than cần sử dụng trong nhà máy này trong một ngày là",
       "options": [
         "A. 2,333 tấn.",
@@ -52622,10 +52622,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Gọi S là tập tất cả các giá trị nguyên của m sao cho bất phương trình có đúng 3 nghiệm nguyên. Số phần tử của S là:",
       "options": [
-        "A. 0.",
-        "B. 1.",
-        "C. 2.",
-        "D. 3."
+        "A. 0",
+        "B. 1",
+        "C. 2",
+        "D. 3"
       ],
       "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 77: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -52644,10 +52644,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Số cách chọn 4 chai nước từ 16 chai của ba phân xưởng X, Y, Z để phân tích là:",
       "options": [
-        "A. 1960.",
-        "B. 1820.",
-        "C. 1920.",
-        "D. 1880."
+        "A. 1960",
+        "B. 1820",
+        "C. 1920",
+        "D. 1880"
       ],
       "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 78: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -52795,7 +52795,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Trong mặt phẳng Oxy, cho tam giác ABC có phương trình đường cao AD là 3 6 0, x y - - = phương trình đường cao BE là3 10 0, x y - - = phương trình cạnh AB là 2 0. x y - - =",
+      "passage": null,
       "question": "Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 2a, khoảng cách giữa hai đường thẳng SA và CD bằng a√3. Gọi O là tâm của đáy. Khoảng cách từ O đến mặt phẳng (SAB) bằng:",
       "options": [
         "A. a√3 / 3",
@@ -52864,10 +52864,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\n\\nTrong không gian với hệ tọa độ $Oxyz$, cho điểm $A(2; 2; 3)$ và hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Khoảng cách từ điểm A đến mặt phẳng (P) bằng:",
       "options": [
-        "A. 3.",
-        "B. 4.",
-        "C. 2.",
-        "D. 6."
+        "A. 3",
+        "B. 4",
+        "C. 2",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "Phân tích phương pháp giải chi tiết câu 88: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -53023,7 +53023,7 @@ export const QUESTIONS_DATA = {
         "C. 39",
         "D. 40"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Đi từ C đến E theo đường đi Euler dài: 2 1 4 3 5 6 10 31 + + + + + + = Đi từ E đến C với quảng đường ngắn nhất dài: 5 1 2 8 + + = Vậy tổng số kilomet mà người đưa thư phải đi nhỏ nhất là 31 8 39 + = .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
@@ -53038,12 +53038,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Từ một miếng tôn có hình dạng là nửa đường tròn bán kính 1 m , người ta cắt ra một hình chữ nhật. Hỏi có thể cắt được miếng tôn có diện tích lớn nhất là bao nhiêu?",
+      "question": "Từ một miếng tôn có hình dạng là nửa hình tròn bán kính 1 m, người ta cắt ra một hình chữ nhật. Hỏi diện tích lớn nhất của hình chữ nhật cắt được là bao nhiêu?",
       "options": [
-        "A. 2 1, 6 m .",
-        "B. 2 2 m .",
-        "C. 2 1 m .",
-        "D. 2 0,8 m ."
+        "A. $1{,}6\\text{ m}^2$",
+        "B. $2\\text{ m}^2$",
+        "C. $1\\text{ m}^2$",
+        "D. $0{,}8\\text{ m}^2$"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Xét đường tròn bán kính 1, ta cắt trên đó một hình chữ nhật ABCD . Khi đó 1 . .sin 2 ABCD S AC BD \\alpha = 2 sin 2 \\alpha = \\le . Dấu bằng xảy ra khi và chỉ khi 90 \\alpha = ^\\circ . Vậy diện tích lớn nhất của miếng tôn cắt trên nửa đường tròn bằng 1.",
@@ -53238,10 +53238,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Giả sử con cá bắt được có màu vàng, tính xác suất để con cá màu vàng này không bị đánh dấu.(làm tròn kết quả 2 chữ số thập phân)",
       "options": [
-        "A. 0,87 .",
-        "B. 0,67 .",
-        "C. 0,13 .",
-        "D. 0,39 ."
+        "A. 0,87",
+        "B. 0,67",
+        "C. 0,13",
+        "D. 0,39"
       ],
       "correctAnswer": 0,
       "explanation": "Xem giải thích chi tiết trong tài liệu đáp án.",
@@ -53477,7 +53477,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nDựa vào phản ứng nở hoa của thực vật với quang chu kì, thực vật được chia làm ba nhóm. Thực vật ngày dài như thanh long, xà lách ra hoa khi thời gian ban đêm ngắn hơn độ dài đêm tới hạn. Thực vật ngày ngắn như cúc, mía ra hoa khi thời gian ban đêm dài hơn độ dài đêm tới hạn. Thực vật trung tính như cà chua, hướng dương, lúa nước ra hoa không phụ thuộc vào độ dài thời gian chiếu sáng trong ngày. Một nghiên cứu trồng thanh long dưới ánh sáng tự nhiên ngày ngắn (số giờ sáng trong ngày là 10,5 giờ) và có hoặc không có chiếu sáng nhân tạo bằng đèn vào ban đêm. Ba lô thí nghiệm được trồng trong các điều kiện tương tự nhau. Ở lô thí nghiệm 1, cây được chiếu sáng liên tục từ khi mặt trời lặn đến khi mặt trời mọc vào sáng hôm sau. Ở lô thí nghiệm 2, cây được chiếu sáng từ lúc 0 giờ với tổng số giờ chiếu sáng khác nhau trong đêm. Lô đối chứng cây không được chiếu sáng vào ban đêm. Tỉ lệ ra hoa trung bình ở các lô thí nghiệm sau 20 ngày được trình bày trong bảng dưới đây: Điều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": null,
       "question": "Khối lượng than cần sử dụng trong nhà máy này trong một ngày là",
       "options": [
         "A. 2,333 tấn.",
@@ -55173,15 +55173,15 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 53 đến 60:\nQuestions 53-60: Read the passage carefully. 1. SARS, Ebola, and SARS-CoV-2: all three of these highly infectious viruses have caused global panic since 2002, and all three of them jumped to humans from wild animals living in dense tropical forests that we are slashing and burning to create land for crops and housing. The more we clear, the more we come into contact with wildlife which hosts illnesses likely transferred to humans. 2. Stopping deforestation will not only reduce natural disasters but also control the spread of a long list of dangerous diseases that have come from rain forest habitats, including Zika, Nipah, malaria, cholera, HIV, and so on. A 2019 study found that a 10 percent increase in deforestation would raise malaria cases by 3.3 percent; that would be 7.4 million people worldwide. Meanwhile, an average of 28 million hectares of forest have been cut down annually since 2016, and there is no sign of a slowdown. 3. Societies can take numerous steps to prevent the destruction. Eating less meat, which improves our health anyway, will lessen demand for crops and pastures. Eating fewer processed foods will reduce the demand for palm oil, much of which is grown on land from tropical rain forests. Producing more food per hectare can boost supply without the need for more land. 4. In the meantime, governments should prohibit the sale of live wild animals in so-called wet markets, where disease-causing agents have repeatedly crossed over into humans. The markets may be culturally important, but the risk is too great. Governments must also ban illegal wildlife trade, 10 which can spread infectious agents far and wide. In addition, authorities must examine factory farms that pack thousands of animals together - the source of the 2009 swine flu outbreak that killed more than 10,000 people in the U.S. and many more people worldwide. 5. Hopefully, ending deforestation and preventing pandemics can guarantee healthy lives, zero hunger, gender equality, responsible consumption and production, sustainably managed land, and climate action. The COVID-19 pandemic is a catastrophe, but it calls for our attention on the human achievements by not overexploiting the natural world. Choose an option (A, B, C, or D) that best answers each question.",
+      "passage": null,
       "question": "It is advisable to drink 2 liters of water a day.",
       "options": [
         "A. You must drink 2 liters of water a day.",
         "B. You should drink 2 liters of water a day.",
         "C. You may drink 2 liters of water a day.",
-        "D. You could drink 2 liters of water a day"
+        "D. You could drink 2 liters of water a day."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -55291,7 +55291,7 @@ export const QUESTIONS_DATA = {
         "C. 39",
         "D. 40"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Đi từ C đến E theo đường đi Euler dài: 2 1 4 3 5 6 10 31 + + + + + + = Đi từ E đến C với quảng đường ngắn nhất dài: 5 1 2 8 + + = Vậy tổng số kilomet mà người đưa thư phải đi nhỏ nhất là 31 8 39 + = .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
@@ -55306,12 +55306,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Từ một miếng tôn có hình dạng là nửa đường tròn bán kính 1 m , người ta cắt ra một hình chữ nhật. Hỏi có thể cắt được miếng tôn có diện tích lớn nhất là bao nhiêu?",
+      "question": "Từ một miếng tôn có hình dạng là nửa hình tròn bán kính 1 m, người ta cắt ra một hình chữ nhật. Hỏi diện tích lớn nhất của hình chữ nhật cắt được là bao nhiêu?",
       "options": [
-        "A. 2 1, 6 m .",
-        "B. 2 2 m .",
-        "C. 2 1 m .",
-        "D. 2 0,8 m ."
+        "A. $1{,}6\\text{ m}^2$",
+        "B. $2\\text{ m}^2$",
+        "C. $1\\text{ m}^2$",
+        "D. $0{,}8\\text{ m}^2$"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Xét đường tròn bán kính 1, ta cắt trên đó một hình chữ nhật ABCD . Khi đó 1 . .sin 2 ABCD S AC BD \\alpha = 2 sin 2 \\alpha = \\le . Dấu bằng xảy ra khi và chỉ khi 90 \\alpha = ^\\circ . Vậy diện tích lớn nhất của miếng tôn cắt trên nửa đường tròn bằng 1.",
@@ -55506,10 +55506,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Giả sử con cá bắt được có màu vàng, tính xác suất để con cá màu vàng này không bị đánh dấu.(làm tròn kết quả 2 chữ số thập phân)",
       "options": [
-        "A. 0,87 .",
-        "B. 0,67 .",
-        "C. 0,13 .",
-        "D. 0,39 ."
+        "A. 0,87",
+        "B. 0,67",
+        "C. 0,13",
+        "D. 0,39"
       ],
       "correctAnswer": 0,
       "explanation": "Xem giải thích chi tiết trong tài liệu đáp án.",
@@ -55550,10 +55550,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75:\nCó hai hồ nuôi cá chép Nhật. Hồ thứ nhất chứa 7 con cá chép màu đỏ và 8 con cá chép màu vàng, Hồ thứ hai chứa 5 con cá chép màu đỏ và 7 con cá chép màu vàng. Người nuôi bắt 2 con cá bất kì từ hồ thứ nhất, đánh dấu và bỏ vào hồ thứ hai. Sau đó, người này bắt ngẫu nhiên từ hồ thứ hai ra một con cá để chuyển về hồ thứ nhất.",
       "question": "Chi phí thuê máy thấp nhất bằng.",
       "options": [
-        "A. 2960 .",
-        "B. 2880 .",
-        "C. 3060 .",
-        "D. 2160 ."
+        "A. 2960",
+        "B. 2880",
+        "C. 3060",
+        "D. 2160"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B Có x , y lần lượt là số giờ thuê máy M và N. ( ) 0; 0 \\ge \\ge x y Thuê máy in loại M: giá 200 nghìn đồng/giờ Suy ra thuê x giờ là 200x nghìn đồng. Thuê máy in loại N: giá 180 nghìn đồng/giờ Suy ra thuê y giờ là 180y nghìn đồng. Ta có hệ ràng buộc ( ) ( ) ( ) ( ) ( ) 0 10 1 0 10 0 10 2 0 12 * 40 30 540 4 3 54 3 8 12 144 2 3 36 4 \\le \\le \\le \\le \\le \\le \\le \\le + \\ge + \\ge + \\ge + \\ge x x x y x y x y x y x y Trước hết ta biểu diễn miền nghiệm của hệ ( ) * : Vẽ các đường thẳng : 0 : 10 : 0 : 12 : 4 3 54 : 2 3 36 = = = = + = + = Oy x a x Ox y b y d x y m x y . Chọn ( ) 8; 10 E có tọa độ thỏa mãn tất cả các bất phương trình trong hệ, nên miền bị tô đậm là hình tứ giác ABCD , tính cả ba cạnh , , , AB BC CD AD trong hình vẽ dưới là miền nghiệm của hệ bất phương trình đã cho. Tọa độ các điểm , , , A B C D + \\{ \\} = \\cap A d b nên tọa độ của nó là nghiệm của hệ ( ) 4 3 54 4,5 4,5 ;12 12 12 + = = = = x y x A y y . + \\{ \\} = \\cap B b a nên tọa độ của nó là nghiệm của hệ ( ) 12 10 ;12 10 = = y B x . + \\{ \\} = \\cap C m a nên tọa độ của nó là nghiệm của hệ 10 2 3 36 16 10 ; 16 10 3 3 x x y C x y = + = \\left( \\right) \\left( \\right)= = \\left( \\right) . + \\{ \\} = \\cap D d m nên tọa độ của nó là nghiệm của hệ ( ) 4 3 54 9 9 ; 6 2 3 36 6 + = = + = = x y x D x y y . * Tính giá trị của 200 180 + x y tại tất cả các đỉnh của tứ giác ABCD . ( ) ; x y ( ) 4, 5 ; 12 A ( ) 10 ; 12 B 16 10 ; 3 \\left( \\right) \\left( \\right) \\left( \\right) C ( ) 9 ; 6 D 200 180 + x y 3060 4160 2960 2880 Suy ra giá trị nhỏ nhất 200 180 + x y là 2880, hay chi phí thấp nhất khi 9 ; 6 = = x y .",
@@ -55660,10 +55660,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Khoảng cách từ I đến AB là bao nhiêu?",
       "options": [
-        "A. 2 .",
-        "B. 3 .",
-        "C. 5 .",
-        "D. 6 ."
+        "A. 2",
+        "B. 3",
+        "C. 5",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "( ) ( ) 1; 1 1;1 = - - = AB KH n AC đi qua ( ) 1; 2 K - và có ( ) 1;1 = AB n Suy ra: ( ) ( ) :1. 1 1. 2 0 : 1 0 + + - = + - = AB x y AB x y ( ) ( ) 2 2 3 4 1 ; 2 1 1 + - - = = + d I AB",
@@ -55790,12 +55790,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
-      "question": "Tính thể tích khối chóp . S ABC :",
+      "question": "Tính thể tích khối chóp $S.ABC$:",
       "options": [
-        "A. 3 6a .",
-        "B. 3 a .",
-        "C. 3 2a .",
-        "D. 3 3a ."
+        "A. $\\frac{a^3\\sqrt{2}}{2}$",
+        "B. $a^3$",
+        "C. $2a^3$",
+        "D. $3a^3$"
       ],
       "correctAnswer": 0,
       "explanation": "3 1 1 2 3 6 6 V SA SB SC a a a a = \\cdot \\cdot = \\cdot \\cdot \\cdot =",
@@ -55834,12 +55834,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
-      "question": "Tính thể tích khới chóp . S HBC :",
+      "question": "Tính thể tích khối chóp $S.HBC$:",
       "options": [
-        "A. 3 4 5 a .",
-        "B. 3 3 7 a .",
-        "C. 3 3 5 a .",
-        "D. 3 6 7 a ."
+        "A. $\\frac{4a^3}{5}$",
+        "B. $\\frac{3a^3}{7}$",
+        "C. $\\frac{3a^3}{5}$",
+        "D. $\\frac{6a^3}{7}$"
       ],
       "correctAnswer": 0,
       "explanation": "( ) ( ) 4 2 , ,0 , 0, 2 , 0 , 0, 0,3 5 5 a a SH SB a SC a \\left( \\right) = = = \\left( \\right) \\left( \\right) . Gọi ( ) ( ) , 2 , 0 1; 2; 0 AB B A a a u = - = - = - . Điểm H AB \\in nên có dạng ( ) ( ) , 2 , 0 , 2 , 0 H a t t SH a t t = + - = + - Vì H là hình chiếu của S lên AB SH AB 0. SH u \\cdot = ( ) 4 2 1. 4 0 , , 0 5 5 5 a a a a t t t H \\left( \\right) + + = = - \\left( \\right) \\left( \\right) Ta có: ( ) ( )2 2 3 4 2 24 , 6 , 0, 0 , 6 , 0,0 , , 0 . 5 5 5 a a SB SC a SB SC SH a a \\left( \\right) ] ] = = \\cdot = \\left( \\right) ] ] \\left( \\right) Suy ra 3 3 . 1 1 24 4 , . 6 6 5 5 S HBC V SB SC SH a a ] = \\cdot = ]= PHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU",
@@ -55902,10 +55902,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Một hệ thống truyền tải điện gồm 6 trạm A, B, C, D, E, F. Các tuyến dây điện được lắp đặt như sơ đồ bên phải. Kỹ sư muốn kiểm tra toàn bộ hệ thống bằng cách đi từ trạm A đến trạm F, đi qua mỗi trạm đúng một lần. Số cách đi như vậy là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 63] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -56185,15 +56185,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nchuỗi alkyl dài ( 17 35 - C H ) là phần kị nước (hydrophobic), trong khi nhóm carboxylate ( - -COO ) là phần ưa nước (hydrophilic). Hình 1 Trong dung dịch, các anion stearate tự tập hợp thành các cấu trúc hình cầu gọi là micelle. Tùy vào môi trường, chúng có các định hướng khác nhau. Cho biết: \\bullet Với hình cầu bất kì: Thể tích 3 4 3 = V r \\pi ; Diện tích bề mặt 2 4 = S r \\pi \\bullet Khối lượng mol sodium stearate: 306,5 = M g/mol. \\bullet Khối lượng riêng của dầu: 0,92 = g/cm3 \\bullet Số Avogadro: 23 6,022 10 = \\times A N mol-1 (biểu thị số lượng hạt vi mô (nguyên tử, phân tử, ion hoặc electron) có trong 1 mol của một chất) \\bullet 1 nm2 14 10- = cm2; 1 dm3 1000 = cm3.",
-      "question": "Khoảng chứa tứ phân vị Q3 của mẫu số liệu trên là?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nKhảo sát thời gian tự học mỗi ngày (tính bằng phút) của 550 học sinh, kết quả được cho bởi bảng số liệu ghép nhóm sau:\n\n| Thời gian (phút) | $[0; 30)$ | $[30; 60)$ | $[60; 90)$ | $[90; 120)$ | $[120; 150)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| **Số học sinh** | 75 | 125 | 250 | 82 | 18 |",
+      "question": "Khoảng chứa tứ phân vị $Q_3$ của mẫu số liệu trên là:",
       "options": [
-        "A. [30,60)",
-        "B. [60,90)",
-        "C. [90,120)",
-        "D. [120,150)"
+        "A. [30; 60)",
+        "B. [60; 90)",
+        "C. [90; 120)",
+        "D. [120; 150)"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Xem giải thích chi tiết trong tài liệu đáp án.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
@@ -56207,7 +56207,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nchuỗi alkyl dài ( 17 35 - C H ) là phần kị nước (hydrophobic), trong khi nhóm carboxylate ( - -COO ) là phần ưa nước (hydrophilic). Hình 1 Trong dung dịch, các anion stearate tự tập hợp thành các cấu trúc hình cầu gọi là micelle. Tùy vào môi trường, chúng có các định hướng khác nhau. Cho biết: \\bullet Với hình cầu bất kì: Thể tích 3 4 3 = V r \\pi ; Diện tích bề mặt 2 4 = S r \\pi \\bullet Khối lượng mol sodium stearate: 306,5 = M g/mol. \\bullet Khối lượng riêng của dầu: 0,92 = g/cm3 \\bullet Số Avogadro: 23 6,022 10 = \\times A N mol-1 (biểu thị số lượng hạt vi mô (nguyên tử, phân tử, ion hoặc electron) có trong 1 mol của một chất) \\bullet 1 nm2 14 10- = cm2; 1 dm3 1000 = cm3.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nKhảo sát thời gian tự học mỗi ngày (tính bằng phút) của 550 học sinh, kết quả được cho bởi bảng số liệu ghép nhóm sau:\n\n| Thời gian (phút) | $[0; 30)$ | $[30; 60)$ | $[60; 90)$ | $[90; 120)$ | $[120; 150)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| **Số học sinh** | 75 | 125 | 250 | 82 | 18 |",
       "question": "Thời gian tự học trung bình của mẫu số liệu trên là bao nhiêu?",
       "options": [
         "A. 63,64",
@@ -56229,13 +56229,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nchuỗi alkyl dài ( 17 35 - C H ) là phần kị nước (hydrophobic), trong khi nhóm carboxylate ( - -COO ) là phần ưa nước (hydrophilic). Hình 1 Trong dung dịch, các anion stearate tự tập hợp thành các cấu trúc hình cầu gọi là micelle. Tùy vào môi trường, chúng có các định hướng khác nhau. Cho biết: \\bullet Với hình cầu bất kì: Thể tích 3 4 3 = V r \\pi ; Diện tích bề mặt 2 4 = S r \\pi \\bullet Khối lượng mol sodium stearate: 306,5 = M g/mol. \\bullet Khối lượng riêng của dầu: 0,92 = g/cm3 \\bullet Số Avogadro: 23 6,022 10 = \\times A N mol-1 (biểu thị số lượng hạt vi mô (nguyên tử, phân tử, ion hoặc electron) có trong 1 mol của một chất) \\bullet 1 nm2 14 10- = cm2; 1 dm3 1000 = cm3.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nKhảo sát thời gian tự học mỗi ngày (tính bằng phút) của 550 học sinh, kết quả được cho bởi bảng số liệu ghép nhóm sau:\n\n| Thời gian (phút) | $[0; 30)$ | $[30; 60)$ | $[60; 90)$ | $[90; 120)$ | $[120; 150)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| **Số học sinh** | 75 | 125 | 250 | 82 | 18 |",
       "question": "Phương sai của mẫu số liệu trên nằm trong khoảng nào sau đây?",
       "options": [
-        "A. [800;825)",
-        "B. [875;900)",
-        "C. [850;875)",
-        "D. [825;850)"
+        "A. [800; 825)",
+        "B. [875; 900)",
+        "C. [850; 875)",
+        "D. [825; 850)"
       ],
       "correctAnswer": 2,
       "explanation": "Ta có: 2 2 2 2 2 0 30 30 60 60 90 90 120 120 150 75. 125. 250. 82. 18. 2 2 2 2 2 5287,90 550 + + + + + \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) + + + + \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Do đó, phương sai là 5287,90 - 66,432 = 874,12 Vậy chọn C 3.2. SUY LUẬN KHOA HỌC",
@@ -56322,7 +56322,7 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. Mực chất lỏng tăng nhanh lúc đầu rồi chậm dần.",
         "B. Mực chất lỏng tăng tỉ lệ thuận với độ tăng nhiệt độ.",
-        "C. Mực chất lỏng chỉ tăng khi nhiệt độ vượt quá 20 oC .",
+        "C. Mực chất lỏng chỉ tăng khi nhiệt độ vượt quá 20 oC",
         "D. Mực chất lỏng tăng không theo quy luật xác định."
       ],
       "correctAnswer": 0,
@@ -57529,15 +57529,15 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 43 đến 45:\nQuestions: Read the passage carefully. Scientists have achieved a breakthrough that could reshape the future of reproductive medicine: creating functional human eggs from skin cells. The proof-of-concept study, published in Nature Communications, involved transferring the nucleus of an ordinary skin cell into a donor egg whose nucleus had been removed. This produced 82 reprogrammed oocytes, which could then undergo fertilization in the laboratory. According to Dr. Paula Amato of Oregon Health & Science University, one of the study’s authors, the technique could eventually allow older women or cancer survivors who lost fertility to have genetically related children. The approach may even give same-sex male couples the opportunity to have offspring who share DNA with both partners. To make this possible, researchers developed a process they call “mitomeiosis”, designed to mimic natural cell division so that eggs end up with the correct number of chromosomes. Ordinary human cells contain 46 chromosomes, while sex cells such as eggs and sperm carry only 23. Ensuring this reduction was crucial, but the results were mixed: fewer than 9% of the engineered eggs reached the blastocyst stage, the point at which embryos are typically transferred during IVF. Moreover, all of the embryos were chromosomally abnormal, either with too many chromosomes or with mismatched pairs, meaning they would not be expected to develop into healthy babies. Despite these setbacks, experts view the study as an important step forward. Dr. Shoukhrat Mitalipov, senior author and director of the OHSU Center for Embryonic Cell and Gene Therapy, emphasized that natural reproduction is itself inefficient, with only a third of embryos developing to blastocyst. Other researchers, like UCLA’s Amander Clark, called the work “an important beginning” but stressed that major technical improvements are needed before it could be applied clinically. Because the method is based on somatic cell nuclear transfer, the same technique that produced Dolly the sheep in 1997, ethical and regulatory hurdles will also be high. Human cloning remains prohibited in many countries, and any procedure linked to that technology is likely to face intense scrutiny. Even so, the potential implications are profound. Millions of women worldwide suffer from primary ovarian insufficiency or infertility that cannot be treated through conventional IVF. For them, transformative new technologies will be essential if they wish to conceive. Experts such as Professor Ying Cheong of the University of Southampton argue that while clinical use may be a decade away, the study could one day revolutionize how doctors approach infertility and miscarriage. By demonstrating that DNA from ordinary skin cells can be reprogrammed into fertilizable eggs, scientists have taken a bold first step toward expanding the possibilities of family building in ways previously thought impossible. (Adapted from: https://edition.cnn.com/2025/09/30/science/human-skin-cells-egg-infertility) Choose an option (A, B, C, or D) that best answers each question.",
+      "passage": null,
       "question": "It is advisable to drink 2 liters of water a day.",
       "options": [
         "A. You must drink 2 liters of water a day.",
         "B. You should drink 2 liters of water a day.",
         "C. You may drink 2 liters of water a day.",
-        "D. You could drink 2 liters of water a day"
+        "D. You could drink 2 liters of water a day."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
@@ -57928,10 +57928,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng toạ độ $Oxy$, cho tam giác $ABC$ có trực tâm $H(-2; 1)$, chân đường cao hạ từ đỉnh $C$ là $K(1; -2)$, trung điểm cạnh $AC$ là $I(-3; 4)$.",
       "question": "Khoảng cách từ I đến AB là bao nhiêu?",
       "options": [
-        "A. 2 .",
-        "B. 3 .",
-        "C. 5 .",
-        "D. 6 ."
+        "A. 2",
+        "B. 3",
+        "C. 5",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "( ) ( ) 1; 1 1;1 = - - = AB KH n AC đi qua ( ) 1; 2 K - và có ( ) 1;1 = AB n Suy ra: ( ) ( ) :1. 1 1. 2 0 : 1 0 + + - = + - = AB x y AB x y ( ) ( ) 2 2 3 4 1 ; 2 1 1 + - - = = + d I AB",
@@ -58058,12 +58058,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
-      "question": "Tính thể tích khối chóp . S ABC :",
+      "question": "Tính thể tích khối chóp $S.ABC$:",
       "options": [
-        "A. 3 6a .",
-        "B. 3 a .",
-        "C. 3 2a .",
-        "D. 3 3a ."
+        "A. $\\frac{a^3\\sqrt{2}}{2}$",
+        "B. $a^3$",
+        "C. $2a^3$",
+        "D. $3a^3$"
       ],
       "correctAnswer": 0,
       "explanation": "3 1 1 2 3 6 6 V SA SB SC a a a a = \\cdot \\cdot = \\cdot \\cdot \\cdot =",
@@ -58102,12 +58102,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
-      "question": "Tính thể tích khới chóp . S HBC :",
+      "question": "Tính thể tích khối chóp $S.HBC$:",
       "options": [
-        "A. 3 4 5 a .",
-        "B. 3 3 7 a .",
-        "C. 3 3 5 a .",
-        "D. 3 6 7 a ."
+        "A. $\\frac{4a^3}{5}$",
+        "B. $\\frac{3a^3}{7}$",
+        "C. $\\frac{3a^3}{5}$",
+        "D. $\\frac{6a^3}{7}$"
       ],
       "correctAnswer": 0,
       "explanation": "( ) ( ) 4 2 , ,0 , 0, 2 , 0 , 0, 0,3 5 5 a a SH SB a SC a \\left( \\right) = = = \\left( \\right) \\left( \\right) . Gọi ( ) ( ) , 2 , 0 1; 2; 0 AB B A a a u = - = - = - . Điểm H AB \\in nên có dạng ( ) ( ) , 2 , 0 , 2 , 0 H a t t SH a t t = + - = + - Vì H là hình chiếu của S lên AB SH AB 0. SH u \\cdot = ( ) 4 2 1. 4 0 , , 0 5 5 5 a a a a t t t H \\left( \\right) + + = = - \\left( \\right) \\left( \\right) Ta có: ( ) ( )2 2 3 4 2 24 , 6 , 0, 0 , 6 , 0,0 , , 0 . 5 5 5 a a SB SC a SB SC SH a a \\left( \\right) ] ] = = \\cdot = \\left( \\right) ] ] \\left( \\right) Suy ra 3 3 . 1 1 24 4 , . 6 6 5 5 S HBC V SB SC SH a a ] = \\cdot = ]= PHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU",
@@ -58170,10 +58170,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Một hệ thống truyền tải điện gồm 6 trạm A, B, C, D, E, F. Các tuyến dây điện được lắp đặt như sơ đồ bên phải. Kỹ sư muốn kiểm tra toàn bộ hệ thống bằng cách đi từ trạm A đến trạm F, đi qua mỗi trạm đúng một lần. Số cách đi như vậy là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 63] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -58478,10 +58478,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nMột nhà máy sản xuất theo chu kỳ: ngày đầu tiên sản xuất 12 sản phẩm; sau đó mỗi ngày sản lượng tăng đều một lượng cố định so với ngày liền trước đó. Vào ngày thứ 9 nhà máy sản xuất 84 sản phẩm.",
       "question": "Tổng sản lượng của nhà máy trong 10 ngày đầu là",
       "options": [
-        "A. 420.",
-        "B. 525.",
-        "C. 480.",
-        "D. 660."
+        "A. 420",
+        "B. 525",
+        "C. 480",
+        "D. 660"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 77] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -58500,10 +58500,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nMột nhà máy sản xuất theo chu kỳ: ngày đầu tiên sản xuất 12 sản phẩm; sau đó mỗi ngày sản lượng tăng đều một lượng cố định so với ngày liền trước đó. Vào ngày thứ 9 nhà máy sản xuất 84 sản phẩm.",
       "question": "Số ngày nhỏ nhất sao cho sản lượng trong một ngày đạt ít nhất 10.000 sản phẩm là",
       "options": [
-        "A. 1110.",
-        "B. 1111.",
-        "C. 1109.",
-        "D. 1112."
+        "A. 1110",
+        "B. 1111",
+        "C. 1109",
+        "D. 1112"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 78] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -58544,10 +58544,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\nTrong mặt phẳng $Oxy$ cho ba điểm $P(2; 3), Q(8; 7), R(-1; 4)$.",
       "question": "Diện tích tam giác PQR bằng",
       "options": [
-        "A. 9.",
-        "B. 12.",
-        "C. 15.",
-        "D. 18."
+        "A. 9",
+        "B. 12",
+        "C. 15",
+        "D. 18"
       ],
       "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 80] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -59006,10 +59006,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n(1) ức chế hoạt động của enzyme α-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ (Hình bên dưới). Để kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme α- amylase ở ruột non được thể hiện ở Bảng 1. Lô thí nghiệm Nhóm chuột Nồng độ glucose máu (mmol/L) Hoạt tính enzyme α- amylase (U/mg) Lô 1 Chuột khỏe mạnh bình thường uống nước cất 5,2 12,5 Lô 2 Chuột bị đái tháo đường (T2D) uống nước cất 14,8 28,4 Lô 3 Chuột T2D uống 100 mg/kg dịch chiết đậu bắp 9,5 18,2 Lô 4 Chuột T2D uống 200 mg/kg dịch chiết đậu bắp 6,8 14,1 Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817. hĴps://doi.org/10.3390/plants15050817",
       "question": "Trong giai đoạn 1950 - 1954, năm nào ghi nhận tỷ trọng viện trợ của Mỹ chiếm hơn một nửa tổng chi phí chiến tranh của Pháp ở Đông Dương?",
       "options": [
-        "A. 1951.",
-        "B. 1952.",
-        "C. 1953.",
-        "D. 1954."
+        "A. 1951",
+        "B. 1952",
+        "C. 1953",
+        "D. 1954"
       ],
       "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 97] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -59885,15 +59885,15 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 31 đến 42:\nQuestions: Read the passage carefully. Scientists have achieved a breakthrough that could reshape the future of reproductive medicine: creating functional human eggs from skin cells. The proof-of-concept study, published in Nature Communications, involved transferring the nucleus of an ordinary skin cell into a donor egg whose nucleus had been removed. This produced 82 reprogrammed oocytes, which could then undergo fertilization in the laboratory. According to Dr. Paula Amato of Oregon Health & Science University, one of the study’s authors, the technique could eventually allow older women or cancer survivors who lost fertility to have genetically related children. The approach may even give same-sex male couples the opportunity to have offspring who share DNA with both partners. To make this possible, researchers developed a process they call “mitomeiosis”, designed to mimic natural cell division so that eggs end up with the correct number of chromosomes. Ordinary human cells contain 46 chromosomes, while sex cells such as eggs and sperm carry only 23. Ensuring this reduction was crucial, but the results were mixed: fewer than 9% of the engineered eggs reached the blastocyst stage, the point at which embryos are typically transferred during IVF. Moreover, all of the embryos were chromosomally abnormal, either with too many chromosomes or with mismatched pairs, meaning they would not be expected to develop into healthy babies. Despite these setbacks, experts view the study as an important step forward. Dr. Shoukhrat Mitalipov, senior author and director of the OHSU Center for Embryonic Cell and Gene Therapy, emphasized that natural reproduction is itself inefficient, with only a third of embryos developing to blastocyst. Other researchers, like UCLA’s Amander Clark, called the work “an important beginning” but stressed that major technical improvements are needed before it could be applied clinically. Because the method is based on somatic cell nuclear transfer, the same technique that produced Dolly the sheep in 1997, ethical and regulatory hurdles will also be high. Human cloning remains prohibited in many countries, and any procedure linked to that technology is likely to face intense scrutiny. Even so, the potential implications are profound. Millions of women worldwide suffer from primary ovarian insufficiency or infertility that cannot be treated through conventional IVF. For them, transformative new technologies will be essential if they wish to conceive. Experts such as Professor Ying Cheong of the University of Southampton argue that while clinical use may be a decade away, the study could one day revolutionize how doctors approach infertility and miscarriage. By demonstrating that DNA from ordinary skin cells can be reprogrammed into fertilizable eggs, scientists have taken a bold first step toward expanding the possibilities of family building in ways previously thought impossible. (Adapted from: https://edition.cnn.com/2025/09/30/science/human-skin-cells-egg-infertility) Choose an option (A, B, C, or D) that best answers each question.",
+      "passage": null,
       "question": "It is advisable to drink 2 liters of water a day.",
       "options": [
         "A. You must drink 2 liters of water a day.",
         "B. You should drink 2 liters of water a day.",
         "C. You may drink 2 liters of water a day.",
-        "D. You could drink 2 liters of water a day"
+        "D. You could drink 2 liters of water a day."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
@@ -60746,10 +60746,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nMột nhà máy sản xuất theo chu kỳ: ngày đầu tiên sản xuất 12 sản phẩm; sau đó mỗi ngày sản lượng tăng đều một lượng cố định so với ngày liền trước đó. Vào ngày thứ 9 nhà máy sản xuất 84 sản phẩm.",
       "question": "Tổng sản lượng của nhà máy trong 10 ngày đầu là",
       "options": [
-        "A. 420.",
-        "B. 525.",
-        "C. 480.",
-        "D. 660."
+        "A. 420",
+        "B. 525",
+        "C. 480",
+        "D. 660"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 77] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -60768,10 +60768,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nMột nhà máy sản xuất theo chu kỳ: ngày đầu tiên sản xuất 12 sản phẩm; sau đó mỗi ngày sản lượng tăng đều một lượng cố định so với ngày liền trước đó. Vào ngày thứ 9 nhà máy sản xuất 84 sản phẩm.",
       "question": "Số ngày nhỏ nhất sao cho sản lượng trong một ngày đạt ít nhất 10.000 sản phẩm là",
       "options": [
-        "A. 1110.",
-        "B. 1111.",
-        "C. 1109.",
-        "D. 1112."
+        "A. 1110",
+        "B. 1111",
+        "C. 1109",
+        "D. 1112"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 78] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -60812,10 +60812,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\nTrong mặt phẳng $Oxy$ cho ba điểm $P(2; 3), Q(8; 7), R(-1; 4)$.",
       "question": "Diện tích tam giác PQR bằng",
       "options": [
-        "A. 9.",
-        "B. 12.",
-        "C. 15.",
-        "D. 18."
+        "A. 9",
+        "B. 12",
+        "C. 15",
+        "D. 18"
       ],
       "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 80] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -60922,10 +60922,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nMột khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm đáy bằng 8 (đơn vị).",
       "question": "Thể tích của khối chóp là",
       "options": [
-        "A. 72.",
-        "B. 96.",
-        "C. 108.",
-        "D. 144."
+        "A. 72",
+        "B. 96",
+        "C. 108",
+        "D. 144"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 85] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -61052,12 +61052,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Phương trình 2 2 3 5 x x x + - = + có tổng các nghiệm nguyên là",
+      "question": "Phương trình $|x^2 + 2x - 3| = x + 5$ có tổng các nghiệm nguyên là:",
       "options": [
-        "A. 2 - .",
-        "B. 3 - .",
-        "C. 1 - .",
-        "D. 4 - ."
+        "A. -2",
+        "B. -3",
+        "C. -1",
+        "D. -4"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B. TH1: 2 2 3 0 x x + - > 3 1 x x < - [ \\Leftrightarrow > ] . Khi đó phương trình trở thành: 2 2 3 5 x x x + - = + 2 8 0 x x \\Leftrightarrow + - = 1 33 2 1 33 2 x x [ - + = \\Leftrightarrow - - = ] . TH2: 2 2 3 0 x x + - < 3 1 x \\Leftrightarrow - < < . Khi đó phương trình trở thành: 2 2 3 5 x x x - - + = + 2 3 2 0 x x \\Leftrightarrow + + = 1 2 x x = - [ \\Leftrightarrow = - ] . Vậy tổng các nghiệm nguyên là 1 2 3 T = - - = - .",
@@ -61074,12 +61074,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tìm điều kiện của tham số m để hệ phương trình 1 mx y m x my - = - + = - có nghiệm duy nhất.",
+      "question": "Tìm điều kiện của tham số $m$ để hệ phương trình $\\begin{cases} mx - y = 1 \\\\ x + my = m \\end{cases}$ có nghiệm duy nhất.",
       "options": [
-        "A. $1 m = \\pm .$",
-        "B. $1 m \\ne - .$",
-        "C. $1 m \\ne .$",
-        "D. $1 m \\ne \\pm .$"
+        "A. $m = \\pm 1$",
+        "B. $m \\ne -1$",
+        "C. $m \\ne 1$",
+        "D. $m \\ne \\pm 1$"
       ],
       "correctAnswer": 3,
       "explanation": "Chọn D. Ta có 1 1 m D m - = - 2 1 m = - Để hệ có nghiệm duy nhất thì 0 D \\ne 2 1 0 m \\Leftrightarrow - \\ne 1 m \\Leftrightarrow \\ne \\pm .",
@@ -61096,7 +61096,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Biết sin cot cot 4 sin sin 4 x kx x x x - = với mọi x để các biểu thức có nghĩa. Lúc đó giá trị của k là",
+      "question": "Biết $\\frac{\\sin x - \\cot x}{\\cot 4x - \\sin x} = \\frac{\\sin 4x}{\\sin kx}$ với mọi $x$ để biểu thức có nghĩa. Lúc đó giá trị của $k$ là:",
       "options": [
         "A. $\\frac{5}{4}$",
         "B. $\\frac{3}{4}$",
@@ -61162,12 +61162,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hàm số $f(x) = x^3 + (m + 1)x^2 - (2m - 1)x + m - 3$.",
-      "question": "Cho hai số thực a , b đều lớn hơn 1. Giá trị nhỏ nhất của biểu thức 4 1 1 log log ab ab S a b = + bằng",
+      "question": "Cho hai số thực $a, b > 1$. Giá trị nhỏ nhất của biểu thức $S = \\frac{1}{\\log_a(ab)} + \\frac{4}{\\log_b(ab)}$ bằng:",
       "options": [
         "A. $\\frac{4}{9}$",
         "B. $\\frac{9}{4}$",
         "C. $\\frac{9}{2}$",
-        "D. 1 4"
+        "D. $\\frac{1}{4}$"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B Ta có 4 1 1 log log ab ab S a b = + ( ) 4 log log a b ab ab = + ( ) 1 1 log log 1 4 a b b a = + + + 1 5 log 4 log 4 a a b b = + + . Đặt loga x b = . Do a , 1 b > nên 0 x > . Khi đó 1 5 4 4 S x x = + + 1 5 9 2 . 4 4 4 x x \\ge + = (Áp dụng BĐT Cauchy cho hai số dương x và 1 4 x ). Dấu \" \" = xảy ra 1 1 1 4 2 2 0 0 x x x x x x = = \\pm \\Leftrightarrow \\Leftrightarrow \\Rightarrow = > > . Vậy 9 min 4 S = tại 1 log 2 a b b a = \\Leftrightarrow = .",
@@ -61184,12 +61184,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hàm số $f(x) = x^3 + (m + 1)x^2 - (2m - 1)x + m - 3$.",
-      "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số 3 27 2 x y x = - - song song với trục hoành?",
+      "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số $y = \\frac{x^3 - 27}{x - 2}$ song song với trục hoành?",
       "options": [
-        "A. 1.",
-        "B. 0 .",
-        "C. 2 .",
-        "D. 3 ."
+        "A. 1",
+        "B. 0",
+        "C. 2",
+        "D. 3"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 3 2 2 2 6 ( 2) x x y x - ' = - . Do đó ( ) ( ) 0 2 0 0 0 0 0 0 2 3 0 3 x y x x x x = [ ' = \\Leftrightarrow - = \\Leftrightarrow = ] . Ta có (0) 27 0 y = - \\ne (nhận) và (3) 0 y = (loại vì khi đó tiếp tuyến trùng trục hoành). Đáp số: 1 .",
@@ -61230,10 +61230,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nPHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93 Trên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau: I xếp ở vị trí thứ 7; có ít nhất 5 hũ gia vị được xếp bên phải A; E xếp bên phải D nhưng bên trái A; Có 3 hũ gia vị được xếp ở giữa E và F; B xếp cạnh G.",
       "question": "Trong giai đoạn 1950 - 1954, năm nào ghi nhận tỷ trọng viện trợ của Mỹ chiếm hơn một nửa tổng chi phí chiến tranh của Pháp ở Đông Dương?",
       "options": [
-        "A. 1951.",
-        "B. 1952.",
-        "C. 1953.",
-        "D. 1954."
+        "A. 1951",
+        "B. 1952",
+        "C. 1953",
+        "D. 1954"
       ],
       "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 97] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -63190,10 +63190,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 61 đến 63:\nMột khối chóp tứ giác đều có độ dài cạnh đáy bằng 6 (đơn vị) và chiều cao từ đỉnh xuống tâm đáy bằng 8 (đơn vị).",
       "question": "Thể tích của khối chóp là",
       "options": [
-        "A. 72.",
-        "B. 96.",
-        "C. 108.",
-        "D. 144."
+        "A. 72",
+        "B. 96",
+        "C. 108",
+        "D. 144"
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 85] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -63320,12 +63320,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Phương trình 2 2 3 5 x x x + - = + có tổng các nghiệm nguyên là",
+      "question": "Phương trình $|x^2 + 2x - 3| = x + 5$ có tổng các nghiệm nguyên là:",
       "options": [
-        "A. 2 - .",
-        "B. 3 - .",
-        "C. 1 - .",
-        "D. 4 - ."
+        "A. -2",
+        "B. -3",
+        "C. -1",
+        "D. -4"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B. TH1: 2 2 3 0 x x + - > 3 1 x x < - [ \\Leftrightarrow > ] . Khi đó phương trình trở thành: 2 2 3 5 x x x + - = + 2 8 0 x x \\Leftrightarrow + - = 1 33 2 1 33 2 x x [ - + = \\Leftrightarrow - - = ] . TH2: 2 2 3 0 x x + - < 3 1 x \\Leftrightarrow - < < . Khi đó phương trình trở thành: 2 2 3 5 x x x - - + = + 2 3 2 0 x x \\Leftrightarrow + + = 1 2 x x = - [ \\Leftrightarrow = - ] . Vậy tổng các nghiệm nguyên là 1 2 3 T = - - = - .",
@@ -63342,12 +63342,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tìm điều kiện của tham số m để hệ phương trình 1 mx y m x my - = - + = - có nghiệm duy nhất.",
+      "question": "Tìm điều kiện của tham số $m$ để hệ phương trình $\\begin{cases} mx - y = 1 \\\\ x + my = m \\end{cases}$ có nghiệm duy nhất.",
       "options": [
-        "A. $1 m = \\pm .$",
-        "B. $1 m \\ne - .$",
-        "C. $1 m \\ne .$",
-        "D. $1 m \\ne \\pm .$"
+        "A. $m = \\pm 1$",
+        "B. $m \\ne -1$",
+        "C. $m \\ne 1$",
+        "D. $m \\ne \\pm 1$"
       ],
       "correctAnswer": 3,
       "explanation": "Chọn D. Ta có 1 1 m D m - = - 2 1 m = - Để hệ có nghiệm duy nhất thì 0 D \\ne 2 1 0 m \\Leftrightarrow - \\ne 1 m \\Leftrightarrow \\ne \\pm .",
@@ -63364,7 +63364,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Biết sin cot cot 4 sin sin 4 x kx x x x - = với mọi x để các biểu thức có nghĩa. Lúc đó giá trị của k là",
+      "question": "Biết $\\frac{\\sin x - \\cot x}{\\cot 4x - \\sin x} = \\frac{\\sin 4x}{\\sin kx}$ với mọi $x$ để biểu thức có nghĩa. Lúc đó giá trị của $k$ là:",
       "options": [
         "A. $\\frac{5}{4}$",
         "B. $\\frac{3}{4}$",
@@ -63430,12 +63430,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho hai số thực a , b đều lớn hơn 1. Giá trị nhỏ nhất của biểu thức 4 1 1 log log ab ab S a b = + bằng",
+      "question": "Cho hai số thực $a, b > 1$. Giá trị nhỏ nhất của biểu thức $S = \\frac{1}{\\log_a(ab)} + \\frac{4}{\\log_b(ab)}$ bằng:",
       "options": [
         "A. $\\frac{4}{9}$",
         "B. $\\frac{9}{4}$",
         "C. $\\frac{9}{2}$",
-        "D. 1 4"
+        "D. $\\frac{1}{4}$"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B Ta có 4 1 1 log log ab ab S a b = + ( ) 4 log log a b ab ab = + ( ) 1 1 log log 1 4 a b b a = + + + 1 5 log 4 log 4 a a b b = + + . Đặt loga x b = . Do a , 1 b > nên 0 x > . Khi đó 1 5 4 4 S x x = + + 1 5 9 2 . 4 4 4 x x \\ge + = (Áp dụng BĐT Cauchy cho hai số dương x và 1 4 x ). Dấu \" \" = xảy ra 1 1 1 4 2 2 0 0 x x x x x x = = \\pm \\Leftrightarrow \\Leftrightarrow \\Rightarrow = > > . Vậy 9 min 4 S = tại 1 log 2 a b b a = \\Leftrightarrow = .",
@@ -63452,12 +63452,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số 3 27 2 x y x = - - song song với trục hoành?",
+      "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số $y = \\frac{x^3 - 27}{x - 2}$ song song với trục hoành?",
       "options": [
-        "A. 1.",
-        "B. 0 .",
-        "C. 2 .",
-        "D. 3 ."
+        "A. 1",
+        "B. 0",
+        "C. 2",
+        "D. 3"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 3 2 2 2 6 ( 2) x x y x - ' = - . Do đó ( ) ( ) 0 2 0 0 0 0 0 0 2 3 0 3 x y x x x x = [ ' = \\Leftrightarrow - = \\Leftrightarrow = ] . Ta có (0) 27 0 y = - \\ne (nhận) và (3) 0 y = (loại vì khi đó tiếp tuyến trùng trục hoành). Đáp số: 1 .",
@@ -63562,14 +63562,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác ABC vuông tại , 3 , 4 , A AB a AC a AH = = là đường cao. Tính độ dài AH:",
+      "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 3a, AC = 4a$. Gọi $AH$ là đường cao. Tính độ dài $AH$:",
       "options": [
-        "A. 8 5 a .",
-        "B. 5a .",
-        "C. 12 5 a .",
-        "D. 9 5 a ."
+        "A. $\\frac{8a}{5}$",
+        "B. $5a$",
+        "C. $\\frac{12a}{5}$",
+        "D. $\\frac{9a}{5}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "2 2 2 2 (3 ) (4 ) 5 . BC AB AC a a a = + = + = Đường cao AH trong tam giác vuông tại A thỏa: 2 3 4 12 12 . 5 5 5 AB AC a a a AH a BC a a \\cdot \\cdot = = = =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
@@ -63630,10 +63630,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 81 đến 83:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Tính giá trị a b -",
       "options": [
-        "A. 2 -",
-        "B. 4 .",
-        "C. 2 .",
-        "D. 4 - ."
+        "A. -2",
+        "B. 4",
+        "C. 2",
+        "D. -4"
       ],
       "correctAnswer": 0,
       "explanation": "Trung điểm ( ) 3;3 M . AB có ( ) VTCP 4; 2 u = \\Rightarrow đường trung trực có ( ) VTCP 1; 2 v = - (vuông góc với u ). Phương trình tham số đường trung trực: 3 1, 3 2 3 2 x t a b a b y t = + \\Rightarrow = = \\Rightarrow - = - = -",
@@ -63693,13 +63693,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 84 đến 86:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp S ABC \\cdot có đáy là tam giác vuông cân tại A thoả mãn ( ) , AC BC a SA ABC = = và 5 SB a = .",
-      "question": "Tính thể tích hình chop S.ABC:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
+      "question": "Tính thể tích khối chóp $S.ABC$:",
       "options": [
-        "A. 2 4 a .",
-        "B. 4 a .",
-        "C. 2 a .",
-        "D. 2 2 a ."
+        "A. $\\frac{a^3}{3}$",
+        "B. $\\frac{a^3\\sqrt{5}}{6}$",
+        "C. $\\frac{a^3}{6}$",
+        "D. $\\frac{2a^3}{3}$"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 2 3 2 1 2, 2 5 2 3 1 1 1 3 3 3 3 2 6 ABC ABC AB a S a SA SB AB a a a a V S SA a a = = = - = - = = \\cdot = \\cdot \\cdot = \\Delta \\Delta",
@@ -63715,13 +63715,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 84 đến 86:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp S ABC \\cdot có đáy là tam giác vuông cân tại A thoả mãn ( ) , AC BC a SA ABC = = và 5 SB a = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
       "question": "Tính sin góc giữa đường thẳng SC và mặt phẳng (SAB):",
       "options": [
-        "A. $\\frac{3}{4}$",
-        "B. $\\frac{2}{4}$",
-        "C. $\\frac{3}{3}$",
-        "D. 2 2"
+        "A. $\\frac{\\sqrt{2}}{4}$",
+        "B. $\\frac{\\sqrt{5}}{5}$",
+        "C. $\\frac{\\sqrt{5}}{4}$",
+        "D. $\\frac{1}{2}$"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi C' là hình chiếu của C lên ( ) SAB ( ) ( )\\bullet \\bullet , SC SAB CSC = ' \\Rightarrow 2 2 2 2 2 2 2 2 . . 2 ' , 3 2 2 CA CB a a a CC SC SA AC a a a CA CB a a = = = = + = + = + + Lại có: ( ) ' 2 2 sin ' : 2 2 4 CC a CSC a SC = = =",
@@ -63737,15 +63737,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 84 đến 86:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp S ABC \\cdot có đáy là tam giác vuông cân tại A thoả mãn ( ) , AC BC a SA ABC = = và 5 SB a = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
       "question": "Tính góc giữa hai mặt phẳng (SBC) và (SAC):",
       "options": [
-        "A. $\\frac{0}{45}$",
-        "B. $\\frac{0}{90}$",
-        "C. $\\frac{0}{60}$",
-        "D. $\\frac{0}{30}$"
+        "A. $45^\\circ$",
+        "B. $90^\\circ$",
+        "C. $60^\\circ$",
+        "D. $30^\\circ$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Ta có: ( ) ( ) ( ) BC AC BC SAC SBC SAC BC SA \\Rightarrow \\Rightarrow",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
@@ -63759,8 +63759,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nCho cấp số cộng ( ) n u thỏa mãn 1 2 2 3 4 8 u u u u + = + = .",
-      "question": "Tính tổng 1 2 2 3 49 50 1 1 1 ... S u u u u u u = + + + ?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_1 + 2u_2 = 3u_4$ và $u_1 \\cdot u_2 = 8$.",
+      "question": "Tính tổng $S = \\frac{1}{u_1 u_2} + \\frac{1}{u_2 u_3} + \\dots + \\frac{1}{u_{49} u_{50}}$:",
       "options": [
         "A. $S = \\frac{50}{99}$",
         "B. $S = \\frac{48}{99}$",
@@ -63781,7 +63781,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nCho cấp số cộng ( ) n u thỏa mãn 1 2 2 3 4 8 u u u u + = + = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_1 + 2u_2 = 3u_4$ và $u_1 \\cdot u_2 = 8$.",
       "question": "Gọi $(v_n)$ là dãy số có $v_n = 2^{u_n}$. Tính $T = v_1 \\cdot v_2 \\cdots v_{10}$:",
       "options": [
         "A. $T = 2^{80}$",
@@ -64312,9 +64312,9 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nThảm họa hạt nhân Fukushima. Vào tháng 3 năm 2011, sau một trận động đất mạnh, lò phản ứng hạt nhân Fukushima ở Nhật Bản đã tự động ngừng hoạt động. Lò phản ứng hạt nhân tạo ra nhiệt bằng cách phân tách các nguyên tử urani trong một quá trình được gọi là phân hạch hạt nhân. Phân hạch hạt nhân 𝑈𝑟𝑎𝑛𝑖𝑢𝑚 được chứa trong các thanh nhiên liệu của lò phản ứng. Một phản ứng dây chuyền được thiết lập bởi các 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 được giải phóng trong quá trình phân hạch và chúng tiếp tục phân tách nhiều nguyên tử 𝑢𝑟𝑎𝑛𝑖 hơn. Công suất đầu ra của lò phản ứng được điều chỉnh bằng cách kiểm soát số lượng 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hiện diện trong thanh nhiên liệu. Thanh điều khiển làm bằng chất hấp thụ 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 sẽ thu giữ 𝑛𝑒𝑢𝑡𝑟𝑜𝑛. Hấp thụ nhiều 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hơn trong thanh điều khiển có nghĩa là có ít 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hơn có thể gây ra phân hạch. Do đó, đẩy thanh điều khiển sâu hơn vào lò phản ứng sẽ làm giảm công suất đầu ra của nó và việc rút thanh điều khiển sẽ làm tăng công suất đầu ra. Lò phản ứng hạt nhân Fukushima vẫn tiếp tục tạo ra nhiệt ngay cả sau khi phản ứng dây chuyền đã dừng lại do sự phân rã phóng xạ của các đồng vị được tạo ra trong quá trình phân hạch hạt nhân. Sự phân rã này không thể dừng lại và nhiệt sinh ra phải được loại bỏ bằng cách tuần hoàn nước làm mát qua lõi lò phản ứng. Khi lò phản ứng bị đóng do động đất, các máy bơm để duy trì nước làm mát tuần hoàn phải được cung cấp điện từ lưới điện quốc gia hoặc máy phát điện diesel. Tuy nhiên, các kết nối với lưới điện đã bị hư hỏng do động đất và các máy phát điện diesel đã bị phá hủy bởi sóng thần sau trận động đất. Kết quả là, không có hệ thống làm mát nào cho lõi lò phản ứng và điều này dẫn đến các vụ nổ và sau đó giải phóng bức xạ, bao gồm các đồng vị phóng xạ như 𝑐𝑎𝑒𝑠𝑖𝑢𝑚 và 𝑖𝑜𝑑𝑖𝑑𝑒, vào môi trường.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Lò phản ứng hạt nhân tạo ra nhiệt bằng cách phân tách các nguyên tử urani trong một quá trình được gọi là phân hạch hạt nhân. (𝐼𝐼) Công suất đầu ra của lò phản ứng được điều chỉnh bằng cách kiểm soát số lượng 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hiện diện trong thanh nhiên liệu. (𝐼𝐼𝐼) Lò phản ứng hạt nhân Fukushima vẫn tiếp tục tạo ra nhiệt ngay cả sau khi phản ứng dây chuyền đã dừng lại do sự phân rã phóng xạ của các đồng vị được tạo ra trong quá trình phân hạch hạt nhân. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
+        "A. 1",
+        "B. 2",
+        "C. 3",
         "D. Không phát biểu nào đúng."
       ],
       "correctAnswer": 2,
@@ -65830,14 +65830,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác ABC vuông tại , 3 , 4 , A AB a AC a AH = = là đường cao. Tính độ dài AH:",
+      "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 3a, AC = 4a$. Gọi $AH$ là đường cao. Tính độ dài $AH$:",
       "options": [
-        "A. 8 5 a .",
-        "B. 5a .",
-        "C. 12 5 a .",
-        "D. 9 5 a ."
+        "A. $\\frac{8a}{5}$",
+        "B. $5a$",
+        "C. $\\frac{12a}{5}$",
+        "D. $\\frac{9a}{5}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "2 2 2 2 (3 ) (4 ) 5 . BC AB AC a a a = + = + = Đường cao AH trong tam giác vuông tại A thỏa: 2 3 4 12 12 . 5 5 5 AB AC a a a AH a BC a a \\cdot \\cdot = = = =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
@@ -65898,10 +65898,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 64 đến 66:\n$\\begin{cases} x = 3 + at \\\\ y = b - 2t \\end{cases}$",
       "question": "Tính giá trị a b -",
       "options": [
-        "A. 2 -",
-        "B. 4 .",
-        "C. 2 .",
-        "D. 4 - ."
+        "A. -2",
+        "B. 4",
+        "C. 2",
+        "D. -4"
       ],
       "correctAnswer": 0,
       "explanation": "Trung điểm ( ) 3;3 M . AB có ( ) VTCP 4; 2 u = \\Rightarrow đường trung trực có ( ) VTCP 1; 2 v = - (vuông góc với u ). Phương trình tham số đường trung trực: 3 1, 3 2 3 2 x t a b a b y t = + \\Rightarrow = = \\Rightarrow - = - = -",
@@ -65961,13 +65961,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp S ABC \\cdot có đáy là tam giác vuông cân tại A thoả mãn ( ) , AC BC a SA ABC = = và 5 SB a = .",
-      "question": "Tính thể tích hình chop S.ABC:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
+      "question": "Tính thể tích khối chóp $S.ABC$:",
       "options": [
-        "A. 2 4 a .",
-        "B. 4 a .",
-        "C. 2 a .",
-        "D. 2 2 a ."
+        "A. $\\frac{a^3}{3}$",
+        "B. $\\frac{a^3\\sqrt{5}}{6}$",
+        "C. $\\frac{a^3}{6}$",
+        "D. $\\frac{2a^3}{3}$"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 2 3 2 1 2, 2 5 2 3 1 1 1 3 3 3 3 2 6 ABC ABC AB a S a SA SB AB a a a a V S SA a a = = = - = - = = \\cdot = \\cdot \\cdot = \\Delta \\Delta",
@@ -65983,13 +65983,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp S ABC \\cdot có đáy là tam giác vuông cân tại A thoả mãn ( ) , AC BC a SA ABC = = và 5 SB a = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
       "question": "Tính sin góc giữa đường thẳng SC và mặt phẳng (SAB):",
       "options": [
-        "A. $\\frac{3}{4}$",
-        "B. $\\frac{2}{4}$",
-        "C. $\\frac{3}{3}$",
-        "D. 2 2"
+        "A. $\\frac{\\sqrt{2}}{4}$",
+        "B. $\\frac{\\sqrt{5}}{5}$",
+        "C. $\\frac{\\sqrt{5}}{4}$",
+        "D. $\\frac{1}{2}$"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi C' là hình chiếu của C lên ( ) SAB ( ) ( )\\bullet \\bullet , SC SAB CSC = ' \\Rightarrow 2 2 2 2 2 2 2 2 . . 2 ' , 3 2 2 CA CB a a a CC SC SA AC a a a CA CB a a = = = = + = + = + + Lại có: ( ) ' 2 2 sin ' : 2 2 4 CC a CSC a SC = = =",
@@ -66005,15 +66005,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp S ABC \\cdot có đáy là tam giác vuông cân tại A thoả mãn ( ) , AC BC a SA ABC = = và 5 SB a = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
       "question": "Tính góc giữa hai mặt phẳng (SBC) và (SAC):",
       "options": [
-        "A. $\\frac{0}{45}$",
-        "B. $\\frac{0}{90}$",
-        "C. $\\frac{0}{60}$",
-        "D. $\\frac{0}{30}$"
+        "A. $45^\\circ$",
+        "B. $90^\\circ$",
+        "C. $60^\\circ$",
+        "D. $30^\\circ$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Ta có: ( ) ( ) ( ) BC AC BC SAC SBC SAC BC SA \\Rightarrow \\Rightarrow",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
@@ -66027,8 +66027,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng ( ) n u thỏa mãn 1 2 2 3 4 8 u u u u + = + = .",
-      "question": "Tính tổng 1 2 2 3 49 50 1 1 1 ... S u u u u u u = + + + ?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_1 + 2u_2 = 3u_4$ và $u_1 \\cdot u_2 = 8$.",
+      "question": "Tính tổng $S = \\frac{1}{u_1 u_2} + \\frac{1}{u_2 u_3} + \\dots + \\frac{1}{u_{49} u_{50}}$:",
       "options": [
         "A. $S = \\frac{50}{99}$",
         "B. $S = \\frac{48}{99}$",
@@ -66049,7 +66049,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 70 và 71:\nCho cấp số cộng ( ) n u thỏa mãn 1 2 2 3 4 8 u u u u + = + = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số cộng $(u_n)$ thỏa mãn $u_1 + 2u_2 = 3u_4$ và $u_1 \\cdot u_2 = 8$.",
       "question": "Gọi $(v_n)$ là dãy số có $v_n = 2^{u_n}$. Tính $T = v_1 \\cdot v_2 \\cdots v_{10}$:",
       "options": [
         "A. $T = 2^{80}$",
@@ -66137,13 +66137,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\nMột phân xưởng có hai máy đặc chủng 1 2 , T T , sản xuất hai loại sản phẩm ký hiệu là A và . B Một tấn sản phẩm loại A lãi 3 triệu đồng, một tấn sản phẩm loại B lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại A phải dùng máy 1 T trong 3 giờ và máy 2 T trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại B phải dùng máy 1 T trong 2 giờ và máy 2 T trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy 1 T làm việc không quá 6 giờ một ngày, máy 2 T làm việc không quá 4 giờ một ngày.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột phân xưởng có hai máy đặc chủng $T_1, T_2$, sản xuất hai loại sản phẩm ký hiệu là $A$ và $B$. Mỗi tấn sản phẩm loại $A$ lãi 3 triệu đồng, một tấn sản phẩm loại $B$ lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại $A$ phải dùng máy $T_1$ trong 3 giờ và máy $T_2$ trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại $B$ phải dùng máy $T_1$ trong 2 giờ và máy $T_2$ trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy $T_1$ làm việc không quá 6 giờ một ngày, máy $T_2$ làm việc không quá 4 giờ một ngày.",
       "question": "Gọi $x$ là số tấn sản phẩm loại A và $y$ là số tấn sản phẩm loại B. Khi đó $F(x, y)$ là hàm mục tiêu biểu diễn tổng lợi nhuận thu được:",
       "options": [
-        "A. F(x, y) = 3x + 2y",
-        "B. F(x, y) = 2x + 3y",
-        "C. F(x, y) = 4x + 3y",
-        "D. F(x, y) = 3x + 4y"
+        "A. $F(x, y) = 3x + 2y$",
+        "B. $F(x, y) = 2x + 3y$",
+        "C. $F(x, y) = 3x + y$",
+        "D. $F(x, y) = 2x + y$"
       ],
       "correctAnswer": 0,
       "explanation": "Chọn A Gọi x là số tấn sản phẩm loại A và y là số tấn sản phẩm loại B . Số tiền lãi khi bán x là số tấn sản phẩm loại A và y là số tấn sản phẩm loại B lần lượt là 3 , 2 x y . Vậy ( ) , 3 2 . F x y x y = +",
@@ -66159,15 +66159,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\nMột phân xưởng có hai máy đặc chủng 1 2 , T T , sản xuất hai loại sản phẩm ký hiệu là A và . B Một tấn sản phẩm loại A lãi 3 triệu đồng, một tấn sản phẩm loại B lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại A phải dùng máy 1 T trong 3 giờ và máy 2 T trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại B phải dùng máy 1 T trong 2 giờ và máy 2 T trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy 1 T làm việc không quá 6 giờ một ngày, máy 2 T làm việc không quá 4 giờ một ngày.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nMột phân xưởng có hai máy đặc chủng $T_1, T_2$, sản xuất hai loại sản phẩm ký hiệu là $A$ và $B$. Mỗi tấn sản phẩm loại $A$ lãi 3 triệu đồng, một tấn sản phẩm loại $B$ lãi 2 triệu đồng. Muốn sản xuất một tấn sản phẩm loại $A$ phải dùng máy $T_1$ trong 3 giờ và máy $T_2$ trong 2 giờ. Muốn sản xuất một tấn sản phẩm loại $B$ phải dùng máy $T_1$ trong 2 giờ và máy $T_2$ trong 1 giờ. Một máy không thể dùng để sản xuất đồng thời hai loại sản phẩm. Máy $T_1$ làm việc không quá 6 giờ một ngày, máy $T_2$ làm việc không quá 4 giờ một ngày.",
       "question": "Gọi E là số tiền lãi lớn nhất mà phân xưởng này có thể thu được trong một ngày. Giá trị của E bằng bao nhiêu?",
       "options": [
-        "A. E = 5",
-        "B. E = 4",
-        "C. E = 6",
-        "D. E = 7"
+        "A. 6 triệu đồng",
+        "B. 7 triệu đồng",
+        "C. 8 triệu đồng",
+        "D. 9 triệu đồng"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Chọn C Số giờ làm việc của máy 1 T là 3 2 x y + và của máy 2 T là 2x y + . Vì mỗi ngày máy 1 T không được làm việc quá 6 giờ và máy 2 T không làm việc quá 4 giờ nên ta có ràng buộc: 3 2 6 2 4 . , 0 x y x y x y + \\le + \\le \\ge Vẽ miền nghiệm của hệ bất phương trình ta được miền như hình. Khi đó: ( ) ( ) ( ) 0; 0 0 0;3 6 2;0 6 F F F = = = Vậy giá trị của E là 6. E =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -66248,12 +66248,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Phương trình: 3 2 1 1 3 1 3 x x x x x x + + + = + + - + + có bao nhiêu nghiệm?",
+      "question": "Phương trình $\\sqrt{x + 3} + \\sqrt{x + 2} = \\sqrt{x^2 - 1} + \\sqrt{x + 1}$ có bao nhiêu nghiệm?",
       "options": [
-        "A. 0 .",
-        "B. 3 .",
-        "C. 2 .",
-        "D. 1."
+        "A. 0",
+        "B. 3",
+        "C. 2",
+        "D. 1"
       ],
       "correctAnswer": 0,
       "explanation": "Phương trình có dạng A B C D + = + với . . , AC B D = cụ thể ta có 3 2 3 1 ( 3) ( 1)( 1) 1, 3 x x x x x x x + \\cdot + = + - + = + + nên sẽ viết về dạng A C D B - = - và bình phương để giải phương trình hệ quả. Từ đó có Lời giải: sau: Điều kiện: 1. x \\ge - ( ) 2 3 3 2 2 2 1 1 1 3 1 3 1 1 3 3 x x x x x x x x x x x x \\left( \\right) + + + + = + + - + \\Rightarrow - + = - + - + \\left( \\right) \\left( \\right) + +\\left( \\right) 3 3 2 2 1 1 3 2 3 1 1 2 1 1 3 3 x x x x x x x x x x x x + + \\Leftrightarrow + + - \\cdot + = - + + + - - + \\cdot + + + 3 2 3 2 3 3 2 2 1 1 1 ( 3)( 1) 1 3 3 3 3 x x x x x x x x x x x x x x + \\Leftrightarrow = - - \\Leftrightarrow + = + - - \\Leftrightarrow + = - - + - - + 2 2 1 3 2 4 4 2 2 0 1 3 x x x x x x [ = + \\Leftrightarrow - - \\Leftrightarrow - - = \\Leftrightarrow = - ] So với điều kiện và thế vào phương trình ban đầu, ta có phương trình vô nghiệm.",
@@ -66338,10 +66338,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho $a, b > 0$, $a \\ne 1$ thỏa mãn $\\log_a b = \\frac{b}{4}$ và $\\log_2 a = \\frac{16}{b}$. Tổng $a + b$ bằng:",
       "options": [
-        "A. 12 .",
-        "B. 10 .",
-        "C. 18 .",
-        "D. 16 ."
+        "A. 12",
+        "B. 10",
+        "C. 18",
+        "D. 16"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 16 2 16 log 2 b a a b = \\Leftrightarrow = . Như vậy: 16 2 2 2 log log log log 4 16 4 16 b a b b b b b b b = = = \\Leftrightarrow = \\Leftrightarrow = . Mà 16 2 b a = do đó ta được 2 a = .",
@@ -66382,12 +66382,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
-        "A. $\\sqrt{6} - \\sqrt{2}$",
-        "B. $\\sqrt{6} + \\sqrt{2}$",
-        "C. $4\\sqrt{3} - 4$",
-        "D. $2\\sqrt{2}$"
+        "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
+        "B. $7\\text{ cm}$",
+        "C. $\\frac{7\\sqrt{2}}{2}\\text{ cm}$",
+        "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^\\circ Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^\\circ = \\Rightarrow = = = + ^\\circ . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
@@ -66402,14 +66402,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho ; ;c a b là độ dài 3 cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
+      "question": "Cho $a, b, c$ là độ dài ba cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
       "options": [
-        "A. 2 a ab ac < +",
-        "B. 2 2 2 2 a c b ac + < + .",
-        "C. 2 2 2 2 b c a bc + > + .",
-        "D. 2 ab bc b + > ."
+        "A. $a^2 < ab + ac$",
+        "B. $a^2 + c^2 < b^2 + 2ac$",
+        "C. $b^2 + c^2 > a^2 + 2bc$",
+        "D. $ab + bc > b^2$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Do 2 2 2 2 .cos 2 b c a bc A bc + - = \\le \\Rightarrow 2 2 2 2 b c a bc + \\le + nên mệnh đề C sai. Áp dụng bất đẳng thức tam giác ta có 2 a b c a ab ac < + \\Rightarrow < + ; mệnh đề A đúng. Tương tự 2 a c b ab bc b + > \\Rightarrow + > ;mệnh đề D đúng. Ta có: 2 2 2 2 .cos 2 a c b ac B ac + - = < 2 2 2 2 a c b ac \\Rightarrow + < + ;mệnh đề B đúng.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -66448,10 +66448,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
-        "A. 2 3 1 x x y x - = - .",
-        "B. 2 3 2 3 x y x + = - .",
-        "C. 2 2 3 2 x y x x - = - .",
-        "D. 2 1 3 x y x - = + ."
+        "A. 2 3 1 x x y x - = -",
+        "B. 2 3 2 3 x y x + = -",
+        "C. 2 2 3 2 x y x x - = -",
+        "D. 2 1 3 x y x - = +"
       ],
       "correctAnswer": 0,
       "explanation": "2 3 lim 1 x x x x \\to \\pm \\infty - = \\pm \\infty - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - không có đường tiệm cận ngang. 2 2 3 1 3 1 lim ; lim 2 3 2 2 3 2 x x x x x x \\to +\\infty \\to -\\infty + + = = - - - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - có hai đường tiệm cận ngang. 2 1 3 x y x - = + có tập xác định [ ] 1;1 - \\Rightarrow đồ thị hàm số không có đường tiệm cận ngang. 2 2 3 lim 0 2 x x x x \\to \\pm \\infty - = - \\Rightarrow Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y =",
@@ -66536,9 +66536,9 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 93 đến 95:\nThảm họa hạt nhân Fukushima. Vào tháng 3 năm 2011, sau một trận động đất mạnh, lò phản ứng hạt nhân Fukushima ở Nhật Bản đã tự động ngừng hoạt động. Lò phản ứng hạt nhân tạo ra nhiệt bằng cách phân tách các nguyên tử urani trong một quá trình được gọi là phân hạch hạt nhân. Phân hạch hạt nhân 𝑈𝑟𝑎𝑛𝑖𝑢𝑚 được chứa trong các thanh nhiên liệu của lò phản ứng. Một phản ứng dây chuyền được thiết lập bởi các 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 được giải phóng trong quá trình phân hạch và chúng tiếp tục phân tách nhiều nguyên tử 𝑢𝑟𝑎𝑛𝑖 hơn. Công suất đầu ra của lò phản ứng được điều chỉnh bằng cách kiểm soát số lượng 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hiện diện trong thanh nhiên liệu. Thanh điều khiển làm bằng chất hấp thụ 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 sẽ thu giữ 𝑛𝑒𝑢𝑡𝑟𝑜𝑛. Hấp thụ nhiều 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hơn trong thanh điều khiển có nghĩa là có ít 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hơn có thể gây ra phân hạch. Do đó, đẩy thanh điều khiển sâu hơn vào lò phản ứng sẽ làm giảm công suất đầu ra của nó và việc rút thanh điều khiển sẽ làm tăng công suất đầu ra. Lò phản ứng hạt nhân Fukushima vẫn tiếp tục tạo ra nhiệt ngay cả sau khi phản ứng dây chuyền đã dừng lại do sự phân rã phóng xạ của các đồng vị được tạo ra trong quá trình phân hạch hạt nhân. Sự phân rã này không thể dừng lại và nhiệt sinh ra phải được loại bỏ bằng cách tuần hoàn nước làm mát qua lõi lò phản ứng. Khi lò phản ứng bị đóng do động đất, các máy bơm để duy trì nước làm mát tuần hoàn phải được cung cấp điện từ lưới điện quốc gia hoặc máy phát điện diesel. Tuy nhiên, các kết nối với lưới điện đã bị hư hỏng do động đất và các máy phát điện diesel đã bị phá hủy bởi sóng thần sau trận động đất. Kết quả là, không có hệ thống làm mát nào cho lõi lò phản ứng và điều này dẫn đến các vụ nổ và sau đó giải phóng bức xạ, bao gồm các đồng vị phóng xạ như 𝑐𝑎𝑒𝑠𝑖𝑢𝑚 và 𝑖𝑜𝑑𝑖𝑑𝑒, vào môi trường.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Lò phản ứng hạt nhân tạo ra nhiệt bằng cách phân tách các nguyên tử urani trong một quá trình được gọi là phân hạch hạt nhân. (𝐼𝐼) Công suất đầu ra của lò phản ứng được điều chỉnh bằng cách kiểm soát số lượng 𝑛𝑒𝑢𝑡𝑟𝑜𝑛 hiện diện trong thanh nhiên liệu. (𝐼𝐼𝐼) Lò phản ứng hạt nhân Fukushima vẫn tiếp tục tạo ra nhiệt ngay cả sau khi phản ứng dây chuyền đã dừng lại do sự phân rã phóng xạ của các đồng vị được tạo ra trong quá trình phân hạch hạt nhân. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
+        "A. 1",
+        "B. 2",
+        "C. 3",
         "D. Không phát biểu nào đúng."
       ],
       "correctAnswer": 2,
@@ -68516,12 +68516,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Phương trình: 3 2 1 1 3 1 3 x x x x x x + + + = + + - + + có bao nhiêu nghiệm?",
+      "question": "Phương trình $\\sqrt{x + 3} + \\sqrt{x + 2} = \\sqrt{x^2 - 1} + \\sqrt{x + 1}$ có bao nhiêu nghiệm?",
       "options": [
-        "A. 0 .",
-        "B. 3 .",
-        "C. 2 .",
-        "D. 1."
+        "A. 0",
+        "B. 3",
+        "C. 2",
+        "D. 1"
       ],
       "correctAnswer": 0,
       "explanation": "Phương trình có dạng A B C D + = + với . . , AC B D = cụ thể ta có 3 2 3 1 ( 3) ( 1)( 1) 1, 3 x x x x x x x + \\cdot + = + - + = + + nên sẽ viết về dạng A C D B - = - và bình phương để giải phương trình hệ quả. Từ đó có Lời giải: sau: Điều kiện: 1. x \\ge - ( ) 2 3 3 2 2 2 1 1 1 3 1 3 1 1 3 3 x x x x x x x x x x x x \\left( \\right) + + + + = + + - + \\Rightarrow - + = - + - + \\left( \\right) \\left( \\right) + +\\left( \\right) 3 3 2 2 1 1 3 2 3 1 1 2 1 1 3 3 x x x x x x x x x x x x + + \\Leftrightarrow + + - \\cdot + = - + + + - - + \\cdot + + + 3 2 3 2 3 3 2 2 1 1 1 ( 3)( 1) 1 3 3 3 3 x x x x x x x x x x x x x x + \\Leftrightarrow = - - \\Leftrightarrow + = + - - \\Leftrightarrow + = - - + - - + 2 2 1 3 2 4 4 2 2 0 1 3 x x x x x x [ = + \\Leftrightarrow - - \\Leftrightarrow - - = \\Leftrightarrow = - ] So với điều kiện và thế vào phương trình ban đầu, ta có phương trình vô nghiệm.",
@@ -68606,10 +68606,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho $a, b > 0$, $a \\ne 1$ thỏa mãn $\\log_a b = \\frac{b}{4}$ và $\\log_2 a = \\frac{16}{b}$. Tổng $a + b$ bằng:",
       "options": [
-        "A. 12 .",
-        "B. 10 .",
-        "C. 18 .",
-        "D. 16 ."
+        "A. 12",
+        "B. 10",
+        "C. 18",
+        "D. 16"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 16 2 16 log 2 b a a b = \\Leftrightarrow = . Như vậy: 16 2 2 2 log log log log 4 16 4 16 b a b b b b b b b = = = \\Leftrightarrow = \\Leftrightarrow = . Mà 16 2 b a = do đó ta được 2 a = .",
@@ -68650,12 +68650,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
-        "A. $\\sqrt{6} - \\sqrt{2}$",
-        "B. $\\sqrt{6} + \\sqrt{2}$",
-        "C. $4\\sqrt{3} - 4$",
-        "D. $2\\sqrt{2}$"
+        "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
+        "B. $7\\text{ cm}$",
+        "C. $\\frac{7\\sqrt{2}}{2}\\text{ cm}$",
+        "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^\\circ Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^\\circ = \\Rightarrow = = = + ^\\circ . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
@@ -68670,14 +68670,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho ; ;c a b là độ dài 3 cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
+      "question": "Cho $a, b, c$ là độ dài ba cạnh của một tam giác. Mệnh đề nào sau đây không đúng?",
       "options": [
-        "A. 2 a ab ac < +",
-        "B. 2 2 2 2 a c b ac + < + .",
-        "C. 2 2 2 2 b c a bc + > + .",
-        "D. 2 ab bc b + > ."
+        "A. $a^2 < ab + ac$",
+        "B. $a^2 + c^2 < b^2 + 2ac$",
+        "C. $b^2 + c^2 > a^2 + 2bc$",
+        "D. $ab + bc > b^2$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Do 2 2 2 2 .cos 2 b c a bc A bc + - = \\le \\Rightarrow 2 2 2 2 b c a bc + \\le + nên mệnh đề C sai. Áp dụng bất đẳng thức tam giác ta có 2 a b c a ab ac < + \\Rightarrow < + ; mệnh đề A đúng. Tương tự 2 a c b ab bc b + > \\Rightarrow + > ;mệnh đề D đúng. Ta có: 2 2 2 2 .cos 2 a c b ac B ac + - = < 2 2 2 2 a c b ac \\Rightarrow + < + ;mệnh đề B đúng.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -68716,10 +68716,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
-        "A. 2 3 1 x x y x - = - .",
-        "B. 2 3 2 3 x y x + = - .",
-        "C. 2 2 3 2 x y x x - = - .",
-        "D. 2 1 3 x y x - = + ."
+        "A. 2 3 1 x x y x - = -",
+        "B. 2 3 2 3 x y x + = -",
+        "C. 2 2 3 2 x y x x - = -",
+        "D. 2 1 3 x y x - = +"
       ],
       "correctAnswer": 0,
       "explanation": "2 3 lim 1 x x x x \\to \\pm \\infty - = \\pm \\infty - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - không có đường tiệm cận ngang. 2 2 3 1 3 1 lim ; lim 2 3 2 2 3 2 x x x x x x \\to +\\infty \\to -\\infty + + = = - - - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - có hai đường tiệm cận ngang. 2 1 3 x y x - = + có tập xác định [ ] 1;1 - \\Rightarrow đồ thị hàm số không có đường tiệm cận ngang. 2 2 3 lim 0 2 x x x x \\to \\pm \\infty - = - \\Rightarrow Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y =",
@@ -69115,7 +69115,7 @@ export const QUESTIONS_DATA = {
         "A. $\\frac{1}{2}$",
         "B. $\\frac{1}{6}$",
         "C. $\\frac{1}{4}$",
-        "D. 1."
+        "D. 1"
       ],
       "correctAnswer": 0,
       "explanation": "( ) 2 2 2 1 1 1 1 x x f x x x x + + = = + + + + Tiệm cận xiên: 1 y x = + Tiệm cận xiên cắt Ox tại ( ) 1;0 A - , cắt Oy tại ( ) 0;1 B Tam giác OAB vuông cân nên có diện tích là 1 1 1 . .1.1 2 2 2 OA OB = =",
@@ -69420,10 +69420,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\nthực hiện công và truyển nhiệt. Nếu vật đồng thời nhận nhiệt và nhận công từ bên ngoài thì đểu làm tăng nội năng của vật. Theo định luật bảo toàn và chuyển hoá năng lượng thì độ biến thiên nội năng của vật bằng tổng công và nhiệt lượng mà vật nhận được: Δ𝑈 = 𝐴 + 𝑄 Trong đó: Δ𝑈 là độ biến thiên nội năng của vật. 𝐴 và 𝑄 là các giá trị đại số. o 𝑄 > 0: vật nhận nhiệt lượng; 𝑄 < 0: vật truyền nhiệt lượng. o 𝐴 > 0: vật nhận công; 𝐴 < 0: vật thực hiện công.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Nội năng phụ thuộc vào nhiệt độ của vật. (𝐼𝐼) Nội năng phụ thuộc vào thể tích của vật. (𝐼𝐼𝐼) Có hai cách để làm nội năng của vật thay đổi là thực hiện công và truyền nhiệt. (𝐼𝑉) Nội năng của vật là tổng động năng và thế năng của vật. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Phát biểu (𝐼), (𝐼𝐼)và (𝐼𝐼𝐼) là đúng.",
@@ -71383,7 +71383,7 @@ export const QUESTIONS_DATA = {
         "A. $\\frac{1}{2}$",
         "B. $\\frac{1}{6}$",
         "C. $\\frac{1}{4}$",
-        "D. 1."
+        "D. 1"
       ],
       "correctAnswer": 0,
       "explanation": "( ) 2 2 2 1 1 1 1 x x f x x x x + + = = + + + + Tiệm cận xiên: 1 y x = + Tiệm cận xiên cắt Ox tại ( ) 1;0 A - , cắt Oy tại ( ) 0;1 B Tam giác OAB vuông cân nên có diện tích là 1 1 1 . .1.1 2 2 2 OA OB = =",
@@ -71424,10 +71424,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Trên (C) có 2 điểm sao cho khoảng cách từ điểm đó đến trục hoành bằng hai lần khoảng cách từ điểm đó đến trục tung. Gọi m là tổng hoành độ của hai điểm đó. Giá trị của m là",
       "options": [
-        "A. 3 2 - .",
+        "A. 3 2 -",
         "B. $\\frac{2}{2}$",
-        "C. 2 .",
-        "D. 0 ."
+        "C. 2",
+        "D. 0"
       ],
       "correctAnswer": 0,
       "explanation": "Khoảng cách từ ( ) , M x y đến trục hoành và trục tung lần lượt là | | y và | | x . Khoảng cách từ M đến trục hoành bằng 2 lần khoảng cách từ M đến trục tung | | 2 | | 2 y x y x \\Leftrightarrow = \\Leftrightarrow = \\pm . Bài toán trở thành tìm các giao điểm của đồ thị (C) với 2 đường thẳng 2 y x = và 2 y x = - . Giao của đồ thị (C) với đường thẳng 2 y x = ta có phương trình: 2 2 2 2 2 1 x x x x x + + = \\Leftrightarrow = \\pm + 2 \\Rightarrow giao điểm: ( ) ( ) 1 2 2, 2 2 ; 2, 2 2 M M - - Giao của đồ thị (C) với đường thẳng 2 y x = - ta có phương trình 2 2 2 2 2 3 4 2 0 1 x x x x x x + + - = \\Leftrightarrow + + = + (vô nghiệm) Vậy ( ) 2 2 0 m = + - =",
@@ -71532,14 +71532,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong mặt phẳng với hệ tọa độ Oxy , cho hình vuông ABCD có diện tích bằng 36, đường thẳng chứa cạnh AB song song với trục Ox , các đỉnh , A B và C lần lượt nằm trên đồ thị của các hàm số log , log a a y x y x = = và 3 log a y x = với a là số thực lớn hơn 1. Tìm a .",
+      "question": "Trong mặt phẳng với hệ tọa độ $Oxy$, cho hình vuông $ABCD$ có diện tích bằng 36, đường thẳng chứa cạnh $AB$ song song với trục $Ox$, các đỉnh $A, B$ và $C$ lần lượt nằm trên đồ thị của các hàm số $y = \\log_a x$, $y = \\log_{\\sqrt{a}} x$ và $y = \\log_{\\sqrt[3]{a}} x$ với $a > 1$. Tìm $a$:",
       "options": [
-        "A. 3 a =",
-        "B. 3 6 a =",
-        "C. 6 a =",
-        "D. 6 3 a ="
+        "A. $a = \\sqrt{3}$",
+        "B. $a = \\sqrt[3]{6}$",
+        "C. $a = 6$",
+        "D. $a = 3$"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": "AB song song với trục Ox có nghĩa có cùng tung độ do đó: ( ) ( ) , , ,m m A a m B a m . Chú ý rằng nếu AB song song với trục Ox thì BC vuông góc với trục Ox có nghĩa có cùng hoành độ do vậy ta có 3 , 2 m m C a \\left( \\right) \\left( \\right) \\left( \\right) bởi 3 3 log 2 m a m a = . Vì hình vuông ABCD có diện tích bằng 36 nên có 3 6 6 12 2 m m m AB BC a a m m = = \\Leftrightarrow - = - = \\Leftrightarrow = \\pm . Nếu 12 m = - thì 12 6 6 1 1 1 6 1 3 a a a - = \\Leftrightarrow = < vô lý. Chọn D .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -71576,7 +71576,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác ABC có ; ; BC a CA b BA c = = = và diện tích là S . Biết 2 2 ( ) S b a c = - - . Giá trị của tan 2 B là",
+      "question": "Cho tam giác $ABC$ có $BC = a, CA = b, AB = c$ và diện tích là $S$. Biết $S = b^2 - (a - c)^2$. Giá trị của $\\tan \\frac{B}{2}$ là:",
       "options": [
         "A. $\\frac{1}{4}$",
         "B. $\\frac{1}{2}$",
@@ -71644,10 +71644,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có đạo hàm $f'(x) = (x + 1)^2 (x - 2)(x^2 - mx + m + 6)$. Có bao nhiêu số nguyên $m$ để hàm số $y = f(x)$ có đúng hai điểm cực trị?",
       "options": [
-        "A. 4.",
-        "B. 5.",
-        "C. 7.",
-        "D. 6."
+        "A. 4",
+        "B. 5",
+        "C. 7",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có ( ) ( )( )( ) ( ) 2 2 2 2 1 2 6 0 1 2 6 0 1 x f x x x x mx m x x mx m [ = - = + - - + + = \\Leftrightarrow = - + + = ] ' Xét các trường hợp sau: +) Trường hợp 1: Phương trình (1) vô nghiệm 2 Δ 6 0 2 3 m m m \\Leftrightarrow = - - < \\Leftrightarrow - < < . Hàm số ( ) y f x = có đúng hai điểm cực trị là 1; 2 x x = = - . +) Trường hợp 2: Phương trình (1) có nghiệm kép 2 2 Δ 6 0 3 m m m m = - [ \\Leftrightarrow = - - = \\Leftrightarrow = ] . \\bullet Với 2 m = - thì ( ) ( )( )( ) ( )2 3 2 1 4 4 1 ( 2) f x x x x x x x ' = + - + + = - + . Hàm số ( ) y f x = có đúng 2 điểm cực trị là 1; 2 x x = = - . \\bullet Với 3 m = thì ( ) ( )( ) 2 2 1 ( 3) f x x x x = + - - ' . Hàm số ( ) y f x = có đúng 2 điểm cực trị là 1; 2 x x = = - . +) Trường hợp 3: 1 x = là nghiệm của (1) 7 m \\Rightarrow = . Khi đó, ( ) ( )( )( ) ( ) ( )2 2 2 1 14 13 2 ( 1) 13 f x x x x x x x x = + - - + = + - - ' Hàm số ( ) y f x = có đúng 2 điểm cực trị là 2; 13 x x = - = . +) Trường hợp 4: 2 x = - là một nghiệm của (1) 2 m \\Rightarrow = - . Khi đó, ( ) ( )( )( ) ( )2 3 2 1 4 4 1 ( 2) f x x x x x x x ' = + - + + = - + +) Trường hợp 5: Phương trình (1) có hai nghiệm phân biệt khác 1 và -2 Δ 0 3; 2 2; 7 7 m m m m m > > < - \\Leftrightarrow \\Leftrightarrow \\ne - \\ne \\ne . Khi đó, PT: ( ) 0 f x ' = sẽ có 4 nghiệm phân biệt. ⇒ Hàm số ( ) y f x = có 4 điểm cực trị (loại) Vậy, tập hợp các giá trị nguyên của tham số m là \\{ \\} 2; 1;0;1; 2;3; 7 - - .",
@@ -71664,14 +71664,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Có bao nhiêu giá trị nguyên của tham số m để đồ thị của hàm số 2 1 8 2 x y mx x - = - + có đúng bốn đường tiệm cận?",
+      "question": "Có bao nhiêu giá trị nguyên của tham số $m$ để đồ thị hàm số $y = \\frac{x - 1}{\\sqrt{mx^2 - 8x + 2}}$ có đúng bốn đường tiệm cận?",
       "options": [
-        "A. 8.",
-        "B. 6.",
-        "C. 7.",
-        "D. Vô số."
+        "A. 8",
+        "B. 6",
+        "C. 7",
+        "D. Vô số"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Nhận thấy để đồ thị có đúng bốn đường tiệm cận thì phải có 2 TCN và 2 TCN Dùng quy tắc tương đương để tìm điêu kiện của m Khi x \\infty \\to thì 2 1 8 2 x y mx x - = - + es 2 x x x m mx = Vậy 0 m \\ge Nếu 0 m = thì 1 8 2 x y x - = - + TXĐ: 1 ; 4 D \\infty \\left( \\right) = - \\left( \\right) \\left( \\right) , khi đó chỉ có 1 TCN. Vậy 0 m = không thỏa. Nếu: 0 m > thì 1 1 lim , lim x x y y m m \\infty \\infty \\to - \\to + = - = \\Rightarrow có 2 TCN. Đồ thị có đúng 4 đường tiệm cận ⇔ đồ thị có đúng 2 đường tiệm cận đứng 2 8 2 0 mx x \\Leftrightarrow - + = có hai nghiệm phân biệt khác 16 2 0 8 1 8 2 0 6 m m m m - > < \\Leftrightarrow \\Leftrightarrow - + \\ne \\ne Kết hợp với 0, m m > \\in ta được \\{ \\} 1; 2;3; 4;5;7 m \\in",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
@@ -71688,10 +71688,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Biết rằng $\\lim_{x \\to 3} \\frac{\\sqrt{2x + 3} - 3}{x - 3} = \\frac{a}{b}$ với $a, b$ là các số nguyên dương, phân số $\\frac{a}{b}$ tối giản. Giá trị của $a + b$ bằng:",
       "options": [
-        "A. 5.",
-        "B. 6.",
-        "C. 7.",
-        "D. 8."
+        "A. 5",
+        "B. 6",
+        "C. 7",
+        "D. 8"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: ( ) ( )( ) ( )3 2 3 2 3 3 3 2 3 3 2 3 3 2 6 3 lim lim lim 3 3 3 3 3 3 x x x x x x x x x x x \\to - \\to - \\to - + - + + = = = - - - + . Suy ra 3 6 a b a b = = \\Rightarrow + = .",
@@ -71707,7 +71707,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 88 và 89:\n, : 1 2 3 2 1 2 x y z x y z d d - + - + + = = = = - và 2 2 3 : 1 3 2 x y z d + - = = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai đường thẳng $d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$ và $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$, cùng đường thẳng $d: \\frac{x-5}{1} = \\frac{y+7}{-2} = \\frac{z-3}{3}$.",
       "question": "Viết phương trình mặt phẳng $(P)$ chứa đường thẳng $d$ và song song với đường thẳng $d_1$:",
       "options": [
         "A. 7x - 8y - 3z + 100 = 0",
@@ -71729,7 +71729,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 88 và 89:\n, : 1 2 3 2 1 2 x y z x y z d d - + - + + = = = = - và 2 2 3 : 1 3 2 x y z d + - = = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai đường thẳng $d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$ và $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$, cùng đường thẳng $d: \\frac{x-5}{1} = \\frac{y+7}{-2} = \\frac{z-3}{3}$.",
       "question": "Gọi $\\Delta$ là đường thẳng song song với $d$ đồng thời cắt cả hai đường thẳng $d_1$ và $d_2$. Đường thẳng $\\Delta$ đi qua điểm nào sau đây:",
       "options": [
         "A. (-3; -12; 10)",
@@ -71751,15 +71751,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 93:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
-      "question": "Biết 4095 2048 n S = , tìm n .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số nhân $(u_n)$ có $u_1 = 1$ và công bội $q = \\frac{1}{2}$.",
+      "question": "Biết $S_n = \\frac{4095}{2048}$, tìm $n$.",
       "options": [
         "A. $n = 10$",
         "B. $n = 13$",
         "C. $n = 12$",
         "D. $n = 11$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Ta có 1 1 1 2 4095 1 4095 1 1 1 12 1 2048 2 4096 2 40961 2 n n n n S n \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right)= = \\Rightarrow - = \\Rightarrow = \\Rightarrow = \\left( \\right) \\left( \\right) -",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
@@ -71773,7 +71773,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 93:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
+      "passage": null,
       "question": "Ba điều khẳng định trong chính sách ngoại giao của Chính phủ lâm thời 1945 có thể được khái quát hóa thành những nguyên tắc đối ngoại cơ bản. Theo đó, thứ tự nào dưới đây thể hiện rõ nhất nguyên tắc từ cốt lõi dân tộc đến mở rộng tầm nhìn quốc tế?",
       "options": [
         "A. Độc lập dân tộc → Quyết tâm bảo vệ chủ quyền → Trách nhiệm quốc tế.",
@@ -71795,7 +71795,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 93:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
+      "passage": null,
       "question": "Nếu coi ba điều khẳng định là một cấu trúc chiến lược ngoại giao, thì vai trò của điều khẳng định thứ ba là gì đối với hai điều khẳng định trước?",
       "options": [
         "A. Là mục tiêu duy nhất sau khi đã bảo vệ thành công độc lập, chuyển hướng từ đối đầu sang hợp tác toàn diện.",
@@ -71817,7 +71817,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 93:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
+      "passage": null,
       "question": "Việc Chủ tịch Hồ Chí Minh kiêm nhiệm chức vụ Bộ trưởng Bộ ngoại giao, sau đó công bố chính sách ngoại giao đã thể hiện điều gì là quan trọng nhất trong việc lãnh đạo đất nước sau Cách mạng tháng Tám năm 1945?",
       "options": [
         "A. Khẳng định nguyên tắc đối ngoại do người đứng đầu Chính phủ trực tiếp chỉ đạo, nhấn mạnh tầm quan trọng của vấn đề ngoại giao.",
@@ -73800,14 +73800,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong mặt phẳng với hệ tọa độ Oxy , cho hình vuông ABCD có diện tích bằng 36, đường thẳng chứa cạnh AB song song với trục Ox , các đỉnh , A B và C lần lượt nằm trên đồ thị của các hàm số log , log a a y x y x = = và 3 log a y x = với a là số thực lớn hơn 1. Tìm a .",
+      "question": "Trong mặt phẳng với hệ tọa độ $Oxy$, cho hình vuông $ABCD$ có diện tích bằng 36, đường thẳng chứa cạnh $AB$ song song với trục $Ox$, các đỉnh $A, B$ và $C$ lần lượt nằm trên đồ thị của các hàm số $y = \\log_a x$, $y = \\log_{\\sqrt{a}} x$ và $y = \\log_{\\sqrt[3]{a}} x$ với $a > 1$. Tìm $a$:",
       "options": [
-        "A. 3 a =",
-        "B. 3 6 a =",
-        "C. 6 a =",
-        "D. 6 3 a ="
+        "A. $a = \\sqrt{3}$",
+        "B. $a = \\sqrt[3]{6}$",
+        "C. $a = 6$",
+        "D. $a = 3$"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": "AB song song với trục Ox có nghĩa có cùng tung độ do đó: ( ) ( ) , , ,m m A a m B a m . Chú ý rằng nếu AB song song với trục Ox thì BC vuông góc với trục Ox có nghĩa có cùng hoành độ do vậy ta có 3 , 2 m m C a \\left( \\right) \\left( \\right) \\left( \\right) bởi 3 3 log 2 m a m a = . Vì hình vuông ABCD có diện tích bằng 36 nên có 3 6 6 12 2 m m m AB BC a a m m = = \\Leftrightarrow - = - = \\Leftrightarrow = \\pm . Nếu 12 m = - thì 12 6 6 1 1 1 6 1 3 a a a - = \\Leftrightarrow = < vô lý. Chọn D .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
@@ -73844,7 +73844,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác ABC có ; ; BC a CA b BA c = = = và diện tích là S . Biết 2 2 ( ) S b a c = - - . Giá trị của tan 2 B là",
+      "question": "Cho tam giác $ABC$ có $BC = a, CA = b, AB = c$ và diện tích là $S$. Biết $S = b^2 - (a - c)^2$. Giá trị của $\\tan \\frac{B}{2}$ là:",
       "options": [
         "A. $\\frac{1}{4}$",
         "B. $\\frac{1}{2}$",
@@ -73912,10 +73912,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ có đạo hàm $f'(x) = (x + 1)^2 (x - 2)(x^2 - mx + m + 6)$. Có bao nhiêu số nguyên $m$ để hàm số $y = f(x)$ có đúng hai điểm cực trị?",
       "options": [
-        "A. 4.",
-        "B. 5.",
-        "C. 7.",
-        "D. 6."
+        "A. 4",
+        "B. 5",
+        "C. 7",
+        "D. 6"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có ( ) ( )( )( ) ( ) 2 2 2 2 1 2 6 0 1 2 6 0 1 x f x x x x mx m x x mx m [ = - = + - - + + = \\Leftrightarrow = - + + = ] ' Xét các trường hợp sau: +) Trường hợp 1: Phương trình (1) vô nghiệm 2 Δ 6 0 2 3 m m m \\Leftrightarrow = - - < \\Leftrightarrow - < < . Hàm số ( ) y f x = có đúng hai điểm cực trị là 1; 2 x x = = - . +) Trường hợp 2: Phương trình (1) có nghiệm kép 2 2 Δ 6 0 3 m m m m = - [ \\Leftrightarrow = - - = \\Leftrightarrow = ] . \\bullet Với 2 m = - thì ( ) ( )( )( ) ( )2 3 2 1 4 4 1 ( 2) f x x x x x x x ' = + - + + = - + . Hàm số ( ) y f x = có đúng 2 điểm cực trị là 1; 2 x x = = - . \\bullet Với 3 m = thì ( ) ( )( ) 2 2 1 ( 3) f x x x x = + - - ' . Hàm số ( ) y f x = có đúng 2 điểm cực trị là 1; 2 x x = = - . +) Trường hợp 3: 1 x = là nghiệm của (1) 7 m \\Rightarrow = . Khi đó, ( ) ( )( )( ) ( ) ( )2 2 2 1 14 13 2 ( 1) 13 f x x x x x x x x = + - - + = + - - ' Hàm số ( ) y f x = có đúng 2 điểm cực trị là 2; 13 x x = - = . +) Trường hợp 4: 2 x = - là một nghiệm của (1) 2 m \\Rightarrow = - . Khi đó, ( ) ( )( )( ) ( )2 3 2 1 4 4 1 ( 2) f x x x x x x x ' = + - + + = - + +) Trường hợp 5: Phương trình (1) có hai nghiệm phân biệt khác 1 và -2 Δ 0 3; 2 2; 7 7 m m m m m > > < - \\Leftrightarrow \\Leftrightarrow \\ne - \\ne \\ne . Khi đó, PT: ( ) 0 f x ' = sẽ có 4 nghiệm phân biệt. ⇒ Hàm số ( ) y f x = có 4 điểm cực trị (loại) Vậy, tập hợp các giá trị nguyên của tham số m là \\{ \\} 2; 1;0;1; 2;3; 7 - - .",
@@ -73932,14 +73932,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Có bao nhiêu giá trị nguyên của tham số m để đồ thị của hàm số 2 1 8 2 x y mx x - = - + có đúng bốn đường tiệm cận?",
+      "question": "Có bao nhiêu giá trị nguyên của tham số $m$ để đồ thị hàm số $y = \\frac{x - 1}{\\sqrt{mx^2 - 8x + 2}}$ có đúng bốn đường tiệm cận?",
       "options": [
-        "A. 8.",
-        "B. 6.",
-        "C. 7.",
-        "D. Vô số."
+        "A. 8",
+        "B. 6",
+        "C. 7",
+        "D. Vô số"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Nhận thấy để đồ thị có đúng bốn đường tiệm cận thì phải có 2 TCN và 2 TCN Dùng quy tắc tương đương để tìm điêu kiện của m Khi x \\infty \\to thì 2 1 8 2 x y mx x - = - + es 2 x x x m mx = Vậy 0 m \\ge Nếu 0 m = thì 1 8 2 x y x - = - + TXĐ: 1 ; 4 D \\infty \\left( \\right) = - \\left( \\right) \\left( \\right) , khi đó chỉ có 1 TCN. Vậy 0 m = không thỏa. Nếu: 0 m > thì 1 1 lim , lim x x y y m m \\infty \\infty \\to - \\to + = - = \\Rightarrow có 2 TCN. Đồ thị có đúng 4 đường tiệm cận ⇔ đồ thị có đúng 2 đường tiệm cận đứng 2 8 2 0 mx x \\Leftrightarrow - + = có hai nghiệm phân biệt khác 16 2 0 8 1 8 2 0 6 m m m m - > < \\Leftrightarrow \\Leftrightarrow - + \\ne \\ne Kết hợp với 0, m m > \\in ta được \\{ \\} 1; 2;3; 4;5;7 m \\in",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
@@ -73956,10 +73956,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Biết rằng $\\lim_{x \\to 3} \\frac{\\sqrt{2x + 3} - 3}{x - 3} = \\frac{a}{b}$ với $a, b$ là các số nguyên dương, phân số $\\frac{a}{b}$ tối giản. Giá trị của $a + b$ bằng:",
       "options": [
-        "A. 5.",
-        "B. 6.",
-        "C. 7.",
-        "D. 8."
+        "A. 5",
+        "B. 6",
+        "C. 7",
+        "D. 8"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: ( ) ( )( ) ( )3 2 3 2 3 3 3 2 3 3 2 3 3 2 6 3 lim lim lim 3 3 3 3 3 3 x x x x x x x x x x x \\to - \\to - \\to - + - + + = = = - - - + . Suy ra 3 6 a b a b = = \\Rightarrow + = .",
@@ -73975,7 +73975,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 71 và 72:\n, : 1 2 3 2 1 2 x y z x y z d d - + - + + = = = = - và 2 2 3 : 1 3 2 x y z d + - = = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai đường thẳng $d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$ và $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$, cùng đường thẳng $d: \\frac{x-5}{1} = \\frac{y+7}{-2} = \\frac{z-3}{3}$.",
       "question": "Viết phương trình mặt phẳng $(P)$ chứa đường thẳng $d$ và song song với đường thẳng $d_1$:",
       "options": [
         "A. 7x - 8y - 3z + 100 = 0",
@@ -73997,7 +73997,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 71 và 72:\n, : 1 2 3 2 1 2 x y z x y z d d - + - + + = = = = - và 2 2 3 : 1 3 2 x y z d + - = = - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai đường thẳng $d_1: \\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-1}{1}$ và $d_2: \\frac{x+1}{1} = \\frac{y-4}{-1} = \\frac{z+3}{2}$, cùng đường thẳng $d: \\frac{x-5}{1} = \\frac{y+7}{-2} = \\frac{z-3}{3}$.",
       "question": "Gọi $\\Delta$ là đường thẳng song song với $d$ đồng thời cắt cả hai đường thẳng $d_1$ và $d_2$. Đường thẳng $\\Delta$ đi qua điểm nào sau đây:",
       "options": [
         "A. (-3; -12; 10)",
@@ -74019,15 +74019,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
-      "question": "Biết 4095 2048 n S = , tìm n .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số nhân $(u_n)$ có $u_1 = 1$ và công bội $q = \\frac{1}{2}$.",
+      "question": "Biết $S_n = \\frac{4095}{2048}$, tìm $n$.",
       "options": [
         "A. $n = 10$",
         "B. $n = 13$",
         "C. $n = 12$",
         "D. $n = 11$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Ta có 1 1 1 2 4095 1 4095 1 1 1 12 1 2048 2 4096 2 40961 2 n n n n S n \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right)= = \\Rightarrow - = \\Rightarrow = \\Rightarrow = \\left( \\right) \\left( \\right) -",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
@@ -74041,7 +74041,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nDựa vào thông tin dưới đây trả lời các câu hỏi. Cho cấp số nhân ( ) n u có 1 1 u = và 1 2 q = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho cấp số nhân $(u_n)$ có $u_1 = 1$ và công bội $q = \\frac{1}{2}$.",
       "question": "Tính $S = u_1 + 2u_2 + 3u_3 + \\dots + 2025u_{2025}$:",
       "options": [
         "A. $S = 2025 \\cdot 4^{2027} - 2$",
@@ -74107,13 +74107,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
-      "question": "Phương trình đường thẳng đi qua M và song song với BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
+      "question": "Phương trình đường thẳng đi qua $M$ và song song với $BC$ là:",
       "options": [
-        "A. 5 11 0 x y - - = .",
-        "B. 5 11 0 x y - + = .",
-        "C. 5 11 0 x y + - = .",
-        "D. 5 11 0 x y + + = ."
+        "A. $x - 5y + 1 = 0$",
+        "B. $x - 5y - 1 = 0$",
+        "C. $5x - y + 29 = 0$",
+        "D. $x + 5y + 11 = 0$"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi d là đường thẳng đi qua M và song song với BC , khi đó d có vectơ pháp tuyến ( ) 1; 5 n = - Suy ra phương trình đường thẳng của ( ) ( )( ) : 6 5 1 0 : 5 11 0 d x y d x y - + - + = \\Rightarrow - - =",
@@ -74129,13 +74129,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
-      "question": "Phương trình đường trung trực của BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
+      "question": "Phương trình đường trung trực của đoạn thẳng $BC$ là:",
       "options": [
-        "A. 5 3 0 x y + - = .",
-        "B. 5 3 0 x y + + = .",
-        "C. 5 3 0 x y - - = .",
-        "D. 5 3 0 x y - + = ."
+        "A. $5x + y - 3 = 0$",
+        "B. $5x - y + 13 = 0$",
+        "C. $x + 5y - 7 = 0$",
+        "D. $5x + y + 3 = 0$"
       ],
       "correctAnswer": 0,
       "explanation": "Tọa độ giao điểm N của d và AB là nghiệm của hệ: ( ) 5 11 0 4 4; 3 3 2 6 0 3 x y x N x y y - - = = - \\Leftrightarrow \\Rightarrow - - - + = = - Đường trung trực của BC cũng chính là đường trung trực của MN Tam giác ABC cân tại A nên A nằm trên đường trung trực của MN . Đường trung trực của MN đi qua trung điểm ( ) 1; 2 I - và nhận ( ) 10; 2 MN = - - làm vectơ pháp tuyến nên có phương trình: ( )( ) ( )( ) 10 1 2 2 0 5 3 0 x y x y - - + - + = \\Leftrightarrow + - =",
@@ -74151,7 +74151,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\n5 2 0 BC x y - + = , cạnh bên : 3 2 6 0 AB x y - + = , đường thẳng chứa cạnh AC đi qua điểm ( ) 6; 1 M - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có phương trình cạnh đáy $BC: x - 5y + 2 = 0$, cạnh bên $AB: 3x - 2y + 6 = 0$, và đường thẳng chứa cạnh $AC$ đi qua điểm $M(-6; -1)$.",
       "question": "Gọi tọa độ điểm $C(x_C; y_C)$. Tổng $x_C + y_C$ bằng:",
       "options": [
         "A. 4",
@@ -74159,7 +74159,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. -3"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Tọa độ điểm A là nghiệm của hệ ( ) 3 2 6 0 0 0;3 5 3 0 3 x y x A x y y - + = = \\Leftrightarrow \\Rightarrow + - = = Đường thẳng chứa cạnh AC đi qua điểm ( ) 0;3 A và nhận ( ) 6; 4 AM = - làm vectơ chỉ phương nên có phương trình là: 6 3 4 x t AC y t = \\Rightarrow = - có phương trình tổng quát là 2 3 9 0 x y + - = . Khi đó tọa độ điểm C là nghiệm của hệ ( ) 5 2 0 3 3;1 4 2 3 9 0 1 C C x y x C x y x y y - + = = \\Leftrightarrow \\Rightarrow \\Rightarrow + = + - = = .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
@@ -74352,10 +74352,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Tổng các giá trị của m để đồ thị hàm số ( C ) có hai điểm cực trị , A B sao cho diện tích tam giác OAB bằng 2 ( O là gốc tọa độ) là",
       "options": [
-        "A. 1.",
-        "B. 0.",
+        "A. 1",
+        "B. 0",
         "C. 2",
-        "D. -1."
+        "D. -1"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 2 0 3 6 0 2 x y x mx y x m = [ = + \\Rightarrow = \\Leftrightarrow = - ' ] ' Để hàm số có cực đại, cực tiểu thì phương trình 0 y' = có hai nghiệm phân biệt 0 m \\Leftrightarrow \\ne Khi đó, tọa độ các điểm cực trị là: ( ) ( )3 0; 2 ; 2 ; 4 2 A B m m - + ( ) ( ) 1 1 1 ; 2 ; 2 2 2 1 2 OAB m S OA d B OA d B OA m m = [ = \\Leftrightarrow \\cdot = \\Leftrightarrow = \\Leftrightarrow - = \\Leftrightarrow = - ] (thỏa mãn) Vậy với 1 m = \\pm thì hàm số có 2 cực trị thỏa mãn đề bài.",
@@ -76400,10 +76400,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Phương trình đường trung trực của BC là",
       "options": [
-        "A. 5 3 0 x y + - = .",
-        "B. 5 3 0 x y + + = .",
-        "C. 5 3 0 x y - - = .",
-        "D. 5 3 0 x y - + = ."
+        "A. 5 3 0 x y + - =",
+        "B. 5 3 0 x y + + =",
+        "C. 5 3 0 x y - - =",
+        "D. 5 3 0 x y - + ="
       ],
       "correctAnswer": 0,
       "explanation": "Tọa độ giao điểm N của d và AB là nghiệm của hệ: ( ) 5 11 0 4 4; 3 3 2 6 0 3 x y x N x y y - - = = - \\Leftrightarrow \\Rightarrow - - - + = = - Đường trung trực của BC cũng chính là đường trung trực của MN Tam giác ABC cân tại A nên A nằm trên đường trung trực của MN . Đường trung trực của MN đi qua trung điểm ( ) 1; 2 I - và nhận ( ) 10; 2 MN = - - làm vectơ pháp tuyến nên có phương trình: ( )( ) ( )( ) 10 1 2 2 0 5 3 0 x y x y - - + - + = \\Leftrightarrow + - =",
@@ -76620,10 +76620,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Tổng các giá trị của m để đồ thị hàm số ( C ) có hai điểm cực trị , A B sao cho diện tích tam giác OAB bằng 2 ( O là gốc tọa độ) là",
       "options": [
-        "A. 1.",
-        "B. 0.",
+        "A. 1",
+        "B. 0",
         "C. 2",
-        "D. -1."
+        "D. -1"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 2 0 3 6 0 2 x y x mx y x m = [ = + \\Rightarrow = \\Leftrightarrow = - ' ] ' Để hàm số có cực đại, cực tiểu thì phương trình 0 y' = có hai nghiệm phân biệt 0 m \\Leftrightarrow \\ne Khi đó, tọa độ các điểm cực trị là: ( ) ( )3 0; 2 ; 2 ; 4 2 A B m m - + ( ) ( ) 1 1 1 ; 2 ; 2 2 2 1 2 OAB m S OA d B OA d B OA m m = [ = \\Leftrightarrow \\cdot = \\Leftrightarrow = \\Leftrightarrow - = \\Leftrightarrow = - ] (thỏa mãn) Vậy với 1 m = \\pm thì hàm số có 2 cực trị thỏa mãn đề bài.",
@@ -76750,12 +76750,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho ba số thực dương a , b , c đều khác 1 thỏa mãn log 2log 4log a b c b c a = = và 2 3 48 a b c + + = . Khi đó P abc = bằng bao nhiêu?",
+      "question": "Cho ba số thực dương $a, b, c$ đều khác 1 thỏa mãn $\\log_a b = 2\\log_b c = 4\\log_c a$ và $a + 2b + 3c = 48$. Khi đó $P = abc$ bằng bao nhiêu?",
       "options": [
-        "A. 324 .",
-        "B. 243.",
-        "C. 521.",
-        "D. 512 ."
+        "A. 324",
+        "B. 243",
+        "C. 521",
+        "D. 512"
       ],
       "correctAnswer": 1,
       "explanation": "Chọn B Do a , b , c đều khác 1 nên loga b , logb c và logc a đều khác 0 . Ta có 2 log 2 log log .log 2 log log 2 log a b a c b a b b c c b c c c = \\Leftrightarrow = \\Leftrightarrow = và 2 log 4 log log .log 4 log log 4 log a c a c c c c b a c b a b a = \\Leftrightarrow = \\Leftrightarrow = . Suy ra 2 2 log .log 8log .log log 2 a c b c a c b c a b = \\Leftrightarrow = . Do đó 2 b a = và log 2log 2 a b b c b c = = \\Rightarrow = . Theo giả thiết 2 16 2 3 48 5 48 0 5 3 a a b c a a a [ = - + + = \\Leftrightarrow + - = \\Leftrightarrow = ] . Do các số a , b , c dương nên 3 9 a b c = \\Rightarrow = = , vậy 243 P abc = = .",
@@ -76818,10 +76818,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
-        "A. 7 3 cm 3 .",
-        "B. 7 cm .",
-        "C. 7 2 cm 2 .",
-        "D. 7 5 cm 5 ."
+        "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
+        "B. $7\\text{ cm}$",
+        "C. $\\frac{7\\sqrt{2}}{2}\\text{ cm}$",
+        "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 2 1 2 cos 8 5 2 8 5 64 25 40 49 7 2 a b c bc A a cm = + - = + - \\cdot \\cdot \\cdot = + - = \\Rightarrow = Bán kính đường tròn ngoại tiếp R : 7 7 7 3 2 cm. sin 2sin 3 3 3 2 2 a a R R A A = \\Rightarrow = = = = \\cdot",
@@ -76841,7 +76841,7 @@ export const QUESTIONS_DATA = {
       "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^\\circ$. Tính $BC$:",
       "options": [
         "A. $\\frac{3}{3}$",
-        "B. 3 .",
+        "B. 3",
         "C. $\\frac{6}{3}$",
         "D. $\\frac{6}{2}$"
       ],
@@ -76882,12 +76882,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tiếp tuyến của đồ thị hàm số 4 3 2 1 x y x - = + cùng với 2 tiệm cận tạo thành một tam giác có diện tích bằng:",
+      "question": "Tiếp tuyến của đồ thị hàm số $y = \\frac{4x - 3}{2x + 1}$ cùng với hai đường tiệm cận tạo thành một tam giác có diện tích bằng:",
       "options": [
-        "A. 6 .",
-        "B. 7 .",
-        "C. 5 .",
-        "D. 4 ."
+        "A. 6",
+        "B. 7",
+        "C. 5",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C Gọi ( ) 0 0 ; M x y là điểm nằm trên đồ thị hàm số, 0 1 2 x \\ne - . ( )2 10 2 1 y x ' = + Phương trình tiếp tuyến tại M : ( ) 0 0 0 ( ) y f x x x y ' = - + ( ) ( ) 0 0 2 0 0 4 3 10 2 1 2 1 x y x x x x - \\Rightarrow = - + + + Tiệm cận đứng: 1 2 x = - , tiệm cận ngang: 2 y = Gọi A là giao điểm của tiếp tuyến với tiệm cận đứng 1 2 A x \\Rightarrow = - ( ) 0 0 0 2 0 0 0 4 3 4 8 10 1 2 2 1 2 1 2 1 A x x y x x x x - - \\left( \\right) \\Rightarrow = - - + = \\left( \\right) + + \\left( \\right) + . Vậy 0 0 4 8 1 ; 2 2 1 x A x \\left( \\right) - - \\left( \\right) + \\left( \\right) Gọi B là giao điểm của tiếp tuyến với tiệm cận ngang 2 B y \\Rightarrow = ( ) ( ) 0 0 2 0 0 4 3 10 2 2 1 2 1 B x x x x x - \\Rightarrow = - + + + 0 1 2 2 B x x \\Rightarrow = + . Vậy 0 4 1; 2 2 x B + \\left( \\right) \\left( \\right) \\left( \\right) Giao điểm 2 tiệm cận là 1 ; 2 2 I \\left( \\right) - \\left( \\right) \\left( \\right) Ta có: 0 0 10 10 0; 2 1 2 1 IA IA x x \\left( \\right) = - \\Rightarrow = \\left( \\right) + + \\left( \\right) ( ) 0 0 2 1; 0 2 1 IB x IB x = + \\Rightarrow = + Tam giác IAB vuông tại I nên 0 0 1 1 10 . . 2 1 5 2 2 2 1 IAB S IA IB x x = = + = + .",
@@ -76903,15 +76903,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 84 và 85:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai điểm $A(1; 2; 3)$ và $B(5; 2; 1)$. Mặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi $(Q)$ là mặt phẳng trung trực của đoạn thẳng $AB$ (mặt phẳng chứa mọi điểm $C$ sao cho tam giác $ABC$ cân tại $C$).",
       "question": "Giao điểm của mặt phẳng $(Q)$ với trục $Oz$ là điểm:",
       "options": [
-        "A. K(0; 0; 2)",
-        "B. K(0; 0; 4)",
-        "C. K(0; 0; -4)",
-        "D. K(0; 0; -2)"
+        "A. $K(0; 0; 2)$",
+        "B. $K(0; 0; 4)$",
+        "C. $K(0; 0; -4)$",
+        "D. $K(0; 0; -2)$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "( ) ( ) ( ) 4,0, 2 2,0, 1 2,0, 1 . Q AB n = - - \\Rightarrow = - Trung điểm ( ) 3, 2, 2 I . Phương trình ( ) Q : ( ) ( ) 2 3 1 2 0 2 4 0. x z x z - - - = \\Rightarrow - - = Trục : 0, 0 Oz x y = = . Thé vào ( ) : 2 0 4 0 4 Q z z \\cdot - - = \\Rightarrow = - . ( ) ( ) 0, 0, 4 . Q Oz K \\Rightarrow \\cap = -",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
@@ -76925,7 +76925,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 84 và 85:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai điểm $A(1; 2; 3)$ và $B(5; 2; 1)$. Mặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi $(Q)$ là mặt phẳng trung trực của đoạn thẳng $AB$ (mặt phẳng chứa mọi điểm $C$ sao cho tam giác $ABC$ cân tại $C$).",
       "question": "Vectơ chỉ phương của đường thẳng $d = (P) \\cap (Q)$ có dạng $\\vec{u} = (2; a; b)$. Tính $b - a$:",
       "options": [
         "A. 2",
@@ -76947,13 +76947,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có đỉnh $C(0; 2)$, đường phân giác trong kẻ từ $B$ là $BD: x + 6y - 6 = 0$, đường trung tuyến kẻ từ $A$ là $AK: x - y - 2 = 0$. Gọi $C'$ là điểm đối xứng của $C$ qua đường thẳng $BD$.",
       "question": "Hoành độ điểm B là:",
       "options": [
         "A. 6",
-        "B. 6 - .",
-        "C. 4 .",
-        "D. 4 - ."
+        "B. -6",
+        "C. 4",
+        "D. -4"
       ],
       "correctAnswer": 0,
       "explanation": "Đặt ( ) , 6 B B B B B x y BD x y \\in \\Rightarrow + = . Trung điểm K của 0 2 : , 2 2 B B x y BC K + + \\left( \\right) \\left( \\right) \\left( \\right) . vì 2 : 2 0 2 0 6 0 2 2 B B B B x y K AK x y x y + \\in - - = \\Rightarrow - - = \\Rightarrow - - = Giải hệ ( ) 6, 6,0 . 6 B B B B x y B x y + = \\Rightarrow - =",
@@ -76969,13 +76969,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
-      "question": "Tổng hoành độ và tung độ của ' C là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có đỉnh $C(0; 2)$, đường phân giác trong kẻ từ $B$ là $BD: x + 6y - 6 = 0$, đường trung tuyến kẻ từ $A$ là $AK: x - y - 2 = 0$. Gọi $C'$ là điểm đối xứng của $C$ qua đường thẳng $BD$.",
+      "question": "Tổng hoành độ và tung độ của điểm $C'$ là:",
       "options": [
-        "A. 3 4 0 x y - + = .",
-        "B. 3 4 0 x y + - = .",
-        "C. 3 2 0 x y + + = .",
-        "D. 3 2 0 x y - + = ."
+        "A. 10",
+        "B. 8",
+        "C. 6",
+        "D. 12"
       ],
       "correctAnswer": 0,
       "explanation": "( )( ) ( )( ) 2 2 1 0 1 2 6 4 2. 2 2 C C ax by c t a b + - + + = - = - = = + ( )' ' 2 0 2.1.2 4 4;6 2 2 2.1.2 6 C C C C x x at C y y bt = = + = \\Rightarrow = + ' \\Rightarrow + = + =",
@@ -77013,15 +77013,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 94:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
       "question": "Tính thể tích hình chóp S.ABCD:",
       "options": [
-        "A. 3 2 6 a .",
-        "B. 3 2 3 a .",
-        "C. 3 3 3 a .",
-        "D. 3 3 6 a ."
+        "A. $\\frac{a^3 \\sqrt{2}}{6}$",
+        "B. $\\frac{a^3 \\sqrt{2}}{3}$",
+        "C. $\\frac{a^3 \\sqrt{3}}{3}$",
+        "D. $\\frac{a^3 \\sqrt{6}}{6}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "3 2 . 1 1 2 2 3 3 3 S ABCD ABCD a V S SA a a = \\cdot \\cdot = \\cdot \\cdot =",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
@@ -77035,15 +77035,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 89 đến 94:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
-      "question": "Tính khoảng cách từ A đến mặt phẳng:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
+      "question": "Tính khoảng cách từ điểm $A$ đến mặt phẳng $(SBD)$:",
       "options": [
-        "A. 5 5 a .",
-        "B. 10 5 a .",
-        "C. 5 10 a .",
-        "D. 10 10 a"
+        "A. $\\frac{a\\sqrt{5}}{5}$",
+        "B. $\\frac{a\\sqrt{10}}{5}$",
+        "C. $\\frac{a\\sqrt{5}}{10}$",
+        "D. $\\frac{a\\sqrt{10}}{10}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "2 2 2 2 ( 2) ( 2) 2 SC SA AC a a a = + = + = . 2 2 2 2 2 10 2 2 2 a a SO SA AO a \\left( \\right) \\Rightarrow = + = + = \\left( \\right) \\left( \\right) \\left( \\right) ( ) ( ) SBD SAO và giao tuyến là ( ) ( ) ( ) , , AH SO d A SBD d A SO \\Rightarrow = = . Với 2 2 2 10 2, , 2 2 a a SA a AO SO SA AO = = = + = . Suy ra: ( ) ( ) ( ) ( ) 2 2 2 2 , , 10 5 5 2 10 a a a a d A SBD AH d A SBD a \\cdot = = = \\Rightarrow =",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
@@ -77343,13 +77343,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 98 đến 106:\nđồng/kWh), chưa tính thuế giá trị gia tăng VAT (10% so với giá trị hóa đơn gốc) Mức tính Giá cũ: áp dụng từ ngày 1/1/2023 Giá mới: áp dụng từ ngày 8/9/2024 kWh từ 0 đến 50 1450 1780 kWh từ 51 đến 100 1556 2000 kWh từ 101 đến 200 1985 2150 kWh từ 201 đến 300 2200 2550 kWh từ 301 đến 400 2570 2990 kWh từ 401 trở lên 2800 3460",
-      "question": "Trong giai đoạn khắc mạch bằng 2 2 H O và HCl, người ta quan sát thấy tốc độ thoát khí tăng lên đột ngột khi dung dịch bắt đầu chuyển sang màu xanh đặc trưng. Nguyên nhân chính của hiện tượng này là gì?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong công nghệ sản xuất mạch in (PCB), dung dịch ăn mòn đồng thường sử dụng hỗn hợp $\\text{H}_2\\text{O}_2$ và $\\text{HCl}$. Phản ứng ăn mòn xảy ra theo phương trình: $\\text{Cu} + \\text{H}_2\\text{O}_2 + 2\\text{HCl} \\rightarrow \\text{CuCl}_2 + 2\\text{H}_2\\text{O}$.",
+      "question": "Trong giai đoạn khắc mạch bằng $\\text{H}_2\\text{O}_2$ và $\\text{HCl}$, người ta quan sát thấy tốc độ thoát khí tăng lên đột ngột khi dung dịch bắt đầu chuyển sang màu xanh đặc trưng. Nguyên nhân chính của hiện tượng này là gì?",
       "options": [
-        "A. Do phản ứng sinh ra khí 2 H mạnh khi acid tiếp xúc kim loại.",
-        "B. Do ion 2+ Cu sinh ra đóng vai trò chất xúc tác làm 2 2 H O phân hủy nhanh tạo ra khí 2 O .",
+        "A. Do nồng độ $\\text{H}_2\\text{O}_2$ tăng cao dần về cuối phản ứng.",
+        "B. Do ion $\\text{Cu}^{2+}$ sinh ra đóng vai trò chất xúc tác làm $\\text{H}_2\\text{O}_2$ phân hủy nhanh tạo ra khí $\\text{O}_2$.",
         "C. Do nhiệt độ dung dịch giảm xuống làm khí ít tan và thoát ra ngoài.",
-        "D. Do nồng độ HCl tăng cao về cuối phản ứng."
+        "D. Do nồng độ $\\text{HCl}$ tăng cao về cuối phản ứng."
       ],
       "correctAnswer": 1,
       "explanation": "Đáp án B Phản ứng ăn mòn kim loại và phản ứng phân hủy H2O2 đều là các phản ứng tỏa nhiệt (Exothermic). Do đó, nhiệt độ dung dịch sẽ tăng lên (nóng lên) chứ không phải giảm xuống. Mặc dù nhiệt độ tăng làm độ tan của khí giảm, nhưng nguyên nhân chính của việc \"sủi bọt mạnh đột ngột\" là do lượng khí O2 được sinh ra ồ ạt từ phản ứng phân hủy, chứ không chỉ đơn thuần là khí cũ thoát ra do nóng.",
@@ -77412,10 +77412,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 109:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^\\circ\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C. Phát biểu (𝐼), (𝐼𝐼) và (𝐼𝐼𝐼) là phát biểu đúng.",
@@ -77522,10 +77522,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 112:\nO2 cao, RuBisCo thể hiện hoạt tính carboxylase gắn RuBP (Ribulose-1,5-bisphosphate) với CO2 để tạo ra 2 phân tử 3- phosphoglycerate (PGA), PGA được chuyển hóa tiếp trong chu trình Calvin để tạo ra glucose. Nếu tỉ lệ giữa nồng độ CO2: O2 thấp và nhiệt độ môi trường cao, RuBisCo thể hiện hoạt tính oxygenase gắn RuBP với O2 và phân giải RuBP thành PGA và phosphoglycolate (2PG). 2PG tiếp tục được chuyển hóa trong lục lạp, peroxisome và ti thể (Hình bên dưới). Quá trình phân giải RuBP trong điều kiện có ánh sáng và oxygene được gọi là hô hấp sáng. Hô hấp sáng phân giải sản phẩm quang hợp tạo ra CO2 và một số bước chuyển hóa cần cung cấp ATP và NADPH, dẫn đến làm hao tổn sản phẩm quang hợp. Thực vật C3 có pha sáng và pha tối (chu trình Calvin) diễn ra trong cùng một lục lạp. Trong điều kiện khí hậu ôn đới, nhiệt độ thấp và cường độ ánh sáng trung bình nên lượng oxygene tạo ra từ pha sáng của thực vật C3 không quá lớn, vì vậy tỉ lệ nồng độ CO2: O2 vẫn duy trì mức cao, RuBisCo duy trì hoạt tính carboxylase. Nếu thực vật C3 quang hợp trong điều kiện nhiệt độ cao, cường độ ánh sáng mạnh sẽ dẫn đến tăng mức quang phân li nước, kết quả tạo ra quá nhiều oxygene làm tỉ lệ nồng độ CO2: O2 giảm xuống mức thấp, tạo điều kiện cho hô hấp sáng xảy ra. Trong quá trình tiến hóa, từ một nhánh thực vật C3 được chọn lọc tự nhiên chọn lọc thành thực vật C4 không có hô hấp sáng. Thực vật C4 có 2 loại lục lạp với 2 nhóm chức năng khác nhau gồm: Lục lạp của tế bào mô giậu thực hiện pha sáng có nồng độ O2 cao và enzyme xúc tác một chất C3 với CO2 hình thành nên chất C4, C4 được chuyển vào tế bào bao bó mạch. Tế bào bao bó mạch có nồng độ O2 thấp, C4 phân giải thành C3 và CO2 duy trì nồng độ CO2 cao cung cấp cho chu trình Calvin.",
       "question": "Có bao nhiêu phát biểu sau đây là đúng khi nói về quá trình hô hấp sáng ở thực vật C3? I. Có cơ chất đầu tiên của chuỗi phản ứng là O2 và RuBP. II. Diễn ra qua 3 bào quan lục lạp, peroxysome và ti thể. II. Tạo ra ATP và giải phóng CO2 IV. Làm tiêu hao sản phẩm quang hợp.",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 4.",
-        "D. 3."
+        "A. 1",
+        "B. 2",
+        "C. 4",
+        "D. 3"
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án: D Giải thích chi tiết: I đúng. Giải thích: Hô hấp sáng bắt đầu khi RuBisCo gắn RuBP với O₂, tạo thành PGA và phosphoglycolate → cơ chất là O₂ và RuBP. II đúng. Giải thích: Quá trình hô hấp sáng liên quan đến 3 bào quan: lục lạp (chuyển hóa 2PG), peroxisome (oxy hóa glycolate), và ti thể (chuyển hóa glycine → serine, giải phóng CO₂ và NH₃). III sai. Giải thích: Hô hấp sáng không tạo ra ATP, mà tiêu hao ATP và NADPH → chỉ giải phóng CO₂, không sinh năng lượng. IV đúng. Giải thích: Quá trình này tiêu hao sản phẩm quang hợp (ATP, NADPH) và giải phóng CO₂ → hao tổn kết quả quang hợp.",
@@ -79086,10 +79086,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
-        "A. 7 3 cm 3 .",
-        "B. 7 cm .",
-        "C. 7 2 cm 2 .",
-        "D. 7 5 cm 5 ."
+        "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
+        "B. $7\\text{ cm}$",
+        "C. $\\frac{7\\sqrt{2}}{2}\\text{ cm}$",
+        "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 2 1 2 cos 8 5 2 8 5 64 25 40 49 7 2 a b c bc A a cm = + - = + - \\cdot \\cdot \\cdot = + - = \\Rightarrow = Bán kính đường tròn ngoại tiếp R : 7 7 7 3 2 cm. sin 2sin 3 3 3 2 2 a a R R A A = \\Rightarrow = = = = \\cdot",
@@ -79109,7 +79109,7 @@ export const QUESTIONS_DATA = {
       "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^\\circ$. Tính $BC$:",
       "options": [
         "A. $\\frac{3}{3}$",
-        "B. 3 .",
+        "B. 3",
         "C. $\\frac{6}{3}$",
         "D. $\\frac{6}{2}$"
       ],
@@ -79150,12 +79150,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tiếp tuyến của đồ thị hàm số 4 3 2 1 x y x - = + cùng với 2 tiệm cận tạo thành một tam giác có diện tích bằng:",
+      "question": "Tiếp tuyến của đồ thị hàm số $y = \\frac{4x - 3}{2x + 1}$ cùng với hai đường tiệm cận tạo thành một tam giác có diện tích bằng:",
       "options": [
-        "A. 6 .",
-        "B. 7 .",
-        "C. 5 .",
-        "D. 4 ."
+        "A. 6",
+        "B. 7",
+        "C. 5",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Chọn C Gọi ( ) 0 0 ; M x y là điểm nằm trên đồ thị hàm số, 0 1 2 x \\ne - . ( )2 10 2 1 y x ' = + Phương trình tiếp tuyến tại M : ( ) 0 0 0 ( ) y f x x x y ' = - + ( ) ( ) 0 0 2 0 0 4 3 10 2 1 2 1 x y x x x x - \\Rightarrow = - + + + Tiệm cận đứng: 1 2 x = - , tiệm cận ngang: 2 y = Gọi A là giao điểm của tiếp tuyến với tiệm cận đứng 1 2 A x \\Rightarrow = - ( ) 0 0 0 2 0 0 0 4 3 4 8 10 1 2 2 1 2 1 2 1 A x x y x x x x - - \\left( \\right) \\Rightarrow = - - + = \\left( \\right) + + \\left( \\right) + . Vậy 0 0 4 8 1 ; 2 2 1 x A x \\left( \\right) - - \\left( \\right) + \\left( \\right) Gọi B là giao điểm của tiếp tuyến với tiệm cận ngang 2 B y \\Rightarrow = ( ) ( ) 0 0 2 0 0 4 3 10 2 2 1 2 1 B x x x x x - \\Rightarrow = - + + + 0 1 2 2 B x x \\Rightarrow = + . Vậy 0 4 1; 2 2 x B + \\left( \\right) \\left( \\right) \\left( \\right) Giao điểm 2 tiệm cận là 1 ; 2 2 I \\left( \\right) - \\left( \\right) \\left( \\right) Ta có: 0 0 10 10 0; 2 1 2 1 IA IA x x \\left( \\right) = - \\Rightarrow = \\left( \\right) + + \\left( \\right) ( ) 0 0 2 1; 0 2 1 IB x IB x = + \\Rightarrow = + Tam giác IAB vuông tại I nên 0 0 1 1 10 . . 2 1 5 2 2 2 1 IAB S IA IB x x = = + = + .",
@@ -79171,15 +79171,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 67 và 68:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai điểm $A(1; 2; 3)$ và $B(5; 2; 1)$. Mặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi $(Q)$ là mặt phẳng trung trực của đoạn thẳng $AB$ (mặt phẳng chứa mọi điểm $C$ sao cho tam giác $ABC$ cân tại $C$).",
       "question": "Giao điểm của mặt phẳng $(Q)$ với trục $Oz$ là điểm:",
       "options": [
-        "A. K(0; 0; 2)",
-        "B. K(0; 0; 4)",
-        "C. K(0; 0; -4)",
-        "D. K(0; 0; -2)"
+        "A. $K(0; 0; 2)$",
+        "B. $K(0; 0; 4)$",
+        "C. $K(0; 0; -4)$",
+        "D. $K(0; 0; -2)$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "( ) ( ) ( ) 4,0, 2 2,0, 1 2,0, 1 . Q AB n = - - \\Rightarrow = - Trung điểm ( ) 3, 2, 2 I . Phương trình ( ) Q : ( ) ( ) 2 3 1 2 0 2 4 0. x z x z - - - = \\Rightarrow - - = Trục : 0, 0 Oz x y = = . Thé vào ( ) : 2 0 4 0 4 Q z z \\cdot - - = \\Rightarrow = - . ( ) ( ) 0, 0, 4 . Q Oz K \\Rightarrow \\cap = -",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
@@ -79193,7 +79193,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 67 và 68:\nMặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi ( ) Q là mặt phẳng cố định chứa mọi C sao cho tam giác ABC cân tại C .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 73 và 74:\nTrong không gian $Oxyz$, cho hai điểm $A(1; 2; 3)$ và $B(5; 2; 1)$. Mặt phẳng $(P): 2x - y + z - 1 = 0$. Gọi $(Q)$ là mặt phẳng trung trực của đoạn thẳng $AB$ (mặt phẳng chứa mọi điểm $C$ sao cho tam giác $ABC$ cân tại $C$).",
       "question": "Vectơ chỉ phương của đường thẳng $d = (P) \\cap (Q)$ có dạng $\\vec{u} = (2; a; b)$. Tính $b - a$:",
       "options": [
         "A. 2",
@@ -79215,13 +79215,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 71:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có đỉnh $C(0; 2)$, đường phân giác trong kẻ từ $B$ là $BD: x + 6y - 6 = 0$, đường trung tuyến kẻ từ $A$ là $AK: x - y - 2 = 0$. Gọi $C'$ là điểm đối xứng của $C$ qua đường thẳng $BD$.",
       "question": "Hoành độ điểm B là:",
       "options": [
         "A. 6",
-        "B. 6 - .",
-        "C. 4 .",
-        "D. 4 - ."
+        "B. -6",
+        "C. 4",
+        "D. -4"
       ],
       "correctAnswer": 0,
       "explanation": "Đặt ( ) , 6 B B B B B x y BD x y \\in \\Rightarrow + = . Trung điểm K của 0 2 : , 2 2 B B x y BC K + + \\left( \\right) \\left( \\right) \\left( \\right) . vì 2 : 2 0 2 0 6 0 2 2 B B B B x y K AK x y x y + \\in - - = \\Rightarrow - - = \\Rightarrow - - = Giải hệ ( ) 6, 6,0 . 6 B B B B x y B x y + = \\Rightarrow - =",
@@ -79237,13 +79237,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 69 đến 71:\n$BD: x + 6y - 6 = 0$. Trung tuyến từ A là : 2 0 AK x y - - = . ' C là điểm đối xứng của C qua đường thẳng BD .",
-      "question": "Tổng hoành độ và tung độ của ' C là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 75 đến 77:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có đỉnh $C(0; 2)$, đường phân giác trong kẻ từ $B$ là $BD: x + 6y - 6 = 0$, đường trung tuyến kẻ từ $A$ là $AK: x - y - 2 = 0$. Gọi $C'$ là điểm đối xứng của $C$ qua đường thẳng $BD$.",
+      "question": "Tổng hoành độ và tung độ của điểm $C'$ là:",
       "options": [
-        "A. 3 4 0 x y - + = .",
-        "B. 3 4 0 x y + - = .",
-        "C. 3 2 0 x y + + = .",
-        "D. 3 2 0 x y - + = ."
+        "A. 10",
+        "B. 8",
+        "C. 6",
+        "D. 12"
       ],
       "correctAnswer": 0,
       "explanation": "( )( ) ( )( ) 2 2 1 0 1 2 6 4 2. 2 2 C C ax by c t a b + - + + = - = - = = + ( )' ' 2 0 2.1.2 4 4;6 2 2 2.1.2 6 C C C C x x at C y y bt = = + = \\Rightarrow = + ' \\Rightarrow + = + =",
@@ -79281,15 +79281,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
       "question": "Tính thể tích hình chóp S.ABCD:",
       "options": [
-        "A. 3 2 6 a .",
-        "B. 3 2 3 a .",
-        "C. 3 3 3 a .",
-        "D. 3 3 6 a ."
+        "A. $\\frac{a^3 \\sqrt{2}}{6}$",
+        "B. $\\frac{a^3 \\sqrt{2}}{3}$",
+        "C. $\\frac{a^3 \\sqrt{3}}{3}$",
+        "D. $\\frac{a^3 \\sqrt{6}}{6}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "3 2 . 1 1 2 2 3 3 3 S ABCD ABCD a V S SA a a = \\cdot \\cdot = \\cdot \\cdot =",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
@@ -79303,15 +79303,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
-      "question": "Tính khoảng cách từ A đến mặt phẳng:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
+      "question": "Tính khoảng cách từ điểm $A$ đến mặt phẳng $(SBD)$:",
       "options": [
-        "A. 5 5 a .",
-        "B. 10 5 a .",
-        "C. 5 10 a .",
-        "D. 10 10 a"
+        "A. $\\frac{a\\sqrt{5}}{5}$",
+        "B. $\\frac{a\\sqrt{10}}{5}$",
+        "C. $\\frac{a\\sqrt{5}}{10}$",
+        "D. $\\frac{a\\sqrt{10}}{10}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "2 2 2 2 ( 2) ( 2) 2 SC SA AC a a a = + = + = . 2 2 2 2 2 10 2 2 2 a a SO SA AO a \\left( \\right) \\Rightarrow = + = + = \\left( \\right) \\left( \\right) \\left( \\right) ( ) ( ) SBD SAO và giao tuyến là ( ) ( ) ( ) , , AH SO d A SBD d A SO \\Rightarrow = = . Với 2 2 2 10 2, , 2 2 a a SA a AO SO SA AO = = = + = . Suy ra: ( ) ( ) ( ) ( ) 2 2 2 2 , , 10 5 5 2 10 a a a a d A SBD AH d A SBD a \\cdot = = = \\Rightarrow =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
@@ -79325,15 +79325,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a . Cạnh bên ( ) SA ABCD , biét 2 SA a = . Gọi O là giao điểm 2 đường chéo của hình vuông ABCD .",
-      "question": "Tính góc giữa đường thẳng SC và mặt phẳng:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
+      "question": "Tính góc giữa đường thẳng $SC$ và mặt phẳng $(SBD)$ (làm tròn đến hàng phần trăm độ):",
       "options": [
-        "A. 0 28,34 .",
-        "B. 0 18, 43 .",
-        "C. 0 15,88 .",
-        "D. 0 22,58 ."
+        "A. $28{,}34^\\circ$",
+        "B. $18{,}43^\\circ$",
+        "C. $15{,}88^\\circ$",
+        "D. $22{,}58^\\circ$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) , 1 ; ; , 10 5 d A SBD OA a d C SBD d A SBD OC d C SBD = = \\Rightarrow = = Ta tính: ( ) ( )\\bullet , SC SBD \\alpha = qua công thức ( ) ( ) , 10 10 sin : 2 5 10 d C SBD a a SC \\alpha = = =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
@@ -79350,10 +79350,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Trong một buổi tập đồng diễn sinh hoạt hè 2025 của xóm 𝑋, có 6 học sinh gồm 2 học sinh lớp 𝐴, 2 học sinh lớp 𝐵 và 2 học sinh lớp 𝐶 của trường 𝑌 tham gia. Các học sinh này được xếp ngẫu nhiên vào 3 hàng, mỗi hàng có 2 học sinh (không tính thứ tự 2 học sinh trong cùng một hàng).",
       "question": "Gọi Ω là không gian mẫu gồm tất cả các cách xếp 6 học sinh vào 3 hàng như trên. Số phần tử của Ω bằng",
       "options": [
-        "A. 60.",
-        "B. 90.",
-        "C. 720.",
-        "D. 15."
+        "A. 60",
+        "B. 90",
+        "C. 720",
+        "D. 15"
       ],
       "correctAnswer": 1,
       "explanation": "Ta cần đếm số cách xếp 6 học sinh phân biệt vào 3 hàng, mỗi hàng 2 học sinh, không xét thứ tự trong cùng một hàng, nhưng 3 hàng là khác nhau. \\bullet Chọn 2 bạn vào Hàng 1: C଺ ଶcách. \\bullet Còn 4 bạn, chọn 2 bạn vào Hàng 2: Cସ ଶcách. \\bullet Còn 2 bạn, tất nhiên vào Hàng 3: Cଶ ଶ = 1cách. Vậy ∣ Ω ∣= C଺ ଶ ⋅ Cସ ଶ ⋅ Cଶ ଶ = 15 ⋅ 6 ⋅ 1 = 90. Chọn đáp án: B. (90).",
@@ -79372,10 +79372,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\nDựa vào thông tin dưới đây để trả lời các câu từ hỏi Trong một buổi tập đồng diễn sinh hoạt hè 2025 của xóm 𝑋, có 6 học sinh gồm 2 học sinh lớp 𝐴, 2 học sinh lớp 𝐵 và 2 học sinh lớp 𝐶 của trường 𝑌 tham gia. Các học sinh này được xếp ngẫu nhiên vào 3 hàng, mỗi hàng có 2 học sinh (không tính thứ tự 2 học sinh trong cùng một hàng).",
       "question": "Gọi 𝐴 là biến cố “không có hai học sinh cùng lớp nào được xếp vào cùng một hàng”. Số phần tử của 𝐴là",
       "options": [
-        "A. 48.",
-        "B. 46.",
-        "C. 42.",
-        "D. 44."
+        "A. 48",
+        "B. 46",
+        "C. 42",
+        "D. 44"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi 3 hàng là H1, H2, H3. Mỗi hàng có 2 bạn khác lớp. Vì có 2 bạn A, 2 bạn B, 2 bạn C, nên: \\bullet Mỗi lớp xuất hiện đúng 2 lần. \\bullet Mỗi hàng là 1 trong 3 kiểu: AB, AC, BC. Nếu một kiểu nào đó (ví dụ 𝐴𝐵 ) xuất hiện 2 lần, thì lớp 𝐴 và 𝐵 đã dùng hết 2 bạn → không còn 𝐴, 𝐵 để ghép với C → vô lý. Do đó, mỗi kiểu AB, AC, BC xuất hiện đứng 1 lần. 1. Bưởc 1: Xếp kiểu lớp cho 3 hàng Sắp xếp 3 kiểu: AB, AC, BC vào 3 hàng phân biệt: 3! = 6 cách. 2. Bước 2: Gán học sinh cụ thể (xét một cách sấp kiểu bất kỳ, chẳng hạn H1: AB, H2: AC, H3: BC ) \\bullet Hai bạn A vào 2 hàng có A(H1, H2): 2 ! cách \\bullet Hai bạn B vào H1, H3: 2 ! cách \\bullet Hai bạn C vào H2, H3: 2! cách Tổng số cách cho một cấu hình kiểu lớp: 2! ⋅ 2! ⋅ 2! = 8 cách. 3. Kết hợp lại: |𝐴| = 3! ⋅ 2! ⋅ 2! ⋅ 2! = 6 ⋅ 8 = 48. Két luận: |𝐴| = 48",
@@ -79479,13 +79479,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho phương trình tham số m ( ) ( )2 2 2 2 log log 3 0 x x m - + - = có nghiệm [ ] 1;8 x \\in .",
-      "question": "Tại 3 m = , tổng hai nghiệm của phương trình là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nCho phương trình tham số $m$: $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$.",
+      "question": "Tại $m = 3$, tổng các nghiệm của phương trình là:",
       "options": [
-        "A. 5 .",
+        "A. 5",
         "B. $\\frac{5}{2}$",
         "C. $\\frac{7}{2}$",
-        "D. 7 ."
+        "D. 7"
       ],
       "correctAnswer": 0,
       "explanation": "Đặt 2 t log x = . ( ) ( )2 2 2 2 log log 0 x x - = trở thành 2 2 0 0 2 t t t hayt - = \\Leftrightarrow = = suy ra 1 4 x hayx = =",
@@ -79501,15 +79501,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho phương trình tham số m ( ) ( )2 2 2 2 log log 3 0 x x m - + - = có nghiệm [ ] 1;8 x \\in .",
-      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$ có hai nghiệm phân biệt $x_1, x_2 \\in [1; 4]$:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nCho phương trình tham số $m$: $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$.",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình có hai nghiệm phân biệt $x_1, x_2 \\in [1; 8]$:",
       "options": [
         "A. $6 \\le m \\le 9$",
         "B. $3 \\le m \\le 6$",
         "C. $2 \\le m \\le 3$",
         "D. $2 \\le m \\le 6$"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "Chọn D Đặt 2 t log x = . Vì [ ] 1;8 x \\in nên [ ] 0;3 t \\in . Phương trình ( ) ( )2 2 2 2 log log 3 0 x x m - + - = trở thành 2 2 2 3 0 2 3 t t m m t t - + - = \\Leftrightarrow = - + , [ ] 0;3 t \\in . Ta có bảng biến thiên của hàm số 2 2 3 m t t = - + : t m' m 0 3 1 0 - + 3 6 2 nên [ ] 2; 6 m \\in .",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
@@ -79549,7 +79549,7 @@ export const QUESTIONS_DATA = {
       "question": "Chi phí thấp nhất để trộn hai loại thức ăn trên đồng thời đảm bảo đủ dinh dưỡng bằng bao nhiêu?",
       "options": [
         "A. $\\frac{4640}{11}$",
-        "B. 480.",
+        "B. 480",
         "C. $\\frac{1750}{3}$",
         "D. $\\frac{5440}{11}$"
       ],
@@ -79568,12 +79568,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số nghiệm của phương trình 2 2 3 86 19 3 16 0 x x x x - + - - + = là.",
+      "question": "Số nghiệm của phương trình $x^2 - 3x + 86 - 19\\sqrt{x^2 - 3x + 16} = 0$ là:",
       "options": [
-        "A. 4.",
-        "B. 1.",
-        "C. 3.",
-        "D. 2."
+        "A. 4",
+        "B. 1",
+        "C. 3",
+        "D. 2"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 3 86 19 3 16 0 3 16 19 3 16 70 0* x x x x x x x x - + - - + = \\Leftrightarrow - + - - + + = Đặt 2 3 16, 0 t x x t = - + \\ge . Khi đó 2 14 * 19 70 0 5 t n t t t n = [ \\Rightarrow - + = \\Leftrightarrow = ] Với 2 2 15 14 3 16 14 3 180 0 12 x t x x x x x = [ = \\Rightarrow - + = \\Leftrightarrow - - = \\Leftrightarrow = - ] . Với 2 2 3 3 5 25 3 16 5 3 9 0 3 3 5 2 x t x x x x x [ + = = \\Rightarrow - + = \\Leftrightarrow - - = \\Leftrightarrow - = ] . Vậy phương trình đã cho có 4 nghiệm.",
@@ -79612,14 +79612,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số giá trị nguyên của m để phương trình 2 4 1 x m - = + có bốn nghiệm phân biệt là:",
+      "question": "Số giá trị nguyên của tham số $m$ để phương trình $|x^2 - 4| = m + 1$ có bốn nghiệm phân biệt là:",
       "options": [
-        "A. 4.",
-        "B. 2.",
-        "C. 3.",
-        "D. 5."
+        "A. 4",
+        "B. 2",
+        "C. 3",
+        "D. 5"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "(Chú ý: Phương trình 0 B A B A B A B \\ge = \\Leftrightarrow = [ ] ] = - ] ] Ta có: ( ) ( ) ( ) 2 2 2 2 2 1 1 4 1 * 5 0 1 4 1 3 0 2 4 1 m m x m x m x m x m x m \\ge - \\ge - [ - = + \\Leftrightarrow \\Leftrightarrow - - = [ - = + + - = - = - - ] ] Để phương trình (*) có bốn nghiệm phân biệt thì các phương trình (1);(2) đều có hai nghiệm phân biệt và các nghiệm của phương trình (1) đều không là nghiệm của phương trình (2) và ngược lại. Khi đó m phải thỏa mãn các điều kiện sau: 2 2 1 1 5 0 5 1 3 3 0 3 5 3 1 m m m m m m m x m x m m \\ge - \\ge - + > > - \\Leftrightarrow \\Leftrightarrow - < < - + > < - - \\ne + - \\ne - . Do m \\in nên \\{ \\} 0;1; 2 m \\in . Vậy có 3 giá trị nguyên của m thoả mãn yêu cầu bài toán.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -79746,10 +79746,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Có bao nhiêu phát biểu sau đây là đúng khi nói về quá trình hô hấp sáng ở thực vật C3? I. Có cơ chất đầu tiên của chuỗi phản ứng là O2 và RuBP. II. Diễn ra qua 3 bào quan lục lạp, peroxysome và ti thể. II. Tạo ra ATP và giải phóng CO2 IV. Làm tiêu hao sản phẩm quang hợp.",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 4.",
-        "D. 3."
+        "A. 1",
+        "B. 2",
+        "C. 4",
+        "D. 3"
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án: D Giải thích chi tiết: I đúng. Giải thích: Hô hấp sáng bắt đầu khi RuBisCo gắn RuBP với O₂, tạo thành PGA và phosphoglycolate → cơ chất là O₂ và RuBP. II đúng. Giải thích: Quá trình hô hấp sáng liên quan đến 3 bào quan: lục lạp (chuyển hóa 2PG), peroxisome (oxy hóa glycolate), và ti thể (chuyển hóa glycine → serine, giải phóng CO₂ và NH₃). III sai. Giải thích: Hô hấp sáng không tạo ra ATP, mà tiêu hao ATP và NADPH → chỉ giải phóng CO₂, không sinh năng lượng. IV đúng. Giải thích: Quá trình này tiêu hao sản phẩm quang hợp (ATP, NADPH) và giải phóng CO₂ → hao tổn kết quả quang hợp.",
@@ -80054,10 +80054,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n1. Bộ lạc Sự Thật (Kỵ Sĩ): Luôn luôn nói thật. 2. Bộ lạc Dối Trá (Kẻ Lừa Đảo): Luôn luôn nói dối. 3. Bộ lạc Luân Phiên (Quân Bài): Luân phiên nói thật và nói dối (Câu thứ nhất nói thật, câu thứ hai nói dối, câu thứ ba nói thật,.). Mỗi người A, B, C thuộc về một Bộ lạc khác nhau. Họ đưa ra các tuyên bố theo thứ tự sau: Người Câu nói 1 Câu nói 2 A \"B là Bộ lạc Sự Thật.\" \"C là Bộ lạc Luân Phiên.\" B \"C là Bộ lạc Dối Trá.\" \"A là Bộ lạc Luân Phiên.\" C \"A là Bộ lạc Sự Thật.\" \"B là Bộ lạc Dối Trá\"",
       "question": "Nếu C là Bộ lạc Sự Thật thì có bao nhiêu câu nói gây mâu thuẫn?",
       "options": [
-        "A. 3.",
-        "B. 4.",
-        "C. 1.",
-        "D. 5."
+        "A. 3",
+        "B. 4",
+        "C. 1",
+        "D. 5"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án: A. Nếu C là Bộ lạc Sự Thật => Câu nói 1 của A và C gây mâu thuẫn. C nói thật => B là Bộ lạc Dối Trá => A là Bộ lạc Luân Phiên. Nhưng câu nói 2 của B nói A là Bọ lạc Luân Phiên => Là câu nói đúng => Câu nói 2 của B gây mâu thuẫn.",
@@ -80249,13 +80249,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 117:\nThống kê về số lượng nhà máy trong một số trung tâm công nghiệp lớn của thế giới trong năm 2025 và sự thay đổi của nó so với năm 2020. Kết quả thể hiện như hình dưới",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Sử dụng dữ liệu của thí nghiệm ban đầu (15,0g Glucose trong 200g nước). Tính nhiệt độ sôi của dung dịch thu được? Kết quả làm tròn đến hai chữ số sau dấu phẩy.",
       "options": [
-        "A. 100,21 oC.",
-        "B. 105,21 oC.",
-        "C. 107,21 oC.",
-        "D. 109,21 oC."
+        "$100{,}21^\\circ\\text{C}$",
+        "$105{,}21^\\circ\\text{C}$",
+        "$107{,}21^\\circ\\text{C}$",
+        "$109{,}21^\\circ\\text{C}$"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Khối lượng mol glucose = 180,0 g/mol. → Số mol = 15,0: 180,0 = 0,0833 mol → m = 0,0833: 0,200 = 0,4165 mol/kg → ΔTb = 0,512 × 0,4165 = 0,213 °C → Nhiệt độ sôi dung dịch 100, 00 0, 2133 100, 2133... = + =",
@@ -80271,13 +80271,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 117:\nThống kê về số lượng nhà máy trong một số trung tâm công nghiệp lớn của thế giới trong năm 2025 và sự thay đổi của nó so với năm 2020. Kết quả thể hiện như hình dưới",
-      "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết. (2) Dung dịch chứa 1 mol Glucose ( 6 12 6 C H O ) trong 1 kg nước. (3) Dung dịch chứa 0,5 mol 2 MgCl trong 1 kg nước (giả sử điện ly hoàn toàn). (4) Dung dịch chứa 1 mol NaCl trong 1 kg nước (giả sử điện ly hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết; (2) Dung dịch chứa 1 mol Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) trong 1 kg nước; (3) Dung dịch chứa 0,5 mol $\\text{MgCl}_2$ trong 1 kg nước (giả sử điện li hoàn toàn); (4) Dung dịch chứa 1 mol $\\text{NaCl}$ trong 1 kg nước (giả sử điện li hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao):",
       "options": [
-        "A. (1) < (2) < (3) < (4).",
-        "B. (1) < (3) < (2) < (4).",
-        "C. (1) < (2) < (4) < (3).",
-        "D. (4) < (3) < (2) < (1)."
+        "A. (1) < (2) < (3) < (4)",
+        "B. (1) < (3) < (2) < (4)",
+        "C. (1) < (2) = (3) < (4)",
+        "D. (4) < (3) < (2) < (1)"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^\\circ C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
@@ -81747,13 +81747,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho phương trình tham số m ( ) ( )2 2 2 2 log log 3 0 x x m - + - = có nghiệm [ ] 1;8 x \\in .",
-      "question": "Tại 3 m = , tổng hai nghiệm của phương trình là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nCho phương trình tham số $m$: $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$.",
+      "question": "Tại $m = 3$, tổng các nghiệm của phương trình là:",
       "options": [
-        "A. 5 .",
+        "A. 5",
         "B. $\\frac{5}{2}$",
         "C. $\\frac{7}{2}$",
-        "D. 7 ."
+        "D. 7"
       ],
       "correctAnswer": 0,
       "explanation": "Đặt 2 t log x = . ( ) ( )2 2 2 2 log log 0 x x - = trở thành 2 2 0 0 2 t t t hayt - = \\Leftrightarrow = = suy ra 1 4 x hayx = =",
@@ -81769,15 +81769,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho phương trình tham số m ( ) ( )2 2 2 2 log log 3 0 x x m - + - = có nghiệm [ ] 1;8 x \\in .",
-      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$ có hai nghiệm phân biệt $x_1, x_2 \\in [1; 4]$:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 87 và 88:\nCho phương trình tham số $m$: $\\log_2^2 x - (m + 2)\\log_2 x + 3m - 2 = 0$.",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình có hai nghiệm phân biệt $x_1, x_2 \\in [1; 8]$:",
       "options": [
         "A. $6 \\le m \\le 9$",
         "B. $3 \\le m \\le 6$",
         "C. $2 \\le m \\le 3$",
         "D. $2 \\le m \\le 6$"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "Chọn D Đặt 2 t log x = . Vì [ ] 1;8 x \\in nên [ ] 0;3 t \\in . Phương trình ( ) ( )2 2 2 2 log log 3 0 x x m - + - = trở thành 2 2 2 3 0 2 3 t t m m t t - + - = \\Leftrightarrow = - + , [ ] 0;3 t \\in . Ta có bảng biến thiên của hàm số 2 2 3 m t t = - + : t m' m 0 3 1 0 - + 3 6 2 nên [ ] 2; 6 m \\in .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -81817,7 +81817,7 @@ export const QUESTIONS_DATA = {
       "question": "Chi phí thấp nhất để trộn hai loại thức ăn trên đồng thời đảm bảo đủ dinh dưỡng bằng bao nhiêu?",
       "options": [
         "A. $\\frac{4640}{11}$",
-        "B. 480.",
+        "B. 480",
         "C. $\\frac{1750}{3}$",
         "D. $\\frac{5440}{11}$"
       ],
@@ -81836,12 +81836,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số nghiệm của phương trình 2 2 3 86 19 3 16 0 x x x x - + - - + = là.",
+      "question": "Số nghiệm của phương trình $x^2 - 3x + 86 - 19\\sqrt{x^2 - 3x + 16} = 0$ là:",
       "options": [
-        "A. 4.",
-        "B. 1.",
-        "C. 3.",
-        "D. 2."
+        "A. 4",
+        "B. 1",
+        "C. 3",
+        "D. 2"
       ],
       "correctAnswer": 0,
       "explanation": "2 2 2 2 3 86 19 3 16 0 3 16 19 3 16 70 0* x x x x x x x x - + - - + = \\Leftrightarrow - + - - + + = Đặt 2 3 16, 0 t x x t = - + \\ge . Khi đó 2 14 * 19 70 0 5 t n t t t n = [ \\Rightarrow - + = \\Leftrightarrow = ] Với 2 2 15 14 3 16 14 3 180 0 12 x t x x x x x = [ = \\Rightarrow - + = \\Leftrightarrow - - = \\Leftrightarrow = - ] . Với 2 2 3 3 5 25 3 16 5 3 9 0 3 3 5 2 x t x x x x x [ + = = \\Rightarrow - + = \\Leftrightarrow - - = \\Leftrightarrow - = ] . Vậy phương trình đã cho có 4 nghiệm.",
@@ -81880,14 +81880,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số giá trị nguyên của m để phương trình 2 4 1 x m - = + có bốn nghiệm phân biệt là:",
+      "question": "Số giá trị nguyên của tham số $m$ để phương trình $|x^2 - 4| = m + 1$ có bốn nghiệm phân biệt là:",
       "options": [
-        "A. 4.",
-        "B. 2.",
-        "C. 3.",
-        "D. 5."
+        "A. 4",
+        "B. 2",
+        "C. 3",
+        "D. 5"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "(Chú ý: Phương trình 0 B A B A B A B \\ge = \\Leftrightarrow = [ ] ] = - ] ] Ta có: ( ) ( ) ( ) 2 2 2 2 2 1 1 4 1 * 5 0 1 4 1 3 0 2 4 1 m m x m x m x m x m x m \\ge - \\ge - [ - = + \\Leftrightarrow \\Leftrightarrow - - = [ - = + + - = - = - - ] ] Để phương trình (*) có bốn nghiệm phân biệt thì các phương trình (1);(2) đều có hai nghiệm phân biệt và các nghiệm của phương trình (1) đều không là nghiệm của phương trình (2) và ngược lại. Khi đó m phải thỏa mãn các điều kiện sau: 2 2 1 1 5 0 5 1 3 3 0 3 5 3 1 m m m m m m m x m x m m \\ge - \\ge - + > > - \\Leftrightarrow \\Leftrightarrow - < < - + > < - - \\ne + - \\ne - . Do m \\in nên \\{ \\} 0;1; 2 m \\in . Vậy có 3 giá trị nguyên của m thoả mãn yêu cầu bài toán.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -82014,12 +82014,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có $BC = 5$, $\\sin(A + B) = \\frac{1}{2}$, $\\cos(A - B) = \\frac{\\sqrt{3}}{2}$. Tính $AC$:",
       "options": [
-        "A. 5 3 3",
+        "A. $\\frac{5\\sqrt{3}}{3}$",
         "B. $\\frac{5}{2}$",
         "C. $\\frac{5}{3}$",
-        "D. 5 3 2 ."
+        "D. $\\frac{5\\sqrt{3}}{2}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^\\circ . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^\\circ .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -82058,10 +82058,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
-        "A. 1 2 1 x y x - = + .",
-        "B. 2 1 4 y x = - .",
-        "C. 3 5 1 x y x + = - .",
-        "D. 2 9 x y x x = - + ."
+        "A. 1 2 1 x y x - = +",
+        "B. 2 1 4 y x = -",
+        "C. 3 5 1 x y x + = -",
+        "D. 2 9 x y x x = - +"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 2 2 2 2 1 1 lim , lim 4 4 x x x x \\infty \\infty + - \\to \\to - = - = - - - suy ra đồ thị hàm số có hai đường tiệm cận đứng 2 x = \\pm . và 2 1 lim 0 4 x x \\infty \\to = - suy ra đồ thị hàm số có đường tiệm cận ngang 0 y = . Vậy đồ thị hàm số 2 1 4 y x = - có ba đường tiệm cận.",
@@ -82078,14 +82078,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tìm tất cả các giá trị thực của tham số m sao cho đồ thị hàm số 2 2 1 1 x y m x m + = + - có bốn đường tiệm cận.",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ sao cho đồ thị hàm số $y = \\frac{x + 1}{mx^2 - 2x + 1}$ có đúng bốn đường tiệm cận:",
       "options": [
-        "A. 0 m > .",
-        "B. Với mọi giá trị của m .",
-        "C. $1, 0 m m < \\ne và 1 5 2 m - \\pm \\ne .$",
-        "D. 1 m < hoặc 1 m > ."
+        "A. $m > 0$",
+        "B. Với mọi giá trị của $m$",
+        "C. $m < 1, m \\ne 0$ và $m \\ne \\frac{-1 \\pm \\sqrt{5}}{2}$",
+        "D. $m < 1$ hoặc $m > 1$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Với 0 m = thì hàm số không xác định. Do đó 0 m \\ne (1). Ta có 2 2 1 1 lim lim 1 x x x y m m x m \\infty \\infty \\to + \\to + + = = + - và 2 2 1 1 lim lim 1 x x x y m m x m \\infty \\infty \\to - \\to - + - = = + - . \\Rightarrow Đồ thị hàm số có 2 đường tiệm cận ngang. Để đồ thị hàm số có bốn đường tiệm cận thì cần tìm m để đồ thị hàm số có 2 đường tiệm cận đứng, nghĩa là cần tìm m để phương trình ( ) 2 2 1 0 g x m x m = + - = có hai nghiệm phân biệt khác -1 ĐK: ( ) ( ) 2 2 1 1 Δ 4 1 0 0 0 1 1 0 1 5 1 5 2 2 m m m m m m g m m m m < < = - - > \\Leftrightarrow \\ne \\Leftrightarrow \\ne - = + - \\ne - \\pm - \\pm \\ne \\ne Kết hợp (1) (2) có 1 0 1 5 2 m m m < \\ne - \\pm \\ne",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
@@ -82121,7 +82121,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\n2 2 0 P x y z m - - + = và điểm ( ) 3;0; 1 A - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 74 và 75:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y - 2z + m = 0$ và điểm $A(3; 0; -1)$.",
       "question": "Nếu khoảng cách từ điểm $A$ đến mặt phẳng $(P)$ bằng 1 thì tích các giá trị của $m$ là:",
       "options": [
         "A. 25",
@@ -82143,15 +82143,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 81 và 82:\n2 2 0 P x y z m - - + = và điểm ( ) 3;0; 1 A - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 74 và 75:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y - 2z + m = 0$ và điểm $A(3; 0; -1)$.",
       "question": "Khi $m = 1$, gọi $H(a; b; c)$ là hình chiếu của $A$ trên mặt phẳng $(P)$. Tính $T = a + b + c$:",
       "options": [
-        "A. T = -3",
-        "B. T = 1",
-        "C. T = -1",
-        "D. T = 3"
+        "A. $T = -3$",
+        "B. $T = 1$",
+        "C. $T = -1$",
+        "D. $T = 3$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "explanation": "Đường thẳng d qua A và vuông góc với mặt phẳng ( ) P nên nhận vecto pháp tuyến ( ) 2; 1; 2 n = - - của ( ) P làm vec tơ chỉ phương, có phương trình là: 3 2 1 2 x t y t z t = + = - = - - . Do H d \\in nên ( ) 3 2 ; ; 1 2 H t t t + - - - . Ta lại có ( ) ( ) ( ) ( ) 2 3 2 2 1 2 1 0 9 9 0 1 H P t t t t t \\in \\Rightarrow + - - - - - + = \\Leftrightarrow + = \\Leftrightarrow = - Suy ra ( ) 1;1;1 H . Như vậy 1 1 1 3 T = + + = .",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
@@ -82165,13 +82165,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 83 và 84:\n3 2 1 2 1 2 7 2 5 u u u u u - + = + và 4 8 u =",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nCho cấp số nhân $(u_n)$ có công bội $q > 0$ thỏa mãn $\\frac{u_3 - 2u_2 + u_1}{u_2 - u_1} = \\frac{7}{2}$ và $u_4 = 8$.",
       "question": "Công bội của cấp số nhân là",
       "options": [
-        "A. 2.",
-        "B. 1.",
-        "C. 3.",
-        "D. 5."
+        "A. 2",
+        "B. 1",
+        "C. 3",
+        "D. 5"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 1 0 u \\ne vì nếu 1 0 u = thì * 0, n u n N = \\in nên 4 8 u = sẽ vô lý 2 3 2 1 1 1 1 2 1 1 1 2 7 2. 7 2 5 2 5 u u u u q u q u u u u q u - + - + = \\Leftrightarrow = + + Suy ra 2 2 2 2 2 1 7 10 5 5 14 7 10 19 2 0 1 2 1 5 10 q q q q q q q q q q = [ - + = \\Leftrightarrow - + = + \\Leftrightarrow - - = \\Leftrightarrow + = - ] Mà 0 q > nên 2 q =",
@@ -82187,7 +82187,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 83 và 84:\n3 2 1 2 1 2 7 2 5 u u u u u - + = + và 4 8 u =",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nCho cấp số nhân $(u_n)$ có công bội $q > 0$ thỏa mãn $\\frac{u_3 - 2u_2 + u_1}{u_2 - u_1} = \\frac{7}{2}$ và $u_4 = 8$.",
       "question": "Với dãy số $(v_n)$ thỏa mãn $v_n = u_n^3$. Tính $v_3$:",
       "options": [
         "A. 64",
@@ -82234,9 +82234,9 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Bạn Nam cần ít nhất 900 đơn vị protein và 400 đơn vị lipit trong thức ăn mỗi ngày. Mỗi kiogam thịt bò chứa 800 đơn vị protein và 200 đơn vị lipit. Mỗi kilogam thịt lợn chứa 600 đơn vị protein và 400 đơn vị lipit. Biết rằng Nam chỉ mua nhiều nhất 1,6 kg thịt bò và 1,1 kg thịt lợn. Giá tiền một kg thịt bò là 160 nghìn đồng, một kg thịt lợn là 110 nghìn đồng. Gọi , x y lần lượt là số kg thịt bò và thịt lợn mà Nam cần mua.",
       "question": "Giá trị , x y để tổng số tiền Nam phải trả là ít nhất nhưng vẫn đảm bảo lượng protein và lipit trong thức ăn?",
       "options": [
-        "A. 0,3 x = và 1,1 y = .",
-        "B. 0,3 x = và 0, 7 y = .",
-        "C. 0, 6 x = và 0, 7 y = .",
+        "A. 0,3 x = và 1,1 y =",
+        "B. 0,3 x = và 0, 7 y =",
+        "C. 0, 6 x = và 0, 7 y =",
         "D. 1, 6 x = và 0, 2 y ="
       ],
       "correctAnswer": 0,
@@ -82253,7 +82253,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 87 đến 89:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
       "question": "Tọa độ điểm $A$ là:",
       "options": [
         "A. (3; 1)",
@@ -82261,7 +82261,7 @@ export const QUESTIONS_DATA = {
         "C. (3; -1)",
         "D. (-3; 1)"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Tọa độ điểm A là nghiệm của hệ phương trình: 2 7 0 3 4 1 0 1 x y x x y y + + = = - \\Leftrightarrow - - = = - . Vậy ( ) 3; 1 A - - .",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -82275,7 +82275,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 87 đến 89:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
       "question": "Tọa độ điểm $C$ là:",
       "options": [
         "A. (5; 5)",
@@ -82297,15 +82297,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 87 đến 89:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
-      "question": "Phương trình của đường thẳng BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
+      "question": "Phương trình của đường thẳng $BC$ là:",
       "options": [
-        "A. 4 3 0 x y - + = .",
-        "B. 4 15 0 x y - + = .",
-        "C. 2 15 0 x y + - = .",
-        "D. 3 2 0 2 x y + + = ."
+        "A. $4x - y + 3 = 0$",
+        "B. $4x - y - 15 = 0$",
+        "C. $2x + y - 15 = 0$",
+        "D. $3x + 2y - 12 = 0$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Đường thẳng BC song song với đường thẳng AD nên phương trình đường thẳng BC có dạng: 4 0 x y c - + = với 1 c \\ne - . ( ) 5;5 C thuộc đường thẳng BC nên: 5 4.5 0 15 c c - + = \\Leftrightarrow = . Vậy phương trình đường thẳng BC là: 4 15 0 x y - + =",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
@@ -82473,13 +82473,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 98:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Có 50 thẻ giống hệt nhau về hình dạng, kích thước và màu sắc được đánh số từ 1 đến 50. Chọn ngẫu nhiên 3 thẻ từ 50 thẻ.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Sử dụng dữ liệu của thí nghiệm ban đầu (15,0g Glucose trong 200g nước). Tính nhiệt độ sôi của dung dịch thu được? Kết quả làm tròn đến hai chữ số sau dấu phẩy.",
       "options": [
-        "A. 100,21 oC.",
-        "B. 105,21 oC.",
-        "C. 107,21 oC.",
-        "D. 109,21 oC."
+        "$100{,}21^\\circ\\text{C}$",
+        "$105{,}21^\\circ\\text{C}$",
+        "$107{,}21^\\circ\\text{C}$",
+        "$109{,}21^\\circ\\text{C}$"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Khối lượng mol glucose = 180,0 g/mol. → Số mol = 15,0: 180,0 = 0,0833 mol → m = 0,0833: 0,200 = 0,4165 mol/kg → ΔTb = 0,512 × 0,4165 = 0,213 °C → Nhiệt độ sôi dung dịch 100, 00 0, 2133 100, 2133... = + =",
@@ -82495,13 +82495,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 98:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Có 50 thẻ giống hệt nhau về hình dạng, kích thước và màu sắc được đánh số từ 1 đến 50. Chọn ngẫu nhiên 3 thẻ từ 50 thẻ.",
-      "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết. (2) Dung dịch chứa 1 mol Glucose ( 6 12 6 C H O ) trong 1 kg nước. (3) Dung dịch chứa 0,5 mol 2 MgCl trong 1 kg nước (giả sử điện ly hoàn toàn). (4) Dung dịch chứa 1 mol NaCl trong 1 kg nước (giả sử điện ly hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết; (2) Dung dịch chứa 1 mol Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) trong 1 kg nước; (3) Dung dịch chứa 0,5 mol $\\text{MgCl}_2$ trong 1 kg nước (giả sử điện li hoàn toàn); (4) Dung dịch chứa 1 mol $\\text{NaCl}$ trong 1 kg nước (giả sử điện li hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao):",
       "options": [
-        "A. (1) < (2) < (3) < (4).",
-        "B. (1) < (3) < (2) < (4).",
-        "C. (1) < (2) < (4) < (3).",
-        "D. (4) < (3) < (2) < (1)."
+        "A. (1) < (2) < (3) < (4)",
+        "B. (1) < (3) < (2) < (4)",
+        "C. (1) < (2) = (3) < (4)",
+        "D. (4) < (3) < (2) < (1)"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^\\circ C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
@@ -84326,10 +84326,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
-        "A. 1 2 1 x y x - = + .",
-        "B. 2 1 4 y x = - .",
-        "C. 3 5 1 x y x + = - .",
-        "D. 2 9 x y x x = - + ."
+        "A. 1 2 1 x y x - = +",
+        "B. 2 1 4 y x = -",
+        "C. 3 5 1 x y x + = -",
+        "D. 2 9 x y x x = - +"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có: 2 2 2 2 1 1 lim , lim 4 4 x x x x \\infty \\infty + - \\to \\to - = - = - - - suy ra đồ thị hàm số có hai đường tiệm cận đứng 2 x = \\pm . và 2 1 lim 0 4 x x \\infty \\to = - suy ra đồ thị hàm số có đường tiệm cận ngang 0 y = . Vậy đồ thị hàm số 2 1 4 y x = - có ba đường tiệm cận.",
@@ -84346,14 +84346,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tìm tất cả các giá trị thực của tham số m sao cho đồ thị hàm số 2 2 1 1 x y m x m + = + - có bốn đường tiệm cận.",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ sao cho đồ thị hàm số $y = \\frac{x + 1}{mx^2 - 2x + 1}$ có đúng bốn đường tiệm cận:",
       "options": [
-        "A. 0 m > .",
-        "B. Với mọi giá trị của m .",
-        "C. $1, 0 m m < \\ne và 1 5 2 m - \\pm \\ne .$",
-        "D. 1 m < hoặc 1 m > ."
+        "A. $m > 0$",
+        "B. Với mọi giá trị của $m$",
+        "C. $m < 1, m \\ne 0$ và $m \\ne \\frac{-1 \\pm \\sqrt{5}}{2}$",
+        "D. $m < 1$ hoặc $m > 1$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Với 0 m = thì hàm số không xác định. Do đó 0 m \\ne (1). Ta có 2 2 1 1 lim lim 1 x x x y m m x m \\infty \\infty \\to + \\to + + = = + - và 2 2 1 1 lim lim 1 x x x y m m x m \\infty \\infty \\to - \\to - + - = = + - . \\Rightarrow Đồ thị hàm số có 2 đường tiệm cận ngang. Để đồ thị hàm số có bốn đường tiệm cận thì cần tìm m để đồ thị hàm số có 2 đường tiệm cận đứng, nghĩa là cần tìm m để phương trình ( ) 2 2 1 0 g x m x m = + - = có hai nghiệm phân biệt khác -1 ĐK: ( ) ( ) 2 2 1 1 Δ 4 1 0 0 0 1 1 0 1 5 1 5 2 2 m m m m m m g m m m m < < = - - > \\Leftrightarrow \\ne \\Leftrightarrow \\ne - = + - \\ne - \\pm - \\pm \\ne \\ne Kết hợp (1) (2) có 1 0 1 5 2 m m m < \\ne - \\pm \\ne",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
@@ -84389,7 +84389,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\n2 2 0 P x y z m - - + = và điểm ( ) 3;0; 1 A - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 74 và 75:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y - 2z + m = 0$ và điểm $A(3; 0; -1)$.",
       "question": "Nếu khoảng cách từ điểm $A$ đến mặt phẳng $(P)$ bằng 1 thì tích các giá trị của $m$ là:",
       "options": [
         "A. 25",
@@ -84411,15 +84411,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\n2 2 0 P x y z m - - + = và điểm ( ) 3;0; 1 A - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 74 và 75:\nTrong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y - 2z + m = 0$ và điểm $A(3; 0; -1)$.",
       "question": "Khi $m = 1$, gọi $H(a; b; c)$ là hình chiếu của $A$ trên mặt phẳng $(P)$. Tính $T = a + b + c$:",
       "options": [
-        "A. T = -3",
-        "B. T = 1",
-        "C. T = -1",
-        "D. T = 3"
+        "A. $T = -3$",
+        "B. $T = 1$",
+        "C. $T = -1$",
+        "D. $T = 3$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "explanation": "Đường thẳng d qua A và vuông góc với mặt phẳng ( ) P nên nhận vecto pháp tuyến ( ) 2; 1; 2 n = - - của ( ) P làm vec tơ chỉ phương, có phương trình là: 3 2 1 2 x t y t z t = + = - = - - . Do H d \\in nên ( ) 3 2 ; ; 1 2 H t t t + - - - . Ta lại có ( ) ( ) ( ) ( ) 2 3 2 2 1 2 1 0 9 9 0 1 H P t t t t t \\in \\Rightarrow + - - - - - + = \\Leftrightarrow + = \\Leftrightarrow = - Suy ra ( ) 1;1;1 H . Như vậy 1 1 1 3 T = + + = .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -84433,13 +84433,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\n3 2 1 2 1 2 7 2 5 u u u u u - + = + và 4 8 u =",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nCho cấp số nhân $(u_n)$ có công bội $q > 0$ thỏa mãn $\\frac{u_3 - 2u_2 + u_1}{u_2 - u_1} = \\frac{7}{2}$ và $u_4 = 8$.",
       "question": "Công bội của cấp số nhân là",
       "options": [
-        "A. 2.",
-        "B. 1.",
-        "C. 3.",
-        "D. 5."
+        "A. 2",
+        "B. 1",
+        "C. 3",
+        "D. 5"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 1 0 u \\ne vì nếu 1 0 u = thì * 0, n u n N = \\in nên 4 8 u = sẽ vô lý 2 3 2 1 1 1 1 2 1 1 1 2 7 2. 7 2 5 2 5 u u u u q u q u u u u q u - + - + = \\Leftrightarrow = + + Suy ra 2 2 2 2 2 1 7 10 5 5 14 7 10 19 2 0 1 2 1 5 10 q q q q q q q q q q = [ - + = \\Leftrightarrow - + = + \\Leftrightarrow - - = \\Leftrightarrow + = - ] Mà 0 q > nên 2 q =",
@@ -84455,7 +84455,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\n3 2 1 2 1 2 7 2 5 u u u u u - + = + và 4 8 u =",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 76 và 77:\nCho cấp số nhân $(u_n)$ có công bội $q > 0$ thỏa mãn $\\frac{u_3 - 2u_2 + u_1}{u_2 - u_1} = \\frac{7}{2}$ và $u_4 = 8$.",
       "question": "Với dãy số $(v_n)$ thỏa mãn $v_n = u_n^3$. Tính $v_3$:",
       "options": [
         "A. 64",
@@ -84502,9 +84502,9 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 68 và 69:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Bạn Nam cần ít nhất 900 đơn vị protein và 400 đơn vị lipit trong thức ăn mỗi ngày. Mỗi kiogam thịt bò chứa 800 đơn vị protein và 200 đơn vị lipit. Mỗi kilogam thịt lợn chứa 600 đơn vị protein và 400 đơn vị lipit. Biết rằng Nam chỉ mua nhiều nhất 1,6 kg thịt bò và 1,1 kg thịt lợn. Giá tiền một kg thịt bò là 160 nghìn đồng, một kg thịt lợn là 110 nghìn đồng. Gọi , x y lần lượt là số kg thịt bò và thịt lợn mà Nam cần mua.",
       "question": "Giá trị , x y để tổng số tiền Nam phải trả là ít nhất nhưng vẫn đảm bảo lượng protein và lipit trong thức ăn?",
       "options": [
-        "A. 0,3 x = và 1,1 y = .",
-        "B. 0,3 x = và 0, 7 y = .",
-        "C. 0, 6 x = và 0, 7 y = .",
+        "A. 0,3 x = và 1,1 y =",
+        "B. 0,3 x = và 0, 7 y =",
+        "C. 0, 6 x = và 0, 7 y =",
         "D. 1, 6 x = và 0, 2 y ="
       ],
       "correctAnswer": 0,
@@ -84521,7 +84521,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
       "question": "Tọa độ điểm $A$ là:",
       "options": [
         "A. (3; 1)",
@@ -84529,7 +84529,7 @@ export const QUESTIONS_DATA = {
         "C. (3; -1)",
         "D. (-3; 1)"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Tọa độ điểm A là nghiệm của hệ phương trình: 2 7 0 3 4 1 0 1 x y x x y y + + = = - \\Leftrightarrow - - = = - . Vậy ( ) 3; 1 A - - .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -84543,7 +84543,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
       "question": "Tọa độ điểm $C$ là:",
       "options": [
         "A. (5; 5)",
@@ -84565,15 +84565,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Trong mặt phẳng tọa độ Oxy , cho hình bình hành ABCD có phương trình đường thẳng AB là 2 7 0 x y + + = , phương trình đường thẳng AD là 4 1 0 x y - - = và giao điểm của hai đường chéo , AC BD là ( ) 1; 2 I .",
-      "question": "Phương trình của đường thẳng BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 80 đến 82:\nTrong mặt phẳng tọa độ $Oxy$, cho hình bình hành $ABCD$ có phương trình cạnh $AB$ là $2x + y + 7 = 0$, phương trình cạnh $AD$ là $4x - y - 1 = 0$ và giao điểm của hai đường chéo $AC, BD$ là $I(1; 2)$.",
+      "question": "Phương trình của đường thẳng $BC$ là:",
       "options": [
-        "A. 4 3 0 x y - + = .",
-        "B. 4 15 0 x y - + = .",
-        "C. 2 15 0 x y + - = .",
-        "D. 3 2 0 2 x y + + = ."
+        "A. $4x - y + 3 = 0$",
+        "B. $4x - y - 15 = 0$",
+        "C. $2x + y - 15 = 0$",
+        "D. $3x + 2y - 12 = 0$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Đường thẳng BC song song với đường thẳng AD nên phương trình đường thẳng BC có dạng: 4 0 x y c - + = với 1 c \\ne - . ( ) 5;5 C thuộc đường thẳng BC nên: 5 4.5 0 15 c c - + = \\Leftrightarrow = . Vậy phương trình đường thẳng BC là: 4 15 0 x y - + =",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
@@ -84653,7 +84653,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 78:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
       "question": "Tính góc giữa $SD$ và mặt phẳng $(ABCD)$ (làm tròn đến độ):",
       "options": [
         "A. $30^\\circ$",
@@ -84661,7 +84661,7 @@ export const QUESTIONS_DATA = {
         "C. $60^\\circ$",
         "D. $50^\\circ$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -84675,13 +84675,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 78:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
-      "question": "Tính tan của góc giữa hai mặt phẳng ( SCD ) và ( ABCD ).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
+      "question": "Tính tan của góc giữa hai mặt phẳng $(SCD)$ và $(ABCD)$:",
       "options": [
-        "A. $\\frac{15}{2}$",
-        "B. $\\frac{15}{3}$",
+        "A. $\\frac{\\sqrt{15}}{2}$",
+        "B. $\\frac{\\sqrt{15}}{3}$",
         "C. $\\frac{\\sqrt{15}}{4}$",
-        "D. $\\frac{15}{5}$"
+        "D. $\\frac{\\sqrt{15}}{5}$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -84697,15 +84697,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 78:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABCD có đáy ABCD là hình vuông cạnh a , tâm . O I là trung điểm của ( ) , AB SI ABCD và 2 SB a = .",
-      "question": "Gọi G là trọng tâm tam giác ABD , tính khoảng cách từ G đến mặt phẳng ( SCD ).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
+      "question": "Gọi $G$ là trọng tâm tam giác $ABD$, tính khoảng cách từ $G$ đến mặt phẳng $(SCD)$:",
       "options": [
         "A. $\\frac{3a\\sqrt{285}}{57}$",
         "B. $\\frac{a\\sqrt{285}}{114}$",
         "C. $\\frac{a\\sqrt{285}}{57}$",
         "D. $\\frac{2a\\sqrt{285}}{57}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^\\circ 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
@@ -84719,15 +84719,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 83:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Mệnh đề nào sau đây đúng?",
       "options": [
-        "A. Hàm số đồng biến trên ( ) ; 1 \\infty - - và ( ) 1; \\infty - + .Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "B. Hàm số nghịch biến trên ( ) ; 1 \\infty - - và ( ) 1; \\infty - + .Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "C. Hàm số nghịch biến trên ( ) ( ) ; 1 1; \\infty \\infty - - \\cup - +Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
-        "D. $Hàm số đồng biến trên \\{ \\} 1 R - \\setminus .$"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "2 3 0 ( 1) y x - = < + ' Hàm số đã cho luôn nghịch biến trên từng khoảng xác định.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
@@ -84741,15 +84741,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 83:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Tâm đối xứng của đồ thị hàm số là $I(a; b)$. Tính $a + b$:",
       "options": [
-        "A. -1",
-        "B. 3",
-        "C. -3",
-        "D. -2"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Tiệm cận đứng của đồ thị hàm số là 1 x = - . Tiệm cận ngang của đồ thị hàm số là 2 y = - . Tâm đối xứng là ( ) 1; 2 I - - .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -84763,15 +84763,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 83:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Có bao nhiêu điểm $M \\in (C)$ thỏa mãn tổng khoảng cách từ điểm $M$ đến các đường tiệm cận của đồ thị đạt giá trị nhỏ nhất?",
       "options": [
-        "A. 1",
-        "B. 0",
-        "C. 2",
-        "D. 3"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Gọi điểm ( ) 1 2 , 1 a M a C a - \\left( \\right) \\in \\left( \\right) + \\left( \\right) . Tổng khoảng cách từ mỗi điểm M đến các đường tiệm cận của đồ thị hàm số bằng 2: 1 2 3 1 2 2 1 2 1 1 a a a a a - + + + = \\Leftrightarrow + + = + + . Đặt 1 ( 0) t a t = + > ta có: 2 3 2 2 3 0 t t t t + = \\Leftrightarrow - + = . Phương trình vô nghiệm. Trên đồ thị ( ) C , không có điểm ( ) M C \\in thỏa mãn tổng khoảng cách từ điểm M đến các đường tiệm cận của đồ thị hàm số bằng 2.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
@@ -84785,15 +84785,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 83:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
-      "question": "Phương trình 10 1 3 5 9 4 2 2 x x x x + + - = + + - có tổng các nghiệm là",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
+      "question": "Phương trình $\\sqrt{10x + 1} - \\sqrt{2x - 2} = \\sqrt{9x + 4} - \\sqrt{3x - 5}$ có tổng các nghiệm là:",
       "options": [
-        "A. 0 .",
-        "B. 3 .",
-        "C. 2 .",
-        "D. 1."
+        "A. 0",
+        "B. 3",
+        "C. 2",
+        "D. 1"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Phương trình có dạng: A B C D + = + với , A C B D + = + cụ thể: (10 1) (2 2) (9 4) (3 5) 12 1, x x x x x + + - = + + - = - nên ta sẽ chuyển vế đưa về dạng: A C D B - = - và bình phương hai vế. Nhưng do khi chuyển vế và bình phương là ta đã giải phương trình hệ quả, vì vậy khi giải xong ta cần thay thế nghiệm vào phương trình đầu đề bài nhằm nhận, loại nghiệm thích hợp. Ta có Lời giải: Điều kiện: 5 , 3 x \\ge khi đó: 10 1 3 5 9 4 2 2 10 1 2 2 9 4 3 5 x x x x x x x x + + - = + + - \\Leftrightarrow + - - = + - - 2 2 ( 10 1 2 2) ( 9 4 3 5) x x x x \\Rightarrow + - - = + - - 12 1 2 (10 1)(2 2) 12 1 2 (9 4)(3 5) x x x x x x \\Leftrightarrow - - + - = - - + - 2 6 (10 1)(2 2) (9 4)(3 5) 7 15 18 0 3, 7 x x x x x x x x \\Leftrightarrow + - = + - \\Leftrightarrow - - = \\Leftrightarrow = = - \\cdot So với điều kiện và thế vào phương trình ban đầu, phương trình có nghiệm 3. x =",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
@@ -84807,15 +84807,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 83:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Hệ phương trình $\\begin{cases} x^2 + 2y^2 = 6 \\\\ y^2 + 2x^2 = 20 \\end{cases}$ có bao nhiêu nghiệm thực?",
       "options": [
-        "A. 2",
-        "B. 1",
-        "C. 4",
-        "D. 0"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "2 2 6 20 x y y x x y y x + = + = (*) Điều kiện: , 0 x y \\ge . Đặt 0 0 u x v y = \\ge = \\ge . 2 2 2 2 2 2 2 2 4 2 2 4 ( ) 6 ( ) 6 6 ( ) ( ) ( ) 2 20 ( ) 20 0 20 uv u v uv u v u v uv uv u v uv u v u v u v u v + = + = + = \\Leftrightarrow \\Leftrightarrow \\Leftrightarrow [ ] + - = + - = + = ] ] 2 2 6 ( 2 ) 20 PS P S P = \\Leftrightarrow - = với 2 , ( 4 ). S u v S P P uv = + \\ge = 2 3 2 3 3 6 6 6 2 3 ( ) 2 20 6 2 20 8 PS PS PS P S PS P P P = = = = \\Leftrightarrow \\Leftrightarrow \\Leftrightarrow \\Leftrightarrow = - = - = = 2 1 3 2 uv u u v v = = \\Leftrightarrow \\Leftrightarrow + = = hoặc 2 1 u v = \\cdot = Suy ra: 1 2 x y = = hoặc 2 1 4 1 x x y y = = \\Leftrightarrow = = hoặc 4 1 x y = \\cdot = So với điều kiện, tập nghiệm của hệ là \\{ \\} ( ; ) (1;4),(4;1) S x y = = \\cdot",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
@@ -84829,7 +84829,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 84 và 85:\n3 0 Q x y z + + = , ( ) : 2 0 R x y z - + = và điểm ( ) 2;1; 3 B - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(Q): x + y + 3z = 0$, $(R): 2x - y + z = 0$ và điểm $B(2; 1; -3)$.",
       "question": "Tính cosin của góc giữa 2 mặt phẳng $(Q)$ và $(R)$:",
       "options": [
         "A. $-\\frac{2\\sqrt{66}}{33}$",
@@ -84851,13 +84851,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 84 và 85:\n3 0 Q x y z + + = , ( ) : 2 0 R x y z - + = và điểm ( ) 2;1; 3 B - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(Q): x + y + 3z = 0$, $(R): 2x - y + z = 0$ và điểm $B(2; 1; -3)$.",
       "question": "Phương trình của mặt phẳng $(P)$ đi qua điểm $B$, đồng thời vuông góc với hai mặt phẳng $(Q)$ và $(R)$ là:",
       "options": [
-        "A. 4x + 5y - 3z + 22 = 0",
-        "B. 4x - 5y - 3z - 12 = 0",
-        "C. 4x + 5y - 3z - 22 = 0",
-        "D. 2x + 3y - 14z = 0"
+        "A. $4x + 5y - 3z + 22 = 0$",
+        "B. $4x - 5y - 3z - 12 = 0$",
+        "C. $4x + 5y - 3z - 22 = 0$",
+        "D. $2x + 3y - 14z = 0$"
       ],
       "correctAnswer": 2,
       "explanation": "Mặt phẳng ( ) P vuông góc với hai mặt phẳng ( ) : 3 0 Q x y z + + = và ( ) : 2 0 R x y z - + = Suy ra, là một VTPT của mặt phẳng ( ) P Vậy phương trình mặt phẳng ( ) P là: ( ) ( ) ( ) 4 2 5 1 3 3 0 4 5 3 22 0 x y z x y z - + - - + = \\Leftrightarrow + - - = .",
@@ -84873,8 +84873,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\n1 1; u = * 1 2 3 , .n n n u u n + = + \\in \\infty",
-      "question": "Gọi $(v_n)$ là dãy số thỏa $v_n = u_n - 3n$. Tính $S = v_1 + v_2 + \\dots + v_{10}$:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nCho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 2u_n + 3n$ với mọi $n \\in \\mathbb{N}^*$.",
+      "question": "Gọi $(v_n)$ là dãy số thỏa mãn $v_n = u_n + 3n + 6$. Tính $S = v_1 + v_2 + \\dots + v_{10}$:",
       "options": [
         "A. -2046",
         "B. -4092",
@@ -84895,15 +84895,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\n1 1; u = * 1 2 3 , .n n n u u n + = + \\in \\infty",
-      "question": "20 u là một số có mấy chữ số?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nCho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 2u_n + 3n$ với mọi $n \\in \\mathbb{N}^*$.",
+      "question": "$u_{20}$ là một số có mấy chữ số?",
       "options": [
-        "A. 8 .",
-        "B. 7 .",
-        "C. 9 .",
-        "D. 10 ."
+        "A. 5",
+        "B. 6",
+        "C. 7",
+        "D. 8"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Ta có 1 1. 2 .n n n v v q - = = - . Vậy 20 20 20 3 3 2 3 2 3485735825n n n n n u v u = + = - \\Rightarrow = - = .",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -84961,13 +84961,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 97:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
-      "question": "Độ dài đường cao kẻ từ đỉnh A là (làm tròn đến hàng phần trăm)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
+      "question": "Độ dài đường cao kẻ từ đỉnh $A$ là (làm tròn đến hàng phần trăm):",
       "options": [
-        "A. 6,36 .",
-        "B. 6,63 .",
-        "C. 6,30 .",
-        "D. 6,40 ."
+        "A. 6,36",
+        "B. 5,66",
+        "C. 7,07",
+        "D. 4,24"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi H là hình chiếu vuông góc của A trên \\Delta , khi đó H là trung điểm của BC Ta có 2 2 1 4 4 9 ( , ) 6,36 2 1 1 AH d A - - - = \\Delta = = +",
@@ -84983,7 +84983,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 97:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": null,
       "question": "Giải pháp nào giúp khu vực dịch vụ thực sự trở thành “động lực kép” của tăng trưởng kinh tế Việt Nam?",
       "options": [
         "A. Thu hút đầu tư nước ngoài vào các ngành dịch vụ, song giảm hỗ trợ cho doanh nghiệp nhỏ và vừa trong nước.",
@@ -84991,7 +84991,7 @@ export const QUESTIONS_DATA = {
         "C. Phát triển hạ tầng số hiện đại, nâng cao kỹ năng lao động và đảm bảo an ninh dữ liệu trong thương mại điện tử.",
         "D. Tăng cường quản lý thị trường, mở rộng kiểm soát thuế và hạn chế thương mại điện tử xuyên biên giới."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
@@ -85005,7 +85005,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 97:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": null,
       "question": "Hành vi quảng cáo sai sự thật và bán hàng giả trên không gian mạng đã vi phạm quy luật kinh tế nào dưới đây?",
       "options": [
         "A. Quy luật Cung - Cầu.",
@@ -85013,7 +85013,7 @@ export const QUESTIONS_DATA = {
         "C. Quy luật Tiền tệ.",
         "D. Quy luật Lợi ích."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
@@ -85027,7 +85027,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 97:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": null,
       "question": "Hành vi bán hàng giả, kém chất lượng của gian hàng đã vi phạm trực tiếp quyền tự do cơ bản nào dưới đây của người tiêu dùng?",
       "options": [
         "A. Vi phạm quyền được lựa chọn.",
@@ -85035,7 +85035,7 @@ export const QUESTIONS_DATA = {
         "C. Vi phạm quyền được tham gia quản lý nhà nước và xã hội.",
         "D. Vi phạm quyền được cung cấp thông tin về hàng hóa, dịch vụ."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
@@ -85049,7 +85049,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 90 đến 97:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": null,
       "question": "Nền tảng thương mại điện tử có thể phải chịu trách nhiệm pháp lý nào dưới đây khi để gian hàng bán hàng giả gây hậu quả nghiêm trọng?",
       "options": [
         "A. Không phải chịu trách nhiệm.",
@@ -85057,7 +85057,7 @@ export const QUESTIONS_DATA = {
         "C. Chịu trách nhiệm hành chính.",
         "D. Chỉ chịu trách nhiệm kỷ luật."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
@@ -85357,7 +85357,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 112:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong tầng bình lưu, các hợp chất chlorofluorocarbon (CFC) bị phân rã bởi tia cực tím giải phóng các gốc chlorine tự do ($\\text{Cl}^\\bullet$). Mỗi gốc $\\text{Cl}^\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy phân tử ozone ($\\text{O}_3$): $\\text{Cl}^\\bullet + \\text{O}_3 \\rightarrow \\text{ClO}^\\bullet + \\text{O}_2$.",
       "question": "Giả thiết trung bình một gốc Cl• phá huỷ 1 000 phân tử ozone. Khối lượng ozone bị phá huỷ bởi lượng gốc Cl• trên là",
       "options": [
         "A. 144 kg.",
@@ -86987,15 +86987,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 62 đến 66:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Mệnh đề nào sau đây đúng?",
       "options": [
-        "A. Hàm số đồng biến trên ( ) ; 1 \\infty - - và ( ) 1; \\infty - + .Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "B. Hàm số nghịch biến trên ( ) ; 1 \\infty - - và ( ) 1; \\infty - + .Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "C. Hàm số nghịch biến trên ( ) ( ) ; 1 1; \\infty \\infty - - \\cup - +Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
-        "D. $Hàm số đồng biến trên \\{ \\} 1 R - \\setminus .$"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "2 3 0 ( 1) y x - = < + ' Hàm số đã cho luôn nghịch biến trên từng khoảng xác định.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
@@ -87009,15 +87009,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 62 đến 66:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Tâm đối xứng của đồ thị hàm số là $I(a; b)$. Tính $a + b$:",
       "options": [
-        "A. -1",
-        "B. 3",
-        "C. -3",
-        "D. -2"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Tiệm cận đứng của đồ thị hàm số là 1 x = - . Tiệm cận ngang của đồ thị hàm số là 2 y = - . Tâm đối xứng là ( ) 1; 2 I - - .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
@@ -87031,15 +87031,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 62 đến 66:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Có bao nhiêu điểm $M \\in (C)$ thỏa mãn tổng khoảng cách từ điểm $M$ đến các đường tiệm cận của đồ thị đạt giá trị nhỏ nhất?",
       "options": [
-        "A. 1",
-        "B. 0",
-        "C. 2",
-        "D. 3"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Gọi điểm ( ) 1 2 , 1 a M a C a - \\left( \\right) \\in \\left( \\right) + \\left( \\right) . Tổng khoảng cách từ mỗi điểm M đến các đường tiệm cận của đồ thị hàm số bằng 2: 1 2 3 1 2 2 1 2 1 1 a a a a a - + + + = \\Leftrightarrow + + = + + . Đặt 1 ( 0) t a t = + > ta có: 2 3 2 2 3 0 t t t t + = \\Leftrightarrow - + = . Phương trình vô nghiệm. Trên đồ thị ( ) C , không có điểm ( ) M C \\in thỏa mãn tổng khoảng cách từ điểm M đến các đường tiệm cận của đồ thị hàm số bằng 2.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
@@ -87053,15 +87053,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 62 đến 66:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
-      "question": "Phương trình 10 1 3 5 9 4 2 2 x x x x + + - = + + - có tổng các nghiệm là",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
+      "question": "Phương trình $\\sqrt{10x + 1} - \\sqrt{2x - 2} = \\sqrt{9x + 4} - \\sqrt{3x - 5}$ có tổng các nghiệm là:",
       "options": [
-        "A. 0 .",
-        "B. 3 .",
-        "C. 2 .",
-        "D. 1."
+        "A. 0",
+        "B. 3",
+        "C. 2",
+        "D. 1"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Phương trình có dạng: A B C D + = + với , A C B D + = + cụ thể: (10 1) (2 2) (9 4) (3 5) 12 1, x x x x x + + - = + + - = - nên ta sẽ chuyển vế đưa về dạng: A C D B - = - và bình phương hai vế. Nhưng do khi chuyển vế và bình phương là ta đã giải phương trình hệ quả, vì vậy khi giải xong ta cần thay thế nghiệm vào phương trình đầu đề bài nhằm nhận, loại nghiệm thích hợp. Ta có Lời giải: Điều kiện: 5 , 3 x \\ge khi đó: 10 1 3 5 9 4 2 2 10 1 2 2 9 4 3 5 x x x x x x x x + + - = + + - \\Leftrightarrow + - - = + - - 2 2 ( 10 1 2 2) ( 9 4 3 5) x x x x \\Rightarrow + - - = + - - 12 1 2 (10 1)(2 2) 12 1 2 (9 4)(3 5) x x x x x x \\Leftrightarrow - - + - = - - + - 2 6 (10 1)(2 2) (9 4)(3 5) 7 15 18 0 3, 7 x x x x x x x x \\Leftrightarrow + - = + - \\Leftrightarrow - - = \\Leftrightarrow = = - \\cdot So với điều kiện và thế vào phương trình ban đầu, phương trình có nghiệm 3. x =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -87075,15 +87075,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 62 đến 66:\nCho hàm số $y = dfrac{x - 1}{x + 2} + 1$ có đồ thị $(C)$",
+      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
       "question": "Hệ phương trình $\\begin{cases} x^2 + 2y^2 = 6 \\\\ y^2 + 2x^2 = 20 \\end{cases}$ có bao nhiêu nghiệm thực?",
       "options": [
-        "A. 2",
-        "B. 1",
-        "C. 4",
-        "D. 0"
+        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
+        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "2 2 6 20 x y y x x y y x + = + = (*) Điều kiện: , 0 x y \\ge . Đặt 0 0 u x v y = \\ge = \\ge . 2 2 2 2 2 2 2 2 4 2 2 4 ( ) 6 ( ) 6 6 ( ) ( ) ( ) 2 20 ( ) 20 0 20 uv u v uv u v u v uv uv u v uv u v u v u v u v + = + = + = \\Leftrightarrow \\Leftrightarrow \\Leftrightarrow [ ] + - = + - = + = ] ] 2 2 6 ( 2 ) 20 PS P S P = \\Leftrightarrow - = với 2 , ( 4 ). S u v S P P uv = + \\ge = 2 3 2 3 3 6 6 6 2 3 ( ) 2 20 6 2 20 8 PS PS PS P S PS P P P = = = = \\Leftrightarrow \\Leftrightarrow \\Leftrightarrow \\Leftrightarrow = - = - = = 2 1 3 2 uv u u v v = = \\Leftrightarrow \\Leftrightarrow + = = hoặc 2 1 u v = \\cdot = Suy ra: 1 2 x y = = hoặc 2 1 4 1 x x y y = = \\Leftrightarrow = = hoặc 4 1 x y = \\cdot = So với điều kiện, tập nghiệm của hệ là \\{ \\} ( ; ) (1;4),(4;1) S x y = = \\cdot",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
@@ -87097,7 +87097,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 67 và 68:\n3 0 Q x y z + + = , ( ) : 2 0 R x y z - + = và điểm ( ) 2;1; 3 B - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(Q): x + y + 3z = 0$, $(R): 2x - y + z = 0$ và điểm $B(2; 1; -3)$.",
       "question": "Tính cosin của góc giữa 2 mặt phẳng $(Q)$ và $(R)$:",
       "options": [
         "A. $-\\frac{2\\sqrt{66}}{33}$",
@@ -87119,13 +87119,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 67 và 68:\n3 0 Q x y z + + = , ( ) : 2 0 R x y z - + = và điểm ( ) 2;1; 3 B - .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 64 và 65:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(Q): x + y + 3z = 0$, $(R): 2x - y + z = 0$ và điểm $B(2; 1; -3)$.",
       "question": "Phương trình của mặt phẳng $(P)$ đi qua điểm $B$, đồng thời vuông góc với hai mặt phẳng $(Q)$ và $(R)$ là:",
       "options": [
-        "A. 4x + 5y - 3z + 22 = 0",
-        "B. 4x - 5y - 3z - 12 = 0",
-        "C. 4x + 5y - 3z - 22 = 0",
-        "D. 2x + 3y - 14z = 0"
+        "A. $4x + 5y - 3z + 22 = 0$",
+        "B. $4x - 5y - 3z - 12 = 0$",
+        "C. $4x + 5y - 3z - 22 = 0$",
+        "D. $2x + 3y - 14z = 0$"
       ],
       "correctAnswer": 2,
       "explanation": "Mặt phẳng ( ) P vuông góc với hai mặt phẳng ( ) : 3 0 Q x y z + + = và ( ) : 2 0 R x y z - + = Suy ra, là một VTPT của mặt phẳng ( ) P Vậy phương trình mặt phẳng ( ) P là: ( ) ( ) ( ) 4 2 5 1 3 3 0 4 5 3 22 0 x y z x y z - + - - + = \\Leftrightarrow + - - = .",
@@ -87141,8 +87141,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 69 và 70:\n1 1; u = * 1 2 3 , .n n n u u n + = + \\in \\infty",
-      "question": "Gọi $(v_n)$ là dãy số thỏa $v_n = u_n - 3n$. Tính $S = v_1 + v_2 + \\dots + v_{10}$:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nCho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 2u_n + 3n$ với mọi $n \\in \\mathbb{N}^*$.",
+      "question": "Gọi $(v_n)$ là dãy số thỏa mãn $v_n = u_n + 3n + 6$. Tính $S = v_1 + v_2 + \\dots + v_{10}$:",
       "options": [
         "A. -2046",
         "B. -4092",
@@ -87163,15 +87163,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 69 và 70:\n1 1; u = * 1 2 3 , .n n n u u n + = + \\in \\infty",
-      "question": "20 u là một số có mấy chữ số?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 66 và 67:\nCho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 2u_n + 3n$ với mọi $n \\in \\mathbb{N}^*$.",
+      "question": "$u_{20}$ là một số có mấy chữ số?",
       "options": [
-        "A. 8 .",
-        "B. 7 .",
-        "C. 9 .",
-        "D. 10 ."
+        "A. 5",
+        "B. 6",
+        "C. 7",
+        "D. 8"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Ta có 1 1. 2 .n n n v v q - = = - . Vậy 20 20 20 3 3 2 3 2 3485735825n n n n n u v u = + = - \\Rightarrow = - = .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -87229,13 +87229,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
-      "question": "Độ dài đường cao kẻ từ đỉnh A là (làm tròn đến hàng phần trăm)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
+      "question": "Độ dài đường cao kẻ từ đỉnh $A$ là (làm tròn đến hàng phần trăm):",
       "options": [
-        "A. 6,36 .",
-        "B. 6,63 .",
-        "C. 6,30 .",
-        "D. 6,40 ."
+        "A. 6,36",
+        "B. 5,66",
+        "C. 7,07",
+        "D. 4,24"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi H là hình chiếu vuông góc của A trên \\Delta , khi đó H là trung điểm của BC Ta có 2 2 1 4 4 9 ( , ) 6,36 2 1 1 AH d A - - - = \\Delta = = +",
@@ -87251,13 +87251,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
-      "question": "Độ dài cạnh AB là (làm tròn đến hàng phần trăm)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
+      "question": "Độ dài cạnh $AB$ là (làm tròn đến hàng phần trăm):",
       "options": [
-        "A. 7,00.",
-        "B. 6,96.",
-        "C. 6,90.",
-        "D. 48,50."
+        "A. 7,35",
+        "B. 6,85",
+        "C. 8,12",
+        "D. 6,36"
       ],
       "correctAnswer": 0,
       "explanation": "Ta có 2 2.18 4 2 2 2 9 2 ABC S BC BH CH AH = = = \\Rightarrow = = 2 2 81 97 8 6,96 2 2 AB AH BH \\Rightarrow = + = + =",
@@ -87273,15 +87273,15 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75:\n4 0 x y \\Delta - - = . Biết diện tích tam giác ABC bằng 18, điểm B có tung độ âm.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A(-1; 4)$ có cạnh đáy $BC$ nằm trên đường thẳng $\\Delta: x - y - 4 = 0$. Biết diện tích tam giác $ABC$ bằng 18 và điểm $B$ có tung độ âm.",
       "question": "Gọi tọa độ điểm $B$ là $B(a; b)$, tính $a + b$:",
       "options": [
-        "A. 1",
-        "B. -7",
-        "C. -1",
-        "D. 7"
+        "A. 2",
+        "B. -2",
+        "C. 0",
+        "D. 4"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "Vậy 97 2 AB AC = = , suy ra , B C thuộc đường tròn tâm ( 1; 4) A - và bán kính 97 2 R = có phương trình: 2 2 97 ( 1) ( 4) 2 x y + + - = Khi đó tọa độ , B C là nghiệm của hệ: 2 2 4 0 97 ( 1) ( 4) 2 x y x y - - = + + - = 2 3 4 2 5 4 28 33 0 2 xy x x x y = = - \\Leftrightarrow \\Leftrightarrow - + = = - hoặc 11 2 3 2 x y = = . Vậy 3 5 11 3 ; , ; 2 2 2 2 B C \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) hoặc 11 3 3 5 ; , ; 2 2 2 2 B C \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) . Mà điểm B có tung độ âm nên 3 5 ; 2 2 B\\left( \\right) - \\left( \\right) \\left( \\right) . Vậy 1 a b + = -",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
@@ -87453,9 +87453,9 @@ export const QUESTIONS_DATA = {
       "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
       "options": [
         "A. 1 0 x y - - =",
-        "B. 1 0 x y - + = .",
-        "C. 1 0 x y + - = .",
-        "D. 1 0 x y + + = ."
+        "B. 1 0 x y - + =",
+        "C. 1 0 x y + - =",
+        "D. 1 0 x y + + ="
       ],
       "correctAnswer": 0,
       "explanation": "( ) 6 6 0 1 0 f x x x y '' = - = \\Leftrightarrow = \\Rightarrow = Vậy tâm đối xứng là ( ) 1;0 I nằm trên đường thẳng 1 0 x y - - =",
@@ -87496,10 +87496,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Một lớp học có tất cả học sinh đều học tiếng Anh hoặc tiếng Pháp. Trong đó, có 25 học sinh học tiếng Anh, 20 học sinh học tiếng Pháp và 8 học sinh học cả tiếng Anh và tiếng Pháp. Tổng số học sinh của lớp học đó là:",
       "options": [
-        "A. 37.",
-        "B. 45.",
-        "C. 53.",
-        "D. 41."
+        "A. 37",
+        "B. 45",
+        "C. 53",
+        "D. 41"
       ],
       "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 61: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -87604,12 +87604,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số đường tiệm cận của đồ thị hàm số 2 2 4 3 4 x x y x - + = - là:",
+      "question": "Số đường tiệm cận của đồ thị hàm số $y = \\frac{x^2 - 4x + 3}{x^2 - 4}$ là:",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 66: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -88244,10 +88244,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\n0,2 gam ion F- trên cơ thể có trọng lượng 70kg có thể gây tử vong. Tuy nhiên, để giúp men răng thêm chắc và chống chọi các bệnh về sâu răng, ion F- được thêm vào nước uống đóng chai với nồng độ 1mg ion F- trên 1L nước. Trong các loại kem đánh răng, ion F- được bổ sung một lượng nhỏ dưới dạng muối sodium fluoride (NaF).",
       "question": "Một bạn học sinh nặng khoảng 70kg sử dụng loại nước chứa ion F- với lượng 1mg/1L để giúp men răng chắc khỏe, chống sâu răng. Thể tích nước mà bạn học sinh này uống một ngày là bao nhiêu lít thì ion F- có trong nước đạt đến mức có thể gây độc tính?",
       "options": [
-        "A. 225.",
-        "B. 220.",
-        "C. 250.",
-        "D. 200."
+        "A. 225",
+        "B. 220",
+        "C. 250",
+        "D. 200"
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án D 1 mg/ 1L là liều lượng không độc. 0,2 g/ 70kg là liều lượng đến mức F- gây độc tính. 0,2 g = 200 mg tương ứng 200L nước. Vậy một người 70kg uống 200 L nước chứa F- mới có khả năng nhiễm độc fluoride",
@@ -89721,9 +89721,9 @@ export const QUESTIONS_DATA = {
       "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
       "options": [
         "A. 1 0 x y - - =",
-        "B. 1 0 x y - + = .",
-        "C. 1 0 x y + - = .",
-        "D. 1 0 x y + + = ."
+        "B. 1 0 x y - + =",
+        "C. 1 0 x y + - =",
+        "D. 1 0 x y + + ="
       ],
       "correctAnswer": 0,
       "explanation": "( ) 6 6 0 1 0 f x x x y '' = - = \\Leftrightarrow = \\Rightarrow = Vậy tâm đối xứng là ( ) 1;0 I nằm trên đường thẳng 1 0 x y - - =",
@@ -89764,10 +89764,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Một lớp học có tất cả học sinh đều học tiếng Anh hoặc tiếng Pháp. Trong đó, có 25 học sinh học tiếng Anh, 20 học sinh học tiếng Pháp và 8 học sinh học cả tiếng Anh và tiếng Pháp. Tổng số học sinh của lớp học đó là:",
       "options": [
-        "A. 37.",
-        "B. 45.",
-        "C. 53.",
-        "D. 41."
+        "A. 37",
+        "B. 45",
+        "C. 53",
+        "D. 41"
       ],
       "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 61: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -89872,12 +89872,12 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Số đường tiệm cận của đồ thị hàm số 2 2 4 3 4 x x y x - + = - là:",
+      "question": "Số đường tiệm cận của đồ thị hàm số $y = \\frac{x^2 - 4x + 3}{x^2 - 4}$ là:",
       "options": [
-        "A. 1.",
-        "B. 2.",
-        "C. 3.",
-        "D. 4."
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
       ],
       "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 66: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -90116,10 +90116,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Gọi S là tập tất cả các giá trị nguyên của m sao cho bất phương trình có đúng 3 nghiệm nguyên. Số phần tử của S là:",
       "options": [
-        "A. 0.",
-        "B. 1.",
-        "C. 2.",
-        "D. 3."
+        "A. 0",
+        "B. 1",
+        "C. 2",
+        "D. 3"
       ],
       "correctAnswer": 3,
       "explanation": "Phân tích phương pháp giải chi tiết câu 77: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -90138,10 +90138,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nMột phòng kiểm định chất lượng lấy ngẫu nhiên 4 chai nước từ 16 chai của 3 phân xưởng X (6 chai), Y (6 chai), Z (4 chai) để phân tích.",
       "question": "Số cách chọn 4 chai nước từ 16 chai của ba phân xưởng X, Y, Z để phân tích là:",
       "options": [
-        "A. 1960.",
-        "B. 1820.",
-        "C. 1920.",
-        "D. 1880."
+        "A. 1960",
+        "B. 1820",
+        "C. 1920",
+        "D. 1880"
       ],
       "correctAnswer": 2,
       "explanation": "Phân tích phương pháp giải chi tiết câu 78: Vận dụng kiến thức trọng tâm của phân môn Toán học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -90468,10 +90468,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 99 đến 101:\n0,2 gam ion F- trên cơ thể có trọng lượng 70kg có thể gây tử vong. Tuy nhiên, để giúp men răng thêm chắc và chống chọi các bệnh về sâu răng, ion F- được thêm vào nước uống đóng chai với nồng độ 1mg ion F- trên 1L nước. Trong các loại kem đánh răng, ion F- được bổ sung một lượng nhỏ dưới dạng muối sodium fluoride (NaF).",
       "question": "Một bạn học sinh nặng khoảng 70kg sử dụng loại nước chứa ion F- với lượng 1mg/1L để giúp men răng chắc khỏe, chống sâu răng. Thể tích nước mà bạn học sinh này uống một ngày là bao nhiêu lít thì ion F- có trong nước đạt đến mức có thể gây độc tính?",
       "options": [
-        "A. 225.",
-        "B. 220.",
-        "C. 250.",
-        "D. 200."
+        "A. 225",
+        "B. 220",
+        "C. 250",
+        "D. 200"
       ],
       "correctAnswer": 3,
       "explanation": "Đáp án D 1 mg/ 1L là liều lượng không độc. 0,2 g/ 70kg là liều lượng đến mức F- gây độc tính. 0,2 g = 200 mg tương ứng 200L nước. Vậy một người 70kg uống 200 L nước chứa F- mới có khả năng nhiễm độc fluoride",
@@ -90509,13 +90509,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 104:\nproton, electron) chuyển động với vận tốc cực lớn, gần bằng vận tốc ánh sáng. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện F qE = , khiến hạt được gia tốc không đổi. Nếu hiệu điện thế giữa hai bản là U , năng lượng mà hạt nhận được khi đi qua điện trường là: A qU = Năng lượng này được chuyển hoàn toàn thành động năng: 2 1 2 mv qU = → từ đó có thể tính vận tốc của hạt: 2qU v m = Các máy gia tốc có thể dùng nhiều “tầng” điện trường nối tiếp để tăng dần năng lượng hạt. Khi vận tốc hạt tăng lên, khối lượng tương đối tính của nó cũng tăng, và các nhà vật lý phải dùng công thức tương đối tính để tính chính xác năng lượng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTrong máy gia tốc hạt, các hạt mang điện (proton, electron) chuyển động với vận tốc cực lớn. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện $F = qE$, khiến hạt có gia tốc. Nếu hiệu điện thế giữa hai bản là $U$, công của lực điện là $A = qU$. Công này chuyển hóa thành động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}}$.",
       "question": "Trong máy gia tốc, hạt tích điện tăng tốc là do",
       "options": [
-        "A. Tác dụng của từ trường đều.",
-        "B. Lực hấp dẫn của Trái Đất.",
-        "C. Lực điện do hiệu điện thế giữa hai bản kim loại.",
-        "D. Nhiệt độ cao trong buồng gia tốc."
+        "A. Lực điện trường tác dụng sinh công làm tăng động năng của hạt.",
+        "B. Lực từ trường làm biến đổi độ lớn vận tốc của hạt.",
+        "C. Tác dụng của trọng lực Trái Đất.",
+        "D. Sự va chạm đàn hồi giữa các hạt mang điện."
       ],
       "correctAnswer": 0,
       "explanation": "Lực điện F qE = sinh ra từ hiệu điện thế giữa hai bản kim loại tạo gia tốc cho hạt. Đáp án đúng: C.",
@@ -90531,12 +90531,12 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 104:\nproton, electron) chuyển động với vận tốc cực lớn, gần bằng vận tốc ánh sáng. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện F qE = , khiến hạt được gia tốc không đổi. Nếu hiệu điện thế giữa hai bản là U , năng lượng mà hạt nhận được khi đi qua điện trường là: A qU = Năng lượng này được chuyển hoàn toàn thành động năng: 2 1 2 mv qU = → từ đó có thể tính vận tốc của hạt: 2qU v m = Các máy gia tốc có thể dùng nhiều “tầng” điện trường nối tiếp để tăng dần năng lượng hạt. Khi vận tốc hạt tăng lên, khối lượng tương đối tính của nó cũng tăng, và các nhà vật lý phải dùng công thức tương đối tính để tính chính xác năng lượng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTrong máy gia tốc hạt, các hạt mang điện (proton, electron) chuyển động với vận tốc cực lớn. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện $F = qE$, khiến hạt có gia tốc. Nếu hiệu điện thế giữa hai bản là $U$, công của lực điện là $A = qU$. Công này chuyển hóa thành động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}}$.",
       "question": "Nếu tăng hiệu điện thế U giữa hai bản lên gấp đôi, thì vận tốc của hạt sẽ",
       "options": [
-        "A. Tăng gấp đôi.",
-        "B. Giảm còn một nửa.",
-        "C. Tăng 2 lần.",
+        "A. Tăng lên $\\sqrt{2}$ lần.",
+        "B. Tăng lên 2 lần.",
+        "C. Tăng lên 4 lần.",
         "D. Không thay đổi."
       ],
       "correctAnswer": 0,
@@ -90553,13 +90553,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 104:\nproton, electron) chuyển động với vận tốc cực lớn, gần bằng vận tốc ánh sáng. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện F qE = , khiến hạt được gia tốc không đổi. Nếu hiệu điện thế giữa hai bản là U , năng lượng mà hạt nhận được khi đi qua điện trường là: A qU = Năng lượng này được chuyển hoàn toàn thành động năng: 2 1 2 mv qU = → từ đó có thể tính vận tốc của hạt: 2qU v m = Các máy gia tốc có thể dùng nhiều “tầng” điện trường nối tiếp để tăng dần năng lượng hạt. Khi vận tốc hạt tăng lên, khối lượng tương đối tính của nó cũng tăng, và các nhà vật lý phải dùng công thức tương đối tính để tính chính xác năng lượng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTrong máy gia tốc hạt, các hạt mang điện (proton, electron) chuyển động với vận tốc cực lớn. Khi hạt tích điện chuyển động trong điện trường đều giữa hai bản kim loại, nó chịu lực điện $F = qE$, khiến hạt có gia tốc. Nếu hiệu điện thế giữa hai bản là $U$, công của lực điện là $A = qU$. Công này chuyển hóa thành động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}}$.",
       "question": "Một proton có khối lượng $m = 1{,}67 \\times 10^{-27}\\text{ kg}$ và điện tích $q = 1{,}6 \\times 10^{-19}\\text{ C}$ được gia tốc trong điện trường có hiệu điện thế $U = 2{,}0 \\times 10^6\\text{ V}$. Bỏ qua tương đối tính, vận tốc của proton sau khi ra khỏi điện trường là:",
       "options": [
-        "A. $7 2,0 10 m / s \\times$",
-        "B. $7 6, 2 10 m / s \\times$",
-        "C. $7 1,9 10 m / s \\times$",
-        "D. $7 4,9 10 m / s \\times$"
+        "A. $1{,}96 \\times 10^7\\text{ m/s}$",
+        "B. $2{,}0 \\times 10^7\\text{ m/s}$",
+        "C. $1{,}5 \\times 10^7\\text{ m/s}$",
+        "D. $3{,}0 \\times 10^7\\text{ m/s}$"
       ],
       "correctAnswer": 0,
       "explanation": "( )( )19 6 7 27 2 1, 6 10 2, 0 10 2 2,0 10 m / s 1, 67 10 qU v m - - \\times \\times = = \\times \\times Đáp án đúng: A.",
