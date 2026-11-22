@@ -99,19 +99,19 @@ const QuestionCard = React.memo(function QuestionCard({
             <BookOpen className="w-4 h-4" />
             <span>[NGỮ LIỆU / ĐỀ BÀI CHUNG]</span>
           </div>
-          <div className="text-xs sm:text-base leading-relaxed font-medium vact-text-primary">
+          <div className="text-sm sm:text-base leading-relaxed sm:leading-loose font-medium vact-text-primary">
             <MathRenderer content={currentQ.passage} />
           </div>
         </div>
       )}
 
       {/* Question Text */}
-      <div className="text-sm sm:text-lg font-black vact-text-primary leading-relaxed mb-4 sm:mb-6">
+      <div className="text-base sm:text-lg font-black vact-text-primary leading-snug sm:leading-relaxed mb-4 sm:mb-6">
         <MathRenderer content={currentQ.question} />
       </div>
 
       {/* Options List with 48px min touch target */}
-      <div className="space-y-2.5 sm:space-y-3">
+      <div className="space-y-3 sm:space-y-3.5">
         {currentQ.options.map((option, optIdx) => {
           const isSelected = selectedOption === optIdx;
           return (
@@ -135,7 +135,7 @@ const QuestionCard = React.memo(function QuestionCard({
                   {String.fromCharCode(65 + optIdx)}
                 </div>
               )}
-              <div className={`text-xs sm:text-base leading-relaxed font-bold flex-1 ${
+              <div className={`text-sm sm:text-base leading-snug sm:leading-relaxed font-semibold flex-1 ${
                 isSelected ? 'text-blue-700 dark:text-blue-300' : 'vact-text-primary'
               }`}>
                 <MathRenderer content={typeof option === 'string' ? option.replace(/^[A-D]\.\s*/, '') : option} />
@@ -1131,8 +1131,8 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
 
                 {/* [NGỮ LIỆU / ĐỀ BÀI CHUNG] Trong phần xem lại bài */}
                 {q.passage && (
-                  <div className="mb-3 sm:mb-4 p-4 rounded-2xl border-2 border-blue-500/30 bg-blue-50/20 dark:bg-blue-950/20 text-xs sm:text-sm leading-relaxed font-medium vact-text-primary">
-                    <div className="text-[11px] font-black text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+                  <div className="mb-3 sm:mb-4 p-4 rounded-2xl border-2 border-blue-500/30 bg-blue-50/20 dark:bg-blue-950/20 text-sm sm:text-base leading-relaxed sm:leading-loose font-medium vact-text-primary">
+                    <div className="text-xs font-black text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                       <BookOpen className="w-3.5 h-3.5" />
                       <span>[NGỮ LIỆU / ĐỀ BÀI CHUNG]</span>
                     </div>
@@ -1140,12 +1140,12 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                   </div>
                 )}
 
-                <div className="font-black text-xs sm:text-base vact-text-primary mb-3 sm:mb-4">
+                <div className="font-black text-base sm:text-lg vact-text-primary mb-3 sm:mb-4 leading-snug sm:leading-relaxed">
                   <MathRenderer content={q.question} />
                 </div>
 
                 {/* Options grid */}
-                <div className="space-y-1.5 sm:space-y-2 mb-3 sm:mb-4">
+                <div className="space-y-2.5 sm:space-y-3 mb-3 sm:mb-4">
                   {q.options.map((opt, oIdx) => {
                     const isRight = oIdx === q.correctAnswer;
                     const isPicked = oIdx === userAns;
@@ -1155,8 +1155,8 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
                     else if (isPicked && !isRight) optClass = 'bg-rose-50 dark:bg-rose-950/40 border-2 border-rose-500 text-rose-800 dark:text-rose-200 font-bold';
 
                     return (
-                      <div key={oIdx} className={`p-2.5 sm:p-3 rounded-xl border text-xs sm:text-sm flex items-center justify-between gap-2 ${optClass}`}>
-                        <div className="flex-1">
+                      <div key={oIdx} className={`p-3 sm:p-3.5 rounded-xl border text-sm sm:text-base flex items-center justify-between gap-2.5 ${optClass}`}>
+                        <div className="flex-1 font-semibold leading-snug sm:leading-relaxed">
                           <MathRenderer content={typeof opt === 'string' ? opt.replace(/^[A-D]\.\s*/, '') : opt} />
                         </div>
                         {isRight && <span className="text-[10px] sm:text-xs font-black text-emerald-600 dark:text-emerald-400 shrink-0">Đáp án đúng</span>}

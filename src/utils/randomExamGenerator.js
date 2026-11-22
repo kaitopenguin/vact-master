@@ -210,21 +210,22 @@ export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all
 
     let updatedPassage = atom.passage;
     if (updatedPassage) {
-      const rangeText = atomStartNumber === atomEndNumber 
-        ? `câu ${atomStartNumber}` 
-        : `các câu từ ${atomStartNumber} đến ${atomEndNumber}`;
-
-      // Dynamically update range text: e.g. "các câu từ X đến Y" or "câu X"
-      const replaced = updatedPassage.replace(
-        /(?:các )?câu (?:hỏi )?(?:từ )?(?:câu )?\d+\s*(?:đến|-|và)\s*(?:câu )?\d+/gi,
-        rangeText
-      );
-
-      if (replaced !== updatedPassage) {
-        updatedPassage = replaced;
+      let rangeText = '';
+      if (atomStartNumber === atomEndNumber) {
+        rangeText = `câu ${atomStartNumber}`;
+      } else if (atomEndNumber === atomStartNumber + 1) {
+        rangeText = `các câu ${atomStartNumber} và ${atomEndNumber}`;
       } else {
-        // Prepend clean standard header
-        updatedPassage = `Dựa vào thông tin dưới đây để trả lời ${rangeText}:\n` + updatedPassage.replace(/^Dựa vào (?:các )?thông tin (?:dưới đây|sau)[^\n:]*[:\n]*/i, '');
+        rangeText = `các câu từ ${atomStartNumber} đến ${atomEndNumber}`;
+      }
+
+      // Cleanly replace existing header or prepend standard header
+      const headerRegex = /^Dựa vào (?:các )?thông tin (?:dưới đây|sau)[^\n:]*[:\n]*/i;
+      if (headerRegex.test(updatedPassage)) {
+        const body = updatedPassage.replace(headerRegex, '').trim();
+        updatedPassage = `Dựa vào thông tin dưới đây để trả lời ${rangeText}:\n${body}`;
+      } else {
+        updatedPassage = `Dựa vào thông tin dưới đây để trả lời ${rangeText}:\n${updatedPassage.trim()}`;
       }
     }
 
