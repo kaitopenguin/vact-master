@@ -3348,7 +3348,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T \\cdot \\Delta_r S^{\\circ}$\nTrong đó: $T$ là nhiệt độ (K); $\\Delta_r H^{\\circ}$ (kJ) và $\\Delta_r S^{\\circ}$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\Delta_r G^{\\circ}$ quyết định chiều tự diễn biến của phản ứng: nếu $\\Delta_r G^{\\circ} < 0$, phản ứng tự xảy ra; nếu $\\Delta_r G^{\\circ} > 0$, phản ứng không tự xảy ra.",
       "question": "Để một phản ứng không tự xảy ra ở mọi nhiệt độ thì",
       "options": [
         "A. ΔrHo > 0 và ΔrSo < 0.",
@@ -3371,13 +3371,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
-      "question": "Biến thiên enthalpy và entropy của phản ứng $2\\text{SO}_2(g) + \\text{O}_2(g) \\to 2\\text{SO}_3(g)$ ở $25^\\circ\\text{C}$ lần lượt là $\\Delta_r H^\\circ = -198\\text{ kJ}$ và $\\Delta_r S^\\circ = -187\\text{ J/K}$. Hãy cho biết giá trị của $\\Delta_r G^\\circ$ thay đổi như thế nào khi tăng nhiệt độ và ở trên hay dưới khoảng nhiệt độ nào thì phản ứng không xảy ra tự nhiên được?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T \\cdot \\Delta_r S^{\\circ}$\nTrong đó: $T$ là nhiệt độ (K); $\\Delta_r H^{\\circ}$ (kJ) và $\\Delta_r S^{\\circ}$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\Delta_r G^{\\circ}$ quyết định chiều tự diễn biến của phản ứng: nếu $\\Delta_r G^{\\circ} < 0$, phản ứng tự xảy ra; nếu $\\Delta_r G^{\\circ} > 0$, phản ứng không tự xảy ra.",
+      "question": "Biến thiên enthalpy và entropy của phản ứng $2\\text{SO}_2(g) + \\text{O}_2(g) \\to 2\\text{SO}_3(g)$ ở $25^{\\circ}\\text{C}$ lần lượt là $\\Delta_r H^{\\circ} = -198\\text{ kJ}$ và $\\Delta_r S^{\\circ} = -187\\text{ J/K}$. Hãy cho biết giá trị của $\\Delta_r G^{\\circ}$ thay đổi như thế nào khi tăng nhiệt độ và ở trên hay dưới khoảng nhiệt độ nào thì phản ứng không xảy ra tự nhiên được?",
       "options": [
-        "A. $\\Delta_r G^\\circ \\text{ tăng; } T < 1059\\text{ K}$",
-        "B. $\\Delta_r G^\\circ \\text{ tăng; } T > 1059\\text{ K}$",
-        "C. $\\Delta_r G^\\circ \\text{ giảm; } T < 1059\\text{ K}$",
-        "D. $\\Delta_r G^\\circ \\text{ giảm; } T > 1059\\text{ K}$"
+        "A. $\\Delta_r G^{\\circ} \\text{ tăng; } T < 1059\\text{ K}$",
+        "B. $\\Delta_r G^{\\circ} \\text{ tăng; } T > 1059\\text{ K}$",
+        "C. $\\Delta_r G^{\\circ} \\text{ giảm; } T < 1059\\text{ K}$",
+        "D. $\\Delta_r G^{\\circ} \\text{ giảm; } T > 1059\\text{ K}$"
       ],
       "correctAnswer": 1,
       "explanation": "Phân tích phương pháp giải chi tiết câu 104: Vận dụng kiến thức trọng tâm của phân môn Tư duy khoa học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -3394,7 +3394,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T \\cdot \\Delta_r S^{\\circ}$\nTrong đó: $T$ là nhiệt độ (K); $\\Delta_r H^{\\circ}$ (kJ) và $\\Delta_r S^{\\circ}$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\Delta_r G^{\\circ}$ quyết định chiều tự diễn biến của phản ứng: nếu $\\Delta_r G^{\\circ} < 0$, phản ứng tự xảy ra; nếu $\\Delta_r G^{\\circ} > 0$, phản ứng không tự xảy ra.",
       "question": "Xét phản ứng sau: CaCO3(s) → CaO(s) + CO2(g) Giả sử giá trị enthalpy và entropy của phản ứng không thay đổi theo nhiệt độ. Mối liên hệ giữa ΔrG° và T (K) của phản ứng trên như sau: Hãy chọn nhận xét sai:",
       "options": [
         "A. Phản ứng trên là phản ứng thu nhiệt và có thể tự xảy ra ở nhiệt độ trên 1110 K.",
@@ -3417,7 +3417,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột nhà máy nhiệt điện đốt than có công suất phát điện $P = 500\\\\text{ MW}$ với hiệu suất chuyển hóa nhiệt thành điện năng đạt $40\\\\%$. Than đá sử dụng có năng lượng riêng (nhiệt trị) là $25\\\\text{ MJ/kg}$. Quá trình đốt cháy 1 tấn than sinh ra khoảng 2,04 tấn khí $\\\\text{CO}_2$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột nhà máy nhiệt điện đốt than có công suất phát điện $P = 500\\text{ MW}$ với hiệu suất chuyển hóa nhiệt thành điện năng đạt $40\\\\%$. Than đá sử dụng có năng lượng riêng (nhiệt trị) là $25\\text{ MJ/kg}$. Quá trình đốt cháy 1 tấn than sinh ra khoảng 2,04 tấn khí $\\text{CO}_2$.",
       "question": "Cho các phát biểu sau: (I). Than là nguồn năng lượng tái tạo. (II). Đơn vị của năng lượng riêng là J/kg. (III). Nhà máy điện than trên sẽ thải ra 1,020.103 tấn khí CO2 mỗi giờ. (IV). Công suất hao phí của nhà máy điện than ở trên là 7,464.102 MW. Theo bài đọc, các phát biểu đúng là:",
       "options": [
         "A. (I), (II), (III).",
@@ -5189,7 +5189,7 @@ export const QUESTIONS_DATA = {
         "D. $0{,}8\\text{ m}^2$"
       ],
       "correctAnswer": 2,
-      "explanation": "Chọn C. Xét đường tròn bán kính 1, ta cắt trên đó một hình chữ nhật ABCD . Khi đó 1 . .sin 2 ABCD S AC BD \\alpha = 2 sin 2 \\alpha = \\le . Dấu bằng xảy ra khi và chỉ khi 90 \\alpha = ^\\circ . Vậy diện tích lớn nhất của miếng tôn cắt trên nửa đường tròn bằng 1.",
+      "explanation": "Chọn C. Xét đường tròn bán kính 1, ta cắt trên đó một hình chữ nhật ABCD . Khi đó 1 . .sin 2 ABCD S AC BD \\alpha = 2 sin 2 \\alpha = \\le . Dấu bằng xảy ra khi và chỉ khi 90 \\alpha = ^{\\circ} . Vậy diện tích lớn nhất của miếng tôn cắt trên nửa đường tròn bằng 1.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -5664,7 +5664,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^{\\circ}$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khối chóp $S.ABC$:",
       "options": [
         "A. $\\frac{a^3\\sqrt{2}}{2}$",
@@ -5686,13 +5686,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^{\\circ}$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính góc giữa hai mặt phẳng $(SBC)$ và $(ABC)$ (làm tròn đến độ):",
       "options": [
-        "A. $41^\\circ$",
-        "B. $42^\\circ$",
-        "C. $32^\\circ$",
-        "D. $31^\\circ$"
+        "A. $41^{\\circ}$",
+        "B. $42^{\\circ}$",
+        "C. $32^{\\circ}$",
+        "D. $31^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "Áp dụng hệ trục toạ độ Oxyz: ( ) ( ) ( ) ( ) 0, 0, 0 , , 0, 0 , 0, 2 , 0 , 0, 0,3 S A a B a C a . ( ) SBC : qua , , S B C phương trình 0 x = (mp ( ) Oyz ) suy ra pháp tuyến ( ) 1 1, 0, 0 n = . ( ) ( ) ( ) : , 2 , 0 , , 0,3 ABC AB a a AC a a = - = - ( ) ( )2 2 2 2 6 ,3 , 2 6,3, 2 . , n AB AC a a a ] = = ] Góc giữa hai mặt phẳng: ( ) ( ) ( ) 1 2 2 2 2 1 2 6 6 cos , . 7 6 3 2 n n SBC ABC n n \\cdot = = = + + ( ) ( ) ( ) 0 6 , arccos 31 7 SBC ABC =",
@@ -5708,7 +5708,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^{\\circ}$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khối chóp $S.HBC$:",
       "options": [
         "A. $\\frac{4a^3}{5}$",
@@ -6065,7 +6065,7 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. Mực chất lỏng tăng nhanh lúc đầu rồi chậm dần.",
         "B. Mực chất lỏng dâng lên tỉ lệ thuận với độ tăng nhiệt độ.",
-        "C. Mực chất lỏng chỉ tăng khi nhiệt độ vượt quá $20^\\circ\\text{C}$.",
+        "C. Mực chất lỏng chỉ tăng khi nhiệt độ vượt quá $20^{\\circ}\\text{C}$.",
         "D. Mực chất lỏng tăng không theo quy luật xác định."
       ],
       "correctAnswer": 1,
@@ -7845,7 +7845,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $AB = 6, AC = 8$ và góc $\\hat{A} = 45^\\circ$. Diện tích tam giác $ABC$ bằng:",
+      "question": "Cho tam giác $ABC$ có $AB = 6, AC = 8$ và góc $\\hat{A} = 45^{\\circ}$. Diện tích tam giác $ABC$ bằng:",
       "options": [
         "A. $12\\sqrt{2}$",
         "B. $24\\sqrt{2}$",
@@ -7869,10 +7869,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có cạnh $AB = 5, BC = 7, AC = 8$. Số đo góc $\\hat{A}$ bằng:",
       "options": [
-        "A. $40^\\circ$",
-        "B. $45^\\circ$",
-        "C. $50^\\circ$",
-        "D. $60^\\circ$"
+        "A. $40^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $50^{\\circ}$",
+        "D. $60^{\\circ}$"
       ],
       "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 68] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -8702,8 +8702,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
-      "question": "Công thức liên hệ đúng giữa thang đo Fahrenheit ($^\\circ\\text{F}$) và thang đo Celsius ($^\\circ\\text{C}$) là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n- Thang Celsius ($^{\\circ}\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^{\\circ}\\text{C}$ và nhiệt độ sôi của nước là $100^{\\circ}\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^{\\circ}\\text{C}$.\n- Thang Fahrenheit ($^{\\circ}\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^{\\circ}\\text{F}$ và nhiệt độ sôi của nước là $212^{\\circ}\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "question": "Công thức liên hệ đúng giữa thang đo Fahrenheit ($^{\\circ}\\text{F}$) và thang đo Celsius ($^{\\circ}\\text{C}$) là:",
       "options": [
         "A. $F = \\frac{9}{5}C + 32$",
         "B. $F = \\frac{5}{9}C + 32$",
@@ -8724,13 +8724,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n- Thang Celsius ($^{\\circ}\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^{\\circ}\\text{C}$ và nhiệt độ sôi của nước là $100^{\\circ}\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^{\\circ}\\text{C}$.\n- Thang Fahrenheit ($^{\\circ}\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^{\\circ}\\text{F}$ và nhiệt độ sôi của nước là $212^{\\circ}\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
       "question": "Nhiệt độ nào sau đây có số chỉ bằng nhau trên cả hai thang đo Celsius và Fahrenheit?",
       "options": [
-        "A. $-40^\\circ$",
-        "B. $4^\\circ$",
-        "C. $-4^\\circ$",
-        "D. $40^\\circ$"
+        "A. $-40^{\\circ}$",
+        "B. $4^{\\circ}$",
+        "C. $-4^{\\circ}$",
+        "D. $40^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 107] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -8746,7 +8746,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n- Thang Celsius ($^{\\circ}\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^{\\circ}\\text{C}$ và nhiệt độ sôi của nước là $100^{\\circ}\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^{\\circ}\\text{C}$.\n- Thang Fahrenheit ($^{\\circ}\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^{\\circ}\\text{F}$ và nhiệt độ sôi của nước là $212^{\\circ}\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
       "question": "Phát biểu nào dưới đây đúng?",
       "options": [
         "A. Thân nhiệt người bình thường là 37°F.",
@@ -10531,7 +10531,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong tam giác $ABC$, biết $\\widehat{A} = 30^\\circ$, $\\widehat{B} = 45^\\circ$ và cạnh $a = BC = 6$. Tính độ dài cạnh $b = AC$:",
+      "question": "Trong tam giác $ABC$, biết $\\widehat{A} = 30^{\\circ}$, $\\widehat{B} = 45^{\\circ}$ và cạnh $a = BC = 6$. Tính độ dài cạnh $b = AC$:",
       "options": [
         "A. $b = 6\\sqrt{2}$",
         "B. $b = 3\\sqrt{2}$",
@@ -10539,7 +10539,7 @@ export const QUESTIONS_DATA = {
         "D. $b = 3\\sqrt{6}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Theo định lý sin cho tam giác ABC: 2 sin sin45 2 6 6 6 2. 1 sin sin sin sin30 2 a b B b a A B A = \\Rightarrow = = = = ^\\circ ^\\circ",
+      "explanation": "Theo định lý sin cho tam giác ABC: 2 sin sin45 2 6 6 6 2. 1 sin sin sin sin30 2 a b B b a A B A = \\Rightarrow = = = = ^{\\circ} ^{\\circ}",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -10775,10 +10775,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
       "question": "Tính góc giữa hai mặt phẳng (SBC) và (SAC):",
       "options": [
-        "A. $45^\\circ$",
-        "B. $90^\\circ$",
-        "C. $60^\\circ$",
-        "D. $30^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $90^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $30^{\\circ}$"
       ],
       "correctAnswer": 1,
       "explanation": "Ta có: ( ) ( ) ( ) BC AC BC SAC SBC SAC BC SA \\Rightarrow \\Rightarrow",
@@ -13134,7 +13134,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
+      "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^{\\circ}, \\hat{C} = 75^{\\circ}$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
         "B. $7\\text{ cm}$",
@@ -13142,7 +13142,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^\\circ Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^\\circ = \\Rightarrow = = = + ^\\circ . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
+      "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^{\\circ} Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^{\\circ} = \\Rightarrow = = = + ^{\\circ} . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -13202,13 +13202,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
-        "A. 2 3 1 x x y x - = -",
-        "B. 2 3 2 3 x y x + = -",
-        "C. 2 2 3 2 x y x x - = -",
-        "D. 2 1 3 x y x - = +"
+        "A. $y = \\frac{x - 2}{x^2 - 3x + 2}$",
+        "B. $y = \\frac{\\sqrt{x^2 + 3}}{2x - 3}$",
+        "C. $y = \\frac{x^2 - 3x}{x - 1}$",
+        "D. $y = \\frac{\\sqrt{1 - x^2}}{x + 3}$"
       ],
       "correctAnswer": 0,
-      "explanation": "2 3 lim 1 x x x x \\to \\pm \\infty - = \\pm \\infty - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - không có đường tiệm cận ngang. 2 2 3 1 3 1 lim ; lim 2 3 2 2 3 2 x x x x x x \\to +\\infty \\to -\\infty + + = = - - - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - có hai đường tiệm cận ngang. 2 1 3 x y x - = + có tập xác định [ ] 1;1 - \\Rightarrow đồ thị hàm số không có đường tiệm cận ngang. 2 2 3 lim 0 2 x x x x \\to \\pm \\infty - = - \\Rightarrow Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y =",
+      "explanation": "Ta có:\n- Với $y = \\frac{x - 2}{x^2 - 3x + 2} = \\frac{1}{x - 1}$ (với $x \\ne 2$), ta có $\\lim_{x \\to \\pm \\infty} y = 0 \\Rightarrow y = 0$ là đường tiệm cận ngang duy nhất.\n- Với $y = \\frac{\\sqrt{x^2 + 3}}{2x - 3}$, $\\lim_{x \\to +\\infty} y = \\frac{1}{2}$ và $\\lim_{x \\to -\\infty} y = -\\frac{1}{2}$ (2 tiệm cận ngang).\n- Với $y = \\frac{x^2 - 3x}{x - 1}$, $\\lim_{x \\to \\pm\\infty} y = \\pm\\infty$ (không có tiệm cận ngang).\n- Với $y = \\frac{\\sqrt{1 - x^2}}{x + 3}$, TXĐ là $[-1; 1]$ nên không có tiệm cận ngang.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -13530,15 +13530,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật, $AB = a, BC = 2a$. Cạnh bên $SA = a\\sqrt{15}$ và vuông góc với đáy.",
-      "question": "Thể tích khối chóp . S ABCD là:",
+      "question": "Thể tích khối chóp $S.ABCD$ là:",
       "options": [
-        "A. $\\frac{2a^3\\sqrt{15}}{3}$",
-        "B. $\\frac{a^3\\sqrt{15}}{3}$",
-        "C. $\\frac{a^3\\sqrt{15}}{6}$",
-        "D. $\\frac{4a^3\\sqrt{15}}{3}$"
+        "A. $\\frac{4a^3\\sqrt{7}}{3}$",
+        "B. $2a^3\\sqrt{7}$",
+        "C. $\\frac{2a^3\\sqrt{7}}{3}$",
+        "D. $a^3\\sqrt{7}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Đáy $ABCD$ là hình vuông cạnh $2a \\Rightarrow S_{ABCD} = (2a)^2 = 4a^2$. Tâm đáy $O \\Rightarrow OA = \\frac{AC}{2} = \\frac{2a\\sqrt{2}}{2} = a\\sqrt{2}$. Chiều cao $SO = \\sqrt{SA^2 - OA^2} = \\sqrt{(3a)^2 - (a\\sqrt{2})^2} = a\\sqrt{7}$. Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4a^2 \\cdot a\\sqrt{7} = \\frac{4a^3\\sqrt{7}}{3}$.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -13554,10 +13554,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật, $AB = a, BC = 2a$. Cạnh bên $SA = a\\sqrt{15}$ và vuông góc với đáy.",
       "question": "Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng:",
       "options": [
-        "A. $60^\\circ$",
-        "B. $45^\\circ$",
-        "C. $30^\\circ$",
-        "D. $75^\\circ$"
+        "A. $60^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $30^{\\circ}$",
+        "D. $75^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -13582,7 +13582,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{\\sqrt{285}}{19}a$"
       ],
       "correctAnswer": 1,
-      "explanation": "85) 2 . 2 ABCD S AB BC a = = 3 1 2 15 . 3 3 ABCD V S SA a \\Rightarrow = = 86) ) ( ) t ( ai A C SC ABCD C A SA BCD A \\cap = \\Rightarrow là hình chiếu của SC lên mặt phẳng ( ) ABCD \\bullet ( , ( )) ( , ) SC ABCD SC AC SCA \\Rightarrow = = 2 2 5 AC AB a BC = = + \\bullet \\bullet 15 tan 3 60 5 SA a SCA SCA AC a = = = \\Rightarrow = ^\\circ 87) Kẻ AH SD tại H và chứng minh ( ) AH SCD tại H . Suy ra ( ) ( ) d , A SCD AH = Tính 2 2 . 2 285 19 AS AD AH a A AD S = = + Gọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra ( ) ( ) ( ) d , 1 1 2 285 d , 3 3 57 d , G SCD GM G SCD AH a AM A SCD [ ] ] ] = = \\Rightarrow = = [ ] ] ][ ] ] ] Dựa vào thông tin sau, trả lời các câu hỏi Cho hàm số ( ) 2 2 2 1 x x f x x + + = + có đồ thị (C).",
+      "explanation": "85) 2 . 2 ABCD S AB BC a = = 3 1 2 15 . 3 3 ABCD V S SA a \\Rightarrow = = 86) ) ( ) t ( ai A C SC ABCD C A SA BCD A \\cap = \\Rightarrow là hình chiếu của SC lên mặt phẳng ( ) ABCD \\bullet ( , ( )) ( , ) SC ABCD SC AC SCA \\Rightarrow = = 2 2 5 AC AB a BC = = + \\bullet \\bullet 15 tan 3 60 5 SA a SCA SCA AC a = = = \\Rightarrow = ^{\\circ} 87) Kẻ AH SD tại H và chứng minh ( ) AH SCD tại H . Suy ra ( ) ( ) d , A SCD AH = Tính 2 2 . 2 285 19 AS AD AH a A AD S = = + Gọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra ( ) ( ) ( ) d , 1 1 2 285 d , 3 3 57 d , G SCD GM G SCD AH a AM A SCD [ ] ] ] = = \\Rightarrow = = [ ] ] ][ ] ] ] Dựa vào thông tin sau, trả lời các câu hỏi Cho hàm số ( ) 2 2 2 1 x x f x x + + = + có đồ thị (C).",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -16186,16 +16186,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Góc giữa đường thẳng $SA$ và mặt phẳng $(ABC)$ là:",
       "options": [
-        "A. $45^\\circ$",
-        "B. $30^\\circ$",
-        "C. $60^\\circ$",
-        "D. $75^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $30^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $75^{\\circ}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có tam giác SBC đều và H là trung điểm của BC . Suy ra SH BC . Mà ( ) ( ) SBC ABC theo giao tuyến BC nên suy ra ( ) SH ABC . Vì ( ) SH ABC nên HA là hình chiếu của SA trên mặt phẳng ( ABC ). Do đó ( ) ( ) ( ) \\bullet , , SA ABC SA AH SAH = = . Trong tam giác vuông SHA , ta có \\bullet tan SH SAH AH = . Tam giác SBC đều cạnh 2a nên 3 SH a = . Tam giác ABC vuông tại A nên 1 2 AH BC a = = . Suy ra \\bullet tan 3 SH SAH AH = = , suy ra \\bullet 60 SAH = ^\\circ .",
+      "explanation": "Ta có tam giác SBC đều và H là trung điểm của BC . Suy ra SH BC . Mà ( ) ( ) SBC ABC theo giao tuyến BC nên suy ra ( ) SH ABC . Vì ( ) SH ABC nên HA là hình chiếu của SA trên mặt phẳng ( ABC ). Do đó ( ) ( ) ( ) \\bullet , , SA ABC SA AH SAH = = . Trong tam giác vuông SHA , ta có \\bullet tan SH SAH AH = . Tam giác SBC đều cạnh 2a nên 3 SH a = . Tam giác ABC vuông tại A nên 1 2 AH BC a = = . Suy ra \\bullet tan 3 SH SAH AH = = , suy ra \\bullet 60 SAH = ^{\\circ} .",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -16208,7 +16208,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Tan của góc giữa hai mặt phẳng ( SAC ) và ( ABC ) bằng",
       "options": [
         "A. $\\frac{3}{2}$",
@@ -16230,7 +16230,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Khoảng cách từ B đến mặt phẳng ( SAC ) là",
       "options": [
         "A. $\\frac{3a\\sqrt{39}}{13}$",
@@ -16670,7 +16670,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 107 và 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 107 và 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Xét các phát biểu sau về pin mặt trời: (1) Dòng điện sinh ra trong pin mặt trời là dòng xoay chiều. (2) Khi cường độ ánh sáng tăng, công suất điện của pin tăng. (3) Các tấm pin được ghép song song để tăng hiệu điện thế tổng. (4) Hiệu suất của pin mặt trời bị giới hạn bởi tính chất của vật liệu bán dẫn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -16692,7 +16692,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 107 và 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 107 và 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Một tấm pin mặt trời có hiệu điện thế danh định $U = 12\\text{ V}$, dòng điện $I = 4\\text{ A}$, hoạt động với hiệu suất 80%. Công suất bức xạ mặt trời chiếu vào tấm pin là:",
       "options": [
         "A. 48 W",
@@ -18477,7 +18477,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
+      "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^{\\circ}$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
         "B. $7\\text{ cm}$",
@@ -18499,7 +18499,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^\\circ$. Tính $BC$:",
+      "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^{\\circ}$. Tính $BC$:",
       "options": [
         "A. $\\frac{3}{3}$",
         "B. 3",
@@ -18507,7 +18507,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{6}{2}$"
       ],
       "correctAnswer": 0,
-      "explanation": "2 2 2 2 2 2 2 2 2 2 2 2 2 cos120 (18 3) 972 (30 3) 2700 18 30 3 1620 , , 7 49 7 49 49 49 972 2700 1620 5292 108 6 3. 49 49 BC AB AC AB AC AB AC AB AC AB AC AB AC BC BC = + - \\cdot \\cdot \\cdot = + + \\cdot \\cdot \\cdot = = = = \\cdot = = + + = = = \\Rightarrow = ^\\circ",
+      "explanation": "2 2 2 2 2 2 2 2 2 2 2 2 2 cos120 (18 3) 972 (30 3) 2700 18 30 3 1620 , , 7 49 7 49 49 49 972 2700 1620 5292 108 6 3. 49 49 BC AB AC AB AC AB AC AB AC AB AC AB AC BC BC = + - \\cdot \\cdot \\cdot = + + \\cdot \\cdot \\cdot = = = = \\cdot = = + + = = = \\Rightarrow = ^{\\circ}",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -18721,10 +18721,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 78 đến 80:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
       "question": "Tính góc giữa đường thẳng $SC$ và mặt phẳng $(SBD)$ (làm tròn đến hàng phần trăm độ):",
       "options": [
-        "A. $28{,}34^\\circ$",
-        "B. $18{,}43^\\circ$",
-        "C. $15{,}88^\\circ$",
-        "D. $22{,}58^\\circ$"
+        "A. $28{,}34^{\\circ}$",
+        "B. $18{,}43^{\\circ}$",
+        "C. $15{,}88^{\\circ}$",
+        "D. $22{,}58^{\\circ}$"
       ],
       "correctAnswer": 1,
       "explanation": "( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) , 1 ; ; , 10 5 d A SBD OA a d C SBD d A SBD OC d C SBD = = \\Rightarrow = = Ta tính: ( ) ( )\\bullet , SC SBD \\alpha = qua công thức ( ) ( ) , 10 10 sin : 2 5 10 d C SBD a a SC \\alpha = = =",
@@ -19293,8 +19293,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
-      "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^\\circ\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^{\\circ}\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
       "options": [
         "A. 1",
         "B. 2",
@@ -19315,7 +19315,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Một tấm pin có công suất $400\\text{ W}_p$, trong $1\\text{ h}$ nắng tiêu chuẩn sẽ tạo ra $400\\text{ Wh}$ điện. Trong một tháng (30 ngày) thì lượng điện năng mà tấm pin này tạo ra là bao nhiêu 𝑘$\\text{Wh}$?",
       "options": [
         "A. 28,8.",
@@ -19337,7 +19337,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Nếu tấm pin trên có diện tích bề mặt là $2\\text{ m}^2$ thì hiệu suất của tấm pin sẽ là:",
       "options": [
         "A. 10%",
@@ -21102,13 +21102,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ nội tiếp đường tròn bán kính $R$, có $AB = R, AC = R\\sqrt{3}$. Tính góc $A$ biết góc $B$ là góc tù:",
       "options": [
-        "A. $45^\\circ$",
-        "B. $30^\\circ$",
-        "C. $60^\\circ$",
-        "D. $90^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $30^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $90^{\\circ}$"
       ],
       "correctAnswer": 1,
-      "explanation": "Góc B là góc tù nên , A C là góc nhọn. Ta có: 1 2 2 sin 30 sin sin 2 AB R R R C C C C = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^\\circ (vì C nhọn). Tương tự: 3 3 2 2 sin 120 sin sin 2 AC R R R B B B B = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^\\circ (do B tù) Suy ra: ( ) 180 30 120 30 A = - + =^\\circ ^\\circ ^\\circ ^\\circ .",
+      "explanation": "Góc B là góc tù nên , A C là góc nhọn. Ta có: 1 2 2 sin 30 sin sin 2 AB R R R C C C C = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^{\\circ} (vì C nhọn). Tương tự: 3 3 2 2 sin 120 sin sin 2 AC R R R B B B B = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^{\\circ} (do B tù) Suy ra: ( ) 180 30 120 30 A = - + =^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -21130,7 +21130,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{5\\sqrt{3}}{2}$"
       ],
       "correctAnswer": 3,
-      "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^\\circ . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^\\circ .",
+      "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^{\\circ} . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^{\\circ} .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -21168,13 +21168,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
-        "A. 1 2 1 x y x - = +",
-        "B. 2 1 4 y x = -",
-        "C. 3 5 1 x y x + = -",
-        "D. 2 9 x y x x = - +"
+        "A. $y = \\frac{1}{x^2 - 4}$",
+        "B. $y = \\frac{x - 1}{2x + 1}$",
+        "C. $y = \\frac{3x + 5}{x - 1}$",
+        "D. $y = \\frac{x}{x^2 + 9}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có: 2 2 2 2 1 1 lim , lim 4 4 x x x x \\infty \\infty + - \\to \\to - = - = - - - suy ra đồ thị hàm số có hai đường tiệm cận đứng 2 x = \\pm . và 2 1 lim 0 4 x x \\infty \\to = - suy ra đồ thị hàm số có đường tiệm cận ngang 0 y = . Vậy đồ thị hàm số 2 1 4 y x = - có ba đường tiệm cận.",
+      "explanation": "Xét hàm số $y = \\frac{1}{x^2 - 4}$:\n- Ta có $\\lim_{x \\to 2^\\pm} y = \\pm\\infty$ và $\\lim_{x \\to -2^\\pm} y = \\pm\\infty \\Rightarrow$ đồ thị có hai đường tiệm cận đứng là $x = 2$ và $x = -2$.\n- $\\lim_{x \\to \\pm\\infty} y = 0 \\Rightarrow$ đồ thị có một đường tiệm cận ngang là $y = 0$.\nVậy đồ thị có tất cả 3 đường tiệm cận.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -21320,15 +21320,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 78 và 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Bạn Nam cần ít nhất 900 đơn vị protein và 400 đơn vị lipit trong thức ăn mỗi ngày. Mỗi kiogam thịt bò chứa 800 đơn vị protein và 200 đơn vị lipit. Mỗi kilogam thịt lợn chứa 600 đơn vị protein và 400 đơn vị lipit. Biết rằng Nam chỉ mua nhiều nhất 1,6 kg thịt bò và 1,1 kg thịt lợn. Giá tiền một kg thịt bò là 160 nghìn đồng, một kg thịt lợn là 110 nghìn đồng. Gọi , x y lần lượt là số kg thịt bò và thịt lợn mà Nam cần mua.",
-      "question": "Đẳng thức nào sau đây đúng?",
+      "question": "Bất đẳng thức nào sau đây mô tả đúng điều kiện về lượng protein Nam cần mỗi ngày?",
       "options": [
-        "A. $8 6 9 x y + \\ge$",
-        "B. $6 8 9 x y + \\ge$",
-        "C. $2 2 x y + \\le$",
-        "D. $2 2 x y + \\ge$"
+        "A. $8x + 6y \\ge 9$",
+        "B. $6x + 8y \\ge 9$",
+        "C. $x + 2y \\le 2$",
+        "D. $2x + y \\ge 4$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Mỗi ngày Nam cần ít nhất 900 đơn vị protein. 1 kg thịt bò chứa 800 đơn vị protein, 1 kg thịt lợn chứa 600 đơn vị protein. Do đó: $800x + 600y \\ge 900 \\Leftrightarrow 8x + 6y \\ge 9$.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -21498,10 +21498,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 86 đến 88:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
       "question": "Tính góc giữa $SD$ và mặt phẳng $(ABCD)$ (làm tròn đến độ):",
       "options": [
-        "A. $30^\\circ$",
-        "B. $45^\\circ$",
-        "C. $60^\\circ$",
-        "D. $50^\\circ$"
+        "A. $30^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $50^{\\circ}$"
       ],
       "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -21548,7 +21548,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{2a\\sqrt{285}}{57}$"
       ],
       "correctAnswer": 3,
-      "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^\\circ 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
+      "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^{\\circ} 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -21891,13 +21891,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^{\\circ}\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Sử dụng dữ liệu của thí nghiệm ban đầu (15,0g Glucose trong 200g nước). Tính nhiệt độ sôi của dung dịch thu được? Kết quả làm tròn đến hai chữ số sau dấu phẩy.",
       "options": [
-        "$100{,}21^\\circ\\text{C}$",
-        "$105{,}21^\\circ\\text{C}$",
-        "$107{,}21^\\circ\\text{C}$",
-        "$109{,}21^\\circ\\text{C}$"
+        "$100{,}21^{\\circ}\\text{C}$",
+        "$105{,}21^{\\circ}\\text{C}$",
+        "$107{,}21^{\\circ}\\text{C}$",
+        "$109{,}21^{\\circ}\\text{C}$"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Khối lượng mol glucose = 180,0 g/mol. → Số mol = 15,0: 180,0 = 0,0833 mol → m = 0,0833: 0,200 = 0,4165 mol/kg → ΔTb = 0,512 × 0,4165 = 0,213 °C → Nhiệt độ sôi dung dịch 100, 00 0, 2133 100, 2133... = + =",
@@ -21913,7 +21913,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 104 và 105:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^{\\circ}\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết; (2) Dung dịch chứa 1 mol Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) trong 1 kg nước; (3) Dung dịch chứa 0,5 mol $\\text{MgCl}_2$ trong 1 kg nước (giả sử điện li hoàn toàn); (4) Dung dịch chứa 1 mol $\\text{NaCl}$ trong 1 kg nước (giả sử điện li hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao):",
       "options": [
         "A. (1) < (2) < (3) < (4)",
@@ -21922,7 +21922,7 @@ export const QUESTIONS_DATA = {
         "D. (4) < (3) < (2) < (1)"
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^\\circ C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
+      "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^{\\circ} C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -23742,15 +23742,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 68 và 69:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một cửa hàng gạo tháng này cần nhập hai loại gạo là gạo loại I và gạo loại II. Số tiền chi cho việc nhập hai loại gạo này không quá 100 triệu đồng. Gạo loại I mua vào với giá 30 triệu đồng/ tấn, lợi nhuận dự kiến là 2 triệu đồng/tấn. Gạo loại II nhập vào với giá 40 triệu đồng/tấn và lợi nhuận dự kiến là 2,5 triệu đồng/tấn. Cửa hàng ước tính doanh số bán ra một tháng của hai loại gạo này không quá 3 tấn. Giả sử cửa hàng cần nhập x (tấn) gạo loại I và y (tấn) gạo loại II.",
-      "question": "Lợi nhuận của cửa hàng được xác định bởi biểu thức",
+      "question": "Lợi nhuận của cửa hàng được xác định bởi biểu thức:",
       "options": [
-        "A. 2 2,5 x y +",
-        "B. 2,5 2 x y +",
-        "C. 30 40 x y +",
-        "D. 40 30 x y +"
+        "A. $F(x, y) = 2x + 2,5y$",
+        "B. $F(x, y) = 2,5x + 2y$",
+        "C. $F(x, y) = 30x + 40y$",
+        "D. $F(x, y) = 40x + 30y$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Lợi nhuận dự kiến khi bán $x$ tấn gạo loại I (2 triệu đồng/tấn) và $y$ tấn gạo loại II (2,5 triệu đồng/tấn) là $F(x, y) = 2x + 2,5y$ (triệu đồng).",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -23918,15 +23918,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 78:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp tứ giác đều . S ABCD có cạnh đáy bằng 2a , cạnh bên bằng 3a , O là tâm đáy.",
-      "question": "Thể tích khối chóp . S ABCD là:",
+      "question": "Thể tích khối chóp $S.ABCD$ là:",
       "options": [
-        "A. 3 7 a",
-        "B. 3 2 7 a",
-        "C. 3 4 7 a",
-        "D. 3 4 7 3 a"
+        "A. $\\frac{4a^3\\sqrt{7}}{3}$",
+        "B. $2a^3\\sqrt{7}$",
+        "C. $\\frac{2a^3\\sqrt{7}}{3}$",
+        "D. $a^3\\sqrt{7}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Đáy $ABCD$ là hình vuông cạnh $2a \\Rightarrow S_{ABCD} = (2a)^2 = 4a^2$. Tâm đáy $O \\Rightarrow OA = \\frac{AC}{2} = \\frac{2a\\sqrt{2}}{2} = a\\sqrt{2}$. Chiều cao $SO = \\sqrt{SA^2 - OA^2} = \\sqrt{(3a)^2 - (a\\sqrt{2})^2} = a\\sqrt{7}$. Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4a^2 \\cdot a\\sqrt{7} = \\frac{4a^3\\sqrt{7}}{3}$.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -23962,15 +23962,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 78:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp tứ giác đều . S ABCD có cạnh đáy bằng 2a , cạnh bên bằng 3a , O là tâm đáy.",
-      "question": "Tính khoảng cách giữa hai đường thẳng SD và CN , với N là trung điểm SB .",
+      "question": "Tính khoảng cách giữa hai đường thẳng $SD$ và $CN$, với $N$ là trung điểm $SB$:",
       "options": [
-        "A. 14 2 a",
-        "B. 2 14 3 a",
-        "C. 14 3 a",
-        "D. 14 6 a"
+        "A. $\\frac{a\\sqrt{14}}{3}$",
+        "B. $\\frac{2a\\sqrt{14}}{3}$",
+        "C. $\\frac{a\\sqrt{14}}{2}$",
+        "D. $\\frac{a\\sqrt{14}}{6}$"
       ],
       "correctAnswer": 0,
-      "explanation": "85) 2 2 7 SO SA AO a = - = ( ) 3 2 . 1 1 4 7 . . . 7. 2 3 3 3 S ABC ABCD a V SO S a a \\Rightarrow = = = 86) ( ) ( ) SB SAC S BO SAC \\cap = \\Rightarrow SO là hình chiếu của SB trên mp ( ) SAC ( ) ( ) ( ) \\bullet , , SB SAC SB SO BSO \\Rightarrow = = Ta có \\bullet 2 sin 3 OB BSO SB = = \\bullet 0 28,1 BSO \\Rightarrow 87) Gọi I là trung điểm của OB ( ) SD ANC \\Rightarrow I N O C A B D S K ( , ) ( , ( )) ( , ( )) ( , ( ) 2 ( , ( )) d SD CN d SD ANC d D ANC d B ANC d I ANC \\Rightarrow = = = = Kẻ IK ON ( ) IK ON IK ANC IK AC \\Rightarrow \\Rightarrow ( , ( )) d I ANC IK \\Rightarrow = 2 2 . 14 6 IN IO a IK IN IO = = + Vậy 14 ( , ) 3 a d SD CN =",
+      "explanation": "Gọi $I$ là trung điểm $OB$. Ta có khoảng cách giữa hai đường thẳng chéo nhau $SD$ và $CN$ là $d(SD, CN) = \\frac{a\\sqrt{14}}{3}$.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -24006,15 +24006,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
+      "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng:",
       "options": [
-        "A. 1 0 x y - - =",
-        "B. 1 0 x y - + =",
-        "C. 1 0 x y + - =",
-        "D. 1 0 x y + + ="
+        "A. $x - y - 1 = 0$",
+        "B. $x - y + 1 = 0$",
+        "C. $x + y - 1 = 0$",
+        "D. $x + y + 1 = 0$"
       ],
       "correctAnswer": 0,
-      "explanation": "( ) 6 6 0 1 0 f x x x y '' = - = \\Leftrightarrow = \\Rightarrow = Vậy tâm đối xứng là ( ) 1;0 I nằm trên đường thẳng 1 0 x y - - =",
+      "explanation": "Điểm uốn (tâm đối xứng) của đồ thị hàm số thỏa mãn $y'' = 0 \\Leftrightarrow 6x - 6 = 0 \\Leftrightarrow x = 1 \\Rightarrow y = 0$. Điểm $I(1; 0)$ thuộc đường thẳng $x - y - 1 = 0$ (vì $1 - 0 - 1 = 0$).",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -24226,7 +24226,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong tam giác $ABC$, biết $\\widehat{A} = 30^\\circ$, $\\widehat{B} = 45^\\circ$ và cạnh $a = BC = 6$. Tính độ dài cạnh $b = AC$:",
+      "question": "Trong tam giác $ABC$, biết $\\widehat{A} = 30^{\\circ}$, $\\widehat{B} = 45^{\\circ}$ và cạnh $a = BC = 6$. Tính độ dài cạnh $b = AC$:",
       "options": [
         "A. $b = 6\\sqrt{2}$",
         "B. $b = 3\\sqrt{2}$",
@@ -24234,7 +24234,7 @@ export const QUESTIONS_DATA = {
         "D. $b = 3\\sqrt{6}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Theo định lý sin cho tam giác ABC: 2 sin sin45 2 6 6 6 2. 1 sin sin sin sin30 2 a b B b a A B A = \\Rightarrow = = = = ^\\circ ^\\circ",
+      "explanation": "Theo định lý sin cho tam giác ABC: 2 sin sin45 2 6 6 6 2. 1 sin sin sin sin30 2 a b B b a A B A = \\Rightarrow = = = = ^{\\circ} ^{\\circ}",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -24516,8 +24516,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
-      "question": "Số gốc $\\text{Cl}^\\bullet$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\text{Cl}^{\\bullet}$):\n$\\text{CF}_2\\text{Cl}_2 \\xrightarrow{h\\nu} {}^{\\bullet}\\text{CF}_2\\text{Cl} + \\text{Cl}^{\\bullet}$\nMỗi gốc $\\text{Cl}^{\\bullet}$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\text{Cl}^{\\bullet} + \\text{O}_3 \\to \\text{ClO}^{\\bullet} + \\text{O}_2$\n$\\text{ClO}^{\\bullet} + \\text{O} \\to \\text{Cl}^{\\bullet} + \\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\times 10^{23}$ hạt; nguyên tử khối: $\\text{C} = 12; \\text{F} = 19; \\text{Cl} = 35{,}5; \\text{O} = 16$.",
+      "question": "Số gốc $\\text{Cl}^{\\bullet}$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
       "options": [
         "A. $12{,}04 \\times 10^{23}$",
         "B. $3{,}01 \\times 10^{23}$",
@@ -24539,7 +24539,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\text{Cl}^{\\bullet}$):\n$\\text{CF}_2\\text{Cl}_2 \\xrightarrow{h\\nu} {}^{\\bullet}\\text{CF}_2\\text{Cl} + \\text{Cl}^{\\bullet}$\nMỗi gốc $\\text{Cl}^{\\bullet}$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\text{Cl}^{\\bullet} + \\text{O}_3 \\to \\text{ClO}^{\\bullet} + \\text{O}_2$\n$\\text{ClO}^{\\bullet} + \\text{O} \\to \\text{Cl}^{\\bullet} + \\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\times 10^{23}$ hạt; nguyên tử khối: $\\text{C} = 12; \\text{F} = 19; \\text{Cl} = 35{,}5; \\text{O} = 16$.",
       "question": "Giả thiết trung bình một gốc Cl• phá huỷ 1 000 phân tử ozone. Khối lượng ozone bị phá huỷ bởi lượng gốc Cl• trên là",
       "options": [
         "A. 144 kg.",
@@ -24562,7 +24562,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\text{Cl}^{\\bullet}$):\n$\\text{CF}_2\\text{Cl}_2 \\xrightarrow{h\\nu} {}^{\\bullet}\\text{CF}_2\\text{Cl} + \\text{Cl}^{\\bullet}$\nMỗi gốc $\\text{Cl}^{\\bullet}$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\text{Cl}^{\\bullet} + \\text{O}_3 \\to \\text{ClO}^{\\bullet} + \\text{O}_2$\n$\\text{ClO}^{\\bullet} + \\text{O} \\to \\text{Cl}^{\\bullet} + \\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\times 10^{23}$ hạt; nguyên tử khối: $\\text{C} = 12; \\text{F} = 19; \\text{Cl} = 35{,}5; \\text{O} = 16$.",
       "question": "Từ 32,34 gam CCl4 phản ứng với HF dư, thu được HCl và 12,1 gam Freon-12 (CCl2F2). Hiệu suất của phản ứng tạo Freon-12 là",
       "options": [
         "A. 45,67%.",
@@ -24585,7 +24585,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Lực đẩy của tên lửa ion trong chân không được tạo ra nhờ",
       "options": [
         "A. Áp suất của khí nóng sinh ra khi đốt nhiên liệu.",
@@ -24608,7 +24608,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Xét các phát biểu sau về động cơ tên lửa ion: (1) Động cơ ion chỉ hoạt động được trong môi trường có không khí. (2) Vận tốc phụt của ion càng lớn thì lực đẩy càng mạnh. (3) Nguồn năng lượng điện của động cơ ion thường là pin mặt trời. (4) So với tên lửa hóa học, động cơ ion tiêu tốn ít nhiên liệu hơn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -24631,7 +24631,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Một động cơ ion phóng ra các ion xenon với vận tốc $v = 3{,}0 \\times 10^4\\text{ m/s}$, khối lượng phóng ra mỗi giây là $2{,}0 \\times 10^{-5}\\text{ kg/s}$. Lực đẩy do động cơ tạo ra là:",
       "options": [
         "A. $0{,}3\\text{ N}$",
@@ -26240,20 +26240,21 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Tính thể tích hình chop S.ABC:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 61 đến 63:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
+      "question": "Tính thể tích khối chóp $S.ABC$:",
       "options": [
-        "A. 2 4 a",
-        "B. 4 a",
-        "C. 2 a",
-        "D. 2 2 a"
+        "A. $\\frac{a^3}{3}$",
+        "B. $\\frac{a^3\\sqrt{5}}{6}$",
+        "C. $\\frac{a^3}{6}$",
+        "D. $\\frac{2a^3}{3}$"
       ],
       "correctAnswer": 0,
-      "explanation": "2 2 2 2 2 3 2 1 2, 2 5 2 3 1 1 1 3 3 3 3 2 6 ABC ABC AB a S a SA SB AB a a a a V S SA a a = = = - = - = = \\cdot = \\cdot \\cdot = \\Delta \\Delta",
+      "explanation": "Ta có tam giác $ABC$ vuông cân tại $A$ nên diện tích đáy $S_{\\Delta ABC} = \\frac{1}{2} AB \\cdot AC = \\frac{1}{2} a^2$. Chiều cao $SA = \\sqrt{SB^2 - AB^2} = \\sqrt{5a^2 - a^2} = 2a$. Thể tích khối chóp là $V = \\frac{1}{3} S_{\\Delta ABC} \\cdot SA = \\frac{1}{3} \\cdot \\frac{a^2}{2} \\cdot 2a = \\frac{a^3}{3}$.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_pyramid_s_abc"
     },
     {
       "id": "vact-moon-de-01-q62",
@@ -26262,20 +26263,21 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Tính sin góc giữa đường thẳng SC và mặt phẳng (SAB):",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 61 đến 63:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
+      "question": "Tính sin của góc giữa đường thẳng $SC$ và mặt phẳng $(SAB)$:",
       "options": [
-        "A. $\\frac{3}{4}$",
-        "B. $\\frac{2}{4}$",
-        "C. $\\frac{3}{3}$",
-        "D. 2 2"
+        "A. $\\frac{\\sqrt{2}}{4}$",
+        "B. $\\frac{\\sqrt{5}}{5}$",
+        "C. $\\frac{\\sqrt{5}}{4}$",
+        "D. $\\frac{1}{2}$"
       ],
       "correctAnswer": 0,
       "explanation": "Gọi C' là hình chiếu của C lên ( ) SAB ( ) ( )\\bullet \\bullet , SC SAB CSC = ' \\Rightarrow 2 2 2 2 2 2 2 2 . . 2 ' , 3 2 2 CA CB a a a CC SC SA AC a a a CA CB a a = = = = + = + = + + Lại có: ( ) ' 2 2 sin ' : 2 2 4 CC a CSC a SC = = =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_pyramid_s_abc"
     },
     {
       "id": "vact-moon-de-01-q63",
@@ -26284,20 +26286,21 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Tính góc giữa hai mặt phẳng (SBC) và (SAC):",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 61 đến 63:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
+      "question": "Tính góc giữa hai mặt phẳng $(SBC)$ và $(SAC)$:",
       "options": [
-        "A. $$45^\\circ$$",
-        "B. $$90^\\circ$$",
-        "C. $$60^\\circ$$",
-        "D. $$30^\\circ$$"
+        "A. $45^\\circ$",
+        "B. $90^\\circ$",
+        "C. $60^\\circ$",
+        "D. $30^\\circ$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Ta có: ( ) ( ) ( ) BC AC BC SAC SBC SAC BC SA \\Rightarrow \\Rightarrow",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_pyramid_s_abc"
     },
     {
       "id": "vact-moon-de-01-q64",
@@ -26659,7 +26662,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
+      "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^{\\circ}, \\hat{C} = 75^{\\circ}$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
         "B. $7\\text{ cm}$",
@@ -26667,7 +26670,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^\\circ Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^\\circ = \\Rightarrow = = = + ^\\circ . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
+      "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^{\\circ} Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^{\\circ} = \\Rightarrow = = = + ^{\\circ} . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -26727,13 +26730,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
-        "A. 2 3 1 x x y x - = -",
-        "B. 2 3 2 3 x y x + = -",
-        "C. 2 2 3 2 x y x x - = -",
-        "D. 2 1 3 x y x - = +"
+        "A. $y = \\frac{x - 2}{x^2 - 3x + 2}$",
+        "B. $y = \\frac{\\sqrt{x^2 + 3}}{2x - 3}$",
+        "C. $y = \\frac{x^2 - 3x}{x - 1}$",
+        "D. $y = \\frac{\\sqrt{1 - x^2}}{x + 3}$"
       ],
       "correctAnswer": 0,
-      "explanation": "2 3 lim 1 x x x x \\to \\pm \\infty - = \\pm \\infty - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - không có đường tiệm cận ngang. 2 2 3 1 3 1 lim ; lim 2 3 2 2 3 2 x x x x x x \\to +\\infty \\to -\\infty + + = = - - - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - có hai đường tiệm cận ngang. 2 1 3 x y x - = + có tập xác định [ ] 1;1 - \\Rightarrow đồ thị hàm số không có đường tiệm cận ngang. 2 2 3 lim 0 2 x x x x \\to \\pm \\infty - = - \\Rightarrow Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y =",
+      "explanation": "Ta có:\n- Với $y = \\frac{x - 2}{x^2 - 3x + 2} = \\frac{1}{x - 1}$ (với $x \\ne 2$), ta có $\\lim_{x \\to \\pm \\infty} y = 0 \\Rightarrow y = 0$ là đường tiệm cận ngang duy nhất.\n- Với $y = \\frac{\\sqrt{x^2 + 3}}{2x - 3}$, $\\lim_{x \\to +\\infty} y = \\frac{1}{2}$ và $\\lim_{x \\to -\\infty} y = -\\frac{1}{2}$ (2 tiệm cận ngang).\n- Với $y = \\frac{x^2 - 3x}{x - 1}$, $\\lim_{x \\to \\pm\\infty} y = \\pm\\infty$ (không có tiệm cận ngang).\n- Với $y = \\frac{\\sqrt{1 - x^2}}{x + 3}$, TXĐ là $[-1; 1]$ nên không có tiệm cận ngang.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -28939,7 +28942,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
+      "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^{\\circ}, \\hat{C} = 75^{\\circ}$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
         "B. $7\\text{ cm}$",
@@ -28947,7 +28950,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^\\circ Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^\\circ = \\Rightarrow = = = + ^\\circ . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
+      "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^{\\circ} Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^{\\circ} = \\Rightarrow = = = + ^{\\circ} . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -29007,13 +29010,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
-        "A. 2 3 1 x x y x - = -",
-        "B. 2 3 2 3 x y x + = -",
-        "C. 2 2 3 2 x y x x - = -",
-        "D. 2 1 3 x y x - = +"
+        "A. $y = \\frac{x - 2}{x^2 - 3x + 2}$",
+        "B. $y = \\frac{\\sqrt{x^2 + 3}}{2x - 3}$",
+        "C. $y = \\frac{x^2 - 3x}{x - 1}$",
+        "D. $y = \\frac{\\sqrt{1 - x^2}}{x + 3}$"
       ],
       "correctAnswer": 0,
-      "explanation": "2 3 lim 1 x x x x \\to \\pm \\infty - = \\pm \\infty - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - không có đường tiệm cận ngang. 2 2 3 1 3 1 lim ; lim 2 3 2 2 3 2 x x x x x x \\to +\\infty \\to -\\infty + + = = - - - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - có hai đường tiệm cận ngang. 2 1 3 x y x - = + có tập xác định [ ] 1;1 - \\Rightarrow đồ thị hàm số không có đường tiệm cận ngang. 2 2 3 lim 0 2 x x x x \\to \\pm \\infty - = - \\Rightarrow Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y =",
+      "explanation": "Ta có:\n- Với $y = \\frac{x - 2}{x^2 - 3x + 2} = \\frac{1}{x - 1}$ (với $x \\ne 2$), ta có $\\lim_{x \\to \\pm \\infty} y = 0 \\Rightarrow y = 0$ là đường tiệm cận ngang duy nhất.\n- Với $y = \\frac{\\sqrt{x^2 + 3}}{2x - 3}$, $\\lim_{x \\to +\\infty} y = \\frac{1}{2}$ và $\\lim_{x \\to -\\infty} y = -\\frac{1}{2}$ (2 tiệm cận ngang).\n- Với $y = \\frac{x^2 - 3x}{x - 1}$, $\\lim_{x \\to \\pm\\infty} y = \\pm\\infty$ (không có tiệm cận ngang).\n- Với $y = \\frac{\\sqrt{1 - x^2}}{x + 3}$, TXĐ là $[-1; 1]$ nên không có tiệm cận ngang.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -29335,15 +29338,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Thể tích khối chóp . S ABCD là:",
+      "question": "Thể tích khối chóp $S.ABCD$ là:",
       "options": [
-        "A. $\\frac{2a^3\\sqrt{15}}{3}$",
-        "B. $\\frac{a^3\\sqrt{15}}{3}$",
-        "C. $\\frac{a^3\\sqrt{15}}{6}$",
-        "D. $\\frac{4a^3\\sqrt{15}}{3}$"
+        "A. $\\frac{4a^3\\sqrt{7}}{3}$",
+        "B. $2a^3\\sqrt{7}$",
+        "C. $\\frac{2a^3\\sqrt{7}}{3}$",
+        "D. $a^3\\sqrt{7}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Đáy $ABCD$ là hình vuông cạnh $2a \\Rightarrow S_{ABCD} = (2a)^2 = 4a^2$. Tâm đáy $O \\Rightarrow OA = \\frac{AC}{2} = \\frac{2a\\sqrt{2}}{2} = a\\sqrt{2}$. Chiều cao $SO = \\sqrt{SA^2 - OA^2} = \\sqrt{(3a)^2 - (a\\sqrt{2})^2} = a\\sqrt{7}$. Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4a^2 \\cdot a\\sqrt{7} = \\frac{4a^3\\sqrt{7}}{3}$.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -29359,10 +29362,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng:",
       "options": [
-        "A. $60^\\circ$",
-        "B. $45^\\circ$",
-        "C. $30^\\circ$",
-        "D. $75^\\circ$"
+        "A. $60^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $30^{\\circ}$",
+        "D. $75^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -29387,7 +29390,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{\\sqrt{285}}{19}a$"
       ],
       "correctAnswer": 1,
-      "explanation": "85) 2 . 2 ABCD S AB BC a = = 3 1 2 15 . 3 3 ABCD V S SA a \\Rightarrow = = 86) ) ( ) t ( ai A C SC ABCD C A SA BCD A \\cap = \\Rightarrow là hình chiếu của SC lên mặt phẳng ( ) ABCD \\bullet ( , ( )) ( , ) SC ABCD SC AC SCA \\Rightarrow = = 2 2 5 AC AB a BC = = + \\bullet \\bullet 15 tan 3 60 5 SA a SCA SCA AC a = = = \\Rightarrow = ^\\circ 87) Kẻ AH SD tại H và chứng minh ( ) AH SCD tại H . Suy ra ( ) ( ) d , A SCD AH = Tính 2 2 . 2 285 19 AS AD AH a A AD S = = + Gọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra ( ) ( ) ( ) d , 1 1 2 285 d , 3 3 57 d , G SCD GM G SCD AH a AM A SCD [ ] ] ] = = \\Rightarrow = = [ ] ] ][ ] ] ] Dựa vào thông tin sau, trả lời các câu hỏi Cho hàm số ( ) 2 2 2 1 x x f x x + + = + có đồ thị (C).",
+      "explanation": "85) 2 . 2 ABCD S AB BC a = = 3 1 2 15 . 3 3 ABCD V S SA a \\Rightarrow = = 86) ) ( ) t ( ai A C SC ABCD C A SA BCD A \\cap = \\Rightarrow là hình chiếu của SC lên mặt phẳng ( ) ABCD \\bullet ( , ( )) ( , ) SC ABCD SC AC SCA \\Rightarrow = = 2 2 5 AC AB a BC = = + \\bullet \\bullet 15 tan 3 60 5 SA a SCA SCA AC a = = = \\Rightarrow = ^{\\circ} 87) Kẻ AH SD tại H và chứng minh ( ) AH SCD tại H . Suy ra ( ) ( ) d , A SCD AH = Tính 2 2 . 2 285 19 AS AD AH a A AD S = = + Gọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra ( ) ( ) ( ) d , 1 1 2 285 d , 3 3 57 d , G SCD GM G SCD AH a AM A SCD [ ] ] ] = = \\Rightarrow = = [ ] ] ][ ] ] ] Dựa vào thông tin sau, trả lời các câu hỏi Cho hàm số ( ) 2 2 2 1 x x f x x + + = + có đồ thị (C).",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -31613,15 +31616,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Thể tích khối chóp . S ABCD là:",
+      "question": "Thể tích khối chóp $S.ABCD$ là:",
       "options": [
-        "A. $\\frac{2a^3\\sqrt{15}}{3}$",
-        "B. $\\frac{a^3\\sqrt{15}}{3}$",
-        "C. $\\frac{a^3\\sqrt{15}}{6}$",
-        "D. $\\frac{4a^3\\sqrt{15}}{3}$"
+        "A. $\\frac{4a^3\\sqrt{7}}{3}$",
+        "B. $2a^3\\sqrt{7}$",
+        "C. $\\frac{2a^3\\sqrt{7}}{3}$",
+        "D. $a^3\\sqrt{7}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Đáy $ABCD$ là hình vuông cạnh $2a \\Rightarrow S_{ABCD} = (2a)^2 = 4a^2$. Tâm đáy $O \\Rightarrow OA = \\frac{AC}{2} = \\frac{2a\\sqrt{2}}{2} = a\\sqrt{2}$. Chiều cao $SO = \\sqrt{SA^2 - OA^2} = \\sqrt{(3a)^2 - (a\\sqrt{2})^2} = a\\sqrt{7}$. Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4a^2 \\cdot a\\sqrt{7} = \\frac{4a^3\\sqrt{7}}{3}$.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -31637,10 +31640,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng:",
       "options": [
-        "A. $60^\\circ$",
-        "B. $45^\\circ$",
-        "C. $30^\\circ$",
-        "D. $75^\\circ$"
+        "A. $60^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $30^{\\circ}$",
+        "D. $75^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -31665,7 +31668,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{\\sqrt{285}}{19}a$"
       ],
       "correctAnswer": 1,
-      "explanation": "85) 2 . 2 ABCD S AB BC a = = 3 1 2 15 . 3 3 ABCD V S SA a \\Rightarrow = = 86) ) ( ) t ( ai A C SC ABCD C A SA BCD A \\cap = \\Rightarrow là hình chiếu của SC lên mặt phẳng ( ) ABCD \\bullet ( , ( )) ( , ) SC ABCD SC AC SCA \\Rightarrow = = 2 2 5 AC AB a BC = = + \\bullet \\bullet 15 tan 3 60 5 SA a SCA SCA AC a = = = \\Rightarrow = ^\\circ 87) Kẻ AH SD tại H và chứng minh ( ) AH SCD tại H . Suy ra ( ) ( ) d , A SCD AH = Tính 2 2 . 2 285 19 AS AD AH a A AD S = = + Gọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra ( ) ( ) ( ) d , 1 1 2 285 d , 3 3 57 d , G SCD GM G SCD AH a AM A SCD [ ] ] ] = = \\Rightarrow = = [ ] ] ][ ] ] ] Dựa vào thông tin sau, trả lời các câu hỏi Cho hàm số ( ) 2 2 2 1 x x f x x + + = + có đồ thị (C).",
+      "explanation": "85) 2 . 2 ABCD S AB BC a = = 3 1 2 15 . 3 3 ABCD V S SA a \\Rightarrow = = 86) ) ( ) t ( ai A C SC ABCD C A SA BCD A \\cap = \\Rightarrow là hình chiếu của SC lên mặt phẳng ( ) ABCD \\bullet ( , ( )) ( , ) SC ABCD SC AC SCA \\Rightarrow = = 2 2 5 AC AB a BC = = + \\bullet \\bullet 15 tan 3 60 5 SA a SCA SCA AC a = = = \\Rightarrow = ^{\\circ} 87) Kẻ AH SD tại H và chứng minh ( ) AH SCD tại H . Suy ra ( ) ( ) d , A SCD AH = Tính 2 2 . 2 285 19 AS AD AH a A AD S = = + Gọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra ( ) ( ) ( ) d , 1 1 2 285 d , 3 3 57 d , G SCD GM G SCD AH a AM A SCD [ ] ] ] = = \\Rightarrow = = [ ] ] ][ ] ] ] Dựa vào thông tin sau, trả lời các câu hỏi Cho hàm số ( ) 2 2 2 1 x x f x x + + = + có đồ thị (C).",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -32627,7 +32630,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 110 và 111:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 110 và 111:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Xét các phát biểu sau về pin mặt trời: (1) Dòng điện sinh ra trong pin mặt trời là dòng xoay chiều. (2) Khi cường độ ánh sáng tăng, công suất điện của pin tăng. (3) Các tấm pin được ghép song song để tăng hiệu điện thế tổng. (4) Hiệu suất của pin mặt trời bị giới hạn bởi tính chất của vật liệu bán dẫn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -32649,7 +32652,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 110 và 111:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 110 và 111:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Một tấm pin mặt trời có hiệu điện thế danh định $U = 12\\text{ V}$, dòng điện $I = 4\\text{ A}$, hoạt động với hiệu suất 80%. Công suất bức xạ mặt trời chiếu vào tấm pin là:",
       "options": [
         "A. 48 W",
@@ -34543,16 +34546,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Góc giữa đường thẳng $SA$ và mặt phẳng $(ABC)$ là:",
       "options": [
-        "A. $45^\\circ$",
-        "B. $30^\\circ$",
-        "C. $60^\\circ$",
-        "D. $75^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $30^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $75^{\\circ}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có tam giác SBC đều và H là trung điểm của BC . Suy ra SH BC . Mà ( ) ( ) SBC ABC theo giao tuyến BC nên suy ra ( ) SH ABC . Vì ( ) SH ABC nên HA là hình chiếu của SA trên mặt phẳng ( ABC ). Do đó ( ) ( ) ( ) \\bullet , , SA ABC SA AH SAH = = . Trong tam giác vuông SHA , ta có \\bullet tan SH SAH AH = . Tam giác SBC đều cạnh 2a nên 3 SH a = . Tam giác ABC vuông tại A nên 1 2 AH BC a = = . Suy ra \\bullet tan 3 SH SAH AH = = , suy ra \\bullet 60 SAH = ^\\circ .",
+      "explanation": "Ta có tam giác SBC đều và H là trung điểm của BC . Suy ra SH BC . Mà ( ) ( ) SBC ABC theo giao tuyến BC nên suy ra ( ) SH ABC . Vì ( ) SH ABC nên HA là hình chiếu của SA trên mặt phẳng ( ABC ). Do đó ( ) ( ) ( ) \\bullet , , SA ABC SA AH SAH = = . Trong tam giác vuông SHA , ta có \\bullet tan SH SAH AH = . Tam giác SBC đều cạnh 2a nên 3 SH a = . Tam giác ABC vuông tại A nên 1 2 AH BC a = = . Suy ra \\bullet tan 3 SH SAH AH = = , suy ra \\bullet 60 SAH = ^{\\circ} .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -34565,7 +34568,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Tan của góc giữa hai mặt phẳng ( SAC ) và ( ABC ) bằng",
       "options": [
         "A. $\\frac{3}{2}$",
@@ -34587,7 +34590,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Khoảng cách từ B đến mặt phẳng ( SAC ) là",
       "options": [
         "A. $\\frac{3a\\sqrt{39}}{13}$",
@@ -34851,7 +34854,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Xét các phát biểu sau về pin mặt trời: (1) Dòng điện sinh ra trong pin mặt trời là dòng xoay chiều. (2) Khi cường độ ánh sáng tăng, công suất điện của pin tăng. (3) Các tấm pin được ghép song song để tăng hiệu điện thế tổng. (4) Hiệu suất của pin mặt trời bị giới hạn bởi tính chất của vật liệu bán dẫn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -34873,7 +34876,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Một tấm pin mặt trời có hiệu điện thế danh định $U = 12\\text{ V}$, dòng điện $I = 4\\text{ A}$, hoạt động với hiệu suất 80%. Công suất bức xạ mặt trời chiếu vào tấm pin là:",
       "options": [
         "A. 48 W",
@@ -35492,8 +35495,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 120:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
-      "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^\\circ\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời câu 120:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^{\\circ}\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
       "options": [
         "A. 1",
         "B. 2",
@@ -37123,7 +37126,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
+      "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^{\\circ}$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
         "B. $7\\text{ cm}$",
@@ -37145,7 +37148,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^\\circ$. Tính $BC$:",
+      "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^{\\circ}$. Tính $BC$:",
       "options": [
         "A. $\\frac{3}{3}$",
         "B. 3",
@@ -37153,7 +37156,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{6}{2}$"
       ],
       "correctAnswer": 0,
-      "explanation": "2 2 2 2 2 2 2 2 2 2 2 2 2 cos120 (18 3) 972 (30 3) 2700 18 30 3 1620 , , 7 49 7 49 49 49 972 2700 1620 5292 108 6 3. 49 49 BC AB AC AB AC AB AC AB AC AB AC AB AC BC BC = + - \\cdot \\cdot \\cdot = + + \\cdot \\cdot \\cdot = = = = \\cdot = = + + = = = \\Rightarrow = ^\\circ",
+      "explanation": "2 2 2 2 2 2 2 2 2 2 2 2 2 cos120 (18 3) 972 (30 3) 2700 18 30 3 1620 , , 7 49 7 49 49 49 972 2700 1620 5292 108 6 3. 49 49 BC AB AC AB AC AB AC AB AC AB AC AB AC BC BC = + - \\cdot \\cdot \\cdot = + + \\cdot \\cdot \\cdot = = = = \\cdot = = + + = = = \\Rightarrow = ^{\\circ}",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -37367,10 +37370,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\nCho đồ thị $(C_m): y = x^3 - 3x^2 + mx + 4 - m$ và đường thẳng $d: y = x - 3$.",
       "question": "Tính góc giữa đường thẳng SC và mặt phẳng:",
       "options": [
-        "A. $28{,}34^\\circ$",
-        "B. $18{,}43^\\circ$",
-        "C. $15{,}88^\\circ$",
-        "D. $22{,}58^\\circ$"
+        "A. $28{,}34^{\\circ}$",
+        "B. $18{,}43^{\\circ}$",
+        "C. $15{,}88^{\\circ}$",
+        "D. $22{,}58^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) , 1 ; ; , 10 5 d A SBD OA a d C SBD d A SBD OC d C SBD = = \\Rightarrow = = Ta tính: ( ) ( )\\bullet , SC SBD \\alpha = qua công thức ( ) ( ) , 10 10 sin : 2 5 10 d C SBD a a SC \\alpha = = =",
@@ -37717,8 +37720,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 103:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
-      "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^\\circ\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 103:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^{\\circ}\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
       "options": [
         "A. 1",
         "B. 2",
@@ -37739,7 +37742,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 103:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 103:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Một tấm pin có công suất $400\\text{ W}_p$, trong $1\\text{ h}$ nắng tiêu chuẩn sẽ tạo ra $400\\text{ Wh}$ điện. Trong một tháng (30 ngày) thì lượng điện năng mà tấm pin này tạo ra là bao nhiêu 𝑘$\\text{Wh}$?",
       "options": [
         "A. 28,8.",
@@ -37761,7 +37764,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 103:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 103:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Nếu tấm pin trên có diện tích bề mặt là $2\\text{ m}^2$ thì hiệu suất của tấm pin sẽ là:",
       "options": [
         "A. 10%",
@@ -39636,10 +39639,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
       "question": "Tính góc giữa đường thẳng $SC$ và mặt phẳng $(SBD)$ (làm tròn đến hàng phần trăm độ):",
       "options": [
-        "A. $28{,}34^\\circ$",
-        "B. $18{,}43^\\circ$",
-        "C. $15{,}88^\\circ$",
-        "D. $22{,}58^\\circ$"
+        "A. $28{,}34^{\\circ}$",
+        "B. $18{,}43^{\\circ}$",
+        "C. $15{,}88^{\\circ}$",
+        "D. $22{,}58^{\\circ}$"
       ],
       "correctAnswer": 1,
       "explanation": "( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) , 1 ; ; , 10 5 d A SBD OA a d C SBD d A SBD OC d C SBD = = \\Rightarrow = = Ta tính: ( ) ( )\\bullet , SC SBD \\alpha = qua công thức ( ) ( ) , 10 10 sin : 2 5 10 d C SBD a a SC \\alpha = = =",
@@ -40032,13 +40035,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ nội tiếp đường tròn bán kính $R$, có $AB = R, AC = R\\sqrt{3}$. Tính góc $A$ biết góc $B$ là góc tù:",
       "options": [
-        "A. $45^\\circ$",
-        "B. $30^\\circ$",
-        "C. $60^\\circ$",
-        "D. $90^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $30^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $90^{\\circ}$"
       ],
       "correctAnswer": 1,
-      "explanation": "Góc B là góc tù nên , A C là góc nhọn. Ta có: 1 2 2 sin 30 sin sin 2 AB R R R C C C C = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^\\circ (vì C nhọn). Tương tự: 3 3 2 2 sin 120 sin sin 2 AC R R R B B B B = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^\\circ (do B tù) Suy ra: ( ) 180 30 120 30 A = - + =^\\circ ^\\circ ^\\circ ^\\circ .",
+      "explanation": "Góc B là góc tù nên , A C là góc nhọn. Ta có: 1 2 2 sin 30 sin sin 2 AB R R R C C C C = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^{\\circ} (vì C nhọn). Tương tự: 3 3 2 2 sin 120 sin sin 2 AC R R R B B B B = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^{\\circ} (do B tù) Suy ra: ( ) 180 30 120 30 A = - + =^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} .",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -40060,7 +40063,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{5\\sqrt{3}}{2}$"
       ],
       "correctAnswer": 3,
-      "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^\\circ . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^\\circ .",
+      "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^{\\circ} . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^{\\circ} .",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -40098,13 +40101,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
-        "A. 1 2 1 x y x - = +",
-        "B. 2 1 4 y x = -",
-        "C. 3 5 1 x y x + = -",
-        "D. 2 9 x y x x = - +"
+        "A. $y = \\frac{1}{x^2 - 4}$",
+        "B. $y = \\frac{x - 1}{2x + 1}$",
+        "C. $y = \\frac{3x + 5}{x - 1}$",
+        "D. $y = \\frac{x}{x^2 + 9}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có: 2 2 2 2 1 1 lim , lim 4 4 x x x x \\infty \\infty + - \\to \\to - = - = - - - suy ra đồ thị hàm số có hai đường tiệm cận đứng 2 x = \\pm . và 2 1 lim 0 4 x x \\infty \\to = - suy ra đồ thị hàm số có đường tiệm cận ngang 0 y = . Vậy đồ thị hàm số 2 1 4 y x = - có ba đường tiệm cận.",
+      "explanation": "Xét hàm số $y = \\frac{1}{x^2 - 4}$:\n- Ta có $\\lim_{x \\to 2^\\pm} y = \\pm\\infty$ và $\\lim_{x \\to -2^\\pm} y = \\pm\\infty \\Rightarrow$ đồ thị có hai đường tiệm cận đứng là $x = 2$ và $x = -2$.\n- $\\lim_{x \\to \\pm\\infty} y = 0 \\Rightarrow$ đồ thị có một đường tiệm cận ngang là $y = 0$.\nVậy đồ thị có tất cả 3 đường tiệm cận.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -40557,13 +40560,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 110 và 111:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 110 và 111:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^{\\circ}\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Sử dụng dữ liệu của thí nghiệm ban đầu (15,0g Glucose trong 200g nước). Tính nhiệt độ sôi của dung dịch thu được? Kết quả làm tròn đến hai chữ số sau dấu phẩy.",
       "options": [
-        "$100{,}21^\\circ\\text{C}$",
-        "$105{,}21^\\circ\\text{C}$",
-        "$107{,}21^\\circ\\text{C}$",
-        "$109{,}21^\\circ\\text{C}$"
+        "$100{,}21^{\\circ}\\text{C}$",
+        "$105{,}21^{\\circ}\\text{C}$",
+        "$107{,}21^{\\circ}\\text{C}$",
+        "$109{,}21^{\\circ}\\text{C}$"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Khối lượng mol glucose = 180,0 g/mol. → Số mol = 15,0: 180,0 = 0,0833 mol → m = 0,0833: 0,200 = 0,4165 mol/kg → ΔTb = 0,512 × 0,4165 = 0,213 °C → Nhiệt độ sôi dung dịch 100, 00 0, 2133 100, 2133... = + =",
@@ -40579,7 +40582,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 110 và 111:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 110 và 111:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^{\\circ}\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết; (2) Dung dịch chứa 1 mol Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) trong 1 kg nước; (3) Dung dịch chứa 0,5 mol $\\text{MgCl}_2$ trong 1 kg nước (giả sử điện li hoàn toàn); (4) Dung dịch chứa 1 mol $\\text{NaCl}$ trong 1 kg nước (giả sử điện li hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao):",
       "options": [
         "A. (1) < (2) < (3) < (4)",
@@ -40588,7 +40591,7 @@ export const QUESTIONS_DATA = {
         "D. (4) < (3) < (2) < (1)"
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^\\circ C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
+      "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^{\\circ} C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -42300,13 +42303,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ nội tiếp đường tròn bán kính $R$, có $AB = R, AC = R\\sqrt{3}$. Tính góc $A$ biết góc $B$ là góc tù:",
       "options": [
-        "A. $45^\\circ$",
-        "B. $30^\\circ$",
-        "C. $60^\\circ$",
-        "D. $90^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $30^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $90^{\\circ}$"
       ],
       "correctAnswer": 1,
-      "explanation": "Góc B là góc tù nên , A C là góc nhọn. Ta có: 1 2 2 sin 30 sin sin 2 AB R R R C C C C = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^\\circ (vì C nhọn). Tương tự: 3 3 2 2 sin 120 sin sin 2 AC R R R B B B B = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^\\circ (do B tù) Suy ra: ( ) 180 30 120 30 A = - + =^\\circ ^\\circ ^\\circ ^\\circ .",
+      "explanation": "Góc B là góc tù nên , A C là góc nhọn. Ta có: 1 2 2 sin 30 sin sin 2 AB R R R C C C C = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^{\\circ} (vì C nhọn). Tương tự: 3 3 2 2 sin 120 sin sin 2 AC R R R B B B B = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^{\\circ} (do B tù) Suy ra: ( ) 180 30 120 30 A = - + =^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -42328,7 +42331,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{5\\sqrt{3}}{2}$"
       ],
       "correctAnswer": 3,
-      "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^\\circ . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^\\circ .",
+      "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^{\\circ} . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^{\\circ} .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -42366,13 +42369,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
-        "A. 1 2 1 x y x - = +",
-        "B. 2 1 4 y x = -",
-        "C. 3 5 1 x y x + = -",
-        "D. 2 9 x y x x = - +"
+        "A. $y = \\frac{1}{x^2 - 4}$",
+        "B. $y = \\frac{x - 1}{2x + 1}$",
+        "C. $y = \\frac{3x + 5}{x - 1}$",
+        "D. $y = \\frac{x}{x^2 + 9}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có: 2 2 2 2 1 1 lim , lim 4 4 x x x x \\infty \\infty + - \\to \\to - = - = - - - suy ra đồ thị hàm số có hai đường tiệm cận đứng 2 x = \\pm . và 2 1 lim 0 4 x x \\infty \\to = - suy ra đồ thị hàm số có đường tiệm cận ngang 0 y = . Vậy đồ thị hàm số 2 1 4 y x = - có ba đường tiệm cận.",
+      "explanation": "Xét hàm số $y = \\frac{1}{x^2 - 4}$:\n- Ta có $\\lim_{x \\to 2^\\pm} y = \\pm\\infty$ và $\\lim_{x \\to -2^\\pm} y = \\pm\\infty \\Rightarrow$ đồ thị có hai đường tiệm cận đứng là $x = 2$ và $x = -2$.\n- $\\lim_{x \\to \\pm\\infty} y = 0 \\Rightarrow$ đồ thị có một đường tiệm cận ngang là $y = 0$.\nVậy đồ thị có tất cả 3 đường tiệm cận.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -42518,15 +42521,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 79 và 80:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Bạn Nam cần ít nhất 900 đơn vị protein và 400 đơn vị lipit trong thức ăn mỗi ngày. Mỗi kiogam thịt bò chứa 800 đơn vị protein và 200 đơn vị lipit. Mỗi kilogam thịt lợn chứa 600 đơn vị protein và 400 đơn vị lipit. Biết rằng Nam chỉ mua nhiều nhất 1,6 kg thịt bò và 1,1 kg thịt lợn. Giá tiền một kg thịt bò là 160 nghìn đồng, một kg thịt lợn là 110 nghìn đồng. Gọi , x y lần lượt là số kg thịt bò và thịt lợn mà Nam cần mua.",
-      "question": "Đẳng thức nào sau đây đúng?",
+      "question": "Bất đẳng thức nào sau đây mô tả đúng điều kiện về lượng protein Nam cần mỗi ngày?",
       "options": [
-        "A. $8 6 9 x y + \\ge$",
-        "B. $6 8 9 x y + \\ge$",
-        "C. $2 2 x y + \\le$",
-        "D. $2 2 x y + \\ge$"
+        "A. $8x + 6y \\ge 9$",
+        "B. $6x + 8y \\ge 9$",
+        "C. $x + 2y \\le 2$",
+        "D. $2x + y \\ge 4$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Mỗi ngày Nam cần ít nhất 900 đơn vị protein. 1 kg thịt bò chứa 800 đơn vị protein, 1 kg thịt lợn chứa 600 đơn vị protein. Do đó: $800x + 600y \\ge 900 \\Leftrightarrow 8x + 6y \\ge 9$.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -42696,10 +42699,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 87 đến 89:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
       "question": "Tính góc giữa $SD$ và mặt phẳng $(ABCD)$ (làm tròn đến độ):",
       "options": [
-        "A. $30^\\circ$",
-        "B. $45^\\circ$",
-        "C. $60^\\circ$",
-        "D. $50^\\circ$"
+        "A. $30^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $50^{\\circ}$"
       ],
       "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -42746,7 +42749,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{2a\\sqrt{285}}{57}$"
       ],
       "correctAnswer": 3,
-      "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^\\circ 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
+      "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^{\\circ} 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -42781,13 +42784,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^{\\circ}\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Sử dụng dữ liệu của thí nghiệm ban đầu (15,0g Glucose trong 200g nước). Tính nhiệt độ sôi của dung dịch thu được? Kết quả làm tròn đến hai chữ số sau dấu phẩy.",
       "options": [
-        "$100{,}21^\\circ\\text{C}$",
-        "$105{,}21^\\circ\\text{C}$",
-        "$107{,}21^\\circ\\text{C}$",
-        "$109{,}21^\\circ\\text{C}$"
+        "$100{,}21^{\\circ}\\text{C}$",
+        "$105{,}21^{\\circ}\\text{C}$",
+        "$107{,}21^{\\circ}\\text{C}$",
+        "$109{,}21^{\\circ}\\text{C}$"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Khối lượng mol glucose = 180,0 g/mol. → Số mol = 15,0: 180,0 = 0,0833 mol → m = 0,0833: 0,200 = 0,4165 mol/kg → ΔTb = 0,512 × 0,4165 = 0,213 °C → Nhiệt độ sôi dung dịch 100, 00 0, 2133 100, 2133... = + =",
@@ -42803,7 +42806,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^{\\circ}\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết; (2) Dung dịch chứa 1 mol Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) trong 1 kg nước; (3) Dung dịch chứa 0,5 mol $\\text{MgCl}_2$ trong 1 kg nước (giả sử điện li hoàn toàn); (4) Dung dịch chứa 1 mol $\\text{NaCl}$ trong 1 kg nước (giả sử điện li hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao):",
       "options": [
         "A. (1) < (2) < (3) < (4)",
@@ -42812,7 +42815,7 @@ export const QUESTIONS_DATA = {
         "D. (4) < (3) < (2) < (1)"
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^\\circ C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
+      "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^{\\circ} C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -43424,8 +43427,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
-      "question": "Số gốc $\\text{Cl}^\\bullet$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\text{Cl}^{\\bullet}$):\n$\\text{CF}_2\\text{Cl}_2 \\xrightarrow{h\\nu} {}^{\\bullet}\\text{CF}_2\\text{Cl} + \\text{Cl}^{\\bullet}$\nMỗi gốc $\\text{Cl}^{\\bullet}$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\text{Cl}^{\\bullet} + \\text{O}_3 \\to \\text{ClO}^{\\bullet} + \\text{O}_2$\n$\\text{ClO}^{\\bullet} + \\text{O} \\to \\text{Cl}^{\\bullet} + \\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\times 10^{23}$ hạt; nguyên tử khối: $\\text{C} = 12; \\text{F} = 19; \\text{Cl} = 35{,}5; \\text{O} = 16$.",
+      "question": "Số gốc $\\text{Cl}^{\\bullet}$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
       "options": [
         "A. $12{,}04 \\times 10^{23}$",
         "B. $3{,}01 \\times 10^{23}$",
@@ -44792,15 +44795,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 62 và 63:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Bạn Nam cần ít nhất 900 đơn vị protein và 400 đơn vị lipit trong thức ăn mỗi ngày. Mỗi kiogam thịt bò chứa 800 đơn vị protein và 200 đơn vị lipit. Mỗi kilogam thịt lợn chứa 600 đơn vị protein và 400 đơn vị lipit. Biết rằng Nam chỉ mua nhiều nhất 1,6 kg thịt bò và 1,1 kg thịt lợn. Giá tiền một kg thịt bò là 160 nghìn đồng, một kg thịt lợn là 110 nghìn đồng. Gọi , x y lần lượt là số kg thịt bò và thịt lợn mà Nam cần mua.",
-      "question": "Đẳng thức nào sau đây đúng?",
+      "question": "Bất đẳng thức nào sau đây mô tả đúng điều kiện về lượng protein Nam cần mỗi ngày?",
       "options": [
-        "A. $8 6 9 x y + \\ge$",
-        "B. $6 8 9 x y + \\ge$",
-        "C. $2 2 x y + \\le$",
-        "D. $2 2 x y + \\ge$"
+        "A. $8x + 6y \\ge 9$",
+        "B. $6x + 8y \\ge 9$",
+        "C. $x + 2y \\le 2$",
+        "D. $2x + y \\ge 4$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Mỗi ngày Nam cần ít nhất 900 đơn vị protein. 1 kg thịt bò chứa 800 đơn vị protein, 1 kg thịt lợn chứa 600 đơn vị protein. Do đó: $800x + 600y \\ge 900 \\Leftrightarrow 8x + 6y \\ge 9$.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -44970,10 +44973,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 70 đến 72:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
       "question": "Tính góc giữa $SD$ và mặt phẳng $(ABCD)$ (làm tròn đến độ):",
       "options": [
-        "A. $30^\\circ$",
-        "B. $45^\\circ$",
-        "C. $60^\\circ$",
-        "D. $50^\\circ$"
+        "A. $30^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $50^{\\circ}$"
       ],
       "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -45020,7 +45023,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{2a\\sqrt{285}}{57}$"
       ],
       "correctAnswer": 3,
-      "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^\\circ 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
+      "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^{\\circ} 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -45232,15 +45235,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 82 và 83:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một cửa hàng gạo tháng này cần nhập hai loại gạo là gạo loại I và gạo loại II. Số tiền chi cho việc nhập hai loại gạo này không quá 100 triệu đồng. Gạo loại I mua vào với giá 30 triệu đồng/ tấn, lợi nhuận dự kiến là 2 triệu đồng/tấn. Gạo loại II nhập vào với giá 40 triệu đồng/tấn và lợi nhuận dự kiến là 2,5 triệu đồng/tấn. Cửa hàng ước tính doanh số bán ra một tháng của hai loại gạo này không quá 3 tấn. Giả sử cửa hàng cần nhập x (tấn) gạo loại I và y (tấn) gạo loại II.",
-      "question": "Lợi nhuận của cửa hàng được xác định bởi biểu thức",
+      "question": "Lợi nhuận của cửa hàng được xác định bởi biểu thức:",
       "options": [
-        "A. 2 2,5 x y +",
-        "B. 2,5 2 x y +",
-        "C. 30 40 x y +",
-        "D. 40 30 x y +"
+        "A. $F(x, y) = 2x + 2,5y$",
+        "B. $F(x, y) = 2,5x + 2y$",
+        "C. $F(x, y) = 30x + 40y$",
+        "D. $F(x, y) = 40x + 30y$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Lợi nhuận dự kiến khi bán $x$ tấn gạo loại I (2 triệu đồng/tấn) và $y$ tấn gạo loại II (2,5 triệu đồng/tấn) là $F(x, y) = 2x + 2,5y$ (triệu đồng).",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -45408,15 +45411,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời câu 90:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp tứ giác đều . S ABCD có cạnh đáy bằng 2a , cạnh bên bằng 3a , O là tâm đáy.",
-      "question": "Thể tích khối chóp . S ABCD là:",
+      "question": "Thể tích khối chóp $S.ABCD$ là:",
       "options": [
-        "A. 3 7 a",
-        "B. 3 2 7 a",
-        "C. 3 4 7 a",
-        "D. 3 4 7 3 a"
+        "A. $\\frac{4a^3\\sqrt{7}}{3}$",
+        "B. $2a^3\\sqrt{7}$",
+        "C. $\\frac{2a^3\\sqrt{7}}{3}$",
+        "D. $a^3\\sqrt{7}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Đáy $ABCD$ là hình vuông cạnh $2a \\Rightarrow S_{ABCD} = (2a)^2 = 4a^2$. Tâm đáy $O \\Rightarrow OA = \\frac{AC}{2} = \\frac{2a\\sqrt{2}}{2} = a\\sqrt{2}$. Chiều cao $SO = \\sqrt{SA^2 - OA^2} = \\sqrt{(3a)^2 - (a\\sqrt{2})^2} = a\\sqrt{7}$. Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4a^2 \\cdot a\\sqrt{7} = \\frac{4a^3\\sqrt{7}}{3}$.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -45654,8 +45657,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
-      "question": "Số gốc $\\text{Cl}^\\bullet$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\text{Cl}^{\\bullet}$):\n$\\text{CF}_2\\text{Cl}_2 \\xrightarrow{h\\nu} {}^{\\bullet}\\text{CF}_2\\text{Cl} + \\text{Cl}^{\\bullet}$\nMỗi gốc $\\text{Cl}^{\\bullet}$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\text{Cl}^{\\bullet} + \\text{O}_3 \\to \\text{ClO}^{\\bullet} + \\text{O}_2$\n$\\text{ClO}^{\\bullet} + \\text{O} \\to \\text{Cl}^{\\bullet} + \\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\times 10^{23}$ hạt; nguyên tử khối: $\\text{C} = 12; \\text{F} = 19; \\text{Cl} = 35{,}5; \\text{O} = 16$.",
+      "question": "Số gốc $\\text{Cl}^{\\bullet}$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
       "options": [
         "A. $12{,}04 \\times 10^{23}$",
         "B. $3{,}01 \\times 10^{23}$",
@@ -45677,7 +45680,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\text{Cl}^{\\bullet}$):\n$\\text{CF}_2\\text{Cl}_2 \\xrightarrow{h\\nu} {}^{\\bullet}\\text{CF}_2\\text{Cl} + \\text{Cl}^{\\bullet}$\nMỗi gốc $\\text{Cl}^{\\bullet}$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\text{Cl}^{\\bullet} + \\text{O}_3 \\to \\text{ClO}^{\\bullet} + \\text{O}_2$\n$\\text{ClO}^{\\bullet} + \\text{O} \\to \\text{Cl}^{\\bullet} + \\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\times 10^{23}$ hạt; nguyên tử khối: $\\text{C} = 12; \\text{F} = 19; \\text{Cl} = 35{,}5; \\text{O} = 16$.",
       "question": "Giả thiết trung bình một gốc Cl• phá huỷ 1 000 phân tử ozone. Khối lượng ozone bị phá huỷ bởi lượng gốc Cl• trên là",
       "options": [
         "A. 144 kg.",
@@ -45700,7 +45703,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\text{Cl}^{\\bullet}$):\n$\\text{CF}_2\\text{Cl}_2 \\xrightarrow{h\\nu} {}^{\\bullet}\\text{CF}_2\\text{Cl} + \\text{Cl}^{\\bullet}$\nMỗi gốc $\\text{Cl}^{\\bullet}$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\text{Cl}^{\\bullet} + \\text{O}_3 \\to \\text{ClO}^{\\bullet} + \\text{O}_2$\n$\\text{ClO}^{\\bullet} + \\text{O} \\to \\text{Cl}^{\\bullet} + \\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\times 10^{23}$ hạt; nguyên tử khối: $\\text{C} = 12; \\text{F} = 19; \\text{Cl} = 35{,}5; \\text{O} = 16$.",
       "question": "Từ 32,34 gam CCl4 phản ứng với HF dư, thu được HCl và 12,1 gam Freon-12 (CCl2F2). Hiệu suất của phản ứng tạo Freon-12 là",
       "options": [
         "A. 45,67%.",
@@ -45723,7 +45726,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Lực đẩy của tên lửa ion trong chân không được tạo ra nhờ",
       "options": [
         "A. Áp suất của khí nóng sinh ra khi đốt nhiên liệu.",
@@ -45746,7 +45749,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Xét các phát biểu sau về động cơ tên lửa ion: (1) Động cơ ion chỉ hoạt động được trong môi trường có không khí. (2) Vận tốc phụt của ion càng lớn thì lực đẩy càng mạnh. (3) Nguồn năng lượng điện của động cơ ion thường là pin mặt trời. (4) So với tên lửa hóa học, động cơ ion tiêu tốn ít nhiên liệu hơn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -45769,7 +45772,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Một động cơ ion phóng ra các ion xenon với vận tốc $v = 3{,}0 \\times 10^4\\text{ m/s}$, khối lượng phóng ra mỗi giây là $2{,}0 \\times 10^{-5}\\text{ kg/s}$. Lực đẩy do động cơ tạo ra là:",
       "options": [
         "A. $0{,}3\\text{ N}$",
@@ -47511,15 +47514,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 65 và 66:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một cửa hàng gạo tháng này cần nhập hai loại gạo là gạo loại I và gạo loại II. Số tiền chi cho việc nhập hai loại gạo này không quá 100 triệu đồng. Gạo loại I mua vào với giá 30 triệu đồng/ tấn, lợi nhuận dự kiến là 2 triệu đồng/tấn. Gạo loại II nhập vào với giá 40 triệu đồng/tấn và lợi nhuận dự kiến là 2,5 triệu đồng/tấn. Cửa hàng ước tính doanh số bán ra một tháng của hai loại gạo này không quá 3 tấn. Giả sử cửa hàng cần nhập x (tấn) gạo loại I và y (tấn) gạo loại II.",
-      "question": "Lợi nhuận của cửa hàng được xác định bởi biểu thức",
+      "question": "Lợi nhuận của cửa hàng được xác định bởi biểu thức:",
       "options": [
-        "A. 2 2,5 x y +",
-        "B. 2,5 2 x y +",
-        "C. 30 40 x y +",
-        "D. 40 30 x y +"
+        "A. $F(x, y) = 2x + 2,5y$",
+        "B. $F(x, y) = 2,5x + 2y$",
+        "C. $F(x, y) = 30x + 40y$",
+        "D. $F(x, y) = 40x + 30y$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Lợi nhuận dự kiến khi bán $x$ tấn gạo loại I (2 triệu đồng/tấn) và $y$ tấn gạo loại II (2,5 triệu đồng/tấn) là $F(x, y) = 2x + 2,5y$ (triệu đồng).",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -47687,15 +47690,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp tứ giác đều . S ABCD có cạnh đáy bằng 2a , cạnh bên bằng 3a , O là tâm đáy.",
-      "question": "Thể tích khối chóp . S ABCD là:",
+      "question": "Thể tích khối chóp $S.ABCD$ là:",
       "options": [
-        "A. 3 7 a",
-        "B. 3 2 7 a",
-        "C. 3 4 7 a",
-        "D. 3 4 7 3 a"
+        "A. $\\frac{4a^3\\sqrt{7}}{3}$",
+        "B. $2a^3\\sqrt{7}$",
+        "C. $\\frac{2a^3\\sqrt{7}}{3}$",
+        "D. $a^3\\sqrt{7}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Đáy $ABCD$ là hình vuông cạnh $2a \\Rightarrow S_{ABCD} = (2a)^2 = 4a^2$. Tâm đáy $O \\Rightarrow OA = \\frac{AC}{2} = \\frac{2a\\sqrt{2}}{2} = a\\sqrt{2}$. Chiều cao $SO = \\sqrt{SA^2 - OA^2} = \\sqrt{(3a)^2 - (a\\sqrt{2})^2} = a\\sqrt{7}$. Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4a^2 \\cdot a\\sqrt{7} = \\frac{4a^3\\sqrt{7}}{3}$.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -47731,15 +47734,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 73 đến 75:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp tứ giác đều . S ABCD có cạnh đáy bằng 2a , cạnh bên bằng 3a , O là tâm đáy.",
-      "question": "Tính khoảng cách giữa hai đường thẳng SD và CN , với N là trung điểm SB .",
+      "question": "Tính khoảng cách giữa hai đường thẳng $SD$ và $CN$, với $N$ là trung điểm $SB$:",
       "options": [
-        "A. 14 2 a",
-        "B. 2 14 3 a",
-        "C. 14 3 a",
-        "D. 14 6 a"
+        "A. $\\frac{a\\sqrt{14}}{3}$",
+        "B. $\\frac{2a\\sqrt{14}}{3}$",
+        "C. $\\frac{a\\sqrt{14}}{2}$",
+        "D. $\\frac{a\\sqrt{14}}{6}$"
       ],
       "correctAnswer": 0,
-      "explanation": "85) 2 2 7 SO SA AO a = - = ( ) 3 2 . 1 1 4 7 . . . 7. 2 3 3 3 S ABC ABCD a V SO S a a \\Rightarrow = = = 86) ( ) ( ) SB SAC S BO SAC \\cap = \\Rightarrow SO là hình chiếu của SB trên mp ( ) SAC ( ) ( ) ( ) \\bullet , , SB SAC SB SO BSO \\Rightarrow = = Ta có \\bullet 2 sin 3 OB BSO SB = = \\bullet 0 28,1 BSO \\Rightarrow 87) Gọi I là trung điểm của OB ( ) SD ANC \\Rightarrow I N O C A B D S K ( , ) ( , ( )) ( , ( )) ( , ( ) 2 ( , ( )) d SD CN d SD ANC d D ANC d B ANC d I ANC \\Rightarrow = = = = Kẻ IK ON ( ) IK ON IK ANC IK AC \\Rightarrow \\Rightarrow ( , ( )) d I ANC IK \\Rightarrow = 2 2 . 14 6 IN IO a IK IN IO = = + Vậy 14 ( , ) 3 a d SD CN =",
+      "explanation": "Gọi $I$ là trung điểm $OB$. Ta có khoảng cách giữa hai đường thẳng chéo nhau $SD$ và $CN$ là $d(SD, CN) = \\frac{a\\sqrt{14}}{3}$.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -47775,15 +47778,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
+      "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng:",
       "options": [
-        "A. 1 0 x y - - =",
-        "B. 1 0 x y - + =",
-        "C. 1 0 x y + - =",
-        "D. 1 0 x y + + ="
+        "A. $x - y - 1 = 0$",
+        "B. $x - y + 1 = 0$",
+        "C. $x + y - 1 = 0$",
+        "D. $x + y + 1 = 0$"
       ],
       "correctAnswer": 0,
-      "explanation": "( ) 6 6 0 1 0 f x x x y '' = - = \\Leftrightarrow = \\Rightarrow = Vậy tâm đối xứng là ( ) 1;0 I nằm trên đường thẳng 1 0 x y - - =",
+      "explanation": "Điểm uốn (tâm đối xứng) của đồ thị hàm số thỏa mãn $y'' = 0 \\Leftrightarrow 6x - 6 = 0 \\Leftrightarrow x = 1 \\Rightarrow y = 0$. Điểm $I(1; 0)$ thuộc đường thẳng $x - y - 1 = 0$ (vì $1 - 0 - 1 = 0$).",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -51242,7 +51245,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T \\cdot \\Delta_r S^{\\circ}$\nTrong đó: $T$ là nhiệt độ (K); $\\Delta_r H^{\\circ}$ (kJ) và $\\Delta_r S^{\\circ}$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\Delta_r G^{\\circ}$ quyết định chiều tự diễn biến của phản ứng: nếu $\\Delta_r G^{\\circ} < 0$, phản ứng tự xảy ra; nếu $\\Delta_r G^{\\circ} > 0$, phản ứng không tự xảy ra.",
       "question": "Để một phản ứng không tự xảy ra ở mọi nhiệt độ thì",
       "options": [
         "A. ΔrHo > 0 và ΔrSo < 0.",
@@ -51265,13 +51268,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
-      "question": "Biến thiên enthalpy và entropy của phản ứng $2\\text{SO}_2(g) + \\text{O}_2(g) \\to 2\\text{SO}_3(g)$ ở $25^\\circ\\text{C}$ lần lượt là $\\Delta_r H^\\circ = -198\\text{ kJ}$ và $\\Delta_r S^\\circ = -187\\text{ J/K}$. Hãy cho biết giá trị của $\\Delta_r G^\\circ$ thay đổi như thế nào khi tăng nhiệt độ và ở trên hay dưới khoảng nhiệt độ nào thì phản ứng không xảy ra tự nhiên được?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T \\cdot \\Delta_r S^{\\circ}$\nTrong đó: $T$ là nhiệt độ (K); $\\Delta_r H^{\\circ}$ (kJ) và $\\Delta_r S^{\\circ}$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\Delta_r G^{\\circ}$ quyết định chiều tự diễn biến của phản ứng: nếu $\\Delta_r G^{\\circ} < 0$, phản ứng tự xảy ra; nếu $\\Delta_r G^{\\circ} > 0$, phản ứng không tự xảy ra.",
+      "question": "Biến thiên enthalpy và entropy của phản ứng $2\\text{SO}_2(g) + \\text{O}_2(g) \\to 2\\text{SO}_3(g)$ ở $25^{\\circ}\\text{C}$ lần lượt là $\\Delta_r H^{\\circ} = -198\\text{ kJ}$ và $\\Delta_r S^{\\circ} = -187\\text{ J/K}$. Hãy cho biết giá trị của $\\Delta_r G^{\\circ}$ thay đổi như thế nào khi tăng nhiệt độ và ở trên hay dưới khoảng nhiệt độ nào thì phản ứng không xảy ra tự nhiên được?",
       "options": [
-        "A. $\\Delta_r G^\\circ \\text{ tăng; } T < 1059\\text{ K}$",
-        "B. $\\Delta_r G^\\circ \\text{ tăng; } T > 1059\\text{ K}$",
-        "C. $\\Delta_r G^\\circ \\text{ giảm; } T < 1059\\text{ K}$",
-        "D. $\\Delta_r G^\\circ \\text{ giảm; } T > 1059\\text{ K}$"
+        "A. $\\Delta_r G^{\\circ} \\text{ tăng; } T < 1059\\text{ K}$",
+        "B. $\\Delta_r G^{\\circ} \\text{ tăng; } T > 1059\\text{ K}$",
+        "C. $\\Delta_r G^{\\circ} \\text{ giảm; } T < 1059\\text{ K}$",
+        "D. $\\Delta_r G^{\\circ} \\text{ giảm; } T > 1059\\text{ K}$"
       ],
       "correctAnswer": 1,
       "explanation": "Phân tích phương pháp giải chi tiết câu 104: Vận dụng kiến thức trọng tâm của phân môn Tư duy khoa học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -51288,7 +51291,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T \\cdot \\Delta_r S^{\\circ}$\nTrong đó: $T$ là nhiệt độ (K); $\\Delta_r H^{\\circ}$ (kJ) và $\\Delta_r S^{\\circ}$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\Delta_r G^{\\circ}$ quyết định chiều tự diễn biến của phản ứng: nếu $\\Delta_r G^{\\circ} < 0$, phản ứng tự xảy ra; nếu $\\Delta_r G^{\\circ} > 0$, phản ứng không tự xảy ra.",
       "question": "Xét phản ứng sau: CaCO3(s) → CaO(s) + CO2(g) Giả sử giá trị enthalpy và entropy của phản ứng không thay đổi theo nhiệt độ. Mối liên hệ giữa ΔrG° và T (K) của phản ứng trên như sau: Hãy chọn nhận xét sai:",
       "options": [
         "A. Phản ứng trên là phản ứng thu nhiệt và có thể tự xảy ra ở nhiệt độ trên 1110 K.",
@@ -51311,7 +51314,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột nhà máy nhiệt điện đốt than có công suất phát điện $P = 500\\\\text{ MW}$ với hiệu suất chuyển hóa nhiệt thành điện năng đạt $40\\\\%$. Than đá sử dụng có năng lượng riêng (nhiệt trị) là $25\\\\text{ MJ/kg}$. Quá trình đốt cháy 1 tấn than sinh ra khoảng 2,04 tấn khí $\\\\text{CO}_2$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột nhà máy nhiệt điện đốt than có công suất phát điện $P = 500\\text{ MW}$ với hiệu suất chuyển hóa nhiệt thành điện năng đạt $40\\\\%$. Than đá sử dụng có năng lượng riêng (nhiệt trị) là $25\\text{ MJ/kg}$. Quá trình đốt cháy 1 tấn than sinh ra khoảng 2,04 tấn khí $\\text{CO}_2$.",
       "question": "Cho các phát biểu sau: (I). Than là nguồn năng lượng tái tạo. (II). Đơn vị của năng lượng riêng là J/kg. (III). Nhà máy điện than trên sẽ thải ra 1,020.103 tấn khí CO2 mỗi giờ. (IV). Công suất hao phí của nhà máy điện than ở trên là 7,464.102 MW. Theo bài đọc, các phát biểu đúng là:",
       "options": [
         "A. (I), (II), (III).",
@@ -53149,7 +53152,7 @@ export const QUESTIONS_DATA = {
         "D. $0{,}8\\text{ m}^2$"
       ],
       "correctAnswer": 2,
-      "explanation": "Chọn C. Xét đường tròn bán kính 1, ta cắt trên đó một hình chữ nhật ABCD . Khi đó 1 . .sin 2 ABCD S AC BD \\alpha = 2 sin 2 \\alpha = \\le . Dấu bằng xảy ra khi và chỉ khi 90 \\alpha = ^\\circ . Vậy diện tích lớn nhất của miếng tôn cắt trên nửa đường tròn bằng 1.",
+      "explanation": "Chọn C. Xét đường tròn bán kính 1, ta cắt trên đó một hình chữ nhật ABCD . Khi đó 1 . .sin 2 ABCD S AC BD \\alpha = 2 sin 2 \\alpha = \\le . Dấu bằng xảy ra khi và chỉ khi 90 \\alpha = ^{\\circ} . Vậy diện tích lớn nhất của miếng tôn cắt trên nửa đường tròn bằng 1.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -53472,7 +53475,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T \\cdot \\Delta_r S^{\\circ}$\nTrong đó: $T$ là nhiệt độ (K); $\\Delta_r H^{\\circ}$ (kJ) và $\\Delta_r S^{\\circ}$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\Delta_r G^{\\circ}$ quyết định chiều tự diễn biến của phản ứng: nếu $\\Delta_r G^{\\circ} < 0$, phản ứng tự xảy ra; nếu $\\Delta_r G^{\\circ} > 0$, phản ứng không tự xảy ra.",
       "question": "Để một phản ứng không tự xảy ra ở mọi nhiệt độ thì",
       "options": [
         "A. ΔrHo > 0 và ΔrSo < 0.",
@@ -53495,13 +53498,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
-      "question": "Biến thiên enthalpy và entropy của phản ứng $2\\text{SO}_2(g) + \\text{O}_2(g) \\to 2\\text{SO}_3(g)$ ở $25^\\circ\\text{C}$ lần lượt là $\\Delta_r H^\\circ = -198\\text{ kJ}$ và $\\Delta_r S^\\circ = -187\\text{ J/K}$. Hãy cho biết giá trị của $\\Delta_r G^\\circ$ thay đổi như thế nào khi tăng nhiệt độ và ở trên hay dưới khoảng nhiệt độ nào thì phản ứng không xảy ra tự nhiên được?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T \\cdot \\Delta_r S^{\\circ}$\nTrong đó: $T$ là nhiệt độ (K); $\\Delta_r H^{\\circ}$ (kJ) và $\\Delta_r S^{\\circ}$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\Delta_r G^{\\circ}$ quyết định chiều tự diễn biến của phản ứng: nếu $\\Delta_r G^{\\circ} < 0$, phản ứng tự xảy ra; nếu $\\Delta_r G^{\\circ} > 0$, phản ứng không tự xảy ra.",
+      "question": "Biến thiên enthalpy và entropy của phản ứng $2\\text{SO}_2(g) + \\text{O}_2(g) \\to 2\\text{SO}_3(g)$ ở $25^{\\circ}\\text{C}$ lần lượt là $\\Delta_r H^{\\circ} = -198\\text{ kJ}$ và $\\Delta_r S^{\\circ} = -187\\text{ J/K}$. Hãy cho biết giá trị của $\\Delta_r G^{\\circ}$ thay đổi như thế nào khi tăng nhiệt độ và ở trên hay dưới khoảng nhiệt độ nào thì phản ứng không xảy ra tự nhiên được?",
       "options": [
-        "A. $\\Delta_r G^\\circ \\text{ tăng; } T < 1059\\text{ K}$",
-        "B. $\\Delta_r G^\\circ \\text{ tăng; } T > 1059\\text{ K}$",
-        "C. $\\Delta_r G^\\circ \\text{ giảm; } T < 1059\\text{ K}$",
-        "D. $\\Delta_r G^\\circ \\text{ giảm; } T > 1059\\text{ K}$"
+        "A. $\\Delta_r G^{\\circ} \\text{ tăng; } T < 1059\\text{ K}$",
+        "B. $\\Delta_r G^{\\circ} \\text{ tăng; } T > 1059\\text{ K}$",
+        "C. $\\Delta_r G^{\\circ} \\text{ giảm; } T < 1059\\text{ K}$",
+        "D. $\\Delta_r G^{\\circ} \\text{ giảm; } T > 1059\\text{ K}$"
       ],
       "correctAnswer": 1,
       "explanation": "Phân tích phương pháp giải chi tiết câu 104: Vận dụng kiến thức trọng tâm của phân môn Tư duy khoa học để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -53518,7 +53521,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T \\cdot \\Delta_r S^{\\circ}$\nTrong đó: $T$ là nhiệt độ (K); $\\Delta_r H^{\\circ}$ (kJ) và $\\Delta_r S^{\\circ}$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\Delta_r G^{\\circ}$ quyết định chiều tự diễn biến của phản ứng: nếu $\\Delta_r G^{\\circ} < 0$, phản ứng tự xảy ra; nếu $\\Delta_r G^{\\circ} > 0$, phản ứng không tự xảy ra.",
       "question": "Xét phản ứng sau: CaCO3(s) → CaO(s) + CO2(g) Giả sử giá trị enthalpy và entropy của phản ứng không thay đổi theo nhiệt độ. Mối liên hệ giữa ΔrG° và T (K) của phản ứng trên như sau: Hãy chọn nhận xét sai:",
       "options": [
         "A. Phản ứng trên là phản ứng thu nhiệt và có thể tự xảy ra ở nhiệt độ trên 1110 K.",
@@ -53541,7 +53544,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột nhà máy nhiệt điện đốt than có công suất phát điện $P = 500\\\\text{ MW}$ với hiệu suất chuyển hóa nhiệt thành điện năng đạt $40\\\\%$. Than đá sử dụng có năng lượng riêng (nhiệt trị) là $25\\\\text{ MJ/kg}$. Quá trình đốt cháy 1 tấn than sinh ra khoảng 2,04 tấn khí $\\\\text{CO}_2$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột nhà máy nhiệt điện đốt than có công suất phát điện $P = 500\\text{ MW}$ với hiệu suất chuyển hóa nhiệt thành điện năng đạt $40\\\\%$. Than đá sử dụng có năng lượng riêng (nhiệt trị) là $25\\text{ MJ/kg}$. Quá trình đốt cháy 1 tấn than sinh ra khoảng 2,04 tấn khí $\\text{CO}_2$.",
       "question": "Cho các phát biểu sau: (I). Than là nguồn năng lượng tái tạo. (II). Đơn vị của năng lượng riêng là J/kg. (III). Nhà máy điện than trên sẽ thải ra 1,020.103 tấn khí CO2 mỗi giờ. (IV). Công suất hao phí của nhà máy điện than ở trên là 7,464.102 MW. Theo bài đọc, các phát biểu đúng là:",
       "options": [
         "A. (I), (II), (III).",
@@ -53674,7 +53677,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\n$\\Delta_r G^\\circ = \\Delta_r H^\\circ - T\\Delta_r S^\\circ$, với $T$ là nhiệt độ (K).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T\\Delta_r S^{\\circ}$, với $T$ là nhiệt độ (K).",
       "question": "Trong 7 tháng đầu năm 2023, nước ta đạt kim ngạch xuất khẩu cao nhất vào tháng nào?",
       "options": [
         "A. Tháng 3.",
@@ -53696,7 +53699,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\n$\\Delta_r G^\\circ = \\Delta_r H^\\circ - T\\Delta_r S^\\circ$, với $T$ là nhiệt độ (K).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T\\Delta_r S^{\\circ}$, với $T$ là nhiệt độ (K).",
       "question": "Cán cân thương mại hàng hóa được được tính bằng",
       "options": [
         "A. Trị giá xuất khẩu - Trị giá nhập khẩu.",
@@ -53718,7 +53721,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\n$\\Delta_r G^\\circ = \\Delta_r H^\\circ - T\\Delta_r S^\\circ$, với $T$ là nhiệt độ (K).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T\\Delta_r S^{\\circ}$, với $T$ là nhiệt độ (K).",
       "question": "Kim ngạch nhập khẩu hàng hóa tháng 6/2023 ước đạt",
       "options": [
         "A. 26,37 tỉ USD.",
@@ -55423,7 +55426,7 @@ export const QUESTIONS_DATA = {
         "D. $0{,}8\\text{ m}^2$"
       ],
       "correctAnswer": 2,
-      "explanation": "Chọn C. Xét đường tròn bán kính 1, ta cắt trên đó một hình chữ nhật ABCD . Khi đó 1 . .sin 2 ABCD S AC BD \\alpha = 2 sin 2 \\alpha = \\le . Dấu bằng xảy ra khi và chỉ khi 90 \\alpha = ^\\circ . Vậy diện tích lớn nhất của miếng tôn cắt trên nửa đường tròn bằng 1.",
+      "explanation": "Chọn C. Xét đường tròn bán kính 1, ta cắt trên đó một hình chữ nhật ABCD . Khi đó 1 . .sin 2 ABCD S AC BD \\alpha = 2 sin 2 \\alpha = \\le . Dấu bằng xảy ra khi và chỉ khi 90 \\alpha = ^{\\circ} . Vậy diện tích lớn nhất của miếng tôn cắt trên nửa đường tròn bằng 1.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -55898,7 +55901,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^{\\circ}$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khối chóp $S.ABC$:",
       "options": [
         "A. $\\frac{a^3\\sqrt{2}}{2}$",
@@ -55920,13 +55923,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^{\\circ}$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính góc giữa hai mặt phẳng $(SBC)$ và $(ABC)$ (làm tròn đến độ):",
       "options": [
-        "A. $41^\\circ$",
-        "B. $42^\\circ$",
-        "C. $32^\\circ$",
-        "D. $31^\\circ$"
+        "A. $41^{\\circ}$",
+        "B. $42^{\\circ}$",
+        "C. $32^{\\circ}$",
+        "D. $31^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "Áp dụng hệ trục toạ độ Oxyz: ( ) ( ) ( ) ( ) 0, 0, 0 , , 0, 0 , 0, 2 , 0 , 0, 0,3 S A a B a C a . ( ) SBC : qua , , S B C phương trình 0 x = (mp ( ) Oyz ) suy ra pháp tuyến ( ) 1 1, 0, 0 n = . ( ) ( ) ( ) : , 2 , 0 , , 0,3 ABC AB a a AC a a = - = - ( ) ( )2 2 2 2 6 ,3 , 2 6,3, 2 . , n AB AC a a a ] = = ] Góc giữa hai mặt phẳng: ( ) ( ) ( ) 1 2 2 2 2 1 2 6 6 cos , . 7 6 3 2 n n SBC ABC n n \\cdot = = = + + ( ) ( ) ( ) 0 6 , arccos 31 7 SBC ABC =",
@@ -55942,7 +55945,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^{\\circ}$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khối chóp $S.HBC$:",
       "options": [
         "A. $\\frac{4a^3}{5}$",
@@ -56426,7 +56429,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^\\circ\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^\\circ\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^{\\circ}\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^{\\circ}\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
       "question": "Từ mô tả trên, nhận định nào sau đây là phù hợp nhất?",
       "options": [
         "A. Mực chất lỏng tăng nhanh lúc đầu rồi chậm dần.",
@@ -56448,7 +56451,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^\\circ\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^\\circ\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^{\\circ}\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^{\\circ}\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
       "question": "Nếu nhiệt độ của chất lỏng tăng từ 20 oC lên 50 oC , thì mực chất lỏng dâng lên thêm bao nhiêu mm so với ban đầu?",
       "options": [
         "A. 4 mm",
@@ -56470,7 +56473,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^\\circ\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^\\circ\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^{\\circ}\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^{\\circ}\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
       "question": "Nếu học sinh thay bình thủy tinh bằng bình kim loại mỏng (có giãn nở đáng kể), nhưng giữ nguyên chất lỏng và cách đun, thì mực chất lỏng quan sát được sẽ:",
       "options": [
         "A. Dâng lên nhiều hơn so với trường hợp bình thủy tinh.",
@@ -58166,7 +58169,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 68 đến 70:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 68 đến 70:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^{\\circ}$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khối chóp $S.ABC$:",
       "options": [
         "A. $\\frac{a^3\\sqrt{2}}{2}$",
@@ -58188,13 +58191,13 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 68 đến 70:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 68 đến 70:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^{\\circ}$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính góc giữa hai mặt phẳng $(SBC)$ và $(ABC)$ (làm tròn đến độ):",
       "options": [
-        "A. $41^\\circ$",
-        "B. $42^\\circ$",
-        "C. $32^\\circ$",
-        "D. $31^\\circ$"
+        "A. $41^{\\circ}$",
+        "B. $42^{\\circ}$",
+        "C. $32^{\\circ}$",
+        "D. $31^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "Áp dụng hệ trục toạ độ Oxyz: ( ) ( ) ( ) ( ) 0, 0, 0 , , 0, 0 , 0, 2 , 0 , 0, 0,3 S A a B a C a . ( ) SBC : qua , , S B C phương trình 0 x = (mp ( ) Oyz ) suy ra pháp tuyến ( ) 1 1, 0, 0 n = . ( ) ( ) ( ) : , 2 , 0 , , 0,3 ABC AB a a AC a a = - = - ( ) ( )2 2 2 2 6 ,3 , 2 6,3, 2 . , n AB AC a a a ] = = ] Góc giữa hai mặt phẳng: ( ) ( ) ( ) 1 2 2 2 2 1 2 6 6 cos , . 7 6 3 2 n n SBC ABC n n \\cdot = = = + + ( ) ( ) ( ) 0 6 , arccos 31 7 SBC ABC =",
@@ -58210,7 +58213,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 68 đến 70:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^\\circ$. Gọi $H$ là trực tâm tam giác $ABC$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 68 đến 70:\nCho hình chóp $S.ABC$ có $SA = a, SB = 2a, SC = 3a$ và $\\widehat{ASB} = \\widehat{BSC} = \\widehat{CSA} = 60^{\\circ}$. Gọi $H$ là trực tâm tam giác $ABC$.",
       "question": "Tính thể tích khối chóp $S.HBC$:",
       "options": [
         "A. $\\frac{4a^3}{5}$",
@@ -58365,7 +58368,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $AB = 6, AC = 8$ và góc $\\hat{A} = 45^\\circ$. Diện tích tam giác $ABC$ bằng:",
+      "question": "Cho tam giác $ABC$ có $AB = 6, AC = 8$ và góc $\\hat{A} = 45^{\\circ}$. Diện tích tam giác $ABC$ bằng:",
       "options": [
         "A. $12\\sqrt{2}$",
         "B. $24\\sqrt{2}$",
@@ -58389,10 +58392,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có cạnh $AB = 5, BC = 7, AC = 8$. Số đo góc $\\hat{A}$ bằng:",
       "options": [
-        "A. $40^\\circ$",
-        "B. $45^\\circ$",
-        "C. $50^\\circ$",
-        "D. $60^\\circ$"
+        "A. $40^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $50^{\\circ}$",
+        "D. $60^{\\circ}$"
       ],
       "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 68] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -58672,8 +58675,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^\\circ\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^\\circ\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
-      "question": "Nếu nhiệt độ của chất lỏng tăng từ $20^\\circ\\text{C}$ lên $50^\\circ\\text{C}$, thì mực chất lỏng dâng lên thêm bao nhiêu mm so với ban đầu?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^{\\circ}\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^{\\circ}\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
+      "question": "Nếu nhiệt độ của chất lỏng tăng từ $20^{\\circ}\\text{C}$ lên $50^{\\circ}\\text{C}$, thì mực chất lỏng dâng lên thêm bao nhiêu mm so với ban đầu?",
       "options": [
         "A. 4 mm",
         "B. 6 mm",
@@ -58694,7 +58697,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^\\circ\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^\\circ\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^{\\circ}\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^{\\circ}\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
       "question": "Nếu học sinh thay bình thủy tinh bằng bình kim loại mỏng (có giãn nở đáng kể), nhưng giữ nguyên chất lỏng và cách đun, thì mực chất lỏng quan sát được sẽ:",
       "options": [
         "A. Dâng lên nhiều hơn so với trường hợp bình thủy tinh.",
@@ -59311,7 +59314,7 @@ export const QUESTIONS_DATA = {
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
       "passage": null,
-      "question": "Công thức liên hệ đúng giữa thang đo Fahrenheit ($^\\circ\\text{F}$) và thang đo Celsius ($^\\circ\\text{C}$) là:",
+      "question": "Công thức liên hệ đúng giữa thang đo Fahrenheit ($^{\\circ}\\text{F}$) và thang đo Celsius ($^{\\circ}\\text{C}$) là:",
       "options": [
         "A. $F = \\frac{9}{5}C + 32$",
         "B. $F = \\frac{5}{9}C + 32$",
@@ -60657,10 +60660,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ có cạnh $AB = 5, BC = 7, AC = 8$. Số đo góc $\\hat{A}$ bằng:",
       "options": [
-        "A. $40^\\circ$",
-        "B. $45^\\circ$",
-        "C. $50^\\circ$",
-        "D. $60^\\circ$"
+        "A. $40^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $50^{\\circ}$",
+        "D. $60^{\\circ}$"
       ],
       "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 68] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -61578,8 +61581,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
-      "question": "Công thức liên hệ đúng giữa thang đo Fahrenheit ($^\\circ\\text{F}$) và thang đo Celsius ($^\\circ\\text{C}$) là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n- Thang Celsius ($^{\\circ}\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^{\\circ}\\text{C}$ và nhiệt độ sôi của nước là $100^{\\circ}\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^{\\circ}\\text{C}$.\n- Thang Fahrenheit ($^{\\circ}\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^{\\circ}\\text{F}$ và nhiệt độ sôi của nước là $212^{\\circ}\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "question": "Công thức liên hệ đúng giữa thang đo Fahrenheit ($^{\\circ}\\text{F}$) và thang đo Celsius ($^{\\circ}\\text{C}$) là:",
       "options": [
         "A. $F = \\frac{9}{5}C + 32$",
         "B. $F = \\frac{5}{9}C + 32$",
@@ -61600,13 +61603,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n- Thang Celsius ($^{\\circ}\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^{\\circ}\\text{C}$ và nhiệt độ sôi của nước là $100^{\\circ}\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^{\\circ}\\text{C}$.\n- Thang Fahrenheit ($^{\\circ}\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^{\\circ}\\text{F}$ và nhiệt độ sôi của nước là $212^{\\circ}\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
       "question": "Nhiệt độ nào sau đây có số chỉ bằng nhau trên cả hai thang đo Celsius và Fahrenheit?",
       "options": [
-        "A. $-40^\\circ$",
-        "B. $4^\\circ$",
-        "C. $-4^\\circ$",
-        "D. $40^\\circ$"
+        "A. $-40^{\\circ}$",
+        "B. $4^{\\circ}$",
+        "C. $-4^{\\circ}$",
+        "D. $40^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 109] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -61622,7 +61625,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n- Thang Celsius ($^{\\circ}\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^{\\circ}\\text{C}$ và nhiệt độ sôi của nước là $100^{\\circ}\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^{\\circ}\\text{C}$.\n- Thang Fahrenheit ($^{\\circ}\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^{\\circ}\\text{F}$ và nhiệt độ sôi của nước là $212^{\\circ}\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
       "question": "Phát biểu nào dưới đây đúng?",
       "options": [
         "A. Thân nhiệt người bình thường là 37°F.",
@@ -62201,7 +62204,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nThôi đã tan rồi vạn gót hương Của người đẹp tới tự trăm phương. Tan rồi những bước không hò hẹn Đã bước trùng nhau một ngã đường. Lại có khi suối buồn thương cứ tự trong thâm tâm chảy ra lai láng không vướng chút bụi trần: Ôi! Nắng vàng sao mà nhớ nhung! Có ai đàn lẻ để tơ chùng? Có ai tiễn biệt nơi xa ấy Xui bước chân đây cũng ngại ngùng… Phải tinh lắm mới thấy lòng mình như thế giữa cái ồ ạt, cái rộn rịp của cuộc đời hằng ngày. Đây có lẽ là một điều Huy Cận đã học được trong thơ Pháp. Nhưng với vị trí quan sát rèn luyện trong nền học mới, Huy Cận đã làm một việc táo bạo: tìm về những cảnh xưa, nơi bao nhiêu người đã sa lầy — tôi muốn nói sa vào khuôn sáo. Người nói cùng ta nỗi buồn nơi quán chật đèo cao, nỗi buồn của sông dài trời rộng, nỗi buồn của người lữ thứ dừng ngựa trên non, buồn đêm mưa, buồn nhớ bạn. Và cũng như người đã làm thơ trong những chốn tơ tưởng không có gì nên thơ, người tìm ra thơ trong những chốn ta tưởng không còn có thơ nữa. Người đã gọi dậy cái hồn buồn của Đông Á, người đã khơi lại cái mạch sâu mấy nghìn năm vẫn ngấm ngầm trong cõi đất này. Huy Cận triền miên trong cảnh xưa, trò chuyện với người xưa, luôn luôn đi về trên con đường thời gian vô tận. Có lúc hình như thi nhân không phân biệt mộng với thực, ngày trước với ngày nay. Cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào, tình mới nhóm người tưởng chừng đã hẹn nhau “từ vạn kỷ”. (Hoài Thanh - Hoài Chân, trích Thi nhân Việt Nam, NXB Văn học, 2005, tr. 136- 138)",
       "question": "Theo đoạn trích, Huy Cận đã sáng tạo nên những vần thơ như thế nào?",
       "options": [
         "A. Từ những cảnh tượng lớn lao, hùng vĩ, ông làm nên những bài thơ mang âm hưởng hùng tráng, thể hiện tinh thần lạc quan thời đại.",
@@ -62214,7 +62217,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_huycan_hoai_thanh"
     },
     {
       "id": "vact-moon-de-15-q12",
@@ -62223,7 +62227,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nThôi đã tan rồi vạn gót hương Của người đẹp tới tự trăm phương. Tan rồi những bước không hò hẹn Đã bước trùng nhau một ngã đường. Lại có khi suối buồn thương cứ tự trong thâm tâm chảy ra lai láng không vướng chút bụi trần: Ôi! Nắng vàng sao mà nhớ nhung! Có ai đàn lẻ để tơ chùng? Có ai tiễn biệt nơi xa ấy Xui bước chân đây cũng ngại ngùng… Phải tinh lắm mới thấy lòng mình như thế giữa cái ồ ạt, cái rộn rịp của cuộc đời hằng ngày. Đây có lẽ là một điều Huy Cận đã học được trong thơ Pháp. Nhưng với vị trí quan sát rèn luyện trong nền học mới, Huy Cận đã làm một việc táo bạo: tìm về những cảnh xưa, nơi bao nhiêu người đã sa lầy — tôi muốn nói sa vào khuôn sáo. Người nói cùng ta nỗi buồn nơi quán chật đèo cao, nỗi buồn của sông dài trời rộng, nỗi buồn của người lữ thứ dừng ngựa trên non, buồn đêm mưa, buồn nhớ bạn. Và cũng như người đã làm thơ trong những chốn tơ tưởng không có gì nên thơ, người tìm ra thơ trong những chốn ta tưởng không còn có thơ nữa. Người đã gọi dậy cái hồn buồn của Đông Á, người đã khơi lại cái mạch sâu mấy nghìn năm vẫn ngấm ngầm trong cõi đất này. Huy Cận triền miên trong cảnh xưa, trò chuyện với người xưa, luôn luôn đi về trên con đường thời gian vô tận. Có lúc hình như thi nhân không phân biệt mộng với thực, ngày trước với ngày nay. Cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào, tình mới nhóm người tưởng chừng đã hẹn nhau “từ vạn kỷ”. (Hoài Thanh - Hoài Chân, trích Thi nhân Việt Nam, NXB Văn học, 2005, tr. 136- 138)",
       "question": "Tác giả nhận định như thế nào về khả năng sáng tạo của Huy Cận trong việc khai thác những điều tưởng như \"không còn có thơ nữa\"?",
       "options": [
         "A. Huy Cận tái hiện nguyên vẹn vẻ đẹp của những hình ảnh quen thuộc trong quá khứ bằng lối thơ cổ kính, khô khan và chuẩn mực.",
@@ -62236,7 +62240,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_huycan_hoai_thanh"
     },
     {
       "id": "vact-moon-de-15-q13",
@@ -62245,7 +62250,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 13:\nCâu văn “Ai có ngờ những bước chân đã tan trên đường kia còn ghi lại trong văn thơ những dấu tích hẳn không bao giờ tan được” thể hiện điều gì về quan niệm",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nThôi đã tan rồi vạn gót hương Của người đẹp tới tự trăm phương. Tan rồi những bước không hò hẹn Đã bước trùng nhau một ngã đường. Lại có khi suối buồn thương cứ tự trong thâm tâm chảy ra lai láng không vướng chút bụi trần: Ôi! Nắng vàng sao mà nhớ nhung! Có ai đàn lẻ để tơ chùng? Có ai tiễn biệt nơi xa ấy Xui bước chân đây cũng ngại ngùng… Phải tinh lắm mới thấy lòng mình như thế giữa cái ồ ạt, cái rộn rịp của cuộc đời hằng ngày. Đây có lẽ là một điều Huy Cận đã học được trong thơ Pháp. Nhưng với vị trí quan sát rèn luyện trong nền học mới, Huy Cận đã làm một việc táo bạo: tìm về những cảnh xưa, nơi bao nhiêu người đã sa lầy — tôi muốn nói sa vào khuôn sáo. Người nói cùng ta nỗi buồn nơi quán chật đèo cao, nỗi buồn của sông dài trời rộng, nỗi buồn của người lữ thứ dừng ngựa trên non, buồn đêm mưa, buồn nhớ bạn. Và cũng như người đã làm thơ trong những chốn tơ tưởng không có gì nên thơ, người tìm ra thơ trong những chốn ta tưởng không còn có thơ nữa. Người đã gọi dậy cái hồn buồn của Đông Á, người đã khơi lại cái mạch sâu mấy nghìn năm vẫn ngấm ngầm trong cõi đất này. Huy Cận triền miên trong cảnh xưa, trò chuyện với người xưa, luôn luôn đi về trên con đường thời gian vô tận. Có lúc hình như thi nhân không phân biệt mộng với thực, ngày trước với ngày nay. Cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào, tình mới nhóm người tưởng chừng đã hẹn nhau “từ vạn kỷ”. (Hoài Thanh - Hoài Chân, trích Thi nhân Việt Nam, NXB Văn học, 2005, tr. 136- 138)",
       "question": "Câu văn trên thể hiện quan niệm sâu sắc nào về sứ mệnh và thiên chức của nghệ thuật?",
       "options": [
         "A. Nghệ thuật là sự chắt lọc từ những điều to lớn, kỳ vĩ để khắc ghi dấu ấn mạnh mẽ trong tâm hồn con người và tạo nên những kiệt tác bất hủ.",
@@ -62258,7 +62263,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_huycan_hoai_thanh"
     },
     {
       "id": "vact-moon-de-15-q14",
@@ -62267,7 +62273,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nThôi đã tan rồi vạn gót hương Của người đẹp tới tự trăm phương. Tan rồi những bước không hò hẹn Đã bước trùng nhau một ngã đường. Lại có khi suối buồn thương cứ tự trong thâm tâm chảy ra lai láng không vướng chút bụi trần: Ôi! Nắng vàng sao mà nhớ nhung! Có ai đàn lẻ để tơ chùng? Có ai tiễn biệt nơi xa ấy Xui bước chân đây cũng ngại ngùng… Phải tinh lắm mới thấy lòng mình như thế giữa cái ồ ạt, cái rộn rịp của cuộc đời hằng ngày. Đây có lẽ là một điều Huy Cận đã học được trong thơ Pháp. Nhưng với vị trí quan sát rèn luyện trong nền học mới, Huy Cận đã làm một việc táo bạo: tìm về những cảnh xưa, nơi bao nhiêu người đã sa lầy — tôi muốn nói sa vào khuôn sáo. Người nói cùng ta nỗi buồn nơi quán chật đèo cao, nỗi buồn của sông dài trời rộng, nỗi buồn của người lữ thứ dừng ngựa trên non, buồn đêm mưa, buồn nhớ bạn. Và cũng như người đã làm thơ trong những chốn tơ tưởng không có gì nên thơ, người tìm ra thơ trong những chốn ta tưởng không còn có thơ nữa. Người đã gọi dậy cái hồn buồn của Đông Á, người đã khơi lại cái mạch sâu mấy nghìn năm vẫn ngấm ngầm trong cõi đất này. Huy Cận triền miên trong cảnh xưa, trò chuyện với người xưa, luôn luôn đi về trên con đường thời gian vô tận. Có lúc hình như thi nhân không phân biệt mộng với thực, ngày trước với ngày nay. Cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào, tình mới nhóm người tưởng chừng đã hẹn nhau “từ vạn kỷ”. (Hoài Thanh - Hoài Chân, trích Thi nhân Việt Nam, NXB Văn học, 2005, tr. 136- 138)",
       "question": "Theo đoạn trích, vì sao Hoài Thanh cho rằng Huy Cận có điểm học được từ thơ Pháp?",
       "options": [
         "A. Vì Huy Cận chịu ảnh hưởng sâu sắc từ thơ Pháp nên đã rời bỏ cảnh trí quen thuộc trong thơ cổ để tìm đến những hình ảnh hiện đại và kỳ vĩ.",
@@ -62280,7 +62286,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_huycan_hoai_thanh"
     },
     {
       "id": "vact-moon-de-15-q15",
@@ -62289,7 +62296,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nThôi đã tan rồi vạn gót hương Của người đẹp tới tự trăm phương. Tan rồi những bước không hò hẹn Đã bước trùng nhau một ngã đường. Lại có khi suối buồn thương cứ tự trong thâm tâm chảy ra lai láng không vướng chút bụi trần: Ôi! Nắng vàng sao mà nhớ nhung! Có ai đàn lẻ để tơ chùng? Có ai tiễn biệt nơi xa ấy Xui bước chân đây cũng ngại ngùng… Phải tinh lắm mới thấy lòng mình như thế giữa cái ồ ạt, cái rộn rịp của cuộc đời hằng ngày. Đây có lẽ là một điều Huy Cận đã học được trong thơ Pháp. Nhưng với vị trí quan sát rèn luyện trong nền học mới, Huy Cận đã làm một việc táo bạo: tìm về những cảnh xưa, nơi bao nhiêu người đã sa lầy — tôi muốn nói sa vào khuôn sáo. Người nói cùng ta nỗi buồn nơi quán chật đèo cao, nỗi buồn của sông dài trời rộng, nỗi buồn của người lữ thứ dừng ngựa trên non, buồn đêm mưa, buồn nhớ bạn. Và cũng như người đã làm thơ trong những chốn tơ tưởng không có gì nên thơ, người tìm ra thơ trong những chốn ta tưởng không còn có thơ nữa. Người đã gọi dậy cái hồn buồn của Đông Á, người đã khơi lại cái mạch sâu mấy nghìn năm vẫn ngấm ngầm trong cõi đất này. Huy Cận triền miên trong cảnh xưa, trò chuyện với người xưa, luôn luôn đi về trên con đường thời gian vô tận. Có lúc hình như thi nhân không phân biệt mộng với thực, ngày trước với ngày nay. Cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào, tình mới nhóm người tưởng chừng đã hẹn nhau “từ vạn kỷ”. (Hoài Thanh - Hoài Chân, trích Thi nhân Việt Nam, NXB Văn học, 2005, tr. 136- 138)",
       "question": "Hình ảnh “cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào” thể hiện điều gì về phong cách thơ Huy Cận?",
       "options": [
         "A. Thơ Huy Cận thường khai thác những hình ảnh siêu thực, lạ lẫm nhằm tạo nên sự mơ hồ về không gian và thời gian.",
@@ -62302,7 +62309,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_huycan_hoai_thanh"
     },
     {
       "id": "vact-moon-de-15-q16",
@@ -63610,7 +63618,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong tam giác $ABC$, biết $\\widehat{A} = 30^\\circ$, $\\widehat{B} = 45^\\circ$ và cạnh $a = BC = 6$. Tính độ dài cạnh $b = AC$:",
+      "question": "Trong tam giác $ABC$, biết $\\widehat{A} = 30^{\\circ}$, $\\widehat{B} = 45^{\\circ}$ và cạnh $a = BC = 6$. Tính độ dài cạnh $b = AC$:",
       "options": [
         "A. $b = 6\\sqrt{2}$",
         "B. $b = 3\\sqrt{2}$",
@@ -63618,7 +63626,7 @@ export const QUESTIONS_DATA = {
         "D. $b = 3\\sqrt{6}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Theo định lý sin cho tam giác ABC: 2 sin sin45 2 6 6 6 2. 1 sin sin sin sin30 2 a b B b a A B A = \\Rightarrow = = = = ^\\circ ^\\circ",
+      "explanation": "Theo định lý sin cho tam giác ABC: 2 sin sin45 2 6 6 6 2. 1 sin sin sin sin30 2 a b B b a A B A = \\Rightarrow = = = = ^{\\circ} ^{\\circ}",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -63854,10 +63862,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 84 đến 86:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
       "question": "Tính góc giữa hai mặt phẳng (SBC) và (SAC):",
       "options": [
-        "A. $45^\\circ$",
-        "B. $90^\\circ$",
-        "C. $60^\\circ$",
-        "D. $30^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $90^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $30^{\\circ}$"
       ],
       "correctAnswer": 1,
       "explanation": "Ta có: ( ) ( ) ( ) BC AC BC SAC SBC SAC BC SA \\Rightarrow \\Rightarrow",
@@ -64628,7 +64636,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nThôi đã tan rồi vạn gót hương Của người đẹp tới tự trăm phương. Tan rồi những bước không hò hẹn Đã bước trùng nhau một ngã đường. Lại có khi suối buồn thương cứ tự trong thâm tâm chảy ra lai láng không vướng chút bụi trần: Ôi! Nắng vàng sao mà nhớ nhung! Có ai đàn lẻ để tơ chùng? Có ai tiễn biệt nơi xa ấy Xui bước chân đây cũng ngại ngùng… Phải tinh lắm mới thấy lòng mình như thế giữa cái ồ ạt, cái rộn rịp của cuộc đời hằng ngày. Đây có lẽ là một điều Huy Cận đã học được trong thơ Pháp. Nhưng với vị trí quan sát rèn luyện trong nền học mới, Huy Cận đã làm một việc táo bạo: tìm về những cảnh xưa, nơi bao nhiêu người đã sa lầy — tôi muốn nói sa vào khuôn sáo. Người nói cùng ta nỗi buồn nơi quán chật đèo cao, nỗi buồn của sông dài trời rộng, nỗi buồn của người lữ thứ dừng ngựa trên non, buồn đêm mưa, buồn nhớ bạn. Và cũng như người đã làm thơ trong những chốn tơ tưởng không có gì nên thơ, người tìm ra thơ trong những chốn ta tưởng không còn có thơ nữa. Người đã gọi dậy cái hồn buồn của Đông Á, người đã khơi lại cái mạch sâu mấy nghìn năm vẫn ngấm ngầm trong cõi đất này. Huy Cận triền miên trong cảnh xưa, trò chuyện với người xưa, luôn luôn đi về trên con đường thời gian vô tận. Có lúc hình như thi nhân không phân biệt mộng với thực, ngày trước với ngày nay. Cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào, tình mới nhóm người tưởng chừng đã hẹn nhau “từ vạn kỷ”. (Hoài Thanh - Hoài Chân, trích Thi nhân Việt Nam, NXB Văn học, 2005, tr. 136- 138)",
       "question": "Tác giả nhận định như thế nào về khả năng sáng tạo của Huy Cận trong việc khai thác những điều tưởng như \"không còn có thơ nữa\"?",
       "options": [
         "A. Huy Cận tái hiện nguyên vẹn vẻ đẹp của những hình ảnh quen thuộc trong quá khứ bằng lối thơ cổ kính, khô khan và chuẩn mực.",
@@ -64641,7 +64649,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_huycan_hoai_thanh"
     },
     {
       "id": "vact-moon-de-16-q2",
@@ -64650,7 +64659,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Câu văn “Ai có ngờ những bước chân đã tan trên đường kia còn ghi lại trong văn thơ những dấu tích hẳn không bao giờ tan được” thể hiện điều gì về quan niệm",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nThôi đã tan rồi vạn gót hương Của người đẹp tới tự trăm phương. Tan rồi những bước không hò hẹn Đã bước trùng nhau một ngã đường. Lại có khi suối buồn thương cứ tự trong thâm tâm chảy ra lai láng không vướng chút bụi trần: Ôi! Nắng vàng sao mà nhớ nhung! Có ai đàn lẻ để tơ chùng? Có ai tiễn biệt nơi xa ấy Xui bước chân đây cũng ngại ngùng… Phải tinh lắm mới thấy lòng mình như thế giữa cái ồ ạt, cái rộn rịp của cuộc đời hằng ngày. Đây có lẽ là một điều Huy Cận đã học được trong thơ Pháp. Nhưng với vị trí quan sát rèn luyện trong nền học mới, Huy Cận đã làm một việc táo bạo: tìm về những cảnh xưa, nơi bao nhiêu người đã sa lầy — tôi muốn nói sa vào khuôn sáo. Người nói cùng ta nỗi buồn nơi quán chật đèo cao, nỗi buồn của sông dài trời rộng, nỗi buồn của người lữ thứ dừng ngựa trên non, buồn đêm mưa, buồn nhớ bạn. Và cũng như người đã làm thơ trong những chốn tơ tưởng không có gì nên thơ, người tìm ra thơ trong những chốn ta tưởng không còn có thơ nữa. Người đã gọi dậy cái hồn buồn của Đông Á, người đã khơi lại cái mạch sâu mấy nghìn năm vẫn ngấm ngầm trong cõi đất này. Huy Cận triền miên trong cảnh xưa, trò chuyện với người xưa, luôn luôn đi về trên con đường thời gian vô tận. Có lúc hình như thi nhân không phân biệt mộng với thực, ngày trước với ngày nay. Cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào, tình mới nhóm người tưởng chừng đã hẹn nhau “từ vạn kỷ”. (Hoài Thanh - Hoài Chân, trích Thi nhân Việt Nam, NXB Văn học, 2005, tr. 136- 138)",
       "question": "Câu văn trên thể hiện quan niệm sâu sắc nào về sứ mệnh và thiên chức của nghệ thuật?",
       "options": [
         "A. Nghệ thuật là sự chắt lọc từ những điều to lớn, kỳ vĩ để khắc ghi dấu ấn mạnh mẽ trong tâm hồn con người và tạo nên những kiệt tác bất hủ.",
@@ -64663,7 +64672,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_huycan_hoai_thanh"
     },
     {
       "id": "vact-moon-de-16-q3",
@@ -64672,7 +64682,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nThôi đã tan rồi vạn gót hương Của người đẹp tới tự trăm phương. Tan rồi những bước không hò hẹn Đã bước trùng nhau một ngã đường. Lại có khi suối buồn thương cứ tự trong thâm tâm chảy ra lai láng không vướng chút bụi trần: Ôi! Nắng vàng sao mà nhớ nhung! Có ai đàn lẻ để tơ chùng? Có ai tiễn biệt nơi xa ấy Xui bước chân đây cũng ngại ngùng… Phải tinh lắm mới thấy lòng mình như thế giữa cái ồ ạt, cái rộn rịp của cuộc đời hằng ngày. Đây có lẽ là một điều Huy Cận đã học được trong thơ Pháp. Nhưng với vị trí quan sát rèn luyện trong nền học mới, Huy Cận đã làm một việc táo bạo: tìm về những cảnh xưa, nơi bao nhiêu người đã sa lầy — tôi muốn nói sa vào khuôn sáo. Người nói cùng ta nỗi buồn nơi quán chật đèo cao, nỗi buồn của sông dài trời rộng, nỗi buồn của người lữ thứ dừng ngựa trên non, buồn đêm mưa, buồn nhớ bạn. Và cũng như người đã làm thơ trong những chốn tơ tưởng không có gì nên thơ, người tìm ra thơ trong những chốn ta tưởng không còn có thơ nữa. Người đã gọi dậy cái hồn buồn của Đông Á, người đã khơi lại cái mạch sâu mấy nghìn năm vẫn ngấm ngầm trong cõi đất này. Huy Cận triền miên trong cảnh xưa, trò chuyện với người xưa, luôn luôn đi về trên con đường thời gian vô tận. Có lúc hình như thi nhân không phân biệt mộng với thực, ngày trước với ngày nay. Cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào, tình mới nhóm người tưởng chừng đã hẹn nhau “từ vạn kỷ”. (Hoài Thanh - Hoài Chân, trích Thi nhân Việt Nam, NXB Văn học, 2005, tr. 136- 138)",
       "question": "Theo đoạn trích, vì sao Hoài Thanh cho rằng Huy Cận có điểm học được từ thơ Pháp?",
       "options": [
         "A. Vì Huy Cận chịu ảnh hưởng sâu sắc từ thơ Pháp nên đã rời bỏ cảnh trí quen thuộc trong thơ cổ để tìm đến những hình ảnh hiện đại và kỳ vĩ.",
@@ -64685,7 +64695,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_huycan_hoai_thanh"
     },
     {
       "id": "vact-moon-de-16-q4",
@@ -64694,7 +64705,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 26 đến 30:\nThôi đã tan rồi vạn gót hương Của người đẹp tới tự trăm phương. Tan rồi những bước không hò hẹn Đã bước trùng nhau một ngã đường. Lại có khi suối buồn thương cứ tự trong thâm tâm chảy ra lai láng không vướng chút bụi trần: Ôi! Nắng vàng sao mà nhớ nhung! Có ai đàn lẻ để tơ chùng? Có ai tiễn biệt nơi xa ấy Xui bước chân đây cũng ngại ngùng… Phải tinh lắm mới thấy lòng mình như thế giữa cái ồ ạt, cái rộn rịp của cuộc đời hằng ngày. Đây có lẽ là một điều Huy Cận đã học được trong thơ Pháp. Nhưng với vị trí quan sát rèn luyện trong nền học mới, Huy Cận đã làm một việc táo bạo: tìm về những cảnh xưa, nơi bao nhiêu người đã sa lầy — tôi muốn nói sa vào khuôn sáo. Người nói cùng ta nỗi buồn nơi quán chật đèo cao, nỗi buồn của sông dài trời rộng, nỗi buồn của người lữ thứ dừng ngựa trên non, buồn đêm mưa, buồn nhớ bạn. Và cũng như người đã làm thơ trong những chốn tơ tưởng không có gì nên thơ, người tìm ra thơ trong những chốn ta tưởng không còn có thơ nữa. Người đã gọi dậy cái hồn buồn của Đông Á, người đã khơi lại cái mạch sâu mấy nghìn năm vẫn ngấm ngầm trong cõi đất này. Huy Cận triền miên trong cảnh xưa, trò chuyện với người xưa, luôn luôn đi về trên con đường thời gian vô tận. Có lúc hình như thi nhân không phân biệt mộng với thực, ngày trước với ngày nay. Cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào, tình mới nhóm người tưởng chừng đã hẹn nhau “từ vạn kỷ”. (Hoài Thanh - Hoài Chân, trích Thi nhân Việt Nam, NXB Văn học, 2005, tr. 136- 138)",
       "question": "Hình ảnh “cảnh trước mắt người mơ màng như đã thấy ở một kiếp nào” thể hiện điều gì về phong cách thơ Huy Cận?",
       "options": [
         "A. Thơ Huy Cận thường khai thác những hình ảnh siêu thực, lạ lẫm nhằm tạo nên sự mơ hồ về không gian và thời gian.",
@@ -64707,7 +64718,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_huycan_hoai_thanh"
     },
     {
       "id": "vact-moon-de-16-q5",
@@ -66127,10 +66139,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 67 đến 69:\nCho hình chóp $S.ABC$ có đáy là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh bên $SA \\perp (ABC)$ và $SB = a\\sqrt{5}$.",
       "question": "Tính góc giữa hai mặt phẳng (SBC) và (SAC):",
       "options": [
-        "A. $45^\\circ$",
-        "B. $90^\\circ$",
-        "C. $60^\\circ$",
-        "D. $30^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $90^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $30^{\\circ}$"
       ],
       "correctAnswer": 1,
       "explanation": "Ta có: ( ) ( ) ( ) BC AC BC SAC SBC SAC BC SA \\Rightarrow \\Rightarrow",
@@ -66499,7 +66511,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
+      "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^{\\circ}, \\hat{C} = 75^{\\circ}$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
         "B. $7\\text{ cm}$",
@@ -66507,7 +66519,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^\\circ Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^\\circ = \\Rightarrow = = = + ^\\circ . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
+      "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^{\\circ} Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^{\\circ} = \\Rightarrow = = = + ^{\\circ} . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -66567,13 +66579,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
-        "A. 2 3 1 x x y x - = -",
-        "B. 2 3 2 3 x y x + = -",
-        "C. 2 2 3 2 x y x x - = -",
-        "D. 2 1 3 x y x - = +"
+        "A. $y = \\frac{x - 2}{x^2 - 3x + 2}$",
+        "B. $y = \\frac{\\sqrt{x^2 + 3}}{2x - 3}$",
+        "C. $y = \\frac{x^2 - 3x}{x - 1}$",
+        "D. $y = \\frac{\\sqrt{1 - x^2}}{x + 3}$"
       ],
       "correctAnswer": 0,
-      "explanation": "2 3 lim 1 x x x x \\to \\pm \\infty - = \\pm \\infty - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - không có đường tiệm cận ngang. 2 2 3 1 3 1 lim ; lim 2 3 2 2 3 2 x x x x x x \\to +\\infty \\to -\\infty + + = = - - - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - có hai đường tiệm cận ngang. 2 1 3 x y x - = + có tập xác định [ ] 1;1 - \\Rightarrow đồ thị hàm số không có đường tiệm cận ngang. 2 2 3 lim 0 2 x x x x \\to \\pm \\infty - = - \\Rightarrow Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y =",
+      "explanation": "Ta có:\n- Với $y = \\frac{x - 2}{x^2 - 3x + 2} = \\frac{1}{x - 1}$ (với $x \\ne 2$), ta có $\\lim_{x \\to \\pm \\infty} y = 0 \\Rightarrow y = 0$ là đường tiệm cận ngang duy nhất.\n- Với $y = \\frac{\\sqrt{x^2 + 3}}{2x - 3}$, $\\lim_{x \\to +\\infty} y = \\frac{1}{2}$ và $\\lim_{x \\to -\\infty} y = -\\frac{1}{2}$ (2 tiệm cận ngang).\n- Với $y = \\frac{x^2 - 3x}{x - 1}$, $\\lim_{x \\to \\pm\\infty} y = \\pm\\infty$ (không có tiệm cận ngang).\n- Với $y = \\frac{\\sqrt{1 - x^2}}{x + 3}$, TXĐ là $[-1; 1]$ nên không có tiệm cận ngang.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -68777,7 +68789,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^\\circ, \\hat{C} = 75^\\circ$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
+      "question": "Cho tam giác $ABC$ có $\\hat{B} = 45^{\\circ}, \\hat{C} = 75^{\\circ}$ và phân giác trong $AD = 4$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
         "B. $7\\text{ cm}$",
@@ -68785,7 +68797,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{7\\sqrt{5}}{5}\\text{ cm}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^\\circ Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^\\circ = \\Rightarrow = = = + ^\\circ . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
+      "explanation": "Ta có 0 0 180 60 A B C = - - = , \\bullet \\bullet 105 ADB C DAC = + = ^{\\circ} Áp dụng định lý sin vào tam giác ADB \\bullet \\bullet \\bullet \\bullet sin sin105 . .4 2 2 3 sin 45 sin sin sin AB AD ADB AB AD ADB ABD ABD ^{\\circ} = \\Rightarrow = = = + ^{\\circ} . Bán kính đường tròn ngoại tiếp tam giác ABC là: 0 2 2 3 2 2. 2sin 2sin 75 AB R C + = = =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -68845,13 +68857,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào dưới đây có đúng một đường tiệm cận ngang?",
       "options": [
-        "A. 2 3 1 x x y x - = -",
-        "B. 2 3 2 3 x y x + = -",
-        "C. 2 2 3 2 x y x x - = -",
-        "D. 2 1 3 x y x - = +"
+        "A. $y = \\frac{x - 2}{x^2 - 3x + 2}$",
+        "B. $y = \\frac{\\sqrt{x^2 + 3}}{2x - 3}$",
+        "C. $y = \\frac{x^2 - 3x}{x - 1}$",
+        "D. $y = \\frac{\\sqrt{1 - x^2}}{x + 3}$"
       ],
       "correctAnswer": 0,
-      "explanation": "2 3 lim 1 x x x x \\to \\pm \\infty - = \\pm \\infty - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - không có đường tiệm cận ngang. 2 2 3 1 3 1 lim ; lim 2 3 2 2 3 2 x x x x x x \\to +\\infty \\to -\\infty + + = = - - - \\Rightarrow đồ thị hàm số 2 3 1 x x y x - = - có hai đường tiệm cận ngang. 2 1 3 x y x - = + có tập xác định [ ] 1;1 - \\Rightarrow đồ thị hàm số không có đường tiệm cận ngang. 2 2 3 lim 0 2 x x x x \\to \\pm \\infty - = - \\Rightarrow Đồ thị hàm số có đúng một đường tiệm cận ngang 0 y =",
+      "explanation": "Ta có:\n- Với $y = \\frac{x - 2}{x^2 - 3x + 2} = \\frac{1}{x - 1}$ (với $x \\ne 2$), ta có $\\lim_{x \\to \\pm \\infty} y = 0 \\Rightarrow y = 0$ là đường tiệm cận ngang duy nhất.\n- Với $y = \\frac{\\sqrt{x^2 + 3}}{2x - 3}$, $\\lim_{x \\to +\\infty} y = \\frac{1}{2}$ và $\\lim_{x \\to -\\infty} y = -\\frac{1}{2}$ (2 tiệm cận ngang).\n- Với $y = \\frac{x^2 - 3x}{x - 1}$, $\\lim_{x \\to \\pm\\infty} y = \\pm\\infty$ (không có tiệm cận ngang).\n- Với $y = \\frac{\\sqrt{1 - x^2}}{x + 3}$, TXĐ là $[-1; 1]$ nên không có tiệm cận ngang.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -69173,15 +69185,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Thể tích khối chóp . S ABCD là:",
+      "question": "Thể tích khối chóp $S.ABCD$ là:",
       "options": [
-        "A. $\\frac{2a^3\\sqrt{15}}{3}$",
-        "B. $\\frac{a^3\\sqrt{15}}{3}$",
-        "C. $\\frac{a^3\\sqrt{15}}{6}$",
-        "D. $\\frac{4a^3\\sqrt{15}}{3}$"
+        "A. $\\frac{4a^3\\sqrt{7}}{3}$",
+        "B. $2a^3\\sqrt{7}$",
+        "C. $\\frac{2a^3\\sqrt{7}}{3}$",
+        "D. $a^3\\sqrt{7}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Đáy $ABCD$ là hình vuông cạnh $2a \\Rightarrow S_{ABCD} = (2a)^2 = 4a^2$. Tâm đáy $O \\Rightarrow OA = \\frac{AC}{2} = \\frac{2a\\sqrt{2}}{2} = a\\sqrt{2}$. Chiều cao $SO = \\sqrt{SA^2 - OA^2} = \\sqrt{(3a)^2 - (a\\sqrt{2})^2} = a\\sqrt{7}$. Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4a^2 \\cdot a\\sqrt{7} = \\frac{4a^3\\sqrt{7}}{3}$.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -69197,10 +69209,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng:",
       "options": [
-        "A. $60^\\circ$",
-        "B. $45^\\circ$",
-        "C. $30^\\circ$",
-        "D. $75^\\circ$"
+        "A. $60^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $30^{\\circ}$",
+        "D. $75^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -69225,7 +69237,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{\\sqrt{285}}{19}a$"
       ],
       "correctAnswer": 1,
-      "explanation": "85) 2 . 2 ABCD S AB BC a = = 3 1 2 15 . 3 3 ABCD V S SA a \\Rightarrow = = 86) ) ( ) t ( ai A C SC ABCD C A SA BCD A \\cap = \\Rightarrow là hình chiếu của SC lên mặt phẳng ( ) ABCD \\bullet ( , ( )) ( , ) SC ABCD SC AC SCA \\Rightarrow = = 2 2 5 AC AB a BC = = + \\bullet \\bullet 15 tan 3 60 5 SA a SCA SCA AC a = = = \\Rightarrow = ^\\circ 87) Kẻ AH SD tại H và chứng minh ( ) AH SCD tại H . Suy ra ( ) ( ) d , A SCD AH = Tính 2 2 . 2 285 19 AS AD AH a A AD S = = + Gọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra ( ) ( ) ( ) d , 1 1 2 285 d , 3 3 57 d , G SCD GM G SCD AH a AM A SCD [ ] ] ] = = \\Rightarrow = = [ ] ] ][ ] ] ] Dựa vào thông tin sau, trả lời các câu hỏi Cho hàm số ( ) 2 2 2 1 x x f x x + + = + có đồ thị (C).",
+      "explanation": "85) 2 . 2 ABCD S AB BC a = = 3 1 2 15 . 3 3 ABCD V S SA a \\Rightarrow = = 86) ) ( ) t ( ai A C SC ABCD C A SA BCD A \\cap = \\Rightarrow là hình chiếu của SC lên mặt phẳng ( ) ABCD \\bullet ( , ( )) ( , ) SC ABCD SC AC SCA \\Rightarrow = = 2 2 5 AC AB a BC = = + \\bullet \\bullet 15 tan 3 60 5 SA a SCA SCA AC a = = = \\Rightarrow = ^{\\circ} 87) Kẻ AH SD tại H và chứng minh ( ) AH SCD tại H . Suy ra ( ) ( ) d , A SCD AH = Tính 2 2 . 2 285 19 AS AD AH a A AD S = = + Gọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra ( ) ( ) ( ) d , 1 1 2 285 d , 3 3 57 d , G SCD GM G SCD AH a AM A SCD [ ] ] ] = = \\Rightarrow = = [ ] ] ][ ] ] ] Dựa vào thông tin sau, trả lời các câu hỏi Cho hàm số ( ) 2 2 2 1 x x f x x + + = + có đồ thị (C).",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -71454,15 +71466,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Thể tích khối chóp . S ABCD là:",
+      "question": "Thể tích khối chóp $S.ABCD$ là:",
       "options": [
-        "A. $\\frac{2a^3\\sqrt{15}}{3}$",
-        "B. $\\frac{a^3\\sqrt{15}}{3}$",
-        "C. $\\frac{a^3\\sqrt{15}}{6}$",
-        "D. $\\frac{4a^3\\sqrt{15}}{3}$"
+        "A. $\\frac{4a^3\\sqrt{7}}{3}$",
+        "B. $2a^3\\sqrt{7}$",
+        "C. $\\frac{2a^3\\sqrt{7}}{3}$",
+        "D. $a^3\\sqrt{7}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Đáy $ABCD$ là hình vuông cạnh $2a \\Rightarrow S_{ABCD} = (2a)^2 = 4a^2$. Tâm đáy $O \\Rightarrow OA = \\frac{AC}{2} = \\frac{2a\\sqrt{2}}{2} = a\\sqrt{2}$. Chiều cao $SO = \\sqrt{SA^2 - OA^2} = \\sqrt{(3a)^2 - (a\\sqrt{2})^2} = a\\sqrt{7}$. Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4a^2 \\cdot a\\sqrt{7} = \\frac{4a^3\\sqrt{7}}{3}$.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -71478,10 +71490,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng:",
       "options": [
-        "A. $60^\\circ$",
-        "B. $45^\\circ$",
-        "C. $30^\\circ$",
-        "D. $75^\\circ$"
+        "A. $60^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $30^{\\circ}$",
+        "D. $75^{\\circ}$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -71506,7 +71518,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{\\sqrt{285}}{19}a$"
       ],
       "correctAnswer": 1,
-      "explanation": "85) 2 . 2 ABCD S AB BC a = = 3 1 2 15 . 3 3 ABCD V S SA a \\Rightarrow = = 86) ) ( ) t ( ai A C SC ABCD C A SA BCD A \\cap = \\Rightarrow là hình chiếu của SC lên mặt phẳng ( ) ABCD \\bullet ( , ( )) ( , ) SC ABCD SC AC SCA \\Rightarrow = = 2 2 5 AC AB a BC = = + \\bullet \\bullet 15 tan 3 60 5 SA a SCA SCA AC a = = = \\Rightarrow = ^\\circ 87) Kẻ AH SD tại H và chứng minh ( ) AH SCD tại H . Suy ra ( ) ( ) d , A SCD AH = Tính 2 2 . 2 285 19 AS AD AH a A AD S = = + Gọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra ( ) ( ) ( ) d , 1 1 2 285 d , 3 3 57 d , G SCD GM G SCD AH a AM A SCD [ ] ] ] = = \\Rightarrow = = [ ] ] ][ ] ] ] Dựa vào thông tin sau, trả lời các câu hỏi Cho hàm số ( ) 2 2 2 1 x x f x x + + = + có đồ thị (C).",
+      "explanation": "85) 2 . 2 ABCD S AB BC a = = 3 1 2 15 . 3 3 ABCD V S SA a \\Rightarrow = = 86) ) ( ) t ( ai A C SC ABCD C A SA BCD A \\cap = \\Rightarrow là hình chiếu của SC lên mặt phẳng ( ) ABCD \\bullet ( , ( )) ( , ) SC ABCD SC AC SCA \\Rightarrow = = 2 2 5 AC AB a BC = = + \\bullet \\bullet 15 tan 3 60 5 SA a SCA SCA AC a = = = \\Rightarrow = ^{\\circ} 87) Kẻ AH SD tại H và chứng minh ( ) AH SCD tại H . Suy ra ( ) ( ) d , A SCD AH = Tính 2 2 . 2 285 19 AS AD AH a A AD S = = + Gọi O là trung điểm AC nên G là trọng tâm của tam giác ACD suy ra ( ) ( ) ( ) d , 1 1 2 285 d , 3 3 57 d , G SCD GM G SCD AH a AM A SCD [ ] ] ] = = \\Rightarrow = = [ ] ] ][ ] ] ] Dựa vào thông tin sau, trả lời các câu hỏi Cho hàm số ( ) 2 2 2 1 x x f x x + + = + có đồ thị (C).",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -72468,7 +72480,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Xét các phát biểu sau về pin mặt trời: (1) Dòng điện sinh ra trong pin mặt trời là dòng xoay chiều. (2) Khi cường độ ánh sáng tăng, công suất điện của pin tăng. (3) Các tấm pin được ghép song song để tăng hiệu điện thế tổng. (4) Hiệu suất của pin mặt trời bị giới hạn bởi tính chất của vật liệu bán dẫn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -72490,7 +72502,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Một tấm pin mặt trời có hiệu điện thế danh định $U = 12\\text{ V}$, dòng điện $I = 4\\text{ A}$, hoạt động với hiệu suất 80%. Công suất bức xạ mặt trời chiếu vào tấm pin là:",
       "options": [
         "A. 48 W",
@@ -74384,16 +74396,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Góc giữa đường thẳng $SA$ và mặt phẳng $(ABC)$ là:",
       "options": [
-        "A. $45^\\circ$",
-        "B. $30^\\circ$",
-        "C. $60^\\circ$",
-        "D. $75^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $30^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $75^{\\circ}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có tam giác SBC đều và H là trung điểm của BC . Suy ra SH BC . Mà ( ) ( ) SBC ABC theo giao tuyến BC nên suy ra ( ) SH ABC . Vì ( ) SH ABC nên HA là hình chiếu của SA trên mặt phẳng ( ABC ). Do đó ( ) ( ) ( ) \\bullet , , SA ABC SA AH SAH = = . Trong tam giác vuông SHA , ta có \\bullet tan SH SAH AH = . Tam giác SBC đều cạnh 2a nên 3 SH a = . Tam giác ABC vuông tại A nên 1 2 AH BC a = = . Suy ra \\bullet tan 3 SH SAH AH = = , suy ra \\bullet 60 SAH = ^\\circ .",
+      "explanation": "Ta có tam giác SBC đều và H là trung điểm của BC . Suy ra SH BC . Mà ( ) ( ) SBC ABC theo giao tuyến BC nên suy ra ( ) SH ABC . Vì ( ) SH ABC nên HA là hình chiếu của SA trên mặt phẳng ( ABC ). Do đó ( ) ( ) ( ) \\bullet , , SA ABC SA AH SAH = = . Trong tam giác vuông SHA , ta có \\bullet tan SH SAH AH = . Tam giác SBC đều cạnh 2a nên 3 SH a = . Tam giác ABC vuông tại A nên 1 2 AH BC a = = . Suy ra \\bullet tan 3 SH SAH AH = = , suy ra \\bullet 60 SAH = ^{\\circ} .",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -74406,7 +74418,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Tan của góc giữa hai mặt phẳng ( SAC ) và ( ABC ) bằng",
       "options": [
         "A. $\\frac{3}{2}$",
@@ -74428,7 +74440,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Khoảng cách từ B đến mặt phẳng ( SAC ) là",
       "options": [
         "A. $\\frac{3a\\sqrt{39}}{13}$",
@@ -74692,7 +74704,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 97 và 98:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 97 và 98:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Xét các phát biểu sau về pin mặt trời: (1) Dòng điện sinh ra trong pin mặt trời là dòng xoay chiều. (2) Khi cường độ ánh sáng tăng, công suất điện của pin tăng. (3) Các tấm pin được ghép song song để tăng hiệu điện thế tổng. (4) Hiệu suất của pin mặt trời bị giới hạn bởi tính chất của vật liệu bán dẫn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -74714,7 +74726,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 97 và 98:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 97 và 98:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Một tấm pin mặt trời có hiệu điện thế danh định $U = 12\\text{ V}$, dòng điện $I = 4\\text{ A}$, hoạt động với hiệu suất 80%. Công suất bức xạ mặt trời chiếu vào tấm pin là:",
       "options": [
         "A. 48 W",
@@ -76546,15 +76558,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Phương trình đường trung trực của BC là",
+      "question": "Phương trình đường trung trực của đoạn thẳng $BC$ là:",
       "options": [
-        "A. 5 3 0 x y + - =",
-        "B. 5 3 0 x y + + =",
-        "C. 5 3 0 x y - - =",
-        "D. 5 3 0 x y - + ="
+        "A. $5x + y - 3 = 0$",
+        "B. $5x + y + 3 = 0$",
+        "C. $5x - y - 3 = 0$",
+        "D. $5x - y + 3 = 0$"
       ],
       "correctAnswer": 0,
-      "explanation": "Tọa độ giao điểm N của d và AB là nghiệm của hệ: ( ) 5 11 0 4 4; 3 3 2 6 0 3 x y x N x y y - - = = - \\Leftrightarrow \\Rightarrow - - - + = = - Đường trung trực của BC cũng chính là đường trung trực của MN Tam giác ABC cân tại A nên A nằm trên đường trung trực của MN . Đường trung trực của MN đi qua trung điểm ( ) 1; 2 I - và nhận ( ) 10; 2 MN = - - làm vectơ pháp tuyến nên có phương trình: ( )( ) ( )( ) 10 1 2 2 0 5 3 0 x y x y - - + - + = \\Leftrightarrow + - =",
+      "explanation": "Đường trung trực của $BC$ đi qua trung điểm $I(1; -2)$ và nhận vectơ pháp tuyến $\\vec{n} = (5; 1)$ nên có phương trình: $5(x - 1) + 1(y + 2) = 0 \\Leftrightarrow 5x + y - 3 = 0$.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -76655,16 +76667,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Góc giữa đường thẳng $SA$ và mặt phẳng $(ABC)$ là:",
       "options": [
-        "A. $45^\\circ$",
-        "B. $30^\\circ$",
-        "C. $60^\\circ$",
-        "D. $75^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $30^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $75^{\\circ}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có tam giác SBC đều và H là trung điểm của BC . Suy ra SH BC . Mà ( ) ( ) SBC ABC theo giao tuyến BC nên suy ra ( ) SH ABC . Vì ( ) SH ABC nên HA là hình chiếu của SA trên mặt phẳng ( ABC ). Do đó ( ) ( ) ( ) \\bullet , , SA ABC SA AH SAH = = . Trong tam giác vuông SHA , ta có \\bullet tan SH SAH AH = . Tam giác SBC đều cạnh 2a nên 3 SH a = . Tam giác ABC vuông tại A nên 1 2 AH BC a = = . Suy ra \\bullet tan 3 SH SAH AH = = , suy ra \\bullet 60 SAH = ^\\circ .",
+      "explanation": "Ta có tam giác SBC đều và H là trung điểm của BC . Suy ra SH BC . Mà ( ) ( ) SBC ABC theo giao tuyến BC nên suy ra ( ) SH ABC . Vì ( ) SH ABC nên HA là hình chiếu của SA trên mặt phẳng ( ABC ). Do đó ( ) ( ) ( ) \\bullet , , SA ABC SA AH SAH = = . Trong tam giác vuông SHA , ta có \\bullet tan SH SAH AH = . Tam giác SBC đều cạnh 2a nên 3 SH a = . Tam giác ABC vuông tại A nên 1 2 AH BC a = = . Suy ra \\bullet tan 3 SH SAH AH = = , suy ra \\bullet 60 SAH = ^{\\circ} .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -76677,7 +76689,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Tan của góc giữa hai mặt phẳng ( SAC ) và ( ABC ) bằng",
       "options": [
         "A. $\\frac{3}{2}$",
@@ -76699,7 +76711,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^\\circ , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Khoảng cách từ B đến mặt phẳng ( SAC ) là",
       "options": [
         "A. $\\frac{3a\\sqrt{39}}{13}$",
@@ -76964,7 +76976,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
+      "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^{\\circ}$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
         "B. $7\\text{ cm}$",
@@ -76986,7 +76998,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^\\circ$. Tính $BC$:",
+      "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^{\\circ}$. Tính $BC$:",
       "options": [
         "A. $\\frac{3}{3}$",
         "B. 3",
@@ -76994,7 +77006,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{6}{2}$"
       ],
       "correctAnswer": 0,
-      "explanation": "2 2 2 2 2 2 2 2 2 2 2 2 2 cos120 (18 3) 972 (30 3) 2700 18 30 3 1620 , , 7 49 7 49 49 49 972 2700 1620 5292 108 6 3. 49 49 BC AB AC AB AC AB AC AB AC AB AC AB AC BC BC = + - \\cdot \\cdot \\cdot = + + \\cdot \\cdot \\cdot = = = = \\cdot = = + + = = = \\Rightarrow = ^\\circ",
+      "explanation": "2 2 2 2 2 2 2 2 2 2 2 2 2 cos120 (18 3) 972 (30 3) 2700 18 30 3 1620 , , 7 49 7 49 49 49 972 2700 1620 5292 108 6 3. 49 49 BC AB AC AB AC AB AC AB AC AB AC AB AC BC BC = + - \\cdot \\cdot \\cdot = + + \\cdot \\cdot \\cdot = = = = \\cdot = = + + = = = \\Rightarrow = ^{\\circ}",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -77560,8 +77572,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 109:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
-      "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^\\circ\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 109:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "question": "Cho các phát biểu bên dưới: (𝐼) Đơn vị của đo công suất của tấm pin là $W_p$. (𝐼𝐼) Năng lượng Mặt Trời là năng lượng tái tạo. (𝐼𝐼𝐼) Trong điều kiện tiêu chuẩn (cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, tốc độ gió là $1\\text{ m/s}$ , nhiệt độ không khí là $25^{\\circ}\\text{C}$, áp suất khí quyển là $1{,}5\\text{ atm}$, … $1\\text{ W}_p$ pin năng lượng mặt trời sẽ tạo ra $1\\text{ Wh}$ điện mặt trời. (𝐼𝑉) Pin năng lượng Mặt Trời là thiết bị chuyển hóa điện năng thành quang năng. Số phát biểu đúng là",
       "options": [
         "A. 1",
         "B. 2",
@@ -77582,7 +77594,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 109:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 109:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Một tấm pin có công suất $400\\text{ W}_p$, trong $1\\text{ h}$ nắng tiêu chuẩn sẽ tạo ra $400\\text{ Wh}$ điện. Trong một tháng (30 ngày) thì lượng điện năng mà tấm pin này tạo ra là bao nhiêu 𝑘$\\text{Wh}$?",
       "options": [
         "A. 28,8.",
@@ -77604,7 +77616,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 109:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^\\circ\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 109:\nCông suất tấm pin được đo bằng $W_p$ (watt-peak). Đây là công suất phát ra tối đa của tấm pin trong điều kiện tiêu chuẩn (STC): cường độ bức xạ mặt trời $1000\\text{ W/m}^2$, nhiệt độ pin $25^{\\circ}\\text{C}$, và khối lượng khí $AM = 1{,}5$. Trong 1 giờ nắng tiêu chuẩn, $1\\text{ }W_p$ pin mặt trời sẽ tạo ra $1\\text{ Wh}$ điện năng.",
       "question": "Nếu tấm pin trên có diện tích bề mặt là $2\\text{ m}^2$ thì hiệu suất của tấm pin sẽ là:",
       "options": [
         "A. 10%",
@@ -78288,7 +78300,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n“Dọc khắp các vùng quê, đâu cũng có những ngôi đình, ngôi chùa để nhân dân cầu bình an. Muốn bình yên cần học cách đối xử hiền hòa với thiên nhiên. Vào thời điểm này, những con sông bậc nhất Bắc Kỳ, dòng sông của thi ca, dòng sông và tiếng hát quan họ vẫn còn lóng lánh đón mặt trời vào mỗi sớm mai, còn đong đưa những thứ ánh sáng huyền diệu của trăng lên, những canh hát hội, tiếng gõ mạn thuyền gọi cá tôm vào lưới. Người Bắc Giang đang có những dòng sông đẹp như cô gái đang thời xuân sắc. Giá trị trong lành của những dòng sông không nơi nào có được, cần phải giữ gìn và nâng cao chất lượng của dòng nước. Thiên nhiên ban cho người Bắc Giang những dòng sông, ngọn núi đẹp, là những báu vật để dành cho tương lai. Ở những nước giàu có, nhờ những dòng sông đẹp, nhiều nơi đã phát triển được hệ thống đường thủy trong giao thương và du lịch. Mọi dòng sông đều đổ hết về biển lớn. Trên hành trình về biển, sông đi qua bao gian khó và thử thách. Có lẽ mơ ước của những dòng sông đổ về biển lớn mang theo mơ ước của người Bắc Giang về sự hội nhập và phát triển kinh tế - văn hóa - xã hội cũng từ đây”.\n(Những dòng nước huyền thoại, Nguyễn Thị Thu Hà, Ngàn năm dưới bóng quê nhà, trang 81-82, NXB Quân đội Nhân dân 2018)",
       "question": "Theo đoạn trích, vì sao những dòng sông Bắc Giang được ví như “cô gái đang thời xuân sắc”?",
       "options": [
         "A. Vì vẻ đẹp trong trẻo, tràn đầy sức sống và giá trị tự nhiên quý giá.",
@@ -78301,7 +78313,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_bacgiang_rivers"
     },
     {
       "id": "vact-moon-de-21-q21",
@@ -78310,7 +78323,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\nBiến đổi khí hậu đang được dự báo sẽ làm gia tăng hạn hán, qua đó làm trầm trọng thêm tình trạng xâm nhập mặn ở Đồng bằng sông Cửu Long (ĐBSCL). Vậy sự kết hợp giữa hai yếu tố này sẽ tác động trực tiếp như thế nào đến sự tồn tại của nông dân ĐBSCL, những người chủ yếu có sinh kế phụ thuộc vào việc trồng lúa? M. A. van Aalst và các cộng sự ở Trường Kinh doanh và Kinh tế, Đại học Vrije Amsterdam, đã đặt câu hỏi này vào cả vùng ĐBSCL và xem xét mức độ tổn thương ở các mức quy mô khác nhau, cả cấp quận, cấp xã và cấp hộ gia đình. Giải thích vì sao lại chọn ĐBSCL, các nhà nghiên cứu cho rằng đây là điểm nóng về ảnh hưởng của biến đổi khí hậu và môi trường. Trong cả thập kỷ qua, vùng này đã trải qua những thay đổi môi trường ở tốc độ nhanh và chậm, như nước biển dâng, lũ lụt, xâm nhập mặn và hạn hán trong khi nguồn sống của 75% cư dân phụ thuộc vào nông nghiệp. Sản phẩm nông nghiệp chiếm vị thế chủ đạo của ĐBSCL là lúa, vốn dễ bị ảnh hưởng bởi điều kiện thời tiết khắc nghiệt. Họ tập trung vào giai đoạn 2015-2016, khi cả đồng bằng phải gánh chịu đợt hạn hán khốc liệt nhất trong lịch sử, đồng thời còn phải trong cảnh dòng chảy từ thượng nguồn xuống thấp hơn 65 đến 70% so với trung bình hằng năm. Sử dụng các mô hình tính toán, họ phát hiện ra mức độ dễ bị tổn thương ở cấp độ huyện và xã có những điểm khác biệt. Ở cấp huyện, mặc dù có mối liên hệ giữa nghèo đói và thất thu vụ mùa nhưng không có chỉ dấu trực tiếp giữa sự phơi nhiễm xâm nhập mặn với nghèo đói, mặc dù thông thường xâm nhập mặn sẽ góp phần làm giảm năng suất thu hoạch với tỉ lệ xấp xỉ 21%. Ở cấp xã, mối liên hệ này thể hiện tương đối rõ nét. Các xã nghèo hơn và bị xâm nhập mặn nhiều hơn đều phải hứng chịu cảnh bị mất mát mùa vụ ở mức cao trong cùng năm. Do đó, các cộng đồng nghèo sẽ có mức độ tổn thương do tác động trực tiếp của môi trường cao hơn, điều vẫn còn chưa thể hiện rõ ở cấp huyện. Ở cấp hộ gia đình, các hộ sống trong khu vực nghèo sẽ phải đối mặt với khả năng mất mùa cao hơn. Mối quan hệ này chứng tỏ hiệu ứng này thậm chí còn mạnh hơn ở những nơi chịu xâm nhập mặn cao, chỉ dấu là những hộ sống ở khu vực thịnh vượng hơn đều có năng lực thích ứng tốt hơn. Các mô hình cũng cho thấy mức độ rủi ro cao hơn ở cấp hộ gia đình có liên quan đáng kể với mức độ giáo dục thấp hơn, tài sản thấp hơn và quy mô canh tác nhỏ hơn. (Theo Anh Vũ, Tính dễ bị tổn thương và khó phục hồi của nông dân ĐBSCL trong hạn hán)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n“Dọc khắp các vùng quê, đâu cũng có những ngôi đình, ngôi chùa để nhân dân cầu bình an. Muốn bình yên cần học cách đối xử hiền hòa với thiên nhiên. Vào thời điểm này, những con sông bậc nhất Bắc Kỳ, dòng sông của thi ca, dòng sông và tiếng hát quan họ vẫn còn lóng lánh đón mặt trời vào mỗi sớm mai, còn đong đưa những thứ ánh sáng huyền diệu của trăng lên, những canh hát hội, tiếng gõ mạn thuyền gọi cá tôm vào lưới. Người Bắc Giang đang có những dòng sông đẹp như cô gái đang thời xuân sắc. Giá trị trong lành của những dòng sông không nơi nào có được, cần phải giữ gìn và nâng cao chất lượng của dòng nước. Thiên nhiên ban cho người Bắc Giang những dòng sông, ngọn núi đẹp, là những báu vật để dành cho tương lai. Ở những nước giàu có, nhờ những dòng sông đẹp, nhiều nơi đã phát triển được hệ thống đường thủy trong giao thương và du lịch. Mọi dòng sông đều đổ hết về biển lớn. Trên hành trình về biển, sông đi qua bao gian khó và thử thách. Có lẽ mơ ước của những dòng sông đổ về biển lớn mang theo mơ ước của người Bắc Giang về sự hội nhập và phát triển kinh tế - văn hóa - xã hội cũng từ đây”.\n(Những dòng nước huyền thoại, Nguyễn Thị Thu Hà, Ngàn năm dưới bóng quê nhà, trang 81-82, NXB Quân đội Nhân dân 2018)",
       "question": "Ý nghĩa của câu “Mọi dòng sông đều đổ hết về biển lớn” trong ngữ cảnh đoạn trích là gì?",
       "options": [
         "A. Khẳng định quy luật tự nhiên tất yếu của các dòng sông.",
@@ -78323,7 +78336,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_bacgiang_rivers"
     },
     {
       "id": "vact-moon-de-21-q22",
@@ -78332,7 +78346,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\nBiến đổi khí hậu đang được dự báo sẽ làm gia tăng hạn hán, qua đó làm trầm trọng thêm tình trạng xâm nhập mặn ở Đồng bằng sông Cửu Long (ĐBSCL). Vậy sự kết hợp giữa hai yếu tố này sẽ tác động trực tiếp như thế nào đến sự tồn tại của nông dân ĐBSCL, những người chủ yếu có sinh kế phụ thuộc vào việc trồng lúa? M. A. van Aalst và các cộng sự ở Trường Kinh doanh và Kinh tế, Đại học Vrije Amsterdam, đã đặt câu hỏi này vào cả vùng ĐBSCL và xem xét mức độ tổn thương ở các mức quy mô khác nhau, cả cấp quận, cấp xã và cấp hộ gia đình. Giải thích vì sao lại chọn ĐBSCL, các nhà nghiên cứu cho rằng đây là điểm nóng về ảnh hưởng của biến đổi khí hậu và môi trường. Trong cả thập kỷ qua, vùng này đã trải qua những thay đổi môi trường ở tốc độ nhanh và chậm, như nước biển dâng, lũ lụt, xâm nhập mặn và hạn hán trong khi nguồn sống của 75% cư dân phụ thuộc vào nông nghiệp. Sản phẩm nông nghiệp chiếm vị thế chủ đạo của ĐBSCL là lúa, vốn dễ bị ảnh hưởng bởi điều kiện thời tiết khắc nghiệt. Họ tập trung vào giai đoạn 2015-2016, khi cả đồng bằng phải gánh chịu đợt hạn hán khốc liệt nhất trong lịch sử, đồng thời còn phải trong cảnh dòng chảy từ thượng nguồn xuống thấp hơn 65 đến 70% so với trung bình hằng năm. Sử dụng các mô hình tính toán, họ phát hiện ra mức độ dễ bị tổn thương ở cấp độ huyện và xã có những điểm khác biệt. Ở cấp huyện, mặc dù có mối liên hệ giữa nghèo đói và thất thu vụ mùa nhưng không có chỉ dấu trực tiếp giữa sự phơi nhiễm xâm nhập mặn với nghèo đói, mặc dù thông thường xâm nhập mặn sẽ góp phần làm giảm năng suất thu hoạch với tỉ lệ xấp xỉ 21%. Ở cấp xã, mối liên hệ này thể hiện tương đối rõ nét. Các xã nghèo hơn và bị xâm nhập mặn nhiều hơn đều phải hứng chịu cảnh bị mất mát mùa vụ ở mức cao trong cùng năm. Do đó, các cộng đồng nghèo sẽ có mức độ tổn thương do tác động trực tiếp của môi trường cao hơn, điều vẫn còn chưa thể hiện rõ ở cấp huyện. Ở cấp hộ gia đình, các hộ sống trong khu vực nghèo sẽ phải đối mặt với khả năng mất mùa cao hơn. Mối quan hệ này chứng tỏ hiệu ứng này thậm chí còn mạnh hơn ở những nơi chịu xâm nhập mặn cao, chỉ dấu là những hộ sống ở khu vực thịnh vượng hơn đều có năng lực thích ứng tốt hơn. Các mô hình cũng cho thấy mức độ rủi ro cao hơn ở cấp hộ gia đình có liên quan đáng kể với mức độ giáo dục thấp hơn, tài sản thấp hơn và quy mô canh tác nhỏ hơn. (Theo Anh Vũ, Tính dễ bị tổn thương và khó phục hồi của nông dân ĐBSCL trong hạn hán)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n“Dọc khắp các vùng quê, đâu cũng có những ngôi đình, ngôi chùa để nhân dân cầu bình an. Muốn bình yên cần học cách đối xử hiền hòa với thiên nhiên. Vào thời điểm này, những con sông bậc nhất Bắc Kỳ, dòng sông của thi ca, dòng sông và tiếng hát quan họ vẫn còn lóng lánh đón mặt trời vào mỗi sớm mai, còn đong đưa những thứ ánh sáng huyền diệu của trăng lên, những canh hát hội, tiếng gõ mạn thuyền gọi cá tôm vào lưới. Người Bắc Giang đang có những dòng sông đẹp như cô gái đang thời xuân sắc. Giá trị trong lành của những dòng sông không nơi nào có được, cần phải giữ gìn và nâng cao chất lượng của dòng nước. Thiên nhiên ban cho người Bắc Giang những dòng sông, ngọn núi đẹp, là những báu vật để dành cho tương lai. Ở những nước giàu có, nhờ những dòng sông đẹp, nhiều nơi đã phát triển được hệ thống đường thủy trong giao thương và du lịch. Mọi dòng sông đều đổ hết về biển lớn. Trên hành trình về biển, sông đi qua bao gian khó và thử thách. Có lẽ mơ ước của những dòng sông đổ về biển lớn mang theo mơ ước của người Bắc Giang về sự hội nhập và phát triển kinh tế - văn hóa - xã hội cũng từ đây”.\n(Những dòng nước huyền thoại, Nguyễn Thị Thu Hà, Ngàn năm dưới bóng quê nhà, trang 81-82, NXB Quân đội Nhân dân 2018)",
       "question": "Dòng nào sau đây nêu đúng nhất hiệu quả nghệ thuật của biện pháp ẩn dụ “hành trình về biển” của những dòng sông ở cuối đoạn văn?",
       "options": [
         "A. Làm nổi bật quy luật vận động tự nhiên của sông ngòi trong không gian rộng lớn.",
@@ -78345,7 +78359,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_bacgiang_rivers"
     },
     {
       "id": "vact-moon-de-21-q23",
@@ -78640,7 +78655,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 46 đến 52:\nQuestions: Read the passage carefully. Implicit memory and explicit memory are two key types of long-term memory. Information you remember unconsciously and effortlessly—like how to ride a bike or tie your shoes—is stored as implicit memory. Meanwhile, information that you have to consciously recall and think about, such as remembering your to-do list or a historical date, is known as explicit memory. Both forms of memory play crucial roles in how we recall information and interact with our surroundings. Understanding the difference between them helps explain how the brain organizes and retrieves knowledge. Implicit memory, sometimes called unconscious or automatic memory, refers to information that people don’t intentionally try to remember. It’s also known as nondeclarative memory because it cannot easily be expressed in words. These memories are procedural—focused on how to perform actions or skills that become second nature through repetition. For example, singing a familiar song, typing on a keyboard, or driving a car all rely on implicit memory. Even after years without practice, most people can hop on a bicycle and ride effortlessly because the memory of the task remains intact. Implicit memory mainly involves the cerebellum and basal ganglia, which coordinate movement and habit formation. Although we’re not aware of these memories, they strongly influence our behaviors and knowledge of different tasks. By contrast, explicit memory—sometimes called declarative memory—involves conscious, intentional recollection. When you try to recall what you studied for a test, the name of your childhood friend, or the capital of a country, you are using explicit memory. This type of memory depends on the hippocampus and frontal lobes. Explicit memory can be divided into two categories: episodic memory, which includes personal experiences such as birthdays or vacations, and semantic memory, which stores facts, concepts, and general knowledge. Remembering your phone number, identifying a famous person, or recalling when your next appointment is are all examples of explicit recall. While the two systems differ in awareness, they often work together in daily life. Implicit memory lets you engage automatically in learned behaviors—like steering a car—while explicit memory allows you to consciously remember directions or a new route. Research shows that factors such as stress, mood, and age can affect both types: high stress may impair explicit recall but heighten emotional implicit memories, while aging tends to weaken explicit memory yet preserve implicit skills. Maintaining healthy habits like regular sleep, physical exercise, brain training, and balanced nutrition can help protect both systems. Ultimately, implicit memory lets you act without thinking, while explicit memory lets you think before acting—and together, they form the foundation of learning and daily functioning. (Adapted from: Choose an option (A, B, C, or D) that best answers each question.",
       "question": "According to paragraph 3, the Osingira is built by ______.",
       "options": [
         "A. the Masai senior elders",
@@ -78653,7 +78668,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_masai_eunoto"
     },
     {
       "id": "vact-moon-de-21-q37",
@@ -78662,7 +78678,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 46 đến 52:\nQuestions: Read the passage carefully. Implicit memory and explicit memory are two key types of long-term memory. Information you remember unconsciously and effortlessly—like how to ride a bike or tie your shoes—is stored as implicit memory. Meanwhile, information that you have to consciously recall and think about, such as remembering your to-do list or a historical date, is known as explicit memory. Both forms of memory play crucial roles in how we recall information and interact with our surroundings. Understanding the difference between them helps explain how the brain organizes and retrieves knowledge. Implicit memory, sometimes called unconscious or automatic memory, refers to information that people don’t intentionally try to remember. It’s also known as nondeclarative memory because it cannot easily be expressed in words. These memories are procedural—focused on how to perform actions or skills that become second nature through repetition. For example, singing a familiar song, typing on a keyboard, or driving a car all rely on implicit memory. Even after years without practice, most people can hop on a bicycle and ride effortlessly because the memory of the task remains intact. Implicit memory mainly involves the cerebellum and basal ganglia, which coordinate movement and habit formation. Although we’re not aware of these memories, they strongly influence our behaviors and knowledge of different tasks. By contrast, explicit memory—sometimes called declarative memory—involves conscious, intentional recollection. When you try to recall what you studied for a test, the name of your childhood friend, or the capital of a country, you are using explicit memory. This type of memory depends on the hippocampus and frontal lobes. Explicit memory can be divided into two categories: episodic memory, which includes personal experiences such as birthdays or vacations, and semantic memory, which stores facts, concepts, and general knowledge. Remembering your phone number, identifying a famous person, or recalling when your next appointment is are all examples of explicit recall. While the two systems differ in awareness, they often work together in daily life. Implicit memory lets you engage automatically in learned behaviors—like steering a car—while explicit memory allows you to consciously remember directions or a new route. Research shows that factors such as stress, mood, and age can affect both types: high stress may impair explicit recall but heighten emotional implicit memories, while aging tends to weaken explicit memory yet preserve implicit skills. Maintaining healthy habits like regular sleep, physical exercise, brain training, and balanced nutrition can help protect both systems. Ultimately, implicit memory lets you act without thinking, while explicit memory lets you think before acting—and together, they form the foundation of learning and daily functioning. (Adapted from: Choose an option (A, B, C, or D) that best answers each question.",
       "question": "The word alter in paragraph 4 is closest in meaning to ______.",
       "options": [
         "A. differ",
@@ -78675,7 +78691,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_masai_eunoto"
     },
     {
       "id": "vact-moon-de-21-q38",
@@ -78684,7 +78701,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 46 đến 52:\nQuestions: Read the passage carefully. Implicit memory and explicit memory are two key types of long-term memory. Information you remember unconsciously and effortlessly—like how to ride a bike or tie your shoes—is stored as implicit memory. Meanwhile, information that you have to consciously recall and think about, such as remembering your to-do list or a historical date, is known as explicit memory. Both forms of memory play crucial roles in how we recall information and interact with our surroundings. Understanding the difference between them helps explain how the brain organizes and retrieves knowledge. Implicit memory, sometimes called unconscious or automatic memory, refers to information that people don’t intentionally try to remember. It’s also known as nondeclarative memory because it cannot easily be expressed in words. These memories are procedural—focused on how to perform actions or skills that become second nature through repetition. For example, singing a familiar song, typing on a keyboard, or driving a car all rely on implicit memory. Even after years without practice, most people can hop on a bicycle and ride effortlessly because the memory of the task remains intact. Implicit memory mainly involves the cerebellum and basal ganglia, which coordinate movement and habit formation. Although we’re not aware of these memories, they strongly influence our behaviors and knowledge of different tasks. By contrast, explicit memory—sometimes called declarative memory—involves conscious, intentional recollection. When you try to recall what you studied for a test, the name of your childhood friend, or the capital of a country, you are using explicit memory. This type of memory depends on the hippocampus and frontal lobes. Explicit memory can be divided into two categories: episodic memory, which includes personal experiences such as birthdays or vacations, and semantic memory, which stores facts, concepts, and general knowledge. Remembering your phone number, identifying a famous person, or recalling when your next appointment is are all examples of explicit recall. While the two systems differ in awareness, they often work together in daily life. Implicit memory lets you engage automatically in learned behaviors—like steering a car—while explicit memory allows you to consciously remember directions or a new route. Research shows that factors such as stress, mood, and age can affect both types: high stress may impair explicit recall but heighten emotional implicit memories, while aging tends to weaken explicit memory yet preserve implicit skills. Maintaining healthy habits like regular sleep, physical exercise, brain training, and balanced nutrition can help protect both systems. Ultimately, implicit memory lets you act without thinking, while explicit memory lets you think before acting—and together, they form the foundation of learning and daily functioning. (Adapted from: Choose an option (A, B, C, or D) that best answers each question.",
       "question": "According to the passage, what do the teenage boys do at Eunoto?",
       "options": [
         "A. Paint their bodies",
@@ -78697,7 +78714,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_masai_eunoto"
     },
     {
       "id": "vact-moon-de-21-q39",
@@ -78706,7 +78724,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 46 đến 52:\nQuestions: Read the passage carefully. Implicit memory and explicit memory are two key types of long-term memory. Information you remember unconsciously and effortlessly—like how to ride a bike or tie your shoes—is stored as implicit memory. Meanwhile, information that you have to consciously recall and think about, such as remembering your to-do list or a historical date, is known as explicit memory. Both forms of memory play crucial roles in how we recall information and interact with our surroundings. Understanding the difference between them helps explain how the brain organizes and retrieves knowledge. Implicit memory, sometimes called unconscious or automatic memory, refers to information that people don’t intentionally try to remember. It’s also known as nondeclarative memory because it cannot easily be expressed in words. These memories are procedural—focused on how to perform actions or skills that become second nature through repetition. For example, singing a familiar song, typing on a keyboard, or driving a car all rely on implicit memory. Even after years without practice, most people can hop on a bicycle and ride effortlessly because the memory of the task remains intact. Implicit memory mainly involves the cerebellum and basal ganglia, which coordinate movement and habit formation. Although we’re not aware of these memories, they strongly influence our behaviors and knowledge of different tasks. By contrast, explicit memory—sometimes called declarative memory—involves conscious, intentional recollection. When you try to recall what you studied for a test, the name of your childhood friend, or the capital of a country, you are using explicit memory. This type of memory depends on the hippocampus and frontal lobes. Explicit memory can be divided into two categories: episodic memory, which includes personal experiences such as birthdays or vacations, and semantic memory, which stores facts, concepts, and general knowledge. Remembering your phone number, identifying a famous person, or recalling when your next appointment is are all examples of explicit recall. While the two systems differ in awareness, they often work together in daily life. Implicit memory lets you engage automatically in learned behaviors—like steering a car—while explicit memory allows you to consciously remember directions or a new route. Research shows that factors such as stress, mood, and age can affect both types: high stress may impair explicit recall but heighten emotional implicit memories, while aging tends to weaken explicit memory yet preserve implicit skills. Maintaining healthy habits like regular sleep, physical exercise, brain training, and balanced nutrition can help protect both systems. Ultimately, implicit memory lets you act without thinking, while explicit memory lets you think before acting—and together, they form the foundation of learning and daily functioning. (Adapted from: Choose an option (A, B, C, or D) that best answers each question.",
       "question": "According to the passage, which of the following is TRUE?",
       "options": [
         "A. The Masai teenage boys are given advice from senior elders before attending Eunoto.",
@@ -78719,7 +78737,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_masai_eunoto"
     },
     {
       "id": "vact-moon-de-21-q40",
@@ -78728,7 +78747,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 46 đến 52:\nQuestions: Read the passage carefully. Implicit memory and explicit memory are two key types of long-term memory. Information you remember unconsciously and effortlessly—like how to ride a bike or tie your shoes—is stored as implicit memory. Meanwhile, information that you have to consciously recall and think about, such as remembering your to-do list or a historical date, is known as explicit memory. Both forms of memory play crucial roles in how we recall information and interact with our surroundings. Understanding the difference between them helps explain how the brain organizes and retrieves knowledge. Implicit memory, sometimes called unconscious or automatic memory, refers to information that people don’t intentionally try to remember. It’s also known as nondeclarative memory because it cannot easily be expressed in words. These memories are procedural—focused on how to perform actions or skills that become second nature through repetition. For example, singing a familiar song, typing on a keyboard, or driving a car all rely on implicit memory. Even after years without practice, most people can hop on a bicycle and ride effortlessly because the memory of the task remains intact. Implicit memory mainly involves the cerebellum and basal ganglia, which coordinate movement and habit formation. Although we’re not aware of these memories, they strongly influence our behaviors and knowledge of different tasks. By contrast, explicit memory—sometimes called declarative memory—involves conscious, intentional recollection. When you try to recall what you studied for a test, the name of your childhood friend, or the capital of a country, you are using explicit memory. This type of memory depends on the hippocampus and frontal lobes. Explicit memory can be divided into two categories: episodic memory, which includes personal experiences such as birthdays or vacations, and semantic memory, which stores facts, concepts, and general knowledge. Remembering your phone number, identifying a famous person, or recalling when your next appointment is are all examples of explicit recall. While the two systems differ in awareness, they often work together in daily life. Implicit memory lets you engage automatically in learned behaviors—like steering a car—while explicit memory allows you to consciously remember directions or a new route. Research shows that factors such as stress, mood, and age can affect both types: high stress may impair explicit recall but heighten emotional implicit memories, while aging tends to weaken explicit memory yet preserve implicit skills. Maintaining healthy habits like regular sleep, physical exercise, brain training, and balanced nutrition can help protect both systems. Ultimately, implicit memory lets you act without thinking, while explicit memory lets you think before acting—and together, they form the foundation of learning and daily functioning. (Adapted from: Choose an option (A, B, C, or D) that best answers each question.",
       "question": "What is the main topic of the passage?",
       "options": [
         "A. Economic benefits of environmentally responsible buildings",
@@ -78741,7 +78760,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_masai_eunoto"
     },
     {
       "id": "vact-moon-de-21-q41",
@@ -79235,7 +79255,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
+      "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^{\\circ}$, $b = 8\\text{ cm}$, $c = 5\\text{ cm}$. Tính bán kính đường tròn ngoại tiếp $R$ của tam giác $ABC$:",
       "options": [
         "A. $\\frac{7\\sqrt{3}}{3}\\text{ cm}$",
         "B. $7\\text{ cm}$",
@@ -79257,7 +79277,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^\\circ$. Tính $BC$:",
+      "question": "Trong tam giác $ABC$, biết $AB = \\frac{18\\sqrt{3}}{7}$, $AC = \\frac{30\\sqrt{3}}{7}$ và $\\widehat{A} = 120^{\\circ}$. Tính $BC$:",
       "options": [
         "A. $\\frac{3}{3}$",
         "B. 3",
@@ -79265,7 +79285,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{6}{2}$"
       ],
       "correctAnswer": 0,
-      "explanation": "2 2 2 2 2 2 2 2 2 2 2 2 2 cos120 (18 3) 972 (30 3) 2700 18 30 3 1620 , , 7 49 7 49 49 49 972 2700 1620 5292 108 6 3. 49 49 BC AB AC AB AC AB AC AB AC AB AC AB AC BC BC = + - \\cdot \\cdot \\cdot = + + \\cdot \\cdot \\cdot = = = = \\cdot = = + + = = = \\Rightarrow = ^\\circ",
+      "explanation": "2 2 2 2 2 2 2 2 2 2 2 2 2 cos120 (18 3) 972 (30 3) 2700 18 30 3 1620 , , 7 49 7 49 49 49 972 2700 1620 5292 108 6 3. 49 49 BC AB AC AB AC AB AC AB AC AB AC AB AC BC BC = + - \\cdot \\cdot \\cdot = + + \\cdot \\cdot \\cdot = = = = \\cdot = = + + = = = \\Rightarrow = ^{\\circ}",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -79479,10 +79499,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$. Cạnh bên $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Gọi $O$ là giao điểm của hai đường chéo hình vuông $ABCD$.",
       "question": "Tính góc giữa đường thẳng $SC$ và mặt phẳng $(SBD)$ (làm tròn đến hàng phần trăm độ):",
       "options": [
-        "A. $28{,}34^\\circ$",
-        "B. $18{,}43^\\circ$",
-        "C. $15{,}88^\\circ$",
-        "D. $22{,}58^\\circ$"
+        "A. $28{,}34^{\\circ}$",
+        "B. $18{,}43^{\\circ}$",
+        "C. $15{,}88^{\\circ}$",
+        "D. $22{,}58^{\\circ}$"
       ],
       "correctAnswer": 1,
       "explanation": "( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) , 1 ; ; , 10 5 d A SBD OA a d C SBD d A SBD OC d C SBD = = \\Rightarrow = = Ta tính: ( ) ( )\\bullet , SC SBD \\alpha = qua công thức ( ) ( ) , 10 10 sin : 2 5 10 d C SBD a a SC \\alpha = = =",
@@ -80400,13 +80420,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^{\\circ}\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Sử dụng dữ liệu của thí nghiệm ban đầu (15,0g Glucose trong 200g nước). Tính nhiệt độ sôi của dung dịch thu được? Kết quả làm tròn đến hai chữ số sau dấu phẩy.",
       "options": [
-        "$100{,}21^\\circ\\text{C}$",
-        "$105{,}21^\\circ\\text{C}$",
-        "$107{,}21^\\circ\\text{C}$",
-        "$109{,}21^\\circ\\text{C}$"
+        "$100{,}21^{\\circ}\\text{C}$",
+        "$105{,}21^{\\circ}\\text{C}$",
+        "$107{,}21^{\\circ}\\text{C}$",
+        "$109{,}21^{\\circ}\\text{C}$"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Khối lượng mol glucose = 180,0 g/mol. → Số mol = 15,0: 180,0 = 0,0833 mol → m = 0,0833: 0,200 = 0,4165 mol/kg → ΔTb = 0,512 × 0,4165 = 0,213 °C → Nhiệt độ sôi dung dịch 100, 00 0, 2133 100, 2133... = + =",
@@ -80422,7 +80442,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^{\\circ}\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết; (2) Dung dịch chứa 1 mol Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) trong 1 kg nước; (3) Dung dịch chứa 0,5 mol $\\text{MgCl}_2$ trong 1 kg nước (giả sử điện li hoàn toàn); (4) Dung dịch chứa 1 mol $\\text{NaCl}$ trong 1 kg nước (giả sử điện li hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao):",
       "options": [
         "A. (1) < (2) < (3) < (4)",
@@ -80431,7 +80451,7 @@ export const QUESTIONS_DATA = {
         "D. (4) < (3) < (2) < (1)"
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^\\circ C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
+      "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^{\\circ} C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -80688,7 +80708,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n“Dọc khắp các vùng quê, đâu cũng có những ngôi đình, ngôi chùa để nhân dân cầu bình an. Muốn bình yên cần học cách đối xử hiền hòa với thiên nhiên. Vào thời điểm này, những con sông bậc nhất Bắc Kỳ, dòng sông của thi ca, dòng sông và tiếng hát quan họ vẫn còn lóng lánh đón mặt trời vào mỗi sớm mai, còn đong đưa những thứ ánh sáng huyền diệu của trăng lên, những canh hát hội, tiếng gõ mạn thuyền gọi cá tôm vào lưới. Người Bắc Giang đang có những dòng sông đẹp như cô gái đang thời xuân sắc. Giá trị trong lành của những dòng sông không nơi nào có được, cần phải giữ gìn và nâng cao chất lượng của dòng nước. Thiên nhiên ban cho người Bắc Giang những dòng sông, ngọn núi đẹp, là những báu vật để dành cho tương lai. Ở những nước giàu có, nhờ những dòng sông đẹp, nhiều nơi đã phát triển được hệ thống đường thủy trong giao thương và du lịch. Mọi dòng sông đều đổ hết về biển lớn. Trên hành trình về biển, sông đi qua bao gian khó và thử thách. Có lẽ mơ ước của những dòng sông đổ về biển lớn mang theo mơ ước của người Bắc Giang về sự hội nhập và phát triển kinh tế - văn hóa - xã hội cũng từ đây”.\n(Những dòng nước huyền thoại, Nguyễn Thị Thu Hà, Ngàn năm dưới bóng quê nhà, trang 81-82, NXB Quân đội Nhân dân 2018)",
       "question": "Theo đoạn trích, vì sao những dòng sông Bắc Giang được ví như “cô gái đang thời xuân sắc”?",
       "options": [
         "A. Vì vẻ đẹp trong trẻo, tràn đầy sức sống và giá trị tự nhiên quý giá.",
@@ -80701,7 +80721,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_bacgiang_rivers"
     },
     {
       "id": "vact-moon-de-22-q10",
@@ -80710,7 +80731,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n“Dọc khắp các vùng quê, đâu cũng có những ngôi đình, ngôi chùa để nhân dân cầu bình an. Muốn bình yên cần học cách đối xử hiền hòa với thiên nhiên. Vào thời điểm này, những con sông bậc nhất Bắc Kỳ, dòng sông của thi ca, dòng sông và tiếng hát quan họ vẫn còn lóng lánh đón mặt trời vào mỗi sớm mai, còn đong đưa những thứ ánh sáng huyền diệu của trăng lên, những canh hát hội, tiếng gõ mạn thuyền gọi cá tôm vào lưới. Người Bắc Giang đang có những dòng sông đẹp như cô gái đang thời xuân sắc. Giá trị trong lành của những dòng sông không nơi nào có được, cần phải giữ gìn và nâng cao chất lượng của dòng nước. Thiên nhiên ban cho người Bắc Giang những dòng sông, ngọn núi đẹp, là những báu vật để dành cho tương lai. Ở những nước giàu có, nhờ những dòng sông đẹp, nhiều nơi đã phát triển được hệ thống đường thủy trong giao thương và du lịch. Mọi dòng sông đều đổ hết về biển lớn. Trên hành trình về biển, sông đi qua bao gian khó và thử thách. Có lẽ mơ ước của những dòng sông đổ về biển lớn mang theo mơ ước của người Bắc Giang về sự hội nhập và phát triển kinh tế - văn hóa - xã hội cũng từ đây”.\n(Những dòng nước huyền thoại, Nguyễn Thị Thu Hà, Ngàn năm dưới bóng quê nhà, trang 81-82, NXB Quân đội Nhân dân 2018)",
       "question": "Ý nghĩa của câu “Mọi dòng sông đều đổ hết về biển lớn” trong ngữ cảnh đoạn trích là gì?",
       "options": [
         "A. Khẳng định quy luật tự nhiên tất yếu của các dòng sông.",
@@ -80723,7 +80744,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_bacgiang_rivers"
     },
     {
       "id": "vact-moon-de-22-q11",
@@ -80732,7 +80754,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\n“Dọc khắp các vùng quê, đâu cũng có những ngôi đình, ngôi chùa để nhân dân cầu bình an. Muốn bình yên cần học cách đối xử hiền hòa với thiên nhiên. Vào thời điểm này, những con sông bậc nhất Bắc Kỳ, dòng sông của thi ca, dòng sông và tiếng hát quan họ vẫn còn lóng lánh đón mặt trời vào mỗi sớm mai, còn đong đưa những thứ ánh sáng huyền diệu của trăng lên, những canh hát hội, tiếng gõ mạn thuyền gọi cá tôm vào lưới. Người Bắc Giang đang có những dòng sông đẹp như cô gái đang thời xuân sắc. Giá trị trong lành của những dòng sông không nơi nào có được, cần phải giữ gìn và nâng cao chất lượng của dòng nước. Thiên nhiên ban cho người Bắc Giang những dòng sông, ngọn núi đẹp, là những báu vật để dành cho tương lai. Ở những nước giàu có, nhờ những dòng sông đẹp, nhiều nơi đã phát triển được hệ thống đường thủy trong giao thương và du lịch. Mọi dòng sông đều đổ hết về biển lớn. Trên hành trình về biển, sông đi qua bao gian khó và thử thách. Có lẽ mơ ước của những dòng sông đổ về biển lớn mang theo mơ ước của người Bắc Giang về sự hội nhập và phát triển kinh tế - văn hóa - xã hội cũng từ đây”.\n(Những dòng nước huyền thoại, Nguyễn Thị Thu Hà, Ngàn năm dưới bóng quê nhà, trang 81-82, NXB Quân đội Nhân dân 2018)",
       "question": "Dòng nào sau đây nêu đúng nhất hiệu quả nghệ thuật của biện pháp ẩn dụ “hành trình về biển” của những dòng sông ở cuối đoạn văn?",
       "options": [
         "A. Làm nổi bật quy luật vận động tự nhiên của sông ngòi trong không gian rộng lớn.",
@@ -80745,7 +80767,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_bacgiang_rivers"
     },
     {
       "id": "vact-moon-de-22-q12",
@@ -81172,7 +81195,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 47 đến 55:\nQuestions: Read the passage carefully. A massive bushfire north of Sydney merged from several smaller blazes on December 6, creating what firefighters now call a “mega fire.” Fueled by fierce winds and bone-dry conditions, the blaze has blanketed Australia’s largest city in thick, hazardous smoke that has turned the sky a deep orange and forced commuters to wear masks. Officials warn that it could take weeks to bring the fire under control. So far, the Gospers Mountain fire alone has scorched more than 3,000 square kilometers, making it larger than California’s biggest blaze on record — the Mendocino Complex Fire of 2018. Across the state of New South Wales, more than 21,000 square kilometers of land have burned, an area roughly equal to 94 percent of New Jersey’s size. The infernos have killed at least four people and destroyed more than 680 homes since early November. Dozens of smaller fires are still active, stretching firefighters to their limits and threatening rural towns already suffering from drought. Australia’s summer wildfire season normally peaks in January or February, but this year flames arrived months earlier. Scientists and government agencies partly blame a warming climate and a three-year drought that has left the landscape tinder-dry. Satellite maps show vast zones of extremely dry bushland across New South Wales and southern Queensland. Root-zone soil moisture in many regions has fallen to record lows, meaning that even the smallest spark — from lightning, machinery, or a campfire — can ignite catastrophic blazes that spread uncontrollably through forest and farmland alike. The smoke crisis has triggered public outrage and reignited debate over Australia’s climate policies. Farmers say the drought has devastated crops and livestock, while city dwellers have endured weeks of choking air. Environmental groups and protesters are demanding stronger national action to curb greenhouse-gas emissions and reduce fire risks. Yet amid the destruction, Australians continue to show resilience: communities are donating supplies, volunteers are supporting exhausted fire crews, and scientists are racing to model how extreme weather may shape the country’s future fire seasons. The “mega fire” around Sydney, experts warn, is not an isolated event — it may be a preview of the new normal in a warming world. (Adapted from: https://www.reuters.com/graphics/AUSTRALIA-BUSHFIRES- SIZE%20/0100B4QG2FG/) Choose an option (A, B, C, or D) that best answers each question.",
       "question": "What do the Genzyme Center in Cambridge and the project in Vauban, Germany have in common?",
       "options": [
         "A. Both were built based on green building principles, significantly reducing energy use.",
@@ -81185,7 +81208,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_green_buildings"
     },
     {
       "id": "vact-moon-de-22-q32",
@@ -81194,7 +81218,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 47 đến 55:\nQuestions: Read the passage carefully. A massive bushfire north of Sydney merged from several smaller blazes on December 6, creating what firefighters now call a “mega fire.” Fueled by fierce winds and bone-dry conditions, the blaze has blanketed Australia’s largest city in thick, hazardous smoke that has turned the sky a deep orange and forced commuters to wear masks. Officials warn that it could take weeks to bring the fire under control. So far, the Gospers Mountain fire alone has scorched more than 3,000 square kilometers, making it larger than California’s biggest blaze on record — the Mendocino Complex Fire of 2018. Across the state of New South Wales, more than 21,000 square kilometers of land have burned, an area roughly equal to 94 percent of New Jersey’s size. The infernos have killed at least four people and destroyed more than 680 homes since early November. Dozens of smaller fires are still active, stretching firefighters to their limits and threatening rural towns already suffering from drought. Australia’s summer wildfire season normally peaks in January or February, but this year flames arrived months earlier. Scientists and government agencies partly blame a warming climate and a three-year drought that has left the landscape tinder-dry. Satellite maps show vast zones of extremely dry bushland across New South Wales and southern Queensland. Root-zone soil moisture in many regions has fallen to record lows, meaning that even the smallest spark — from lightning, machinery, or a campfire — can ignite catastrophic blazes that spread uncontrollably through forest and farmland alike. The smoke crisis has triggered public outrage and reignited debate over Australia’s climate policies. Farmers say the drought has devastated crops and livestock, while city dwellers have endured weeks of choking air. Environmental groups and protesters are demanding stronger national action to curb greenhouse-gas emissions and reduce fire risks. Yet amid the destruction, Australians continue to show resilience: communities are donating supplies, volunteers are supporting exhausted fire crews, and scientists are racing to model how extreme weather may shape the country’s future fire seasons. The “mega fire” around Sydney, experts warn, is not an isolated event — it may be a preview of the new normal in a warming world. (Adapted from: https://www.reuters.com/graphics/AUSTRALIA-BUSHFIRES- SIZE%20/0100B4QG2FG/) Choose an option (A, B, C, or D) that best answers each question.",
       "question": "The phrase under way in paragraph 6 is closest in meaning to ______.",
       "options": [
         "A. being delayed",
@@ -81207,7 +81231,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_green_buildings"
     },
     {
       "id": "vact-moon-de-22-q33",
@@ -81216,7 +81241,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 47 đến 55:\nQuestions: Read the passage carefully. A massive bushfire north of Sydney merged from several smaller blazes on December 6, creating what firefighters now call a “mega fire.” Fueled by fierce winds and bone-dry conditions, the blaze has blanketed Australia’s largest city in thick, hazardous smoke that has turned the sky a deep orange and forced commuters to wear masks. Officials warn that it could take weeks to bring the fire under control. So far, the Gospers Mountain fire alone has scorched more than 3,000 square kilometers, making it larger than California’s biggest blaze on record — the Mendocino Complex Fire of 2018. Across the state of New South Wales, more than 21,000 square kilometers of land have burned, an area roughly equal to 94 percent of New Jersey’s size. The infernos have killed at least four people and destroyed more than 680 homes since early November. Dozens of smaller fires are still active, stretching firefighters to their limits and threatening rural towns already suffering from drought. Australia’s summer wildfire season normally peaks in January or February, but this year flames arrived months earlier. Scientists and government agencies partly blame a warming climate and a three-year drought that has left the landscape tinder-dry. Satellite maps show vast zones of extremely dry bushland across New South Wales and southern Queensland. Root-zone soil moisture in many regions has fallen to record lows, meaning that even the smallest spark — from lightning, machinery, or a campfire — can ignite catastrophic blazes that spread uncontrollably through forest and farmland alike. The smoke crisis has triggered public outrage and reignited debate over Australia’s climate policies. Farmers say the drought has devastated crops and livestock, while city dwellers have endured weeks of choking air. Environmental groups and protesters are demanding stronger national action to curb greenhouse-gas emissions and reduce fire risks. Yet amid the destruction, Australians continue to show resilience: communities are donating supplies, volunteers are supporting exhausted fire crews, and scientists are racing to model how extreme weather may shape the country’s future fire seasons. The “mega fire” around Sydney, experts warn, is not an isolated event — it may be a preview of the new normal in a warming world. (Adapted from: https://www.reuters.com/graphics/AUSTRALIA-BUSHFIRES- SIZE%20/0100B4QG2FG/) Choose an option (A, B, C, or D) that best answers each question.",
       "question": "Which of the following is NOT mentioned in paragraph 7 as a benefit of green buildings?",
       "options": [
         "A. Improving living conditions",
@@ -81229,7 +81254,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_green_buildings"
     },
     {
       "id": "vact-moon-de-22-q34",
@@ -81238,7 +81264,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "english",
       "sectionName": "Sử dụng Tiếng Anh (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 47 đến 55:\nQuestions: Read the passage carefully. A massive bushfire north of Sydney merged from several smaller blazes on December 6, creating what firefighters now call a “mega fire.” Fueled by fierce winds and bone-dry conditions, the blaze has blanketed Australia’s largest city in thick, hazardous smoke that has turned the sky a deep orange and forced commuters to wear masks. Officials warn that it could take weeks to bring the fire under control. So far, the Gospers Mountain fire alone has scorched more than 3,000 square kilometers, making it larger than California’s biggest blaze on record — the Mendocino Complex Fire of 2018. Across the state of New South Wales, more than 21,000 square kilometers of land have burned, an area roughly equal to 94 percent of New Jersey’s size. The infernos have killed at least four people and destroyed more than 680 homes since early November. Dozens of smaller fires are still active, stretching firefighters to their limits and threatening rural towns already suffering from drought. Australia’s summer wildfire season normally peaks in January or February, but this year flames arrived months earlier. Scientists and government agencies partly blame a warming climate and a three-year drought that has left the landscape tinder-dry. Satellite maps show vast zones of extremely dry bushland across New South Wales and southern Queensland. Root-zone soil moisture in many regions has fallen to record lows, meaning that even the smallest spark — from lightning, machinery, or a campfire — can ignite catastrophic blazes that spread uncontrollably through forest and farmland alike. The smoke crisis has triggered public outrage and reignited debate over Australia’s climate policies. Farmers say the drought has devastated crops and livestock, while city dwellers have endured weeks of choking air. Environmental groups and protesters are demanding stronger national action to curb greenhouse-gas emissions and reduce fire risks. Yet amid the destruction, Australians continue to show resilience: communities are donating supplies, volunteers are supporting exhausted fire crews, and scientists are racing to model how extreme weather may shape the country’s future fire seasons. The “mega fire” around Sydney, experts warn, is not an isolated event — it may be a preview of the new normal in a warming world. (Adapted from: https://www.reuters.com/graphics/AUSTRALIA-BUSHFIRES- SIZE%20/0100B4QG2FG/) Choose an option (A, B, C, or D) that best answers each question.",
       "question": "According to the passage, which of the following statements about green buildings is TRUE?",
       "options": [
         "A. They are gaining in popularity in different parts of the world.",
@@ -81251,7 +81277,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_green_buildings"
     },
     {
       "id": "vact-moon-de-22-q35",
@@ -82143,13 +82170,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Cho tam giác $ABC$ nội tiếp đường tròn bán kính $R$, có $AB = R, AC = R\\sqrt{3}$. Tính góc $A$ biết góc $B$ là góc tù:",
       "options": [
-        "A. $45^\\circ$",
-        "B. $30^\\circ$",
-        "C. $60^\\circ$",
-        "D. $90^\\circ$"
+        "A. $45^{\\circ}$",
+        "B. $30^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $90^{\\circ}$"
       ],
       "correctAnswer": 1,
-      "explanation": "Góc B là góc tù nên , A C là góc nhọn. Ta có: 1 2 2 sin 30 sin sin 2 AB R R R C C C C = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^\\circ (vì C nhọn). Tương tự: 3 3 2 2 sin 120 sin sin 2 AC R R R B B B B = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^\\circ (do B tù) Suy ra: ( ) 180 30 120 30 A = - + =^\\circ ^\\circ ^\\circ ^\\circ .",
+      "explanation": "Góc B là góc tù nên , A C là góc nhọn. Ta có: 1 2 2 sin 30 sin sin 2 AB R R R C C C C = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^{\\circ} (vì C nhọn). Tương tự: 3 3 2 2 sin 120 sin sin 2 AC R R R B B B B = \\Leftrightarrow = \\Leftrightarrow = \\Rightarrow = ^{\\circ} (do B tù) Suy ra: ( ) 180 30 120 30 A = - + =^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -82171,7 +82198,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{5\\sqrt{3}}{2}$"
       ],
       "correctAnswer": 3,
-      "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^\\circ . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ ^\\circ . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^\\circ .",
+      "explanation": "Ta có ( ) ( ) 0 0 30 1 sin sin 1 ; 2 150 C C A B C [ = = + = \\Rightarrow = ] ( ) ( ) 3 cos 30 2 2 A B A B - = \\Rightarrow - = ^{\\circ} . Từ (1) và (2) suy ra 30 30 30 90 150 60 C C A B A A B B = = - = \\Rightarrow = + = = ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} ^{\\circ} . Tam giác ABC vuông tại A . Ta có 5 3 sin sin 5sin60 2 AC B AC BC B BC = \\Rightarrow = \\cdot = =^{\\circ} .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -82209,13 +82236,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
-        "A. 1 2 1 x y x - = +",
-        "B. 2 1 4 y x = -",
-        "C. 3 5 1 x y x + = -",
-        "D. 2 9 x y x x = - +"
+        "A. $y = \\frac{1}{x^2 - 4}$",
+        "B. $y = \\frac{x - 1}{2x + 1}$",
+        "C. $y = \\frac{3x + 5}{x - 1}$",
+        "D. $y = \\frac{x}{x^2 + 9}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có: 2 2 2 2 1 1 lim , lim 4 4 x x x x \\infty \\infty + - \\to \\to - = - = - - - suy ra đồ thị hàm số có hai đường tiệm cận đứng 2 x = \\pm . và 2 1 lim 0 4 x x \\infty \\to = - suy ra đồ thị hàm số có đường tiệm cận ngang 0 y = . Vậy đồ thị hàm số 2 1 4 y x = - có ba đường tiệm cận.",
+      "explanation": "Xét hàm số $y = \\frac{1}{x^2 - 4}$:\n- Ta có $\\lim_{x \\to 2^\\pm} y = \\pm\\infty$ và $\\lim_{x \\to -2^\\pm} y = \\pm\\infty \\Rightarrow$ đồ thị có hai đường tiệm cận đứng là $x = 2$ và $x = -2$.\n- $\\lim_{x \\to \\pm\\infty} y = 0 \\Rightarrow$ đồ thị có một đường tiệm cận ngang là $y = 0$.\nVậy đồ thị có tất cả 3 đường tiệm cận.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -82361,15 +82388,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 85 và 86:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Bạn Nam cần ít nhất 900 đơn vị protein và 400 đơn vị lipit trong thức ăn mỗi ngày. Mỗi kiogam thịt bò chứa 800 đơn vị protein và 200 đơn vị lipit. Mỗi kilogam thịt lợn chứa 600 đơn vị protein và 400 đơn vị lipit. Biết rằng Nam chỉ mua nhiều nhất 1,6 kg thịt bò và 1,1 kg thịt lợn. Giá tiền một kg thịt bò là 160 nghìn đồng, một kg thịt lợn là 110 nghìn đồng. Gọi , x y lần lượt là số kg thịt bò và thịt lợn mà Nam cần mua.",
-      "question": "Đẳng thức nào sau đây đúng?",
+      "question": "Bất đẳng thức nào sau đây mô tả đúng điều kiện về lượng protein Nam cần mỗi ngày?",
       "options": [
-        "A. $8 6 9 x y + \\ge$",
-        "B. $6 8 9 x y + \\ge$",
-        "C. $2 2 x y + \\le$",
-        "D. $2 2 x y + \\ge$"
+        "A. $8x + 6y \\ge 9$",
+        "B. $6x + 8y \\ge 9$",
+        "C. $x + 2y \\le 2$",
+        "D. $2x + y \\ge 4$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Mỗi ngày Nam cần ít nhất 900 đơn vị protein. 1 kg thịt bò chứa 800 đơn vị protein, 1 kg thịt lợn chứa 600 đơn vị protein. Do đó: $800x + 600y \\ge 900 \\Leftrightarrow 8x + 6y \\ge 9$.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -82624,13 +82651,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 97 và 98:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 97 và 98:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^{\\circ}\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Sử dụng dữ liệu của thí nghiệm ban đầu (15,0g Glucose trong 200g nước). Tính nhiệt độ sôi của dung dịch thu được? Kết quả làm tròn đến hai chữ số sau dấu phẩy.",
       "options": [
-        "$100{,}21^\\circ\\text{C}$",
-        "$105{,}21^\\circ\\text{C}$",
-        "$107{,}21^\\circ\\text{C}$",
-        "$109{,}21^\\circ\\text{C}$"
+        "$100{,}21^{\\circ}\\text{C}$",
+        "$105{,}21^{\\circ}\\text{C}$",
+        "$107{,}21^{\\circ}\\text{C}$",
+        "$109{,}21^{\\circ}\\text{C}$"
       ],
       "correctAnswer": 0,
       "explanation": "Đáp án A Khối lượng mol glucose = 180,0 g/mol. → Số mol = 15,0: 180,0 = 0,0833 mol → m = 0,0833: 0,200 = 0,4165 mol/kg → ΔTb = 0,512 × 0,4165 = 0,213 °C → Nhiệt độ sôi dung dịch 100, 00 0, 2133 100, 2133... = + =",
@@ -82646,7 +82673,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 97 và 98:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^\\circ\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 97 và 98:\nĐộ tăng nhiệt độ sôi của dung dịch chứa chất tan không bay hơi, không điện li được tính theo công thức $\\Delta T_b = K_b \\cdot m$, trong đó $K_b$ là hằng số nghiệm sôi của dung môi ($K_b = 0{,}512^{\\circ}\\text{C}\\cdot\\text{kg/mol}$ đối với nước) và $m$ là nồng độ molan (mol chất tan / kg dung môi). Đối với chất điện li, $\\Delta T_b = i \\cdot K_b \\cdot m$, với $i$ là hệ số van 't Hoff.",
       "question": "Cho 4 mẫu chất lỏng sau đây: (1) Nước tinh khiết; (2) Dung dịch chứa 1 mol Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) trong 1 kg nước; (3) Dung dịch chứa 0,5 mol $\\text{MgCl}_2$ trong 1 kg nước (giả sử điện li hoàn toàn); (4) Dung dịch chứa 1 mol $\\text{NaCl}$ trong 1 kg nước (giả sử điện li hoàn toàn). Hãy sắp xếp các mẫu chất lỏng trên theo thứ tự nhiệt độ sôi tăng dần (từ thấp đến cao):",
       "options": [
         "A. (1) < (2) < (3) < (4)",
@@ -82655,7 +82682,7 @@ export const QUESTIONS_DATA = {
         "D. (4) < (3) < (2) < (1)"
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^\\circ C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
+      "explanation": "Đáp án A Theo công thức độ tăng nhiệt độ sôi của dung dịch loãng: ( ) ( ) \\Delta = - = \\cdot \\cdot b s dd s dm b T T T i K m Vì tất cả các dung dịch đều dùng cùng một dung môi (nước) và cùng khối lượng dung môi (1 kg), nên b K là hằng số. Nhiệt độ sôi của dung dịch phụ thuộc trực tiếp vào tổng nồng độ hạt chất tan (tích số \\cdot i m hoặc \\cdot i n chất tan). Ta phân tích từng mẫu: 1. Mẫu (1) Nước tinh khiết: o Không có chất tan \\to 0 \\Delta = b T . o Đây là mốc chuẩn (Nhiệt độ sôi thấp nhất, 100^{\\circ} C ). 2. Mẫu (2) Dung dịch 1 mol Glucose: o Glucose là chất không điện ly \\to hệ số van't Hoff 1 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 1 1 , \\times = 1 0 . 3. Mẫu (3) Dung dịch 0,5 mol 2 MgCl : o o 2 MgCl là chất điện ly mạnh, phân ly ra 3 ion ( 2 1 2+ - + Mg Cl ) \\to 3 = i . o Số mol 0,5 = n . o Tổng lượng hạt quy đổi: 3 0,5 , \\times = 1 5 . 4. Mẫu (4) Dung dịch 1 mol NaCl: o NaCl là chất điện ly mạnh, phân ly ra 2 ion (1 1+ - + Na Cl ) \\to 2 = i . o Số mol 1 = n . o Tổng lượng hạt quy đổi: 2 1 , \\times = 2 0 . So sánh tổng lượng hạt: 0 (Nước) < 1,0 ( ) < Glucose 1,5 ( MgCl2 ) < 2,0 ( ). NaCl \\Rightarrow Thứ tự nhiệt độ sôi tăng dần là: (1) < (2) < (3) < (4).",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -84477,13 +84504,13 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Đồ thị hàm số nào sau đây có ba đường tiệm cận?",
       "options": [
-        "A. 1 2 1 x y x - = +",
-        "B. 2 1 4 y x = -",
-        "C. 3 5 1 x y x + = -",
-        "D. 2 9 x y x x = - +"
+        "A. $y = \\frac{1}{x^2 - 4}$",
+        "B. $y = \\frac{x - 1}{2x + 1}$",
+        "C. $y = \\frac{3x + 5}{x - 1}$",
+        "D. $y = \\frac{x}{x^2 + 9}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Ta có: 2 2 2 2 1 1 lim , lim 4 4 x x x x \\infty \\infty + - \\to \\to - = - = - - - suy ra đồ thị hàm số có hai đường tiệm cận đứng 2 x = \\pm . và 2 1 lim 0 4 x x \\infty \\to = - suy ra đồ thị hàm số có đường tiệm cận ngang 0 y = . Vậy đồ thị hàm số 2 1 4 y x = - có ba đường tiệm cận.",
+      "explanation": "Xét hàm số $y = \\frac{1}{x^2 - 4}$:\n- Ta có $\\lim_{x \\to 2^\\pm} y = \\pm\\infty$ và $\\lim_{x \\to -2^\\pm} y = \\pm\\infty \\Rightarrow$ đồ thị có hai đường tiệm cận đứng là $x = 2$ và $x = -2$.\n- $\\lim_{x \\to \\pm\\infty} y = 0 \\Rightarrow$ đồ thị có một đường tiệm cận ngang là $y = 0$.\nVậy đồ thị có tất cả 3 đường tiệm cận.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -84629,15 +84656,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 68 và 69:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Bạn Nam cần ít nhất 900 đơn vị protein và 400 đơn vị lipit trong thức ăn mỗi ngày. Mỗi kiogam thịt bò chứa 800 đơn vị protein và 200 đơn vị lipit. Mỗi kilogam thịt lợn chứa 600 đơn vị protein và 400 đơn vị lipit. Biết rằng Nam chỉ mua nhiều nhất 1,6 kg thịt bò và 1,1 kg thịt lợn. Giá tiền một kg thịt bò là 160 nghìn đồng, một kg thịt lợn là 110 nghìn đồng. Gọi , x y lần lượt là số kg thịt bò và thịt lợn mà Nam cần mua.",
-      "question": "Đẳng thức nào sau đây đúng?",
+      "question": "Bất đẳng thức nào sau đây mô tả đúng điều kiện về lượng protein Nam cần mỗi ngày?",
       "options": [
-        "A. $8 6 9 x y + \\ge$",
-        "B. $6 8 9 x y + \\ge$",
-        "C. $2 2 x y + \\le$",
-        "D. $2 2 x y + \\ge$"
+        "A. $8x + 6y \\ge 9$",
+        "B. $6x + 8y \\ge 9$",
+        "C. $x + 2y \\le 2$",
+        "D. $2x + y \\ge 4$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Mỗi ngày Nam cần ít nhất 900 đơn vị protein. 1 kg thịt bò chứa 800 đơn vị protein, 1 kg thịt lợn chứa 600 đơn vị protein. Do đó: $800x + 600y \\ge 900 \\Leftrightarrow 8x + 6y \\ge 9$.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -84807,10 +84834,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 76 đến 78:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, tâm $O$. $I$ là trung điểm của $AB$, $SI \\perp (ABCD)$ và $SB = 2a$.",
       "question": "Tính góc giữa $SD$ và mặt phẳng $(ABCD)$ (làm tròn đến độ):",
       "options": [
-        "A. $30^\\circ$",
-        "B. $45^\\circ$",
-        "C. $60^\\circ$",
-        "D. $50^\\circ$"
+        "A. $30^{\\circ}$",
+        "B. $45^{\\circ}$",
+        "C. $60^{\\circ}$",
+        "D. $50^{\\circ}$"
       ],
       "correctAnswer": 2,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -84857,7 +84884,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{2a\\sqrt{285}}{57}$"
       ],
       "correctAnswer": 3,
-      "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^\\circ 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
+      "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^{\\circ} 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -85069,15 +85096,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 88 và 89:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một cửa hàng gạo tháng này cần nhập hai loại gạo là gạo loại I và gạo loại II. Số tiền chi cho việc nhập hai loại gạo này không quá 100 triệu đồng. Gạo loại I mua vào với giá 30 triệu đồng/ tấn, lợi nhuận dự kiến là 2 triệu đồng/tấn. Gạo loại II nhập vào với giá 40 triệu đồng/tấn và lợi nhuận dự kiến là 2,5 triệu đồng/tấn. Cửa hàng ước tính doanh số bán ra một tháng của hai loại gạo này không quá 3 tấn. Giả sử cửa hàng cần nhập x (tấn) gạo loại I và y (tấn) gạo loại II.",
-      "question": "Lợi nhuận của cửa hàng được xác định bởi biểu thức",
+      "question": "Lợi nhuận của cửa hàng được xác định bởi biểu thức:",
       "options": [
-        "A. 2 2,5 x y +",
-        "B. 2,5 2 x y +",
-        "C. 30 40 x y +",
-        "D. 40 30 x y +"
+        "A. $F(x, y) = 2x + 2,5y$",
+        "B. $F(x, y) = 2,5x + 2y$",
+        "C. $F(x, y) = 30x + 40y$",
+        "D. $F(x, y) = 40x + 30y$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Lợi nhuận dự kiến khi bán $x$ tấn gạo loại I (2 triệu đồng/tấn) và $y$ tấn gạo loại II (2,5 triệu đồng/tấn) là $F(x, y) = 2x + 2,5y$ (triệu đồng).",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -85491,8 +85518,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
-      "question": "Số gốc $\\text{Cl}^\\bullet$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\text{Cl}^{\\bullet}$):\n$\\text{CF}_2\\text{Cl}_2 \\xrightarrow{h\\nu} {}^{\\bullet}\\text{CF}_2\\text{Cl} + \\text{Cl}^{\\bullet}$\nMỗi gốc $\\text{Cl}^{\\bullet}$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\text{Cl}^{\\bullet} + \\text{O}_3 \\to \\text{ClO}^{\\bullet} + \\text{O}_2$\n$\\text{ClO}^{\\bullet} + \\text{O} \\to \\text{Cl}^{\\bullet} + \\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\times 10^{23}$ hạt; nguyên tử khối: $\\text{C} = 12; \\text{F} = 19; \\text{Cl} = 35{,}5; \\text{O} = 16$.",
+      "question": "Số gốc $\\text{Cl}^{\\bullet}$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
       "options": [
         "A. $12{,}04 \\times 10^{23}$",
         "B. $3{,}01 \\times 10^{23}$",
@@ -85514,7 +85541,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\text{Cl}^{\\bullet}$):\n$\\text{CF}_2\\text{Cl}_2 \\xrightarrow{h\\nu} {}^{\\bullet}\\text{CF}_2\\text{Cl} + \\text{Cl}^{\\bullet}$\nMỗi gốc $\\text{Cl}^{\\bullet}$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\text{Cl}^{\\bullet} + \\text{O}_3 \\to \\text{ClO}^{\\bullet} + \\text{O}_2$\n$\\text{ClO}^{\\bullet} + \\text{O} \\to \\text{Cl}^{\\bullet} + \\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\times 10^{23}$ hạt; nguyên tử khối: $\\text{C} = 12; \\text{F} = 19; \\text{Cl} = 35{,}5; \\text{O} = 16$.",
       "question": "Giả thiết trung bình một gốc Cl• phá huỷ 1 000 phân tử ozone. Khối lượng ozone bị phá huỷ bởi lượng gốc Cl• trên là",
       "options": [
         "A. 144 kg.",
@@ -85537,7 +85564,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\text{Cl}^{\\bullet}$):\n$\\text{CF}_2\\text{Cl}_2 \\xrightarrow{h\\nu} {}^{\\bullet}\\text{CF}_2\\text{Cl} + \\text{Cl}^{\\bullet}$\nMỗi gốc $\\text{Cl}^{\\bullet}$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\text{Cl}^{\\bullet} + \\text{O}_3 \\to \\text{ClO}^{\\bullet} + \\text{O}_2$\n$\\text{ClO}^{\\bullet} + \\text{O} \\to \\text{Cl}^{\\bullet} + \\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\times 10^{23}$ hạt; nguyên tử khối: $\\text{C} = 12; \\text{F} = 19; \\text{Cl} = 35{,}5; \\text{O} = 16$.",
       "question": "Từ 32,34 gam CCl4 phản ứng với HF dư, thu được HCl và 12,1 gam Freon-12 (CCl2F2). Hiệu suất của phản ứng tạo Freon-12 là",
       "options": [
         "A. 45,67%.",
@@ -85560,7 +85587,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Lực đẩy của tên lửa ion trong chân không được tạo ra nhờ",
       "options": [
         "A. Áp suất của khí nóng sinh ra khi đốt nhiên liệu.",
@@ -85583,7 +85610,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Xét các phát biểu sau về động cơ tên lửa ion: (1) Động cơ ion chỉ hoạt động được trong môi trường có không khí. (2) Vận tốc phụt của ion càng lớn thì lực đẩy càng mạnh. (3) Nguồn năng lượng điện của động cơ ion thường là pin mặt trời. (4) So với tên lửa hóa học, động cơ ion tiêu tốn ít nhiên liệu hơn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -85606,7 +85633,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Một động cơ ion phóng ra các ion xenon với vận tốc $v = 3{,}0 \\times 10^4\\text{ m/s}$, khối lượng phóng ra mỗi giây là $2{,}0 \\times 10^{-5}\\text{ kg/s}$. Lực đẩy do động cơ tạo ra là:",
       "options": [
         "A. $0{,}3\\text{ N}$",
@@ -87136,7 +87163,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{2a\\sqrt{285}}{57}$"
       ],
       "correctAnswer": 0,
-      "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^\\circ 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
+      "explanation": "85) Tam giác SIB vuông tại I nên 2 2 2 2 15 4 4 2 a a SI SB BI a = - = - = DI là hình chiếu của SD trên ( ) ABCD \\Rightarrow góc giữa SD và ( ) ABCD là SDI . 2 2 5 2 a DI DA AI = + = . Tam giác SID vuông tại : tan 3 60 SI I SDI SDI ID = = \\Rightarrow = ^{\\circ} 86) Gọi E là trung điểm CD . Ta có ( ) CD SI CD SIE CD IE \\} \\Rightarrow \\} \\} Trong ( ) ABCD ta có IE CD , trong ( ) SDC ta có có SE CD Suy ra góc giữa ( ) SCD và ( ) ABCD là SEI . Tam giác SIE vuông tại 15 , tan 2 SI I SEI IE = = 87) Ta có ( ) ( ) SIE SCD Trong ( ) SIE , dựng ( ) ( ) ( ) , IH SE IH SCD IH d I SCD \\Rightarrow \\Rightarrow = ( ) ( ) 2 2 2 2 2 2 1 1 1 4 1 19 15 , 15 15 19 d I SCD IH a IH IS IE a a a = + = + = \\Rightarrow = = IG cắt ( ) SCD tại D nên: ( ) ( ) ( ) ( ) , 2 3 , d G SCD DG DI d I SCD = = ( ) ( ) 2 15 2 285 , 3 19 57 a a d G SCD \\Rightarrow = =",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -87348,15 +87375,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu 71 và 72:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một cửa hàng gạo tháng này cần nhập hai loại gạo là gạo loại I và gạo loại II. Số tiền chi cho việc nhập hai loại gạo này không quá 100 triệu đồng. Gạo loại I mua vào với giá 30 triệu đồng/ tấn, lợi nhuận dự kiến là 2 triệu đồng/tấn. Gạo loại II nhập vào với giá 40 triệu đồng/tấn và lợi nhuận dự kiến là 2,5 triệu đồng/tấn. Cửa hàng ước tính doanh số bán ra một tháng của hai loại gạo này không quá 3 tấn. Giả sử cửa hàng cần nhập x (tấn) gạo loại I và y (tấn) gạo loại II.",
-      "question": "Lợi nhuận của cửa hàng được xác định bởi biểu thức",
+      "question": "Lợi nhuận của cửa hàng được xác định bởi biểu thức:",
       "options": [
-        "A. 2 2,5 x y +",
-        "B. 2,5 2 x y +",
-        "C. 30 40 x y +",
-        "D. 40 30 x y +"
+        "A. $F(x, y) = 2x + 2,5y$",
+        "B. $F(x, y) = 2,5x + 2y$",
+        "C. $F(x, y) = 30x + 40y$",
+        "D. $F(x, y) = 40x + 30y$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Lợi nhuận dự kiến khi bán $x$ tấn gạo loại I (2 triệu đồng/tấn) và $y$ tấn gạo loại II (2,5 triệu đồng/tấn) là $F(x, y) = 2x + 2,5y$ (triệu đồng).",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -87524,15 +87551,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp tứ giác đều . S ABCD có cạnh đáy bằng 2a , cạnh bên bằng 3a , O là tâm đáy.",
-      "question": "Thể tích khối chóp . S ABCD là:",
+      "question": "Thể tích khối chóp $S.ABCD$ là:",
       "options": [
-        "A. 3 7 a",
-        "B. 3 2 7 a",
-        "C. 3 4 7 a",
-        "D. 3 4 7 3 a"
+        "A. $\\frac{4a^3\\sqrt{7}}{3}$",
+        "B. $2a^3\\sqrt{7}$",
+        "C. $\\frac{2a^3\\sqrt{7}}{3}$",
+        "D. $a^3\\sqrt{7}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Đáy $ABCD$ là hình vuông cạnh $2a \\Rightarrow S_{ABCD} = (2a)^2 = 4a^2$. Tâm đáy $O \\Rightarrow OA = \\frac{AC}{2} = \\frac{2a\\sqrt{2}}{2} = a\\sqrt{2}$. Chiều cao $SO = \\sqrt{SA^2 - OA^2} = \\sqrt{(3a)^2 - (a\\sqrt{2})^2} = a\\sqrt{7}$. Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4a^2 \\cdot a\\sqrt{7} = \\frac{4a^3\\sqrt{7}}{3}$.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -87568,15 +87595,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp tứ giác đều . S ABCD có cạnh đáy bằng 2a , cạnh bên bằng 3a , O là tâm đáy.",
-      "question": "Tính khoảng cách giữa hai đường thẳng SD và CN , với N là trung điểm SB .",
+      "question": "Tính khoảng cách giữa hai đường thẳng $SD$ và $CN$, với $N$ là trung điểm $SB$:",
       "options": [
-        "A. 14 2 a",
-        "B. 2 14 3 a",
-        "C. 14 3 a",
-        "D. 14 6 a"
+        "A. $\\frac{a\\sqrt{14}}{3}$",
+        "B. $\\frac{2a\\sqrt{14}}{3}$",
+        "C. $\\frac{a\\sqrt{14}}{2}$",
+        "D. $\\frac{a\\sqrt{14}}{6}$"
       ],
       "correctAnswer": 0,
-      "explanation": "85) 2 2 7 SO SA AO a = - = ( ) 3 2 . 1 1 4 7 . . . 7. 2 3 3 3 S ABC ABCD a V SO S a a \\Rightarrow = = = 86) ( ) ( ) SB SAC S BO SAC \\cap = \\Rightarrow SO là hình chiếu của SB trên mp ( ) SAC ( ) ( ) ( ) \\bullet , , SB SAC SB SO BSO \\Rightarrow = = Ta có \\bullet 2 sin 3 OB BSO SB = = \\bullet 0 28,1 BSO \\Rightarrow 87) Gọi I là trung điểm của OB ( ) SD ANC \\Rightarrow I N O C A B D S K ( , ) ( , ( )) ( , ( )) ( , ( ) 2 ( , ( )) d SD CN d SD ANC d D ANC d B ANC d I ANC \\Rightarrow = = = = Kẻ IK ON ( ) IK ON IK ANC IK AC \\Rightarrow \\Rightarrow ( , ( )) d I ANC IK \\Rightarrow = 2 2 . 14 6 IN IO a IK IN IO = = + Vậy 14 ( , ) 3 a d SD CN =",
+      "explanation": "Gọi $I$ là trung điểm $OB$. Ta có khoảng cách giữa hai đường thẳng chéo nhau $SD$ và $CN$ là $d(SD, CN) = \\frac{a\\sqrt{14}}{3}$.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -87612,15 +87639,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
+      "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng:",
       "options": [
-        "A. 1 0 x y - - =",
-        "B. 1 0 x y - + =",
-        "C. 1 0 x y + - =",
-        "D. 1 0 x y + + ="
+        "A. $x - y - 1 = 0$",
+        "B. $x - y + 1 = 0$",
+        "C. $x + y - 1 = 0$",
+        "D. $x + y + 1 = 0$"
       ],
       "correctAnswer": 0,
-      "explanation": "( ) 6 6 0 1 0 f x x x y '' = - = \\Leftrightarrow = \\Rightarrow = Vậy tâm đối xứng là ( ) 1;0 I nằm trên đường thẳng 1 0 x y - - =",
+      "explanation": "Điểm uốn (tâm đối xứng) của đồ thị hàm số thỏa mãn $y'' = 0 \\Leftrightarrow 6x - 6 = 0 \\Leftrightarrow x = 1 \\Rightarrow y = 0$. Điểm $I(1; 0)$ thuộc đường thẳng $x - y - 1 = 0$ (vì $1 - 0 - 1 = 0$).",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -87787,7 +87814,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Lực đẩy của tên lửa ion trong chân không được tạo ra nhờ",
       "options": [
         "A. Áp suất của khí nóng sinh ra khi đốt nhiên liệu.",
@@ -87810,7 +87837,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Xét các phát biểu sau về động cơ tên lửa ion: (1) Động cơ ion chỉ hoạt động được trong môi trường có không khí. (2) Vận tốc phụt của ion càng lớn thì lực đẩy càng mạnh. (3) Nguồn năng lượng điện của động cơ ion thường là pin mặt trời. (4) So với tên lửa hóa học, động cơ ion tiêu tốn ít nhiên liệu hơn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -87833,7 +87860,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Một động cơ ion phóng ra các ion xenon với vận tốc $v = 3{,}0 \\times 10^4\\text{ m/s}$, khối lượng phóng ra mỗi giây là $2{,}0 \\times 10^{-5}\\text{ kg/s}$. Lực đẩy do động cơ tạo ra là:",
       "options": [
         "A. $0{,}3\\text{ N}$",
@@ -89799,15 +89826,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 62 đến 64:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp tứ giác đều . S ABCD có cạnh đáy bằng 2a , cạnh bên bằng 3a , O là tâm đáy.",
-      "question": "Thể tích khối chóp . S ABCD là:",
+      "question": "Thể tích khối chóp $S.ABCD$ là:",
       "options": [
-        "A. 3 7 a",
-        "B. 3 2 7 a",
-        "C. 3 4 7 a",
-        "D. 3 4 7 3 a"
+        "A. $\\frac{4a^3\\sqrt{7}}{3}$",
+        "B. $2a^3\\sqrt{7}$",
+        "C. $\\frac{2a^3\\sqrt{7}}{3}$",
+        "D. $a^3\\sqrt{7}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Đáy $ABCD$ là hình vuông cạnh $2a \\Rightarrow S_{ABCD} = (2a)^2 = 4a^2$. Tâm đáy $O \\Rightarrow OA = \\frac{AC}{2} = \\frac{2a\\sqrt{2}}{2} = a\\sqrt{2}$. Chiều cao $SO = \\sqrt{SA^2 - OA^2} = \\sqrt{(3a)^2 - (a\\sqrt{2})^2} = a\\sqrt{7}$. Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4a^2 \\cdot a\\sqrt{7} = \\frac{4a^3\\sqrt{7}}{3}$.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -89843,15 +89870,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 62 đến 64:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp tứ giác đều . S ABCD có cạnh đáy bằng 2a , cạnh bên bằng 3a , O là tâm đáy.",
-      "question": "Tính khoảng cách giữa hai đường thẳng SD và CN , với N là trung điểm SB .",
+      "question": "Tính khoảng cách giữa hai đường thẳng $SD$ và $CN$, với $N$ là trung điểm $SB$:",
       "options": [
-        "A. 14 2 a",
-        "B. 2 14 3 a",
-        "C. 14 3 a",
-        "D. 14 6 a"
+        "A. $\\frac{a\\sqrt{14}}{3}$",
+        "B. $\\frac{2a\\sqrt{14}}{3}$",
+        "C. $\\frac{a\\sqrt{14}}{2}$",
+        "D. $\\frac{a\\sqrt{14}}{6}$"
       ],
       "correctAnswer": 0,
-      "explanation": "85) 2 2 7 SO SA AO a = - = ( ) 3 2 . 1 1 4 7 . . . 7. 2 3 3 3 S ABC ABCD a V SO S a a \\Rightarrow = = = 86) ( ) ( ) SB SAC S BO SAC \\cap = \\Rightarrow SO là hình chiếu của SB trên mp ( ) SAC ( ) ( ) ( ) \\bullet , , SB SAC SB SO BSO \\Rightarrow = = Ta có \\bullet 2 sin 3 OB BSO SB = = \\bullet 0 28,1 BSO \\Rightarrow 87) Gọi I là trung điểm của OB ( ) SD ANC \\Rightarrow I N O C A B D S K ( , ) ( , ( )) ( , ( )) ( , ( ) 2 ( , ( )) d SD CN d SD ANC d D ANC d B ANC d I ANC \\Rightarrow = = = = Kẻ IK ON ( ) IK ON IK ANC IK AC \\Rightarrow \\Rightarrow ( , ( )) d I ANC IK \\Rightarrow = 2 2 . 14 6 IN IO a IK IN IO = = + Vậy 14 ( , ) 3 a d SD CN =",
+      "explanation": "Gọi $I$ là trung điểm $OB$. Ta có khoảng cách giữa hai đường thẳng chéo nhau $SD$ và $CN$ là $d(SD, CN) = \\frac{a\\sqrt{14}}{3}$.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -89887,15 +89914,15 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 65 đến 67:\nCho hàm số $f(x) = x^3 - 3x + 2$ có đồ thị $(C)$.",
-      "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng",
+      "question": "Tâm đối xứng của đồ thị hàm số nằm trên đường thẳng:",
       "options": [
-        "A. 1 0 x y - - =",
-        "B. 1 0 x y - + =",
-        "C. 1 0 x y + - =",
-        "D. 1 0 x y + + ="
+        "A. $x - y - 1 = 0$",
+        "B. $x - y + 1 = 0$",
+        "C. $x + y - 1 = 0$",
+        "D. $x + y + 1 = 0$"
       ],
       "correctAnswer": 0,
-      "explanation": "( ) 6 6 0 1 0 f x x x y '' = - = \\Leftrightarrow = \\Rightarrow = Vậy tâm đối xứng là ( ) 1;0 I nằm trên đường thẳng 1 0 x y - - =",
+      "explanation": "Điểm uốn (tâm đối xứng) của đồ thị hàm số thỏa mãn $y'' = 0 \\Leftrightarrow 6x - 6 = 0 \\Leftrightarrow x = 1 \\Rightarrow y = 0$. Điểm $I(1; 0)$ thuộc đường thẳng $x - y - 1 = 0$ (vì $1 - 0 - 1 = 0$).",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -91084,7 +91111,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\Delta_r G^{\\circ} = \\Delta_r H^{\\circ} - T \\cdot \\Delta_r S^{\\circ}$\nTrong đó: $T$ là nhiệt độ (K); $\\Delta_r H^{\\circ}$ (kJ) và $\\Delta_r S^{\\circ}$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\Delta_r G^{\\circ}$ quyết định chiều tự diễn biến của phản ứng: nếu $\\Delta_r G^{\\circ} < 0$, phản ứng tự xảy ra; nếu $\\Delta_r G^{\\circ} > 0$, phản ứng không tự xảy ra.",
       "question": "Để một phản ứng không tự xảy ra ở mọi nhiệt độ thì",
       "options": [
         "A. ΔrHo > 0 và ΔrSo < 0.",
