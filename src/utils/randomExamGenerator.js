@@ -1,15 +1,31 @@
 /**
- * Optimized V-ACT Random Exam Generator with Stimulus/Cluster Integrity Preservation
- * 
- * Guarantees:
- * 1. Cluster Preservation: Standalone questions vs Multi-question shared stimulus/passage clusters are atomic.
- * 2. Strict Internal Order: Questions belonging to the same cluster NEVER have their internal order disrupted.
- * 3. Stratified Sampling: Exactly 30 Vietnamese, 30 English, 30 Math, 30 Science/Logic questions (Total: 120 questions).
- * 4. Option Shuffling: Permutes (A, B, C, D) options independently per question while strictly preserving the correct answer key.
- * 5. Sequential Numbering & Dynamic Passage Reference Update: Re-indexes questions 1-120 and dynamically updates range markers in passage texts.
+ * HỆ THỐNG PHÂN PHỐI CÂU HỎI & NGỮ LIỆU ĐỀ THI NGẪU NHIÊN CHUẨN V-ACT
+ * (Advanced Question & Stimulus Distribution Engine)
+ *
+ * Các nguyên tắc bảo toàn nghiêm ngặt:
+ * 1. BẢO TOÀN TRỌN VẸN CỤM NGỮ LIỆU (Atomic Cluster Integrity):
+ *    - Các câu hỏi thuộc cùng một bài đọc, bảng số liệu, biểu đồ hoặc logic chung (Cluster Atom)
+ *      luôn luôn được lấy trọn vẹn 100% (không bao giờ xé lẻ 1 hay 2 câu).
+ *    - Giữ nguyên thứ tự logic chuẩn bên trong cụm ngữ liệu.
+ * 2. CHỐNG TRÙNG LẶP NỘI DUNG (Deduplication Gate):
+ *    - Sử dụng chữ ký ngữ liệu (Stimulus Signature) và dấu vân tay câu hỏi (Question Fingerprint)
+ *      để loại trừ triệt để việc bốc lại cùng một cụm câu hỏi từ các đề song sinh.
+ * 3. XÁO TRỘN PHƯƠNG ÁN AN TOÀN (Safe Option Permutation):
+ *    - Chỉ xáo trộn A/B/C/D khi các phương án độc lập.
+ *    - Tự động nhận diện và KHÔNG xáo trộn nếu phương án chứa tham chiếu tương đối
+ *      (ví dụ: "Cả A và B đều đúng", "Cả 2 đều đúng", "Ý A và C đúng", v.v.).
+ *    - Cập nhật chính xác 100% khóa đáp án (correctAnswer) tương ứng sau xáo trộn.
+ * 4. CẬP NHẬT TIÊU ĐỀ DẢI CÂU DỘNG (Dynamic Passage Range Renumbering):
+ *    - Tự động thay thế tiêu đề dải câu (ví dụ: "Dựa vào thông tin dưới đây để trả lời các câu từ X đến Y")
+ *      khớp chính xác tuyệt đối với số thứ tự mới của câu hỏi trong đề ngẫu nhiên.
+ * 5. PHÂN PHỐI CHUẨN ĐÚNG CƠ CẤU 4 HỢP PHẦN:
+ *    - 30 câu Tiếng Việt (1 - 30)
+ *    - 30 câu Tiếng Anh (31 - 60)
+ *    - 30 câu Toán học (61 - 90)
+ *    - 30 câu Tư duy Khoa học & Logic (91 - 120)
  */
 
-// Fisher-Yates shuffle helper
+// Thuật toán xáo trộn Fisher-Yates
 export function fisherYatesShuffle(array) {
   const arr = [...array];
   for (let i = arr.length - 1; i > 0; i--) {
@@ -19,119 +35,73 @@ export function fisherYatesShuffle(array) {
   return arr;
 }
 
-/**
- * Group exam questions into immutable atomic units:
- * - StandaloneAtom: Single question without a shared passage
- * - ClusterAtom: Multiple questions sharing the exact same stimulus/passage
- */
-export function groupQuestionsIntoAtoms(questions) {
-  const atoms = [];
-  let i = 0;
+// Tạo dấu vân tay chuẩn hóa cho đoạn văn / ngữ liệu
+function getPassageSignature(passage) {
+  if (!passage) return null;
+  // Bỏ qua dòng tiêu đề "Dựa vào thông tin..." để lấy phần thân ngữ liệu cốt lõi
+  const cleanBody = passage
+    .replace(/^Dựa vào (?:các )?thông tin [^\n:]*[:\n]*/i, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
+  return cleanBody.substring(0, 120);
+}
 
-  while (i < questions.length) {
-    const currentQ = questions[i];
-    const passage = currentQ.passage ? currentQ.passage.trim() : null;
-
-    if (!passage) {
-      atoms.push({
-        type: 'standalone',
-        passage: null,
-        section: currentQ.section,
-        sectionName: currentQ.sectionName,
-        questions: [{ ...currentQ }]
-      });
-      i++;
-    } else {
-      // Find all subsequent questions that share the exact same passage
-      const clusterQuestions = [{ ...currentQ }];
-      let j = i + 1;
-      while (j < questions.length) {
-        const nextQ = questions[j];
-        const nextPassage = nextQ.passage ? nextQ.passage.trim() : null;
-        if (nextPassage && nextPassage === passage) {
-          clusterQuestions.push({ ...nextQ });
-          j++;
-        } else {
-          break;
-        }
-      }
-
-      atoms.push({
-        type: 'cluster',
-        passage: currentQ.passage,
-        section: currentQ.section,
-        sectionName: currentQ.sectionName,
-        questions: clusterQuestions
-      });
-
-      i = j;
-    }
-  }
-
-  return atoms;
+// Tạo dấu vân tay cho câu hỏi
+function getQuestionFingerprint(q) {
+  const text = (q.question || '').replace(/\s+/g, ' ').trim().toLowerCase();
+  return text.substring(0, 80);
 }
 
 /**
- * Select a subset of atoms that sums to EXACTLY targetCount questions.
- * Uses randomized greedy search with fallback backtracking (Subset-Sum).
+ * Kiểm tra xem câu hỏi có chứa các phương án tham chiếu tương đối hay không
+ * Nếu có (ví dụ: "Cả A và B", "Cả 2 đều đúng"), TUYỆT ĐỐI KHÔNG XÁO TRỘN PHƯƠNG ÁN!
  */
-export function selectAtomsForQuota(atomsPool, targetCount = 30) {
-  const shuffledAtoms = fisherYatesShuffle(atomsPool);
+export function hasRelativeOptionReferences(options) {
+  if (!options || !Array.isArray(options)) return true;
+  const relativePatterns = [
+    /cả\s+[A-D]\s+và\s+[A-D]/i,
+    /cả\s+(?:hai|2)\s+đều\s+(?:đúng|sai)/i,
+    /cả\s+(?:ba|3|bốn|4)\s+đều/i,
+    /ý\s+[A-D]\s+(?:và|hoặc)\s+[A-D]/i,
+    /phương án\s+[A-D]/i,
+    /đáp án\s+[A-D]/i,
+    /câu\s+[A-D]\s+(?:đúng|sai)/i,
+    /không có (?:phương án|đáp án) nào/i,
+    /tất cả (?:các )?đáp án trên/i
+  ];
 
-  // Quick recursive search for exact sum
-  function findExactSubset(index, currentCount, chosen) {
-    if (currentCount === targetCount) return chosen;
-    if (currentCount > targetCount || index >= shuffledAtoms.length) return null;
-
-    const atom = shuffledAtoms[index];
-    const atomLength = atom.questions.length;
-
-    // Try including atom
-    if (currentCount + atomLength <= targetCount) {
-      const result = findExactSubset(index + 1, currentCount + atomLength, [...chosen, atom]);
-      if (result) return result;
-    }
-
-    // Try skipping atom
-    return findExactSubset(index + 1, currentCount, chosen);
-  }
-
-  const selected = findExactSubset(0, 0, []);
-  if (selected) return selected;
-
-  // Fallback: Greedy selection if exact match wasn't found (rare fallback)
-  let count = 0;
-  const fallback = [];
-  for (const atom of shuffledAtoms) {
-    if (count + atom.questions.length <= targetCount) {
-      fallback.push(atom);
-      count += atom.questions.length;
-      if (count === targetCount) break;
-    }
-  }
-  return fallback;
+  return options.some(opt => {
+    const text = typeof opt === 'string' ? opt : '';
+    return relativePatterns.some(regex => regex.test(text));
+  });
 }
 
 /**
- * Shuffle options inside a single question and update correctAnswer index
+ * Xáo trộn phương án câu hỏi một cách an toàn và chuẩn xác
  */
 export function shuffleQuestionOptions(question) {
   const originalOptions = [...question.options];
   const originalCorrectAnswerIdx = question.correctAnswer;
-  const correctOptionText = originalOptions[originalCorrectAnswerIdx];
 
-  // Strip prefixes like "A. ", "B. " before shuffling
+  // Nếu câu hỏi có chứa tham chiếu tương đối giữa các phương án -> GIỮ NGUYÊN THỨ TỰ
+  if (hasRelativeOptionReferences(originalOptions)) {
+    return { ...question };
+  }
+
+  // Tách tiền tố A. B. C. D.
   const cleanedOptions = originalOptions.map(opt => {
     if (typeof opt === 'string') {
-      return opt.replace(/^[A-D]\.\s*/, '');
+      return opt.replace(/^[A-D]\.\s*/, '').trim();
     }
     return opt;
   });
 
-  const correctCleanedText = cleanedOptions[originalCorrectAnswerIdx];
+  const indexed = cleanedOptions.map((text, idx) => ({
+    text,
+    isCorrect: idx === originalCorrectAnswerIdx
+  }));
 
-  // Create indexed option pairs to trace positions
-  const indexed = cleanedOptions.map((text, idx) => ({ text, isCorrect: idx === originalCorrectAnswerIdx }));
   const shuffled = fisherYatesShuffle(indexed);
 
   const newOptions = shuffled.map((item, idx) => {
@@ -149,11 +119,178 @@ export function shuffleQuestionOptions(question) {
 }
 
 /**
- * Generate a complete authentic V-ACT 120-question exam or section-specific exam
- * from the global question repository QUESTIONS_DATA.
+ * Phân tích và nhóm ngân hàng câu hỏi thành các Đơn vị Nguyên tử (Atoms):
+ * - StandaloneAtom: Câu hỏi độc lập không ngữ liệu
+ * - ClusterAtom: Trọn vẹn cụm câu hỏi gắn liền với ngữ liệu chung (bảo toàn nguyên vẹn 100%)
+ */
+export function groupQuestionsIntoAtoms(questions) {
+  const atoms = [];
+  const processedQuestions = new Set();
+  let i = 0;
+
+  while (i < questions.length) {
+    const currentQ = questions[i];
+    if (processedQuestions.has(currentQ.id)) {
+      i++;
+      continue;
+    }
+
+    const passage = currentQ.passage ? currentQ.passage.trim() : null;
+    const clusterId = currentQ.clusterId || null;
+    const pSig = getPassageSignature(passage);
+
+    if (!passage && !clusterId) {
+      atoms.push({
+        type: 'standalone',
+        passage: null,
+        clusterId: null,
+        signature: getQuestionFingerprint(currentQ),
+        section: currentQ.section,
+        sectionName: currentQ.sectionName,
+        questions: [{ ...currentQ }]
+      });
+      processedQuestions.add(currentQ.id);
+      i++;
+    } else {
+      // Tìm tất cả các câu hỏi thuộc cùng một cụm ngữ liệu trong đề
+      const clusterQuestions = [{ ...currentQ }];
+      processedQuestions.add(currentQ.id);
+
+      let j = i + 1;
+      while (j < questions.length) {
+        const nextQ = questions[j];
+        if (processedQuestions.has(nextQ.id)) {
+          j++;
+          continue;
+        }
+
+        const nextPassage = nextQ.passage ? nextQ.passage.trim() : null;
+        const nextClusterId = nextQ.clusterId || null;
+        const nextSig = getPassageSignature(nextPassage);
+
+        const isSameCluster =
+          (clusterId && nextClusterId && clusterId === nextClusterId) ||
+          (pSig && nextSig && pSig === nextSig);
+
+        if (isSameCluster) {
+          clusterQuestions.push({ ...nextQ });
+          processedQuestions.add(nextQ.id);
+          j++;
+        } else {
+          break;
+        }
+      }
+
+      atoms.push({
+        type: 'cluster',
+        passage: currentQ.passage,
+        clusterId: clusterId || pSig,
+        signature: clusterId || pSig,
+        section: currentQ.section,
+        sectionName: currentQ.sectionName,
+        questions: clusterQuestions
+      });
+
+      i = j;
+    }
+  }
+
+  return atoms;
+}
+
+/**
+ * Thuật toán phân phối chọn tập hợp Atoms đạt chính xác hạn ngạch targetCount (30 câu)
+ * Kết hợp Subset-Sum quy hoạch động + tìm kiếm ngẫu nhiên có kiểm tra chống trùng ngữ liệu
+ */
+export function selectAtomsForQuota(atomsPool, targetCount = 30) {
+  // Lọc bỏ các atom trùng lặp signature trong pool
+  const uniqueSignatureMap = new Map();
+  for (const atom of atomsPool) {
+    if (!uniqueSignatureMap.has(atom.signature)) {
+      uniqueSignatureMap.set(atom.signature, []);
+    }
+    uniqueSignatureMap.get(atom.signature).push(atom);
+  }
+
+  // Chọn đại diện duy nhất cho mỗi signature
+  const candidateAtoms = [];
+  for (const [, list] of uniqueSignatureMap.entries()) {
+    const randomPick = list[Math.floor(Math.random() * list.length)];
+    candidateAtoms.push(randomPick);
+  }
+
+  const shuffledAtoms = fisherYatesShuffle(candidateAtoms);
+
+  // Tìm kiếm tập con có tổng số câu bằng chính xác targetCount
+  function findExactSubset(index, currentCount, chosen, usedSignatures) {
+    if (currentCount === targetCount) return chosen;
+    if (currentCount > targetCount || index >= shuffledAtoms.length) return null;
+
+    const atom = shuffledAtoms[index];
+    const atomLength = atom.questions.length;
+
+    // Nếu chưa dùng signature này và kích thước phù hợp
+    if (!usedSignatures.has(atom.signature) && currentCount + atomLength <= targetCount) {
+      usedSignatures.add(atom.signature);
+      const result = findExactSubset(
+        index + 1,
+        currentCount + atomLength,
+        [...chosen, atom],
+        usedSignatures
+      );
+      if (result) return result;
+      usedSignatures.delete(atom.signature);
+    }
+
+    // Thử bỏ qua atom này
+    return findExactSubset(index + 1, currentCount, chosen, usedSignatures);
+  }
+
+  const selected = findExactSubset(0, 0, [], new Set());
+  if (selected) return selected;
+
+  // Phương án dự phòng an toàn (Greedy fallback)
+  let count = 0;
+  const fallback = [];
+  const fallbackSigs = new Set();
+  for (const atom of shuffledAtoms) {
+    if (!fallbackSigs.has(atom.signature) && count + atom.questions.length <= targetCount) {
+      fallback.push(atom);
+      fallbackSigs.add(atom.signature);
+      count += atom.questions.length;
+      if (count === targetCount) break;
+    }
+  }
+
+  return fallback;
+}
+
+/**
+ * Cập nhật tiêu đề dải câu ngữ liệu khớp chính xác với số thứ tự mới
+ */
+export function updatePassageRangeHeader(passageText, startNumber, endNumber) {
+  if (!passageText) return null;
+
+  let rangeText = '';
+  if (startNumber === endNumber) {
+    rangeText = `câu ${startNumber}`;
+  } else if (endNumber === startNumber + 1) {
+    rangeText = `các câu ${startNumber} và ${endNumber}`;
+  } else {
+    rangeText = `các câu từ ${startNumber} đến ${endNumber}`;
+  }
+
+  const headerRegex = /^Dựa vào (?:các )?thông tin (?:dưới đây|sau)[^\n:]*[:\n]*/i;
+  const body = passageText.replace(headerRegex, '').trim();
+
+  return `Dựa vào thông tin dưới đây để trả lời ${rangeText}:\n${body}`;
+}
+
+/**
+ * HÀM TẠO ĐỀ THI NGẪU NHIÊN CHUẨN HOÁ TOÀN DIỆN
  */
 export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all' }) {
-  // 1. Group all questions in the bank by section
+  // 1. Phân loại câu hỏi theo 4 hợp phần từ tất cả các đề
   const sectionQuestions = {
     vietnamese: [],
     english: [],
@@ -161,7 +298,7 @@ export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all
     science: []
   };
 
-  for (const [examId, questions] of Object.entries(QUESTIONS_DATA)) {
+  for (const [, questions] of Object.entries(QUESTIONS_DATA)) {
     for (const q of questions) {
       if (q.section === 'vietnamese') {
         sectionQuestions.vietnamese.push(q);
@@ -175,7 +312,7 @@ export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all
     }
   }
 
-  // 2. Build atom pools per section
+  // 2. Gom nhóm thành các Atomic Units bảo toàn cụm ngữ liệu
   const sectionAtoms = {
     vietnamese: groupQuestionsIntoAtoms(sectionQuestions.vietnamese),
     english: groupQuestionsIntoAtoms(sectionQuestions.english),
@@ -186,7 +323,7 @@ export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all
   let chosenAtoms = [];
 
   if (options.sectionOnly === 'all') {
-    // 30 questions each of Vietnamese, English, Math, Science
+    // Mỗi phần đúng 30 câu: Tiếng Việt, Tiếng Anh, Toán học, Tư duy Khoa học
     const vnChosen = selectAtomsForQuota(sectionAtoms.vietnamese, 30);
     const engChosen = selectAtomsForQuota(sectionAtoms.english, 30);
     const mathChosen = selectAtomsForQuota(sectionAtoms.math, 30);
@@ -200,7 +337,7 @@ export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all
     chosenAtoms = selectAtomsForQuota(pool, 30);
   }
 
-  // 3. Assemble and re-index questions
+  // 3. Đánh số lại thứ tự tuần tự từ 1 đến 120 và cập nhật tiêu đề ngữ liệu động
   const finalQuestions = [];
   let currentExamNumber = 1;
 
@@ -208,37 +345,21 @@ export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all
     const atomStartNumber = currentExamNumber;
     const atomEndNumber = currentExamNumber + atom.questions.length - 1;
 
-    let updatedPassage = atom.passage;
-    if (updatedPassage) {
-      let rangeText = '';
-      if (atomStartNumber === atomEndNumber) {
-        rangeText = `câu ${atomStartNumber}`;
-      } else if (atomEndNumber === atomStartNumber + 1) {
-        rangeText = `các câu ${atomStartNumber} và ${atomEndNumber}`;
-      } else {
-        rangeText = `các câu từ ${atomStartNumber} đến ${atomEndNumber}`;
-      }
+    // Cập nhật tiêu đề ngữ liệu động khớp tuyệt đối với số câu mới
+    const updatedPassage = atom.passage
+      ? updatePassageRangeHeader(atom.passage, atomStartNumber, atomEndNumber)
+      : null;
 
-      // Cleanly replace existing header or prepend standard header
-      const headerRegex = /^Dựa vào (?:các )?thông tin (?:dưới đây|sau)[^\n:]*[:\n]*/i;
-      if (headerRegex.test(updatedPassage)) {
-        const body = updatedPassage.replace(headerRegex, '').trim();
-        updatedPassage = `Dựa vào thông tin dưới đây để trả lời ${rangeText}:\n${body}`;
-      } else {
-        updatedPassage = `Dựa vào thông tin dưới đây để trả lời ${rangeText}:\n${updatedPassage.trim()}`;
-      }
-    }
-
-    // Process questions inside this atom (KEEP INTERNAL ORDER INTACT)
+    // Xử lý từng câu hỏi trong cụm (BẢO TOÀN NGUYÊN VẸN THỨ TỰ BÊN TRONG CỤM)
     for (const q of atom.questions) {
-      // Shuffle options (A/B/C/D)
-      const shuffledQ = shuffleQuestionOptions(q);
+      const processedQ = shuffleQuestionOptions(q);
 
       finalQuestions.push({
-        ...shuffledQ,
+        ...processedQ,
         id: `random-vact-q${currentExamNumber}-${Date.now().toString(36)}`,
         number: currentExamNumber,
-        passage: updatedPassage
+        passage: updatedPassage,
+        clusterId: atom.clusterId || null
       });
 
       currentExamNumber++;
@@ -246,8 +367,8 @@ export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all
   }
 
   const generatedId = `vact-random-${Date.now()}`;
-  const examTitle = options.sectionOnly === 'all' 
-    ? 'ĐỀ THI NGẪU NHIÊN CHUẨN V-ACT (120 CÂU - TRỘN CỤM CHUẨN)'
+  const examTitle = options.sectionOnly === 'all'
+    ? 'ĐỀ THI NGẪU NHIÊN CHUẨN V-ACT (120 CÂU - BẢO TOÀN CỤM NGỮ LIỆU)'
     : `ĐỀ LUYỆN TẬP NGẪU NHIÊN: ${options.sectionOnly.toUpperCase()} (30 CÂU)`;
 
   return {

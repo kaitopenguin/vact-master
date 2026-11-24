@@ -3078,7 +3078,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 94:\n13 PHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 94 Trong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải: - N hoặc Q đạt giải tư. - R đạt giải cao hơn M. - P không đạt giải ba.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Danh sách nào dưới đây có thể là thứ tự các học sinh đạt giải, từ giải nhất đến giải năm?",
       "options": [
         "A. M, P, N, Q, R.",
@@ -3091,7 +3091,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-official-2025-q92",
@@ -3100,7 +3101,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 94:\n13 PHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 94 Trong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải: - N hoặc Q đạt giải tư. - R đạt giải cao hơn M. - P không đạt giải ba.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Nếu Q đạt giải năm thì M sẽ đạt giải nào?",
       "options": [
         "A. Giải nhất.",
@@ -3113,7 +3114,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-official-2025-q93",
@@ -3122,7 +3124,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 94:\n13 PHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 94 Trong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải: - N hoặc Q đạt giải tư. - R đạt giải cao hơn M. - P không đạt giải ba.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Nếu M đạt giải nhì thì phát biểu nào sau đây có thể sai?",
       "options": [
         "A. N không đạt giải ba.",
@@ -3135,7 +3137,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-official-2025-q94",
@@ -3144,7 +3147,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 94:\n13 PHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 94 Trong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải: - N hoặc Q đạt giải tư. - R đạt giải cao hơn M. - P không đạt giải ba.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Nếu P đạt giải cao hơn N đúng 2 bậc thì phát biểu nào sau đây nêu đầy đủ và chính xác danh sách các học sinh có thể đạt giải nhì?",
       "options": [
         "A. P.",
@@ -3157,7 +3160,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-official-2025-q95",
@@ -3298,7 +3302,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 99 đến 102:\nBảng sau thể hiện tỉ lệ nam/nữ ở 5 tỉnh có tỉ lệ cao nhất toàn quốc trong năm 2021:\n\n| TT | Tỉnh | Tổng số (người) | Nam (người) | Nữ (người) | Tỉ lệ (nam/nữ) |\n|:---:|:---|:---:|:---:|:---:|:---:|\n| 1 | Đắk Nông | 622.168 | 320.713 | 301.455 | 1,064 |\n| 2 | Lạng Sơn | 781.655 | 399.410 | 382.245 | 1,045 |\n| 3 | Bắc Kạn | 313.905 | 160.036 | 153.869 | 1,040 |\n| 4 | Quảng Ninh | 1.320.324 | 671.522 | 648.802 | 1,035 |\n| 5 | Lào Cai | 730.420 | 371.306 | 359.114 | 1,034 |",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBảng thống kê dân số và cơ cấu giới tính tại một số tỉnh thành khu vực Tây Nguyên và Đồng bằng sông Cửu Long năm 2021:\nTại tỉnh Đắk Nông, tỷ lệ chênh lệch giới tính nam/nữ cao nhất ở nhóm tuổi 20-24 là 1,217 (nam/nữ). Nhóm tuổi này chiếm 7,15% tổng dân số toàn tỉnh.\nTại tỉnh Cà Mau, tổng dân số chiếm 31,7% tổng dân số 5 tỉnh khảo sát, và số lượng nam giới nhiều hơn 57,28% so với mức trung bình nam giới của cả 5 tỉnh.",
       "question": "Ở tỉnh Đắk Nông, theo thống kê về độ tuổi năm 2021, tỉ lệ chênh lệch nam/nữ lớn nhất là 1,217 ở độ tuổi 20-24. Biết rằng dân số ở độ tuổi 20-24 chiếm 7,15% tổng dân số toàn tỉnh. Hỏi dân số là nam giới ở độ tuổi 20-24 của tỉnh Đắk Nông bằng khoảng bao nhiêu?",
       "options": [
         "A. 19.450.",
@@ -3311,7 +3315,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_population_daknong_camau"
     },
     {
       "id": "vact-official-2025-q102",
@@ -3320,7 +3325,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 99 đến 102:\nBảng sau thể hiện tỉ lệ nam/nữ ở 5 tỉnh có tỉ lệ cao nhất toàn quốc trong năm 2021:\n\n| TT | Tỉnh | Tổng số (người) | Nam (người) | Nữ (người) | Tỉ lệ (nam/nữ) |\n|:---:|:---|:---:|:---:|:---:|:---:|\n| 1 | Đắk Nông | 622.168 | 320.713 | 301.455 | 1,064 |\n| 2 | Lạng Sơn | 781.655 | 399.410 | 382.245 | 1,045 |\n| 3 | Bắc Kạn | 313.905 | 160.036 | 153.869 | 1,040 |\n| 4 | Quảng Ninh | 1.320.324 | 671.522 | 648.802 | 1,035 |\n| 5 | Lào Cai | 730.420 | 371.306 | 359.114 | 1,034 |",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBảng thống kê dân số và cơ cấu giới tính tại một số tỉnh thành khu vực Tây Nguyên và Đồng bằng sông Cửu Long năm 2021:\nTại tỉnh Đắk Nông, tỷ lệ chênh lệch giới tính nam/nữ cao nhất ở nhóm tuổi 20-24 là 1,217 (nam/nữ). Nhóm tuổi này chiếm 7,15% tổng dân số toàn tỉnh.\nTại tỉnh Cà Mau, tổng dân số chiếm 31,7% tổng dân số 5 tỉnh khảo sát, và số lượng nam giới nhiều hơn 57,28% so với mức trung bình nam giới của cả 5 tỉnh.",
       "question": "Biết rằng Cà Mau có tổng dân số bằng 31,7% tổng dân số của 5 tỉnh ở bảng trên. Số nam giới ở Cà Mau nhiều hơn số trung bình nam giới của cả 5 tỉnh 57,28%. Tính tỉ lệ nam/nữ của tỉnh Cà Mau.",
       "options": [
         "A. 1,012.",
@@ -3333,7 +3338,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_population_daknong_camau"
     },
     {
       "id": "vact-official-2025-q103",
@@ -3342,7 +3348,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Năng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
       "question": "Để một phản ứng không tự xảy ra ở mọi nhiệt độ thì",
       "options": [
         "A. ΔrHo > 0 và ΔrSo < 0.",
@@ -3355,7 +3361,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_gibbs_energy"
     },
     {
       "id": "vact-official-2025-q104",
@@ -3364,7 +3371,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Năng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
       "question": "Biến thiên enthalpy và entropy của phản ứng $2\\text{SO}_2(g) + \\text{O}_2(g) \\to 2\\text{SO}_3(g)$ ở $25^\\circ\\text{C}$ lần lượt là $\\Delta_r H^\\circ = -198\\text{ kJ}$ và $\\Delta_r S^\\circ = -187\\text{ J/K}$. Hãy cho biết giá trị của $\\Delta_r G^\\circ$ thay đổi như thế nào khi tăng nhiệt độ và ở trên hay dưới khoảng nhiệt độ nào thì phản ứng không xảy ra tự nhiên được?",
       "options": [
         "A. $\\Delta_r G^\\circ \\text{ tăng; } T < 1059\\text{ K}$",
@@ -3377,7 +3384,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_gibbs_energy"
     },
     {
       "id": "vact-official-2025-q105",
@@ -3386,7 +3394,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Năng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
       "question": "Xét phản ứng sau: CaCO3(s) → CaO(s) + CO2(g) Giả sử giá trị enthalpy và entropy của phản ứng không thay đổi theo nhiệt độ. Mối liên hệ giữa ΔrG° và T (K) của phản ứng trên như sau: Hãy chọn nhận xét sai:",
       "options": [
         "A. Phản ứng trên là phản ứng thu nhiệt và có thể tự xảy ra ở nhiệt độ trên 1110 K.",
@@ -3399,7 +3407,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_gibbs_energy"
     },
     {
       "id": "vact-official-2025-q106",
@@ -3408,7 +3417,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nNăng lượng riêng $E_s$ là lượng năng lượng được tạo ra từ một đơn vị khối lượng của nhiên liệu:\n$$E_s = \\frac{E}{m}$$\n*(với $E$ (J) là năng lượng và $m$ (kg) là khối lượng của nhiên liệu).*\n\nBiết:\n- Năng lượng riêng của than là $3{,}200 \\times 10^7\\text{ J/kg}$.\n- Than là nguồn năng lượng không tái tạo và phát thải nhiều khí $\\text{CO}_2$ gây hiệu ứng nhà kính nhất (thải ra $8{,}200 \\times 10^2\\text{ g } \\text{CO}_2$ để tạo $1{,}000\\text{ kWh}$ điện năng).\n- Một nhà máy điện than có công suất $1{,}244 \\times 10^3\\text{ MW}$ và hiệu suất $40{,}00\\%$ (chỉ có $40{,}00\\%$ năng lượng tạo ra từ than chuyển thành điện năng).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột nhà máy nhiệt điện đốt than có công suất phát điện $P = 500\\\\text{ MW}$ với hiệu suất chuyển hóa nhiệt thành điện năng đạt $40\\\\%$. Than đá sử dụng có năng lượng riêng (nhiệt trị) là $25\\\\text{ MJ/kg}$. Quá trình đốt cháy 1 tấn than sinh ra khoảng 2,04 tấn khí $\\\\text{CO}_2$.",
       "question": "Cho các phát biểu sau: (I). Than là nguồn năng lượng tái tạo. (II). Đơn vị của năng lượng riêng là J/kg. (III). Nhà máy điện than trên sẽ thải ra 1,020.103 tấn khí CO2 mỗi giờ. (IV). Công suất hao phí của nhà máy điện than ở trên là 7,464.102 MW. Theo bài đọc, các phát biểu đúng là:",
       "options": [
         "A. (I), (II), (III).",
@@ -3421,7 +3430,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_coal_power_plant"
     },
     {
       "id": "vact-official-2025-q107",
@@ -11004,7 +11014,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Tám người A, B, C, D, E, F, G, H được xếp ngồi vào 8 ghế thỏa mãn các điều kiện sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Có tất cả bao nhiêu cách xếp chỗ ngồi nếu B ngồi tại vị trí số 8?",
       "options": [
         "A. 8",
@@ -11017,7 +11027,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_table_8seats"
     },
     {
       "id": "vact-synthetic-de-01-q92",
@@ -11026,7 +11037,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Tám người A, B, C, D, E, F, G, H được xếp ngồi vào 8 ghế thỏa mãn các điều kiện sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Nếu C ngồi ghế số 7 thì thêm dữ kiện nào sau đây sẽ khiến F chỉ có thể chọn ngồi ở 1 ghế duy nhất?",
       "options": [
         "A. G ngồi ghế số 8.",
@@ -11039,7 +11050,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_table_8seats"
     },
     {
       "id": "vact-synthetic-de-01-q93",
@@ -11048,7 +11060,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Tám người A, B, C, D, E, F, G, H được xếp ngồi vào 8 ghế thỏa mãn các điều kiện sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất?",
       "options": [
         "A. A, B, D.",
@@ -11061,7 +11073,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_table_8seats"
     },
     {
       "id": "vact-synthetic-de-01-q94",
@@ -11070,7 +11083,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4:\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
       "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4?",
       "options": [
         "A. C, E-F, A-B, D.",
@@ -11083,7 +11096,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_tutoring_4_periods"
     },
     {
       "id": "vact-synthetic-de-01-q95",
@@ -11092,7 +11106,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4:\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
       "question": "Nếu F học một mình thì tiết 3 có ai học?",
       "options": [
         "A. D.",
@@ -11105,7 +11119,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_tutoring_4_periods"
     },
     {
       "id": "vact-synthetic-de-01-q96",
@@ -13646,7 +13661,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn phải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng.",
       "question": "Sắp xếp nào dưới đây thỏa mãn các điều kiện trên về lịch phỏng vấn của 6 ứng viên?",
       "options": [
         "A. U R S Q T P",
@@ -13659,7 +13674,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_interview_6_candidates"
     },
     {
       "id": "vact-synthetic-de-02-q92",
@@ -13668,7 +13684,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn phải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng.",
       "question": "Thứ tự phỏng vấn là duy nhất khi nào?",
       "options": [
         "A. U và P liền kề nhau",
@@ -13681,7 +13697,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_interview_6_candidates"
     },
     {
       "id": "vact-synthetic-de-02-q93",
@@ -13690,7 +13707,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn phải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng.",
       "question": "Nếu S phỏng vấn thứ hai thì P và T có thể cách nhau tối đa bao nhiêu vị trí?",
       "options": [
         "A. 1",
@@ -13703,7 +13720,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_interview_6_candidates"
     },
     {
       "id": "vact-synthetic-de-02-q94",
@@ -13778,7 +13796,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Doanh số của toàn bộ chuỗi cửa hàng là bao nhiêu",
       "options": [
         "A. 15040",
@@ -13791,7 +13809,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-synthetic-de-02-q98",
@@ -13800,7 +13819,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Trong các chi nhánh đã đề cập, chi nhánh Pandora bán được nhiều hơn chi nhánh Vista bao nhiêu phần trăm?",
       "options": [
         "A. 64,47%",
@@ -13813,7 +13832,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-synthetic-de-02-q99",
@@ -13822,7 +13842,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Tỉ lệ doanh số giữa các cặp nào sau đây là 67 : 89 : 94?",
       "options": [
         "A. Ibis : Vivocity : Panorama",
@@ -13835,7 +13855,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-synthetic-de-02-q100",
@@ -13844,7 +13865,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Bạn Phong và Trung lần lượt casting trong 2 và 3 giờ thì mức chênh lệch tiền lương nhận được là bao nhiêu? Biết rằng giám đốc chỉ đồng ý tăng 50% so với mong muốn của bạn Phong và 70% so với mong muốn của Trung.",
       "options": [
         "A. 176 400",
@@ -13857,7 +13878,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-synthetic-de-02-q101",
@@ -13866,7 +13888,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Nếu giám đốc không đồng ý thỏa thuận lương thì tỉ lệ lương của Đăng : Khôi là bao nhiêu? Biết rằng Đăng làm việc trong thời gian gấp 2,5 lần Khôi",
       "options": [
         "A. 15 : 11",
@@ -13879,7 +13901,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-synthetic-de-02-q102",
@@ -13888,7 +13911,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Theo lịch trình, Phong làm việc trong 5 giờ mỗi ngày (giám đốc đồng ý 80% lương so với mong muốn), Trung làm việc 3 giờ mỗi ngày (giám đốc đồng ý 60% lương mong muốn). Nhưng vì quá bận rộn, hai bạn đổi vai trò cho nhau và được giám đốc chấp nhận, giám đốc đồng ý 80% thỏa thuận lương của hai bạn. Gọi a là phần trăm thay đổi về tiền lương ở vị trí mới so với vị trí cũ của Phong; b là phần trăm thay đổi ở vị trí cũ so với vị trí mới của Trung. Giá trị của a thay đổi như thế nào so với b?",
       "options": [
         "A. 5,93%",
@@ -13901,7 +13924,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-synthetic-de-02-q103",
@@ -13910,7 +13934,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Để so sánh hoạt tính giữa enzyme MHETase tự nhiên và enzyme MHETase đột biến như biểu diễn trong đồ thị, các nhà khoa học đã thiết kế thí nghiệm theo nguyên tắc nào sau đây?",
       "options": [
         "A. Thay đổi nồng độ enzyme liên tục trong khi giữ nguyên nồng độ cơ chất MHET và nhiệt độ môi trường.",
@@ -13923,7 +13947,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-synthetic-de-02-q104",
@@ -13932,7 +13957,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Quan sát đồ thị mô tả sự phụ thuộc của tốc độ phản ứng vào nồng độ MHET. Nhận định nào sau đây là đúng về hiệu quả xúc tác của hai loại enzyme?",
       "options": [
         "A. Enzyme MHETase đột biến (hình thoi trắng) có tốc độ phản ứng cao hơn enzyme tự nhiên ở mọi nồng độ cơ chất.",
@@ -13945,7 +13970,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-synthetic-de-02-q105",
@@ -13954,7 +13980,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Xét bình phản ứng chứa enzyme tự nhiên với nồng độ cơ chất ban đầu là 50 μmol/L. Nếu giả định tốc độ phản ứng không đổi theo thời gian, hãy tính thời gian lý thuyết để enzyme tiêu thụ hết lượng cơ chất này. Tuy nhiên, trong thực tế, thời gian hoàn thành phản ứng sẽ thay đổi ra sao so với giá trị lý thuyết đó?",
       "options": [
         "A. Thời gian lý thuyết là 3,33 phút nhưng thời gian thực tế sẽ nhỏ hơn giá trị này.",
@@ -13967,7 +13993,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-synthetic-de-02-q106",
@@ -14240,7 +14267,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Hành vi không xuất hóa đơn và che giấu doanh thu của Bà Q được xếp vào hành vi vi phạm pháp luật nào dưới đây?",
       "options": [
         "A. Vi phạm nghĩa vụ kê khai thuế.",
@@ -14253,7 +14280,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-synthetic-de-02-q119",
@@ -14262,7 +14290,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Hành vi trốn thuế của Bà Q gây ra tác động tiêu cực trực tiếp nào dưới đây đến Ngân sách Nhà nước?",
       "options": [
         "A. Làm giảm khả năng kiểm soát lạm phát của Nhà nước.",
@@ -14275,7 +14303,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-synthetic-de-02-q120",
@@ -14284,7 +14313,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Qua kiểm tra của cơ quan có thẩm quyền kết luận: hành vi của bà Q đã gây thiệt hại cho ngân sách tổng số tiền là 91,5 triệu đồng. Vậy bà Q phải chịu trách nhiệm pháp lý cao nhất nào dưới đây?",
       "options": [
         "A. Trách nhiệm hành chính",
@@ -14297,7 +14326,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_tax_ba_q"
     }
   ],
   "vact-synthetic-de-03": [
@@ -18996,7 +19026,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "Nếu VĐV F về đích thứ 5, điều nào sau đây phải đúng?",
       "options": [
         "A. D về đích trước Q.",
@@ -19009,7 +19039,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-synthetic-de-04-q95",
@@ -19018,7 +19049,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "Nếu VĐV T về đích thứ 3, điều nào sau đây phải đúng?",
       "options": [
         "A. Q về đích thứ nhất.",
@@ -19031,7 +19062,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-synthetic-de-04-q96",
@@ -19040,7 +19072,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "VĐV nào không thể về đích cuối cùng, ngoại trừ?",
       "options": [
         "A. Q.",
@@ -19053,7 +19085,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-synthetic-de-04-q97",
@@ -24368,7 +24401,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 103:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Trong tháng 8/2025, bạn Thái (6 năm kinh nghiệm) nhận được lương là 99 425 000, bạn có ba ngày nghỉ phép. Vậy số giờ làm của bạn là bao nhiêu?",
       "options": [
         "A. 150",
@@ -24381,7 +24414,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-synthetic-de-06-q99",
@@ -24390,7 +24424,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 103:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Cùng thời gian làm việc như nhau thì tỉ lệ lương của người trên 20 năm kinh nghiệm như thế nào so với lương của người từ 3 đến năm kinh nghiệm? Biết rằng cả hai đều không nghỉ phép.",
       "options": [
         "A. 1465: 13882",
@@ -24403,7 +24437,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-synthetic-de-06-q100",
@@ -24412,7 +24447,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 103:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Năm 2022 có tỉ lệ booking trong nước chiếm bao nhiêu phần trăm tổng booking trong nước trong cả bốn năm?",
       "options": [
         "A. 22,5%",
@@ -24425,7 +24460,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-synthetic-de-06-q101",
@@ -24434,7 +24470,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 103:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Năm 2024, số booking trong nước thấp hơn bao nhiêu phần trăm so với số booking trong nước của năm 2021?",
       "options": [
         "A. 11,21%",
@@ -24447,7 +24483,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-synthetic-de-06-q102",
@@ -24456,7 +24493,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 103:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Chênh lệch số tiền trung bình mà một người nạp game trong năm 2022 và 2023 là bao nhiêu VND? Giả sử chỉ có 0,5% người dùng nạp.",
       "options": [
         "A. 22 694",
@@ -24469,7 +24506,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-synthetic-de-06-q103",
@@ -24478,7 +24516,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 103:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
       "question": "Số gốc $\\text{Cl}^\\bullet$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
       "options": [
         "A. $12{,}04 \\times 10^{23}$",
@@ -24491,7 +24529,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_cfc_ozone"
     },
     {
       "id": "vact-synthetic-de-06-q104",
@@ -24500,7 +24539,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 104:\nTrong tầng bình lưu, các hợp chất chlorofluorocarbon (CFC) bị phân rã bởi tia cực tím giải phóng các gốc chlorine tự do ($\\text{Cl}^\\bullet$). Mỗi gốc $\\text{Cl}^\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy phân tử ozone ($\\text{O}_3$): $\\text{Cl}^\\bullet + \\text{O}_3 \\rightarrow \\text{ClO}^\\bullet + \\text{O}_2$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
       "question": "Giả thiết trung bình một gốc Cl• phá huỷ 1 000 phân tử ozone. Khối lượng ozone bị phá huỷ bởi lượng gốc Cl• trên là",
       "options": [
         "A. 144 kg.",
@@ -24513,7 +24552,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_cfc_ozone"
     },
     {
       "id": "vact-synthetic-de-06-q105",
@@ -24522,7 +24562,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 105 đến 108:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
       "question": "Từ 32,34 gam CCl4 phản ứng với HF dư, thu được HCl và 12,1 gam Freon-12 (CCl2F2). Hiệu suất của phản ứng tạo Freon-12 là",
       "options": [
         "A. 45,67%.",
@@ -24535,7 +24575,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_cfc_ozone"
     },
     {
       "id": "vact-synthetic-de-06-q106",
@@ -24544,7 +24585,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 105 đến 108:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Lực đẩy của tên lửa ion trong chân không được tạo ra nhờ",
       "options": [
         "A. Áp suất của khí nóng sinh ra khi đốt nhiên liệu.",
@@ -24557,7 +24598,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-synthetic-de-06-q107",
@@ -24566,7 +24608,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 105 đến 108:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Xét các phát biểu sau về động cơ tên lửa ion: (1) Động cơ ion chỉ hoạt động được trong môi trường có không khí. (2) Vận tốc phụt của ion càng lớn thì lực đẩy càng mạnh. (3) Nguồn năng lượng điện của động cơ ion thường là pin mặt trời. (4) So với tên lửa hóa học, động cơ ion tiêu tốn ít nhiên liệu hơn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -24579,7 +24621,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-synthetic-de-06-q108",
@@ -24588,7 +24631,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 105 đến 108:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Một động cơ ion phóng ra các ion xenon với vận tốc $v = 3{,}0 \\times 10^4\\text{ m/s}$, khối lượng phóng ra mỗi giây là $2{,}0 \\times 10^{-5}\\text{ kg/s}$. Lực đẩy do động cơ tạo ra là:",
       "options": [
         "A. $0{,}3\\text{ N}$",
@@ -24601,7 +24644,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-synthetic-de-06-q109",
@@ -27098,7 +27142,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 104:\nBáo cáo của Ngân hàng Thế giới năm 2024 cho biết, nếu mực nước biển dâng thêm 1 mét, khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị ngập vĩnh viễn, ảnh hưởng trực tiếp đến sinh kế của hơn 20 triệu người. Khu vực này đang đối mặt với hàng loạt vấn đề nghiêm trọng như xâm nhập mặn sâu vào nội đồng, sụt lún đất và sạt lở bờ biển. Nguyên nhân chủ yếu xuất phát từ tác động kép của biến đổi khí hậu toàn cầu và các hoạt động khai thác nước ngầm quá mức, khiến nền đất yếu dần và hệ thống sông ngòi thay đổi dòng chảy tự nhiên. Sự biến đổi này đe dọa sản xuất nông nghiệp truyền thống, đặc biệt là cây lúa - vốn chiếm vị trí chủ đạo trong cơ cấu kinh tế vùng. Một số địa phương đã chuyển đổi mô hình sản xuất, từ trồng lúa sang nuôi thủy sản thích ứng mặn hoặc canh tác xen tôm - lúa nhằm giảm thiểu thiệt hại. Bên cạnh đó, các giải pháp công trình như đê, hồ chứa, và phi công trình như trồng rừng ngập mặn, quy hoạch dân cư vùng trũng thấp cũng được triển khai đồng bộ. Các chuyên gia nhận định, đồng bằng sông Cửu Long đang trở thành “vùng thử nghiệm” cho mô hình phát triển thích ứng khí hậu ở khu vực Đông Nam Á. Việc chủ động thay đổi phương thức sản xuất, bảo vệ tài nguyên nước và ứng dụng khoa học công nghệ được xem là yếu tố then chốt giúp vùng này phát triển bền vững và an toàn hơn trong bối cảnh nước biển tiếp tục dâng nhanh do biến đổi khí hậu toàn cầu. (Theo Báo cáo của Ngân hàng Thế giới, 2024)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn phải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng.",
       "question": "Sắp xếp nào dưới đây thỏa mãn các điều kiện trên về lịch phỏng vấn của 6 ứng viên?",
       "options": [
         "A. U R S Q T P",
@@ -27111,7 +27155,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_interview_6_candidates"
     },
     {
       "id": "vact-moon-de-01-q103",
@@ -27120,7 +27165,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 104:\nBáo cáo của Ngân hàng Thế giới năm 2024 cho biết, nếu mực nước biển dâng thêm 1 mét, khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị ngập vĩnh viễn, ảnh hưởng trực tiếp đến sinh kế của hơn 20 triệu người. Khu vực này đang đối mặt với hàng loạt vấn đề nghiêm trọng như xâm nhập mặn sâu vào nội đồng, sụt lún đất và sạt lở bờ biển. Nguyên nhân chủ yếu xuất phát từ tác động kép của biến đổi khí hậu toàn cầu và các hoạt động khai thác nước ngầm quá mức, khiến nền đất yếu dần và hệ thống sông ngòi thay đổi dòng chảy tự nhiên. Sự biến đổi này đe dọa sản xuất nông nghiệp truyền thống, đặc biệt là cây lúa - vốn chiếm vị trí chủ đạo trong cơ cấu kinh tế vùng. Một số địa phương đã chuyển đổi mô hình sản xuất, từ trồng lúa sang nuôi thủy sản thích ứng mặn hoặc canh tác xen tôm - lúa nhằm giảm thiểu thiệt hại. Bên cạnh đó, các giải pháp công trình như đê, hồ chứa, và phi công trình như trồng rừng ngập mặn, quy hoạch dân cư vùng trũng thấp cũng được triển khai đồng bộ. Các chuyên gia nhận định, đồng bằng sông Cửu Long đang trở thành “vùng thử nghiệm” cho mô hình phát triển thích ứng khí hậu ở khu vực Đông Nam Á. Việc chủ động thay đổi phương thức sản xuất, bảo vệ tài nguyên nước và ứng dụng khoa học công nghệ được xem là yếu tố then chốt giúp vùng này phát triển bền vững và an toàn hơn trong bối cảnh nước biển tiếp tục dâng nhanh do biến đổi khí hậu toàn cầu. (Theo Báo cáo của Ngân hàng Thế giới, 2024)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn phải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng.",
       "question": "Thứ tự phỏng vấn là duy nhất khi nào?",
       "options": [
         "A. U và P liền kề nhau",
@@ -27133,7 +27178,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_interview_6_candidates"
     },
     {
       "id": "vact-moon-de-01-q104",
@@ -27142,7 +27188,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 104:\nBáo cáo của Ngân hàng Thế giới năm 2024 cho biết, nếu mực nước biển dâng thêm 1 mét, khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị ngập vĩnh viễn, ảnh hưởng trực tiếp đến sinh kế của hơn 20 triệu người. Khu vực này đang đối mặt với hàng loạt vấn đề nghiêm trọng như xâm nhập mặn sâu vào nội đồng, sụt lún đất và sạt lở bờ biển. Nguyên nhân chủ yếu xuất phát từ tác động kép của biến đổi khí hậu toàn cầu và các hoạt động khai thác nước ngầm quá mức, khiến nền đất yếu dần và hệ thống sông ngòi thay đổi dòng chảy tự nhiên. Sự biến đổi này đe dọa sản xuất nông nghiệp truyền thống, đặc biệt là cây lúa - vốn chiếm vị trí chủ đạo trong cơ cấu kinh tế vùng. Một số địa phương đã chuyển đổi mô hình sản xuất, từ trồng lúa sang nuôi thủy sản thích ứng mặn hoặc canh tác xen tôm - lúa nhằm giảm thiểu thiệt hại. Bên cạnh đó, các giải pháp công trình như đê, hồ chứa, và phi công trình như trồng rừng ngập mặn, quy hoạch dân cư vùng trũng thấp cũng được triển khai đồng bộ. Các chuyên gia nhận định, đồng bằng sông Cửu Long đang trở thành “vùng thử nghiệm” cho mô hình phát triển thích ứng khí hậu ở khu vực Đông Nam Á. Việc chủ động thay đổi phương thức sản xuất, bảo vệ tài nguyên nước và ứng dụng khoa học công nghệ được xem là yếu tố then chốt giúp vùng này phát triển bền vững và an toàn hơn trong bối cảnh nước biển tiếp tục dâng nhanh do biến đổi khí hậu toàn cầu. (Theo Báo cáo của Ngân hàng Thế giới, 2024)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn phải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng.",
       "question": "Nếu S phỏng vấn thứ hai thì P và T có thể cách nhau tối đa bao nhiêu vị trí?",
       "options": [
         "A. 1",
@@ -27155,7 +27201,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_interview_6_candidates"
     },
     {
       "id": "vact-moon-de-01-q105",
@@ -27230,7 +27277,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Doanh số của toàn bộ chuỗi cửa hàng là bao nhiêu",
       "options": [
         "A. 15040",
@@ -27243,7 +27290,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-moon-de-01-q109",
@@ -27252,7 +27300,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Trong các chi nhánh đã đề cập, chi nhánh Pandora bán được nhiều hơn chi nhánh Vista bao nhiêu phần trăm?",
       "options": [
         "A. 64,47%",
@@ -27265,7 +27313,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-moon-de-01-q110",
@@ -27274,7 +27323,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Tỉ lệ doanh số giữa các cặp nào sau đây là 67 : 89 : 94?",
       "options": [
         "A. Ibis : Vivocity : Panorama",
@@ -27287,7 +27336,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-moon-de-01-q111",
@@ -27296,7 +27346,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Bạn Phong và Trung lần lượt casting trong 2 và 3 giờ thì mức chênh lệch tiền lương nhận được là bao nhiêu? Biết rằng giám đốc chỉ đồng ý tăng 50% so với mong muốn của bạn Phong và 70% so với mong muốn của Trung.",
       "options": [
         "A. 176 400",
@@ -27309,7 +27359,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-01-q112",
@@ -27318,7 +27369,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Nếu giám đốc không đồng ý thỏa thuận lương thì tỉ lệ lương của Đăng : Khôi là bao nhiêu? Biết rằng Đăng làm việc trong thời gian gấp 2,5 lần Khôi",
       "options": [
         "A. 15 : 11",
@@ -27331,7 +27382,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-01-q113",
@@ -27340,7 +27392,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Theo lịch trình, Phong làm việc trong 5 giờ mỗi ngày (giám đốc đồng ý 80% lương so với mong muốn), Trung làm việc 3 giờ mỗi ngày (giám đốc đồng ý 60% lương mong muốn). Nhưng vì quá bận rộn, hai bạn đổi vai trò cho nhau và được giám đốc chấp nhận, giám đốc đồng ý 80% thỏa thuận lương của hai bạn. Gọi a là phần trăm thay đổi về tiền lương ở vị trí mới so với vị trí cũ của Phong; b là phần trăm thay đổi ở vị trí cũ so với vị trí mới của Trung. Giá trị của a thay đổi như thế nào so với b?",
       "options": [
         "A. 5,93%",
@@ -27353,7 +27405,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-01-q114",
@@ -27362,7 +27415,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Để so sánh hoạt tính giữa enzyme MHETase tự nhiên và enzyme MHETase đột biến như biểu diễn trong đồ thị, các nhà khoa học đã thiết kế thí nghiệm theo nguyên tắc nào sau đây?",
       "options": [
         "A. Thay đổi nồng độ enzyme liên tục trong khi giữ nguyên nồng độ cơ chất MHET và nhiệt độ môi trường.",
@@ -27375,7 +27428,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-moon-de-01-q115",
@@ -27384,7 +27438,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Quan sát đồ thị mô tả sự phụ thuộc của tốc độ phản ứng vào nồng độ MHET. Nhận định nào sau đây là đúng về hiệu quả xúc tác của hai loại enzyme?",
       "options": [
         "A. Enzyme MHETase đột biến (hình thoi trắng) có tốc độ phản ứng cao hơn enzyme tự nhiên ở mọi nồng độ cơ chất.",
@@ -27397,7 +27451,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-moon-de-01-q116",
@@ -27406,7 +27461,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Xét bình phản ứng chứa enzyme tự nhiên với nồng độ cơ chất ban đầu là 50 μmol/L. Nếu giả định tốc độ phản ứng không đổi theo thời gian, hãy tính thời gian lý thuyết để enzyme tiêu thụ hết lượng cơ chất này. Tuy nhiên, trong thực tế, thời gian hoàn thành phản ứng sẽ thay đổi ra sao so với giá trị lý thuyết đó?",
       "options": [
         "A. Thời gian lý thuyết là 3,33 phút nhưng thời gian thực tế sẽ nhỏ hơn giá trị này.",
@@ -27419,7 +27474,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-moon-de-01-q117",
@@ -29498,7 +29554,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 97:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Tỉ lệ doanh số giữa các cặp nào sau đây là 67 : 89 : 94?",
       "options": [
         "A. Ibis : Vivocity : Panorama",
@@ -29511,7 +29567,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-moon-de-02-q92",
@@ -29520,7 +29577,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 97:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Bạn Phong và Trung lần lượt casting trong 2 và 3 giờ thì mức chênh lệch tiền lương nhận được là bao nhiêu? Biết rằng giám đốc chỉ đồng ý tăng 50% so với mong muốn của bạn Phong và 70% so với mong muốn của Trung.",
       "options": [
         "A. 176 400",
@@ -29533,7 +29590,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-02-q93",
@@ -29542,7 +29600,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 97:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Nếu giám đốc không đồng ý thỏa thuận lương thì tỉ lệ lương của Đăng : Khôi là bao nhiêu? Biết rằng Đăng làm việc trong thời gian gấp 2,5 lần Khôi",
       "options": [
         "A. 15 : 11",
@@ -29555,7 +29613,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-02-q94",
@@ -29564,7 +29623,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 97:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Theo lịch trình, Phong làm việc trong 5 giờ mỗi ngày (giám đốc đồng ý 80% lương so với mong muốn), Trung làm việc 3 giờ mỗi ngày (giám đốc đồng ý 60% lương mong muốn). Nhưng vì quá bận rộn, hai bạn đổi vai trò cho nhau và được giám đốc chấp nhận, giám đốc đồng ý 80% thỏa thuận lương của hai bạn. Gọi a là phần trăm thay đổi về tiền lương ở vị trí mới so với vị trí cũ của Phong; b là phần trăm thay đổi ở vị trí cũ so với vị trí mới của Trung. Giá trị của a thay đổi như thế nào so với b?",
       "options": [
         "A. 5,93%",
@@ -29577,7 +29636,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-02-q95",
@@ -29586,7 +29646,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 97:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Để so sánh hoạt tính giữa enzyme MHETase tự nhiên và enzyme MHETase đột biến như biểu diễn trong đồ thị, các nhà khoa học đã thiết kế thí nghiệm theo nguyên tắc nào sau đây?",
       "options": [
         "A. Thay đổi nồng độ enzyme liên tục trong khi giữ nguyên nồng độ cơ chất MHET và nhiệt độ môi trường.",
@@ -29599,7 +29659,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-moon-de-02-q96",
@@ -29608,7 +29669,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 97:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Quan sát đồ thị mô tả sự phụ thuộc của tốc độ phản ứng vào nồng độ MHET. Nhận định nào sau đây là đúng về hiệu quả xúc tác của hai loại enzyme?",
       "options": [
         "A. Enzyme MHETase đột biến (hình thoi trắng) có tốc độ phản ứng cao hơn enzyme tự nhiên ở mọi nồng độ cơ chất.",
@@ -29621,7 +29682,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-moon-de-02-q97",
@@ -29630,7 +29692,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 97:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Xét bình phản ứng chứa enzyme tự nhiên với nồng độ cơ chất ban đầu là 50 μmol/L. Nếu giả định tốc độ phản ứng không đổi theo thời gian, hãy tính thời gian lý thuyết để enzyme tiêu thụ hết lượng cơ chất này. Tuy nhiên, trong thực tế, thời gian hoàn thành phản ứng sẽ thay đổi ra sao so với giá trị lý thuyết đó?",
       "options": [
         "A. Thời gian lý thuyết là 3,33 phút nhưng thời gian thực tế sẽ nhỏ hơn giá trị này.",
@@ -29643,7 +29705,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-moon-de-02-q98",
@@ -29916,7 +29979,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 115:\nnăng suất lao động vẫn thấp, cơ cấu kinh tế phụ thuộc nhiều vào mở rộng quy mô thay vì đổi mới sáng tạo, khiến nền kinh tế dù tăng nhanh nhưng chưa thật sự bền vững. (Nguồn: Tổng cục Thống kê, Báo cáo kinh tế - xã hội 9 tháng 2025, 10/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Hành vi không xuất hóa đơn và che giấu doanh thu của Bà Q được xếp vào hành vi vi phạm pháp luật nào dưới đây?",
       "options": [
         "A. Vi phạm nghĩa vụ kê khai thuế.",
@@ -29929,7 +29992,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-02-q111",
@@ -29938,7 +30002,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 115:\nnăng suất lao động vẫn thấp, cơ cấu kinh tế phụ thuộc nhiều vào mở rộng quy mô thay vì đổi mới sáng tạo, khiến nền kinh tế dù tăng nhanh nhưng chưa thật sự bền vững. (Nguồn: Tổng cục Thống kê, Báo cáo kinh tế - xã hội 9 tháng 2025, 10/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Hành vi trốn thuế của Bà Q gây ra tác động tiêu cực trực tiếp nào dưới đây đến Ngân sách Nhà nước?",
       "options": [
         "A. Làm giảm khả năng kiểm soát lạm phát của Nhà nước.",
@@ -29951,7 +30015,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-02-q112",
@@ -29960,7 +30025,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 115:\nnăng suất lao động vẫn thấp, cơ cấu kinh tế phụ thuộc nhiều vào mở rộng quy mô thay vì đổi mới sáng tạo, khiến nền kinh tế dù tăng nhanh nhưng chưa thật sự bền vững. (Nguồn: Tổng cục Thống kê, Báo cáo kinh tế - xã hội 9 tháng 2025, 10/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Qua kiểm tra của cơ quan có thẩm quyền kết luận: hành vi của bà Q đã gây thiệt hại cho ngân sách tổng số tiền là 91,5 triệu đồng. Vậy bà Q phải chịu trách nhiệm pháp lý cao nhất nào dưới đây?",
       "options": [
         "A. Trách nhiệm hành chính",
@@ -29973,7 +30038,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-02-q113",
@@ -32140,7 +32206,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 96:\n0;1;2;3;4;5;6;7;8",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Hành vi không xuất hóa đơn và che giấu doanh thu của Bà Q được xếp vào hành vi vi phạm pháp luật nào dưới đây?",
       "options": [
         "A. Vi phạm nghĩa vụ kê khai thuế.",
@@ -32153,7 +32219,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-03-q92",
@@ -32162,7 +32229,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 96:\n0;1;2;3;4;5;6;7;8",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Hành vi trốn thuế của Bà Q gây ra tác động tiêu cực trực tiếp nào dưới đây đến Ngân sách Nhà nước?",
       "options": [
         "A. Làm giảm khả năng kiểm soát lạm phát của Nhà nước.",
@@ -32175,7 +32242,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-03-q93",
@@ -32184,7 +32252,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 96:\n0;1;2;3;4;5;6;7;8",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Qua kiểm tra của cơ quan có thẩm quyền kết luận: hành vi của bà Q đã gây thiệt hại cho ngân sách tổng số tiền là 91,5 triệu đồng. Vậy bà Q phải chịu trách nhiệm pháp lý cao nhất nào dưới đây?",
       "options": [
         "A. Trách nhiệm hành chính",
@@ -32197,7 +32265,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-03-q94",
@@ -35156,7 +35225,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 110:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "Nếu VĐV F về đích thứ 5, điều nào sau đây phải đúng?",
       "options": [
         "A. D về đích trước Q.",
@@ -35169,7 +35238,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-moon-de-04-q109",
@@ -35178,7 +35248,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 110:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "Nếu VĐV T về đích thứ 3, điều nào sau đây phải đúng?",
       "options": [
         "A. Q về đích thứ nhất.",
@@ -35191,7 +35261,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-moon-de-04-q110",
@@ -35200,7 +35271,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 110:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "VĐV nào không thể về đích cuối cùng, ngoại trừ?",
       "options": [
         "A. Q.",
@@ -35213,7 +35284,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-moon-de-04-q111",
@@ -37424,7 +37496,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 91:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "VĐV nào không thể về đích cuối cùng, ngoại trừ?",
       "options": [
         "A. Q.",
@@ -37437,7 +37509,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-moon-de-05-q92",
@@ -43236,7 +43309,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Trong tháng 8/2025, bạn Thái (6 năm kinh nghiệm) nhận được lương là 99 425 000, bạn có ba ngày nghỉ phép. Vậy số giờ làm của bạn là bao nhiêu?",
       "options": [
         "A. 150",
@@ -43249,7 +43322,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-moon-de-07-q116",
@@ -43258,7 +43332,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Cùng thời gian làm việc như nhau thì tỉ lệ lương của người trên 20 năm kinh nghiệm như thế nào so với lương của người từ 3 đến năm kinh nghiệm? Biết rằng cả hai đều không nghỉ phép.",
       "options": [
         "A. 1465: 13882",
@@ -43271,7 +43345,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-moon-de-07-q117",
@@ -43280,7 +43355,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 119:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Năm 2022 có tỉ lệ booking trong nước chiếm bao nhiêu phần trăm tổng booking trong nước trong cả bốn năm?",
       "options": [
         "A. 22,5%",
@@ -43293,7 +43368,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-moon-de-07-q118",
@@ -43302,7 +43378,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 119:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Năm 2024, số booking trong nước thấp hơn bao nhiêu phần trăm so với số booking trong nước của năm 2021?",
       "options": [
         "A. 11,21%",
@@ -43315,7 +43391,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-moon-de-07-q119",
@@ -43324,7 +43401,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 119:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Chênh lệch số tiền trung bình mà một người nạp game trong năm 2022 và 2023 là bao nhiêu VND? Giả sử chỉ có 0,5% người dùng nạp.",
       "options": [
         "A. 22 694",
@@ -43337,7 +43414,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-moon-de-07-q120",
@@ -43346,7 +43424,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
       "question": "Số gốc $\\text{Cl}^\\bullet$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
       "options": [
         "A. $12{,}04 \\times 10^{23}$",
@@ -43359,7 +43437,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_cfc_ozone"
     }
   ],
   "vact-moon-de-08": [
@@ -45460,7 +45539,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 101:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Trong tháng 8/2025, bạn Thái (6 năm kinh nghiệm) nhận được lương là 99 425 000, bạn có ba ngày nghỉ phép. Vậy số giờ làm của bạn là bao nhiêu?",
       "options": [
         "A. 150",
@@ -45473,7 +45552,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-moon-de-08-q97",
@@ -45482,7 +45562,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 101:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Cùng thời gian làm việc như nhau thì tỉ lệ lương của người trên 20 năm kinh nghiệm như thế nào so với lương của người từ 3 đến năm kinh nghiệm? Biết rằng cả hai đều không nghỉ phép.",
       "options": [
         "A. 1465: 13882",
@@ -45495,7 +45575,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-moon-de-08-q98",
@@ -45504,7 +45585,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 101:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Năm 2022 có tỉ lệ booking trong nước chiếm bao nhiêu phần trăm tổng booking trong nước trong cả bốn năm?",
       "options": [
         "A. 22,5%",
@@ -45517,7 +45598,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-moon-de-08-q99",
@@ -45526,7 +45608,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 101:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Năm 2024, số booking trong nước thấp hơn bao nhiêu phần trăm so với số booking trong nước của năm 2021?",
       "options": [
         "A. 11,21%",
@@ -45539,7 +45621,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-moon-de-08-q100",
@@ -45548,7 +45631,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 101:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Chênh lệch số tiền trung bình mà một người nạp game trong năm 2022 và 2023 là bao nhiêu VND? Giả sử chỉ có 0,5% người dùng nạp.",
       "options": [
         "A. 22 694",
@@ -45561,7 +45644,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-moon-de-08-q101",
@@ -45570,7 +45654,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 101:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
       "question": "Số gốc $\\text{Cl}^\\bullet$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
       "options": [
         "A. $12{,}04 \\times 10^{23}$",
@@ -45583,7 +45667,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_cfc_ozone"
     },
     {
       "id": "vact-moon-de-08-q102",
@@ -45592,7 +45677,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 102:\nTrong tầng bình lưu, các hợp chất chlorofluorocarbon (CFC) bị phân rã bởi tia cực tím giải phóng các gốc chlorine tự do ($\\text{Cl}^\\bullet$). Mỗi gốc $\\text{Cl}^\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy phân tử ozone ($\\text{O}_3$): $\\text{Cl}^\\bullet + \\text{O}_3 \\rightarrow \\text{ClO}^\\bullet + \\text{O}_2$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
       "question": "Giả thiết trung bình một gốc Cl• phá huỷ 1 000 phân tử ozone. Khối lượng ozone bị phá huỷ bởi lượng gốc Cl• trên là",
       "options": [
         "A. 144 kg.",
@@ -45605,7 +45690,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_cfc_ozone"
     },
     {
       "id": "vact-moon-de-08-q103",
@@ -45614,7 +45700,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 106:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
       "question": "Từ 32,34 gam CCl4 phản ứng với HF dư, thu được HCl và 12,1 gam Freon-12 (CCl2F2). Hiệu suất của phản ứng tạo Freon-12 là",
       "options": [
         "A. 45,67%.",
@@ -45627,7 +45713,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_cfc_ozone"
     },
     {
       "id": "vact-moon-de-08-q104",
@@ -45636,7 +45723,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 106:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Lực đẩy của tên lửa ion trong chân không được tạo ra nhờ",
       "options": [
         "A. Áp suất của khí nóng sinh ra khi đốt nhiên liệu.",
@@ -45649,7 +45736,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-moon-de-08-q105",
@@ -45658,7 +45746,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 106:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Xét các phát biểu sau về động cơ tên lửa ion: (1) Động cơ ion chỉ hoạt động được trong môi trường có không khí. (2) Vận tốc phụt của ion càng lớn thì lực đẩy càng mạnh. (3) Nguồn năng lượng điện của động cơ ion thường là pin mặt trời. (4) So với tên lửa hóa học, động cơ ion tiêu tốn ít nhiên liệu hơn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -45671,7 +45759,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-moon-de-08-q106",
@@ -45680,7 +45769,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 106:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Một động cơ ion phóng ra các ion xenon với vận tốc $v = 3{,}0 \\times 10^4\\text{ m/s}$, khối lượng phóng ra mỗi giây là $2{,}0 \\times 10^{-5}\\text{ kg/s}$. Lực đẩy do động cơ tạo ra là:",
       "options": [
         "A. $0{,}3\\text{ N}$",
@@ -45693,7 +45782,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-moon-de-08-q107",
@@ -48366,7 +48456,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Thời gian làm việc của hai người được cho như sau: - Trung: Là thực tập sinh, làm việc được ba tháng, trong tháng 8/2025, bạn làm được 45 giờ và có nghỉ phép 1 ngày. - Phong: Là nhân viên làm việc được 3,5 năm, trong tháng 8/2025, bạn làm được 20 giờ và có nghỉ phép 5 ngày Tiền thưởng Phong nhiều hơn Trung la bao nhiêu?",
       "options": [
         "A. 63 000",
@@ -48379,7 +48469,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-moon-de-09-q109",
@@ -48388,7 +48479,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nCông ty AT&T là công ty lớn về các lĩnh vực công nghệ trên toàn thế giới, các trụ sở con đặt khắp nơi trên thế giới. Mặc dù những trụ sở này chỉ chiếm 8% nhân lực của công ty nhưng có vai trò hết sức quan trọng trong việc kết nối toàn cầu. Dưới đây là thống kê về số lượng nhân sự ở các trụ sở con.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Nhân lực của công ty AT&T trên khắp thế giới là bao nhiêu?",
       "options": [
         "A. 600",
@@ -48401,7 +48492,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-09-q110",
@@ -48410,7 +48502,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nCông ty AT&T là công ty lớn về các lĩnh vực công nghệ trên toàn thế giới, các trụ sở con đặt khắp nơi trên thế giới. Mặc dù những trụ sở này chỉ chiếm 8% nhân lực của công ty nhưng có vai trò hết sức quan trọng trong việc kết nối toàn cầu. Dưới đây là thống kê về số lượng nhân sự ở các trụ sở con.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Trong các trụ sở con đã đề cập, tổng nhân sự đến từ châu Á chiếm bao nhiêu phần trăm nhân lực toàn công ty AT&T trên khắp thế giới?",
       "options": [
         "A. 4,64%",
@@ -48423,7 +48515,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-09-q111",
@@ -48432,7 +48525,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nCông ty AT&T là công ty lớn về các lĩnh vực công nghệ trên toàn thế giới, các trụ sở con đặt khắp nơi trên thế giới. Mặc dù những trụ sở này chỉ chiếm 8% nhân lực của công ty nhưng có vai trò hết sức quan trọng trong việc kết nối toàn cầu. Dưới đây là thống kê về số lượng nhân sự ở các trụ sở con.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Tỉ lệ nhân sự đến từ hai công ty nào là 7: 12?",
       "options": [
         "A. Nhật Bản: Úc",
@@ -48445,7 +48538,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-09-q112",
@@ -50634,7 +50728,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Trong các trụ sở con đã đề cập, tổng nhân sự đến từ châu Á chiếm bao nhiêu phần trăm nhân lực toàn công ty AT&T trên khắp thế giới?",
       "options": [
         "A. 4,64%",
@@ -50647,7 +50741,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-10-q92",
@@ -50656,7 +50751,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Tỉ lệ nhân sự đến từ hai công ty nào là 7: 12?",
       "options": [
         "A. Nhật Bản: Úc",
@@ -50669,7 +50764,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-10-q93",
@@ -50876,7 +50972,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 102:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Danh sách nào dưới đây có thể là thứ tự các học sinh đạt giải, từ giải nhất đến giải năm?",
       "options": [
         "A. M, P, N, Q, R.",
@@ -50889,7 +50985,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-moon-de-10-q103",
@@ -50898,7 +50995,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Năng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Nếu Q đạt giải năm thì M sẽ đạt giải nào?",
       "options": [
         "A. Giải nhất.",
@@ -50911,7 +51008,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-moon-de-10-q104",
@@ -50920,7 +51018,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Năng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Nếu M đạt giải nhì thì phát biểu nào sau đây có thể sai?",
       "options": [
         "A. N không đạt giải ba.",
@@ -50933,7 +51031,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-moon-de-10-q105",
@@ -50942,7 +51041,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Năng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Nếu P đạt giải cao hơn N đúng 2 bậc thì phát biểu nào sau đây nêu đầy đủ và chính xác danh sách các học sinh có thể đạt giải nhì?",
       "options": [
         "A. P.",
@@ -50955,7 +51054,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-moon-de-10-q106",
@@ -51096,7 +51196,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nNăng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBảng thống kê dân số và cơ cấu giới tính tại một số tỉnh thành khu vực Tây Nguyên và Đồng bằng sông Cửu Long năm 2021:\nTại tỉnh Đắk Nông, tỷ lệ chênh lệch giới tính nam/nữ cao nhất ở nhóm tuổi 20-24 là 1,217 (nam/nữ). Nhóm tuổi này chiếm 7,15% tổng dân số toàn tỉnh.\nTại tỉnh Cà Mau, tổng dân số chiếm 31,7% tổng dân số 5 tỉnh khảo sát, và số lượng nam giới nhiều hơn 57,28% so với mức trung bình nam giới của cả 5 tỉnh.",
       "question": "Ở tỉnh Đắk Nông, theo thống kê về độ tuổi năm 2021, tỉ lệ chênh lệch nam/nữ lớn nhất là 1,217 ở độ tuổi 20-24. Biết rằng dân số ở độ tuổi 20-24 chiếm 7,15% tổng dân số toàn tỉnh. Hỏi dân số là nam giới ở độ tuổi 20-24 của tỉnh Đắk Nông bằng khoảng bao nhiêu?",
       "options": [
         "A. 19.450.",
@@ -51109,7 +51209,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_population_daknong_camau"
     },
     {
       "id": "vact-moon-de-10-q113",
@@ -51118,7 +51219,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nNăng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBảng thống kê dân số và cơ cấu giới tính tại một số tỉnh thành khu vực Tây Nguyên và Đồng bằng sông Cửu Long năm 2021:\nTại tỉnh Đắk Nông, tỷ lệ chênh lệch giới tính nam/nữ cao nhất ở nhóm tuổi 20-24 là 1,217 (nam/nữ). Nhóm tuổi này chiếm 7,15% tổng dân số toàn tỉnh.\nTại tỉnh Cà Mau, tổng dân số chiếm 31,7% tổng dân số 5 tỉnh khảo sát, và số lượng nam giới nhiều hơn 57,28% so với mức trung bình nam giới của cả 5 tỉnh.",
       "question": "Biết rằng Cà Mau có tổng dân số bằng 31,7% tổng dân số của 5 tỉnh ở bảng trên. Số nam giới ở Cà Mau nhiều hơn số trung bình nam giới của cả 5 tỉnh 57,28%. Tính tỉ lệ nam/nữ của tỉnh Cà Mau.",
       "options": [
         "A. 1,012.",
@@ -51131,7 +51232,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_population_daknong_camau"
     },
     {
       "id": "vact-moon-de-10-q114",
@@ -51140,7 +51242,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nNăng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
       "question": "Để một phản ứng không tự xảy ra ở mọi nhiệt độ thì",
       "options": [
         "A. ΔrHo > 0 và ΔrSo < 0.",
@@ -51153,7 +51255,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_gibbs_energy"
     },
     {
       "id": "vact-moon-de-10-q115",
@@ -51162,7 +51265,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
       "question": "Biến thiên enthalpy và entropy của phản ứng $2\\text{SO}_2(g) + \\text{O}_2(g) \\to 2\\text{SO}_3(g)$ ở $25^\\circ\\text{C}$ lần lượt là $\\Delta_r H^\\circ = -198\\text{ kJ}$ và $\\Delta_r S^\\circ = -187\\text{ J/K}$. Hãy cho biết giá trị của $\\Delta_r G^\\circ$ thay đổi như thế nào khi tăng nhiệt độ và ở trên hay dưới khoảng nhiệt độ nào thì phản ứng không xảy ra tự nhiên được?",
       "options": [
         "A. $\\Delta_r G^\\circ \\text{ tăng; } T < 1059\\text{ K}$",
@@ -51175,7 +51278,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_gibbs_energy"
     },
     {
       "id": "vact-moon-de-10-q116",
@@ -51184,7 +51288,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\nNăng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
       "question": "Xét phản ứng sau: CaCO3(s) → CaO(s) + CO2(g) Giả sử giá trị enthalpy và entropy của phản ứng không thay đổi theo nhiệt độ. Mối liên hệ giữa ΔrG° và T (K) của phản ứng trên như sau: Hãy chọn nhận xét sai:",
       "options": [
         "A. Phản ứng trên là phản ứng thu nhiệt và có thể tự xảy ra ở nhiệt độ trên 1110 K.",
@@ -51197,7 +51301,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_gibbs_energy"
     },
     {
       "id": "vact-moon-de-10-q117",
@@ -51206,7 +51311,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\nNăng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột nhà máy nhiệt điện đốt than có công suất phát điện $P = 500\\\\text{ MW}$ với hiệu suất chuyển hóa nhiệt thành điện năng đạt $40\\\\%$. Than đá sử dụng có năng lượng riêng (nhiệt trị) là $25\\\\text{ MJ/kg}$. Quá trình đốt cháy 1 tấn than sinh ra khoảng 2,04 tấn khí $\\\\text{CO}_2$.",
       "question": "Cho các phát biểu sau: (I). Than là nguồn năng lượng tái tạo. (II). Đơn vị của năng lượng riêng là J/kg. (III). Nhà máy điện than trên sẽ thải ra 1,020.103 tấn khí CO2 mỗi giờ. (IV). Công suất hao phí của nhà máy điện than ở trên là 7,464.102 MW. Theo bài đọc, các phát biểu đúng là:",
       "options": [
         "A. (I), (II), (III).",
@@ -51219,7 +51324,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_coal_power_plant"
     },
     {
       "id": "vact-moon-de-10-q118",
@@ -53320,7 +53426,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nBảng sau thể hiện tỉ lệ nam/nữ ở 5 tỉnh có tỉ lệ cao nhất toàn quốc trong năm 2021:\n\n| TT | Tỉnh | Tổng số (người) | Nam (người) | Nữ (người) | Tỉ lệ (nam/nữ) |\n|:---:|:---|:---:|:---:|:---:|:---:|\n| 1 | Đắk Nông | 622.168 | 320.713 | 301.455 | 1,064 |\n| 2 | Lạng Sơn | 781.655 | 399.410 | 382.245 | 1,045 |\n| 3 | Bắc Kạn | 313.905 | 160.036 | 153.869 | 1,040 |\n| 4 | Quảng Ninh | 1.320.324 | 671.522 | 648.802 | 1,035 |\n| 5 | Lào Cai | 730.420 | 371.306 | 359.114 | 1,034 |",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBảng thống kê dân số và cơ cấu giới tính tại một số tỉnh thành khu vực Tây Nguyên và Đồng bằng sông Cửu Long năm 2021:\nTại tỉnh Đắk Nông, tỷ lệ chênh lệch giới tính nam/nữ cao nhất ở nhóm tuổi 20-24 là 1,217 (nam/nữ). Nhóm tuổi này chiếm 7,15% tổng dân số toàn tỉnh.\nTại tỉnh Cà Mau, tổng dân số chiếm 31,7% tổng dân số 5 tỉnh khảo sát, và số lượng nam giới nhiều hơn 57,28% so với mức trung bình nam giới của cả 5 tỉnh.",
       "question": "Ở tỉnh Đắk Nông, theo thống kê về độ tuổi năm 2021, tỉ lệ chênh lệch nam/nữ lớn nhất là 1,217 ở độ tuổi 20-24. Biết rằng dân số ở độ tuổi 20-24 chiếm 7,15% tổng dân số toàn tỉnh. Hỏi dân số là nam giới ở độ tuổi 20-24 của tỉnh Đắk Nông bằng khoảng bao nhiêu?",
       "options": [
         "A. 19.450.",
@@ -53333,7 +53439,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_population_daknong_camau"
     },
     {
       "id": "vact-moon-de-11-q94",
@@ -53342,7 +53449,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n\\bullet Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào \\bullet C và G là 2 quyển sách đặt cạnh nhau \\bullet A và B không được đặt cạnh nhau \\bullet Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng \\bullet Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư \\bullet Giữa quyển sách E và F có 2 quyển sách khác.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBảng thống kê dân số và cơ cấu giới tính tại một số tỉnh thành khu vực Tây Nguyên và Đồng bằng sông Cửu Long năm 2021:\nTại tỉnh Đắk Nông, tỷ lệ chênh lệch giới tính nam/nữ cao nhất ở nhóm tuổi 20-24 là 1,217 (nam/nữ). Nhóm tuổi này chiếm 7,15% tổng dân số toàn tỉnh.\nTại tỉnh Cà Mau, tổng dân số chiếm 31,7% tổng dân số 5 tỉnh khảo sát, và số lượng nam giới nhiều hơn 57,28% so với mức trung bình nam giới của cả 5 tỉnh.",
       "question": "Biết rằng Cà Mau có tổng dân số bằng 31,7% tổng dân số của 5 tỉnh ở bảng trên. Số nam giới ở Cà Mau nhiều hơn số trung bình nam giới của cả 5 tỉnh 57,28%. Tính tỉ lệ nam/nữ của tỉnh Cà Mau.",
       "options": [
         "A. 1,012.",
@@ -53355,7 +53462,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_population_daknong_camau"
     },
     {
       "id": "vact-moon-de-11-q95",
@@ -53364,7 +53472,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n\\bullet Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào \\bullet C và G là 2 quyển sách đặt cạnh nhau \\bullet A và B không được đặt cạnh nhau \\bullet Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng \\bullet Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư \\bullet Giữa quyển sách E và F có 2 quyển sách khác.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
       "question": "Để một phản ứng không tự xảy ra ở mọi nhiệt độ thì",
       "options": [
         "A. ΔrHo > 0 và ΔrSo < 0.",
@@ -53377,7 +53485,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_gibbs_energy"
     },
     {
       "id": "vact-moon-de-11-q96",
@@ -53386,7 +53495,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n\\bullet Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào \\bullet C và G là 2 quyển sách đặt cạnh nhau \\bullet A và B không được đặt cạnh nhau \\bullet Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng \\bullet Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư \\bullet Giữa quyển sách E và F có 2 quyển sách khác.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
       "question": "Biến thiên enthalpy và entropy của phản ứng $2\\text{SO}_2(g) + \\text{O}_2(g) \\to 2\\text{SO}_3(g)$ ở $25^\\circ\\text{C}$ lần lượt là $\\Delta_r H^\\circ = -198\\text{ kJ}$ và $\\Delta_r S^\\circ = -187\\text{ J/K}$. Hãy cho biết giá trị của $\\Delta_r G^\\circ$ thay đổi như thế nào khi tăng nhiệt độ và ở trên hay dưới khoảng nhiệt độ nào thì phản ứng không xảy ra tự nhiên được?",
       "options": [
         "A. $\\Delta_r G^\\circ \\text{ tăng; } T < 1059\\text{ K}$",
@@ -53399,7 +53508,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_gibbs_energy"
     },
     {
       "id": "vact-moon-de-11-q97",
@@ -53408,7 +53518,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nDưới đây là thống kê của bộ giáo dục về số lượng thí sinh đăng kí xét tuyển đại học cũng như số lượng thí sinh xác nhận nhập học trong hai năm gần đây. Biết rằng số thí sinh tham gia kì thi THPTQG là 1.025.166 và 1.071.395 tương ứng năm 2023 và năm 2024",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
       "question": "Xét phản ứng sau: CaCO3(s) → CaO(s) + CO2(g) Giả sử giá trị enthalpy và entropy của phản ứng không thay đổi theo nhiệt độ. Mối liên hệ giữa ΔrG° và T (K) của phản ứng trên như sau: Hãy chọn nhận xét sai:",
       "options": [
         "A. Phản ứng trên là phản ứng thu nhiệt và có thể tự xảy ra ở nhiệt độ trên 1110 K.",
@@ -53421,7 +53531,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_gibbs_energy"
     },
     {
       "id": "vact-moon-de-11-q98",
@@ -53430,7 +53541,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 98 đến 100:\nDưới đây là thống kê của bộ giáo dục về số lượng thí sinh đăng kí xét tuyển đại học cũng như số lượng thí sinh xác nhận nhập học trong hai năm gần đây. Biết rằng số thí sinh tham gia kì thi THPTQG là 1.025.166 và 1.071.395 tương ứng năm 2023 và năm 2024",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột nhà máy nhiệt điện đốt than có công suất phát điện $P = 500\\\\text{ MW}$ với hiệu suất chuyển hóa nhiệt thành điện năng đạt $40\\\\%$. Than đá sử dụng có năng lượng riêng (nhiệt trị) là $25\\\\text{ MJ/kg}$. Quá trình đốt cháy 1 tấn than sinh ra khoảng 2,04 tấn khí $\\\\text{CO}_2$.",
       "question": "Cho các phát biểu sau: (I). Than là nguồn năng lượng tái tạo. (II). Đơn vị của năng lượng riêng là J/kg. (III). Nhà máy điện than trên sẽ thải ra 1,020.103 tấn khí CO2 mỗi giờ. (IV). Công suất hao phí của nhà máy điện than ở trên là 7,464.102 MW. Theo bài đọc, các phát biểu đúng là:",
       "options": [
         "A. (I), (II), (III).",
@@ -53443,7 +53554,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_coal_power_plant"
     },
     {
       "id": "vact-moon-de-11-q99",
@@ -61752,7 +61864,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nAn và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Tám người A, B, C, D, E, F, G, H được xếp ngồi vào 8 ghế thỏa mãn các điều kiện sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Có tất cả bao nhiêu cách xếp chỗ ngồi nếu B ngồi tại vị trí số 8?",
       "options": [
         "A. 8",
@@ -61765,7 +61877,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_table_8seats"
     },
     {
       "id": "vact-moon-de-14-q117",
@@ -61774,7 +61887,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nAn và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Tám người A, B, C, D, E, F, G, H được xếp ngồi vào 8 ghế thỏa mãn các điều kiện sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Nếu C ngồi ghế số 7 thì thêm dữ kiện nào sau đây sẽ khiến F chỉ có thể chọn ngồi ở 1 ghế duy nhất?",
       "options": [
         "A. G ngồi ghế số 8.",
@@ -61787,7 +61900,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_table_8seats"
     },
     {
       "id": "vact-moon-de-14-q118",
@@ -61796,7 +61910,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Tám người A, B, C, D, E, F, G, H được xếp ngồi vào 8 ghế thỏa mãn các điều kiện sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất?",
       "options": [
         "A. A, B, D.",
@@ -61809,7 +61923,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_table_8seats"
     },
     {
       "id": "vact-moon-de-14-q119",
@@ -61818,7 +61933,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4:\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
       "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4?",
       "options": [
         "A. C, E-F, A-B, D.",
@@ -61831,7 +61946,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_tutoring_4_periods"
     },
     {
       "id": "vact-moon-de-14-q120",
@@ -61840,7 +61956,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4:\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
       "question": "Nếu F học một mình thì tiết 3 có ai học?",
       "options": [
         "A. D.",
@@ -61853,7 +61969,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_tutoring_4_periods"
     }
   ],
   "vact-moon-de-15": [
@@ -63976,7 +64093,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Tám người A, B, C, D, E, F, G, H được xếp ngồi vào 8 ghế thỏa mãn các điều kiện sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Có tất cả bao nhiêu cách xếp chỗ ngồi nếu B ngồi tại vị trí số 8?",
       "options": [
         "A. 8",
@@ -63989,7 +64106,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_table_8seats"
     },
     {
       "id": "vact-moon-de-15-q98",
@@ -63998,7 +64116,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Tám người A, B, C, D, E, F, G, H được xếp ngồi vào 8 ghế thỏa mãn các điều kiện sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Nếu C ngồi ghế số 7 thì thêm dữ kiện nào sau đây sẽ khiến F chỉ có thể chọn ngồi ở 1 ghế duy nhất?",
       "options": [
         "A. G ngồi ghế số 8.",
@@ -64011,7 +64129,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_table_8seats"
     },
     {
       "id": "vact-moon-de-15-q99",
@@ -64020,7 +64139,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Tám người A, B, C, D, E, F, G, H được xếp ngồi vào 8 ghế thỏa mãn các điều kiện sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất?",
       "options": [
         "A. A, B, D.",
@@ -64033,7 +64152,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_table_8seats"
     },
     {
       "id": "vact-moon-de-15-q100",
@@ -64042,7 +64162,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4:\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
       "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4?",
       "options": [
         "A. C, E-F, A-B, D.",
@@ -64055,7 +64175,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_tutoring_4_periods"
     },
     {
       "id": "vact-moon-de-15-q101",
@@ -64064,7 +64185,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4:\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
       "question": "Nếu F học một mình thì tiết 3 có ai học?",
       "options": [
         "A. D.",
@@ -64077,7 +64198,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_tutoring_4_periods"
     },
     {
       "id": "vact-moon-de-15-q102",
@@ -66860,7 +66982,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 110:\nBáo cáo của Ngân hàng Thế giới năm 2024 cho biết, nếu mực nước biển dâng thêm 1 mét, khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị ngập vĩnh viễn, ảnh hưởng trực tiếp đến sinh kế của hơn 20 triệu người. Khu vực này đang đối mặt với hàng loạt vấn đề nghiêm trọng như xâm nhập mặn sâu vào nội đồng, sụt lún đất và sạt lở bờ biển. Nguyên nhân chủ yếu xuất phát từ tác động kép của biến đổi khí hậu toàn cầu và các hoạt động khai thác nước ngầm quá mức, khiến nền đất yếu dần và hệ thống sông ngòi thay đổi dòng chảy tự nhiên. Sự biến đổi này đe dọa sản xuất nông nghiệp truyền thống, đặc biệt là cây lúa - vốn chiếm vị trí chủ đạo trong cơ cấu kinh tế vùng. Một số địa phương đã chuyển đổi mô hình sản xuất, từ trồng lúa sang nuôi thủy sản thích ứng mặn hoặc canh tác xen tôm - lúa nhằm giảm thiểu thiệt hại. Bên cạnh đó, các giải pháp công trình như đê, hồ chứa, và phi công trình như trồng rừng ngập mặn, quy hoạch dân cư vùng trũng thấp cũng được triển khai đồng bộ. Các chuyên gia nhận định, đồng bằng sông Cửu Long đang trở thành “vùng thử nghiệm” cho mô hình phát triển thích ứng khí hậu ở khu vực Đông Nam Á. Việc chủ động thay đổi phương thức sản xuất, bảo vệ tài nguyên nước và ứng dụng khoa học công nghệ được xem là yếu tố then chốt giúp vùng này phát triển bền vững và an toàn hơn trong bối cảnh nước biển tiếp tục dâng nhanh do biến đổi khí hậu toàn cầu. (Theo Báo cáo của Ngân hàng Thế giới, 2024)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn phải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng.",
       "question": "Sắp xếp nào dưới đây thỏa mãn các điều kiện trên về lịch phỏng vấn của 6 ứng viên?",
       "options": [
         "A. U R S Q T P",
@@ -66873,7 +66995,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_interview_6_candidates"
     },
     {
       "id": "vact-moon-de-16-q109",
@@ -66882,7 +67005,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 110:\nBáo cáo của Ngân hàng Thế giới năm 2024 cho biết, nếu mực nước biển dâng thêm 1 mét, khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị ngập vĩnh viễn, ảnh hưởng trực tiếp đến sinh kế của hơn 20 triệu người. Khu vực này đang đối mặt với hàng loạt vấn đề nghiêm trọng như xâm nhập mặn sâu vào nội đồng, sụt lún đất và sạt lở bờ biển. Nguyên nhân chủ yếu xuất phát từ tác động kép của biến đổi khí hậu toàn cầu và các hoạt động khai thác nước ngầm quá mức, khiến nền đất yếu dần và hệ thống sông ngòi thay đổi dòng chảy tự nhiên. Sự biến đổi này đe dọa sản xuất nông nghiệp truyền thống, đặc biệt là cây lúa - vốn chiếm vị trí chủ đạo trong cơ cấu kinh tế vùng. Một số địa phương đã chuyển đổi mô hình sản xuất, từ trồng lúa sang nuôi thủy sản thích ứng mặn hoặc canh tác xen tôm - lúa nhằm giảm thiểu thiệt hại. Bên cạnh đó, các giải pháp công trình như đê, hồ chứa, và phi công trình như trồng rừng ngập mặn, quy hoạch dân cư vùng trũng thấp cũng được triển khai đồng bộ. Các chuyên gia nhận định, đồng bằng sông Cửu Long đang trở thành “vùng thử nghiệm” cho mô hình phát triển thích ứng khí hậu ở khu vực Đông Nam Á. Việc chủ động thay đổi phương thức sản xuất, bảo vệ tài nguyên nước và ứng dụng khoa học công nghệ được xem là yếu tố then chốt giúp vùng này phát triển bền vững và an toàn hơn trong bối cảnh nước biển tiếp tục dâng nhanh do biến đổi khí hậu toàn cầu. (Theo Báo cáo của Ngân hàng Thế giới, 2024)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn phải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng.",
       "question": "Thứ tự phỏng vấn là duy nhất khi nào?",
       "options": [
         "A. U và P liền kề nhau",
@@ -66895,7 +67018,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_interview_6_candidates"
     },
     {
       "id": "vact-moon-de-16-q110",
@@ -66904,7 +67028,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 110:\nBáo cáo của Ngân hàng Thế giới năm 2024 cho biết, nếu mực nước biển dâng thêm 1 mét, khoảng 10% diện tích đồng bằng sông Cửu Long có thể bị ngập vĩnh viễn, ảnh hưởng trực tiếp đến sinh kế của hơn 20 triệu người. Khu vực này đang đối mặt với hàng loạt vấn đề nghiêm trọng như xâm nhập mặn sâu vào nội đồng, sụt lún đất và sạt lở bờ biển. Nguyên nhân chủ yếu xuất phát từ tác động kép của biến đổi khí hậu toàn cầu và các hoạt động khai thác nước ngầm quá mức, khiến nền đất yếu dần và hệ thống sông ngòi thay đổi dòng chảy tự nhiên. Sự biến đổi này đe dọa sản xuất nông nghiệp truyền thống, đặc biệt là cây lúa - vốn chiếm vị trí chủ đạo trong cơ cấu kinh tế vùng. Một số địa phương đã chuyển đổi mô hình sản xuất, từ trồng lúa sang nuôi thủy sản thích ứng mặn hoặc canh tác xen tôm - lúa nhằm giảm thiểu thiệt hại. Bên cạnh đó, các giải pháp công trình như đê, hồ chứa, và phi công trình như trồng rừng ngập mặn, quy hoạch dân cư vùng trũng thấp cũng được triển khai đồng bộ. Các chuyên gia nhận định, đồng bằng sông Cửu Long đang trở thành “vùng thử nghiệm” cho mô hình phát triển thích ứng khí hậu ở khu vực Đông Nam Á. Việc chủ động thay đổi phương thức sản xuất, bảo vệ tài nguyên nước và ứng dụng khoa học công nghệ được xem là yếu tố then chốt giúp vùng này phát triển bền vững và an toàn hơn trong bối cảnh nước biển tiếp tục dâng nhanh do biến đổi khí hậu toàn cầu. (Theo Báo cáo của Ngân hàng Thế giới, 2024)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn phải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng.",
       "question": "Nếu S phỏng vấn thứ hai thì P và T có thể cách nhau tối đa bao nhiêu vị trí?",
       "options": [
         "A. 1",
@@ -66917,7 +67041,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_interview_6_candidates"
     },
     {
       "id": "vact-moon-de-16-q111",
@@ -66992,7 +67117,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Doanh số của toàn bộ chuỗi cửa hàng là bao nhiêu",
       "options": [
         "A. 15040",
@@ -67005,7 +67130,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-moon-de-16-q115",
@@ -67014,7 +67140,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Trong các chi nhánh đã đề cập, chi nhánh Pandora bán được nhiều hơn chi nhánh Vista bao nhiêu phần trăm?",
       "options": [
         "A. 64,47%",
@@ -67027,7 +67153,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-moon-de-16-q116",
@@ -67036,7 +67163,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Tỉ lệ doanh số giữa các cặp nào sau đây là 67 : 89 : 94?",
       "options": [
         "A. Ibis : Vivocity : Panorama",
@@ -67049,7 +67176,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-moon-de-16-q117",
@@ -67058,7 +67186,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 120:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Bạn Phong và Trung lần lượt casting trong 2 và 3 giờ thì mức chênh lệch tiền lương nhận được là bao nhiêu? Biết rằng giám đốc chỉ đồng ý tăng 50% so với mong muốn của bạn Phong và 70% so với mong muốn của Trung.",
       "options": [
         "A. 176 400",
@@ -67071,7 +67199,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-16-q118",
@@ -67080,7 +67209,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 120:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Nếu giám đốc không đồng ý thỏa thuận lương thì tỉ lệ lương của Đăng : Khôi là bao nhiêu? Biết rằng Đăng làm việc trong thời gian gấp 2,5 lần Khôi",
       "options": [
         "A. 15 : 11",
@@ -67093,7 +67222,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-16-q119",
@@ -67102,7 +67232,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 120:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Theo lịch trình, Phong làm việc trong 5 giờ mỗi ngày (giám đốc đồng ý 80% lương so với mong muốn), Trung làm việc 3 giờ mỗi ngày (giám đốc đồng ý 60% lương mong muốn). Nhưng vì quá bận rộn, hai bạn đổi vai trò cho nhau và được giám đốc chấp nhận, giám đốc đồng ý 80% thỏa thuận lương của hai bạn. Gọi a là phần trăm thay đổi về tiền lương ở vị trí mới so với vị trí cũ của Phong; b là phần trăm thay đổi ở vị trí cũ so với vị trí mới của Trung. Giá trị của a thay đổi như thế nào so với b?",
       "options": [
         "A. 5,93%",
@@ -67115,7 +67245,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-16-q120",
@@ -67124,7 +67255,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 120:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Để so sánh hoạt tính giữa enzyme MHETase tự nhiên và enzyme MHETase đột biến như biểu diễn trong đồ thị, các nhà khoa học đã thiết kế thí nghiệm theo nguyên tắc nào sau đây?",
       "options": [
         "A. Thay đổi nồng độ enzyme liên tục trong khi giữ nguyên nồng độ cơ chất MHET và nhiệt độ môi trường.",
@@ -67137,7 +67268,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_mhetase_enzyme"
     }
   ],
   "vact-moon-de-17": [
@@ -69128,7 +69260,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 91:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nSáu ứng viên P, Q, R, S, T, U tham gia các phiên phỏng vấn liên tiếp. Lịch phỏng vấn phải tuân theo các điều kiện sau:\n1. P được phỏng vấn sớm hơn R.\n2. Q được phỏng vấn ngay trước hoặc ngay sau S.\n3. Có đúng hai ứng viên được phỏng vấn giữa R và T.\n4. U không phải là người được phỏng vấn cuối cùng.",
       "question": "Nếu S phỏng vấn thứ hai thì P và T có thể cách nhau tối đa bao nhiêu vị trí?",
       "options": [
         "A. 1",
@@ -69141,7 +69273,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_interview_6_candidates"
     },
     {
       "id": "vact-moon-de-17-q92",
@@ -69216,7 +69349,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 103:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Doanh số của toàn bộ chuỗi cửa hàng là bao nhiêu",
       "options": [
         "A. 15040",
@@ -69229,7 +69362,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-moon-de-17-q96",
@@ -69238,7 +69372,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 103:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Trong các chi nhánh đã đề cập, chi nhánh Pandora bán được nhiều hơn chi nhánh Vista bao nhiêu phần trăm?",
       "options": [
         "A. 64,47%",
@@ -69251,7 +69385,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-moon-de-17-q97",
@@ -69260,7 +69395,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 103:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nThương hiệu cà phê Starbucks thống kê số lượng sản phẩm bán ra trong một ngày tại các chi nhánh trọng điểm. Biết rằng tổng doanh số của 6 chi nhánh này chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng:\n| Chi nhánh | Doanh số (ly/ngày) |\n|---|---|\n| Ibis | 670 |\n| Vista | 760 |\n| New World | 940 |\n| Pandora | 1250 |\n| Landmark | 1110 |\n| Vivocity | 890 |",
       "question": "Tỉ lệ doanh số giữa các cặp nào sau đây là 67 : 89 : 94?",
       "options": [
         "A. Ibis : Vivocity : Panorama",
@@ -69273,7 +69408,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_pandora_starbucks"
     },
     {
       "id": "vact-moon-de-17-q98",
@@ -69282,7 +69418,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 103:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Bạn Phong và Trung lần lượt casting trong 2 và 3 giờ thì mức chênh lệch tiền lương nhận được là bao nhiêu? Biết rằng giám đốc chỉ đồng ý tăng 50% so với mong muốn của bạn Phong và 70% so với mong muốn của Trung.",
       "options": [
         "A. 176 400",
@@ -69295,7 +69431,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-17-q99",
@@ -69304,7 +69441,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 103:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Nếu giám đốc không đồng ý thỏa thuận lương thì tỉ lệ lương của Đăng : Khôi là bao nhiêu? Biết rằng Đăng làm việc trong thời gian gấp 2,5 lần Khôi",
       "options": [
         "A. 15 : 11",
@@ -69317,7 +69454,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-17-q100",
@@ -69326,7 +69464,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 103:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCông ty giải trí Pink Crush Entertainment vừa ra thông báo tuyển nhân sự. Các vị trí cần tuyển là quản lí, nhà sáng tạo nội dung, diễn viên, và trợ lí. Lương được ấn định tùy theo từng vị trí và những người đến xin việc hoàn toàn có thể deal lương với giám đốc và có xác suất thành công khác nhau tùy theo mỗi vị trí. Công ty này cũng đưa ra mức thưởng thêm cho từng vị trí là 5%/tổng lương của buổi casting ngày hôm đó.\nThống kê về những người xin việc và mức lương của họ được thể hiện như bảng:\n| Nhân sự | Vị trí | Lương công ty đề xuất (VND/giờ) | Lương mong muốn (% tăng thêm so với lương công ty đề xuất) |\n|---|---|---|---|\n| Trung | Sáng tạo nội dung | 150 000 | 20% |\n| Phong | Diễn viên | 200 000 | 30% |\n| Khôi | Quản lí | 220 000 | 45% |\n| Đăng | Trợ lí | 120 000 | 10% |",
       "question": "Theo lịch trình, Phong làm việc trong 5 giờ mỗi ngày (giám đốc đồng ý 80% lương so với mong muốn), Trung làm việc 3 giờ mỗi ngày (giám đốc đồng ý 60% lương mong muốn). Nhưng vì quá bận rộn, hai bạn đổi vai trò cho nhau và được giám đốc chấp nhận, giám đốc đồng ý 80% thỏa thuận lương của hai bạn. Gọi a là phần trăm thay đổi về tiền lương ở vị trí mới so với vị trí cũ của Phong; b là phần trăm thay đổi ở vị trí cũ so với vị trí mới của Trung. Giá trị của a thay đổi như thế nào so với b?",
       "options": [
         "A. 5,93%",
@@ -69339,7 +69477,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_casting_pinkcrush"
     },
     {
       "id": "vact-moon-de-17-q101",
@@ -69348,7 +69487,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 103:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Để so sánh hoạt tính giữa enzyme MHETase tự nhiên và enzyme MHETase đột biến như biểu diễn trong đồ thị, các nhà khoa học đã thiết kế thí nghiệm theo nguyên tắc nào sau đây?",
       "options": [
         "A. Thay đổi nồng độ enzyme liên tục trong khi giữ nguyên nồng độ cơ chất MHET và nhiệt độ môi trường.",
@@ -69361,7 +69500,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-moon-de-17-q102",
@@ -69370,7 +69510,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 103:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Quan sát đồ thị mô tả sự phụ thuộc của tốc độ phản ứng vào nồng độ MHET. Nhận định nào sau đây là đúng về hiệu quả xúc tác của hai loại enzyme?",
       "options": [
         "A. Enzyme MHETase đột biến (hình thoi trắng) có tốc độ phản ứng cao hơn enzyme tự nhiên ở mọi nồng độ cơ chất.",
@@ -69383,7 +69523,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-moon-de-17-q103",
@@ -69392,7 +69533,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 103:\nThương hiệu Starbucks là một trong những thương hiệu nổi tiếng về café trên khắp thế giới. Dưới đây là thống kê số lượng bán được các sản phẩm bán ra trong một ngày của chuỗi cửa hàng này. Biết rằng doanh số dưới đây chỉ chiếm khoảng 40% tổng doanh số toàn bộ chuỗi cửa hàng.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nVào năm 2016, các nhà khoa học đã tìm ra loài vi khuẩn *Ideonella sakaiensis* có khả năng phân hủy nhựa PET (polyethylene terephthalate) nhờ hai loại enzyme:\n– PETase: Thủy phân PET thành sản phẩm trung gian là MHET (Mono-2-hydroxyethyl terephthalate).\n– MHETase: Tiếp tục thủy phân MHET thành các monomer cuối cùng là terephthalic acid (TPA) và ethylene glycol (EG).\nĐể nâng cao hiệu quả phân hủy sinh học, các nhà nghiên cứu đã tạo ra phiên bản enzyme MHETase đột biến và so sánh hoạt tính thủy phân với enzyme tự nhiên. Đồ thị thí nghiệm biểu diễn sự phụ thuộc của tốc độ phản ứng thủy phân vào nồng độ cơ chất MHET.",
       "question": "Xét bình phản ứng chứa enzyme tự nhiên với nồng độ cơ chất ban đầu là 50 μmol/L. Nếu giả định tốc độ phản ứng không đổi theo thời gian, hãy tính thời gian lý thuyết để enzyme tiêu thụ hết lượng cơ chất này. Tuy nhiên, trong thực tế, thời gian hoàn thành phản ứng sẽ thay đổi ra sao so với giá trị lý thuyết đó?",
       "options": [
         "A. Thời gian lý thuyết là 3,33 phút nhưng thời gian thực tế sẽ nhỏ hơn giá trị này.",
@@ -69405,7 +69546,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_mhetase_enzyme"
     },
     {
       "id": "vact-moon-de-17-q104",
@@ -69678,7 +69820,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Hành vi không xuất hóa đơn và che giấu doanh thu của Bà Q được xếp vào hành vi vi phạm pháp luật nào dưới đây?",
       "options": [
         "A. Vi phạm nghĩa vụ kê khai thuế.",
@@ -69691,7 +69833,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-17-q117",
@@ -69700,7 +69843,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 116 và 117:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Hành vi trốn thuế của Bà Q gây ra tác động tiêu cực trực tiếp nào dưới đây đến Ngân sách Nhà nước?",
       "options": [
         "A. Làm giảm khả năng kiểm soát lạm phát của Nhà nước.",
@@ -69713,7 +69856,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-17-q118",
@@ -69722,7 +69866,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\n1. Không ai ngồi ở tổ 2 2. 1 tổ chỉ chứa được tối đa 4 người và luôn phải có ít nhất một tổ có 3 người 3. Tổ của Z nằm bên trái tổ của C nhưng không nằm sát nhau 4. A ngồi cùng tổ với L 5. 1 trong 2 người X và Y bắt buộc phải ngồi ở tổ 3, nhưng không được cả 2 6. C không được ngồi tổ sát bên tổ của O 7. Nếu B ngồi ở tổ 1 thì L ngồi cùng tổ với O 8. Nếu X hoặc Y ngồi ở tổ 4 thì tổ 3 chỉ có 2 người ngồi",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Qua kiểm tra của cơ quan có thẩm quyền kết luận: hành vi của bà Q đã gây thiệt hại cho ngân sách tổng số tiền là 91,5 triệu đồng. Vậy bà Q phải chịu trách nhiệm pháp lý cao nhất nào dưới đây?",
       "options": [
         "A. Trách nhiệm hành chính",
@@ -69735,7 +69879,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-17-q119",
@@ -71902,7 +72047,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 102:\nnăng suất lao động vẫn thấp, cơ cấu kinh tế phụ thuộc nhiều vào mở rộng quy mô thay vì đổi mới sáng tạo, khiến nền kinh tế dù tăng nhanh nhưng chưa thật sự bền vững. (Nguồn: Tổng cục Thống kê, Báo cáo kinh tế - xã hội 9 tháng 2025, 10/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Hành vi không xuất hóa đơn và che giấu doanh thu của Bà Q được xếp vào hành vi vi phạm pháp luật nào dưới đây?",
       "options": [
         "A. Vi phạm nghĩa vụ kê khai thuế.",
@@ -71915,7 +72060,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-18-q98",
@@ -71924,7 +72070,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 102:\nnăng suất lao động vẫn thấp, cơ cấu kinh tế phụ thuộc nhiều vào mở rộng quy mô thay vì đổi mới sáng tạo, khiến nền kinh tế dù tăng nhanh nhưng chưa thật sự bền vững. (Nguồn: Tổng cục Thống kê, Báo cáo kinh tế - xã hội 9 tháng 2025, 10/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Hành vi trốn thuế của Bà Q gây ra tác động tiêu cực trực tiếp nào dưới đây đến Ngân sách Nhà nước?",
       "options": [
         "A. Làm giảm khả năng kiểm soát lạm phát của Nhà nước.",
@@ -71937,7 +72083,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-18-q99",
@@ -71946,7 +72093,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 102:\nnăng suất lao động vẫn thấp, cơ cấu kinh tế phụ thuộc nhiều vào mở rộng quy mô thay vì đổi mới sáng tạo, khiến nền kinh tế dù tăng nhanh nhưng chưa thật sự bền vững. (Nguồn: Tổng cục Thống kê, Báo cáo kinh tế - xã hội 9 tháng 2025, 10/2025.)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBà Q là chủ một chuỗi cửa hàng mỹ phẩm lớn tại Hà Nội. Bà có thu nhập rất cao, nhưng để giảm số tiền thuế phải đóng, Bà Q đã chỉ đạo nhân viên không xuất hóa đơn cho nhiều giao dịch bán hàng và sử dụng phần mềm kế toán riêng để che giấu doanh thu thực tế với cơ quan thuế. Hành vi này của Bà Q đã gây thất thoát cho nguồn thu ngân sách nhà nước, ảnh hưởng đến các hoạt động đầu tư công cộng.",
       "question": "Qua kiểm tra của cơ quan có thẩm quyền kết luận: hành vi của bà Q đã gây thiệt hại cho ngân sách tổng số tiền là 91,5 triệu đồng. Vậy bà Q phải chịu trách nhiệm pháp lý cao nhất nào dưới đây?",
       "options": [
         "A. Trách nhiệm hành chính",
@@ -71959,7 +72106,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_tax_ba_q"
     },
     {
       "id": "vact-moon-de-18-q100",
@@ -74918,7 +75066,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "Nếu VĐV F về đích thứ 5, điều nào sau đây phải đúng?",
       "options": [
         "A. D về đích trước Q.",
@@ -74931,7 +75079,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-moon-de-19-q115",
@@ -74940,7 +75089,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "Nếu VĐV T về đích thứ 3, điều nào sau đây phải đúng?",
       "options": [
         "A. Q về đích thứ nhất.",
@@ -74953,7 +75102,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-moon-de-19-q116",
@@ -74962,7 +75112,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "VĐV nào không thể về đích cuối cùng, ngoại trừ?",
       "options": [
         "A. Q.",
@@ -74975,7 +75125,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-moon-de-19-q117",
@@ -77142,7 +77293,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 97:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "Nếu VĐV F về đích thứ 5, điều nào sau đây phải đúng?",
       "options": [
         "A. D về đích trước Q.",
@@ -77155,7 +77306,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-moon-de-20-q96",
@@ -77164,7 +77316,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 97:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "Nếu VĐV T về đích thứ 3, điều nào sau đây phải đúng?",
       "options": [
         "A. Q về đích thứ nhất.",
@@ -77177,7 +77329,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-moon-de-20-q97",
@@ -77186,7 +77339,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 97:\n● Q về đích trước T ● R về đích sau V ● T không về đích cuối cùng ● D về đích thứ 3 hoặc 5 ● Giữa A và D có 1 VĐV khác về đích.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một giải đấu bơi lội, có 7 vận động viên là Q, R, T, A, D, F, V tham gia thi đấu nội dung bơi tự do 100m. Thứ tự về đích của các VĐV thỏa mãn các điều kiện sau:\n- Q về đích trước T.\n- R về đích sau V.\n- T không về đích cuối cùng.\n- D về đích thứ 3 hoặc thứ 5.\n- Giữa A và D có đúng 1 VĐV khác về đích.",
       "question": "VĐV nào không thể về đích cuối cùng, ngoại trừ?",
       "options": [
         "A. Q.",
@@ -77199,7 +77352,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_race_finish_athletes"
     },
     {
       "id": "vact-moon-de-20-q98",
@@ -85222,7 +85376,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 107:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Trong tháng 8/2025, bạn Thái (6 năm kinh nghiệm) nhận được lương là 99 425 000, bạn có ba ngày nghỉ phép. Vậy số giờ làm của bạn là bao nhiêu?",
       "options": [
         "A. 150",
@@ -85235,7 +85389,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-moon-de-23-q103",
@@ -85244,7 +85399,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 107:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Cùng thời gian làm việc như nhau thì tỉ lệ lương của người trên 20 năm kinh nghiệm như thế nào so với lương của người từ 3 đến năm kinh nghiệm? Biết rằng cả hai đều không nghỉ phép.",
       "options": [
         "A. 1465: 13882",
@@ -85257,7 +85412,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-moon-de-23-q104",
@@ -85266,7 +85422,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 107:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Năm 2022 có tỉ lệ booking trong nước chiếm bao nhiêu phần trăm tổng booking trong nước trong cả bốn năm?",
       "options": [
         "A. 22,5%",
@@ -85279,7 +85435,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-moon-de-23-q105",
@@ -85288,7 +85445,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 107:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Năm 2024, số booking trong nước thấp hơn bao nhiêu phần trăm so với số booking trong nước của năm 2021?",
       "options": [
         "A. 11,21%",
@@ -85301,7 +85458,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-moon-de-23-q106",
@@ -85310,7 +85468,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 107:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐể đánh giá một trò chơi điện tử (Game) có thu hút nhiều người chơi hay không ta dựa vào chỉ số booking, đó là doanh thu mà công ty game nhận được khi người chơi nạp game trong một khoảng thời gian. Một con game càng hấp dẫn thì càng thu hút được nhiều người chơi và do đó chỉ số booking cũng tăng theo. Biểu đồ dưới thể hiện chỉ số tăng trưởng mảng trò chơi điện tử trong những năm gần đây của VNG:\n\n| Năm | Tổng booking (tỷ VND) | Tỷ lệ booking trong nước (%) | Người dùng trung bình / quý (triệu) |\n|:---:|:---:|:---:|:---:|\n| 2021 | 7.378 | 84% | — |\n| 2022 | 6.621 | 78% | 68,9 |\n| 2023 | 7.930 | 76% | 78,8 |\n| 2024 | 7.233 | 77% | — |",
       "question": "Chênh lệch số tiền trung bình mà một người nạp game trong năm 2022 và 2023 là bao nhiêu VND? Giả sử chỉ có 0,5% người dùng nạp.",
       "options": [
         "A. 22 694",
@@ -85323,7 +85481,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_booking_vng"
     },
     {
       "id": "vact-moon-de-23-q107",
@@ -85332,7 +85491,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 107:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
       "question": "Số gốc $\\text{Cl}^\\bullet$ tạo ra khi có 363 g $\\text{CF}_2\\text{Cl}_2$ phân li theo phản ứng trên là:",
       "options": [
         "A. $12{,}04 \\times 10^{23}$",
@@ -85345,7 +85504,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_cfc_ozone"
     },
     {
       "id": "vact-moon-de-23-q108",
@@ -85354,7 +85514,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 108:\nTrong tầng bình lưu, các hợp chất chlorofluorocarbon (CFC) bị phân rã bởi tia cực tím giải phóng các gốc chlorine tự do ($\\text{Cl}^\\bullet$). Mỗi gốc $\\text{Cl}^\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy phân tử ozone ($\\text{O}_3$): $\\text{Cl}^\\bullet + \\text{O}_3 \\rightarrow \\text{ClO}^\\bullet + \\text{O}_2$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
       "question": "Giả thiết trung bình một gốc Cl• phá huỷ 1 000 phân tử ozone. Khối lượng ozone bị phá huỷ bởi lượng gốc Cl• trên là",
       "options": [
         "A. 144 kg.",
@@ -85367,7 +85527,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_cfc_ozone"
     },
     {
       "id": "vact-moon-de-23-q109",
@@ -85376,7 +85537,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 112:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTầng ozone nằm ở tầng bình lưu, hoạt động như một tấm lá chắn ngăn chặn phần lớn các tia cực tím không cho chúng đến bề mặt Trái Đất. Tuy nhiên, các hợp chất freon (chlorofluorocarbon, CFC) là tác nhân chính làm thủng tầng ozone. Khi khuếch tán lên tầng bình lưu, CFC bị tia cực tím phân cắt tạo ra gốc chlorine tự do ($\\\\text{Cl}^\\\\bullet$):\n$\\\\text{CF}_2\\\\text{Cl}_2 \\\\xrightarrow{h\\\\nu} {}^\\\\bullet\\\\text{CF}_2\\\\text{Cl} + \\\\text{Cl}^\\\\bullet$\nMỗi gốc $\\\\text{Cl}^\\\\bullet$ đóng vai trò chất xúc tác tham gia vào chu trình phá hủy hàng ngàn phân tử ozone:\n$\\\\text{Cl}^\\\\bullet + \\\\text{O}_3 \\\\to \\\\text{ClO}^\\\\bullet + \\\\text{O}_2$\n$\\\\text{ClO}^\\\\bullet + \\\\text{O} \\\\to \\\\text{Cl}^\\\\bullet + \\\\text{O}_2$\nBiết rằng: Trong 1 mol chất bất kì có $6{,}02 \\\\times 10^{23}$ hạt; nguyên tử khối: $\\\\text{C} = 12; \\\\text{F} = 19; \\\\text{Cl} = 35{,}5; \\\\text{O} = 16$.",
       "question": "Từ 32,34 gam CCl4 phản ứng với HF dư, thu được HCl và 12,1 gam Freon-12 (CCl2F2). Hiệu suất của phản ứng tạo Freon-12 là",
       "options": [
         "A. 45,67%.",
@@ -85389,7 +85550,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_cfc_ozone"
     },
     {
       "id": "vact-moon-de-23-q110",
@@ -85398,7 +85560,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 112:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Lực đẩy của tên lửa ion trong chân không được tạo ra nhờ",
       "options": [
         "A. Áp suất của khí nóng sinh ra khi đốt nhiên liệu.",
@@ -85411,7 +85573,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-moon-de-23-q111",
@@ -85420,7 +85583,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 112:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Xét các phát biểu sau về động cơ tên lửa ion: (1) Động cơ ion chỉ hoạt động được trong môi trường có không khí. (2) Vận tốc phụt của ion càng lớn thì lực đẩy càng mạnh. (3) Nguồn năng lượng điện của động cơ ion thường là pin mặt trời. (4) So với tên lửa hóa học, động cơ ion tiêu tốn ít nhiên liệu hơn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -85433,7 +85596,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-moon-de-23-q112",
@@ -85442,7 +85606,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 112:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Kinh nghiệm Lương theo giờ (VND/giờ) Trừ lương nghỉ phép (VND/ngày) Thưởng cuối tháng (VND) Dưới 1 năm 200 000 500 000 100 000 + 1% lương tháng Từ 1 đến 3 năm 350 000 800 000 1 500 000 Từ 3 đến 5 năm 500 000 1 000 000 5% lương tháng Từ 5 đến 10 năm 650 000 1 500 000 3 000 000 Từ 10 đến 20 năm 820 000 1 800 000 2 000 000 + 5% lương tháng Trên 20 năm 1 000 000 1 900 000 7% lương tháng",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Một động cơ ion phóng ra các ion xenon với vận tốc $v = 3{,}0 \\times 10^4\\text{ m/s}$, khối lượng phóng ra mỗi giây là $2{,}0 \\times 10^{-5}\\text{ kg/s}$. Lực đẩy do động cơ tạo ra là:",
       "options": [
         "A. $0{,}3\\text{ N}$",
@@ -85455,7 +85619,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-moon-de-23-q113",
@@ -87622,7 +87787,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Lực đẩy của tên lửa ion trong chân không được tạo ra nhờ",
       "options": [
         "A. Áp suất của khí nóng sinh ra khi đốt nhiên liệu.",
@@ -87635,7 +87800,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-moon-de-24-q92",
@@ -87644,7 +87810,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Xét các phát biểu sau về động cơ tên lửa ion: (1) Động cơ ion chỉ hoạt động được trong môi trường có không khí. (2) Vận tốc phụt của ion càng lớn thì lực đẩy càng mạnh. (3) Nguồn năng lượng điện của động cơ ion thường là pin mặt trời. (4) So với tên lửa hóa học, động cơ ion tiêu tốn ít nhiên liệu hơn. Có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -87657,7 +87823,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-moon-de-24-q93",
@@ -87666,7 +87833,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nĐộng cơ tên lửa ion là một loại động cơ đẩy điện sử dụng điện trường để gia tốc các ion tích điện (thường là ion xenon $\\\\text{Xe}^+$) và phóng chúng ra phía sau với vận tốc cực lớn ($v \\\\approx 30\\\\text{ km/s}$). Theo định luật bảo toàn động lượng, phản lực do chùm ion phụt ra tạo thành lực đẩy $F = \\\\dot{m} \\\\cdot v$ hướng về phía trước cho tàu vũ trụ (với $\\\\dot{m}$ là lưu lượng khối lượng ion phóng ra mỗi giây). Động cơ ion tiêu tốn rất ít nhiên liệu và có hiệu suất cao, thường sử dụng năng lượng từ pin mặt trời.",
       "question": "Một động cơ ion phóng ra các ion xenon với vận tốc $v = 3{,}0 \\times 10^4\\text{ m/s}$, khối lượng phóng ra mỗi giây là $2{,}0 \\times 10^{-5}\\text{ kg/s}$. Lực đẩy do động cơ tạo ra là:",
       "options": [
         "A. $0{,}3\\text{ N}$",
@@ -87679,7 +87846,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_ion_thruster"
     },
     {
       "id": "vact-moon-de-24-q94",
@@ -88128,7 +88296,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Thời gian làm việc của hai người được cho như sau: - Trung: Là thực tập sinh, làm việc được ba tháng, trong tháng 8/2025, bạn làm được 45 giờ và có nghỉ phép 1 ngày. - Phong: Là nhân viên làm việc được 3,5 năm, trong tháng 8/2025, bạn làm được 20 giờ và có nghỉ phép 5 ngày Tiền thưởng Phong nhiều hơn Trung la bao nhiêu?",
       "options": [
         "A. 63 000",
@@ -88141,7 +88309,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-moon-de-24-q115",
@@ -88150,7 +88319,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nCông ty AT&T là công ty lớn về các lĩnh vực công nghệ trên toàn thế giới, các trụ sở con đặt khắp nơi trên thế giới. Mặc dù những trụ sở này chỉ chiếm 8% nhân lực của công ty nhưng có vai trò hết sức quan trọng trong việc kết nối toàn cầu. Dưới đây là thống kê về số lượng nhân sự ở các trụ sở con.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Nhân lực của công ty AT&T trên khắp thế giới là bao nhiêu?",
       "options": [
         "A. 600",
@@ -88163,7 +88332,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-24-q116",
@@ -88172,7 +88342,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nCông ty AT&T là công ty lớn về các lĩnh vực công nghệ trên toàn thế giới, các trụ sở con đặt khắp nơi trên thế giới. Mặc dù những trụ sở này chỉ chiếm 8% nhân lực của công ty nhưng có vai trò hết sức quan trọng trong việc kết nối toàn cầu. Dưới đây là thống kê về số lượng nhân sự ở các trụ sở con.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Trong các trụ sở con đã đề cập, tổng nhân sự đến từ châu Á chiếm bao nhiêu phần trăm nhân lực toàn công ty AT&T trên khắp thế giới?",
       "options": [
         "A. 4,64%",
@@ -88185,7 +88355,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-24-q117",
@@ -88194,7 +88365,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nCông ty AT&T là công ty lớn về các lĩnh vực công nghệ trên toàn thế giới, các trụ sở con đặt khắp nơi trên thế giới. Mặc dù những trụ sở này chỉ chiếm 8% nhân lực của công ty nhưng có vai trò hết sức quan trọng trong việc kết nối toàn cầu. Dưới đây là thống kê về số lượng nhân sự ở các trụ sở con.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Tỉ lệ nhân sự đến từ hai công ty nào là 7: 12?",
       "options": [
         "A. Nhật Bản: Úc",
@@ -88207,7 +88378,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-24-q118",
@@ -90352,7 +90524,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 93 đến 95:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBiết rằng lương tính theo giờ làm (có làm thì mới tính). Nhận lương xong thì phải đóng thuế thu nhập cho nhà nước 3% trên tổng lương nhận được. Nhân viên nghỉ phép có lý do bị trừ 1.500.000 VND/ngày nghỉ. Cuối mỗi tháng nếu hoàn thành công việc, nhân viên có kinh nghiệm từ 5 năm trở lên được thưởng 3.000.000 VND; nhân viên dưới 5 năm được thưởng 1.500.000 VND.\nMức lương cơ bản theo thâm niên:\n- Dưới 1 năm: 500.000 VND/ngày (8 giờ).\n- Từ 1 đến dưới 5 năm: 450.000 VND/giờ.\n- Từ 5 đến dưới 10 năm: 650.000 VND/giờ.\n- Trên 20 năm: 1.000.000 VND/giờ cộng 7% phụ cấp thâm niên.",
       "question": "Thời gian làm việc của hai người được cho như sau: - Trung: Là thực tập sinh, làm việc được ba tháng, trong tháng 8/2025, bạn làm được 45 giờ và có nghỉ phép 1 ngày. - Phong: Là nhân viên làm việc được 3,5 năm, trong tháng 8/2025, bạn làm được 20 giờ và có nghỉ phép 5 ngày Tiền thưởng Phong nhiều hơn Trung la bao nhiêu?",
       "options": [
         "A. 63 000",
@@ -90365,7 +90537,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_salary_experience"
     },
     {
       "id": "vact-moon-de-25-q96",
@@ -90374,7 +90547,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 98:\nCông ty AT&T là công ty lớn về các lĩnh vực công nghệ trên toàn thế giới, các trụ sở con đặt khắp nơi trên thế giới. Mặc dù những trụ sở này chỉ chiếm 8% nhân lực của công ty nhưng có vai trò hết sức quan trọng trong việc kết nối toàn cầu. Dưới đây là thống kê về số lượng nhân sự ở các trụ sở con.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Nhân lực của công ty AT&T trên khắp thế giới là bao nhiêu?",
       "options": [
         "A. 600",
@@ -90387,7 +90560,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-25-q97",
@@ -90396,7 +90570,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 98:\nCông ty AT&T là công ty lớn về các lĩnh vực công nghệ trên toàn thế giới, các trụ sở con đặt khắp nơi trên thế giới. Mặc dù những trụ sở này chỉ chiếm 8% nhân lực của công ty nhưng có vai trò hết sức quan trọng trong việc kết nối toàn cầu. Dưới đây là thống kê về số lượng nhân sự ở các trụ sở con.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Trong các trụ sở con đã đề cập, tổng nhân sự đến từ châu Á chiếm bao nhiêu phần trăm nhân lực toàn công ty AT&T trên khắp thế giới?",
       "options": [
         "A. 4,64%",
@@ -90409,7 +90583,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-25-q98",
@@ -90418,7 +90593,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 98:\nCông ty AT&T là công ty lớn về các lĩnh vực công nghệ trên toàn thế giới, các trụ sở con đặt khắp nơi trên thế giới. Mặc dù những trụ sở này chỉ chiếm 8% nhân lực của công ty nhưng có vai trò hết sức quan trọng trong việc kết nối toàn cầu. Dưới đây là thống kê về số lượng nhân sự ở các trụ sở con.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTập đoàn công nghệ AT&T có các trụ sở con đặt tại nhiều quốc gia trên thế giới. Mặc dù các trụ sở này chỉ chiếm 8% tổng nhân lực của toàn tập đoàn nhưng đóng vai trò kết nối toàn cầu trọng yếu. Thống kê nhân sự tại các trụ sở con như sau:\n- Mỹ: 160 người\n- Singapore: 90 người\n- Nhật Bản: 70 người\n- Trung Quốc: 40 người\n- Anh: 120 người\n- Pháp: 20 người\nTổng nhân sự 6 trụ sở con là 500 người.",
       "question": "Tỉ lệ nhân sự đến từ hai công ty nào là 7: 12?",
       "options": [
         "A. Nhật Bản: Úc",
@@ -90431,7 +90606,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_att_staff"
     },
     {
       "id": "vact-moon-de-25-q99",
@@ -90638,7 +90814,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 108:\n1. B luôn ngồi cạnh A 2. C và D luôn ngồi đối diện nhau 3. D và F chắc chắn không ngồi cạnh nhau. 4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ. 5. F chỉ ngồi ở những ghế đánh số chẵn. 6. Nếu E đối diện A thì C ngồi ở số lẻ. 7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Danh sách nào dưới đây có thể là thứ tự các học sinh đạt giải, từ giải nhất đến giải năm?",
       "options": [
         "A. M, P, N, Q, R.",
@@ -90651,7 +90827,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-moon-de-25-q109",
@@ -90660,7 +90837,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải: - N hoặc Q đạt giải tư. - R đạt giải cao hơn M. - P không đạt giải ba.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Nếu Q đạt giải năm thì M sẽ đạt giải nào?",
       "options": [
         "A. Giải nhất.",
@@ -90673,7 +90850,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-moon-de-25-q110",
@@ -90682,7 +90860,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải: - N hoặc Q đạt giải tư. - R đạt giải cao hơn M. - P không đạt giải ba.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Nếu M đạt giải nhì thì phát biểu nào sau đây có thể sai?",
       "options": [
         "A. N không đạt giải ba.",
@@ -90695,7 +90873,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-moon-de-25-q111",
@@ -90704,7 +90883,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải: - N hoặc Q đạt giải tư. - R đạt giải cao hơn M. - P không đạt giải ba.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi Olympic, năm giải thưởng cao nhất được trao cho các học sinh M, N, P, Q, R. Dưới đây là các thông tin của buổi trao giải:\n- N hoặc Q đạt giải tư.\n- R đạt giải cao hơn M.\n- P không đạt giải ba.",
       "question": "Nếu P đạt giải cao hơn N đúng 2 bậc thì phát biểu nào sau đây nêu đầy đủ và chính xác danh sách các học sinh có thể đạt giải nhì?",
       "options": [
         "A. P.",
@@ -90717,7 +90896,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_olympic_awards"
     },
     {
       "id": "vact-moon-de-25-q112",
@@ -90858,7 +91038,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nNăng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBảng thống kê dân số và cơ cấu giới tính tại một số tỉnh thành khu vực Tây Nguyên và Đồng bằng sông Cửu Long năm 2021:\nTại tỉnh Đắk Nông, tỷ lệ chênh lệch giới tính nam/nữ cao nhất ở nhóm tuổi 20-24 là 1,217 (nam/nữ). Nhóm tuổi này chiếm 7,15% tổng dân số toàn tỉnh.\nTại tỉnh Cà Mau, tổng dân số chiếm 31,7% tổng dân số 5 tỉnh khảo sát, và số lượng nam giới nhiều hơn 57,28% so với mức trung bình nam giới của cả 5 tỉnh.",
       "question": "Ở tỉnh Đắk Nông, theo thống kê về độ tuổi năm 2021, tỉ lệ chênh lệch nam/nữ lớn nhất là 1,217 ở độ tuổi 20-24. Biết rằng dân số ở độ tuổi 20-24 chiếm 7,15% tổng dân số toàn tỉnh. Hỏi dân số là nam giới ở độ tuổi 20-24 của tỉnh Đắk Nông bằng khoảng bao nhiêu?",
       "options": [
         "A. 19.450.",
@@ -90871,7 +91051,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_population_daknong_camau"
     },
     {
       "id": "vact-moon-de-25-q119",
@@ -90880,7 +91061,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nNăng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nBảng thống kê dân số và cơ cấu giới tính tại một số tỉnh thành khu vực Tây Nguyên và Đồng bằng sông Cửu Long năm 2021:\nTại tỉnh Đắk Nông, tỷ lệ chênh lệch giới tính nam/nữ cao nhất ở nhóm tuổi 20-24 là 1,217 (nam/nữ). Nhóm tuổi này chiếm 7,15% tổng dân số toàn tỉnh.\nTại tỉnh Cà Mau, tổng dân số chiếm 31,7% tổng dân số 5 tỉnh khảo sát, và số lượng nam giới nhiều hơn 57,28% so với mức trung bình nam giới của cả 5 tỉnh.",
       "question": "Biết rằng Cà Mau có tổng dân số bằng 31,7% tổng dân số của 5 tỉnh ở bảng trên. Số nam giới ở Cà Mau nhiều hơn số trung bình nam giới của cả 5 tỉnh 57,28%. Tính tỉ lệ nam/nữ của tỉnh Cà Mau.",
       "options": [
         "A. 1,012.",
@@ -90893,7 +91074,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_population_daknong_camau"
     },
     {
       "id": "vact-moon-de-25-q120",
@@ -90902,7 +91084,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nNăng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi (p = 1 bar), biến thiên năng lượng tự do của phản ứng ΔrG° (kJ) được tính theo công thức sau: ΔrG° = ΔrH° - TΔrS°. T là nhiệt độ (K). Trong đó: ΔrH° (kJ) và ΔrS° (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Phản ứng tỏa nhiệt thì ΔrH° có giá trị âm còn phản ứng thu nhiệt thì ΔrH° có giá trị dương. Dấu của ΔrG° được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu ΔrG° âm thì phản ứng tự xảy ra, còn nếu ΔrG° dương thì phản ứng không tự xảy ra.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNăng lượng tự do Gibbs ($G$) là năng lượng của phản ứng hóa học có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1\\\\text{ bar}$), biến thiên năng lượng tự do Gibbs của phản ứng được xác định theo hệ thức:\n$\\\\Delta_r G^\\\\circ = \\\\Delta_r H^\\\\circ - T \\\\cdot \\\\Delta_r S^\\\\circ$\nTrong đó: $T$ là nhiệt độ (K); $\\\\Delta_r H^\\\\circ$ (kJ) và $\\\\Delta_r S^\\\\circ$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng. Dấu của $\\\\Delta_r G^\\\\circ$ quyết định chiều tự diễn biến của phản ứng: nếu $\\\\Delta_r G^\\\\circ < 0$, phản ứng tự xảy ra; nếu $\\\\Delta_r G^\\\\circ > 0$, phản ứng không tự xảy ra.",
       "question": "Để một phản ứng không tự xảy ra ở mọi nhiệt độ thì",
       "options": [
         "A. ΔrHo > 0 và ΔrSo < 0.",
@@ -90915,7 +91097,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_gibbs_energy"
     }
   ]
 };
