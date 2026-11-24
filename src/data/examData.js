@@ -1,5 +1,3 @@
-// V-ACT Authentic Question Database & Exam Repository
-// Master Normalized & Standardized with Full Passage Synchronization and KaTeX Precision
 export const EXAM_LIST = [
   {
     "id": "vact-official-2025",
@@ -2404,7 +2402,7 @@ export const QUESTIONS_DATA = {
         "A. while plants can be well preserved, wild animals are hard to controlled",
         "B. it may be not too late if humans stop killing living things in nature",
         "C. humans’ killing of wild animals is more dangerous than that of plants",
-        "D. humans destroy plants and animals, so they will end up destroying themselves PHẦN 2. TOÁN HỌC"
+        "D. humans destroy plants and animals, so they will end up destroying themselves"
       ],
       "correctAnswer": 0,
       "explanation": "Phân tích phương pháp giải chi tiết câu 60: Vận dụng kiến thức trọng tâm của phân môn Tiếng Anh để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -3809,7 +3807,7 @@ export const QUESTIONS_DATA = {
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
       "passage": "Khôn ngoan mới biết thăng rồi giáng, Dại dột nào hay tiếu có dài. Đã khuất bao nhiêu rồi lại rỗi, Đạo trời lồng lộng chẳng hề sai. (Nguyễn Bỉnh Khiêm, Bài số 2, Bạch Vân quốc ngữ thi tập) Nhận định nào sau đây đúng nhất về phong cách thơ Nguyễn Bỉnh Khiêm thể hiện qua",
-      "question": "đoạn thơ trên?",
+      "question": "Nét đặc sắc nổi bật về nội dung và giọng điệu của đoạn thơ trên là gì?",
       "options": [
         "A. Thơ giàu cảm xúc trữ tình, thiên về bộc lộ tâm trạng cá nhân.",
         "B. Thơ mang giọng triết lí sâu sắc, bình thản chiêm nghiệm lẽ đời.",
@@ -5046,7 +5044,7 @@ export const QUESTIONS_DATA = {
         "A. emotional distance from the past, freedom from fixed timing, greater self-kindness, and a stronger sense of identity",
         "B. clearer judgment of mistakes, pressure from online success, kinder views of failure, and a more hopeful social outlook",
         "C. renewed confidence in memory, rejection of public standards, escape from self- criticism, and acceptance of future change",
-        "D. mature reflection on failure, resistance to comparison, forgiveness of bad choices, and recovery from painful regret PHẦN 2. TOÁN HỌC"
+        "D. mature reflection on failure, resistance to comparison, forgiveness of bad choices, and recovery from painful regret"
       ],
       "correctAnswer": 0,
       "explanation": "Xem giải thích chi tiết trong tài liệu đáp án.",
@@ -5290,7 +5288,7 @@ export const QUESTIONS_DATA = {
         "C. ab = 7",
         "D. ab = 14"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Chọn B. ( ) 2 2 2 2 2 2 1, , 0 x y b a b y a x a a b + = > = - . Diện tích ( ) E là. ( ) - = = - \\int \\int d d 2 2 2 2 0 0 4 4 a a E b a x x b S a x x a a . Đặt ] = \\in - = ] ] t t d tdt \\pi \\pi sin , ; cos 2 2 x a x a . Đổi cận: = = = = t t \\pi 0 0; 2 x x a . ( ) ( ) = = = \\int \\int a .cos tdt 1+cos2t dt \\pi2 2 0 0 4 2 a a E b S ab ab a . Mà ta có ( ) 2 . 7 . C S π R π = = . Theo giả thiết ta có ( ) ( )= = = \\pi \\pi 7. 49 49. E C S S ab ab .",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
@@ -5400,8 +5398,8 @@ export const QUESTIONS_DATA = {
         "C. x = 10, y = 4",
         "D. x = 9, y = 6"
       ],
-      "correctAnswer": 0,
-      "explanation": "Chọn D",
+      "correctAnswer": 3,
+      "explanation": "Kiểm tra điều kiện số trang in và thời gian: Với phương án A (x=8, y=6): số văn bản in được là 40*8 + 30*6 = 500 < 540 (không đủ). Với B (x=6, y=8): số văn bản 40*6 + 30*8 = 480 < 540 (không đủ). Với C (x=10, y=4): số văn bản 40*10 + 30*4 = 520 < 540 (không đủ). Với D (x=9, y=6): số văn bản 40*9 + 30*6 = 540 (đạt), số trang màu 8*9 + 12*6 = 144 (đạt). Chi phí là 200*9 + 180*6 = 2.880 nghìn đồng. Đáp án đúng là D.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -5598,7 +5596,7 @@ export const QUESTIONS_DATA = {
         "C. y = 2x + 1",
         "D. y = x + 1"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Chọn C Với + = + + = 2 1 1 1 m x x y x Phương trình đường thẳng đi qua 2 điểm cực trị của đồ thị hàm số là ( ) ( ) + + + = = = + + / 2 / 1 2 1 2 1 1 1 x x x y x x",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
@@ -5642,7 +5640,7 @@ export const QUESTIONS_DATA = {
         "C. $\\frac{13}{6}$",
         "D. $-\\frac{11}{6}$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Chọn D Xét 2 1 x mx m y x + + = + . Ta có: ( ) ( ) 2 2 2 1 x x f x x + ' = + , ( ) [ ] [ ] 0 1; 2 0 2 1; 2 x f x x = \\notin ' = = - \\notin . Mà ( ) ( ) [ ] 1;2 2 1 3 4 2 1 3 4 1 ,f 2 max ; 2 3 2 3 x m m m m f y \\in + + + + \\} = = = \\} \\} . Trường hợp 1: [ ] 1;2 3 2 1 2max 2 5 2 2 x m m y m \\in = + = = = - . • Với 3 3 4 17 2 2 3 6 m m + = = > (loại) • Với 5 3 4 7 2 2 3 6 m m + = - = < (thỏa mãn) Trường hợp 2: [ ] 1;2 2 3 4 6 3 4 3 max 2 3 4 6 10 3 3 x m m m y m m \\in = + = + = = + = - = - . • Với 2 2 1 7 2 3 2 6 m m + = = < (thỏa mãn) • Với 10 2 1 17 2 3 2 6 m m + = - = > (loại) Vậy có 2 giá trị của m thỏa mãn là 2 11 3 5 6 2 m m m = = - = - . Dựa vào thông tin sau để trả lời câu hỏi từ 85 đến 87 Cho hình chóp . S ABC có ba cạnh bên , , SA SB SC đôi một vuông góc tại S . Biết , 2 , 3 SA a SB a SC a = = = . Gọi H là hình chiếu của S lên AB .",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -7688,7 +7686,7 @@ export const QUESTIONS_DATA = {
         "A. They are gaining in popularity in different parts of the world.",
         "B. They are more economical and produce no pollution whatsoever.",
         "C. They have only been developed in technologically advanced nations.",
-        "D. They are eco-friendly structures that always include rooftop gardens. PHẦN 2. TOÁN HỌC"
+        "D. They are eco-friendly structures that always include rooftop gardens."
       ],
       "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 60] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -7801,7 +7799,7 @@ export const QUESTIONS_DATA = {
         "D. 12"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 65] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "[VnNO1 2026/2027 - Câu 65] Đáp án đúng là A. Với $x = 2, y = 3 \\implies xy = 6$, thỏa mãn điều kiện bài toán.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -7911,7 +7909,7 @@ export const QUESTIONS_DATA = {
         "D. Hàm số không có tiệm cận nào."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 70] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "[VnNO1 2026/2027 - Câu 70] Đáp án đúng là C. Ta có $y = \\frac{2x^2 - 3x + 2}{x - 1} = 2x - 1 + \\frac{1}{x - 1}$. Khi $x \\to \\pm\\infty$, $\\lim [y - (2x - 1)] = 0$. Do đó hàm số có tiệm cận xiên là $y = 2x - 1$.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -8364,7 +8362,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nTrên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau:\n- I xếp ở vị trí thứ 7.\n- Có ít nhất 5 hũ gia vị được xếp bên phải A.\n- E xếp bên phải D nhưng bên trái A.\n- Có 3 hũ gia vị được xếp ở giữa E và F.\n- B xếp cạnh G.",
       "question": "Liệt kê nào sau đây có thể là cách sắp xếp phù hợp các hũ gia vị theo yêu cầu?",
       "options": [
         "A. F, H, D, C, E, A, I, B, G.",
@@ -8386,7 +8384,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nTrên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau:\n- I xếp ở vị trí thứ 7.\n- Có ít nhất 5 hũ gia vị được xếp bên phải A.\n- E xếp bên phải D nhưng bên trái A.\n- Có 3 hũ gia vị được xếp ở giữa E và F.\n- B xếp cạnh G.",
       "question": "B không thể được xếp ở vị trí nào dưới đây?",
       "options": [
         "A. Thứ 3.",
@@ -8408,7 +8406,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nTrên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau:\n- I xếp ở vị trí thứ 7.\n- Có ít nhất 5 hũ gia vị được xếp bên phải A.\n- E xếp bên phải D nhưng bên trái A.\n- Có 3 hũ gia vị được xếp ở giữa E và F.\n- B xếp cạnh G.",
       "question": "Hai hũ gia vị nào sau đây luôn có ít nhất một hũ được xếp ở giữa E và F?",
       "options": [
         "A. B và G.",
@@ -8430,7 +8428,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nC, D, E, F, J, S; mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau: có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất; nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S; E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nMột hãng xe hơi có 3 nhà máy I, II, III cùng sản xuất 6 dòng xe C, D, E, F, J, S. Mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau:\n- Có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất.\n- Nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S.\n- E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
       "question": "Liệt kê nào sau đây là danh sách đầy đủ và chính xác các nhà máy có thể sản xuất S?",
       "options": [
         "A. I, II, III.",
@@ -8452,11 +8450,11 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nC, D, E, F, J, S; mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau: có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất; nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S; E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nMột hãng xe hơi có 3 nhà máy I, II, III cùng sản xuất 6 dòng xe C, D, E, F, J, S. Mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau:\n- Có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất.\n- Nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S.\n- E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
       "question": "Nếu Nhà máy I và II sản xuất 3 dòng xe thì dòng xe nào sau đây có thể được cả 3 nhà máy cùng sản xuất?",
       "options": [
         "A. E.",
-        "B.",
+        "B. D.",
         "C. S.",
         "D. J."
       ],
@@ -8474,11 +8472,11 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nC, D, E, F, J, S; mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau: có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất; nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S; E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nMột hãng xe hơi có 3 nhà máy I, II, III cùng sản xuất 6 dòng xe C, D, E, F, J, S. Mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau:\n- Có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất.\n- Nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S.\n- E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
       "question": "Nếu mỗi Nhà máy sản xuất đúng 4 dòng xe thì Nhà máy I phải sản xuất dòng xe nào sau đây?",
       "options": [
         "A. E.",
-        "B.",
+        "B. D.",
         "C. S.",
         "D. J."
       ],
@@ -8496,7 +8494,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nBảng thống kê chi phí chiến tranh của Pháp và viện trợ của Mỹ ở chiến trường Đông Dương giai đoạn 1950 – 1954:\n\n| Năm | Tổng chi phí chiến tranh (tỷ phrăng) | Viện trợ của Mỹ (tỷ phrăng) |\n|:---:|:---:|:---:|\n| 1950 | 275 | 52 |\n| 1951 | 380 | 62 |\n| 1952 | 535 | 185 |\n| 1953 | 700 | 311 |\n| 1954 | 775 | 555 |\n\n*(Nguồn: Tư liệu Lịch sử quân sự và quan hệ quốc tế giai đoạn 1950 – 1954)*.",
       "question": "Trong giai đoạn 1950 - 1954, năm nào ghi nhận tỷ trọng viện trợ của Mỹ chiếm hơn một nửa tổng chi phí chiến tranh của Pháp ở Đông Dương?",
       "options": [
         "A. 1951",
@@ -8518,7 +8516,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nBảng thống kê chi phí chiến tranh của Pháp và viện trợ của Mỹ ở chiến trường Đông Dương giai đoạn 1950 – 1954:\n\n| Năm | Tổng chi phí chiến tranh (tỷ phrăng) | Viện trợ của Mỹ (tỷ phrăng) |\n|:---:|:---:|:---:|\n| 1950 | 275 | 52 |\n| 1951 | 380 | 62 |\n| 1952 | 535 | 185 |\n| 1953 | 700 | 311 |\n| 1954 | 775 | 555 |\n\n*(Nguồn: Tư liệu Lịch sử quân sự và quan hệ quốc tế giai đoạn 1950 – 1954)*.",
       "question": "Tổng chi phí chiến tranh của Pháp tại Đông Dương năm 1954 đã tăng xấp xỉ bao nhiêu phần trăm so với năm 1950?",
       "options": [
         "A. 154,5%.",
@@ -8540,7 +8538,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nBảng thống kê chi phí chiến tranh của Pháp và viện trợ của Mỹ ở chiến trường Đông Dương giai đoạn 1950 – 1954:\n\n| Năm | Tổng chi phí chiến tranh (tỷ phrăng) | Viện trợ của Mỹ (tỷ phrăng) |\n|:---:|:---:|:---:|\n| 1950 | 275 | 52 |\n| 1951 | 380 | 62 |\n| 1952 | 535 | 185 |\n| 1953 | 700 | 311 |\n| 1954 | 775 | 555 |\n\n*(Nguồn: Tư liệu Lịch sử quân sự và quan hệ quốc tế giai đoạn 1950 – 1954)*.",
       "question": "Xét phần chi phí chiến tranh mà Pháp tự chi trả (sau khi trừ đi khoản viện trợ của Mỹ), nhận định nào sau đây là chính xác?",
       "options": [
         "A. Phần chi phí tự túc của Pháp tăng thêm 101 tỷ phrăng.",
@@ -8548,7 +8546,7 @@ export const QUESTIONS_DATA = {
         "C. Phần chi phí tự túc của Pháp giảm đi 101 tỷ phrăng.",
         "D. Phần chi phí tự túc của Pháp giảm đi 169 tỷ phrăng."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 99] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
@@ -8562,7 +8560,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nBảng thống kê tỷ trọng các loại mục tiêu bị không quân Mỹ đánh phá ở miền Bắc Việt Nam qua hai giai đoạn chiến tranh phá hoại:\n\n| Loại mục tiêu | Tỷ trọng giai đoạn 1965 – 1968 (%) | Tỷ trọng giai đoạn 1969 – 1972 (%) |\n|:---|:---:|:---:|\n| Giao thông vận tải | 52,3 | 63,6 |\n| Kinh tế | 6,7 | 9,4 |\n| Quân sự | 10,1 | 8,8 |\n| Dân cư | 30,9 | 18,2 |\n| **Tổng cộng** | **100,0** | **100,0** |\n\n*(Nguồn: Tư liệu Lịch sử Kháng chiến chống Mỹ cứu nước 1954 – 1975)*.",
       "question": "Trong giai đoạn 1965 - 1968, loại mục tiêu nào chiếm tỷ trọng cao nhất trong các đợt đánh phá của không quân Mỹ?",
       "options": [
         "A. Quân sự.",
@@ -8584,7 +8582,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nBảng thống kê tỷ trọng các loại mục tiêu bị không quân Mỹ đánh phá ở miền Bắc Việt Nam qua hai giai đoạn chiến tranh phá hoại:\n\n| Loại mục tiêu | Tỷ trọng giai đoạn 1965 – 1968 (%) | Tỷ trọng giai đoạn 1969 – 1972 (%) |\n|:---|:---:|:---:|\n| Giao thông vận tải | 52,3 | 63,6 |\n| Kinh tế | 6,7 | 9,4 |\n| Quân sự | 10,1 | 8,8 |\n| Dân cư | 30,9 | 18,2 |\n| **Tổng cộng** | **100,0** | **100,0** |\n\n*(Nguồn: Tư liệu Lịch sử Kháng chiến chống Mỹ cứu nước 1954 – 1975)*.",
       "question": "So với giai đoạn 1965 - 1968, tỷ trọng số lần đánh phá vào mục tiêu “Kinh tế” ở giai đoạn 1969 - 1972 đã thay đổi như thế nào?",
       "options": [
         "A. Giảm 2,7 điểm phần trăm.",
@@ -8606,7 +8604,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nBảng thống kê tỷ trọng các loại mục tiêu bị không quân Mỹ đánh phá ở miền Bắc Việt Nam qua hai giai đoạn chiến tranh phá hoại:\n\n| Loại mục tiêu | Tỷ trọng giai đoạn 1965 – 1968 (%) | Tỷ trọng giai đoạn 1969 – 1972 (%) |\n|:---|:---:|:---:|\n| Giao thông vận tải | 52,3 | 63,6 |\n| Kinh tế | 6,7 | 9,4 |\n| Quân sự | 10,1 | 8,8 |\n| Dân cư | 30,9 | 18,2 |\n| **Tổng cộng** | **100,0** | **100,0** |\n\n*(Nguồn: Tư liệu Lịch sử Kháng chiến chống Mỹ cứu nước 1954 – 1975)*.",
       "question": "Tổng số lần đánh phá vào nhóm mục tiêu phi quân sự (Kinh tế và Dân cư) trong giai đoạn 1969 - 1972 đã giảm khoảng bao nhiêu phần trăm so với giai đoạn 1965 - 1968?",
       "options": [
         "A. 85,2%.",
@@ -8614,8 +8612,8 @@ export const QUESTIONS_DATA = {
         "C. 90,7%.",
         "D. 92,6%."
       ],
-      "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 102] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "correctAnswer": 1,
+      "explanation": "[VnNO1 2026/2027 - Câu 102] Đáp án đúng là B. Căn cứ vào tư liệu lịch sử về tổng số lần đánh phá giữa hai giai đoạn chiến tranh phá hoại.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -8628,13 +8626,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Nước mềm là nước chứa ít hoặc không chứa các ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n- Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: $\\text{Ca(HCO}_3)_2$ và $\\text{Mg(HCO}_3)_2$… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n- Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: $\\text{CaCl}_2$, $\\text{MgSO}_4$… Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n- Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\n\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$ đổi về khối lượng $\\text{CaCO}_3$, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\n\n| Phân loại nước | Mềm | Hơi cứng | Cứng | Rất cứng |\n|:---|:---:|:---:|:---:|:---:|\n| **Độ cứng ($\\text{mg CaCO}_3/\\text{lít}$)** | 0 – 50 | 50 – 150 | 150 – 300 | > 300 |\n\nKhối lượng mol của một số nguyên tố: $\\text{H} = 1$, $\\text{C} = 12$, $\\text{O} = 16$, $\\text{Na} = 23$, $\\text{Mg} = 24$, $\\text{S} = 32$, $\\text{Cl} = 35{,}5$, $\\text{Ca} = 40\\text{ (g/mol)}$.",
       "question": "Để làm mềm nước có tính cứng vĩnh cửu, phương pháp nào sau đây không thể áp dụng?",
       "options": [
         "A. Đun sôi nước cứng để làm phân hủy các gốc axit.",
         "B. Dùng nhựa cation để trao đổi ion Ca2+ và Mg2+ với Na+.",
         "C. Dùng bột soda để xử lí nước.",
-        "D. Dùng K3PO4 để làm lắng đọng Canxi và Magie. G 52,3% K 6,7% Q 10,1% D 30,9% G 63,6% K 9,4% Q 8,8% D 18,2%"
+        "D. Dùng $\\text{K}_3\\text{PO}_4$ để làm kết tủa ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$."
       ],
       "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 103] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -8650,7 +8648,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Nước mềm là nước chứa ít hoặc không chứa các ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n- Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: $\\text{Ca(HCO}_3)_2$ và $\\text{Mg(HCO}_3)_2$… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n- Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: $\\text{CaCl}_2$, $\\text{MgSO}_4$… Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n- Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\n\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$ đổi về khối lượng $\\text{CaCO}_3$, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\n\n| Phân loại nước | Mềm | Hơi cứng | Cứng | Rất cứng |\n|:---|:---:|:---:|:---:|:---:|\n| **Độ cứng ($\\text{mg CaCO}_3/\\text{lít}$)** | 0 – 50 | 50 – 150 | 150 – 300 | > 300 |\n\nKhối lượng mol của một số nguyên tố: $\\text{H} = 1$, $\\text{C} = 12$, $\\text{O} = 16$, $\\text{Na} = 23$, $\\text{Mg} = 24$, $\\text{S} = 32$, $\\text{Cl} = 35{,}5$, $\\text{Ca} = 40\\text{ (g/mol)}$.",
       "question": "Từ một mẫu nước cứng (chỉ chứa $\\text{MgCl}_2$) có nồng độ là $1{,}76 \\times 10^{-3}\\text{ mol/lít}$, người ta có thể tính được giá trị độ cứng của mẫu nước. Nhận định nào dưới đây là đúng?",
       "options": [
         "A. Độ cứng của nước là 148 mg/l. Mẫu nước thuộc loại nước hơi cứng.",
@@ -8672,7 +8670,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Nước mềm là nước chứa ít hoặc không chứa các ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n- Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: $\\text{Ca(HCO}_3)_2$ và $\\text{Mg(HCO}_3)_2$… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n- Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: $\\text{CaCl}_2$, $\\text{MgSO}_4$… Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n- Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\n\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$ đổi về khối lượng $\\text{CaCO}_3$, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\n\n| Phân loại nước | Mềm | Hơi cứng | Cứng | Rất cứng |\n|:---|:---:|:---:|:---:|:---:|\n| **Độ cứng ($\\text{mg CaCO}_3/\\text{lít}$)** | 0 – 50 | 50 – 150 | 150 – 300 | > 300 |\n\nKhối lượng mol của một số nguyên tố: $\\text{H} = 1$, $\\text{C} = 12$, $\\text{O} = 16$, $\\text{Na} = 23$, $\\text{Mg} = 24$, $\\text{S} = 32$, $\\text{Cl} = 35{,}5$, $\\text{Ca} = 40\\text{ (g/mol)}$.",
       "question": "Để giảm hàm lượng Mg2+ trong mẫu nước trên, người ta có thể sử dụng các vật liệu polime có khả năng trao đổi cation. Nhưng sau một thời gian sử dụng, các hạt nhựa trao đổi ion không còn khả năng hút ion Mg2+ từ nước cứng. Ý nào dưới đây có thể là nguyên nhân và cách khắc phục?",
       "options": [
         "A. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách sục khí CO2 đến dư vào để hòa tan kết tủa.",
@@ -8694,7 +8692,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nQuy ước nhiệt độ đông đặc của nước là 0°C và nhiệt độ sôi của nước là 100°C (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là 37°C. - Thang Fahrenheit (°F): Quy ước nhiệt độ đông đặc của nước là 32°F và nhiệt độ sôi của nước là 212°F (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
       "question": "Công thức liên hệ đúng giữa thang đo Fahrenheit ($^\\circ\\text{F}$) và thang đo Celsius ($^\\circ\\text{C}$) là:",
       "options": [
         "A. $F = \\frac{9}{5}C + 32$",
@@ -8703,7 +8701,7 @@ export const QUESTIONS_DATA = {
         "D. $C = \\frac{9}{5}F + 32$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 106] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "[VnNO1 2026/2027 - Câu 106] Đáp án đúng là A. Công thức chuyển đổi chuẩn giữa thang đo Celsius và Fahrenheit là $F = \\frac{9}{5}C + 32$.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -8716,7 +8714,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nQuy ước nhiệt độ đông đặc của nước là 0°C và nhiệt độ sôi của nước là 100°C (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là 37°C. - Thang Fahrenheit (°F): Quy ước nhiệt độ đông đặc của nước là 32°F và nhiệt độ sôi của nước là 212°F (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
       "question": "Nhiệt độ nào sau đây có số chỉ bằng nhau trên cả hai thang đo Celsius và Fahrenheit?",
       "options": [
         "A. $-40^\\circ$",
@@ -8738,7 +8736,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nQuy ước nhiệt độ đông đặc của nước là 0°C và nhiệt độ sôi của nước là 100°C (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là 37°C. - Thang Fahrenheit (°F): Quy ước nhiệt độ đông đặc của nước là 32°F và nhiệt độ sôi của nước là 212°F (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
       "question": "Phát biểu nào dưới đây đúng?",
       "options": [
         "A. Thân nhiệt người bình thường là 37°F.",
@@ -8760,7 +8758,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nBảng kết quả nghiên cứu ảnh hưởng của thời gian chiếu sáng bổ sung vào ban đêm đến tỉ lệ ra hoa của cây thanh long (chu kỳ 24 giờ):\n\n| Điều kiện chiếu sáng bổ sung | Không chiếu sáng | 0,5 giờ | 1 giờ | 2 giờ | 3 giờ | 4 giờ | 5 giờ | Chiếu sáng liên tục |\n|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| **Tỉ lệ ra hoa (%)** | 0 | 0 | 12 | 51 | 79 | 90 | 99 | 99 |",
       "question": "Trong tự nhiên để điều khiển cây thanh long ra hoa đồng loạt vào thời điểm ngày ngắn, cần phải chiếu sáng đèn từ 0 giờ và tắt đèn vào thời điểm nào sau đây?",
       "options": [
         "A. 0 giờ 30 phút.",
@@ -8782,7 +8780,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nBảng kết quả nghiên cứu ảnh hưởng của thời gian chiếu sáng bổ sung vào ban đêm đến tỉ lệ ra hoa của cây thanh long (chu kỳ 24 giờ):\n\n| Điều kiện chiếu sáng bổ sung | Không chiếu sáng | 0,5 giờ | 1 giờ | 2 giờ | 3 giờ | 4 giờ | 5 giờ | Chiếu sáng liên tục |\n|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| **Tỉ lệ ra hoa (%)** | 0 | 0 | 12 | 51 | 79 | 90 | 99 | 99 |",
       "question": "Một loài thực vật ngày ngắn có độ dài đêm tới hạn là 09 giờ, được trồng trong chu kì sáng tối là 24 giờ. Điều kiện chiếu sáng nào sau đây kích thích cây trưởng thành ra hoa?",
       "options": [
         "A. 10 giờ tối/24 giờ.",
@@ -8804,7 +8802,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nBảng kết quả nghiên cứu ảnh hưởng của thời gian chiếu sáng bổ sung vào ban đêm đến tỉ lệ ra hoa của cây thanh long (chu kỳ 24 giờ):\n\n| Điều kiện chiếu sáng bổ sung | Không chiếu sáng | 0,5 giờ | 1 giờ | 2 giờ | 3 giờ | 4 giờ | 5 giờ | Chiếu sáng liên tục |\n|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| **Tỉ lệ ra hoa (%)** | 0 | 0 | 12 | 51 | 79 | 90 | 99 | 99 |",
       "question": "Loài thực vật nào sau đây được xếp vào nhóm cây ngày dài?",
       "options": [
         "A. Cây ké đầu ngựa (Xanthium Strumarium) chỉ ra hoa khi chiếu sáng tối đa là 16 giờ hoặc ít hơn.",
@@ -9381,12 +9379,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Dòng nào dưới đây gồm các từ được viết đúng chính tả?",
       "options": [
-        "A. Xán lạn, chỉnh chu, trau chuốt, tinh tuý.",
+        "A. Sáng lạng, chỉn chu, trao chuốt, tinh túy.",
         "B. Sáng lạn, chỉn chu, trau chuốt, tinh túy.",
-        "C. Xán lạn, chỉn chu, chau chuốt, tinh túy.",
-        "D. Sáng lạn, chỉn chu, trau chuốt, tinh túy."
+        "C. Xán lạng, chỉnh chu, trau chuốt, tinh tuý.",
+        "D. Xán lạn, chỉn chu, trau chuốt, tinh túy."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
@@ -10575,7 +10573,7 @@ export const QUESTIONS_DATA = {
         "D. m = 0"
       ],
       "correctAnswer": 2,
-      "explanation": "Chọn B Ta có ( )0 0 1 lim lim 1 1 x x x f x m m x + + \\to \\to - \\left( \\right) = + = + \\left( \\right) + \\left( \\right) . ( )0 0 1 1 lim lim x x x x f x x - - \\to \\to \\left( \\right) - - + = = \\left( \\right) \\left( \\right) \\left( \\right) ( ) ( )0 0 2 2 lim lim 1 1 1 1 1 x x x x x x x x - - \\to \\to - - = = - - + + - + + . ( ) 0 1 f m = + Để hàm liên tục tại 0 x = thì ( ) ( ) ( )0 0 lim lim 0 x x f x f x f + - \\to \\to = = 1 1 2 m m \\Leftrightarrow + = - \\Rightarrow = - .",
+      "explanation": "Ta có: $\\lim_{x \\to 0^+} f(x) = f(0) = m$.\n$\\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0^-} \\frac{\\sqrt{1-x}-1}{x} = \\lim_{x \\to 0^-} \\frac{-1}{\\sqrt{1-x}+1} = -\\frac{1}{2}$.\nĐể hàm số liên tục tại $x = 0$ thì $\\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0^-} f(x) \\iff m = -\\frac{1}{2}$. Chọn C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -10926,8 +10924,8 @@ export const QUESTIONS_DATA = {
         "C. 8 triệu đồng",
         "D. 9 triệu đồng"
       ],
-      "correctAnswer": 1,
-      "explanation": "Chọn C Số giờ làm việc của máy 1 T là 3 2 x y + và của máy 2 T là 2x y + . Vì mỗi ngày máy 1 T không được làm việc quá 6 giờ và máy 2 T không làm việc quá 4 giờ nên ta có ràng buộc: 3 2 6 2 4 . , 0 x y x y x y + \\le + \\le \\ge Vẽ miền nghiệm của hệ bất phương trình ta được miền như hình. Khi đó: ( ) ( ) ( ) 0; 0 0 0;3 6 2;0 6 F F F = = = Vậy giá trị của E là 6. E =",
+      "correctAnswer": 0,
+      "explanation": "Số giờ máy $T_1$: $3x + 2y \\le 6$. Số giờ máy $T_2$: $2x + y \\le 4$ ($x, y \\ge 0$). Tiền lãi $F(x, y) = 3x + 2y$. Do $3x + 2y \\le 6$ nên $F(x, y) \\le 6$. Tại $(0; 3)$ hoặc $(2; 0)$, tiền lãi đạt cực đại bằng 6 triệu đồng. Chọn A.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -11102,7 +11100,7 @@ export const QUESTIONS_DATA = {
         "C. A, B.",
         "D. D, E."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Ở câu hỏi 1 ta có: Nếu tiết 2 có 2 học sinh thì thứ tự học sinh xếp theo tiết sẽ là: C, A-B, D-E, F. Tiếp theo ta xét trường hợp nếu tiết 2 không có 2 học sinh. Tiết 3 có 2 học sinh, tiết 1 có 1 học sinh. Mà ta xét trường hợp tiết 2 có 1 học sinh => Tiết 4 phải có 2 học sinh. Nếu C học tiết 1 => D học tiết 3 => A, B học tiết 4. Vì F học một mình => F học tiết 2. Còn lại E học tiết 3. => Thứ tự: C, F, D-E, A-B. Nếu C học tiết 2 => D học tiết 4 => A, B học tiết 3 => F học tiết 1. Còn lại E học tiết 4. => Thứ tự: F, C, A-B, D-E. Ta có dữ kiện môn của B không học cạnh môn Anh => Trường hợp 1 thỏa mãn vì môn Anh có thể dạy ở tiết 2. Tuy nhiên trường hợp 2, nếu B học tiết 3 => Môn Anh phải dạy ở tiết 1 (MÂU THUẪN) => Trong 2 thứ tự thỏa mãn dữ kiện, ở tiết 3 chắc chắn là D và E. Đáp án: D.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -11279,7 +11277,7 @@ export const QUESTIONS_DATA = {
         "D. 2"
       ],
       "correctAnswer": 3,
-      "explanation": "Đáp án C. Khối lượng của dung môi (nước). Khối lượng của chất tan (ethylene glycol). → Cần để tính nồng độ molan ( / = m mol kg dung môi). Bản chất (công thức hóa học) của chất tan để xác định hệ số Van't Hoff ($i$). → Cần biết chất tan có điện li hay không (xác định i ). Các yếu tố khác không chọn, vì: Điểm đông đặc của chất lỏng thay đổi rất ít theo áp suất (khác với điểm sôi), nên trong điều kiện phòng thí nghiệm thường bỏ qua. Công thức dùng nồng độ molan (theo khối lượng dung môi), không phụ thuộc vào thể tích dung dịch (thể tích thay đổi theo nhiệt độ, gây sai số).",
+      "explanation": "Độ tan của một chất rắn trong nước phụ thuộc vào bản chất chất tan, bản chất dung môi, nhiệt độ của hệ (yếu tố 3) và một phần áp suất (yếu tố 2, tuy ảnh hưởng rất nhỏ đối với chất rắn nhưng vẫn là yếu tố nhiệt động học). Tốc độ khuấy và diện tích tiếp xúc chỉ ảnh hưởng đến tốc độ hòa tan, không làm thay đổi độ tan cân bằng. Khối lượng dung môi không làm thay đổi giá trị độ tan (tính trên 100g dung môi). Do đó có 2 yếu tố: (2) và (3). Đáp án đúng: D.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -11430,7 +11428,7 @@ export const QUESTIONS_DATA = {
         "A. Dòng tế bào có LD50 càng thấp thì tỷ lệ hình thành khối u ở nồng độ cao của Thuốc A càng lớn.",
         "B. Dòng tế bào có LD50 càng cao thì khả năng kháng thuốc càng lớn.",
         "C. LD50 của các dòng tế bào không liên quan đến kết quả thí nghiệm về tỷ lệ hình thành khối u, vì hai chỉ số này đo các khía cạnh khác nhau.",
-        "D. LD50 chỉ thể hiện nồng độ diệt 50% tế bào trong 72 giờ đầu, còn tỷ lệ hình thành khối u sau 10 ngày phụ thuộc chủ yếu vào nguồn gốc cơ quan của tế bào, không liên quan đến LD50. X Ruột già 3,8 Y Tuyến tiền liệt 70,0 Z Tuyến tiền liệt 818,0"
+        "D. LD50 chỉ thể hiện nồng độ diệt 50% tế bào trong 72 giờ đầu, còn tỷ lệ hình thành khối u sau 10 ngày phụ thuộc chủ yếu vào nguồn gốc cơ quan của tế bào, không liên quan đến LD50."
       ],
       "correctAnswer": 1,
       "explanation": "Đáp án: B. Giải thích: Nhìn vào Bảng 1, các dòng tế bào Y và Z có LD50 rất cao (70,0 và 818,0 μg/L), tương ứng với việc chúng kháng Thuốc A tốt hơn so với các dòng có LD50 thấp (V, W, X). Trong Hình 1, tại nồng độ cao, các dòng có LD50 lớn (đặc biệt Z) vẫn duy trì được tỷ lệ hình thành khối u cao hơn so với dòng V, W, X.",
@@ -13327,7 +13325,7 @@ export const QUESTIONS_DATA = {
         "D. 2{,}9"
       ],
       "correctAnswer": 3,
-      "explanation": "Ta có 1 2 1 1 1 2 3 2 3 2 2 3 2 3 n n n n n u u q u - - - \\left( \\right) \\left( \\right) = = - \\Rightarrow = - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Ta có 2 2 1 2 1 2 1 2 1 2 3 2 3 2 2 2 2 3 2 3 3 3 2 3 n n n n n n v u - - - - - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\right) = = = = = \\left( \\right) \\left( \\left( \\right) ( ) 2 2 1 1 1 1 2 2 2 2 3 3 3 3 n n n n - - - - [ ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) = = = = ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) ] ] ] Suy ra ( ) n v là một cấp số nhân với 1 1 v = và 2 3 v q = Vậy 1 1 2 1 ... 3 2 1 1 3 v v S v v q = + + = = = - - Dựa vào thông tin sau, trả lời các câu hỏi Trong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp 5 cái bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi.Gọi số bánh su kem và số bánh custas bạn Ngọc làm lần lượt là x (cái) ( 0 x \\ge , x \\in \\infty ) và y (cái) ( 0 y \\ge , y \\in \\infty )",
+      "explanation": "Ta có 1 2 1 1 1 2 3 2 3 2 2 3 2 3 n n n n n u u q u - - - \\left( \\right) \\left( \\right) = = - \\Rightarrow = - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Ta có 2 2 1 2 1 2 1 2 1 2 3 2 3 2 2 2 2 3 2 3 3 3 2 3 n n n n n n v u - - - - - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\right) = = = = = \\left( \\right) \\left( \\left( \\right) ( ) 2 2 1 1 1 1 2 2 2 2 3 3 3 3 n n n n - - - - [ ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) = = = = ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) ] ] ] Suy ra ( ) n v là một cấp số nhân với 1 1 v = và 2 3 v q = Vậy 1 1 2 1 ... 3 2 1 1 3 v v S v v q = + + = = = - -",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -13340,16 +13338,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Đẳng thức nào sau đây đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi. Gọi số hộp bánh su kem và số hộp bánh custas bạn Ngọc làm lần lượt là $x$ và $y$ ($x \\ge 0, y \\ge 0$). Biết mỗi hộp bánh su kem được 10 điểm thưởng, mỗi hộp bánh custas được 12 điểm thưởng.",
+      "question": "Bất phương trình nào sau đây diễn tả lượng nguyên liệu bột mì bạn Ngọc được dùng không vượt quá mức cho phép?",
       "options": [
-        "A. $9 x y + \\ge$",
-        "B. $3 21 x y + \\le$",
-        "C. $4 24 x y + \\le$",
-        "D. $4 24 x y + \\le$"
+        "A. $4x + y \\le 24$",
+        "B. $x + 3y \\le 21$",
+        "C. $x + y \\le 9$",
+        "D. $4x + y \\ge 24$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Số gam bột mì cần để làm bánh su kem & bánh custas: $200x + 50y \\le 1200 \\iff 4x + y \\le 24$. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -13362,16 +13360,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Nên làm mỗi loại bao nhiêu cái bánh để điểm thưởng cao nhất?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi. Gọi số hộp bánh su kem và số hộp bánh custas bạn Ngọc làm lần lượt là $x$ và $y$ ($x \\ge 0, y \\ge 0$). Biết mỗi hộp bánh su kem được 10 điểm thưởng, mỗi hộp bánh custas được 12 điểm thưởng.",
+      "question": "Nên làm mỗi loại bao nhiêu hộp bánh để điểm thưởng cao nhất?",
       "options": [
-        "A. 3 cái bánh kem, 6 cái bánh custas.",
-        "B. 5 cái bánh kem, 4 cái bánh custas.",
-        "C. 1 cái bánh kem, 7 cái bánh custas",
-        "D. 4 cái bánh kem, 5 cái bánh custas"
+        "A. 3 hộp bánh kem, 6 hộp bánh custas.",
+        "B. 5 hộp bánh kem, 4 hộp bánh custas.",
+        "C. 1 hộp bánh kem, 7 hộp bánh custas.",
+        "D. 4 hộp bánh kem, 5 hộp bánh custas."
       ],
       "correctAnswer": 0,
-      "explanation": "Số gam bột mì cần để làm bánh su kem & bánh custas: 200 50 1200 4 24 x y x y + \\le \\Rightarrow + \\le Số gam đường cần để làm bánh su kem & bánh custas: 50 50 450 9 x y x y + \\le \\Rightarrow + \\le Số gam trứng cần để làm bánh su kem & bánh custas: 20 60 420 3 21 x y x y + \\le \\Rightarrow + \\le Vậy ta có hệ bất phương trình: 4 24 9 3 21 0; 0 x y x y x y x y + \\le + \\le + \\le \\ge \\ge Số điểm thưởng: 10 12 T x y = + Ta cần tìm ( ) ; x y thỏa hệ bất phương trình và làm cho T đạt giá trị lớn nhất ( ) 1 : 4 24 d x y + = qua ( ) 0; 24 và ( ) 6;0 ( ) 2 : 9 d x y + = qua ( ) 0;9 và ( ) 9;0 ( ) 3 : 3 21 d x y + = qua ( ) 0;7 và ( ) 21;0 Miền nghiệm của hệ bất phương trình là miền ngũ giác OABCD với ( ) 0;0 O , ( ) 0;7 A , ( ) 6;0 D ( ) 9 3 3;6 3 21 6 x y x B x y y + = = \\Rightarrow \\Rightarrow + = = ( ) 4 24 5 5;4 9 4 x y x C x y y + = = \\Rightarrow \\Rightarrow + = = Với 0; 0 x y = = thì 0 T = Với 0; 7 x y = = thì 12.7 84 T = = Với 6; 0 x y = = thì 10.6 60 T = = Với 3; 6 x y = = thì 3.10 12.6 102 T = + = Với 5; 4 x y = = thì 10.5 12.4 98 T = + = Vậy với 3; 6 x y = = thì max 102 T = Dựa vào thông tin sau, trả lời các câu hỏi Trong mặt phẳng tọa độ , cho tam giác ABC có là trung điểm của cạnh AB . Đường trung tuyến và đường cao qua đỉnh A lần lượt có phương trình là và .",
+      "explanation": "Hệ bất phương trình ràng buộc: $\\begin{cases} 4x + y \\le 24 \\\\ x + y \\le 9 \\\\ x + 3y \\le 21 \\\\ x \\ge 0, y \\ge 0 \\end{cases}$. Điểm thưởng $T = 10x + 12y$. Xét các đỉnh của miền nghiệm: $O(0;0) \\implies T = 0$, $A(0;7) \\implies T = 84$, $B(3;6) \\implies T = 102$, $C(5;4) \\implies T = 98$, $D(6;0) \\implies T = 60$. Vậy làm 3 hộp bánh su kem và 6 hộp bánh custas cho điểm thưởng lớn nhất (102 điểm). Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -13384,16 +13382,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
       "question": "Tọa độ điểm $A$ của tam giác $ABC$ là:",
       "options": [
         "A. $A\\left(0; -\\frac{3}{2}\\right)$",
         "B. $A\\left(\\frac{3}{2}; 0\\right)$",
-        "C. A(1; 2)",
-        "D. A(2; 1)"
+        "C. $A(1; 2)$",
+        "D. $A(2; 1)$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Oxy (2; 0) M 7 2 3 0 x y - - = 6 4 0 x y - - = Tọa độ điểm là nghiệm của hệ",
+      "correctAnswer": 2,
+      "explanation": "Tọa độ điểm $A$ là nghiệm của hệ gồm đường trung tuyến và đường cao qua $A$:\n$\\begin{cases} 7x - 2y - 3 = 0 \\\\ 6x - y - 4 = 0 \\end{cases} \\iff \\begin{cases} x = 1 \\\\ y = 2 \\end{cases} \\implies A(1; 2)$. Chọn C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -13406,16 +13404,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
-      "question": "Phương trình đường thẳng BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
+      "question": "Phương trình đường thẳng $BC$ là:",
       "options": [
         "A. $x + 6y + 9 = 0$",
-        "B. $x + 6y + 9 = 0$",
+        "B. $x - 6y - 9 = 0$",
         "C. $x - 6y + 9 = 0$",
         "D. $x + 6y - 9 = 0$"
       ],
       "correctAnswer": 0,
-      "explanation": "Do là trung điểm của . đi qua và vuông góc với đường thẳng nên nhận làm vecto pháp tuyến. Do đó có phương trình:",
+      "explanation": "Vì $M(2; 0)$ là trung điểm $AB$ và $A(1; 2)$ nên $B(3; -2)$. Đường cao $AH: 6x - y - 4 = 0 \\implies BC \\perp AH$ có vectơ pháp tuyến $\\vec{n}_{BC} = (1; 6)$. Đường thẳng $BC$ qua $B(3; -2)$: $1(x - 3) + 6(y + 2) = 0 \\iff x + 6y + 9 = 0$. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -13428,16 +13426,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 79 đến 81:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
-      "question": "Phương trình đường thẳng AC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
+      "question": "Phương trình đường thẳng $AC$ là:",
       "options": [
         "A. $3x - 4y - 5 = 0$",
         "B. $4x - 3y + 5 = 0$",
         "C. $4x - 3y - 5 = 0$",
         "D. $3x - 4y + 5 = 0$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Tọa độ trung điểm của thỏa mãn hệ: Mà N là trung điểm BC nên tọa độ C là ( ) 3; 1 C - - Khi đó phương trình Dựa vào thông tin sau, trả lời các câu hỏi Có 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "correctAnswer": 3,
+      "explanation": "Gọi $N$ là trung điểm $BC$. $N = AN \\cap BC \\implies \\begin{cases} 7x - 2y - 3 = 0 \\\\ x + 6y + 9 = 0 \\end{cases} \\iff N\\left(0; -\\frac{3}{2}\\right)$. Do $N$ là trung điểm $BC$ nên $C(-3; -1)$. Phương trình đường thẳng $AC$ qua $A(1; 2)$ và $C(-3; -1)$: $3(x - 1) - 4(y - 2) = 0 \\iff 3x - 4y + 5 = 0$. Chọn D.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -13450,7 +13448,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
       "question": "Xác suất để chọn được ít nhất 1 viên bi màu trắng là:",
       "options": [
         "A. $\\frac{131}{252}$",
@@ -13459,7 +13457,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{47}{84}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Số phần tử không gian mẫu: $n(\\Omega) = 14 \\times 18 = 252$. Số cách chọn không có viên bi trắng nào: $(14 - 3) \\times (18 - 7) = 11 \\times 11 = 121$. Xác suất chọn ít nhất 1 viên bi trắng: $1 - \\frac{121}{252} = \\frac{131}{252}$. Chọn A.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -13472,8 +13470,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
-      "question": "Xác suất để chọn được 2 viên bi trong đó một viên màu đỏ, một viên màu xanh là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "question": "Xác suất để chọn được 2 viên bi trong đó một viên màu đỏ, một viên màu xanh là:",
       "options": [
         "A. $\\frac{61}{252}$",
         "B. $\\frac{25}{252}$",
@@ -13481,7 +13479,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{43}{126}$"
       ],
       "correctAnswer": 0,
-      "explanation": "A 7 2 3 0 1 (1; 2) 6 4 0 2 x y x A x y y - - = = \\Leftrightarrow \\Rightarrow - - = = (2; 0) M (3; 2) AB B \\Rightarrow - BC (3; 2) B - 6 4 0 x y - - = (1; 6) n = BC 3 6( 2) 0 6 9 0 x y x y - + + = \\Leftrightarrow + + = N BC 0 6 9 0 3 0; 3 7 2 3 0 2 2 x x y N x y y = + + = \\left( \\right) \\Leftrightarrow \\Rightarrow - \\left( \\right)- - = = - \\left( \\right) : 3 4 5 0 AC x y - + = Chọn ngẫu nhiên 1 viên bi từ 14 viên bi từ hộp thứ nhất và 1 viên bi từ 18 viên bi của hộp thứ hai. Nên số phần tử của không gian mẫu là: 1 1 14 18 ( ) . 252 n C C = = . Gọi B là biến cố lấy được hai viên bi sao cho có một viên màu đỏ, một viên màu xanh. + Trường hợp 1: Lấy 1 viên bi đỏ trong 5 viên bi đỏ ở hộp thứ nhất, 1 viên bị xanh trong 5 viên bi xanh ở hộp thứ hai. Số cách chọn là: 1 1 5 5 . 25 C C = . + Trường hợp 2: Lấy 1 viên bi xanh trong 6 viên bi xanh ở hộp thứ nhất, 1 viên bi đỏ trong 6 viên bi đỏ từ hộp thứ hai. Số cách chọn là: 1 1 6 6 . 36 C C = . Nên số phần tử của biến cố B là: ( ) 25 36 61 n B = + = . Xác suất lấy được hai viên bi lấy ra một viên màu đỏ, một viên màu xanh là: ( ) ( ) 61 ( ) 252 n B P B n = = .",
+      "explanation": "Trường hợp 1: Đỏ hộp 1 và Xanh hộp 2: $5 \\times 5 = 25$. Trường hợp 2: Xanh hộp 1 và Đỏ hộp 2: $6 \\times 6 = 36$. Tổng số cách: $25 + 36 = 61$. Xác suất: $\\frac{61}{252}$. Chọn A.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -13494,16 +13492,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 82 đến 84:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
-      "question": "Xác suất để chọn được 2 bi khác màu là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "question": "Xác suất để chọn được 2 bi khác màu là:",
       "options": [
         "A. $\\frac{9}{28}$",
         "B. $\\frac{19}{28}$",
         "C. $\\frac{16}{21}$",
         "D. $\\frac{67}{84}$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Gọi C là biến cố lấy được ra hai viên bi khác màu. C là biến cố lấy ra được hai viên bi cùng màu. + Trường hợp 1: Lấy ra hai bi màu trắng: 1 1 3 7 . 21 C C = . + Trường hợp 2: Lấy ra hai viên bi màu đỏ: 1 1 5 6 . 30 C C = . + Trường hợp 3: Lấy ra hai viên bi màu xanh: 1 1 6 5 . 30 C C = . Số phần tử của biến cố C là: ( ) 21 30 30 81 n C = + + = . Xác suất để lấy được hai viên bi khác màu là: ( ) ( ) 81 19 1 1 252 28 P C P C = - = - = . Dựa vào thông tin sau, trả lời các câu hỏi Cho hình chóp . S ABCD có đáy ABCD là hình chữ nhật, , 2 AB a BC a = = . Cạnh bên 15 SA a = và vuông góc với đáy.",
+      "correctAnswer": 1,
+      "explanation": "Số cách chọn 2 bi cùng màu: Trắng-Trắng: $3 \\times 7 = 21$; Đỏ-Đỏ: $5 \\times 6 = 30$; Xanh-Xanh: $6 \\times 5 = 30$. Tổng cùng màu: $21 + 30 + 30 = 81$. Xác suất lấy 2 bi khác màu: $1 - \\frac{81}{252} = 1 - \\frac{9}{28} = \\frac{19}{28}$. Chọn B.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -13541,10 +13539,10 @@ export const QUESTIONS_DATA = {
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật, $AB = a, BC = 2a$. Cạnh bên $SA = a\\sqrt{15}$ và vuông góc với đáy.",
       "question": "Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng:",
       "options": [
-        "A. $2^\\circ$",
-        "B. $2^\\circ$",
-        "C. $2^\\circ$",
-        "D. $2^\\circ$"
+        "A. $60^\\circ$",
+        "B. $45^\\circ$",
+        "C. $30^\\circ$",
+        "D. $75^\\circ$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -15726,7 +15724,7 @@ export const QUESTIONS_DATA = {
         "C. $a = 6$",
         "D. $a = 3$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "AB song song với trục Ox có nghĩa có cùng tung độ do đó: ( ) ( ) , , ,m m A a m B a m . Chú ý rằng nếu AB song song với trục Ox thì BC vuông góc với trục Ox có nghĩa có cùng hoành độ do vậy ta có 3 , 2 m m C a \\left( \\right) \\left( \\right) \\left( \\right) bởi 3 3 log 2 m a m a = . Vì hình vuông ABCD có diện tích bằng 36 nên có 3 6 6 12 2 m m m AB BC a a m m = = \\Leftrightarrow - = - = \\Leftrightarrow = \\pm . Nếu 12 m = - thì 12 6 6 1 1 1 6 1 3 a a a - = \\Leftrightarrow = < vô lý. Chọn D .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -15982,16 +15980,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 77 và 78:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu. Phân xưởng chỉ còn 100 tấn thịt và 40 tấn nguyên liệu. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đông. Gọi x là số đơn vị lạp xưởng được sản xuất, y là số đơn vị chả giò được sản xuất.",
-      "question": "Đẳng thức nào sau đây đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu khác. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu khác. Phân xưởng chỉ còn 100 tấn thịt heo và 40 tấn nguyên liệu khác. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đồng. Gọi $x$ là số đơn vị lạp xưởng và $y$ là số đơn vị chả giò được sản xuất ($x, y \\ge 0$).",
+      "question": "Bất phương trình nào sau đây diễn tả điều kiện về lượng thịt heo mà phân xưởng có thể sử dụng?",
       "options": [
-        "A. $2 100 x y + \\le$",
-        "B. $2 80 x y + \\le$",
-        "C. $2 80 x y + \\le$",
-        "D. $2 200 x y + \\le$"
+        "A. $2x + y \\le 100$",
+        "B. $x + 2y \\le 80$",
+        "C. $2x + y \\le 80$",
+        "D. $x + 2y \\le 100$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Để làm $x$ đơn vị lạp xưởng cần $2x$ tấn thịt heo, $y$ đơn vị chả giò cần $1y$ tấn thịt heo. Tổng lượng thịt heo tối đa là 100 tấn nên: $2x + y \\le 100$. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -16004,16 +16002,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 77 và 78:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu. Phân xưởng chỉ còn 100 tấn thịt và 40 tấn nguyên liệu. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đông. Gọi x là số đơn vị lạp xưởng được sản xuất, y là số đơn vị chả giò được sản xuất.",
-      "question": "Phân xưởng có thể có số tiền lãi (triệu đồng) lớn nhất là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu khác. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu khác. Phân xưởng chỉ còn 100 tấn thịt heo và 40 tấn nguyên liệu khác. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đồng. Gọi $x$ là số đơn vị lạp xưởng và $y$ là số đơn vị chả giò được sản xuất ($x, y \\ge 0$).",
+      "question": "Phân xưởng có thể đạt số tiền lãi lớn nhất là bao nhiêu (triệu đồng)?",
       "options": [
         "A. 620",
         "B. 520",
         "C. 660",
         "D. 500"
       ],
-      "correctAnswer": 0,
-      "explanation": "Điều kiện về thịt: 2 100 x y + \\le Điều kiện về nguyên liệu: 0,5 1 40 2 80 x y x y + \\le \\Rightarrow + \\le Bất phương trình biểu thị các điều kiện của đề bài là 2 100 2 80 0 0 x y x y x y + \\le + \\le \\ge \\ge Miền nghiệm của hệ bất phương trình (I) là miền tứ giác OABC với ( ) ( ) ( ) ( ) 0; 0 , 0; 40 , 40; 20 , 50; 0 O A B C . Gọi ( ) , 10 13 F x y x y = + (triệu đồng) là số tiền lãi mà phân xưởng thu được. ( ) ; x y ( ) 0;0 O ( ) 0; 40 A ( ) 40; 20 B ( ) 50; 0 C ( ) , 10 13 F x y x y = + 0 520 660 500 Vậy số tiền lãi lớn nhất là 660 triệu đồng khi phân xưởng sản xuất 40 đơn vị lạp xưởng và 20 đơn vị chả giò.",
+      "correctAnswer": 2,
+      "explanation": "Điều kiện ràng buộc: $\\begin{cases} 2x + y \\le 100 \\\\ 0{,}5x + y \\le 40 \\iff x + 2y \\le 80 \\\\ x \\ge 0, y \\ge 0 \\end{cases}$. Hàm mục tiêu lãi: $F(x, y) = 10x + 13y$. Các đỉnh miền nghiệm: $O(0;0) \\implies 0$, $A(0;40) \\implies 520$, $B(40;20) \\implies 10(40) + 13(20) = 660$, $C(50;0) \\implies 500$. Lãi lớn nhất là 660 triệu đồng khi sản xuất 40 đơn vị lạp xưởng và 20 đơn vị chả giò. Chọn C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -16628,7 +16626,7 @@ export const QUESTIONS_DATA = {
         "C. Hiện tượng dẫn điện của kim loại.",
         "D. Hiện tượng điện phân."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Ánh sáng làm bật electron trong chất bán dẫn, tạo ra dòng điện — đây là hiện tượng quang điện trong. Đáp án đúng: B.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -16650,7 +16648,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. 4"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "(1) Sai - pin tạo ra dòng một chiều. (2) Đúng - ánh sáng mạnh hơn → nhiều electron được giải phóng → tăng công suất. (3) Sai - ghép nối tiếp mới làm tăng hiệu điện thế, ghép song song tăng dòng. (4) Đúng - hiệu suất phụ thuộc vào năng lượng vùng cấm của vật liệu bán dẫn. Có 2 phát biểu đúng. Đáp án đúng: B.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
@@ -18295,14 +18293,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $(x + 1)(mx + 2) = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
+      "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $\\frac{(x + 1)(mx + 2)}{x - 2} = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
       "options": [
         "A. 2",
         "B. 1",
         "C. 0",
         "D. 3"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Chọn A Điều kiện: 2 x \\ne . Phương trình có nghiệm duy nhất khi xảy ra hai trường hợp: TH 1: tử thức có đúng một nghiệm thỏa điều kiện, suy ra 2 0 2 m m - + = \\Leftrightarrow = . TH 2: tử thức có hai nghiệm và một nghiệm 2 x = , suy ra 2 2 0 1 m m + = \\Leftrightarrow = - . Vậy 2 n = .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
@@ -18365,10 +18363,10 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. $u_n = \\frac{n^{2018} - (n - 1)^{2018}}{n^{2017}}$",
         "B. $u_n = \\sqrt{n^2 + 2018n} - \\sqrt{n^2 + 2016n}$",
-        "C. $u_n = \\frac{2017n + 1}{n + 2}$",
+        "C. $\\begin{cases} u_1 = 2017 \\\\ u_{n+1} = \\frac{u_n + 1}{2} \\end{cases}$",
         "D. $u_n = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\dots + \\frac{1}{n(n+1)}$"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "Chọn A Ta tính giới hạn của các dãy số trong từng đáp án: +) Đáp án A: ( ) ( ) 2018 2017 2017 2017 2017 2017 lim lim lim . 2018 2018 n n n n u n n n n [ ] - - - \\left( \\right) = = ] \\left( \\right) - \\left( \\right) - ] ] ] 2017 2017 1 2017 lim 1 1 2018 1 n n n [ ] \\left( \\right) - ] \\left( \\right) \\left( \\right) ] = - = - \\left( \\right) \\left( \\right) \\left( \\right) ] \\left( \\right) - ] \\left( \\right) ] ] . +) Đáp án B: ( ) ( )2 2 2 2 2 2 2018 2016 lim lim 2018 2016 lim 2018 2016 n n n n u n n n n n + - - = + - + = + + + 2 2 2 2 2 2 lim lim 1 2018 2016 2018 2016 1 1 n n n n n = = = + + + + + + . +) Đáp án C: Cách 1: Ta có ( ) 1 1 1 1 2 n n u u + - = - ( ) ( ) 1 1 1 1 1 1 1 ... 1 2 2 n n n u u u - - \\Rightarrow - = - = = - 1 2016 1 1 4032. 1 2 2 n n n n u u - \\left( \\right) \\Rightarrow = + \\Leftrightarrow = + \\left( \\right) \\left( \\right) lim 1 n u \\Rightarrow = . Cách 2: Bước 1: Ta chứng minh ( ) n u giảm và bị chặn dưới bởi 1. Thật vậy bằng quy nạp ta có 1 2017 1 u = > . Giả sử ( ) ( ) 1 1 1 1 1 1 1 1 2 2 n n n u u u + > \\Rightarrow = + > + = Vậy * 1 n u n > \\in \\infty . Hơn nữa ( ) 1 1 1 0 2 n n n u u u + - = - < nên ( ) n u là dãy giảm Suy ra ( ) n u có giới hạn lim n u a = Bước 2: Ta có ( ) 1 1 1 1 1 1 a lim lim lim 1 lim 2 2 2 2 2 n n n n u u u u a + = = = + = + = + 1 a \\Rightarrow = . +) Đáp án D: Ta có ( ) 1 1 1 1 1 1 1 1 1 1 ... 1 ... 1 1.2 2.3 3.4 1 2 2 3 1 1 1 n n u n n n n n n = + + + + = - + - + + - = - = + + + + lim lim 1 1 n n u n \\Rightarrow = = + .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -18435,7 +18433,7 @@ export const QUESTIONS_DATA = {
         "D. $D = \\left(\\frac{1}{2}; +\\infty\\right)$"
       ],
       "correctAnswer": 3,
-      "explanation": "Chọn A Điều kiện: 3 6 2 1 0x - - > 3 6 0 x \\Leftrightarrow - > 1 2 x \\Leftrightarrow < .",
+      "explanation": "Hàm số xác định khi và chỉ khi $2x - 1 > 0 \\iff x > \\frac{1}{2}$. Vậy $D = \\left(\\frac{1}{2}; +\\infty\\right)$. Chọn D.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -18501,7 +18499,7 @@ export const QUESTIONS_DATA = {
         "D. 4"
       ],
       "correctAnswer": 2,
-      "explanation": "Chọn A TXĐ: \\{ \\} \\ 0; 2; 2 D = - \\mathbb{R} . 2 2 0 2 2 0 3 2 sin 0 1 lim lim .1 3.0 2 4 4 0 2 x x x x x y x x \\to \\to [ ] \\left( \\right) - + \\left( \\right) = = = - ] \\left( \\right) \\left( \\right) - \\left( - \\right) + \\right) \\left( ] - ] . ( ) ( ) ( )( ) ( ) ( ) 2 2 2 2 2 3 2 sin 1 2 sin 1 lim lim lim . 2 2 4 x x x x x x x x x y x x x x x \\pm \\pm \\pm \\to - \\to - \\to - [ ] - - + [ ] - - ] = = ] - + ] ] ] ] ] ( ) ( ) 2 1 sin 1 lim . 2 x x x x x \\pm \\to - [ ] - = ] + ] ] o Vì ( ) 2 1 sin 3 0 sin lim 2 2 x x x x + \\to - - [ ] = - ] ] < ] và ( ) 2 1 lim 2 x x + \\to - = + + \\infty nên 2 lim x y + \\to - = -\\infty o Vì ( ) 2 1 sin 3 0 sin lim 2 2 x x x x - \\to - - [ ] = - ] ] < ] và ( ) 2 1 lim 2 x x - \\to - = - + \\infty nên 2 lim x y - \\to - = +\\infty Vậy đường thẳng 2 x = - là tiệm cận đứng của đồ thị hàm số. ( ) ( ) 2 2 1 sin sin 2 lim lim 2 6 x x x x y x x \\to \\to - = = + . Vậy ĐTHS có 1 đường tiệm cận đứng.",
+      "explanation": "Ta có $y = \\frac{(x-1)(x-2)}{(x-2)\\sin(4x)} = \\frac{x-1}{\\sin(4x)}$ với mọi $x \\in (0; \\pi) \\setminus \\{2\\}$. Tại $x = 2$, $\\lim_{x \\to 2} y = \\frac{1}{\\sin 8} \\ne \\pm\\infty$ nên $x = 2$ không là tiệm cận đứng. Mẫu số $\\sin(4x) = 0 \\iff 4x = k\\pi \\iff x = \\frac{k\\pi}{4}$. Trên $(0; \\pi)$, ta có 3 nghiệm: $x = \\frac{\\pi}{4}, x = \\frac{\\pi}{2}, x = \\frac{3\\pi}{4}$ (đều khác 1 và khác 2). Do đó đồ thị có đúng 3 đường tiệm cận đứng. Đáp án đúng là C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -21574,16 +21572,16 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
       "question": "Phòng thí nghiệm nào đang tiến hành thí nghiệm Màu Đỏ?",
       "options": [
-        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
-        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
+        "A. Phòng 1.",
+        "B. Phòng 2.",
+        "C. Phòng 4.",
+        "D. Phòng 5."
       ],
-      "correctAnswer": 1,
-      "explanation": "Đáp án: A. Lập bảng tóm tắt các dữ kiện đã có như sau: Tên Phòng Màu chủ đạo Số mẫu vật P 5 Cam 11/15 Q 1 Đỏ 15/11 R 4 Vàng 13 S 2 Xanh Lá 17 T 3 Tím 19 Một số suy luận để lập nên bảng trên: Thí nghiệm dùng 13 mẫu vật ở phòng 4; Người ở có thí nghiệm màu Vàng dùng 13 mẫu vật; R là người tiến hành thí nghiệm Màu Vàng => Gộp lại những dữ kiện trên, ta biết: R thí nghiệm ở Phòng 4, màu sắc chủ đạo là màu Vàng và R dùng 13 mẫu vật. Có một nhà khoa học thực hiện thí nghiệm có màu cùng chữ cái đầu với người đó => Cặp T- Tím => T làm thí nghiệm có màu Tím. Nhà khoa học ở Phòng 3 làm thí nghiệm màu Tím. Thí nghiệm 19 mẫu vật được thực hiện bởi T => T thí nghiệm ở Phòng 3, làm thí nghiệm màu Tím và có 19 mẫu vật. Q không ở Phòng 2 hay Phòng 5 => Q ở Phòng 1/3/4. Tuy nhiên R ở Phòng 4 và T ở Phòng 3 => Q ở Phòng 1. P và S có thể ở Phòng 2 hoặc 5. Tuy nhiên P không ở Phòng 2 => P ở Phòng 5 và S ở Phòng 2. P và Q có thể có màu Cam hoặc Đỏ. Tuy nhiên thí nghiệm màu Đỏ không ở Phòng 5, và P ở Phòng 5 => Thí nghiệm màu Đỏ được thực hiện bởi Q ở Phòng 1.",
+      "correctAnswer": 0,
+      "explanation": "Dựa vào giả thiết: Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ. Do đó phòng thí nghiệm tiến hành Màu Đỏ là Phòng 1. Đáp án đúng là A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -21596,16 +21594,16 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
-      "question": "Lấy tổng số phòng thí nghiệm của người tiến hành thí nghiệm Màu Đỏ và Màu Cam. So sánh kết quả này với tổng số mẫu vật của người ở Phòng 2 và Phòng 4. Mối quan hệ nào sau đây là đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
+      "question": "Lấy tổng số phòng thí nghiệm của người tiến hành thí nghiệm Màu Đỏ và Màu Cam. So sánh kết quả này với tổng số mẫu vật của người ở Phòng 2 và Phòng 4 thì:",
       "options": [
-        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
-        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
+        "A. Tổng số mẫu vật bằng tổng số phòng.",
+        "B. Tổng số mẫu vật gấp 3 lần tổng số phòng.",
+        "C. Tổng số mẫu vật gấp 5 lần tổng số phòng.",
+        "D. Tổng số mẫu vật gấp 6 lần tổng số phòng."
       ],
-      "correctAnswer": 1,
-      "explanation": "Đáp án: C. - Tổng số phòng của Đỏ và Cam: 1 + 5 = 6 - Tổng số mẫu vật của người ở Phòng 2 và Phòng 4: 17 + 13 = 30 => Tổng số mẫu vật gấp 5 lần tổng số phòng.",
+      "correctAnswer": 2,
+      "explanation": "Tổng số phòng của thí nghiệm Màu Đỏ (Phòng 1) và Màu Cam (Phòng 5) là: 1 + 5 = 6. Tổng số mẫu vật của Phòng 2 (17) và Phòng 4 (13) là: 17 + 13 = 30. Ta có 30 = 5 * 6. Vậy tổng số mẫu vật gấp 5 lần tổng số phòng. Đáp án đúng là C.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -21618,16 +21616,16 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Cho hàm số $y = \\frac{x - 1}{x + 1}$ có đồ thị $(C)$.",
-      "question": "Nếu số mãu vật của P chia hết cho số phòng thì Q dùng bao nhiêu mẫu vật?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
+      "question": "Nếu số mẫu vật của P chia hết cho số phòng của P thì Q dùng bao nhiêu mẫu vật?",
       "options": [
-        "A. Hàm số đồng biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "B. Hàm số nghịch biến trên $(-\\infty; -1)$ và $(-1; +\\infty)$.",
-        "C. Hàm số nghịch biến trên $(-\\infty; -1) \\cup (-1; +\\infty)$.",
-        "D. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$."
+        "A. 11",
+        "B. 13",
+        "C. 15",
+        "D. 17"
       ],
-      "correctAnswer": 1,
-      "explanation": "Đáp án: A. Số mẫu vật của P chia hết cho số phòng => Số mẫu vật là 15. Q có thể dùng 11 hoặc 15 mẫu vật => Q có 11 mẫu vật",
+      "correctAnswer": 0,
+      "explanation": "P ở Phòng 5, số mẫu vật của P chia hết cho 5 nên P có 15 mẫu vật. Vì S có 17, R có 13 mẫu vật, tập số mẫu vật là {11, 13, 15, 17}. Do đó Q và T phải chia nhau hai giá trị {11, 15}. Vì P đã dùng 15 mẫu vật nên Q dùng 11 mẫu vật. Đáp án đúng là A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -24554,7 +24552,7 @@ export const QUESTIONS_DATA = {
         "C. Sự hấp thụ photon mặt trời.",
         "D. Tác dụng của từ trường Trái Đất."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Khi các ion được gia tốc và phóng ra phía sau, tên lửa chịu phản lực hướng về trước theo định luật bảo toàn động lượng. Đáp án đúng: B.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -24576,7 +24574,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. 4"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "(1) Sai - động cơ ion hoạt động tốt trong chân không. (2) Đúng - theo F mv = . (3) Đúng - pin mặt trời cung cấp năng lượng điện để ion hóa và gia tốc hạt. (4) Đúng - hiệu suất cao, tiêu thụ rất ít nhiên liệu. Có 3 phát biểu đúng. Đáp án đúng: C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
@@ -24991,12 +24989,12 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Dòng nào dưới đây gồm các từ được viết đúng chính tả?",
       "options": [
-        "A. Xán lạn, chỉnh chu, trau chuốt, tinh tuý.",
+        "A. Sáng lạng, chỉn chu, trao chuốt, tinh túy.",
         "B. Sáng lạn, chỉn chu, trau chuốt, tinh túy.",
-        "C. Xán lạn, chỉn chu, chau chuốt, tinh túy.",
-        "D. Sáng lạn, chỉn chu, trau chuốt, tinh túy."
+        "C. Xán lạng, chỉnh chu, trau chuốt, tinh tuý.",
+        "D. Xán lạn, chỉn chu, trau chuốt, tinh túy."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Xem hướng dẫn giải chi tiết.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
@@ -26404,8 +26402,8 @@ export const QUESTIONS_DATA = {
         "C. 8 triệu đồng",
         "D. 9 triệu đồng"
       ],
-      "correctAnswer": 1,
-      "explanation": "Chọn C Số giờ làm việc của máy 1 T là 3 2 x y + và của máy 2 T là 2x y + . Vì mỗi ngày máy 1 T không được làm việc quá 6 giờ và máy 2 T không làm việc quá 4 giờ nên ta có ràng buộc: 3 2 6 2 4 . , 0 x y x y x y + \\le + \\le \\ge Vẽ miền nghiệm của hệ bất phương trình ta được miền như hình. Khi đó: ( ) ( ) ( ) 0; 0 0 0;3 6 2;0 6 F F F = = = Vậy giá trị của E là 6. E =",
+      "correctAnswer": 0,
+      "explanation": "Số giờ máy $T_1$: $3x + 2y \\le 6$. Số giờ máy $T_2$: $2x + y \\le 4$ ($x, y \\ge 0$). Tiền lãi $F(x, y) = 3x + 2y$. Do $3x + 2y \\le 6$ nên $F(x, y) \\le 6$. Tại $(0; 3)$ hoặc $(2; 0)$, tiền lãi đạt cực đại bằng 6 triệu đồng. Chọn A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -26823,7 +26821,7 @@ export const QUESTIONS_DATA = {
         "D. 2{,}9"
       ],
       "correctAnswer": 3,
-      "explanation": "Ta có 1 2 1 1 1 2 3 2 3 2 2 3 2 3 n n n n n u u q u - - - \\left( \\right) \\left( \\right) = = - \\Rightarrow = - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Ta có 2 2 1 2 1 2 1 2 1 2 3 2 3 2 2 2 2 3 2 3 3 3 2 3 n n n n n n v u - - - - - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\right) = = = = = \\left( \\right) \\left( \\left( \\right) ( ) 2 2 1 1 1 1 2 2 2 2 3 3 3 3 n n n n - - - - [ ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) = = = = ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) ] ] ] Suy ra ( ) n v là một cấp số nhân với 1 1 v = và 2 3 v q = Vậy 1 1 2 1 ... 3 2 1 1 3 v v S v v q = + + = = = - - Dựa vào thông tin sau, trả lời các câu hỏi Trong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp 5 cái bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi.Gọi số bánh su kem và số bánh custas bạn Ngọc làm lần lượt là x (cái) ( 0 x \\ge , x \\in \\infty ) và y (cái) ( 0 y \\ge , y \\in \\infty )",
+      "explanation": "Ta có 1 2 1 1 1 2 3 2 3 2 2 3 2 3 n n n n n u u q u - - - \\left( \\right) \\left( \\right) = = - \\Rightarrow = - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Ta có 2 2 1 2 1 2 1 2 1 2 3 2 3 2 2 2 2 3 2 3 3 3 2 3 n n n n n n v u - - - - - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\right) = = = = = \\left( \\right) \\left( \\left( \\right) ( ) 2 2 1 1 1 1 2 2 2 2 3 3 3 3 n n n n - - - - [ ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) = = = = ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) ] ] ] Suy ra ( ) n v là một cấp số nhân với 1 1 v = và 2 3 v q = Vậy 1 1 2 1 ... 3 2 1 1 3 v v S v v q = + + = = = - -",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -26836,16 +26834,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Đẳng thức nào sau đây đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi. Gọi số hộp bánh su kem và số hộp bánh custas bạn Ngọc làm lần lượt là $x$ và $y$ ($x \\ge 0, y \\ge 0$). Biết mỗi hộp bánh su kem được 10 điểm thưởng, mỗi hộp bánh custas được 12 điểm thưởng.",
+      "question": "Bất phương trình nào sau đây diễn tả lượng nguyên liệu bột mì bạn Ngọc được dùng không vượt quá mức cho phép?",
       "options": [
-        "A. $9 x y + \\ge$",
-        "B. $3 21 x y + \\le$",
-        "C. $4 24 x y + \\le$",
-        "D. $4 24 x y + \\le$"
+        "A. $4x + y \\le 24$",
+        "B. $x + 3y \\le 21$",
+        "C. $x + y \\le 9$",
+        "D. $4x + y \\ge 24$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Số gam bột mì cần để làm bánh su kem & bánh custas: $200x + 50y \\le 1200 \\iff 4x + y \\le 24$. Chọn A.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -26858,13 +26856,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNghiên cứu về độ nhạy cảm của các dòng tế bào ung thư với Thuốc A (Ferguson D. và cộng sự). Bảng 1 thể hiện giá trị nồng độ gây chết 50% tế bào ($LD_{50}$, đơn vị $\\mu\\text{g/L}$) sau 72 giờ và tỷ lệ hình thành khối u sau 10 ngày xử lý thuốc:\n\n| Dòng tế bào | Nguồn gốc cơ quan | $LD_{50}$ ($\\mu\\text{g/L}$) |\n|:---:|:---:|:---:|\n| V | Phổi | 0,7 |\n| W | Vú | 7,2 |\n| X | Ruột già | 3,8 |\n| Y | Tuyến tiền liệt | 70,0 |\n| Z | Tuyến tiền liệt | 818,0 |",
       "question": "Phát biểu nào đúng nhất về mối quan hệ giữa giá trị LD50 và tỷ lệ hình thành khối u ở các dòng tế bào khi tăng nồng độ Thuốc A?",
       "options": [
         "A. Dòng tế bào có LD50 càng thấp thì tỷ lệ hình thành khối u ở nồng độ cao của Thuốc A càng lớn.",
         "B. Dòng tế bào có LD50 càng cao thì khả năng kháng thuốc càng lớn.",
         "C. LD50 của các dòng tế bào không liên quan đến kết quả thí nghiệm về tỷ lệ hình thành khối u, vì hai chỉ số này đo các khía cạnh khác nhau.",
-        "D. LD50 chỉ thể hiện nồng độ diệt 50% tế bào trong 72 giờ đầu, còn tỷ lệ hình thành khối u sau 10 ngày phụ thuộc chủ yếu vào nguồn gốc cơ quan của tế bào, không liên quan đến LD50. X Ruột già 3,8 Y Tuyến tiền liệt 70,0 Z Tuyến tiền liệt 818,0"
+        "D. LD50 chỉ thể hiện nồng độ diệt 50% tế bào trong 72 giờ đầu, còn tỷ lệ hình thành khối u sau 10 ngày phụ thuộc chủ yếu vào nguồn gốc cơ quan của tế bào, không liên quan đến LD50."
       ],
       "correctAnswer": 1,
       "explanation": "Đáp án: B. Giải thích: Nhìn vào Bảng 1, các dòng tế bào Y và Z có LD50 rất cao (70,0 và 818,0 μg/L), tương ứng với việc chúng kháng Thuốc A tốt hơn so với các dòng có LD50 thấp (V, W, X). Trong Hình 1, tại nồng độ cao, các dòng có LD50 lớn (đặc biệt Z) vẫn duy trì được tỷ lệ hình thành khối u cao hơn so với dòng V, W, X.",
@@ -26880,7 +26878,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nNghiên cứu về độ nhạy cảm của các dòng tế bào ung thư với Thuốc A (Ferguson D. và cộng sự). Bảng 1 thể hiện giá trị nồng độ gây chết 50% tế bào ($LD_{50}$, đơn vị $\\mu\\text{g/L}$) sau 72 giờ và tỷ lệ hình thành khối u sau 10 ngày xử lý thuốc:\n\n| Dòng tế bào | Nguồn gốc cơ quan | $LD_{50}$ ($\\mu\\text{g/L}$) |\n|:---:|:---:|:---:|\n| V | Phổi | 0,7 |\n| W | Vú | 7,2 |\n| X | Ruột già | 3,8 |\n| Y | Tuyến tiền liệt | 70,0 |\n| Z | Tuyến tiền liệt | 818,0 |",
       "question": "Hai dòng tế bào Y và Z cùng xuất phát từ tuyến tiền liệt nhưng lại có LD50 chênh lệch nhau rất lớn (70,0 so với 818,0 μg/L). Kết quả Hình 1 cũng cho thấy dòng Z duy trì tỷ lệ hình thành khối u ở nồng độ cao tốt hơn hẳn dòng Y. Giải thích nào sau đây hợp lý nhất cho sự khác biệt này?",
       "options": [
         "A. Sự chênh lệch LD50 là do sai số thí nghiệm trong quá trình chuẩn bị môi trường nuôi cấy.",
@@ -29091,7 +29089,7 @@ export const QUESTIONS_DATA = {
         "D. 2{,}9"
       ],
       "correctAnswer": 3,
-      "explanation": "Ta có 1 2 1 1 1 2 3 2 3 2 2 3 2 3 n n n n n u u q u - - - \\left( \\right) \\left( \\right) = = - \\Rightarrow = - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Ta có 2 2 1 2 1 2 1 2 1 2 3 2 3 2 2 2 2 3 2 3 3 3 2 3 n n n n n n v u - - - - - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\right) = = = = = \\left( \\right) \\left( \\left( \\right) ( ) 2 2 1 1 1 1 2 2 2 2 3 3 3 3 n n n n - - - - [ ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) = = = = ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) ] ] ] Suy ra ( ) n v là một cấp số nhân với 1 1 v = và 2 3 v q = Vậy 1 1 2 1 ... 3 2 1 1 3 v v S v v q = + + = = = - - Dựa vào thông tin sau, trả lời các câu hỏi Trong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp 5 cái bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi.Gọi số bánh su kem và số bánh custas bạn Ngọc làm lần lượt là x (cái) ( 0 x \\ge , x \\in \\infty ) và y (cái) ( 0 y \\ge , y \\in \\infty )",
+      "explanation": "Ta có 1 2 1 1 1 2 3 2 3 2 2 3 2 3 n n n n n u u q u - - - \\left( \\right) \\left( \\right) = = - \\Rightarrow = - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Ta có 2 2 1 2 1 2 1 2 1 2 3 2 3 2 2 2 2 3 2 3 3 3 2 3 n n n n n n v u - - - - - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\right) = = = = = \\left( \\right) \\left( \\left( \\right) ( ) 2 2 1 1 1 1 2 2 2 2 3 3 3 3 n n n n - - - - [ ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) = = = = ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) ] ] ] Suy ra ( ) n v là một cấp số nhân với 1 1 v = và 2 3 v q = Vậy 1 1 2 1 ... 3 2 1 1 3 v v S v v q = + + = = = - -",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -29104,16 +29102,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Đẳng thức nào sau đây đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi. Gọi số hộp bánh su kem và số hộp bánh custas bạn Ngọc làm lần lượt là $x$ và $y$ ($x \\ge 0, y \\ge 0$). Biết mỗi hộp bánh su kem được 10 điểm thưởng, mỗi hộp bánh custas được 12 điểm thưởng.",
+      "question": "Bất phương trình nào sau đây diễn tả lượng nguyên liệu bột mì bạn Ngọc được dùng không vượt quá mức cho phép?",
       "options": [
-        "A. $9 x y + \\ge$",
-        "B. $3 21 x y + \\le$",
-        "C. $4 24 x y + \\le$",
-        "D. $4 24 x y + \\le$"
+        "A. $4x + y \\le 24$",
+        "B. $x + 3y \\le 21$",
+        "C. $x + y \\le 9$",
+        "D. $4x + y \\ge 24$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Số gam bột mì cần để làm bánh su kem & bánh custas: $200x + 50y \\le 1200 \\iff 4x + y \\le 24$. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -29126,16 +29124,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Nên làm mỗi loại bao nhiêu cái bánh để điểm thưởng cao nhất?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi. Gọi số hộp bánh su kem và số hộp bánh custas bạn Ngọc làm lần lượt là $x$ và $y$ ($x \\ge 0, y \\ge 0$). Biết mỗi hộp bánh su kem được 10 điểm thưởng, mỗi hộp bánh custas được 12 điểm thưởng.",
+      "question": "Nên làm mỗi loại bao nhiêu hộp bánh để điểm thưởng cao nhất?",
       "options": [
-        "A. 3 cái bánh kem, 6 cái bánh custas.",
-        "B. 5 cái bánh kem, 4 cái bánh custas.",
-        "C. 1 cái bánh kem, 7 cái bánh custas",
-        "D. 4 cái bánh kem, 5 cái bánh custas"
+        "A. 3 hộp bánh kem, 6 hộp bánh custas.",
+        "B. 5 hộp bánh kem, 4 hộp bánh custas.",
+        "C. 1 hộp bánh kem, 7 hộp bánh custas.",
+        "D. 4 hộp bánh kem, 5 hộp bánh custas."
       ],
       "correctAnswer": 0,
-      "explanation": "Số gam bột mì cần để làm bánh su kem & bánh custas: 200 50 1200 4 24 x y x y + \\le \\Rightarrow + \\le Số gam đường cần để làm bánh su kem & bánh custas: 50 50 450 9 x y x y + \\le \\Rightarrow + \\le Số gam trứng cần để làm bánh su kem & bánh custas: 20 60 420 3 21 x y x y + \\le \\Rightarrow + \\le Vậy ta có hệ bất phương trình: 4 24 9 3 21 0; 0 x y x y x y x y + \\le + \\le + \\le \\ge \\ge Số điểm thưởng: 10 12 T x y = + Ta cần tìm ( ) ; x y thỏa hệ bất phương trình và làm cho T đạt giá trị lớn nhất ( ) 1 : 4 24 d x y + = qua ( ) 0; 24 và ( ) 6;0 ( ) 2 : 9 d x y + = qua ( ) 0;9 và ( ) 9;0 ( ) 3 : 3 21 d x y + = qua ( ) 0;7 và ( ) 21;0 Miền nghiệm của hệ bất phương trình là miền ngũ giác OABCD với ( ) 0;0 O , ( ) 0;7 A , ( ) 6;0 D ( ) 9 3 3;6 3 21 6 x y x B x y y + = = \\Rightarrow \\Rightarrow + = = ( ) 4 24 5 5;4 9 4 x y x C x y y + = = \\Rightarrow \\Rightarrow + = = Với 0; 0 x y = = thì 0 T = Với 0; 7 x y = = thì 12.7 84 T = = Với 6; 0 x y = = thì 10.6 60 T = = Với 3; 6 x y = = thì 3.10 12.6 102 T = + = Với 5; 4 x y = = thì 10.5 12.4 98 T = + = Vậy với 3; 6 x y = = thì max 102 T = Dựa vào thông tin sau, trả lời các câu hỏi Trong mặt phẳng tọa độ , cho tam giác ABC có là trung điểm của cạnh AB . Đường trung tuyến và đường cao qua đỉnh A lần lượt có phương trình là và .",
+      "explanation": "Hệ bất phương trình ràng buộc: $\\begin{cases} 4x + y \\le 24 \\\\ x + y \\le 9 \\\\ x + 3y \\le 21 \\\\ x \\ge 0, y \\ge 0 \\end{cases}$. Điểm thưởng $T = 10x + 12y$. Xét các đỉnh của miền nghiệm: $O(0;0) \\implies T = 0$, $A(0;7) \\implies T = 84$, $B(3;6) \\implies T = 102$, $C(5;4) \\implies T = 98$, $D(6;0) \\implies T = 60$. Vậy làm 3 hộp bánh su kem và 6 hộp bánh custas cho điểm thưởng lớn nhất (102 điểm). Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -29148,16 +29146,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
       "question": "Tọa độ điểm $A$ của tam giác $ABC$ là:",
       "options": [
         "A. $A\\left(0; -\\frac{3}{2}\\right)$",
         "B. $A\\left(\\frac{3}{2}; 0\\right)$",
-        "C. A(1; 2)",
-        "D. A(2; 1)"
+        "C. $A(1; 2)$",
+        "D. $A(2; 1)$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Oxy (2; 0) M 7 2 3 0 x y - - = 6 4 0 x y - - = Tọa độ điểm là nghiệm của hệ",
+      "correctAnswer": 2,
+      "explanation": "Tọa độ điểm $A$ là nghiệm của hệ gồm đường trung tuyến và đường cao qua $A$:\n$\\begin{cases} 7x - 2y - 3 = 0 \\\\ 6x - y - 4 = 0 \\end{cases} \\iff \\begin{cases} x = 1 \\\\ y = 2 \\end{cases} \\implies A(1; 2)$. Chọn C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -29170,16 +29168,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Phương trình đường thẳng BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
+      "question": "Phương trình đường thẳng $BC$ là:",
       "options": [
         "A. $x + 6y + 9 = 0$",
-        "B. $x + 6y + 9 = 0$",
+        "B. $x - 6y - 9 = 0$",
         "C. $x - 6y + 9 = 0$",
         "D. $x + 6y - 9 = 0$"
       ],
       "correctAnswer": 0,
-      "explanation": "Do là trung điểm của . đi qua và vuông góc với đường thẳng nên nhận làm vecto pháp tuyến. Do đó có phương trình:",
+      "explanation": "Vì $M(2; 0)$ là trung điểm $AB$ và $A(1; 2)$ nên $B(3; -2)$. Đường cao $AH: 6x - y - 4 = 0 \\implies BC \\perp AH$ có vectơ pháp tuyến $\\vec{n}_{BC} = (1; 6)$. Đường thẳng $BC$ qua $B(3; -2)$: $1(x - 3) + 6(y + 2) = 0 \\iff x + 6y + 9 = 0$. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -29192,16 +29190,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Phương trình đường thẳng AC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
+      "question": "Phương trình đường thẳng $AC$ là:",
       "options": [
         "A. $3x - 4y - 5 = 0$",
         "B. $4x - 3y + 5 = 0$",
         "C. $4x - 3y - 5 = 0$",
         "D. $3x - 4y + 5 = 0$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Tọa độ trung điểm của thỏa mãn hệ: Mà N là trung điểm BC nên tọa độ C là ( ) 3; 1 C - - Khi đó phương trình Dựa vào thông tin sau, trả lời các câu hỏi Có 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "correctAnswer": 3,
+      "explanation": "Gọi $N$ là trung điểm $BC$. $N = AN \\cap BC \\implies \\begin{cases} 7x - 2y - 3 = 0 \\\\ x + 6y + 9 = 0 \\end{cases} \\iff N\\left(0; -\\frac{3}{2}\\right)$. Do $N$ là trung điểm $BC$ nên $C(-3; -1)$. Phương trình đường thẳng $AC$ qua $A(1; 2)$ và $C(-3; -1)$: $3(x - 1) - 4(y - 2) = 0 \\iff 3x - 4y + 5 = 0$. Chọn D.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -29214,7 +29212,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
       "question": "Xác suất để chọn được ít nhất 1 viên bi màu trắng là:",
       "options": [
         "A. $\\frac{131}{252}$",
@@ -29223,7 +29221,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{47}{84}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Số phần tử không gian mẫu: $n(\\Omega) = 14 \\times 18 = 252$. Số cách chọn không có viên bi trắng nào: $(14 - 3) \\times (18 - 7) = 11 \\times 11 = 121$. Xác suất chọn ít nhất 1 viên bi trắng: $1 - \\frac{121}{252} = \\frac{131}{252}$. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -29236,8 +29234,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Xác suất để chọn được 2 viên bi trong đó một viên màu đỏ, một viên màu xanh là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "question": "Xác suất để chọn được 2 viên bi trong đó một viên màu đỏ, một viên màu xanh là:",
       "options": [
         "A. $\\frac{61}{252}$",
         "B. $\\frac{25}{252}$",
@@ -29245,7 +29243,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{43}{126}$"
       ],
       "correctAnswer": 0,
-      "explanation": "A 7 2 3 0 1 (1; 2) 6 4 0 2 x y x A x y y - - = = \\Leftrightarrow \\Rightarrow - - = = (2; 0) M (3; 2) AB B \\Rightarrow - BC (3; 2) B - 6 4 0 x y - - = (1; 6) n = BC 3 6( 2) 0 6 9 0 x y x y - + + = \\Leftrightarrow + + = N BC 0 6 9 0 3 0; 3 7 2 3 0 2 2 x x y N x y y = + + = \\left( \\right) \\Leftrightarrow \\Rightarrow - \\left( \\right)- - = = - \\left( \\right) : 3 4 5 0 AC x y - + = Chọn ngẫu nhiên 1 viên bi từ 14 viên bi từ hộp thứ nhất và 1 viên bi từ 18 viên bi của hộp thứ hai. Nên số phần tử của không gian mẫu là: 1 1 14 18 ( ) . 252 n C C = = . Gọi B là biến cố lấy được hai viên bi sao cho có một viên màu đỏ, một viên màu xanh. + Trường hợp 1: Lấy 1 viên bi đỏ trong 5 viên bi đỏ ở hộp thứ nhất, 1 viên bị xanh trong 5 viên bi xanh ở hộp thứ hai. Số cách chọn là: 1 1 5 5 . 25 C C = . + Trường hợp 2: Lấy 1 viên bi xanh trong 6 viên bi xanh ở hộp thứ nhất, 1 viên bi đỏ trong 6 viên bi đỏ từ hộp thứ hai. Số cách chọn là: 1 1 6 6 . 36 C C = . Nên số phần tử của biến cố B là: ( ) 25 36 61 n B = + = . Xác suất lấy được hai viên bi lấy ra một viên màu đỏ, một viên màu xanh là: ( ) ( ) 61 ( ) 252 n B P B n = = .",
+      "explanation": "Trường hợp 1: Đỏ hộp 1 và Xanh hộp 2: $5 \\times 5 = 25$. Trường hợp 2: Xanh hộp 1 và Đỏ hộp 2: $6 \\times 6 = 36$. Tổng số cách: $25 + 36 = 61$. Xác suất: $\\frac{61}{252}$. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -29258,16 +29256,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Xác suất để chọn được 2 bi khác màu là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "question": "Xác suất để chọn được 2 bi khác màu là:",
       "options": [
         "A. $\\frac{9}{28}$",
         "B. $\\frac{19}{28}$",
         "C. $\\frac{16}{21}$",
         "D. $\\frac{67}{84}$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Gọi C là biến cố lấy được ra hai viên bi khác màu. C là biến cố lấy ra được hai viên bi cùng màu. + Trường hợp 1: Lấy ra hai bi màu trắng: 1 1 3 7 . 21 C C = . + Trường hợp 2: Lấy ra hai viên bi màu đỏ: 1 1 5 6 . 30 C C = . + Trường hợp 3: Lấy ra hai viên bi màu xanh: 1 1 6 5 . 30 C C = . Số phần tử của biến cố C là: ( ) 21 30 30 81 n C = + + = . Xác suất để lấy được hai viên bi khác màu là: ( ) ( ) 81 19 1 1 252 28 P C P C = - = - = . Dựa vào thông tin sau, trả lời các câu hỏi Cho hình chóp . S ABCD có đáy ABCD là hình chữ nhật, , 2 AB a BC a = = . Cạnh bên 15 SA a = và vuông góc với đáy.",
+      "correctAnswer": 1,
+      "explanation": "Số cách chọn 2 bi cùng màu: Trắng-Trắng: $3 \\times 7 = 21$; Đỏ-Đỏ: $5 \\times 6 = 30$; Xanh-Xanh: $6 \\times 5 = 30$. Tổng cùng màu: $21 + 30 + 30 = 81$. Xác suất lấy 2 bi khác màu: $1 - \\frac{81}{252} = 1 - \\frac{9}{28} = \\frac{19}{28}$. Chọn B.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -29305,10 +29303,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng:",
       "options": [
-        "A. $2^\\circ$",
-        "B. $2^\\circ$",
-        "C. $2^\\circ$",
-        "D. $2^\\circ$"
+        "A. $60^\\circ$",
+        "B. $45^\\circ$",
+        "C. $30^\\circ$",
+        "D. $75^\\circ$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -31573,10 +31571,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng:",
       "options": [
-        "A. $2^\\circ$",
-        "B. $2^\\circ$",
-        "C. $2^\\circ$",
-        "D. $2^\\circ$"
+        "A. $60^\\circ$",
+        "B. $45^\\circ$",
+        "C. $30^\\circ$",
+        "D. $75^\\circ$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -31776,7 +31774,7 @@ export const QUESTIONS_DATA = {
         "C. $a = 6$",
         "D. $a = 3$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "AB song song với trục Ox có nghĩa có cùng tung độ do đó: ( ) ( ) , , ,m m A a m B a m . Chú ý rằng nếu AB song song với trục Ox thì BC vuông góc với trục Ox có nghĩa có cùng hoành độ do vậy ta có 3 , 2 m m C a \\left( \\right) \\left( \\right) \\left( \\right) bởi 3 3 log 2 m a m a = . Vì hình vuông ABCD có diện tích bằng 36 nên có 3 6 6 12 2 m m m AB BC a a m m = = \\Leftrightarrow - = - = \\Leftrightarrow = \\pm . Nếu 12 m = - thì 12 6 6 1 1 1 6 1 3 a a a - = \\Leftrightarrow = < vô lý. Chọn D .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
@@ -32032,16 +32030,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu. Phân xưởng chỉ còn 100 tấn thịt và 40 tấn nguyên liệu. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đông. Gọi x là số đơn vị lạp xưởng được sản xuất, y là số đơn vị chả giò được sản xuất.",
-      "question": "Đẳng thức nào sau đây đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu khác. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu khác. Phân xưởng chỉ còn 100 tấn thịt heo và 40 tấn nguyên liệu khác. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đồng. Gọi $x$ là số đơn vị lạp xưởng và $y$ là số đơn vị chả giò được sản xuất ($x, y \\ge 0$).",
+      "question": "Bất phương trình nào sau đây diễn tả điều kiện về lượng thịt heo mà phân xưởng có thể sử dụng?",
       "options": [
-        "A. $2 100 x y + \\le$",
-        "B. $2 80 x y + \\le$",
-        "C. $2 80 x y + \\le$",
-        "D. $2 200 x y + \\le$"
+        "A. $2x + y \\le 100$",
+        "B. $x + 2y \\le 80$",
+        "C. $2x + y \\le 80$",
+        "D. $x + 2y \\le 100$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Để làm $x$ đơn vị lạp xưởng cần $2x$ tấn thịt heo, $y$ đơn vị chả giò cần $1y$ tấn thịt heo. Tổng lượng thịt heo tối đa là 100 tấn nên: $2x + y \\le 100$. Chọn A.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -32054,16 +32052,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 86 và 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu. Phân xưởng chỉ còn 100 tấn thịt và 40 tấn nguyên liệu. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đông. Gọi x là số đơn vị lạp xưởng được sản xuất, y là số đơn vị chả giò được sản xuất.",
-      "question": "Phân xưởng có thể có số tiền lãi (triệu đồng) lớn nhất là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu khác. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu khác. Phân xưởng chỉ còn 100 tấn thịt heo và 40 tấn nguyên liệu khác. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đồng. Gọi $x$ là số đơn vị lạp xưởng và $y$ là số đơn vị chả giò được sản xuất ($x, y \\ge 0$).",
+      "question": "Phân xưởng có thể đạt số tiền lãi lớn nhất là bao nhiêu (triệu đồng)?",
       "options": [
         "A. 620",
         "B. 520",
         "C. 660",
         "D. 500"
       ],
-      "correctAnswer": 0,
-      "explanation": "Điều kiện về thịt: 2 100 x y + \\le Điều kiện về nguyên liệu: 0,5 1 40 2 80 x y x y + \\le \\Rightarrow + \\le Bất phương trình biểu thị các điều kiện của đề bài là 2 100 2 80 0 0 x y x y x y + \\le + \\le \\ge \\ge Miền nghiệm của hệ bất phương trình (I) là miền tứ giác OABC với ( ) ( ) ( ) ( ) 0; 0 , 0; 40 , 40; 20 , 50; 0 O A B C . Gọi ( ) , 10 13 F x y x y = + (triệu đồng) là số tiền lãi mà phân xưởng thu được. ( ) ; x y ( ) 0;0 O ( ) 0; 40 A ( ) 40; 20 B ( ) 50; 0 C ( ) , 10 13 F x y x y = + 0 520 660 500 Vậy số tiền lãi lớn nhất là 660 triệu đồng khi phân xưởng sản xuất 40 đơn vị lạp xưởng và 20 đơn vị chả giò.",
+      "correctAnswer": 2,
+      "explanation": "Điều kiện ràng buộc: $\\begin{cases} 2x + y \\le 100 \\\\ 0{,}5x + y \\le 40 \\iff x + 2y \\le 80 \\\\ x \\ge 0, y \\ge 0 \\end{cases}$. Hàm mục tiêu lãi: $F(x, y) = 10x + 13y$. Các đỉnh miền nghiệm: $O(0;0) \\implies 0$, $A(0;40) \\implies 520$, $B(40;20) \\implies 10(40) + 13(20) = 660$, $C(50;0) \\implies 500$. Lãi lớn nhất là 660 triệu đồng khi sản xuất 40 đơn vị lạp xưởng và 20 đơn vị chả giò. Chọn C.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -32546,7 +32544,7 @@ export const QUESTIONS_DATA = {
         "C. Hiện tượng dẫn điện của kim loại.",
         "D. Hiện tượng điện phân."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Ánh sáng làm bật electron trong chất bán dẫn, tạo ra dòng điện — đây là hiện tượng quang điện trong. Đáp án đúng: B.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
@@ -32568,7 +32566,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. 4"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "(1) Sai - pin tạo ra dòng một chiều. (2) Đúng - ánh sáng mạnh hơn → nhiều electron được giải phóng → tăng công suất. (3) Sai - ghép nối tiếp mới làm tăng hiệu điện thế, ghép song song tăng dòng. (4) Đúng - hiệu suất phụ thuộc vào năng lượng vùng cấm của vật liệu bán dẫn. Có 2 phát biểu đúng. Đáp án đúng: B.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -34300,16 +34298,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 69 và 70:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu. Phân xưởng chỉ còn 100 tấn thịt và 40 tấn nguyên liệu. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đông. Gọi x là số đơn vị lạp xưởng được sản xuất, y là số đơn vị chả giò được sản xuất.",
-      "question": "Đẳng thức nào sau đây đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu khác. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu khác. Phân xưởng chỉ còn 100 tấn thịt heo và 40 tấn nguyên liệu khác. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đồng. Gọi $x$ là số đơn vị lạp xưởng và $y$ là số đơn vị chả giò được sản xuất ($x, y \\ge 0$).",
+      "question": "Bất phương trình nào sau đây diễn tả điều kiện về lượng thịt heo mà phân xưởng có thể sử dụng?",
       "options": [
-        "A. $2 100 x y + \\le$",
-        "B. $2 80 x y + \\le$",
-        "C. $2 80 x y + \\le$",
-        "D. $2 200 x y + \\le$"
+        "A. $2x + y \\le 100$",
+        "B. $x + 2y \\le 80$",
+        "C. $2x + y \\le 80$",
+        "D. $x + 2y \\le 100$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Để làm $x$ đơn vị lạp xưởng cần $2x$ tấn thịt heo, $y$ đơn vị chả giò cần $1y$ tấn thịt heo. Tổng lượng thịt heo tối đa là 100 tấn nên: $2x + y \\le 100$. Chọn A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -34322,16 +34320,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 69 và 70:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu. Phân xưởng chỉ còn 100 tấn thịt và 40 tấn nguyên liệu. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đông. Gọi x là số đơn vị lạp xưởng được sản xuất, y là số đơn vị chả giò được sản xuất.",
-      "question": "Phân xưởng có thể có số tiền lãi (triệu đồng) lớn nhất là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu khác. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu khác. Phân xưởng chỉ còn 100 tấn thịt heo và 40 tấn nguyên liệu khác. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đồng. Gọi $x$ là số đơn vị lạp xưởng và $y$ là số đơn vị chả giò được sản xuất ($x, y \\ge 0$).",
+      "question": "Phân xưởng có thể đạt số tiền lãi lớn nhất là bao nhiêu (triệu đồng)?",
       "options": [
         "A. 620",
         "B. 520",
         "C. 660",
         "D. 500"
       ],
-      "correctAnswer": 0,
-      "explanation": "Điều kiện về thịt: 2 100 x y + \\le Điều kiện về nguyên liệu: 0,5 1 40 2 80 x y x y + \\le \\Rightarrow + \\le Bất phương trình biểu thị các điều kiện của đề bài là 2 100 2 80 0 0 x y x y x y + \\le + \\le \\ge \\ge Miền nghiệm của hệ bất phương trình (I) là miền tứ giác OABC với ( ) ( ) ( ) ( ) 0; 0 , 0; 40 , 40; 20 , 50; 0 O A B C . Gọi ( ) , 10 13 F x y x y = + (triệu đồng) là số tiền lãi mà phân xưởng thu được. ( ) ; x y ( ) 0;0 O ( ) 0; 40 A ( ) 40; 20 B ( ) 50; 0 C ( ) , 10 13 F x y x y = + 0 520 660 500 Vậy số tiền lãi lớn nhất là 660 triệu đồng khi phân xưởng sản xuất 40 đơn vị lạp xưởng và 20 đơn vị chả giò.",
+      "correctAnswer": 2,
+      "explanation": "Điều kiện ràng buộc: $\\begin{cases} 2x + y \\le 100 \\\\ 0{,}5x + y \\le 40 \\iff x + 2y \\le 80 \\\\ x \\ge 0, y \\ge 0 \\end{cases}$. Hàm mục tiêu lãi: $F(x, y) = 10x + 13y$. Các đỉnh miền nghiệm: $O(0;0) \\implies 0$, $A(0;40) \\implies 520$, $B(40;20) \\implies 10(40) + 13(20) = 660$, $C(50;0) \\implies 500$. Lãi lớn nhất là 660 triệu đồng khi sản xuất 40 đơn vị lạp xưởng và 20 đơn vị chả giò. Chọn C.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -34638,7 +34636,7 @@ export const QUESTIONS_DATA = {
         "C. 0",
         "D. 3"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Chọn A Điều kiện: 2 x \\ne . Phương trình có nghiệm duy nhất khi xảy ra hai trường hợp: TH 1: tử thức có đúng một nghiệm thỏa điều kiện, suy ra 2 0 2 m m - + = \\Leftrightarrow = . TH 2: tử thức có hai nghiệm và một nghiệm 2 x = , suy ra 2 2 0 1 m m + = \\Leftrightarrow = - . Vậy 2 n = .",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
@@ -34704,7 +34702,7 @@ export const QUESTIONS_DATA = {
         "C. $u_n = \\frac{2017n + 1}{n + 2}$",
         "D. $u_n = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\dots + \\frac{1}{n(n+1)}$"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "Chọn A Ta tính giới hạn của các dãy số trong từng đáp án: +) Đáp án A: ( ) ( ) 2018 2017 2017 2017 2017 2017 lim lim lim . 2018 2018 n n n n u n n n n [ ] - - - \\left( \\right) = = ] \\left( \\right) - \\left( \\right) - ] ] ] 2017 2017 1 2017 lim 1 1 2018 1 n n n [ ] \\left( \\right) - ] \\left( \\right) \\left( \\right) ] = - = - \\left( \\right) \\left( \\right) \\left( \\right) ] \\left( \\right) - ] \\left( \\right) ] ] . +) Đáp án B: ( ) ( )2 2 2 2 2 2 2018 2016 lim lim 2018 2016 lim 2018 2016 n n n n u n n n n n + - - = + - + = + + + 2 2 2 2 2 2 lim lim 1 2018 2016 2018 2016 1 1 n n n n n = = = + + + + + + . +) Đáp án C: Cách 1: Ta có ( ) 1 1 1 1 2 n n u u + - = - ( ) ( ) 1 1 1 1 1 1 1 ... 1 2 2 n n n u u u - - \\Rightarrow - = - = = - 1 2016 1 1 4032. 1 2 2 n n n n u u - \\left( \\right) \\Rightarrow = + \\Leftrightarrow = + \\left( \\right) \\left( \\right) lim 1 n u \\Rightarrow = . Cách 2: Bước 1: Ta chứng minh ( ) n u giảm và bị chặn dưới bởi 1. Thật vậy bằng quy nạp ta có 1 2017 1 u = > . Giả sử ( ) ( ) 1 1 1 1 1 1 1 1 2 2 n n n u u u + > \\Rightarrow = + > + = Vậy * 1 n u n > \\in \\infty . Hơn nữa ( ) 1 1 1 0 2 n n n u u u + - = - < nên ( ) n u là dãy giảm Suy ra ( ) n u có giới hạn lim n u a = Bước 2: Ta có ( ) 1 1 1 1 1 1 a lim lim lim 1 lim 2 2 2 2 2 n n n n u u u u a + = = = + = + = + 1 a \\Rightarrow = . +) Đáp án D: Ta có ( ) 1 1 1 1 1 1 1 1 1 1 ... 1 ... 1 1.2 2.3 3.4 1 2 2 3 1 1 1 n n u n n n n n n = + + + + = - + - + + - = - = + + + + lim lim 1 1 n n u n \\Rightarrow = = + .",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -34771,7 +34769,7 @@ export const QUESTIONS_DATA = {
         "D. $D = \\left(\\frac{1}{2}; +\\infty\\right)$"
       ],
       "correctAnswer": 3,
-      "explanation": "Chọn A Điều kiện: 3 6 2 1 0x - - > 3 6 0 x \\Leftrightarrow - > 1 2 x \\Leftrightarrow < .",
+      "explanation": "Hàm số xác định khi và chỉ khi $2x - 1 > 0 \\iff x > \\frac{1}{2}$. Vậy $D = \\left(\\frac{1}{2}; +\\infty\\right)$. Chọn D.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -34792,7 +34790,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. 4"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "(1) Sai - pin tạo ra dòng một chiều. (2) Đúng - ánh sáng mạnh hơn → nhiều electron được giải phóng → tăng công suất. (3) Sai - ghép nối tiếp mới làm tăng hiệu điện thế, ghép song song tăng dòng. (4) Đúng - hiệu suất phụ thuộc vào năng lượng vùng cấm của vật liệu bán dẫn. Có 2 phát biểu đúng. Đáp án đúng: B.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
@@ -36899,14 +36897,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $(x + 1)(mx + 2) = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
+      "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $\\frac{(x + 1)(mx + 2)}{x - 2} = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
       "options": [
         "A. 2",
         "B. 1",
         "C. 0",
         "D. 3"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Chọn A Điều kiện: 2 x \\ne . Phương trình có nghiệm duy nhất khi xảy ra hai trường hợp: TH 1: tử thức có đúng một nghiệm thỏa điều kiện, suy ra 2 0 2 m m - + = \\Leftrightarrow = . TH 2: tử thức có hai nghiệm và một nghiệm 2 x = , suy ra 2 2 0 1 m m + = \\Leftrightarrow = - . Vậy 2 n = .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
@@ -36969,10 +36967,10 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. $u_n = \\frac{n^{2018} - (n - 1)^{2018}}{n^{2017}}$",
         "B. $u_n = \\sqrt{n^2 + 2018n} - \\sqrt{n^2 + 2016n}$",
-        "C. $u_n = \\frac{2017n + 1}{n + 2}$",
+        "C. $\\begin{cases} u_1 = 2017 \\\\ u_{n+1} = \\frac{u_n + 1}{2} \\end{cases}$",
         "D. $u_n = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\dots + \\frac{1}{n(n+1)}$"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "Chọn A Ta tính giới hạn của các dãy số trong từng đáp án: +) Đáp án A: ( ) ( ) 2018 2017 2017 2017 2017 2017 lim lim lim . 2018 2018 n n n n u n n n n [ ] - - - \\left( \\right) = = ] \\left( \\right) - \\left( \\right) - ] ] ] 2017 2017 1 2017 lim 1 1 2018 1 n n n [ ] \\left( \\right) - ] \\left( \\right) \\left( \\right) ] = - = - \\left( \\right) \\left( \\right) \\left( \\right) ] \\left( \\right) - ] \\left( \\right) ] ] . +) Đáp án B: ( ) ( )2 2 2 2 2 2 2018 2016 lim lim 2018 2016 lim 2018 2016 n n n n u n n n n n + - - = + - + = + + + 2 2 2 2 2 2 lim lim 1 2018 2016 2018 2016 1 1 n n n n n = = = + + + + + + . +) Đáp án C: Cách 1: Ta có ( ) 1 1 1 1 2 n n u u + - = - ( ) ( ) 1 1 1 1 1 1 1 ... 1 2 2 n n n u u u - - \\Rightarrow - = - = = - 1 2016 1 1 4032. 1 2 2 n n n n u u - \\left( \\right) \\Rightarrow = + \\Leftrightarrow = + \\left( \\right) \\left( \\right) lim 1 n u \\Rightarrow = . Cách 2: Bước 1: Ta chứng minh ( ) n u giảm và bị chặn dưới bởi 1. Thật vậy bằng quy nạp ta có 1 2017 1 u = > . Giả sử ( ) ( ) 1 1 1 1 1 1 1 1 2 2 n n n u u u + > \\Rightarrow = + > + = Vậy * 1 n u n > \\in \\infty . Hơn nữa ( ) 1 1 1 0 2 n n n u u u + - = - < nên ( ) n u là dãy giảm Suy ra ( ) n u có giới hạn lim n u a = Bước 2: Ta có ( ) 1 1 1 1 1 1 a lim lim lim 1 lim 2 2 2 2 2 n n n n u u u u a + = = = + = + = + 1 a \\Rightarrow = . +) Đáp án D: Ta có ( ) 1 1 1 1 1 1 1 1 1 1 ... 1 ... 1 1.2 2.3 3.4 1 2 2 3 1 1 1 n n u n n n n n n = + + + + = - + - + + - = - = + + + + lim lim 1 1 n n u n \\Rightarrow = = + .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -37039,7 +37037,7 @@ export const QUESTIONS_DATA = {
         "D. $D = \\left(\\frac{1}{2}; +\\infty\\right)$"
       ],
       "correctAnswer": 3,
-      "explanation": "Chọn A Điều kiện: 3 6 2 1 0x - - > 3 6 0 x \\Leftrightarrow - > 1 2 x \\Leftrightarrow < .",
+      "explanation": "Hàm số xác định khi và chỉ khi $2x - 1 > 0 \\iff x > \\frac{1}{2}$. Vậy $D = \\left(\\frac{1}{2}; +\\infty\\right)$. Chọn D.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -37105,7 +37103,7 @@ export const QUESTIONS_DATA = {
         "D. 4"
       ],
       "correctAnswer": 2,
-      "explanation": "Chọn A TXĐ: \\{ \\} \\ 0; 2; 2 D = - \\mathbb{R} . 2 2 0 2 2 0 3 2 sin 0 1 lim lim .1 3.0 2 4 4 0 2 x x x x x y x x \\to \\to [ ] \\left( \\right) - + \\left( \\right) = = = - ] \\left( \\right) \\left( \\right) - \\left( - \\right) + \\right) \\left( ] - ] . ( ) ( ) ( )( ) ( ) ( ) 2 2 2 2 2 3 2 sin 1 2 sin 1 lim lim lim . 2 2 4 x x x x x x x x x y x x x x x \\pm \\pm \\pm \\to - \\to - \\to - [ ] - - + [ ] - - ] = = ] - + ] ] ] ] ] ( ) ( ) 2 1 sin 1 lim . 2 x x x x x \\pm \\to - [ ] - = ] + ] ] o Vì ( ) 2 1 sin 3 0 sin lim 2 2 x x x x + \\to - - [ ] = - ] ] < ] và ( ) 2 1 lim 2 x x + \\to - = + + \\infty nên 2 lim x y + \\to - = -\\infty o Vì ( ) 2 1 sin 3 0 sin lim 2 2 x x x x - \\to - - [ ] = - ] ] < ] và ( ) 2 1 lim 2 x x - \\to - = - + \\infty nên 2 lim x y - \\to - = +\\infty Vậy đường thẳng 2 x = - là tiệm cận đứng của đồ thị hàm số. ( ) ( ) 2 2 1 sin sin 2 lim lim 2 6 x x x x y x x \\to \\to - = = + . Vậy ĐTHS có 1 đường tiệm cận đứng.",
+      "explanation": "Ta có $y = \\frac{(x-1)(x-2)}{(x-2)\\sin(4x)} = \\frac{x-1}{\\sin(4x)}$ với mọi $x \\in (0; \\pi) \\setminus \\{2\\}$. Tại $x = 2$, $\\lim_{x \\to 2} y = \\frac{1}{\\sin 8} \\ne \\pm\\infty$ nên $x = 2$ không là tiệm cận đứng. Mẫu số $\\sin(4x) = 0 \\iff 4x = k\\pi \\iff x = \\frac{k\\pi}{4}$. Trên $(0; \\pi)$, ta có 3 nghiệm: $x = \\frac{\\pi}{4}, x = \\frac{\\pi}{2}, x = \\frac{3\\pi}{4}$ (đều khác 1 và khác 2). Do đó đồ thị có đúng 3 đường tiệm cận đứng. Đáp án đúng là C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -37976,16 +37974,16 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 118:\nCanada từ lâu được xem là hình mẫu về quốc gia chào đón người nhập cư. Với dân số chỉ khoảng 40 triệu người nhưng diện tích rộng gấp gần 30 lần Việt Nam, nước này cần thêm lao động để duy trì phát triển. Kế hoạch nhập cư giai đoạn 2025-2027 đặt mục tiêu thu hút hơn 1,5 triệu người, trong đó ưu tiên các nhóm lao động có kỹ năng thuộc lĩnh vực công nghệ thông tin, y tế, năng lượng sạch và xây dựng. Theo Bộ Di trú Canada, người nhập cư hiện chiếm 23% dân số và đóng góp tới 35% tăng trưởng GDP mỗi năm. Nhờ chính sách định cư thân thiện, nhiều người nhập cư đã trở thành doanh nhân, nhà khoa học và chuyên gia công nghệ nổi bật. Các thành phố lớn như Toronto, Vancouver hay Calgary ngày càng đa dạng văn hóa, tạo nên môi trường năng động và sáng tạo. Tuy nhiên, Canada cũng đối diện với những sức ép không nhỏ. Dân số tăng nhanh khiến giá nhà leo thang, hệ thống y tế và giáo dục công gặp quá tải, trong khi quá trình hòa nhập văn hóa giữa các cộng đồng chưa thật sự hài hòa. Một số ý kiến trong nước lo ngại “nhập cư quá mức” có thể ảnh hưởng đến bản sắc xã hội và thị trường lao động. Dù vậy, giới phân tích cho rằng trong bối cảnh dân số già hóa và năng suất lao động giảm, lực lượng nhập cư vẫn là “xương sống” cho tương lai kinh tế Canada. (Theo Tuổi Trẻ Online, 2025)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 116 đến 118:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
       "question": "Phòng thí nghiệm nào đang tiến hành thí nghiệm Màu Đỏ?",
       "options": [
         "A. Phòng 1.",
         "B. Phòng 2.",
-        "C. Phòng 3.",
+        "C. Phòng 4.",
         "D. Phòng 5."
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án: A. Lập bảng tóm tắt các dữ kiện đã có như sau: Tên Phòng Màu chủ đạo Số mẫu vật P 5 Cam 11/15 Q 1 Đỏ 15/11 R 4 Vàng 13 S 2 Xanh Lá 17 T 3 Tím 19 Một số suy luận để lập nên bảng trên: Thí nghiệm dùng 13 mẫu vật ở phòng 4; Người ở có thí nghiệm màu Vàng dùng 13 mẫu vật; R là người tiến hành thí nghiệm Màu Vàng => Gộp lại những dữ kiện trên, ta biết: R thí nghiệm ở Phòng 4, màu sắc chủ đạo là màu Vàng và R dùng 13 mẫu vật. Có một nhà khoa học thực hiện thí nghiệm có màu cùng chữ cái đầu với người đó => Cặp T- Tím => T làm thí nghiệm có màu Tím. Nhà khoa học ở Phòng 3 làm thí nghiệm màu Tím. Thí nghiệm 19 mẫu vật được thực hiện bởi T => T thí nghiệm ở Phòng 3, làm thí nghiệm màu Tím và có 19 mẫu vật. Q không ở Phòng 2 hay Phòng 5 => Q ở Phòng 1/3/4. Tuy nhiên R ở Phòng 4 và T ở Phòng 3 => Q ở Phòng 1. P và S có thể ở Phòng 2 hoặc 5. Tuy nhiên P không ở Phòng 2 => P ở Phòng 5 và S ở Phòng 2. P và Q có thể có màu Cam hoặc Đỏ. Tuy nhiên thí nghiệm màu Đỏ không ở Phòng 5, và P ở Phòng 5 => Thí nghiệm màu Đỏ được thực hiện bởi Q ở Phòng 1.",
+      "explanation": "Dựa vào giả thiết: Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ. Do đó phòng thí nghiệm tiến hành Màu Đỏ là Phòng 1. Đáp án đúng là A.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -37998,16 +37996,16 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 118:\nCanada từ lâu được xem là hình mẫu về quốc gia chào đón người nhập cư. Với dân số chỉ khoảng 40 triệu người nhưng diện tích rộng gấp gần 30 lần Việt Nam, nước này cần thêm lao động để duy trì phát triển. Kế hoạch nhập cư giai đoạn 2025-2027 đặt mục tiêu thu hút hơn 1,5 triệu người, trong đó ưu tiên các nhóm lao động có kỹ năng thuộc lĩnh vực công nghệ thông tin, y tế, năng lượng sạch và xây dựng. Theo Bộ Di trú Canada, người nhập cư hiện chiếm 23% dân số và đóng góp tới 35% tăng trưởng GDP mỗi năm. Nhờ chính sách định cư thân thiện, nhiều người nhập cư đã trở thành doanh nhân, nhà khoa học và chuyên gia công nghệ nổi bật. Các thành phố lớn như Toronto, Vancouver hay Calgary ngày càng đa dạng văn hóa, tạo nên môi trường năng động và sáng tạo. Tuy nhiên, Canada cũng đối diện với những sức ép không nhỏ. Dân số tăng nhanh khiến giá nhà leo thang, hệ thống y tế và giáo dục công gặp quá tải, trong khi quá trình hòa nhập văn hóa giữa các cộng đồng chưa thật sự hài hòa. Một số ý kiến trong nước lo ngại “nhập cư quá mức” có thể ảnh hưởng đến bản sắc xã hội và thị trường lao động. Dù vậy, giới phân tích cho rằng trong bối cảnh dân số già hóa và năng suất lao động giảm, lực lượng nhập cư vẫn là “xương sống” cho tương lai kinh tế Canada. (Theo Tuổi Trẻ Online, 2025)",
-      "question": "Lấy tổng số phòng thí nghiệm của người tiến hành thí nghiệm Màu Đỏ và Màu Cam. So sánh kết quả này với tổng số mẫu vật của người ở Phòng 2 và Phòng 4. Mối quan hệ nào sau đây là đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 116 đến 118:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
+      "question": "Lấy tổng số phòng thí nghiệm của người tiến hành thí nghiệm Màu Đỏ và Màu Cam. So sánh kết quả này với tổng số mẫu vật của người ở Phòng 2 và Phòng 4 thì:",
       "options": [
-        "A. Tổng số phòng lớn hơn tổng số mẫu vật.",
-        "B. Tổng số phòng bằng tổng số mẫu vật.",
+        "A. Tổng số mẫu vật bằng tổng số phòng.",
+        "B. Tổng số mẫu vật gấp 3 lần tổng số phòng.",
         "C. Tổng số mẫu vật gấp 5 lần tổng số phòng.",
-        "D. Tổng số mẫu vật gấp 3 lần tổng số phòng."
+        "D. Tổng số mẫu vật gấp 6 lần tổng số phòng."
       ],
       "correctAnswer": 2,
-      "explanation": "Đáp án: C. - Tổng số phòng của Đỏ và Cam: 1 + 5 = 6 - Tổng số mẫu vật của người ở Phòng 2 và Phòng 4: 17 + 13 = 30 => Tổng số mẫu vật gấp 5 lần tổng số phòng.",
+      "explanation": "Tổng số phòng của thí nghiệm Màu Đỏ (Phòng 1) và Màu Cam (Phòng 5) là: 1 + 5 = 6. Tổng số mẫu vật của Phòng 2 (17) và Phòng 4 (13) là: 17 + 13 = 30. Ta có 30 = 5 * 6. Vậy tổng số mẫu vật gấp 5 lần tổng số phòng. Đáp án đúng là C.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -38020,8 +38018,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 118:\nCanada từ lâu được xem là hình mẫu về quốc gia chào đón người nhập cư. Với dân số chỉ khoảng 40 triệu người nhưng diện tích rộng gấp gần 30 lần Việt Nam, nước này cần thêm lao động để duy trì phát triển. Kế hoạch nhập cư giai đoạn 2025-2027 đặt mục tiêu thu hút hơn 1,5 triệu người, trong đó ưu tiên các nhóm lao động có kỹ năng thuộc lĩnh vực công nghệ thông tin, y tế, năng lượng sạch và xây dựng. Theo Bộ Di trú Canada, người nhập cư hiện chiếm 23% dân số và đóng góp tới 35% tăng trưởng GDP mỗi năm. Nhờ chính sách định cư thân thiện, nhiều người nhập cư đã trở thành doanh nhân, nhà khoa học và chuyên gia công nghệ nổi bật. Các thành phố lớn như Toronto, Vancouver hay Calgary ngày càng đa dạng văn hóa, tạo nên môi trường năng động và sáng tạo. Tuy nhiên, Canada cũng đối diện với những sức ép không nhỏ. Dân số tăng nhanh khiến giá nhà leo thang, hệ thống y tế và giáo dục công gặp quá tải, trong khi quá trình hòa nhập văn hóa giữa các cộng đồng chưa thật sự hài hòa. Một số ý kiến trong nước lo ngại “nhập cư quá mức” có thể ảnh hưởng đến bản sắc xã hội và thị trường lao động. Dù vậy, giới phân tích cho rằng trong bối cảnh dân số già hóa và năng suất lao động giảm, lực lượng nhập cư vẫn là “xương sống” cho tương lai kinh tế Canada. (Theo Tuổi Trẻ Online, 2025)",
-      "question": "Nếu số mãu vật của P chia hết cho số phòng thì Q dùng bao nhiêu mẫu vật?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 116 đến 118:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
+      "question": "Nếu số mẫu vật của P chia hết cho số phòng của P thì Q dùng bao nhiêu mẫu vật?",
       "options": [
         "A. 11",
         "B. 13",
@@ -38029,7 +38027,7 @@ export const QUESTIONS_DATA = {
         "D. 17"
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án: A. Số mẫu vật của P chia hết cho số phòng => Số mẫu vật là 15. Q có thể dùng 11 hoặc 15 mẫu vật => Q có 11 mẫu vật",
+      "explanation": "P ở Phòng 5, số mẫu vật của P chia hết cho 5 nên P có 15 mẫu vật. Vì S có 17, R có 13 mẫu vật, tập số mẫu vật là {11, 13, 15, 17}. Do đó Q và T phải chia nhau hai giá trị {11, 15}. Vì P đã dùng 15 mẫu vật nên Q dùng 11 mẫu vật. Đáp án đúng là A.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -40200,16 +40198,16 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
       "question": "Phòng thí nghiệm nào đang tiến hành thí nghiệm Màu Đỏ?",
       "options": [
         "A. Phòng 1.",
         "B. Phòng 2.",
-        "C. Phòng 3.",
+        "C. Phòng 4.",
         "D. Phòng 5."
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án: A. Lập bảng tóm tắt các dữ kiện đã có như sau: Tên Phòng Màu chủ đạo Số mẫu vật P 5 Cam 11/15 Q 1 Đỏ 15/11 R 4 Vàng 13 S 2 Xanh Lá 17 T 3 Tím 19 Một số suy luận để lập nên bảng trên: Thí nghiệm dùng 13 mẫu vật ở phòng 4; Người ở có thí nghiệm màu Vàng dùng 13 mẫu vật; R là người tiến hành thí nghiệm Màu Vàng => Gộp lại những dữ kiện trên, ta biết: R thí nghiệm ở Phòng 4, màu sắc chủ đạo là màu Vàng và R dùng 13 mẫu vật. Có một nhà khoa học thực hiện thí nghiệm có màu cùng chữ cái đầu với người đó => Cặp T- Tím => T làm thí nghiệm có màu Tím. Nhà khoa học ở Phòng 3 làm thí nghiệm màu Tím. Thí nghiệm 19 mẫu vật được thực hiện bởi T => T thí nghiệm ở Phòng 3, làm thí nghiệm màu Tím và có 19 mẫu vật. Q không ở Phòng 2 hay Phòng 5 => Q ở Phòng 1/3/4. Tuy nhiên R ở Phòng 4 và T ở Phòng 3 => Q ở Phòng 1. P và S có thể ở Phòng 2 hoặc 5. Tuy nhiên P không ở Phòng 2 => P ở Phòng 5 và S ở Phòng 2. P và Q có thể có màu Cam hoặc Đỏ. Tuy nhiên thí nghiệm màu Đỏ không ở Phòng 5, và P ở Phòng 5 => Thí nghiệm màu Đỏ được thực hiện bởi Q ở Phòng 1.",
+      "explanation": "Dựa vào giả thiết: Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ. Do đó phòng thí nghiệm tiến hành Màu Đỏ là Phòng 1. Đáp án đúng là A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -40222,16 +40220,16 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
-      "question": "Lấy tổng số phòng thí nghiệm của người tiến hành thí nghiệm Màu Đỏ và Màu Cam. So sánh kết quả này với tổng số mẫu vật của người ở Phòng 2 và Phòng 4. Mối quan hệ nào sau đây là đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
+      "question": "Lấy tổng số phòng thí nghiệm của người tiến hành thí nghiệm Màu Đỏ và Màu Cam. So sánh kết quả này với tổng số mẫu vật của người ở Phòng 2 và Phòng 4 thì:",
       "options": [
-        "A. Tổng số phòng lớn hơn tổng số mẫu vật.",
-        "B. Tổng số phòng bằng tổng số mẫu vật.",
+        "A. Tổng số mẫu vật bằng tổng số phòng.",
+        "B. Tổng số mẫu vật gấp 3 lần tổng số phòng.",
         "C. Tổng số mẫu vật gấp 5 lần tổng số phòng.",
-        "D. Tổng số mẫu vật gấp 3 lần tổng số phòng."
+        "D. Tổng số mẫu vật gấp 6 lần tổng số phòng."
       ],
       "correctAnswer": 2,
-      "explanation": "Đáp án: C. - Tổng số phòng của Đỏ và Cam: 1 + 5 = 6 - Tổng số mẫu vật của người ở Phòng 2 và Phòng 4: 17 + 13 = 30 => Tổng số mẫu vật gấp 5 lần tổng số phòng.",
+      "explanation": "Tổng số phòng của thí nghiệm Màu Đỏ (Phòng 1) và Màu Cam (Phòng 5) là: 1 + 5 = 6. Tổng số mẫu vật của Phòng 2 (17) và Phòng 4 (13) là: 17 + 13 = 30. Ta có 30 = 5 * 6. Vậy tổng số mẫu vật gấp 5 lần tổng số phòng. Đáp án đúng là C.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -40244,8 +40242,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
-      "question": "Nếu số mãu vật của P chia hết cho số phòng thì Q dùng bao nhiêu mẫu vật?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
+      "question": "Nếu số mẫu vật của P chia hết cho số phòng của P thì Q dùng bao nhiêu mẫu vật?",
       "options": [
         "A. 11",
         "B. 13",
@@ -40253,7 +40251,7 @@ export const QUESTIONS_DATA = {
         "D. 17"
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án: A. Số mẫu vật của P chia hết cho số phòng => Số mẫu vật là 15. Q có thể dùng 11 hoặc 15 mẫu vật => Q có 11 mẫu vật",
+      "explanation": "P ở Phòng 5, số mẫu vật của P chia hết cho 5 nên P có 15 mẫu vật. Vì S có 17, R có 13 mẫu vật, tập số mẫu vật là {11, 13, 15, 17}. Do đó Q và T phải chia nhau hai giá trị {11, 15}. Vì P đã dùng 15 mẫu vật nên Q dùng 11 mẫu vật. Đáp án đúng là A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -45646,7 +45644,7 @@ export const QUESTIONS_DATA = {
         "C. Sự hấp thụ photon mặt trời.",
         "D. Tác dụng của từ trường Trái Đất."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Khi các ion được gia tốc và phóng ra phía sau, tên lửa chịu phản lực hướng về trước theo định luật bảo toàn động lượng. Đáp án đúng: B.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
@@ -45668,7 +45666,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. 4"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "(1) Sai - động cơ ion hoạt động tốt trong chân không. (2) Đúng - theo F mv = . (3) Đúng - pin mặt trời cung cấp năng lượng điện để ion hóa và gia tốc hạt. (4) Đúng - hiệu suất cao, tiêu thụ rất ít nhiên liệu. Có 3 phát biểu đúng. Đáp án đúng: C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
@@ -48531,7 +48529,7 @@ export const QUESTIONS_DATA = {
         "D. Sự va chạm đàn hồi giữa các hạt mang điện."
       ],
       "correctAnswer": 0,
-      "explanation": "Lực điện F qE = sinh ra từ hiệu điện thế giữa hai bản kim loại tạo gia tốc cho hạt. Đáp án đúng: C.",
+      "explanation": "Lực điện trường $F = qE$ sinh công dương làm tăng động năng của hạt mang điện khi đi qua hiệu điện thế giữa hai bản. Đáp án đúng: A.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -48553,7 +48551,7 @@ export const QUESTIONS_DATA = {
         "D. Không thay đổi."
       ],
       "correctAnswer": 0,
-      "explanation": "Từ công thức 2qU v m = , ta thấy v U . Khi U tăng gấp đôi, v tăng 2 lần. Đáp án đúng: C.",
+      "explanation": "Áp dụng định lý biến thiên động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}} \\propto \\sqrt{U}$. Khi $U$ tăng gấp đôi ($2U$), vận tốc $v$ tăng $\\sqrt{2}$ lần. Đáp án đúng: A.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -50755,7 +50753,7 @@ export const QUESTIONS_DATA = {
         "D. Sự va chạm đàn hồi giữa các hạt mang điện."
       ],
       "correctAnswer": 0,
-      "explanation": "Lực điện F qE = sinh ra từ hiệu điện thế giữa hai bản kim loại tạo gia tốc cho hạt. Đáp án đúng: C.",
+      "explanation": "Lực điện trường $F = qE$ sinh công dương làm tăng động năng của hạt mang điện khi đi qua hiệu điện thế giữa hai bản. Đáp án đúng: A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -50777,7 +50775,7 @@ export const QUESTIONS_DATA = {
         "D. Không thay đổi."
       ],
       "correctAnswer": 0,
-      "explanation": "Từ công thức 2qU v m = , ta thấy v U . Khi U tăng gấp đôi, v tăng 2 lần. Đáp án đúng: C.",
+      "explanation": "Áp dụng định lý biến thiên động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}} \\propto \\sqrt{U}$. Khi $U$ tăng gấp đôi ($2U$), vận tốc $v$ tăng $\\sqrt{2}$ lần. Đáp án đúng: A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -53264,7 +53262,7 @@ export const QUESTIONS_DATA = {
         "C. x = 10, y = 4",
         "D. x = 9, y = 6"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Chọn D",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
@@ -53432,7 +53430,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nDưới đây là thống kê của bộ giáo dục về số lượng thí sinh đăng kí xét tuyển đại học cũng như số lượng thí sinh xác nhận nhập học trong hai năm gần đây. Biết rằng số thí sinh tham gia kì thi THPTQG là 1.025.166 và 1.071.395 tương ứng năm 2023 và năm 2024",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 98 đến 100:\nDưới đây là thống kê của bộ giáo dục về số lượng thí sinh đăng kí xét tuyển đại học cũng như số lượng thí sinh xác nhận nhập học trong hai năm gần đây. Biết rằng số thí sinh tham gia kì thi THPTQG là 1.025.166 và 1.071.395 tương ứng năm 2023 và năm 2024",
       "question": "Cho các phát biểu sau: (I). Than là nguồn năng lượng tái tạo. (II). Đơn vị của năng lượng riêng là J/kg. (III). Nhà máy điện than trên sẽ thải ra 1,020.103 tấn khí CO2 mỗi giờ. (IV). Công suất hao phí của nhà máy điện than ở trên là 7,464.102 MW. Theo bài đọc, các phát biểu đúng là:",
       "options": [
         "A. (I), (II), (III).",
@@ -53454,7 +53452,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nDưới đây là thống kê của bộ giáo dục về số lượng thí sinh đăng kí xét tuyển đại học cũng như số lượng thí sinh xác nhận nhập học trong hai năm gần đây. Biết rằng số thí sinh tham gia kì thi THPTQG là 1.025.166 và 1.071.395 tương ứng năm 2023 và năm 2024",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 98 đến 100:\nDưới đây là thống kê của bộ giáo dục về số lượng thí sinh đăng kí xét tuyển đại học cũng như số lượng thí sinh xác nhận nhập học trong hai năm gần đây. Biết rằng số thí sinh tham gia kì thi THPTQG là 1.025.166 và 1.071.395 tương ứng năm 2023 và năm 2024",
       "question": "Điện năng mà nhà máy này tạo ra trong một giờ là",
       "options": [
         "A. $1,244 \\times 10^6\\text{ kWh}$",
@@ -53476,7 +53474,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 98 đến 100:\nDưới đây là thống kê của bộ giáo dục về số lượng thí sinh đăng kí xét tuyển đại học cũng như số lượng thí sinh xác nhận nhập học trong hai năm gần đây. Biết rằng số thí sinh tham gia kì thi THPTQG là 1.025.166 và 1.071.395 tương ứng năm 2023 và năm 2024",
       "question": "Khối lượng than cần sử dụng trong nhà máy này trong một ngày là",
       "options": [
         "A. 2,333 tấn.",
@@ -53498,7 +53496,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 101 và 102:\nDựa vào phản ứng nở hoa của thực vật với quang chu kì, thực vật được chia làm ba nhóm. Thực vật ngày dài như thanh long, xà lách ra hoa khi thời gian ban đêm ngắn hơn độ dài đêm tới hạn. Thực vật ngày ngắn như cúc, mía ra hoa khi thời gian ban đêm dài hơn độ dài đêm tới hạn. Thực vật trung tính như cà chua, hướng dương, lúa nước ra hoa không phụ thuộc vào độ dài thời gian chiếu sáng trong ngày. Một nghiên cứu trồng thanh long dưới ánh sáng tự nhiên ngày ngắn (số giờ sáng trong ngày là 10,5 giờ) và có hoặc không có chiếu sáng nhân tạo bằng đèn vào ban đêm. Ba lô thí nghiệm được trồng trong các điều kiện tương tự nhau. Ở lô thí nghiệm 1, cây được chiếu sáng liên tục từ khi mặt trời lặn đến khi mặt trời mọc vào sáng hôm sau. Ở lô thí nghiệm 2, cây được chiếu sáng từ lúc 0 giờ với tổng số giờ chiếu sáng khác nhau trong đêm. Lô đối chứng cây không được chiếu sáng vào ban đêm. Tỉ lệ ra hoa trung bình ở các lô thí nghiệm sau 20 ngày được trình bày trong bảng dưới đây: Điều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 103:\nBảng kết quả nghiên cứu ảnh hưởng của thời gian chiếu sáng bổ sung vào ban đêm đến tỉ lệ ra hoa của cây thanh long (chu kỳ 24 giờ):\n\n| Điều kiện chiếu sáng bổ sung | Không chiếu sáng | 0,5 giờ | 1 giờ | 2 giờ | 3 giờ | 4 giờ | 5 giờ | Chiếu sáng liên tục |\n|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| **Tỉ lệ ra hoa (%)** | 0 | 0 | 12 | 51 | 79 | 90 | 99 | 99 |",
       "question": "Trong tự nhiên để điều khiển cây thanh long ra hoa đồng loạt vào thời điểm ngày ngắn, cần phải chiếu sáng đèn từ 0 giờ và tắt đèn vào thời điểm nào sau đây?",
       "options": [
         "A. 0 giờ 30 phút.",
@@ -53520,7 +53518,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 101 và 102:\nDựa vào phản ứng nở hoa của thực vật với quang chu kì, thực vật được chia làm ba nhóm. Thực vật ngày dài như thanh long, xà lách ra hoa khi thời gian ban đêm ngắn hơn độ dài đêm tới hạn. Thực vật ngày ngắn như cúc, mía ra hoa khi thời gian ban đêm dài hơn độ dài đêm tới hạn. Thực vật trung tính như cà chua, hướng dương, lúa nước ra hoa không phụ thuộc vào độ dài thời gian chiếu sáng trong ngày. Một nghiên cứu trồng thanh long dưới ánh sáng tự nhiên ngày ngắn (số giờ sáng trong ngày là 10,5 giờ) và có hoặc không có chiếu sáng nhân tạo bằng đèn vào ban đêm. Ba lô thí nghiệm được trồng trong các điều kiện tương tự nhau. Ở lô thí nghiệm 1, cây được chiếu sáng liên tục từ khi mặt trời lặn đến khi mặt trời mọc vào sáng hôm sau. Ở lô thí nghiệm 2, cây được chiếu sáng từ lúc 0 giờ với tổng số giờ chiếu sáng khác nhau trong đêm. Lô đối chứng cây không được chiếu sáng vào ban đêm. Tỉ lệ ra hoa trung bình ở các lô thí nghiệm sau 20 ngày được trình bày trong bảng dưới đây: Điều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 103:\nBảng kết quả nghiên cứu ảnh hưởng của thời gian chiếu sáng bổ sung vào ban đêm đến tỉ lệ ra hoa của cây thanh long (chu kỳ 24 giờ):\n\n| Điều kiện chiếu sáng bổ sung | Không chiếu sáng | 0,5 giờ | 1 giờ | 2 giờ | 3 giờ | 4 giờ | 5 giờ | Chiếu sáng liên tục |\n|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| **Tỉ lệ ra hoa (%)** | 0 | 0 | 12 | 51 | 79 | 90 | 99 | 99 |",
       "question": "Một loài thực vật ngày ngắn có độ dài đêm tới hạn là 09 giờ, được trồng trong chu kì sáng tối là 24 giờ. Điều kiện chiếu sáng nào sau đây kích thích cây trưởng thành ra hoa?",
       "options": [
         "A. 10 giờ tối/24 giờ.",
@@ -53542,7 +53540,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n$\\Delta_r G^\\circ = \\Delta_r H^\\circ - T\\Delta_r S^\\circ$, với $T$ là nhiệt độ (K).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 101 đến 103:\nBảng kết quả nghiên cứu ảnh hưởng của thời gian chiếu sáng bổ sung vào ban đêm đến tỉ lệ ra hoa của cây thanh long (chu kỳ 24 giờ):\n\n| Điều kiện chiếu sáng bổ sung | Không chiếu sáng | 0,5 giờ | 1 giờ | 2 giờ | 3 giờ | 4 giờ | 5 giờ | Chiếu sáng liên tục |\n|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| **Tỉ lệ ra hoa (%)** | 0 | 0 | 12 | 51 | 79 | 90 | 99 | 99 |",
       "question": "Loài thực vật nào sau đây được xếp vào nhóm cây ngày dài?",
       "options": [
         "A. Cây ké đầu ngựa (Xanthium Strumarium) chỉ ra hoa khi chiếu sáng tối đa là 16 giờ hoặc ít hơn.",
@@ -53564,7 +53562,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n$\\Delta_r G^\\circ = \\Delta_r H^\\circ - T\\Delta_r S^\\circ$, với $T$ là nhiệt độ (K).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\n$\\Delta_r G^\\circ = \\Delta_r H^\\circ - T\\Delta_r S^\\circ$, với $T$ là nhiệt độ (K).",
       "question": "Trong 7 tháng đầu năm 2023, nước ta đạt kim ngạch xuất khẩu cao nhất vào tháng nào?",
       "options": [
         "A. Tháng 3.",
@@ -53586,7 +53584,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n$\\Delta_r G^\\circ = \\Delta_r H^\\circ - T\\Delta_r S^\\circ$, với $T$ là nhiệt độ (K).",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\n$\\Delta_r G^\\circ = \\Delta_r H^\\circ - T\\Delta_r S^\\circ$, với $T$ là nhiệt độ (K).",
       "question": "Cán cân thương mại hàng hóa được được tính bằng",
       "options": [
         "A. Trị giá xuất khẩu - Trị giá nhập khẩu.",
@@ -53608,7 +53606,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nTháng 7/2023, xuất nhập khẩu hàng hóa Việt Nam ước đạt 57,21 tỉ USD, tăng 2,5% so với tháng trước, xuất siêu tiếp tục tăng cao. Cán cân thương mại hàng hóa 7 tháng năm 2023 ước tính xuất siêu 15,23 tỉ USD - một con số kỉ lục của cán cân thương mại hàng hóa 7 tháng từ trước đến nay. Đây là những con số cho thấy hoạt động này tiếp tục có các dấu hiệu tích cực… Về xuất khẩu hàng hóa, trong tháng 7, hoạt động xuất khẩu hàng hóa tiếp tục có những tín hiệu tích cực khi tăng 0,8% so với tháng trước, là tháng có kim ngạch xuất khẩu cao thứ hai kể từ đầu năm đến nay 16 (chỉ thấp hơn kim ngạch xuất khẩu của tháng 3/2023). Như vậy, kim ngạch xuất khẩu hàng hóa tiếp tục có xu hướng tháng sau tăng so với tháng trước (sau khi giảm vào tháng 4/2023)… Đối với hoạt động nhập khẩu, nhu cầu hàng hóa của thế giới giảm đã ảnh hưởng không nhỏ đến kim ngạch nhập khẩu hàng hóa, nguyên liệu phục vụ sản xuất đơn hàng xuất khẩu của nước ta. Tuy nhiên, nhờ những tín hiệu tích cực trong sản xuất công nghiệp và xuất khẩu trong tháng 7 nên kim ngạch nhập khẩu hàng hóa tháng 7/2023 ước đạt 27,53 tỉ USD, tăng 4,4% so với tháng trước. (Nguồn: Tóm lược theo Tổng Cục Thống kê Việt Nam)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 104 đến 106:\n$\\Delta_r G^\\circ = \\Delta_r H^\\circ - T\\Delta_r S^\\circ$, với $T$ là nhiệt độ (K).",
       "question": "Kim ngạch nhập khẩu hàng hóa tháng 6/2023 ước đạt",
       "options": [
         "A. 26,37 tỉ USD.",
@@ -53630,7 +53628,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nTháng 7/2023, xuất nhập khẩu hàng hóa Việt Nam ước đạt 57,21 tỉ USD, tăng 2,5% so với tháng trước, xuất siêu tiếp tục tăng cao. Cán cân thương mại hàng hóa 7 tháng năm 2023 ước tính xuất siêu 15,23 tỉ USD - một con số kỉ lục của cán cân thương mại hàng hóa 7 tháng từ trước đến nay. Đây là những con số cho thấy hoạt động này tiếp tục có các dấu hiệu tích cực… Về xuất khẩu hàng hóa, trong tháng 7, hoạt động xuất khẩu hàng hóa tiếp tục có những tín hiệu tích cực khi tăng 0,8% so với tháng trước, là tháng có kim ngạch xuất khẩu cao thứ hai kể từ đầu năm đến nay 16 (chỉ thấp hơn kim ngạch xuất khẩu của tháng 3/2023). Như vậy, kim ngạch xuất khẩu hàng hóa tiếp tục có xu hướng tháng sau tăng so với tháng trước (sau khi giảm vào tháng 4/2023)… Đối với hoạt động nhập khẩu, nhu cầu hàng hóa của thế giới giảm đã ảnh hưởng không nhỏ đến kim ngạch nhập khẩu hàng hóa, nguyên liệu phục vụ sản xuất đơn hàng xuất khẩu của nước ta. Tuy nhiên, nhờ những tín hiệu tích cực trong sản xuất công nghiệp và xuất khẩu trong tháng 7 nên kim ngạch nhập khẩu hàng hóa tháng 7/2023 ước đạt 27,53 tỉ USD, tăng 4,4% so với tháng trước. (Nguồn: Tóm lược theo Tổng Cục Thống kê Việt Nam)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 109:\nTháng 7/2023, xuất nhập khẩu hàng hóa Việt Nam ước đạt 57,21 tỉ USD, tăng 2,5% so với tháng trước, xuất siêu tiếp tục tăng cao. Cán cân thương mại hàng hóa 7 tháng năm 2023 ước tính xuất siêu 15,23 tỉ USD - một con số kỉ lục của cán cân thương mại hàng hóa 7 tháng từ trước đến nay. Đây là những con số cho thấy hoạt động này tiếp tục có các dấu hiệu tích cực… Về xuất khẩu hàng hóa, trong tháng 7, hoạt động xuất khẩu hàng hóa tiếp tục có những tín hiệu tích cực khi tăng 0,8% so với tháng trước, là tháng có kim ngạch xuất khẩu cao thứ hai kể từ đầu năm đến nay 16 (chỉ thấp hơn kim ngạch xuất khẩu của tháng 3/2023). Như vậy, kim ngạch xuất khẩu hàng hóa tiếp tục có xu hướng tháng sau tăng so với tháng trước (sau khi giảm vào tháng 4/2023)… Đối với hoạt động nhập khẩu, nhu cầu hàng hóa của thế giới giảm đã ảnh hưởng không nhỏ đến kim ngạch nhập khẩu hàng hóa, nguyên liệu phục vụ sản xuất đơn hàng xuất khẩu của nước ta. Tuy nhiên, nhờ những tín hiệu tích cực trong sản xuất công nghiệp và xuất khẩu trong tháng 7 nên kim ngạch nhập khẩu hàng hóa tháng 7/2023 ước đạt 27,53 tỉ USD, tăng 4,4% so với tháng trước. (Nguồn: Tóm lược theo Tổng Cục Thống kê Việt Nam)",
       "question": "Ở thời điểm năm 2020, ASEAN đang triển khai thực hiện Tầm nhìn đến",
       "options": [
         "A. năm 2015.",
@@ -53652,7 +53650,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nTháng 7/2023, xuất nhập khẩu hàng hóa Việt Nam ước đạt 57,21 tỉ USD, tăng 2,5% so với tháng trước, xuất siêu tiếp tục tăng cao. Cán cân thương mại hàng hóa 7 tháng năm 2023 ước tính xuất siêu 15,23 tỉ USD - một con số kỉ lục của cán cân thương mại hàng hóa 7 tháng từ trước đến nay. Đây là những con số cho thấy hoạt động này tiếp tục có các dấu hiệu tích cực… Về xuất khẩu hàng hóa, trong tháng 7, hoạt động xuất khẩu hàng hóa tiếp tục có những tín hiệu tích cực khi tăng 0,8% so với tháng trước, là tháng có kim ngạch xuất khẩu cao thứ hai kể từ đầu năm đến nay 16 (chỉ thấp hơn kim ngạch xuất khẩu của tháng 3/2023). Như vậy, kim ngạch xuất khẩu hàng hóa tiếp tục có xu hướng tháng sau tăng so với tháng trước (sau khi giảm vào tháng 4/2023)… Đối với hoạt động nhập khẩu, nhu cầu hàng hóa của thế giới giảm đã ảnh hưởng không nhỏ đến kim ngạch nhập khẩu hàng hóa, nguyên liệu phục vụ sản xuất đơn hàng xuất khẩu của nước ta. Tuy nhiên, nhờ những tín hiệu tích cực trong sản xuất công nghiệp và xuất khẩu trong tháng 7 nên kim ngạch nhập khẩu hàng hóa tháng 7/2023 ước đạt 27,53 tỉ USD, tăng 4,4% so với tháng trước. (Nguồn: Tóm lược theo Tổng Cục Thống kê Việt Nam)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 109:\nTháng 7/2023, xuất nhập khẩu hàng hóa Việt Nam ước đạt 57,21 tỉ USD, tăng 2,5% so với tháng trước, xuất siêu tiếp tục tăng cao. Cán cân thương mại hàng hóa 7 tháng năm 2023 ước tính xuất siêu 15,23 tỉ USD - một con số kỉ lục của cán cân thương mại hàng hóa 7 tháng từ trước đến nay. Đây là những con số cho thấy hoạt động này tiếp tục có các dấu hiệu tích cực… Về xuất khẩu hàng hóa, trong tháng 7, hoạt động xuất khẩu hàng hóa tiếp tục có những tín hiệu tích cực khi tăng 0,8% so với tháng trước, là tháng có kim ngạch xuất khẩu cao thứ hai kể từ đầu năm đến nay 16 (chỉ thấp hơn kim ngạch xuất khẩu của tháng 3/2023). Như vậy, kim ngạch xuất khẩu hàng hóa tiếp tục có xu hướng tháng sau tăng so với tháng trước (sau khi giảm vào tháng 4/2023)… Đối với hoạt động nhập khẩu, nhu cầu hàng hóa của thế giới giảm đã ảnh hưởng không nhỏ đến kim ngạch nhập khẩu hàng hóa, nguyên liệu phục vụ sản xuất đơn hàng xuất khẩu của nước ta. Tuy nhiên, nhờ những tín hiệu tích cực trong sản xuất công nghiệp và xuất khẩu trong tháng 7 nên kim ngạch nhập khẩu hàng hóa tháng 7/2023 ước đạt 27,53 tỉ USD, tăng 4,4% so với tháng trước. (Nguồn: Tóm lược theo Tổng Cục Thống kê Việt Nam)",
       "question": "Mục tiêu tổng quát của cộng đồng ASEAN là:",
       "options": [
         "A. hoạt động trên nền tảng pháp lí là Hiến chương ASEAN.",
@@ -53674,7 +53672,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 107 đến 109:\nTháng 7/2023, xuất nhập khẩu hàng hóa Việt Nam ước đạt 57,21 tỉ USD, tăng 2,5% so với tháng trước, xuất siêu tiếp tục tăng cao. Cán cân thương mại hàng hóa 7 tháng năm 2023 ước tính xuất siêu 15,23 tỉ USD - một con số kỉ lục của cán cân thương mại hàng hóa 7 tháng từ trước đến nay. Đây là những con số cho thấy hoạt động này tiếp tục có các dấu hiệu tích cực… Về xuất khẩu hàng hóa, trong tháng 7, hoạt động xuất khẩu hàng hóa tiếp tục có những tín hiệu tích cực khi tăng 0,8% so với tháng trước, là tháng có kim ngạch xuất khẩu cao thứ hai kể từ đầu năm đến nay 16 (chỉ thấp hơn kim ngạch xuất khẩu của tháng 3/2023). Như vậy, kim ngạch xuất khẩu hàng hóa tiếp tục có xu hướng tháng sau tăng so với tháng trước (sau khi giảm vào tháng 4/2023)… Đối với hoạt động nhập khẩu, nhu cầu hàng hóa của thế giới giảm đã ảnh hưởng không nhỏ đến kim ngạch nhập khẩu hàng hóa, nguyên liệu phục vụ sản xuất đơn hàng xuất khẩu của nước ta. Tuy nhiên, nhờ những tín hiệu tích cực trong sản xuất công nghiệp và xuất khẩu trong tháng 7 nên kim ngạch nhập khẩu hàng hóa tháng 7/2023 ước đạt 27,53 tỉ USD, tăng 4,4% so với tháng trước. (Nguồn: Tóm lược theo Tổng Cục Thống kê Việt Nam)",
       "question": "Củng cố vai trò trung tâm của ASEAN trong cấu trúc khu vực đang định hình là nội dung được xác định thuộc trụ cột nào trong Tầm nhìn Cộng đồng ASEAN năm 2025?",
       "options": [
         "A. Chính trị - An ninh.",
@@ -53696,7 +53694,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 112:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
       "question": "Theo trích đoạn trên, tại sao nhiều doanh nghiệp chọn tăng cường đào tạo chuyên môn và kỹ năng mềm cho nhân viên?",
       "options": [
         "A. Để tiết kiệm chi phí tuyển dụng.",
@@ -53718,7 +53716,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 112:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
       "question": "Dựa trên khảo sát của Navigos Group, nhận định nào sau đây là chính xác nhất khi nói về cách tiếp cận xây dựng và phát triển nhân sự của doanh nghiệp trong giai đoạn 2023-2024?",
       "options": [
         "A. Doanh nghiệp đang điều chỉnh chiến lược để cân bằng giữa việc phát triển kỹ năng nội bộ và bổ sung nhân sự có kỹ năng cần thiết để đối phó với sự thay đổi trong thị trường.",
@@ -53740,7 +53738,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nTóm lược theo Tổng Cục Thống kê Việt Nam)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 112:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
       "question": "Trong bối cảnh doanh nghiệp tiếp cận xây dựng và phát triển nhân sự theo cách đã phân tích và mô tả qua khảo sát của Navigos Group, bạn nên làm gì để tăng cơ hội được tuyển dụng?",
       "options": [
         "A. Tham gia các buổi tư vấn tuyển dụng của các công ti tư vấn nghề nghiệp.",
@@ -53762,7 +53760,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nTóm lược theo Tổng Cục Thống kê Việt Nam)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 113 đến 115:\nTóm lược theo Tổng Cục Thống kê Việt Nam)",
       "question": "Nếu A được xếp vào S1 và Y thuộc S3, thì nhóm S3 có thể là phương án nào sau đây?",
       "options": [
         "A. X, C, Z",
@@ -53784,7 +53782,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nTóm lược theo Tổng Cục Thống kê Việt Nam)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 113 đến 115:\nTóm lược theo Tổng Cục Thống kê Việt Nam)",
       "question": "Nếu C và D ở S3, thì các học sinh ở trong nhóm S2 phải là:",
       "options": [
         "A. A và B",
@@ -53806,7 +53804,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nspecial.nhandan.vn)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 113 đến 115:\nTóm lược theo Tổng Cục Thống kê Việt Nam)",
       "question": "Cô giáo có thể chia 7 học sinh trên vào 3 nhóm một cách duy nhất nếu thêm những điều kiện sau đây, ngoại trừ?",
       "options": [
         "A. A ở S1 và C ở S2",
@@ -55532,7 +55530,7 @@ export const QUESTIONS_DATA = {
         "C. x = 10, y = 4",
         "D. x = 9, y = 6"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Chọn D",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
@@ -55730,7 +55728,7 @@ export const QUESTIONS_DATA = {
         "C. y = 2x + 1",
         "D. y = x + 1"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Chọn C Với + = + + = 2 1 1 1 m x x y x Phương trình đường thẳng đi qua 2 điểm cực trị của đồ thị hàm số là ( ) ( ) + + + = = = + + / 2 / 1 2 1 2 1 1 1 x x x y x x",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
@@ -56316,7 +56314,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n(1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^\\circ\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^\\circ\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
       "question": "Từ mô tả trên, nhận định nào sau đây là phù hợp nhất?",
       "options": [
         "A. Mực chất lỏng tăng nhanh lúc đầu rồi chậm dần.",
@@ -56338,7 +56336,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n(1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^\\circ\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^\\circ\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
       "question": "Nếu nhiệt độ của chất lỏng tăng từ 20 oC lên 50 oC , thì mực chất lỏng dâng lên thêm bao nhiêu mm so với ban đầu?",
       "options": [
         "A. 4 mm",
@@ -56360,7 +56358,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n(1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^\\circ\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^\\circ\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
       "question": "Nếu học sinh thay bình thủy tinh bằng bình kim loại mỏng (có giãn nở đáng kể), nhưng giữ nguyên chất lỏng và cách đun, thì mực chất lỏng quan sát được sẽ:",
       "options": [
         "A. Dâng lên nhiều hơn so với trường hợp bình thủy tinh.",
@@ -56382,7 +56380,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy. (Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nĐậu bắp (Abelmoschus esculentus) chứa các hợp chất sinh học có tiềm năng hạ đường huyết. Cơ chế tác động kép của dịch chiết đậu bắp: (1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
       "question": "Nhận định nào sau đây về tác dụng của dịch chiết đậu bắp là đúng?",
       "options": [
         "A. Ức chế hoàn toàn hoạt tính enzyme α-amylase.",
@@ -56404,7 +56402,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy. (Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nĐậu bắp (Abelmoschus esculentus) chứa các hợp chất sinh học có tiềm năng hạ đường huyết. Cơ chế tác động kép của dịch chiết đậu bắp: (1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
       "question": "Theo sơ đồ cơ chế, sự hoạt hóa con đường truyền tín hiệu PI3K/Akt trong tế bào đích dẫn đến hiện tượng nào sau đây?",
       "options": [
         "A. Giảm số lượng protein GLUT trên màng tế bào.",
@@ -56426,7 +56424,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy. (Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nĐậu bắp (Abelmoschus esculentus) chứa các hợp chất sinh học có tiềm năng hạ đường huyết. Cơ chế tác động kép của dịch chiết đậu bắp: (1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
       "question": "Cho các phát biểu về cơ chế điều hòa đường huyết của đậu bắp: I. Ức chế enzyme α-amylase giúp làm chậm hấp thu đường. II. Làm thay đổi cấu trúc của gene mã hóa protein GLUT. III. Thúc đẩy chuyển hóa glucose thành dự trữ glycogen. IV. Tăng đường huyết bằng cách ức chế thụ thể insulin. Trong số các phát biểu trên, có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -56448,7 +56446,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy.\n(Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
       "question": "Nội dung nào sau đây không phải là quy định của phường hội về nguyên liệu sản xuất?",
       "options": [
         "A. Liệt kê danh mục các hạng nguyên liệu được phép sử dụng.",
@@ -56470,7 +56468,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy.\n(Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
       "question": "Theo tư liệu, hành động nào sau đây bị điều lệ phường hội nghiêm cấm thực hiện?",
       "options": [
         "A. Tái sử dụng các bộ phận cũ để lắp ráp thành một sản phẩm mới.",
@@ -56492,7 +56490,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy.\n(Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
       "question": "Từ đoạn tư liệu và kiến thức thực tế, đặc điểm nổi bật nhất của nền kinh tế phường hội là gì?",
       "options": [
         "A. Tự do cạnh tranh về giá cả và chất lượng hàng hóa.",
@@ -56514,7 +56512,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nKhoảng 11 triệu thùng dầu/ngày và 140 tỷ m³ khí đốt bị gián đoạn, đẩy giá dầu thô vượt ngưỡng 100 USD/thùng và kéo theo mặt bằng giá năng lượng tăng mạnh. IEA nhận định tác động của cuộc khủng hoảng “không chỉ dừng ở giá nhiên liệu, mà đã lan sang lạm phát, chi phí nhập khẩu và tăng trưởng kinh tế”. Quy mô và mức độ ảnh hưởng được đánh giá vượt các cú sốc dầu mỏ thập niên 1970 - giai đoạn từng làm đảo lộn kinh tế toàn cầu, cũng như khủng hoảng năng lượng do xung đột Nga - Ukraine.Theo Cục Quản lý và Phát triển thị trường trong nước (Bộ Công Thương): Các nền kinh tế phụ thuộc vào năng lượng nhập khẩu, trong đó có Việt Nam dễ bị tổn thương trước các cú sốc địa chính trị. (Nguồn: https://nangluongvietnam.vn/khung-hoang-nhien-lieu-nang-luong-cach-the-gioi-va- viet-nam-ung-pho-35791.html)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nTrong bối cảnh khủng hoảng xăng dầu trên thế giới do ảnh hưởng của xung đột Trung Đông vẫn khó lường, việc đa dạng hoá nguồn cung để đáp ứng nhu cầu trong nước chính là giải pháp cấp bách bên cạnh các giải pháp căn cơ, lâu dài khác.\nTrong điều kiện bình thường, Việt Nam vẫn xuất khẩu một phần dầu thô khai thác trong nước và nhập khẩu một phần dầu thô nguyên liệu đầu vào để phục vụ sản xuất của nhà máy lọc dầu Dung Quất (Quảng Ngãi) và nhà máy lọc dầu Nghi Sơn (Thanh Hóa).\nLý giải về việc Việt Nam vừa xuất khẩu dầu thô nhưng lại nhập khẩu dầu thô để chế biến xăng dầu thành phẩm, Tiến sỹ Nguyễn Hồng Minh cho biết, đây là cấu trúc phổ biến của ngành năng lượng toàn cầu, khi nhiều quốc gia sản xuất dầu vẫn đồng thời xuất - nhập khẩu để tối ưu hóa chế biến, đa dạng nguồn cung, tăng tính linh hoạt của hệ thống lọc hoá dầu, bảo đảm an ninh năng lượng. Đối với Việt Nam, dầu thô được khai thác từ các mỏ khác nhau có chất lượng không đồng nhất trong khi mỗi nhà máy lọc dầu được thiết kế để xử lý những loại dầu có đặc tính kỹ thuật nhất định dựa trên các đặc tính như độ nhẹ-nặng, hàm lượng lưu huỳnh hoặc thành phần hóa học của dầu.\nTrước những biến động từ xung đột Trung Đông, Petrovietnam đã triển khai nhiều giải pháp như tăng dự trữ, tìm nguồn nhập mới, nâng công suất các nhà máy và đẩy mạnh sử dụng nhiên liệu sinh học. Đồng thời, nhiều giải pháp giảm tiêu thụ xăng dầu được đề xuất như phát triển giao thông công cộng, phương tiện điện và chuyển dịch vận tải.\n(Nguồn: Tổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
       "question": "Nguyên nhân chủ yếu khiến Việt Nam vẫn phải nhập khẩu dầu thô dù có khai thác trong nước là do",
       "options": [
         "A. yêu cầu tối ưu hóa chế biến và đa dạng hóa nguồn cung.",
@@ -56536,7 +56534,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nKhoảng 11 triệu thùng dầu/ngày và 140 tỷ m³ khí đốt bị gián đoạn, đẩy giá dầu thô vượt ngưỡng 100 USD/thùng và kéo theo mặt bằng giá năng lượng tăng mạnh. IEA nhận định tác động của cuộc khủng hoảng “không chỉ dừng ở giá nhiên liệu, mà đã lan sang lạm phát, chi phí nhập khẩu và tăng trưởng kinh tế”. Quy mô và mức độ ảnh hưởng được đánh giá vượt các cú sốc dầu mỏ thập niên 1970 - giai đoạn từng làm đảo lộn kinh tế toàn cầu, cũng như khủng hoảng năng lượng do xung đột Nga - Ukraine.Theo Cục Quản lý và Phát triển thị trường trong nước (Bộ Công Thương): Các nền kinh tế phụ thuộc vào năng lượng nhập khẩu, trong đó có Việt Nam dễ bị tổn thương trước các cú sốc địa chính trị. (Nguồn: https://nangluongvietnam.vn/khung-hoang-nhien-lieu-nang-luong-cach-the-gioi-va- viet-nam-ung-pho-35791.html)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nTrong bối cảnh khủng hoảng xăng dầu trên thế giới do ảnh hưởng của xung đột Trung Đông vẫn khó lường, việc đa dạng hoá nguồn cung để đáp ứng nhu cầu trong nước chính là giải pháp cấp bách bên cạnh các giải pháp căn cơ, lâu dài khác.\nTrong điều kiện bình thường, Việt Nam vẫn xuất khẩu một phần dầu thô khai thác trong nước và nhập khẩu một phần dầu thô nguyên liệu đầu vào để phục vụ sản xuất của nhà máy lọc dầu Dung Quất (Quảng Ngãi) và nhà máy lọc dầu Nghi Sơn (Thanh Hóa).\nLý giải về việc Việt Nam vừa xuất khẩu dầu thô nhưng lại nhập khẩu dầu thô để chế biến xăng dầu thành phẩm, Tiến sỹ Nguyễn Hồng Minh cho biết, đây là cấu trúc phổ biến của ngành năng lượng toàn cầu, khi nhiều quốc gia sản xuất dầu vẫn đồng thời xuất - nhập khẩu để tối ưu hóa chế biến, đa dạng nguồn cung, tăng tính linh hoạt của hệ thống lọc hoá dầu, bảo đảm an ninh năng lượng. Đối với Việt Nam, dầu thô được khai thác từ các mỏ khác nhau có chất lượng không đồng nhất trong khi mỗi nhà máy lọc dầu được thiết kế để xử lý những loại dầu có đặc tính kỹ thuật nhất định dựa trên các đặc tính như độ nhẹ-nặng, hàm lượng lưu huỳnh hoặc thành phần hóa học của dầu.\nTrước những biến động từ xung đột Trung Đông, Petrovietnam đã triển khai nhiều giải pháp như tăng dự trữ, tìm nguồn nhập mới, nâng công suất các nhà máy và đẩy mạnh sử dụng nhiên liệu sinh học. Đồng thời, nhiều giải pháp giảm tiêu thụ xăng dầu được đề xuất như phát triển giao thông công cộng, phương tiện điện và chuyển dịch vận tải.\n(Nguồn: Tổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
       "question": "Trong bối cảnh khủng hoảng năng lượng, giải pháp “đa dạng hóa nguồn cung” được nhấn mạnh chủ yếu nhằm",
       "options": [
         "A. thay thế hoàn toàn nguồn nhập khẩu xăng dầu thành phẩm.",
@@ -56558,7 +56556,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nKhoảng 11 triệu thùng dầu/ngày và 140 tỷ m³ khí đốt bị gián đoạn, đẩy giá dầu thô vượt ngưỡng 100 USD/thùng và kéo theo mặt bằng giá năng lượng tăng mạnh. IEA nhận định tác động của cuộc khủng hoảng “không chỉ dừng ở giá nhiên liệu, mà đã lan sang lạm phát, chi phí nhập khẩu và tăng trưởng kinh tế”. Quy mô và mức độ ảnh hưởng được đánh giá vượt các cú sốc dầu mỏ thập niên 1970 - giai đoạn từng làm đảo lộn kinh tế toàn cầu, cũng như khủng hoảng năng lượng do xung đột Nga - Ukraine.Theo Cục Quản lý và Phát triển thị trường trong nước (Bộ Công Thương): Các nền kinh tế phụ thuộc vào năng lượng nhập khẩu, trong đó có Việt Nam dễ bị tổn thương trước các cú sốc địa chính trị. (Nguồn: https://nangluongvietnam.vn/khung-hoang-nhien-lieu-nang-luong-cach-the-gioi-va- viet-nam-ung-pho-35791.html)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nTrong bối cảnh khủng hoảng xăng dầu trên thế giới do ảnh hưởng của xung đột Trung Đông vẫn khó lường, việc đa dạng hoá nguồn cung để đáp ứng nhu cầu trong nước chính là giải pháp cấp bách bên cạnh các giải pháp căn cơ, lâu dài khác.\nTrong điều kiện bình thường, Việt Nam vẫn xuất khẩu một phần dầu thô khai thác trong nước và nhập khẩu một phần dầu thô nguyên liệu đầu vào để phục vụ sản xuất của nhà máy lọc dầu Dung Quất (Quảng Ngãi) và nhà máy lọc dầu Nghi Sơn (Thanh Hóa).\nLý giải về việc Việt Nam vừa xuất khẩu dầu thô nhưng lại nhập khẩu dầu thô để chế biến xăng dầu thành phẩm, Tiến sỹ Nguyễn Hồng Minh cho biết, đây là cấu trúc phổ biến của ngành năng lượng toàn cầu, khi nhiều quốc gia sản xuất dầu vẫn đồng thời xuất - nhập khẩu để tối ưu hóa chế biến, đa dạng nguồn cung, tăng tính linh hoạt của hệ thống lọc hoá dầu, bảo đảm an ninh năng lượng. Đối với Việt Nam, dầu thô được khai thác từ các mỏ khác nhau có chất lượng không đồng nhất trong khi mỗi nhà máy lọc dầu được thiết kế để xử lý những loại dầu có đặc tính kỹ thuật nhất định dựa trên các đặc tính như độ nhẹ-nặng, hàm lượng lưu huỳnh hoặc thành phần hóa học của dầu.\nTrước những biến động từ xung đột Trung Đông, Petrovietnam đã triển khai nhiều giải pháp như tăng dự trữ, tìm nguồn nhập mới, nâng công suất các nhà máy và đẩy mạnh sử dụng nhiên liệu sinh học. Đồng thời, nhiều giải pháp giảm tiêu thụ xăng dầu được đề xuất như phát triển giao thông công cộng, phương tiện điện và chuyển dịch vận tải.\n(Nguồn: Tổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
       "question": "Việc kết hợp các giải pháp tăng nguồn cung và giảm nhu cầu tiêu thụ xăng dầu chủ yếu nhằm đạt mục tiêu nào sau đây?",
       "options": [
         "A. Từng bước thay thế hoàn toàn nhiên liệu hóa thạch bằng các nguồn năng lượng mới.",
@@ -57998,7 +57996,7 @@ export const QUESTIONS_DATA = {
         "C. y = 2x + 1",
         "D. y = x + 1"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Chọn C Với + = + + = 2 1 1 1 m x x y x Phương trình đường thẳng đi qua 2 điểm cực trị của đồ thị hàm số là ( ) ( ) + + + = = = + + / 2 / 1 2 1 2 1 1 1 x x x y x x",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -58219,7 +58217,7 @@ export const QUESTIONS_DATA = {
         "D. 12"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 65] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Với $x = 2, y = 3 \\implies xy = 6$, thỏa mãn điều kiện bài toán. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -58562,15 +58560,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n\\bullet A, B, C, D thuộc khối 1 \\bullet X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. \\bullet Nhóm S1 có 2 học sinh \\bullet Nhóm S2 có 2 học sinh \\bullet Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: \\bullet Mỗi học sinh chỉ thuộc đúng một nhóm. \\bullet Nhóm S2 bắt buộc phải có X \\bullet Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 \\bullet Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 \\bullet Nếu Y ở S3 thì D cũng phải ở S3",
-      "question": "Nếu nhiệt độ của chất lỏng tăng từ 20 oC lên 50 oC , thì mực chất lỏng dâng lên thêm bao nhiêu mm so với ban đầu?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^\\circ\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^\\circ\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
+      "question": "Nếu nhiệt độ của chất lỏng tăng từ $20^\\circ\\text{C}$ lên $50^\\circ\\text{C}$, thì mực chất lỏng dâng lên thêm bao nhiêu mm so với ban đầu?",
       "options": [
         "A. 4 mm",
         "B. 6 mm",
         "C. 8 mm",
         "D. 10 mm"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Quy tắc tam suất: 20 t \\Delta = oC mm 30 t \\Delta = oC 6 h \\Delta = mm",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
@@ -58584,7 +58582,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n\\bullet A, B, C, D thuộc khối 1 \\bullet X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. \\bullet Nhóm S1 có 2 học sinh \\bullet Nhóm S2 có 2 học sinh \\bullet Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: \\bullet Mỗi học sinh chỉ thuộc đúng một nhóm. \\bullet Nhóm S2 bắt buộc phải có X \\bullet Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 \\bullet Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 \\bullet Nếu Y ở S3 thì D cũng phải ở S3",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 91 và 92:\nMột nhóm học sinh nghiên cứu sự giãn nở vì nhiệt của chất lỏng. Họ dùng một bình thủy tinh mỏng, trong đó chứa đầy chất lỏng màu. Ở nhiệt độ ban đầu $20^\\circ\\text{C}$, mực chất lỏng vừa chạm vạch 0 trên thang đo.\nKhi nhiệt độ tăng, học sinh quan sát thấy:\n- Khi nhiệt độ tăng thêm $20^\\circ\\text{C}$, mực chất lỏng dâng lên $4\\text{ mm}$.\n- Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ.\nGiả sử bình thủy tinh không nở đáng kể so với chất lỏng; thang đo chia đều theo chiều cao.",
       "question": "Nếu học sinh thay bình thủy tinh bằng bình kim loại mỏng (có giãn nở đáng kể), nhưng giữ nguyên chất lỏng và cách đun, thì mực chất lỏng quan sát được sẽ:",
       "options": [
         "A. Dâng lên nhiều hơn so với trường hợp bình thủy tinh.",
@@ -58592,7 +58590,7 @@ export const QUESTIONS_DATA = {
         "C. Không thay đổi so với trường hợp bình thủy tinh.",
         "D. Không thể dự đoán theo thông tin đã cho."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "- Chất lỏng nở vì nhiệt mực dâng lên - Bình thủy tinh giãn nở không đáng kể - Bình kim loại giãn nở đáng kể thể tích bình tăng - Thể tích bình tăng sẽ bù bớt phần nở của chất lỏng mực dâng ít hơn",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
@@ -58606,7 +58604,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n\\bullet A, B, C, D thuộc khối 1 \\bullet X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. \\bullet Nhóm S1 có 2 học sinh \\bullet Nhóm S2 có 2 học sinh \\bullet Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: \\bullet Mỗi học sinh chỉ thuộc đúng một nhóm. \\bullet Nhóm S2 bắt buộc phải có X \\bullet Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 \\bullet Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 \\bullet Nếu Y ở S3 thì D cũng phải ở S3",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 93 đến 95:\nĐậu bắp (Abelmoschus esculentus) chứa các hợp chất sinh học có tiềm năng hạ đường huyết. Cơ chế tác động kép của dịch chiết đậu bắp: (1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
       "question": "Nhận định nào sau đây về tác dụng của dịch chiết đậu bắp là đúng?",
       "options": [
         "A. Ức chế hoàn toàn hoạt tính enzyme α-amylase.",
@@ -58628,7 +58626,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nC, D, E, F, J, S; mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau: có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất; nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S; E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 93 đến 95:\nĐậu bắp (Abelmoschus esculentus) chứa các hợp chất sinh học có tiềm năng hạ đường huyết. Cơ chế tác động kép của dịch chiết đậu bắp: (1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
       "question": "Theo sơ đồ cơ chế, sự hoạt hóa con đường truyền tín hiệu PI3K/Akt trong tế bào đích dẫn đến hiện tượng nào sau đây?",
       "options": [
         "A. Giảm số lượng protein GLUT trên màng tế bào.",
@@ -58650,7 +58648,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nC, D, E, F, J, S; mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau: có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất; nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S; E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 93 đến 95:\nĐậu bắp (Abelmoschus esculentus) chứa các hợp chất sinh học có tiềm năng hạ đường huyết. Cơ chế tác động kép của dịch chiết đậu bắp: (1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
       "question": "Cho các phát biểu về cơ chế điều hòa đường huyết của đậu bắp: I. Ức chế enzyme α-amylase giúp làm chậm hấp thu đường. II. Làm thay đổi cấu trúc của gene mã hóa protein GLUT. III. Thúc đẩy chuyển hóa glucose thành dự trữ glycogen. IV. Tăng đường huyết bằng cách ức chế thụ thể insulin. Trong số các phát biểu trên, có bao nhiêu phát biểu đúng?",
       "options": [
         "A. 1",
@@ -58672,7 +58670,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nC, D, E, F, J, S; mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau: có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất; nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S; E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 98:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy.\n(Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
       "question": "Nội dung nào sau đây không phải là quy định của phường hội về nguyên liệu sản xuất?",
       "options": [
         "A. Liệt kê danh mục các hạng nguyên liệu được phép sử dụng.",
@@ -58694,7 +58692,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 98:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy.\n(Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
       "question": "Theo tư liệu, hành động nào sau đây bị điều lệ phường hội nghiêm cấm thực hiện?",
       "options": [
         "A. Tái sử dụng các bộ phận cũ để lắp ráp thành một sản phẩm mới.",
@@ -58716,7 +58714,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 96 đến 98:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy.\n(Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
       "question": "Từ đoạn tư liệu và kiến thức thực tế, đặc điểm nổi bật nhất của nền kinh tế phường hội là gì?",
       "options": [
         "A. Tự do cạnh tranh về giá cả và chất lượng hàng hóa.",
@@ -58738,7 +58736,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 99 đến 101:\nTrong bối cảnh khủng hoảng xăng dầu trên thế giới do ảnh hưởng của xung đột Trung Đông vẫn khó lường, việc đa dạng hoá nguồn cung để đáp ứng nhu cầu trong nước chính là giải pháp cấp bách bên cạnh các giải pháp căn cơ, lâu dài khác.\nTrong điều kiện bình thường, Việt Nam vẫn xuất khẩu một phần dầu thô khai thác trong nước và nhập khẩu một phần dầu thô nguyên liệu đầu vào để phục vụ sản xuất của nhà máy lọc dầu Dung Quất (Quảng Ngãi) và nhà máy lọc dầu Nghi Sơn (Thanh Hóa).\nLý giải về việc Việt Nam vừa xuất khẩu dầu thô nhưng lại nhập khẩu dầu thô để chế biến xăng dầu thành phẩm, Tiến sỹ Nguyễn Hồng Minh cho biết, đây là cấu trúc phổ biến của ngành năng lượng toàn cầu, khi nhiều quốc gia sản xuất dầu vẫn đồng thời xuất - nhập khẩu để tối ưu hóa chế biến, đa dạng nguồn cung, tăng tính linh hoạt của hệ thống lọc hoá dầu, bảo đảm an ninh năng lượng. Đối với Việt Nam, dầu thô được khai thác từ các mỏ khác nhau có chất lượng không đồng nhất trong khi mỗi nhà máy lọc dầu được thiết kế để xử lý những loại dầu có đặc tính kỹ thuật nhất định dựa trên các đặc tính như độ nhẹ-nặng, hàm lượng lưu huỳnh hoặc thành phần hóa học của dầu.\nTrước những biến động từ xung đột Trung Đông, Petrovietnam đã triển khai nhiều giải pháp như tăng dự trữ, tìm nguồn nhập mới, nâng công suất các nhà máy và đẩy mạnh sử dụng nhiên liệu sinh học. Đồng thời, nhiều giải pháp giảm tiêu thụ xăng dầu được đề xuất như phát triển giao thông công cộng, phương tiện điện và chuyển dịch vận tải.\n(Nguồn: Tổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
       "question": "Nguyên nhân chủ yếu khiến Việt Nam vẫn phải nhập khẩu dầu thô dù có khai thác trong nước là do",
       "options": [
         "A. yêu cầu tối ưu hóa chế biến và đa dạng hóa nguồn cung.",
@@ -58760,7 +58758,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 99 đến 101:\nTrong bối cảnh khủng hoảng xăng dầu trên thế giới do ảnh hưởng của xung đột Trung Đông vẫn khó lường, việc đa dạng hoá nguồn cung để đáp ứng nhu cầu trong nước chính là giải pháp cấp bách bên cạnh các giải pháp căn cơ, lâu dài khác.\nTrong điều kiện bình thường, Việt Nam vẫn xuất khẩu một phần dầu thô khai thác trong nước và nhập khẩu một phần dầu thô nguyên liệu đầu vào để phục vụ sản xuất của nhà máy lọc dầu Dung Quất (Quảng Ngãi) và nhà máy lọc dầu Nghi Sơn (Thanh Hóa).\nLý giải về việc Việt Nam vừa xuất khẩu dầu thô nhưng lại nhập khẩu dầu thô để chế biến xăng dầu thành phẩm, Tiến sỹ Nguyễn Hồng Minh cho biết, đây là cấu trúc phổ biến của ngành năng lượng toàn cầu, khi nhiều quốc gia sản xuất dầu vẫn đồng thời xuất - nhập khẩu để tối ưu hóa chế biến, đa dạng nguồn cung, tăng tính linh hoạt của hệ thống lọc hoá dầu, bảo đảm an ninh năng lượng. Đối với Việt Nam, dầu thô được khai thác từ các mỏ khác nhau có chất lượng không đồng nhất trong khi mỗi nhà máy lọc dầu được thiết kế để xử lý những loại dầu có đặc tính kỹ thuật nhất định dựa trên các đặc tính như độ nhẹ-nặng, hàm lượng lưu huỳnh hoặc thành phần hóa học của dầu.\nTrước những biến động từ xung đột Trung Đông, Petrovietnam đã triển khai nhiều giải pháp như tăng dự trữ, tìm nguồn nhập mới, nâng công suất các nhà máy và đẩy mạnh sử dụng nhiên liệu sinh học. Đồng thời, nhiều giải pháp giảm tiêu thụ xăng dầu được đề xuất như phát triển giao thông công cộng, phương tiện điện và chuyển dịch vận tải.\n(Nguồn: Tổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
       "question": "Trong bối cảnh khủng hoảng năng lượng, giải pháp “đa dạng hóa nguồn cung” được nhấn mạnh chủ yếu nhằm",
       "options": [
         "A. thay thế hoàn toàn nguồn nhập khẩu xăng dầu thành phẩm.",
@@ -58782,7 +58780,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 99 đến 101:\nTrong bối cảnh khủng hoảng xăng dầu trên thế giới do ảnh hưởng của xung đột Trung Đông vẫn khó lường, việc đa dạng hoá nguồn cung để đáp ứng nhu cầu trong nước chính là giải pháp cấp bách bên cạnh các giải pháp căn cơ, lâu dài khác.\nTrong điều kiện bình thường, Việt Nam vẫn xuất khẩu một phần dầu thô khai thác trong nước và nhập khẩu một phần dầu thô nguyên liệu đầu vào để phục vụ sản xuất của nhà máy lọc dầu Dung Quất (Quảng Ngãi) và nhà máy lọc dầu Nghi Sơn (Thanh Hóa).\nLý giải về việc Việt Nam vừa xuất khẩu dầu thô nhưng lại nhập khẩu dầu thô để chế biến xăng dầu thành phẩm, Tiến sỹ Nguyễn Hồng Minh cho biết, đây là cấu trúc phổ biến của ngành năng lượng toàn cầu, khi nhiều quốc gia sản xuất dầu vẫn đồng thời xuất - nhập khẩu để tối ưu hóa chế biến, đa dạng nguồn cung, tăng tính linh hoạt của hệ thống lọc hoá dầu, bảo đảm an ninh năng lượng. Đối với Việt Nam, dầu thô được khai thác từ các mỏ khác nhau có chất lượng không đồng nhất trong khi mỗi nhà máy lọc dầu được thiết kế để xử lý những loại dầu có đặc tính kỹ thuật nhất định dựa trên các đặc tính như độ nhẹ-nặng, hàm lượng lưu huỳnh hoặc thành phần hóa học của dầu.\nTrước những biến động từ xung đột Trung Đông, Petrovietnam đã triển khai nhiều giải pháp như tăng dự trữ, tìm nguồn nhập mới, nâng công suất các nhà máy và đẩy mạnh sử dụng nhiên liệu sinh học. Đồng thời, nhiều giải pháp giảm tiêu thụ xăng dầu được đề xuất như phát triển giao thông công cộng, phương tiện điện và chuyển dịch vận tải.\n(Nguồn: Tổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
       "question": "Việc kết hợp các giải pháp tăng nguồn cung và giảm nhu cầu tiêu thụ xăng dầu chủ yếu nhằm đạt mục tiêu nào sau đây?",
       "options": [
         "A. Từng bước thay thế hoàn toàn nhiên liệu hóa thạch bằng các nguồn năng lượng mới.",
@@ -58804,8 +58802,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
-      "question": "ánh nội dung khái niệm nào dưới đây?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 104:\nCơ quan Năng lượng Quốc tế (IEA) ngày 22/3 cảnh báo gián đoạn tại eo biển Hormuz đang tạo ra “nút thắt năng lượng lớn nhất từ trước tới nay” - khi tuyến vận chuyển khoảng 20% nguồn cung dầu, khí toàn cầu gần như tê liệt kể từ cuối tháng 2. Theo IEA: Khoảng 11 triệu thùng dầu/ngày và 140 tỷ m³ khí đốt bị gián đoạn, đẩy giá dầu thô vượt ngưỡng 100 USD/thùng và kéo theo mặt bằng giá năng lượng tăng mạnh. IEA nhận định tác động của cuộc khủng hoảng “không chỉ dừng ở giá nhiên liệu, mà đã lan sang lạm phát, chi phí nhập khẩu và tăng trưởng kinh tế”. Quy mô và mức độ ảnh hưởng được đánh giá vượt các cú sốc dầu mỏ thập niên 1970 - giai đoạn từng làm đảo lộn kinh tế toàn cầu, cũng như khủng hoảng năng lượng do xung đột Nga - Ukraine. Theo Cục Quản lý và Phát triển thị trường trong nước (Bộ Công Thương): Các nền kinh tế phụ thuộc vào năng lượng nhập khẩu, trong đó có Việt Nam dễ bị tổn thương trước các cú sốc địa chính trị.\n(Nguồn: https://nangluongvietnam.vn/khung-hoang-nhien-lieu-nang-luong-cach-the-gioi-va-viet-nam-ung-pho-35791.html)",
+      "question": "Theo thông tin trên, việc giá dầu thô và mặt bằng giá năng lượng tăng mạnh dẫn đến sự tăng mức giá chung của hàng hóa, dịch vụ một cách nhanh chóng phản ánh nội dung khái niệm nào dưới đây?",
       "options": [
         "A. Thất nghiệp cơ cấu.",
         "B. Tăng trưởng kinh tế.",
@@ -58826,7 +58824,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 104:\nCơ quan Năng lượng Quốc tế (IEA) ngày 22/3 cảnh báo gián đoạn tại eo biển Hormuz đang tạo ra “nút thắt năng lượng lớn nhất từ trước tới nay” - khi tuyến vận chuyển khoảng 20% nguồn cung dầu, khí toàn cầu gần như tê liệt kể từ cuối tháng 2. Theo IEA: Khoảng 11 triệu thùng dầu/ngày và 140 tỷ m³ khí đốt bị gián đoạn, đẩy giá dầu thô vượt ngưỡng 100 USD/thùng và kéo theo mặt bằng giá năng lượng tăng mạnh. IEA nhận định tác động của cuộc khủng hoảng “không chỉ dừng ở giá nhiên liệu, mà đã lan sang lạm phát, chi phí nhập khẩu và tăng trưởng kinh tế”. Quy mô và mức độ ảnh hưởng được đánh giá vượt các cú sốc dầu mỏ thập niên 1970 - giai đoạn từng làm đảo lộn kinh tế toàn cầu, cũng như khủng hoảng năng lượng do xung đột Nga - Ukraine. Theo Cục Quản lý và Phát triển thị trường trong nước (Bộ Công Thương): Các nền kinh tế phụ thuộc vào năng lượng nhập khẩu, trong đó có Việt Nam dễ bị tổn thương trước các cú sốc địa chính trị.\n(Nguồn: https://nangluongvietnam.vn/khung-hoang-nhien-lieu-nang-luong-cach-the-gioi-va-viet-nam-ung-pho-35791.html)",
       "question": "Vấn đề lạm phát mà nền kinh tế đang phải đối mặt do nguyên nhân nào dưới đây?",
       "options": [
         "A. Lạm phát do chi phí đẩy.",
@@ -58848,7 +58846,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 102 đến 104:\nCơ quan Năng lượng Quốc tế (IEA) ngày 22/3 cảnh báo gián đoạn tại eo biển Hormuz đang tạo ra “nút thắt năng lượng lớn nhất từ trước tới nay” - khi tuyến vận chuyển khoảng 20% nguồn cung dầu, khí toàn cầu gần như tê liệt kể từ cuối tháng 2. Theo IEA: Khoảng 11 triệu thùng dầu/ngày và 140 tỷ m³ khí đốt bị gián đoạn, đẩy giá dầu thô vượt ngưỡng 100 USD/thùng và kéo theo mặt bằng giá năng lượng tăng mạnh. IEA nhận định tác động của cuộc khủng hoảng “không chỉ dừng ở giá nhiên liệu, mà đã lan sang lạm phát, chi phí nhập khẩu và tăng trưởng kinh tế”. Quy mô và mức độ ảnh hưởng được đánh giá vượt các cú sốc dầu mỏ thập niên 1970 - giai đoạn từng làm đảo lộn kinh tế toàn cầu, cũng như khủng hoảng năng lượng do xung đột Nga - Ukraine. Theo Cục Quản lý và Phát triển thị trường trong nước (Bộ Công Thương): Các nền kinh tế phụ thuộc vào năng lượng nhập khẩu, trong đó có Việt Nam dễ bị tổn thương trước các cú sốc địa chính trị.\n(Nguồn: https://nangluongvietnam.vn/khung-hoang-nhien-lieu-nang-luong-cach-the-gioi-va-viet-nam-ung-pho-35791.html)",
       "question": "Để ứng phó với tình trạng giá xăng dầu tăng cao do tác động của cuộc khủng hoảng năng lượng, công dân không thực hiện hành vi nào dưới đây?",
       "options": [
         "A. Tính toán, cân nhắc các khoản chi (kể cả thiết yếu) để tránh thâm hụt tài chính.",
@@ -58870,7 +58868,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 105 đến 107:\nTrên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau:\n- I xếp ở vị trí thứ 7.\n- Có ít nhất 5 hũ gia vị được xếp bên phải A.\n- E xếp bên phải D nhưng bên trái A.\n- Có 3 hũ gia vị được xếp ở giữa E và F.\n- B xếp cạnh G.",
       "question": "Liệt kê nào sau đây có thể là cách sắp xếp phù hợp các hũ gia vị theo yêu cầu?",
       "options": [
         "A. F, H, D, C, E, A, I, B, G.",
@@ -58892,7 +58890,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nQuy ước nhiệt độ đông đặc của nước là 0°C và nhiệt độ sôi của nước là 100°C (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là 37°C. - Thang Fahrenheit (°F): Quy ước nhiệt độ đông đặc của nước là 32°F và nhiệt độ sôi của nước là 212°F (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 105 đến 107:\nTrên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau:\n- I xếp ở vị trí thứ 7.\n- Có ít nhất 5 hũ gia vị được xếp bên phải A.\n- E xếp bên phải D nhưng bên trái A.\n- Có 3 hũ gia vị được xếp ở giữa E và F.\n- B xếp cạnh G.",
       "question": "B không thể được xếp ở vị trí nào dưới đây?",
       "options": [
         "A. Thứ 3.",
@@ -58914,7 +58912,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nQuy ước nhiệt độ đông đặc của nước là 0°C và nhiệt độ sôi của nước là 100°C (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là 37°C. - Thang Fahrenheit (°F): Quy ước nhiệt độ đông đặc của nước là 32°F và nhiệt độ sôi của nước là 212°F (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 105 đến 107:\nTrên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau:\n- I xếp ở vị trí thứ 7.\n- Có ít nhất 5 hũ gia vị được xếp bên phải A.\n- E xếp bên phải D nhưng bên trái A.\n- Có 3 hũ gia vị được xếp ở giữa E và F.\n- B xếp cạnh G.",
       "question": "Hai hũ gia vị nào sau đây luôn có ít nhất một hũ được xếp ở giữa E và F?",
       "options": [
         "A. B và G.",
@@ -58936,7 +58934,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nQuy ước nhiệt độ đông đặc của nước là 0°C và nhiệt độ sôi của nước là 100°C (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là 37°C. - Thang Fahrenheit (°F): Quy ước nhiệt độ đông đặc của nước là 32°F và nhiệt độ sôi của nước là 212°F (ở áp suất 1 atm). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 110:\nMột hãng xe hơi có 3 nhà máy I, II, III cùng sản xuất 6 dòng xe C, D, E, F, J, S. Mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau:\n- Có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất.\n- Nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S.\n- E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
       "question": "Liệt kê nào sau đây là danh sách đầy đủ và chính xác các nhà máy có thể sản xuất S?",
       "options": [
         "A. I, II, III.",
@@ -58958,11 +58956,11 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n(1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 110:\nMột hãng xe hơi có 3 nhà máy I, II, III cùng sản xuất 6 dòng xe C, D, E, F, J, S. Mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau:\n- Có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất.\n- Nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S.\n- E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
       "question": "Nếu Nhà máy I và II sản xuất 3 dòng xe thì dòng xe nào sau đây có thể được cả 3 nhà máy cùng sản xuất?",
       "options": [
         "A. E.",
-        "B.",
+        "B. D.",
         "C. S.",
         "D. J."
       ],
@@ -58980,15 +58978,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n(1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 108 đến 110:\nMột hãng xe hơi có 3 nhà máy I, II, III cùng sản xuất 6 dòng xe C, D, E, F, J, S. Mỗi nhà máy sản xuất 3 hoặc 4 dòng xe. Sự sắp xếp thỏa mãn các điều kiện sau:\n- Có ít nhất 3 dòng xe được Nhà máy I sản xuất thì cũng được Nhà máy II sản xuất.\n- Nhà máy nào sản xuất dòng xe C hoặc D thì không sản xuất dòng xe S.\n- E và F dùng chung loại động cơ nên luôn được sản xuất chung với nhau.",
       "question": "Nếu mỗi Nhà máy sản xuất đúng 4 dòng xe thì Nhà máy I phải sản xuất dòng xe nào sau đây?",
       "options": [
         "A. E.",
-        "B.",
+        "B. D.",
         "C. S.",
         "D. J."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 96] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -59002,11 +59000,11 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n(1) ức chế hoạt động của enzyme $\\alpha$-amylase trong ống tiêu hóa, làm giảm sự phân giải các carbohydrate phức tạp thành đường đơn; (2) liên kết với protein thụ thể insulin trên màng tế bào, thúc đẩy chuỗi truyền tín hiệu nội bào (IRS-1, PI3K, Akt). Tín hiệu này làm tăng cường di chuyển các protein kênh GLUT lên màng để hấp thu glucose, đồng thời tăng cường tổng hợp glycogen dự trữ tại gan và cơ.\n\nĐể kiểm chứng hiệu quả in vivo, một thí nghiệm được tiến hành trên 4 lô chuột (10 con/lô) trong 4 tuần. Kết quả đo nồng độ glucose máu lúc đói và hoạt tính enzyme $\\alpha$-amylase ở ruột non được thể hiện ở Bảng 1:\n\n| Lô thí nghiệm | Nhóm chuột | Nồng độ glucose máu (mmol/L) | Hoạt tính enzyme $\\alpha$-amylase (U/mg) |\n|:---:|:---|:---:|:---:|\n| Lô 1 | Chuột khỏe mạnh bình thường uống nước cất | 5,2 | 12,5 |\n| Lô 2 | Chuột bị đái tháo đường (T2D) uống nước cất | 14,8 | 28,4 |\n| Lô 3 | Chuột T2D uống 100 mg/kg dịch chiết đậu bắp | 9,5 | 18,2 |\n| Lô 4 | Chuột T2D uống 200 mg/kg dịch chiết đậu bắp | 6,8 | 14,1 |\n\n*(Nguồn: Mokgalaboni K, Phoswa WN, Hanser S, Lebelo SL. Investigating the Impact of Abelmoschus esculentus on Glycemia and Insulin Resistance in Type 2 Diabetes and Prediabetes. Plants. 2026; 15(5):817).*",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 111 đến 113:\nBảng thống kê chi phí chiến tranh của Pháp và viện trợ của Mỹ ở chiến trường Đông Dương giai đoạn 1950 – 1954:\n\n| Năm | Tổng chi phí chiến tranh (tỷ phrăng) | Viện trợ của Mỹ (tỷ phrăng) |\n|:---:|:---:|:---:|\n| 1950 | 275 | 52 |\n| 1951 | 380 | 62 |\n| 1952 | 535 | 185 |\n| 1953 | 700 | 311 |\n| 1954 | 775 | 555 |\n\n*(Nguồn: Tư liệu Lịch sử quân sự và quan hệ quốc tế giai đoạn 1950 – 1954)*.",
       "question": "Trong giai đoạn 1950 - 1954, năm nào ghi nhận tỷ trọng viện trợ của Mỹ chiếm hơn một nửa tổng chi phí chiến tranh của Pháp ở Đông Dương?",
       "options": [
         "A. 1951",
-        "B. 1952",
+        "B. D.",
         "C. 1953",
         "D. 1954"
       ],
@@ -59024,7 +59022,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy. (Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 111 đến 113:\nBảng thống kê chi phí chiến tranh của Pháp và viện trợ của Mỹ ở chiến trường Đông Dương giai đoạn 1950 – 1954:\n\n| Năm | Tổng chi phí chiến tranh (tỷ phrăng) | Viện trợ của Mỹ (tỷ phrăng) |\n|:---:|:---:|:---:|\n| 1950 | 275 | 52 |\n| 1951 | 380 | 62 |\n| 1952 | 535 | 185 |\n| 1953 | 700 | 311 |\n| 1954 | 775 | 555 |\n\n*(Nguồn: Tư liệu Lịch sử quân sự và quan hệ quốc tế giai đoạn 1950 – 1954)*.",
       "question": "Tổng chi phí chiến tranh của Pháp tại Đông Dương năm 1954 đã tăng xấp xỉ bao nhiêu phần trăm so với năm 1950?",
       "options": [
         "A. 154,5%.",
@@ -59046,7 +59044,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy. (Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 111 đến 113:\nBảng thống kê chi phí chiến tranh của Pháp và viện trợ của Mỹ ở chiến trường Đông Dương giai đoạn 1950 – 1954:\n\n| Năm | Tổng chi phí chiến tranh (tỷ phrăng) | Viện trợ của Mỹ (tỷ phrăng) |\n|:---:|:---:|:---:|\n| 1950 | 275 | 52 |\n| 1951 | 380 | 62 |\n| 1952 | 535 | 185 |\n| 1953 | 700 | 311 |\n| 1954 | 775 | 555 |\n\n*(Nguồn: Tư liệu Lịch sử quân sự và quan hệ quốc tế giai đoạn 1950 – 1954)*.",
       "question": "Xét phần chi phí chiến tranh mà Pháp tự chi trả (sau khi trừ đi khoản viện trợ của Mỹ), nhận định nào sau đây là chính xác?",
       "options": [
         "A. Phần chi phí tự túc của Pháp tăng thêm 101 tỷ phrăng.",
@@ -59054,7 +59052,7 @@ export const QUESTIONS_DATA = {
         "C. Phần chi phí tự túc của Pháp giảm đi 101 tỷ phrăng.",
         "D. Phần chi phí tự túc của Pháp giảm đi 169 tỷ phrăng."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 99] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
@@ -59068,7 +59066,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nĐiều lệ phường hội đã phân ranh giới nghề nghiệp bằng việc điểm danh sản phẩm của các nghiệp đoàn khác nhau; nó còn ghi cả nơi làm việc của người thợ cả phường hội và cấm làm việc ở những chỗ kín, không ai đến được. Phường hội quan tâm đặc biệt đến việc tranh giành nguyên liệu tốt. Cái quy chế tiêu cực đó đã đưa đến chỗ tạo nên một danh mục nguyên liệu cấm, kèm theo việc điểm danh các hạng nguyên liệu được phép dùng. Điều lệ phường hội cho phép làm một số chi tiết đặc biệt bằng những hạng nguyên liệu nào đó. Điều lệ cấm ngặt việc làm hỏng nguyên liệu, kể cả việc làm xấu nó đi chút ít bằng cách thêm vào đó các nguyên liệu giả rẻ. Nó nêu lên nguyên tắc sản phẩm phải đồng nhất về nguyên liệu, đồng thời cấm sử dụng các chi tiết cũ và sửa lại toàn bộ một sản phẩm. Ngoài ra, điều lệ phường hội còn nêu một định nghĩa chặt chẽ các dấu hiệu của nguyên liệu tốt. Phường hội kiểm tra việc mua nguyên liệu của các thợ cả vì sợ họ dùng nguyên liệu xấu. Quy chế sử dụng các vật liệu phụ cần thiết cho các loại sản xuất khác nhau của phường hội cũng tương tự như vậy. (Theo F.Ia. Pô-li-an-xki, Lịch sử kinh tế các nước, Sđd, tr. 367 - 368)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\nBảng thống kê tỷ trọng các loại mục tiêu bị không quân Mỹ đánh phá ở miền Bắc Việt Nam qua hai giai đoạn chiến tranh phá hoại:\n\n| Loại mục tiêu | Tỷ trọng giai đoạn 1965 – 1968 (%) | Tỷ trọng giai đoạn 1969 – 1972 (%) |\n|:---|:---:|:---:|\n| Giao thông vận tải | 52,3 | 63,6 |\n| Kinh tế | 6,7 | 9,4 |\n| Quân sự | 10,1 | 8,8 |\n| Dân cư | 30,9 | 18,2 |\n| **Tổng cộng** | **100,0** | **100,0** |\n\n*(Nguồn: Tư liệu Lịch sử Kháng chiến chống Mỹ cứu nước 1954 – 1975)*.",
       "question": "Trong giai đoạn 1965 - 1968, loại mục tiêu nào chiếm tỷ trọng cao nhất trong các đợt đánh phá của không quân Mỹ?",
       "options": [
         "A. Quân sự.",
@@ -59090,7 +59088,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\nBảng thống kê tỷ trọng các loại mục tiêu bị không quân Mỹ đánh phá ở miền Bắc Việt Nam qua hai giai đoạn chiến tranh phá hoại:\n\n| Loại mục tiêu | Tỷ trọng giai đoạn 1965 – 1968 (%) | Tỷ trọng giai đoạn 1969 – 1972 (%) |\n|:---|:---:|:---:|\n| Giao thông vận tải | 52,3 | 63,6 |\n| Kinh tế | 6,7 | 9,4 |\n| Quân sự | 10,1 | 8,8 |\n| Dân cư | 30,9 | 18,2 |\n| **Tổng cộng** | **100,0** | **100,0** |\n\n*(Nguồn: Tư liệu Lịch sử Kháng chiến chống Mỹ cứu nước 1954 – 1975)*.",
       "question": "So với giai đoạn 1965 - 1968, tỷ trọng số lần đánh phá vào mục tiêu “Kinh tế” ở giai đoạn 1969 - 1972 đã thay đổi như thế nào?",
       "options": [
         "A. Giảm 2,7 điểm phần trăm.",
@@ -59112,7 +59110,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 114 đến 116:\nBảng thống kê tỷ trọng các loại mục tiêu bị không quân Mỹ đánh phá ở miền Bắc Việt Nam qua hai giai đoạn chiến tranh phá hoại:\n\n| Loại mục tiêu | Tỷ trọng giai đoạn 1965 – 1968 (%) | Tỷ trọng giai đoạn 1969 – 1972 (%) |\n|:---|:---:|:---:|\n| Giao thông vận tải | 52,3 | 63,6 |\n| Kinh tế | 6,7 | 9,4 |\n| Quân sự | 10,1 | 8,8 |\n| Dân cư | 30,9 | 18,2 |\n| **Tổng cộng** | **100,0** | **100,0** |\n\n*(Nguồn: Tư liệu Lịch sử Kháng chiến chống Mỹ cứu nước 1954 – 1975)*.",
       "question": "Tổng số lần đánh phá vào nhóm mục tiêu phi quân sự (Kinh tế và Dân cư) trong giai đoạn 1969 - 1972 đã giảm khoảng bao nhiêu phần trăm so với giai đoạn 1965 - 1968?",
       "options": [
         "A. 85,2%.",
@@ -59120,7 +59118,7 @@ export const QUESTIONS_DATA = {
         "C. 90,7%.",
         "D. 92,6%."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 102] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
@@ -59134,15 +59132,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nTổng hợp từ bài viết “An ninh năng lượng: Đa dạng nguồn cung để đáp ứng nhu cầu trong nước” trên báo Việt Nam Plus ngày 23/3/2026)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 119:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Nước mềm là nước chứa ít hoặc không chứa các ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n- Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: $\\text{Ca(HCO}_3)_2$ và $\\text{Mg(HCO}_3)_2$… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n- Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: $\\text{CaCl}_2$, $\\text{MgSO}_4$… Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n- Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\n\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$ đổi về khối lượng $\\text{CaCO}_3$, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\n\n| Phân loại nước | Mềm | Hơi cứng | Cứng | Rất cứng |\n|:---|:---:|:---:|:---:|:---:|\n| **Độ cứng ($\\text{mg CaCO}_3/\\text{lít}$)** | 0 – 50 | 50 – 150 | 150 – 300 | > 300 |\n\nKhối lượng mol của một số nguyên tố: $\\text{H} = 1$, $\\text{C} = 12$, $\\text{O} = 16$, $\\text{Na} = 23$, $\\text{Mg} = 24$, $\\text{S} = 32$, $\\text{Cl} = 35{,}5$, $\\text{Ca} = 40\\text{ (g/mol)}$.",
       "question": "Để làm mềm nước có tính cứng vĩnh cửu, phương pháp nào sau đây không thể áp dụng?",
       "options": [
         "A. Đun sôi nước cứng để làm phân hủy các gốc axit.",
         "B. Dùng nhựa cation để trao đổi ion Ca2+ và Mg2+ với Na+.",
         "C. Dùng bột soda để xử lí nước.",
-        "D. Dùng K3PO4 để làm lắng đọng Canxi và Magie. G 52,3% K 6,7% Q 10,1% D 30,9% G 63,6% K 9,4% Q 8,8% D 18,2%"
+        "D. Dùng $\\text{K}_3\\text{PO}_4$ để làm kết tủa ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 103] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
@@ -59156,13 +59154,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 119:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Nước mềm là nước chứa ít hoặc không chứa các ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n- Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: $\\text{Ca(HCO}_3)_2$ và $\\text{Mg(HCO}_3)_2$… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n- Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: $\\text{CaCl}_2$, $\\text{MgSO}_4$… Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n- Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\n\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$ đổi về khối lượng $\\text{CaCO}_3$, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\n\n| Phân loại nước | Mềm | Hơi cứng | Cứng | Rất cứng |\n|:---|:---:|:---:|:---:|:---:|\n| **Độ cứng ($\\text{mg CaCO}_3/\\text{lít}$)** | 0 – 50 | 50 – 150 | 150 – 300 | > 300 |\n\nKhối lượng mol của một số nguyên tố: $\\text{H} = 1$, $\\text{C} = 12$, $\\text{O} = 16$, $\\text{Na} = 23$, $\\text{Mg} = 24$, $\\text{S} = 32$, $\\text{Cl} = 35{,}5$, $\\text{Ca} = 40\\text{ (g/mol)}$.",
       "question": "Từ một mẫu nước cứng (chỉ chứa $\\text{MgCl}_2$) có nồng độ là $1{,}76 \\times 10^{-3}\\text{ mol/lít}$, người ta có thể tính được giá trị độ cứng của mẫu nước. Nhận định nào dưới đây là đúng?",
       "options": [
         "A. Độ cứng của nước là 148 mg/l. Mẫu nước thuộc loại nước hơi cứng.",
         "B. Độ cứng của nước là 296 mg/l. Mẫu nước thuộc loại nước cứng hơi cứng.",
         "C. Độ cứng của nước là 352 mg/l. Mẫu nước thuộc loại nước rất cứng.",
-        "D. Độ cứng của nước là 176 mg/l. Mẫu nước thuộc loại nước cứng."
+        "D. Dùng $\\text{K}_3\\text{PO}_4$ để làm kết tủa ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$."
       ],
       "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 104] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -59178,7 +59176,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 119:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 117 đến 119:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Nước mềm là nước chứa ít hoặc không chứa các ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n- Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: $\\text{Ca(HCO}_3)_2$ và $\\text{Mg(HCO}_3)_2$… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n- Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: $\\text{CaCl}_2$, $\\text{MgSO}_4$… Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n- Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\n\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$ đổi về khối lượng $\\text{CaCO}_3$, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\n\n| Phân loại nước | Mềm | Hơi cứng | Cứng | Rất cứng |\n|:---|:---:|:---:|:---:|:---:|\n| **Độ cứng ($\\text{mg CaCO}_3/\\text{lít}$)** | 0 – 50 | 50 – 150 | 150 – 300 | > 300 |\n\nKhối lượng mol của một số nguyên tố: $\\text{H} = 1$, $\\text{C} = 12$, $\\text{O} = 16$, $\\text{Na} = 23$, $\\text{Mg} = 24$, $\\text{S} = 32$, $\\text{Cl} = 35{,}5$, $\\text{Ca} = 40\\text{ (g/mol)}$.",
       "question": "Để giảm hàm lượng Mg2+ trong mẫu nước trên, người ta có thể sử dụng các vật liệu polime có khả năng trao đổi cation. Nhưng sau một thời gian sử dụng, các hạt nhựa trao đổi ion không còn khả năng hút ion Mg2+ từ nước cứng. Ý nào dưới đây có thể là nguyên nhân và cách khắc phục?",
       "options": [
         "A. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách sục khí CO2 đến dư vào để hòa tan kết tủa.",
@@ -59731,7 +59729,7 @@ export const QUESTIONS_DATA = {
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 21 đến 25:\nCâu văn “Ai có ngờ những bước chân đã tan trên đường kia còn ghi lại trong văn thơ những dấu tích hẳn không bao giờ tan được” thể hiện điều gì về quan niệm",
-      "question": "nghệ thuật?",
+      "question": "Câu văn trên thể hiện quan niệm sâu sắc nào về sứ mệnh và thiên chức của nghệ thuật?",
       "options": [
         "A. Nghệ thuật là sự chắt lọc từ những điều to lớn, kỳ vĩ để khắc ghi dấu ấn mạnh mẽ trong tâm hồn con người và tạo nên những kiệt tác bất hủ.",
         "B. Nghệ thuật chân chính có khả năng lưu giữ và hồi sinh vẻ đẹp của cả những điều nhỏ bé, tưởng như đã biến mất, thành giá trị vĩnh cửu.",
@@ -61160,7 +61158,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\nCho hàm số $f(x) = x^3 + (m + 1)x^2 - (2m - 1)x + m - 3$.",
+      "passage": null,
       "question": "Cho hai số thực $a, b > 1$. Giá trị nhỏ nhất của biểu thức $S = \\frac{1}{\\log_a(ab)} + \\frac{4}{\\log_b(ab)}$ bằng:",
       "options": [
         "A. $\\frac{4}{9}$",
@@ -61182,7 +61180,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\nCho hàm số $f(x) = x^3 + (m + 1)x^2 - (2m - 1)x + m - 3$.",
+      "passage": null,
       "question": "Có tất cả bao nhiêu tiếp tuyến của đồ thị hàm số $y = \\frac{x^3 - 27}{x - 2}$ song song với trục hoành?",
       "options": [
         "A. 1",
@@ -61204,15 +61202,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nPHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93 Trên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau: I xếp ở vị trí thứ 7; có ít nhất 5 hũ gia vị được xếp bên phải A; E xếp bên phải D nhưng bên trái A; Có 3 hũ gia vị được xếp ở giữa E và F; B xếp cạnh G.",
-      "question": "Nếu mỗi Nhà máy sản xuất đúng 4 dòng xe thì Nhà máy I phải sản xuất dòng xe nào sau đây?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nTrên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau:\n- I xếp ở vị trí thứ 7.\n- Có ít nhất 5 hũ gia vị được xếp bên phải A.\n- E xếp bên phải D nhưng bên trái A.\n- Có 3 hũ gia vị được xếp ở giữa E và F.\n- B xếp cạnh G.",
+      "question": "Liệt kê nào sau đây có thể là cách sắp xếp phù hợp các hũ gia vị theo yêu cầu?",
       "options": [
-        "A. E.",
-        "B.",
-        "C. S.",
-        "D. J."
+        "A. F, H, D, C, E, A, I, B, G.",
+        "B. D, E, B, A, H, F, I, C, G.",
+        "C. D, E, A, C, H, F, I, G, B.",
+        "D. B, G, D, E, A, C, I, F, H."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 96] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
@@ -61226,15 +61224,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nPHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93 Trên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau: I xếp ở vị trí thứ 7; có ít nhất 5 hũ gia vị được xếp bên phải A; E xếp bên phải D nhưng bên trái A; Có 3 hũ gia vị được xếp ở giữa E và F; B xếp cạnh G.",
-      "question": "Trong giai đoạn 1950 - 1954, năm nào ghi nhận tỷ trọng viện trợ của Mỹ chiếm hơn một nửa tổng chi phí chiến tranh của Pháp ở Đông Dương?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nTrên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau:\n- I xếp ở vị trí thứ 7.\n- Có ít nhất 5 hũ gia vị được xếp bên phải A.\n- E xếp bên phải D nhưng bên trái A.\n- Có 3 hũ gia vị được xếp ở giữa E và F.\n- B xếp cạnh G.",
+      "question": "B không thể được xếp ở vị trí nào dưới đây?",
       "options": [
-        "A. 1951",
-        "B. 1952",
-        "C. 1953",
-        "D. 1954"
+        "A. Thứ 3.",
+        "B. Thứ 4.",
+        "C. Thứ 5.",
+        "D. Thứ 8."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 97] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
@@ -61248,13 +61246,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nPHẦN 3. TƯ DUY KHOA HỌC 3.1. LOGIC, PHÂN TÍCH SỐ LIỆU Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93 Trên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau: I xếp ở vị trí thứ 7; có ít nhất 5 hũ gia vị được xếp bên phải A; E xếp bên phải D nhưng bên trái A; Có 3 hũ gia vị được xếp ở giữa E và F; B xếp cạnh G.",
-      "question": "Tổng chi phí chiến tranh của Pháp tại Đông Dương năm 1954 đã tăng xấp xỉ bao nhiêu phần trăm so với năm 1950?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\nTrên kệ bếp có 9 hũ gia vị A, B, C, D, E, F, G, H, I được sắp xếp theo thứ tự từ trái sang phải theo các yêu cầu sau:\n- I xếp ở vị trí thứ 7.\n- Có ít nhất 5 hũ gia vị được xếp bên phải A.\n- E xếp bên phải D nhưng bên trái A.\n- Có 3 hũ gia vị được xếp ở giữa E và F.\n- B xếp cạnh G.",
+      "question": "Hai hũ gia vị nào sau đây luôn có ít nhất một hũ được xếp ở giữa E và F?",
       "options": [
-        "A. 154,5%.",
-        "B. 181,8%.",
-        "C. 215,2%.",
-        "D. 281,8%."
+        "A. B và G.",
+        "B. H và C.",
+        "C. I và C.",
+        "D. G và H."
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 98] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -61270,15 +61268,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
-      "question": "Xét phần chi phí chiến tranh mà Pháp tự chi trả (sau khi trừ đi khoản viện trợ của Mỹ), nhận định nào sau đây là chính xác?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nBảng thống kê chi phí chiến tranh của Pháp và viện trợ của Mỹ ở chiến trường Đông Dương giai đoạn 1950 – 1954:\n\n| Năm | Tổng chi phí chiến tranh (tỷ phrăng) | Viện trợ của Mỹ (tỷ phrăng) |\n|:---:|:---:|:---:|\n| 1950 | 275 | 52 |\n| 1951 | 380 | 62 |\n| 1952 | 535 | 185 |\n| 1953 | 700 | 311 |\n| 1954 | 775 | 555 |\n\n*(Nguồn: Tư liệu Lịch sử quân sự và quan hệ quốc tế giai đoạn 1950 – 1954)*.",
+      "question": "Trong giai đoạn 1950 - 1954, năm nào ghi nhận tỷ trọng viện trợ của Mỹ chiếm hơn một nửa tổng chi phí chiến tranh của Pháp ở Đông Dương?",
       "options": [
-        "A. Phần chi phí tự túc của Pháp tăng thêm 101 tỷ phrăng.",
-        "B. Phần chi phí tự túc của Pháp tăng thêm 169 tỷ phrăng.",
-        "C. Phần chi phí tự túc của Pháp giảm đi 101 tỷ phrăng.",
-        "D. Phần chi phí tự túc của Pháp giảm đi 169 tỷ phrăng."
+        "A. 1951",
+        "B. 1952",
+        "C. 1953",
+        "D. 1954"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 99] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
@@ -61292,15 +61290,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 98:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
-      "question": "Trong giai đoạn 1965 - 1968, loại mục tiêu nào chiếm tỷ trọng cao nhất trong các đợt đánh phá của không quân Mỹ?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nBảng thống kê chi phí chiến tranh của Pháp và viện trợ của Mỹ ở chiến trường Đông Dương giai đoạn 1950 – 1954:\n\n| Năm | Tổng chi phí chiến tranh (tỷ phrăng) | Viện trợ của Mỹ (tỷ phrăng) |\n|:---:|:---:|:---:|\n| 1950 | 275 | 52 |\n| 1951 | 380 | 62 |\n| 1952 | 535 | 185 |\n| 1953 | 700 | 311 |\n| 1954 | 775 | 555 |\n\n*(Nguồn: Tư liệu Lịch sử quân sự và quan hệ quốc tế giai đoạn 1950 – 1954)*.",
+      "question": "Tổng chi phí chiến tranh của Pháp tại Đông Dương năm 1954 đã tăng xấp xỉ bao nhiêu phần trăm so với năm 1950?",
       "options": [
-        "A. Quân sự.",
-        "B. Dân cư.",
-        "C. Kinh tế.",
-        "D. Giao thông vận tải."
+        "A. 154,5%.",
+        "B. 181,8%.",
+        "C. 215,2%.",
+        "D. 281,8%."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 100] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
@@ -61314,15 +61312,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 98:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
-      "question": "So với giai đoạn 1965 - 1968, tỷ trọng số lần đánh phá vào mục tiêu “Kinh tế” ở giai đoạn 1969 - 1972 đã thay đổi như thế nào?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\nBảng thống kê chi phí chiến tranh của Pháp và viện trợ của Mỹ ở chiến trường Đông Dương giai đoạn 1950 – 1954:\n\n| Năm | Tổng chi phí chiến tranh (tỷ phrăng) | Viện trợ của Mỹ (tỷ phrăng) |\n|:---:|:---:|:---:|\n| 1950 | 275 | 52 |\n| 1951 | 380 | 62 |\n| 1952 | 535 | 185 |\n| 1953 | 700 | 311 |\n| 1954 | 775 | 555 |\n\n*(Nguồn: Tư liệu Lịch sử quân sự và quan hệ quốc tế giai đoạn 1950 – 1954)*.",
+      "question": "Xét phần chi phí chiến tranh mà Pháp tự chi trả (sau khi trừ đi khoản viện trợ của Mỹ), nhận định nào sau đây là chính xác?",
       "options": [
-        "A. Giảm 2,7 điểm phần trăm.",
-        "B. Tăng 2,7 điểm phần trăm.",
-        "C. Tăng 82,2 điểm phần trăm.",
-        "D. Giảm 82,2 điểm phần trăm."
+        "A. Phần chi phí tự túc của Pháp tăng thêm 101 tỷ phrăng.",
+        "B. Phần chi phí tự túc của Pháp tăng thêm 169 tỷ phrăng.",
+        "C. Phần chi phí tự túc của Pháp giảm đi 101 tỷ phrăng.",
+        "D. Phần chi phí tự túc của Pháp giảm đi 169 tỷ phrăng."
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 101] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
@@ -61336,15 +61334,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 98:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
-      "question": "Tổng số lần đánh phá vào nhóm mục tiêu phi quân sự (Kinh tế và Dân cư) trong giai đoạn 1969 - 1972 đã giảm khoảng bao nhiêu phần trăm so với giai đoạn 1965 - 1968?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nBảng thống kê tỷ trọng các loại mục tiêu bị không quân Mỹ đánh phá ở miền Bắc Việt Nam qua hai giai đoạn chiến tranh phá hoại:\n\n| Loại mục tiêu | Tỷ trọng giai đoạn 1965 – 1968 (%) | Tỷ trọng giai đoạn 1969 – 1972 (%) |\n|:---|:---:|:---:|\n| Giao thông vận tải | 52,3 | 63,6 |\n| Kinh tế | 6,7 | 9,4 |\n| Quân sự | 10,1 | 8,8 |\n| Dân cư | 30,9 | 18,2 |\n| **Tổng cộng** | **100,0** | **100,0** |\n\n*(Nguồn: Tư liệu Lịch sử Kháng chiến chống Mỹ cứu nước 1954 – 1975)*.",
+      "question": "Trong giai đoạn 1965 - 1968, loại mục tiêu nào chiếm tỷ trọng cao nhất trong các đợt đánh phá của không quân Mỹ?",
       "options": [
-        "A. 85,2%.",
-        "B. 88,4%.",
-        "C. 90,7%.",
-        "D. 92,6%."
+        "A. Quân sự.",
+        "B. Dân cư.",
+        "C. Kinh tế.",
+        "D. Giao thông vận tải."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 102] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
@@ -61358,15 +61356,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 95 đến 98:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
-      "question": "Để làm mềm nước có tính cứng vĩnh cửu, phương pháp nào sau đây không thể áp dụng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nBảng thống kê tỷ trọng các loại mục tiêu bị không quân Mỹ đánh phá ở miền Bắc Việt Nam qua hai giai đoạn chiến tranh phá hoại:\n\n| Loại mục tiêu | Tỷ trọng giai đoạn 1965 – 1968 (%) | Tỷ trọng giai đoạn 1969 – 1972 (%) |\n|:---|:---:|:---:|\n| Giao thông vận tải | 52,3 | 63,6 |\n| Kinh tế | 6,7 | 9,4 |\n| Quân sự | 10,1 | 8,8 |\n| Dân cư | 30,9 | 18,2 |\n| **Tổng cộng** | **100,0** | **100,0** |\n\n*(Nguồn: Tư liệu Lịch sử Kháng chiến chống Mỹ cứu nước 1954 – 1975)*.",
+      "question": "So với giai đoạn 1965 - 1968, tỷ trọng số lần đánh phá vào mục tiêu “Kinh tế” ở giai đoạn 1969 - 1972 đã thay đổi như thế nào?",
       "options": [
-        "A. Đun sôi nước cứng để làm phân hủy các gốc axit.",
-        "B. Dùng nhựa cation để trao đổi ion Ca2+ và Mg2+ với Na+.",
-        "C. Dùng bột soda để xử lí nước.",
-        "D. Dùng K3PO4 để làm lắng đọng Canxi và Magie. G 52,3% K 6,7% Q 10,1% D 30,9% G 63,6% K 9,4% Q 8,8% D 18,2%"
+        "A. Giảm 2,7 điểm phần trăm.",
+        "B. Tăng 2,7 điểm phần trăm.",
+        "C. Tăng 82,2 điểm phần trăm.",
+        "D. Giảm 82,2 điểm phần trăm."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 103] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
@@ -61380,15 +61378,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
-      "question": "Từ một mẫu nước cứng (chỉ chứa $\\text{MgCl}_2$) có nồng độ là $1{,}76 \\times 10^{-3}\\text{ mol/lít}$, người ta có thể tính được giá trị độ cứng của mẫu nước. Nhận định nào dưới đây là đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 99:\nBảng thống kê tỷ trọng các loại mục tiêu bị không quân Mỹ đánh phá ở miền Bắc Việt Nam qua hai giai đoạn chiến tranh phá hoại:\n\n| Loại mục tiêu | Tỷ trọng giai đoạn 1965 – 1968 (%) | Tỷ trọng giai đoạn 1969 – 1972 (%) |\n|:---|:---:|:---:|\n| Giao thông vận tải | 52,3 | 63,6 |\n| Kinh tế | 6,7 | 9,4 |\n| Quân sự | 10,1 | 8,8 |\n| Dân cư | 30,9 | 18,2 |\n| **Tổng cộng** | **100,0** | **100,0** |\n\n*(Nguồn: Tư liệu Lịch sử Kháng chiến chống Mỹ cứu nước 1954 – 1975)*.",
+      "question": "Tổng số lần đánh phá vào nhóm mục tiêu phi quân sự (Kinh tế và Dân cư) trong giai đoạn 1969 - 1972 đã chiếm tỷ lệ bao nhiêu?",
       "options": [
-        "A. Độ cứng của nước là 148 mg/l. Mẫu nước thuộc loại nước hơi cứng.",
-        "B. Độ cứng của nước là 296 mg/l. Mẫu nước thuộc loại nước cứng hơi cứng.",
-        "C. Độ cứng của nước là 352 mg/l. Mẫu nước thuộc loại nước rất cứng.",
-        "D. Độ cứng của nước là 176 mg/l. Mẫu nước thuộc loại nước cứng."
+        "A. 85,2%.",
+        "B. 88,4%.",
+        "C. 90,7%.",
+        "D. 92,6%."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 104] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
@@ -61402,15 +61400,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời câu 100:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
-      "question": "Để giảm hàm lượng Mg2+ trong mẫu nước trên, người ta có thể sử dụng các vật liệu polime có khả năng trao đổi cation. Nhưng sau một thời gian sử dụng, các hạt nhựa trao đổi ion không còn khả năng hút ion Mg2+ từ nước cứng. Ý nào dưới đây có thể là nguyên nhân và cách khắc phục?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Nước mềm là nước chứa ít hoặc không chứa các ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n- Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: $\\text{Ca(HCO}_3)_2$ và $\\text{Mg(HCO}_3)_2$… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n- Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: $\\text{CaCl}_2$, $\\text{MgSO}_4$… Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n- Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\n\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$ đổi về khối lượng $\\text{CaCO}_3$, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\n\n| Phân loại nước | Mềm | Hơi cứng | Cứng | Rất cứng |\n|:---|:---:|:---:|:---:|:---:|\n| **Độ cứng ($\\text{mg CaCO}_3/\\text{lít}$)** | 0 – 50 | 50 – 150 | 150 – 300 | > 300 |\n\nKhối lượng mol của một số nguyên tố: $\\text{H} = 1$, $\\text{C} = 12$, $\\text{O} = 16$, $\\text{Na} = 23$, $\\text{Mg} = 24$, $\\text{S} = 32$, $\\text{Cl} = 35{,}5$, $\\text{Ca} = 40\\text{ (g/mol)}$.",
+      "question": "Để làm mềm nước có tính cứng vĩnh cửu, phương pháp nào sau đây không thể áp dụng?",
       "options": [
-        "A. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách sục khí CO2 đến dư vào để hòa tan kết tủa.",
-        "B. Hàm lượng ion Mg2+ đi vào các hạt nhựa đã đạt giá trị bão hòa. Khắc phục bằng cách ngâm các hạt nhựa trong dung dịch NaCl nồng độ cao.",
-        "C. Hàm lượng ion Mg2+ đi vào các hạt nhựa đã đạt giá trị bão hòa. Khắc phục bằng cách ngâm các hạt nhựa trong dung dịch K2CO3 nồng độ cao.",
-        "D. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách nung các hạt nhựa ở nhiệt độ cao để phân huỷ MgCO3."
+        "A. Đun sôi nước cứng để làm phân hủy các gốc axit.",
+        "B. Dùng nhựa cation để trao đổi ion Ca2+ và Mg2+ với Na+.",
+        "C. Dùng bột soda để xử lí nước.",
+        "D. Dùng $\\text{K}_3\\text{PO}_4$ để làm kết tủa ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$."
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 105] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
@@ -61424,15 +61422,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
-      "question": "Công thức liên hệ đúng giữa thang đo Fahrenheit ($^\\circ\\text{F}$) và thang đo Celsius ($^\\circ\\text{C}$) là:",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Nước mềm là nước chứa ít hoặc không chứa các ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n- Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: $\\text{Ca(HCO}_3)_2$ và $\\text{Mg(HCO}_3)_2$… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n- Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: $\\text{CaCl}_2$, $\\text{MgSO}_4$… Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n- Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\n\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$ đổi về khối lượng $\\text{CaCO}_3$, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\n\n| Phân loại nước | Mềm | Hơi cứng | Cứng | Rất cứng |\n|:---|:---:|:---:|:---:|:---:|\n| **Độ cứng ($\\text{mg CaCO}_3/\\text{lít}$)** | 0 – 50 | 50 – 150 | 150 – 300 | > 300 |\n\nKhối lượng mol của một số nguyên tố: $\\text{H} = 1$, $\\text{C} = 12$, $\\text{O} = 16$, $\\text{Na} = 23$, $\\text{Mg} = 24$, $\\text{S} = 32$, $\\text{Cl} = 35{,}5$, $\\text{Ca} = 40\\text{ (g/mol)}$.",
+      "question": "Từ một mẫu nước cứng (chỉ chứa $\\text{MgCl}_2$) có nồng độ là $1{,}76 \\times 10^{-3}\\text{ mol/lít}$. Khẳng định nào sau đây là đúng?",
       "options": [
-        "A. $F = \\frac{9}{5}C + 32$",
-        "B. $F = \\frac{5}{9}C + 32$",
-        "C. $C = \\frac{5}{9}F + 32$",
-        "D. $C = \\frac{9}{5}F + 32$"
+        "A. Độ cứng của nước là 148 mg/l. Mẫu nước thuộc loại nước hơi cứng.",
+        "B. Độ cứng của nước là 296 mg/l. Mẫu nước thuộc loại nước hơi cứng.",
+        "C. Độ cứng của nước là 352 mg/l. Mẫu nước thuộc loại nước rất cứng.",
+        "D. Độ cứng của nước là 176 mg/l. Mẫu nước thuộc loại nước cứng."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 106] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
@@ -61446,15 +61444,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": null,
-      "question": "Nhiệt độ nào sau đây có số chỉ bằng nhau trên cả hai thang đo Celsius và Fahrenheit?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 100 đến 102:\nNước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Nước mềm là nước chứa ít hoặc không chứa các ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần:\n- Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: $\\text{Ca(HCO}_3)_2$ và $\\text{Mg(HCO}_3)_2$… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi.\n- Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: $\\text{CaCl}_2$, $\\text{MgSO}_4$… Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi.\n- Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu.\n\nTheo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$ đổi về khối lượng $\\text{CaCO}_3$, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng:\n\n| Phân loại nước | Mềm | Hơi cứng | Cứng | Rất cứng |\n|:---|:---:|:---:|:---:|:---:|\n| **Độ cứng ($\\text{mg CaCO}_3/\\text{lít}$)** | 0 – 50 | 50 – 150 | 150 – 300 | > 300 |\n\nKhối lượng mol của một số nguyên tố: $\\text{H} = 1$, $\\text{C} = 12$, $\\text{O} = 16$, $\\text{Na} = 23$, $\\text{Mg} = 24$, $\\text{S} = 32$, $\\text{Cl} = 35{,}5$, $\\text{Ca} = 40\\text{ (g/mol)}$.",
+      "question": "Để giảm hàm lượng Mg2+ trong mẫu nước trên, người ta có thể sử dụng các vật liệu polime có khả năng trao đổi ion. Sau một thời gian sử dụng, hiệu quả làm mềm nước của vật liệu bị giảm đi đáng kể. Hiện tượng này và biện pháp khắc phục phù hợp nhất là:",
       "options": [
-        "A. $-40^\\circ$",
-        "B. $4^\\circ$",
-        "C. $-4^\\circ$",
-        "D. $40^\\circ$"
+        "A. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách sục khí CO2 đến dư vào để hòa tan kết tủa.",
+        "B. Hàm lượng ion Mg2+ đi vào các hạt nhựa đã đạt giá trị bão hòa. Khắc phục bằng cách ngâm các hạt nhựa trong dung dịch NaCl nồng độ cao.",
+        "C. Hàm lượng ion Mg2+ đi vào các hạt nhựa đã đạt giá trị bão hòa. Khắc phục bằng cách ngâm các hạt nhựa trong dung dịch K2CO3 nồng độ cao.",
+        "D. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách nung các hạt nhựa ở nhiệt độ cao để phân huỷ MgCO3."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 107] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
@@ -61468,15 +61466,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
-      "question": "Phát biểu nào dưới đây đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "question": "Công thức liên hệ đúng giữa thang đo Fahrenheit ($^\\circ\\text{F}$) và thang đo Celsius ($^\\circ\\text{C}$) là:",
       "options": [
-        "A. Thân nhiệt người bình thường là 37°F.",
-        "B. 32°F là nhiệt độ nước đá đang tan ở áp suất 1 atm.",
-        "C. Trong thang Fahrenheit, khoảng cách từ điểm đông đặc đến điểm sôi được chia thành 100 phần bằng nhau.",
-        "D. 100°C là nhiệt độ sôi của nước ở áp suất 1,5 atm."
+        "A. $F = \\frac{9}{5}C + 32$",
+        "B. $F = \\frac{5}{9}C + 32$",
+        "C. $C = \\frac{5}{9}F + 32$",
+        "D. $C = \\frac{9}{5}F + 32$"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 108] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
@@ -61490,15 +61488,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
-      "question": "Trong tự nhiên để điều khiển cây thanh long ra hoa đồng loạt vào thời điểm ngày ngắn, cần phải chiếu sáng đèn từ 0 giờ và tắt đèn vào thời điểm nào sau đây?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "question": "Nhiệt độ nào sau đây có số chỉ bằng nhau trên cả hai thang đo Celsius và Fahrenheit?",
       "options": [
-        "A. 0 giờ 30 phút.",
-        "B. 1 giờ 30 phút.",
-        "C. 2 giờ 10 phút.",
-        "D. 5 giờ 10 phút."
+        "A. $-40^\\circ$",
+        "B. $4^\\circ$",
+        "C. $-4^\\circ$",
+        "D. $40^\\circ$"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 109] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
@@ -61512,15 +61510,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n3.2. SUY LUẬN KHOA HỌC Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105 Nước tự nhiên là nước chứa nhiều muối của các kim loại như Canxi, Magie, sắt… Nước cứng là nước chứa nhiều ion Ca2+ và Mg2+. Nước mềm là nước chứa ít hoặc không chứa các ion Ca2+ và Mg2+. Ngoài ra, người ta phân biệt nước cứng có tính cứng tạm thời, vĩnh cửu và toàn phần: - Tính cứng tạm thời là tính cứng gây nên bởi các muối axit: Ca(HCO3)2 và Mg(HCO3)2… Muối axit thường kém bền với nhiệt, gây nên hiện tượng cặn vôi trắng ở đầu vòi nước do bay hơi. - Tính cứng vĩnh cửu là tính cứng gây nên bởi các muối sunfat, clorua của Canxi và Magie: CaCl2, MgSO4 … Các loại muối này không thể loại bỏ dễ dàng bằng phương pháp kết tủa khi đun sôi. - Tính cứng toàn phần gồm cả tính cứng tạm thời và tính cứng vĩnh cửu. Theo TCVN 5502, dựa vào độ cứng của nước (được xác định bằng tổng hàm lượng Ca2+ và Mg2+ đổi về khối lượng CaCO3, có trong 1 lít nước) người ta có thể phân nước thành 4 loại theo độ cứng: Phân loại nước Mềm Hơi cứng Cứng Rất cứng Độ cứng (mg CaCO3/lít) 0 - 50 50 - 150 150 - 300 > 300 Khối lượng mol và ký hiệu của một số đơn chất: Chất Ký hiệu g/mol Chất Ký hiệu g/mol Hydro H 1 Natri Na 23 Cacbon C 12 Magie Mg 24 Oxi O 16 Clo Cl 35,5 Lưu huỳnh S 32 Canxi Ca 40",
-      "question": "Một loài thực vật ngày ngắn có độ dài đêm tới hạn là 09 giờ, được trồng trong chu kì sáng tối là 24 giờ. Điều kiện chiếu sáng nào sau đây kích thích cây trưởng thành ra hoa?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n- Thang Celsius ($^\\circ\\text{C}$): Quy ước nhiệt độ đông đặc của nước là $0^\\circ\\text{C}$ và nhiệt độ sôi của nước là $100^\\circ\\text{C}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 100 phần bằng nhau. Nhiệt độ cơ thể người bình thường là $37^\\circ\\text{C}$.\n- Thang Fahrenheit ($^\\circ\\text{F}$): Quy ước nhiệt độ đông đặc của nước là $32^\\circ\\text{F}$ và nhiệt độ sôi của nước là $212^\\circ\\text{F}$ (ở áp suất $1\\text{ atm}$). Khoảng giữa hai mốc này được chia thành 180 phần bằng nhau.",
+      "question": "Phát biểu nào dưới đây đúng?",
       "options": [
-        "A. 10 giờ tối/24 giờ.",
-        "B. 16 giờ sáng/24 giờ.",
-        "C. 08 giờ tối/24 giờ.",
-        "D. 19 giờ sáng/24 giờ."
+        "A. Thân nhiệt người bình thường là 37°F.",
+        "B. 32°F là nhiệt độ nước đá đang tan ở áp suất 1 atm.",
+        "C. Trong thang Fahrenheit, khoảng cách từ điểm đông đặc đến điểm sôi được chia thành 100 phần bằng nhau.",
+        "D. 100°C là nhiệt độ sôi của nước ở áp suất 1,5 atm."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 110] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
@@ -61534,15 +61532,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 109:\nNgười thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03 yếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ phần trăm giữa số người thất nghiệp so với lực lượng lao động. Tỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so với quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,73%; khu vực nông thôn là 1,86%. Tỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần trăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước có khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo, chiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông thôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học tập, đào tạo là 13,3%; nam là 9,8%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm phần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm. (Cục Thống kê - Bộ Tài Chính, Thông cáo báo chí về tình hình lao động, việc làm quý III và 9 tháng năm 2025)",
-      "question": "Loài thực vật nào sau đây được xếp vào nhóm cây ngày dài?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nBảng kết quả nghiên cứu ảnh hưởng của thời gian chiếu sáng bổ sung vào ban đêm đến tỉ lệ ra hoa của cây thanh long (chu kỳ 24 giờ):\n\n| Điều kiện chiếu sáng bổ sung | Không chiếu sáng | 0,5 giờ | 1 giờ | 2 giờ | 3 giờ | 4 giờ | 5 giờ | Chiếu sáng liên tục |\n|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| **Tỉ lệ ra hoa (%)** | 0 | 0 | 12 | 51 | 79 | 90 | 99 | 99 |",
+      "question": "Trong tự nhiên để điều khiển cây thanh long ra hoa đồng loạt vào thời điểm ngày ngắn, cần phải chiếu sáng đèn từ 0 giờ và tắt đèn vào thời điểm nào sau đây?",
       "options": [
-        "A. Cây ké đầu ngựa (Xanthium Strumarium) chỉ ra hoa khi chiếu sáng tối đa là 16 giờ hoặc ít hơn.",
-        "B. Cây Jusquiame (Hyoscyamus niger) ra hoa khi điều kiện chiếu sáng tối thiểu là 11,5 giờ.",
-        "C. Cây thuốc lá (Nicotiana tabacum) chỉ ra hoa khi chiếu sáng tối đa là 14 giờ hoặc ít hơn.",
-        "D. Cây cà chua có đủ 14 cặp lá có thể ra hoa khi chiếu sáng tối thiểu là 12 giờ hoặc nhiều hơn."
+        "A. 0 giờ 30 phút.",
+        "B. 1 giờ 30 phút.",
+        "C. 2 giờ 10 phút.",
+        "D. 5 giờ 10 phút."
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "explanation": "[VnNO1 2026/2027 - Câu 111] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -61556,15 +61554,15 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 109:\nNgười thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03 yếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ phần trăm giữa số người thất nghiệp so với lực lượng lao động. Tỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so với quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,73%; khu vực nông thôn là 1,86%. Tỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần trăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước có khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo, chiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông thôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học tập, đào tạo là 13,3%; nam là 9,8%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm phần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm. (Cục Thống kê - Bộ Tài Chính, Thông cáo báo chí về tình hình lao động, việc làm quý III và 9 tháng năm 2025)",
-      "question": "Nhận định nào sau đây phản ánh không đúng về Tỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nBảng kết quả nghiên cứu ảnh hưởng của thời gian chiếu sáng bổ sung vào ban đêm đến tỉ lệ ra hoa của cây thanh long (chu kỳ 24 giờ):\n\n| Điều kiện chiếu sáng bổ sung | Không chiếu sáng | 0,5 giờ | 1 giờ | 2 giờ | 3 giờ | 4 giờ | 5 giờ | Chiếu sáng liên tục |\n|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| **Tỉ lệ ra hoa (%)** | 0 | 0 | 12 | 51 | 79 | 90 | 99 | 99 |",
+      "question": "Một loài thực vật ngày ngắn có độ dài đêm tới hạn là 09 giờ, được trồng trong chu kì sáng tối là 24 giờ. Điều kiện chiếu sáng nào sau đây kích thích cây trưởng thành ra hoa?",
       "options": [
-        "A. Trong 1000 người tham gia vào lực lượng lao động, có khoảng 22 người đang thất nghiệp.",
-        "B. Tỷ lệ có việc làm trong độ tuổi lao động có xu hướng tăng so với cùng kỳ năm trước.",
-        "C. Khu vực nông thôn có tỷ lệ có việc làm trong độ tuổi lao động thấp hơn khu vực thành thị.",
-        "D. Tỷ lệ thất nghiệp trong độ tuổi lao động quý II/2025 là 2,24%."
+        "A. 10 giờ tối/24 giờ.",
+        "B. 16 giờ sáng/24 giờ.",
+        "C. 08 giờ tối/24 giờ.",
+        "D. 19 giờ sáng/24 giờ."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 112] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
@@ -61578,13 +61576,13 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 109:\nNgười thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03 yếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ phần trăm giữa số người thất nghiệp so với lực lượng lao động. Tỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so với quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,73%; khu vực nông thôn là 1,86%. Tỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần trăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước có khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo, chiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông thôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học tập, đào tạo là 13,3%; nam là 9,8%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm phần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm. (Cục Thống kê - Bộ Tài Chính, Thông cáo báo chí về tình hình lao động, việc làm quý III và 9 tháng năm 2025)",
-      "question": "Dựa vào dữ liệu về tình hình thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025, nhận định nào sau đây là đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\nBảng kết quả nghiên cứu ảnh hưởng của thời gian chiếu sáng bổ sung vào ban đêm đến tỉ lệ ra hoa của cây thanh long (chu kỳ 24 giờ):\n\n| Điều kiện chiếu sáng bổ sung | Không chiếu sáng | 0,5 giờ | 1 giờ | 2 giờ | 3 giờ | 4 giờ | 5 giờ | Chiếu sáng liên tục |\n|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| **Tỉ lệ ra hoa (%)** | 0 | 0 | 12 | 51 | 79 | 90 | 99 | 99 |",
+      "question": "Loài thực vật nào sau đây được xếp vào nhóm cây ngày dài?",
       "options": [
-        "A. Tỷ lệ thất nghiệp của thanh niên có xu hướng giảm mạnh so với quý trước nhờ các chính sách việc làm.",
-        "B. Khoảng chênh lệch tỷ lệ thất nghiệp của thanh niên giữa khu vực thành thị và nông thôn là 5,56 điểm phần trăm.",
-        "C. Tỷ lệ thất nghiệp của thanh niên toàn quốc thấp hơn tỷ lệ thất nghiệp chung trong độ tuổi lao động.",
-        "D. Trong 9 tháng năm 2025, tỷ lệ thất nghiệp thanh niên ở khu vực nông thôn có xu hướng tăng so với cùng kỳ năm trước."
+        "A. Cây ké đầu ngựa (Xanthium Strumarium) chỉ ra hoa khi chiếu sáng tối đa là 16 giờ hoặc ít hơn.",
+        "B. Cây Jusquiame (Hyoscyamus niger) ra hoa khi điều kiện chiếu sáng tối thiểu là 11,5 giờ.",
+        "C. Cây thuốc lá (Nicotiana tabacum) chỉ ra hoa khi chiếu sáng tối đa là 14 giờ hoặc ít hơn.",
+        "D. Cây cà chua có đủ 14 cặp lá có thể ra hoa khi chiếu sáng tối thiểu là 12 giờ hoặc nhiều hơn."
       ],
       "correctAnswer": 1,
       "explanation": "[VnNO1 2026/2027 - Câu 113] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -61600,7 +61598,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 109:\nNgười thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03 yếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ phần trăm giữa số người thất nghiệp so với lực lượng lao động. Tỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so với quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,73%; khu vực nông thôn là 1,86%. Tỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần trăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước có khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo, chiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông thôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học tập, đào tạo là 13,3%; nam là 9,8%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm phần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm. (Cục Thống kê - Bộ Tài Chính, Thông cáo báo chí về tình hình lao động, việc làm quý III và 9 tháng năm 2025)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nNgười thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03 yếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ phần trăm giữa số người thất nghiệp so với lực lượng lao động. Tỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so với quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,73%; khu vực nông thôn là 1,86%. Tỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần trăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước có khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo, chiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông thôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học tập, đào tạo là 13,3%; nam là 9,8%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm phần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm. (Cục Thống kê - Bộ Tài Chính, Thông cáo báo chí về tình hình lao động, việc làm quý III và 9 tháng năm 2025)",
       "question": "Khi phân tích về nhóm thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo (NEET) trong quý III/2025, thông tin nào sau đây là chính xác?",
       "options": [
         "A. Tỷ lệ thanh niên thuộc nhóm NEET ở nam giới cao hơn so với nữ giới.",
@@ -61622,7 +61620,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 112:\nvừa đồng hành cùng các nước còn khó khăn thúc đẩy hội nhập nội khối, vừa phải nâng cao năng lực cạnh tranh với các nền kinh tế phát triển hơn. Đây là yêu cầu cấp thiết nhằm bảo đảm tăng trưởng bền vững và khả năng thích ứng trong giai đoạn mới. (PGS, TS Đặng Cẩm Tú, Vai trò thành viên trách nhiệm, tích cực của Việt Nam trong ASEAN)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nNgười thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03 yếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ phần trăm giữa số người thất nghiệp so với lực lượng lao động. Tỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so với quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,73%; khu vực nông thôn là 1,86%. Tỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần trăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước có khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo, chiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông thôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học tập, đào tạo là 13,3%; nam là 9,8%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm phần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm. (Cục Thống kê - Bộ Tài Chính, Thông cáo báo chí về tình hình lao động, việc làm quý III và 9 tháng năm 2025)",
       "question": "Chiến lược Tầm nhìn Cộng đồng ASEAN đến năm 2045 không dựa trên trụ cột nào dưới đây?",
       "options": [
         "A. Chính trị - an ninh.",
@@ -61644,7 +61642,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 112:\nvừa đồng hành cùng các nước còn khó khăn thúc đẩy hội nhập nội khối, vừa phải nâng cao năng lực cạnh tranh với các nền kinh tế phát triển hơn. Đây là yêu cầu cấp thiết nhằm bảo đảm tăng trưởng bền vững và khả năng thích ứng trong giai đoạn mới. (PGS, TS Đặng Cẩm Tú, Vai trò thành viên trách nhiệm, tích cực của Việt Nam trong ASEAN)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\nNgười thất nghiệp là người từ đủ 15 tuổi trở lên mà trong thời kỳ tham chiếu có đầy đủ cả 03 yếu tố: Hiện không làm việc, đang tìm kiếm việc làm và sẵn sàng làm việc. Tỷ lệ thất nghiệp là tỷ lệ phần trăm giữa số người thất nghiệp so với lực lượng lao động. Tỷ lệ thất nghiệp trong độ tuổi lao động quý III/2025 là 2,22%, giảm 0,02 điểm phần trăm so với quý trước và giảm 0,01 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,73%; khu vực nông thôn là 1,86%. Tỷ lệ thất nghiệp trong độ tuổi lao động chín tháng năm 2025 là 2,22%, giảm 0,04 điểm phần trăm so với cùng kỳ năm trước, trong đó khu vực thành thị là 2,53%; khu vực nông thôn là 2,00%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) quý III/2025 là 9,03%, tăng 0,84 điểm phần trăm so với quý trước và tăng 1,30 điểm phần trăm so với cùng kỳ năm trước. Tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 12,42%; khu vực nông thôn là 6,86%. Trong quý III/2025, cả nước có khoảng 1,6 triệu thanh niên (từ 15-24 tuổi) không có việc làm và không tham gia học tập, đào tạo, chiếm 11,5%. Tỷ lệ thanh niên không có việc làm và không tham gia học tập, đào tạo ở khu vực nông thôn là 13,0%, khu vực thành thị là 9,5%; nữ thanh niên không có việc làm và không tham gia học tập, đào tạo là 13,3%; nam là 9,8%. Tỷ lệ thất nghiệp của thanh niên (từ 15-24 tuổi) chín tháng năm 2025 là 8,38%, tăng 0,47 điểm phần trăm so với cùng kỳ năm trước. Trong đó, tỷ lệ thất nghiệp của thanh niên khu vực thành thị là 11,24%, tăng 1,68 điểm phần trăm; khu vực nông thôn là 6,75%, giảm 0,30 điểm phần trăm. (Cục Thống kê - Bộ Tài Chính, Thông cáo báo chí về tình hình lao động, việc làm quý III và 9 tháng năm 2025)",
       "question": "Khó khăn, thách thức nào sau đây không được đề cập trong đoạn trích trên khi Việt Nam phát huy vai trò thành viên tích cực, có trách nhiệm trong ASEAN?",
       "options": [
         "A. Sự chênh lệch về trình độ phát triển giữa các quốc gia nội khối.",
@@ -61666,7 +61664,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 112:\nvừa đồng hành cùng các nước còn khó khăn thúc đẩy hội nhập nội khối, vừa phải nâng cao năng lực cạnh tranh với các nền kinh tế phát triển hơn. Đây là yêu cầu cấp thiết nhằm bảo đảm tăng trưởng bền vững và khả năng thích ứng trong giai đoạn mới. (PGS, TS Đặng Cẩm Tú, Vai trò thành viên trách nhiệm, tích cực của Việt Nam trong ASEAN)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nvừa đồng hành cùng các nước còn khó khăn thúc đẩy hội nhập nội khối, vừa phải nâng cao năng lực cạnh tranh với các nền kinh tế phát triển hơn. Đây là yêu cầu cấp thiết nhằm bảo đảm tăng trưởng bền vững và khả năng thích ứng trong giai đoạn mới. (PGS, TS Đặng Cẩm Tú, Vai trò thành viên trách nhiệm, tích cực của Việt Nam trong ASEAN)",
       "question": "Yếu tố “đồng hành cùng các nước còn khó khăn thúc đẩy hội nhập nội khối” được Việt Nam thể hiện thông qua sự hỗ trợ tích về mặt kinh tế đối với quốc gia nào vừa chính thức trở thành thành viên thứ 11 của ASEAN vào tháng 10/2025?",
       "options": [
         "A. Myanmar.",
@@ -61688,7 +61686,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 113 đến 115:\nAn và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nvừa đồng hành cùng các nước còn khó khăn thúc đẩy hội nhập nội khối, vừa phải nâng cao năng lực cạnh tranh với các nền kinh tế phát triển hơn. Đây là yêu cầu cấp thiết nhằm bảo đảm tăng trưởng bền vững và khả năng thích ứng trong giai đoạn mới. (PGS, TS Đặng Cẩm Tú, Vai trò thành viên trách nhiệm, tích cực của Việt Nam trong ASEAN)",
       "question": "Việc sử dụng túi giấy và ống hút tre là biểu hiện của trách nhiệm xã hội nào?",
       "options": [
         "A. Trách nhiệm pháp lý.",
@@ -61710,7 +61708,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 113 đến 115:\nAn và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 112 đến 114:\nvừa đồng hành cùng các nước còn khó khăn thúc đẩy hội nhập nội khối, vừa phải nâng cao năng lực cạnh tranh với các nền kinh tế phát triển hơn. Đây là yêu cầu cấp thiết nhằm bảo đảm tăng trưởng bền vững và khả năng thích ứng trong giai đoạn mới. (PGS, TS Đặng Cẩm Tú, Vai trò thành viên trách nhiệm, tích cực của Việt Nam trong ASEAN)",
       "question": "Yếu tố nào quan trọng nhất để ngân hàng đồng ý cấp tín dụng cho dự án khởi nghiệp của An và Khang?",
       "options": [
         "A. Ý tưởng kinh doanh độc đáo sẽ thu hút sự quan tâm của ngân hàng.",
@@ -61732,7 +61730,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 113 đến 115:\nAn và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nAn và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
       "question": "Theo tình huống trên, bước nào trong quá trình lập kế hoạch kinh doanh đã được An và Khang thực hiện?",
       "options": [
         "A. Xác định mục tiêu và chiến lược kinh doanh.",
@@ -61754,7 +61752,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 116 đến 118:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nAn và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
       "question": "Có tất cả bao nhiêu cách xếp chỗ ngồi nếu B ngồi tại vị trí số 8?",
       "options": [
         "A. 8",
@@ -61776,7 +61774,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 116 đến 118:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 115 đến 117:\nAn và Khang quyết định khởi nghiệp với ý tưởng mở một cửa hàng bánh ngọt kết hợp quán cà phê. Sau khi lên ý tưởng, họ đã thiết kế thực đơn bao gồm nhiều loại bánh ngọt và đồ uống đa dạng, với giá cả phù hợp cho nhóm khách hàng mục tiêu là giới trẻ. Trong quá trình chuẩn bị, An đảm nhận việc quảng bá và tuyển dụng nhân sự, trong khi Khang lo phần tài chính và quản lý nguồn nguyên liệu. Họ dự định sử dụng bao bì và vật dụng thân thiện với môi trường như túi giấy và ống hút tre như là một hành động bảo vệ môi trường. Với niềm tin vào ý tưởng độc đáo và lượng khách hàng tiềm năng, An và Khang tin rằng họ sẽ dễ dàng nhận được nguồn vốn vay từ ngân hàng để thực hiện hoạt động kinh doanh.",
       "question": "Nếu C ngồi ghế số 7 thì thêm dữ kiện nào sau đây sẽ khiến F chỉ có thể chọn ngồi ở 1 ghế duy nhất?",
       "options": [
         "A. G ngồi ghế số 8.",
@@ -61798,7 +61796,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 116 đến 118:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Nếu ghế số 7 còn trống thì những ai chắc chắn sẽ ngồi tại 1 vị trí duy nhất?",
       "options": [
         "A. A, B, D.",
@@ -61820,7 +61818,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 119 và 120:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Biết rằng tiết 2 có 2 học sinh, đâu là thứ tự học sinh từ tiết 1 đến tiết 4?",
       "options": [
         "A. C, E-F, A-B, D.",
@@ -61842,7 +61840,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 119 và 120:\nTại một trung tâm bồi dưỡng tài năng, 6 học sinh gồm A, B, C, D, E, F đăng ký tham gia 4 lớp học: Toán, Văn, Anh, và KHTN. Các môn học này được sắp xếp giảng dạy từ Tiết 1 đến Tiết 4.\n1. A và B luôn học chung 1 lớp.\n2. C học trước D và giữa C, D có 1 lớp.\n3. Tiết 3 có 2 học sinh.\n4. KHTN là tiết 1 và có duy nhất 1 học sinh.\n5. Môn học của B không học ngay cạnh môn Anh.\n6. Nếu tiết 2 có 2 học sinh thì F học tiết 4.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 118 đến 120:\nCó 7 người gồm A, B, C, D, E, F, G ngồi quanh một bàn tròn có 8 ghế được đánh số từ 1 đến 8 theo chiều kim đồng hồ. Các điều kiện sắp xếp như sau:\n1. B luôn ngồi cạnh A.\n2. C và D luôn ngồi đối diện nhau.\n3. D và F chắc chắn không ngồi cạnh nhau.\n4. Nếu B ngồi ở ghế số 8 thì giữa C và G có đúng 2 ghế tính theo chiều kim đồng hồ.\n5. F chỉ ngồi ở những ghế đánh số chẵn.\n6. Nếu E đối diện A thì C ngồi ở số lẻ.\n7. A luôn ngồi ghế số 1.",
       "question": "Nếu F học một mình thì tiết 3 có ai học?",
       "options": [
         "A. D.",
@@ -61850,7 +61848,7 @@ export const QUESTIONS_DATA = {
         "C. A, B.",
         "D. D, E."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Ở câu hỏi 1 ta có: Nếu tiết 2 có 2 học sinh thì thứ tự học sinh xếp theo tiết sẽ là: C, A-B, D-E, F. Tiếp theo ta xét trường hợp nếu tiết 2 không có 2 học sinh. Tiết 3 có 2 học sinh, tiết 1 có 1 học sinh. Mà ta xét trường hợp tiết 2 có 1 học sinh => Tiết 4 phải có 2 học sinh. Nếu C học tiết 1 => D học tiết 3 => A, B học tiết 4. Vì F học một mình => F học tiết 2. Còn lại E học tiết 3. => Thứ tự: C, F, D-E, A-B. Nếu C học tiết 2 => D học tiết 4 => A, B học tiết 3 => F học tiết 1. Còn lại E học tiết 4. => Thứ tự: F, C, A-B, D-E. Ta có dữ kiện môn của B không học cạnh môn Anh => Trường hợp 1 thỏa mãn vì môn Anh có thể dạy ở tiết 2. Tuy nhiên trường hợp 2, nếu B học tiết 3 => Môn Anh phải dạy ở tiết 1 (MÂU THUẪN) => Trong 2 thứ tự thỏa mãn dữ kiện, ở tiết 3 chắc chắn là D và E. Đáp án: D.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
@@ -62131,7 +62129,7 @@ export const QUESTIONS_DATA = {
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
       "passage": "Dựa vào thông tin dưới đây để trả lời câu 13:\nCâu văn “Ai có ngờ những bước chân đã tan trên đường kia còn ghi lại trong văn thơ những dấu tích hẳn không bao giờ tan được” thể hiện điều gì về quan niệm",
-      "question": "nghệ thuật?",
+      "question": "Câu văn trên thể hiện quan niệm sâu sắc nào về sứ mệnh và thiên chức của nghệ thuật?",
       "options": [
         "A. Nghệ thuật là sự chắt lọc từ những điều to lớn, kỳ vĩ để khắc ghi dấu ấn mạnh mẽ trong tâm hồn con người và tạo nên những kiệt tác bất hủ.",
         "B. Nghệ thuật chân chính có khả năng lưu giữ và hồi sinh vẻ đẹp của cả những điều nhỏ bé, tưởng như đã biến mất, thành giá trị vĩnh cửu.",
@@ -63547,7 +63545,7 @@ export const QUESTIONS_DATA = {
         "D. m = 0"
       ],
       "correctAnswer": 2,
-      "explanation": "Chọn B Ta có ( )0 0 1 lim lim 1 1 x x x f x m m x + + \\to \\to - \\left( \\right) = + = + \\left( \\right) + \\left( \\right) . ( )0 0 1 1 lim lim x x x x f x x - - \\to \\to \\left( \\right) - - + = = \\left( \\right) \\left( \\right) \\left( \\right) ( ) ( )0 0 2 2 lim lim 1 1 1 1 1 x x x x x x x x - - \\to \\to - - = = - - + + - + + . ( ) 0 1 f m = + Để hàm liên tục tại 0 x = thì ( ) ( ) ( )0 0 lim lim 0 x x f x f x f + - \\to \\to = = 1 1 2 m m \\Leftrightarrow + = - \\Rightarrow = - .",
+      "explanation": "Ta có: $\\lim_{x \\to 0^+} f(x) = f(0) = m$.\n$\\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0^-} \\frac{\\sqrt{1-x}-1}{x} = \\lim_{x \\to 0^-} \\frac{-1}{\\sqrt{1-x}+1} = -\\frac{1}{2}$.\nĐể hàm số liên tục tại $x = 0$ thì $\\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0^-} f(x) \\iff m = -\\frac{1}{2}$. Chọn C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -64074,7 +64072,7 @@ export const QUESTIONS_DATA = {
         "C. A, B.",
         "D. D, E."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Ở câu hỏi 1 ta có: Nếu tiết 2 có 2 học sinh thì thứ tự học sinh xếp theo tiết sẽ là: C, A-B, D-E, F. Tiếp theo ta xét trường hợp nếu tiết 2 không có 2 học sinh. Tiết 3 có 2 học sinh, tiết 1 có 1 học sinh. Mà ta xét trường hợp tiết 2 có 1 học sinh => Tiết 4 phải có 2 học sinh. Nếu C học tiết 1 => D học tiết 3 => A, B học tiết 4. Vì F học một mình => F học tiết 2. Còn lại E học tiết 3. => Thứ tự: C, F, D-E, A-B. Nếu C học tiết 2 => D học tiết 4 => A, B học tiết 3 => F học tiết 1. Còn lại E học tiết 4. => Thứ tự: F, C, A-B, D-E. Ta có dữ kiện môn của B không học cạnh môn Anh => Trường hợp 1 thỏa mãn vì môn Anh có thể dạy ở tiết 2. Tuy nhiên trường hợp 2, nếu B học tiết 3 => Môn Anh phải dạy ở tiết 1 (MÂU THUẪN) => Trong 2 thứ tự thỏa mãn dữ kiện, ở tiết 3 chắc chắn là D và E. Đáp án: D.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
@@ -64251,7 +64249,7 @@ export const QUESTIONS_DATA = {
         "D. 2"
       ],
       "correctAnswer": 3,
-      "explanation": "Đáp án C. Khối lượng của dung môi (nước). Khối lượng của chất tan (ethylene glycol). → Cần để tính nồng độ molan ( / = m mol kg dung môi). Bản chất (công thức hóa học) của chất tan để xác định hệ số Van't Hoff ($i$). → Cần biết chất tan có điện li hay không (xác định i ). Các yếu tố khác không chọn, vì: Điểm đông đặc của chất lỏng thay đổi rất ít theo áp suất (khác với điểm sôi), nên trong điều kiện phòng thí nghiệm thường bỏ qua. Công thức dùng nồng độ molan (theo khối lượng dung môi), không phụ thuộc vào thể tích dung dịch (thể tích thay đổi theo nhiệt độ, gây sai số).",
+      "explanation": "Độ tan của một chất rắn trong nước phụ thuộc vào bản chất chất tan, bản chất dung môi, nhiệt độ của hệ (yếu tố 3) và một phần áp suất (yếu tố 2, tuy ảnh hưởng rất nhỏ đối với chất rắn nhưng vẫn là yếu tố nhiệt động học). Tốc độ khuấy và diện tích tiếp xúc chỉ ảnh hưởng đến tốc độ hòa tan, không làm thay đổi độ tan cân bằng. Khối lượng dung môi không làm thay đổi giá trị độ tan (tính trên 100g dung môi). Do đó có 2 yếu tố: (2) và (3). Đáp án đúng: D.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -64402,7 +64400,7 @@ export const QUESTIONS_DATA = {
         "A. Dòng tế bào có LD50 càng thấp thì tỷ lệ hình thành khối u ở nồng độ cao của Thuốc A càng lớn.",
         "B. Dòng tế bào có LD50 càng cao thì khả năng kháng thuốc càng lớn.",
         "C. LD50 của các dòng tế bào không liên quan đến kết quả thí nghiệm về tỷ lệ hình thành khối u, vì hai chỉ số này đo các khía cạnh khác nhau.",
-        "D. LD50 chỉ thể hiện nồng độ diệt 50% tế bào trong 72 giờ đầu, còn tỷ lệ hình thành khối u sau 10 ngày phụ thuộc chủ yếu vào nguồn gốc cơ quan của tế bào, không liên quan đến LD50. X Ruột già 3,8 Y Tuyến tiền liệt 70,0 Z Tuyến tiền liệt 818,0"
+        "D. LD50 chỉ thể hiện nồng độ diệt 50% tế bào trong 72 giờ đầu, còn tỷ lệ hình thành khối u sau 10 ngày phụ thuộc chủ yếu vào nguồn gốc cơ quan của tế bào, không liên quan đến LD50."
       ],
       "correctAnswer": 1,
       "explanation": "Đáp án: B. Giải thích: Nhìn vào Bảng 1, các dòng tế bào Y và Z có LD50 rất cao (70,0 và 818,0 μg/L), tương ứng với việc chúng kháng Thuốc A tốt hơn so với các dòng có LD50 thấp (V, W, X). Trong Hình 1, tại nồng độ cao, các dòng có LD50 lớn (đặc biệt Z) vẫn duy trì được tỷ lệ hình thành khối u cao hơn so với dòng V, W, X.",
@@ -64531,7 +64529,7 @@ export const QUESTIONS_DATA = {
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
       "passage": "Câu văn “Ai có ngờ những bước chân đã tan trên đường kia còn ghi lại trong văn thơ những dấu tích hẳn không bao giờ tan được” thể hiện điều gì về quan niệm",
-      "question": "nghệ thuật?",
+      "question": "Câu văn trên thể hiện quan niệm sâu sắc nào về sứ mệnh và thiên chức của nghệ thuật?",
       "options": [
         "A. Nghệ thuật là sự chắt lọc từ những điều to lớn, kỳ vĩ để khắc ghi dấu ấn mạnh mẽ trong tâm hồn con người và tạo nên những kiệt tác bất hủ.",
         "B. Nghệ thuật chân chính có khả năng lưu giữ và hồi sinh vẻ đẹp của cả những điều nhỏ bé, tưởng như đã biến mất, thành giá trị vĩnh cửu.",
@@ -65636,7 +65634,7 @@ export const QUESTIONS_DATA = {
         "A. while plants can be well preserved, wild animals are hard to controlled",
         "B. it may be not too late if humans stop killing living things in nature",
         "C. humans’ killing of wild animals is more dangerous than that of plants",
-        "D. humans destroy plants and animals, so they will end up destroying themselves PHẦN 2. TOÁN HỌC"
+        "D. humans destroy plants and animals, so they will end up destroying themselves"
       ],
       "correctAnswer": 0,
       "explanation": "Phân tích phương pháp giải chi tiết câu 60: Vận dụng kiến thức trọng tâm của phân môn Tiếng Anh để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -66166,8 +66164,8 @@ export const QUESTIONS_DATA = {
         "C. 8 triệu đồng",
         "D. 9 triệu đồng"
       ],
-      "correctAnswer": 1,
-      "explanation": "Chọn C Số giờ làm việc của máy 1 T là 3 2 x y + và của máy 2 T là 2x y + . Vì mỗi ngày máy 1 T không được làm việc quá 6 giờ và máy 2 T không làm việc quá 4 giờ nên ta có ràng buộc: 3 2 6 2 4 . , 0 x y x y x y + \\le + \\le \\ge Vẽ miền nghiệm của hệ bất phương trình ta được miền như hình. Khi đó: ( ) ( ) ( ) 0; 0 0 0;3 6 2;0 6 F F F = = = Vậy giá trị của E là 6. E =",
+      "correctAnswer": 0,
+      "explanation": "Số giờ máy $T_1$: $3x + 2y \\le 6$. Số giờ máy $T_2$: $2x + y \\le 4$ ($x, y \\ge 0$). Tiền lãi $F(x, y) = 3x + 2y$. Do $3x + 2y \\le 6$ nên $F(x, y) \\le 6$. Tại $(0; 3)$ hoặc $(2; 0)$, tiền lãi đạt cực đại bằng 6 triệu đồng. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -66626,7 +66624,7 @@ export const QUESTIONS_DATA = {
         "A. Dòng tế bào có LD50 càng thấp thì tỷ lệ hình thành khối u ở nồng độ cao của Thuốc A càng lớn.",
         "B. Dòng tế bào có LD50 càng cao thì khả năng kháng thuốc càng lớn.",
         "C. LD50 của các dòng tế bào không liên quan đến kết quả thí nghiệm về tỷ lệ hình thành khối u, vì hai chỉ số này đo các khía cạnh khác nhau.",
-        "D. LD50 chỉ thể hiện nồng độ diệt 50% tế bào trong 72 giờ đầu, còn tỷ lệ hình thành khối u sau 10 ngày phụ thuộc chủ yếu vào nguồn gốc cơ quan của tế bào, không liên quan đến LD50. X Ruột già 3,8 Y Tuyến tiền liệt 70,0 Z Tuyến tiền liệt 818,0"
+        "D. LD50 chỉ thể hiện nồng độ diệt 50% tế bào trong 72 giờ đầu, còn tỷ lệ hình thành khối u sau 10 ngày phụ thuộc chủ yếu vào nguồn gốc cơ quan của tế bào, không liên quan đến LD50."
       ],
       "correctAnswer": 1,
       "explanation": "Đáp án: B. Giải thích: Nhìn vào Bảng 1, các dòng tế bào Y và Z có LD50 rất cao (70,0 và 818,0 μg/L), tương ứng với việc chúng kháng Thuốc A tốt hơn so với các dòng có LD50 thấp (V, W, X). Trong Hình 1, tại nồng độ cao, các dòng có LD50 lớn (đặc biệt Z) vẫn duy trì được tỷ lệ hình thành khối u cao hơn so với dòng V, W, X.",
@@ -67992,7 +67990,7 @@ export const QUESTIONS_DATA = {
         "A. while plants can be well preserved, wild animals are hard to controlled",
         "B. it may be not too late if humans stop killing living things in nature",
         "C. humans’ killing of wild animals is more dangerous than that of plants",
-        "D. humans destroy plants and animals, so they will end up destroying themselves PHẦN 2. TOÁN HỌC"
+        "D. humans destroy plants and animals, so they will end up destroying themselves"
       ],
       "correctAnswer": 0,
       "explanation": "Phân tích phương pháp giải chi tiết câu 60: Vận dụng kiến thức trọng tâm của phân môn Tiếng Anh để loại trừ phương án nhiễu và chọn đáp án chính xác.",
@@ -68853,7 +68851,7 @@ export const QUESTIONS_DATA = {
         "D. 2{,}9"
       ],
       "correctAnswer": 3,
-      "explanation": "Ta có 1 2 1 1 1 2 3 2 3 2 2 3 2 3 n n n n n u u q u - - - \\left( \\right) \\left( \\right) = = - \\Rightarrow = - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Ta có 2 2 1 2 1 2 1 2 1 2 3 2 3 2 2 2 2 3 2 3 3 3 2 3 n n n n n n v u - - - - - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\right) = = = = = \\left( \\right) \\left( \\left( \\right) ( ) 2 2 1 1 1 1 2 2 2 2 3 3 3 3 n n n n - - - - [ ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) = = = = ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) ] ] ] Suy ra ( ) n v là một cấp số nhân với 1 1 v = và 2 3 v q = Vậy 1 1 2 1 ... 3 2 1 1 3 v v S v v q = + + = = = - - Dựa vào thông tin sau, trả lời các câu hỏi Trong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp 5 cái bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi.Gọi số bánh su kem và số bánh custas bạn Ngọc làm lần lượt là x (cái) ( 0 x \\ge , x \\in \\infty ) và y (cái) ( 0 y \\ge , y \\in \\infty )",
+      "explanation": "Ta có 1 2 1 1 1 2 3 2 3 2 2 3 2 3 n n n n n u u q u - - - \\left( \\right) \\left( \\right) = = - \\Rightarrow = - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Ta có 2 2 1 2 1 2 1 2 1 2 3 2 3 2 2 2 2 3 2 3 3 3 2 3 n n n n n n v u - - - - - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\right) = = = = = \\left( \\right) \\left( \\left( \\right) ( ) 2 2 1 1 1 1 2 2 2 2 3 3 3 3 n n n n - - - - [ ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) = = = = ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) ] ] ] Suy ra ( ) n v là một cấp số nhân với 1 1 v = và 2 3 v q = Vậy 1 1 2 1 ... 3 2 1 1 3 v v S v v q = + + = = = - -",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -68866,16 +68864,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Đẳng thức nào sau đây đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi. Gọi số hộp bánh su kem và số hộp bánh custas bạn Ngọc làm lần lượt là $x$ và $y$ ($x \\ge 0, y \\ge 0$). Biết mỗi hộp bánh su kem được 10 điểm thưởng, mỗi hộp bánh custas được 12 điểm thưởng.",
+      "question": "Bất phương trình nào sau đây diễn tả lượng nguyên liệu bột mì bạn Ngọc được dùng không vượt quá mức cho phép?",
       "options": [
-        "A. $9 x y + \\ge$",
-        "B. $3 21 x y + \\le$",
-        "C. $4 24 x y + \\le$",
-        "D. $4 24 x y + \\le$"
+        "A. $4x + y \\le 24$",
+        "B. $x + 3y \\le 21$",
+        "C. $x + y \\le 9$",
+        "D. $4x + y \\ge 24$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Số gam bột mì cần để làm bánh su kem & bánh custas: $200x + 50y \\le 1200 \\iff 4x + y \\le 24$. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -68888,16 +68886,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Nên làm mỗi loại bao nhiêu cái bánh để điểm thưởng cao nhất?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi. Gọi số hộp bánh su kem và số hộp bánh custas bạn Ngọc làm lần lượt là $x$ và $y$ ($x \\ge 0, y \\ge 0$). Biết mỗi hộp bánh su kem được 10 điểm thưởng, mỗi hộp bánh custas được 12 điểm thưởng.",
+      "question": "Nên làm mỗi loại bao nhiêu hộp bánh để điểm thưởng cao nhất?",
       "options": [
-        "A. 3 cái bánh kem, 6 cái bánh custas.",
-        "B. 5 cái bánh kem, 4 cái bánh custas.",
-        "C. 1 cái bánh kem, 7 cái bánh custas",
-        "D. 4 cái bánh kem, 5 cái bánh custas"
+        "A. 3 hộp bánh kem, 6 hộp bánh custas.",
+        "B. 5 hộp bánh kem, 4 hộp bánh custas.",
+        "C. 1 hộp bánh kem, 7 hộp bánh custas.",
+        "D. 4 hộp bánh kem, 5 hộp bánh custas."
       ],
       "correctAnswer": 0,
-      "explanation": "Số gam bột mì cần để làm bánh su kem & bánh custas: 200 50 1200 4 24 x y x y + \\le \\Rightarrow + \\le Số gam đường cần để làm bánh su kem & bánh custas: 50 50 450 9 x y x y + \\le \\Rightarrow + \\le Số gam trứng cần để làm bánh su kem & bánh custas: 20 60 420 3 21 x y x y + \\le \\Rightarrow + \\le Vậy ta có hệ bất phương trình: 4 24 9 3 21 0; 0 x y x y x y x y + \\le + \\le + \\le \\ge \\ge Số điểm thưởng: 10 12 T x y = + Ta cần tìm ( ) ; x y thỏa hệ bất phương trình và làm cho T đạt giá trị lớn nhất ( ) 1 : 4 24 d x y + = qua ( ) 0; 24 và ( ) 6;0 ( ) 2 : 9 d x y + = qua ( ) 0;9 và ( ) 9;0 ( ) 3 : 3 21 d x y + = qua ( ) 0;7 và ( ) 21;0 Miền nghiệm của hệ bất phương trình là miền ngũ giác OABCD với ( ) 0;0 O , ( ) 0;7 A , ( ) 6;0 D ( ) 9 3 3;6 3 21 6 x y x B x y y + = = \\Rightarrow \\Rightarrow + = = ( ) 4 24 5 5;4 9 4 x y x C x y y + = = \\Rightarrow \\Rightarrow + = = Với 0; 0 x y = = thì 0 T = Với 0; 7 x y = = thì 12.7 84 T = = Với 6; 0 x y = = thì 10.6 60 T = = Với 3; 6 x y = = thì 3.10 12.6 102 T = + = Với 5; 4 x y = = thì 10.5 12.4 98 T = + = Vậy với 3; 6 x y = = thì max 102 T = Dựa vào thông tin sau, trả lời các câu hỏi Trong mặt phẳng tọa độ , cho tam giác ABC có là trung điểm của cạnh AB . Đường trung tuyến và đường cao qua đỉnh A lần lượt có phương trình là và .",
+      "explanation": "Hệ bất phương trình ràng buộc: $\\begin{cases} 4x + y \\le 24 \\\\ x + y \\le 9 \\\\ x + 3y \\le 21 \\\\ x \\ge 0, y \\ge 0 \\end{cases}$. Điểm thưởng $T = 10x + 12y$. Xét các đỉnh của miền nghiệm: $O(0;0) \\implies T = 0$, $A(0;7) \\implies T = 84$, $B(3;6) \\implies T = 102$, $C(5;4) \\implies T = 98$, $D(6;0) \\implies T = 60$. Vậy làm 3 hộp bánh su kem và 6 hộp bánh custas cho điểm thưởng lớn nhất (102 điểm). Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -68910,16 +68908,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
       "question": "Tọa độ điểm $A$ của tam giác $ABC$ là:",
       "options": [
         "A. $A\\left(0; -\\frac{3}{2}\\right)$",
         "B. $A\\left(\\frac{3}{2}; 0\\right)$",
-        "C. A(1; 2)",
-        "D. A(2; 1)"
+        "C. $A(1; 2)$",
+        "D. $A(2; 1)$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Oxy (2; 0) M 7 2 3 0 x y - - = 6 4 0 x y - - = Tọa độ điểm là nghiệm của hệ",
+      "correctAnswer": 2,
+      "explanation": "Tọa độ điểm $A$ là nghiệm của hệ gồm đường trung tuyến và đường cao qua $A$:\n$\\begin{cases} 7x - 2y - 3 = 0 \\\\ 6x - y - 4 = 0 \\end{cases} \\iff \\begin{cases} x = 1 \\\\ y = 2 \\end{cases} \\implies A(1; 2)$. Chọn C.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -68932,16 +68930,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Phương trình đường thẳng BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
+      "question": "Phương trình đường thẳng $BC$ là:",
       "options": [
         "A. $x + 6y + 9 = 0$",
-        "B. $x + 6y + 9 = 0$",
+        "B. $x - 6y - 9 = 0$",
         "C. $x - 6y + 9 = 0$",
         "D. $x + 6y - 9 = 0$"
       ],
       "correctAnswer": 0,
-      "explanation": "Do là trung điểm của . đi qua và vuông góc với đường thẳng nên nhận làm vecto pháp tuyến. Do đó có phương trình:",
+      "explanation": "Vì $M(2; 0)$ là trung điểm $AB$ và $A(1; 2)$ nên $B(3; -2)$. Đường cao $AH: 6x - y - 4 = 0 \\implies BC \\perp AH$ có vectơ pháp tuyến $\\vec{n}_{BC} = (1; 6)$. Đường thẳng $BC$ qua $B(3; -2)$: $1(x - 3) + 6(y + 2) = 0 \\iff x + 6y + 9 = 0$. Chọn A.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -68954,16 +68952,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Phương trình đường thẳng AC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
+      "question": "Phương trình đường thẳng $AC$ là:",
       "options": [
         "A. $3x - 4y - 5 = 0$",
         "B. $4x - 3y + 5 = 0$",
         "C. $4x - 3y - 5 = 0$",
         "D. $3x - 4y + 5 = 0$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Tọa độ trung điểm của thỏa mãn hệ: Mà N là trung điểm BC nên tọa độ C là ( ) 3; 1 C - - Khi đó phương trình Dựa vào thông tin sau, trả lời các câu hỏi Có 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "correctAnswer": 3,
+      "explanation": "Gọi $N$ là trung điểm $BC$. $N = AN \\cap BC \\implies \\begin{cases} 7x - 2y - 3 = 0 \\\\ x + 6y + 9 = 0 \\end{cases} \\iff N\\left(0; -\\frac{3}{2}\\right)$. Do $N$ là trung điểm $BC$ nên $C(-3; -1)$. Phương trình đường thẳng $AC$ qua $A(1; 2)$ và $C(-3; -1)$: $3(x - 1) - 4(y - 2) = 0 \\iff 3x - 4y + 5 = 0$. Chọn D.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -68976,7 +68974,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
       "question": "Xác suất để chọn được ít nhất 1 viên bi màu trắng là:",
       "options": [
         "A. $\\frac{131}{252}$",
@@ -68985,7 +68983,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{47}{84}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Số phần tử không gian mẫu: $n(\\Omega) = 14 \\times 18 = 252$. Số cách chọn không có viên bi trắng nào: $(14 - 3) \\times (18 - 7) = 11 \\times 11 = 121$. Xác suất chọn ít nhất 1 viên bi trắng: $1 - \\frac{121}{252} = \\frac{131}{252}$. Chọn A.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -68998,8 +68996,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Xác suất để chọn được 2 viên bi trong đó một viên màu đỏ, một viên màu xanh là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "question": "Xác suất để chọn được 2 viên bi trong đó một viên màu đỏ, một viên màu xanh là:",
       "options": [
         "A. $\\frac{61}{252}$",
         "B. $\\frac{25}{252}$",
@@ -69007,7 +69005,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{43}{126}$"
       ],
       "correctAnswer": 0,
-      "explanation": "A 7 2 3 0 1 (1; 2) 6 4 0 2 x y x A x y y - - = = \\Leftrightarrow \\Rightarrow - - = = (2; 0) M (3; 2) AB B \\Rightarrow - BC (3; 2) B - 6 4 0 x y - - = (1; 6) n = BC 3 6( 2) 0 6 9 0 x y x y - + + = \\Leftrightarrow + + = N BC 0 6 9 0 3 0; 3 7 2 3 0 2 2 x x y N x y y = + + = \\left( \\right) \\Leftrightarrow \\Rightarrow - \\left( \\right)- - = = - \\left( \\right) : 3 4 5 0 AC x y - + = Chọn ngẫu nhiên 1 viên bi từ 14 viên bi từ hộp thứ nhất và 1 viên bi từ 18 viên bi của hộp thứ hai. Nên số phần tử của không gian mẫu là: 1 1 14 18 ( ) . 252 n C C = = . Gọi B là biến cố lấy được hai viên bi sao cho có một viên màu đỏ, một viên màu xanh. + Trường hợp 1: Lấy 1 viên bi đỏ trong 5 viên bi đỏ ở hộp thứ nhất, 1 viên bị xanh trong 5 viên bi xanh ở hộp thứ hai. Số cách chọn là: 1 1 5 5 . 25 C C = . + Trường hợp 2: Lấy 1 viên bi xanh trong 6 viên bi xanh ở hộp thứ nhất, 1 viên bi đỏ trong 6 viên bi đỏ từ hộp thứ hai. Số cách chọn là: 1 1 6 6 . 36 C C = . Nên số phần tử của biến cố B là: ( ) 25 36 61 n B = + = . Xác suất lấy được hai viên bi lấy ra một viên màu đỏ, một viên màu xanh là: ( ) ( ) 61 ( ) 252 n B P B n = = .",
+      "explanation": "Trường hợp 1: Đỏ hộp 1 và Xanh hộp 2: $5 \\times 5 = 25$. Trường hợp 2: Xanh hộp 1 và Đỏ hộp 2: $6 \\times 6 = 36$. Tổng số cách: $25 + 36 = 61$. Xác suất: $\\frac{61}{252}$. Chọn A.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -69020,16 +69018,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Xác suất để chọn được 2 bi khác màu là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "question": "Xác suất để chọn được 2 bi khác màu là:",
       "options": [
         "A. $\\frac{9}{28}$",
         "B. $\\frac{19}{28}$",
         "C. $\\frac{16}{21}$",
         "D. $\\frac{67}{84}$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Gọi C là biến cố lấy được ra hai viên bi khác màu. C là biến cố lấy ra được hai viên bi cùng màu. + Trường hợp 1: Lấy ra hai bi màu trắng: 1 1 3 7 . 21 C C = . + Trường hợp 2: Lấy ra hai viên bi màu đỏ: 1 1 5 6 . 30 C C = . + Trường hợp 3: Lấy ra hai viên bi màu xanh: 1 1 6 5 . 30 C C = . Số phần tử của biến cố C là: ( ) 21 30 30 81 n C = + + = . Xác suất để lấy được hai viên bi khác màu là: ( ) ( ) 81 19 1 1 252 28 P C P C = - = - = . Dựa vào thông tin sau, trả lời các câu hỏi Cho hình chóp . S ABCD có đáy ABCD là hình chữ nhật, , 2 AB a BC a = = . Cạnh bên 15 SA a = và vuông góc với đáy.",
+      "correctAnswer": 1,
+      "explanation": "Số cách chọn 2 bi cùng màu: Trắng-Trắng: $3 \\times 7 = 21$; Đỏ-Đỏ: $5 \\times 6 = 30$; Xanh-Xanh: $6 \\times 5 = 30$. Tổng cùng màu: $21 + 30 + 30 = 81$. Xác suất lấy 2 bi khác màu: $1 - \\frac{81}{252} = 1 - \\frac{9}{28} = \\frac{19}{28}$. Chọn B.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -69067,10 +69065,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng:",
       "options": [
-        "A. $2^\\circ$",
-        "B. $2^\\circ$",
-        "C. $2^\\circ$",
-        "D. $2^\\circ$"
+        "A. $60^\\circ$",
+        "B. $45^\\circ$",
+        "C. $30^\\circ$",
+        "D. $75^\\circ$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -71008,7 +71006,7 @@ export const QUESTIONS_DATA = {
         "A. emotional distance from the past, freedom from fixed timing, greater self-kindness, and a stronger sense of identity",
         "B. clearer judgment of mistakes, pressure from online success, kinder views of failure, and a more hopeful social outlook",
         "C. renewed confidence in memory, rejection of public standards, escape from self- criticism, and acceptance of future change",
-        "D. mature reflection on failure, resistance to comparison, forgiveness of bad choices, and recovery from painful regret PHẦN 2. TOÁN HỌC"
+        "D. mature reflection on failure, resistance to comparison, forgiveness of bad choices, and recovery from painful regret"
       ],
       "correctAnswer": 0,
       "explanation": "Xem giải thích chi tiết trong tài liệu đáp án.",
@@ -71121,7 +71119,7 @@ export const QUESTIONS_DATA = {
         "D. 2{,}9"
       ],
       "correctAnswer": 3,
-      "explanation": "Ta có 1 2 1 1 1 2 3 2 3 2 2 3 2 3 n n n n n u u q u - - - \\left( \\right) \\left( \\right) = = - \\Rightarrow = - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Ta có 2 2 1 2 1 2 1 2 1 2 3 2 3 2 2 2 2 3 2 3 3 3 2 3 n n n n n n v u - - - - - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\right) = = = = = \\left( \\right) \\left( \\left( \\right) ( ) 2 2 1 1 1 1 2 2 2 2 3 3 3 3 n n n n - - - - [ ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) = = = = ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) ] ] ] Suy ra ( ) n v là một cấp số nhân với 1 1 v = và 2 3 v q = Vậy 1 1 2 1 ... 3 2 1 1 3 v v S v v q = + + = = = - - Dựa vào thông tin sau, trả lời các câu hỏi Trong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp 5 cái bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi.Gọi số bánh su kem và số bánh custas bạn Ngọc làm lần lượt là x (cái) ( 0 x \\ge , x \\in \\infty ) và y (cái) ( 0 y \\ge , y \\in \\infty )",
+      "explanation": "Ta có 1 2 1 1 1 2 3 2 3 2 2 3 2 3 n n n n n u u q u - - - \\left( \\right) \\left( \\right) = = - \\Rightarrow = - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) Ta có 2 2 1 2 1 2 1 2 1 2 3 2 3 2 2 2 2 3 2 3 3 3 2 3 n n n n n n v u - - - - - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) - \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\right) = = = = = \\left( \\right) \\left( \\left( \\right) ( ) 2 2 1 1 1 1 2 2 2 2 3 3 3 3 n n n n - - - - [ ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) = = = = ] \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) \\left( \\right) ] ] ] Suy ra ( ) n v là một cấp số nhân với 1 1 v = và 2 3 v q = Vậy 1 1 2 1 ... 3 2 1 1 3 v v S v v q = + + = = = - -",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -71134,16 +71132,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Đẳng thức nào sau đây đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi. Gọi số hộp bánh su kem và số hộp bánh custas bạn Ngọc làm lần lượt là $x$ và $y$ ($x \\ge 0, y \\ge 0$). Biết mỗi hộp bánh su kem được 10 điểm thưởng, mỗi hộp bánh custas được 12 điểm thưởng.",
+      "question": "Bất phương trình nào sau đây diễn tả lượng nguyên liệu bột mì bạn Ngọc được dùng không vượt quá mức cho phép?",
       "options": [
-        "A. $9 x y + \\ge$",
-        "B. $3 21 x y + \\le$",
-        "C. $4 24 x y + \\le$",
-        "D. $4 24 x y + \\le$"
+        "A. $4x + y \\le 24$",
+        "B. $x + 3y \\le 21$",
+        "C. $x + y \\le 9$",
+        "D. $4x + y \\ge 24$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Số gam bột mì cần để làm bánh su kem & bánh custas: $200x + 50y \\le 1200 \\iff 4x + y \\le 24$. Chọn A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -71156,16 +71154,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Nên làm mỗi loại bao nhiêu cái bánh để điểm thưởng cao nhất?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong một cuộc thi làm bánh, bạn Ngọc bốc thăm sẽ phải làm bánh su kem và bánh custas. Biết rằng để làm mỗi hộp bánh cùng trọng lượng, thì bánh su kem cần 200 g bột mì, 50 g đường, 20 g trứng (cho cả phần vỏ bánh và nhân kem); còn mỗi hộp bánh custas thì cần 50 g bột mì, 50 g đường, 60 g trứng (cho cả phần vỏ bánh và nhân kem). Ban tổ chức quy định chỉ được dùng tối đa 1200 g bột mì, 450 g đường, 420 g trứng cho mỗi phần dự thi. Gọi số hộp bánh su kem và số hộp bánh custas bạn Ngọc làm lần lượt là $x$ và $y$ ($x \\ge 0, y \\ge 0$). Biết mỗi hộp bánh su kem được 10 điểm thưởng, mỗi hộp bánh custas được 12 điểm thưởng.",
+      "question": "Nên làm mỗi loại bao nhiêu hộp bánh để điểm thưởng cao nhất?",
       "options": [
-        "A. 3 cái bánh kem, 6 cái bánh custas.",
-        "B. 5 cái bánh kem, 4 cái bánh custas.",
-        "C. 1 cái bánh kem, 7 cái bánh custas",
-        "D. 4 cái bánh kem, 5 cái bánh custas"
+        "A. 3 hộp bánh kem, 6 hộp bánh custas.",
+        "B. 5 hộp bánh kem, 4 hộp bánh custas.",
+        "C. 1 hộp bánh kem, 7 hộp bánh custas.",
+        "D. 4 hộp bánh kem, 5 hộp bánh custas."
       ],
       "correctAnswer": 0,
-      "explanation": "Số gam bột mì cần để làm bánh su kem & bánh custas: 200 50 1200 4 24 x y x y + \\le \\Rightarrow + \\le Số gam đường cần để làm bánh su kem & bánh custas: 50 50 450 9 x y x y + \\le \\Rightarrow + \\le Số gam trứng cần để làm bánh su kem & bánh custas: 20 60 420 3 21 x y x y + \\le \\Rightarrow + \\le Vậy ta có hệ bất phương trình: 4 24 9 3 21 0; 0 x y x y x y x y + \\le + \\le + \\le \\ge \\ge Số điểm thưởng: 10 12 T x y = + Ta cần tìm ( ) ; x y thỏa hệ bất phương trình và làm cho T đạt giá trị lớn nhất ( ) 1 : 4 24 d x y + = qua ( ) 0; 24 và ( ) 6;0 ( ) 2 : 9 d x y + = qua ( ) 0;9 và ( ) 9;0 ( ) 3 : 3 21 d x y + = qua ( ) 0;7 và ( ) 21;0 Miền nghiệm của hệ bất phương trình là miền ngũ giác OABCD với ( ) 0;0 O , ( ) 0;7 A , ( ) 6;0 D ( ) 9 3 3;6 3 21 6 x y x B x y y + = = \\Rightarrow \\Rightarrow + = = ( ) 4 24 5 5;4 9 4 x y x C x y y + = = \\Rightarrow \\Rightarrow + = = Với 0; 0 x y = = thì 0 T = Với 0; 7 x y = = thì 12.7 84 T = = Với 6; 0 x y = = thì 10.6 60 T = = Với 3; 6 x y = = thì 3.10 12.6 102 T = + = Với 5; 4 x y = = thì 10.5 12.4 98 T = + = Vậy với 3; 6 x y = = thì max 102 T = Dựa vào thông tin sau, trả lời các câu hỏi Trong mặt phẳng tọa độ , cho tam giác ABC có là trung điểm của cạnh AB . Đường trung tuyến và đường cao qua đỉnh A lần lượt có phương trình là và .",
+      "explanation": "Hệ bất phương trình ràng buộc: $\\begin{cases} 4x + y \\le 24 \\\\ x + y \\le 9 \\\\ x + 3y \\le 21 \\\\ x \\ge 0, y \\ge 0 \\end{cases}$. Điểm thưởng $T = 10x + 12y$. Xét các đỉnh của miền nghiệm: $O(0;0) \\implies T = 0$, $A(0;7) \\implies T = 84$, $B(3;6) \\implies T = 102$, $C(5;4) \\implies T = 98$, $D(6;0) \\implies T = 60$. Vậy làm 3 hộp bánh su kem và 6 hộp bánh custas cho điểm thưởng lớn nhất (102 điểm). Chọn A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -71178,16 +71176,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
       "question": "Tọa độ điểm $A$ của tam giác $ABC$ là:",
       "options": [
         "A. $A\\left(0; -\\frac{3}{2}\\right)$",
         "B. $A\\left(\\frac{3}{2}; 0\\right)$",
-        "C. A(1; 2)",
-        "D. A(2; 1)"
+        "C. $A(1; 2)$",
+        "D. $A(2; 1)$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Oxy (2; 0) M 7 2 3 0 x y - - = 6 4 0 x y - - = Tọa độ điểm là nghiệm của hệ",
+      "correctAnswer": 2,
+      "explanation": "Tọa độ điểm $A$ là nghiệm của hệ gồm đường trung tuyến và đường cao qua $A$:\n$\\begin{cases} 7x - 2y - 3 = 0 \\\\ 6x - y - 4 = 0 \\end{cases} \\iff \\begin{cases} x = 1 \\\\ y = 2 \\end{cases} \\implies A(1; 2)$. Chọn C.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -71200,16 +71198,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Phương trình đường thẳng BC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
+      "question": "Phương trình đường thẳng $BC$ là:",
       "options": [
         "A. $x + 6y + 9 = 0$",
-        "B. $x + 6y + 9 = 0$",
+        "B. $x - 6y - 9 = 0$",
         "C. $x - 6y + 9 = 0$",
         "D. $x + 6y - 9 = 0$"
       ],
       "correctAnswer": 0,
-      "explanation": "Do là trung điểm của . đi qua và vuông góc với đường thẳng nên nhận làm vecto pháp tuyến. Do đó có phương trình:",
+      "explanation": "Vì $M(2; 0)$ là trung điểm $AB$ và $A(1; 2)$ nên $B(3; -2)$. Đường cao $AH: 6x - y - 4 = 0 \\implies BC \\perp AH$ có vectơ pháp tuyến $\\vec{n}_{BC} = (1; 6)$. Đường thẳng $BC$ qua $B(3; -2)$: $1(x - 3) + 6(y + 2) = 0 \\iff x + 6y + 9 = 0$. Chọn A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -71222,16 +71220,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Phương trình đường thẳng AC là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nTrong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có điểm $M(2; 0)$ là trung điểm của cạnh $AB$. Đường trung tuyến và đường cao kẻ từ đỉnh $A$ lần lượt có phương trình là $7x - 2y - 3 = 0$ và $6x - y - 4 = 0$.",
+      "question": "Phương trình đường thẳng $AC$ là:",
       "options": [
         "A. $3x - 4y - 5 = 0$",
         "B. $4x - 3y + 5 = 0$",
         "C. $4x - 3y - 5 = 0$",
         "D. $3x - 4y + 5 = 0$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Tọa độ trung điểm của thỏa mãn hệ: Mà N là trung điểm BC nên tọa độ C là ( ) 3; 1 C - - Khi đó phương trình Dựa vào thông tin sau, trả lời các câu hỏi Có 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "correctAnswer": 3,
+      "explanation": "Gọi $N$ là trung điểm $BC$. $N = AN \\cap BC \\implies \\begin{cases} 7x - 2y - 3 = 0 \\\\ x + 6y + 9 = 0 \\end{cases} \\iff N\\left(0; -\\frac{3}{2}\\right)$. Do $N$ là trung điểm $BC$ nên $C(-3; -1)$. Phương trình đường thẳng $AC$ qua $A(1; 2)$ và $C(-3; -1)$: $3(x - 1) - 4(y - 2) = 0 \\iff 3x - 4y + 5 = 0$. Chọn D.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -71244,7 +71242,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
       "question": "Xác suất để chọn được ít nhất 1 viên bi màu trắng là:",
       "options": [
         "A. $\\frac{131}{252}$",
@@ -71253,7 +71251,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{47}{84}$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Số phần tử không gian mẫu: $n(\\Omega) = 14 \\times 18 = 252$. Số cách chọn không có viên bi trắng nào: $(14 - 3) \\times (18 - 7) = 11 \\times 11 = 121$. Xác suất chọn ít nhất 1 viên bi trắng: $1 - \\frac{121}{252} = \\frac{131}{252}$. Chọn A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -71266,8 +71264,8 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Xác suất để chọn được 2 viên bi trong đó một viên màu đỏ, một viên màu xanh là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "question": "Xác suất để chọn được 2 viên bi trong đó một viên màu đỏ, một viên màu xanh là:",
       "options": [
         "A. $\\frac{61}{252}$",
         "B. $\\frac{25}{252}$",
@@ -71275,7 +71273,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{43}{126}$"
       ],
       "correctAnswer": 0,
-      "explanation": "A 7 2 3 0 1 (1; 2) 6 4 0 2 x y x A x y y - - = = \\Leftrightarrow \\Rightarrow - - = = (2; 0) M (3; 2) AB B \\Rightarrow - BC (3; 2) B - 6 4 0 x y - - = (1; 6) n = BC 3 6( 2) 0 6 9 0 x y x y - + + = \\Leftrightarrow + + = N BC 0 6 9 0 3 0; 3 7 2 3 0 2 2 x x y N x y y = + + = \\left( \\right) \\Leftrightarrow \\Rightarrow - \\left( \\right)- - = = - \\left( \\right) : 3 4 5 0 AC x y - + = Chọn ngẫu nhiên 1 viên bi từ 14 viên bi từ hộp thứ nhất và 1 viên bi từ 18 viên bi của hộp thứ hai. Nên số phần tử của không gian mẫu là: 1 1 14 18 ( ) . 252 n C C = = . Gọi B là biến cố lấy được hai viên bi sao cho có một viên màu đỏ, một viên màu xanh. + Trường hợp 1: Lấy 1 viên bi đỏ trong 5 viên bi đỏ ở hộp thứ nhất, 1 viên bị xanh trong 5 viên bi xanh ở hộp thứ hai. Số cách chọn là: 1 1 5 5 . 25 C C = . + Trường hợp 2: Lấy 1 viên bi xanh trong 6 viên bi xanh ở hộp thứ nhất, 1 viên bi đỏ trong 6 viên bi đỏ từ hộp thứ hai. Số cách chọn là: 1 1 6 6 . 36 C C = . Nên số phần tử của biến cố B là: ( ) 25 36 61 n B = + = . Xác suất lấy được hai viên bi lấy ra một viên màu đỏ, một viên màu xanh là: ( ) ( ) 61 ( ) 252 n B P B n = = .",
+      "explanation": "Trường hợp 1: Đỏ hộp 1 và Xanh hộp 2: $5 \\times 5 = 25$. Trường hợp 2: Xanh hộp 1 và Đỏ hộp 2: $6 \\times 6 = 36$. Tổng số cách: $25 + 36 = 61$. Xác suất: $\\frac{61}{252}$. Chọn A.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -71288,16 +71286,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": null,
-      "question": "Xác suất để chọn được 2 bi khác màu là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nCó 2 hộp đựng các viên bi. Hộp thứ nhất chứa 3 viên bi trắng, 5 viên bi đỏ và 6 viên bi xanh. Hộp thứ hai chứa 7 viên bi trắng, 6 viên bi đỏ và 5 viên bi xanh (các viên bi kích thước như nhau). Chọn ngẫu nhiên mỗi hộp một viên bi.",
+      "question": "Xác suất để chọn được 2 bi khác màu là:",
       "options": [
         "A. $\\frac{9}{28}$",
         "B. $\\frac{19}{28}$",
         "C. $\\frac{16}{21}$",
         "D. $\\frac{67}{84}$"
       ],
-      "correctAnswer": 0,
-      "explanation": "Gọi C là biến cố lấy được ra hai viên bi khác màu. C là biến cố lấy ra được hai viên bi cùng màu. + Trường hợp 1: Lấy ra hai bi màu trắng: 1 1 3 7 . 21 C C = . + Trường hợp 2: Lấy ra hai viên bi màu đỏ: 1 1 5 6 . 30 C C = . + Trường hợp 3: Lấy ra hai viên bi màu xanh: 1 1 6 5 . 30 C C = . Số phần tử của biến cố C là: ( ) 21 30 30 81 n C = + + = . Xác suất để lấy được hai viên bi khác màu là: ( ) ( ) 81 19 1 1 252 28 P C P C = - = - = . Dựa vào thông tin sau, trả lời các câu hỏi Cho hình chóp . S ABCD có đáy ABCD là hình chữ nhật, , 2 AB a BC a = = . Cạnh bên 15 SA a = và vuông góc với đáy.",
+      "correctAnswer": 1,
+      "explanation": "Số cách chọn 2 bi cùng màu: Trắng-Trắng: $3 \\times 7 = 21$; Đỏ-Đỏ: $5 \\times 6 = 30$; Xanh-Xanh: $6 \\times 5 = 30$. Tổng cùng màu: $21 + 30 + 30 = 81$. Xác suất lấy 2 bi khác màu: $1 - \\frac{81}{252} = 1 - \\frac{9}{28} = \\frac{19}{28}$. Chọn B.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -71335,10 +71333,10 @@ export const QUESTIONS_DATA = {
       "passage": null,
       "question": "Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng:",
       "options": [
-        "A. $2^\\circ$",
-        "B. $2^\\circ$",
-        "C. $2^\\circ$",
-        "D. $2^\\circ$"
+        "A. $60^\\circ$",
+        "B. $45^\\circ$",
+        "C. $30^\\circ$",
+        "D. $75^\\circ$"
       ],
       "correctAnswer": 0,
       "explanation": "Xem hướng dẫn giải chi tiết.",
@@ -71538,7 +71536,7 @@ export const QUESTIONS_DATA = {
         "C. $a = 6$",
         "D. $a = 3$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "AB song song với trục Ox có nghĩa có cùng tung độ do đó: ( ) ( ) , , ,m m A a m B a m . Chú ý rằng nếu AB song song với trục Ox thì BC vuông góc với trục Ox có nghĩa có cùng hoành độ do vậy ta có 3 , 2 m m C a \\left( \\right) \\left( \\right) \\left( \\right) bởi 3 3 log 2 m a m a = . Vì hình vuông ABCD có diện tích bằng 36 nên có 3 6 6 12 2 m m m AB BC a a m m = = \\Leftrightarrow - = - = \\Leftrightarrow = \\pm . Nếu 12 m = - thì 12 6 6 1 1 1 6 1 3 a a a - = \\Leftrightarrow = < vô lý. Chọn D .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -72308,7 +72306,7 @@ export const QUESTIONS_DATA = {
         "C. Hiện tượng dẫn điện của kim loại.",
         "D. Hiện tượng điện phân."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Ánh sáng làm bật electron trong chất bán dẫn, tạo ra dòng điện — đây là hiện tượng quang điện trong. Đáp án đúng: B.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
@@ -72330,7 +72328,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. 4"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "(1) Sai - pin tạo ra dòng một chiều. (2) Đúng - ánh sáng mạnh hơn → nhiều electron được giải phóng → tăng công suất. (3) Sai - ghép nối tiếp mới làm tăng hiệu điện thế, ghép song song tăng dòng. (4) Đúng - hiệu suất phụ thuộc vào năng lượng vùng cấm của vật liệu bán dẫn. Có 2 phát biểu đúng. Đáp án đúng: B.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
@@ -73364,7 +73362,7 @@ export const QUESTIONS_DATA = {
         "A. emotional distance from the past, freedom from fixed timing, greater self-kindness, and a stronger sense of identity",
         "B. clearer judgment of mistakes, pressure from online success, kinder views of failure, and a more hopeful social outlook",
         "C. renewed confidence in memory, rejection of public standards, escape from self- criticism, and acceptance of future change",
-        "D. mature reflection on failure, resistance to comparison, forgiveness of bad choices, and recovery from painful regret PHẦN 2. TOÁN HỌC"
+        "D. mature reflection on failure, resistance to comparison, forgiveness of bad choices, and recovery from painful regret"
       ],
       "correctAnswer": 0,
       "explanation": "Xem giải thích chi tiết trong tài liệu đáp án.",
@@ -73806,7 +73804,7 @@ export const QUESTIONS_DATA = {
         "C. $a = 6$",
         "D. $a = 3$"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "AB song song với trục Ox có nghĩa có cùng tung độ do đó: ( ) ( ) , , ,m m A a m B a m . Chú ý rằng nếu AB song song với trục Ox thì BC vuông góc với trục Ox có nghĩa có cùng hoành độ do vậy ta có 3 , 2 m m C a \\left( \\right) \\left( \\right) \\left( \\right) bởi 3 3 log 2 m a m a = . Vì hình vuông ABCD có diện tích bằng 36 nên có 3 6 6 12 2 m m m AB BC a a m m = = \\Leftrightarrow - = - = \\Leftrightarrow = \\pm . Nếu 12 m = - thì 12 6 6 1 1 1 6 1 3 a a a - = \\Leftrightarrow = < vô lý. Chọn D .",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
@@ -74062,16 +74060,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu. Phân xưởng chỉ còn 100 tấn thịt và 40 tấn nguyên liệu. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đông. Gọi x là số đơn vị lạp xưởng được sản xuất, y là số đơn vị chả giò được sản xuất.",
-      "question": "Đẳng thức nào sau đây đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu khác. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu khác. Phân xưởng chỉ còn 100 tấn thịt heo và 40 tấn nguyên liệu khác. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đồng. Gọi $x$ là số đơn vị lạp xưởng và $y$ là số đơn vị chả giò được sản xuất ($x, y \\ge 0$).",
+      "question": "Bất phương trình nào sau đây diễn tả điều kiện về lượng thịt heo mà phân xưởng có thể sử dụng?",
       "options": [
-        "A. $2 100 x y + \\le$",
-        "B. $2 80 x y + \\le$",
-        "C. $2 80 x y + \\le$",
-        "D. $2 200 x y + \\le$"
+        "A. $2x + y \\le 100$",
+        "B. $x + 2y \\le 80$",
+        "C. $2x + y \\le 80$",
+        "D. $x + 2y \\le 100$"
       ],
       "correctAnswer": 0,
-      "explanation": "Xem hướng dẫn giải chi tiết.",
+      "explanation": "Để làm $x$ đơn vị lạp xưởng cần $2x$ tấn thịt heo, $y$ đơn vị chả giò cần $1y$ tấn thịt heo. Tổng lượng thịt heo tối đa là 100 tấn nên: $2x + y \\le 100$. Chọn A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -74084,16 +74082,16 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 75 và 76:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Một phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu. Phân xưởng chỉ còn 100 tấn thịt và 40 tấn nguyên liệu. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đông. Gọi x là số đơn vị lạp xưởng được sản xuất, y là số đơn vị chả giò được sản xuất.",
-      "question": "Phân xưởng có thể có số tiền lãi (triệu đồng) lớn nhất là",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi:\nMột phân xưởng cùng sản xuất hai loại sản phẩm là lạp xưởng và chả giò. Để làm ra 1 đơn vị lạp xưởng, ta cần 2 tấn thịt heo và 500 kg nguyên liệu khác. Để làm ra 1 đơn vị chả giò, ta cần 1 tấn thịt heo và 1 tấn nguyên liệu khác. Phân xưởng chỉ còn 100 tấn thịt heo và 40 tấn nguyên liệu khác. Biết rằng 1 đơn vị lạp xưởng lãi 10 triệu đồng, 1 đơn vị chả giò lãi 13 triệu đồng. Gọi $x$ là số đơn vị lạp xưởng và $y$ là số đơn vị chả giò được sản xuất ($x, y \\ge 0$).",
+      "question": "Phân xưởng có thể đạt số tiền lãi lớn nhất là bao nhiêu (triệu đồng)?",
       "options": [
         "A. 620",
         "B. 520",
         "C. 660",
         "D. 500"
       ],
-      "correctAnswer": 0,
-      "explanation": "Điều kiện về thịt: 2 100 x y + \\le Điều kiện về nguyên liệu: 0,5 1 40 2 80 x y x y + \\le \\Rightarrow + \\le Bất phương trình biểu thị các điều kiện của đề bài là 2 100 2 80 0 0 x y x y x y + \\le + \\le \\ge \\ge Miền nghiệm của hệ bất phương trình (I) là miền tứ giác OABC với ( ) ( ) ( ) ( ) 0; 0 , 0; 40 , 40; 20 , 50; 0 O A B C . Gọi ( ) , 10 13 F x y x y = + (triệu đồng) là số tiền lãi mà phân xưởng thu được. ( ) ; x y ( ) 0;0 O ( ) 0; 40 A ( ) 40; 20 B ( ) 50; 0 C ( ) , 10 13 F x y x y = + 0 520 660 500 Vậy số tiền lãi lớn nhất là 660 triệu đồng khi phân xưởng sản xuất 40 đơn vị lạp xưởng và 20 đơn vị chả giò.",
+      "correctAnswer": 2,
+      "explanation": "Điều kiện ràng buộc: $\\begin{cases} 2x + y \\le 100 \\\\ 0{,}5x + y \\le 40 \\iff x + 2y \\le 80 \\\\ x \\ge 0, y \\ge 0 \\end{cases}$. Hàm mục tiêu lãi: $F(x, y) = 10x + 13y$. Các đỉnh miền nghiệm: $O(0;0) \\implies 0$, $A(0;40) \\implies 520$, $B(40;20) \\implies 10(40) + 13(20) = 660$, $C(50;0) \\implies 500$. Lãi lớn nhất là 660 triệu đồng khi sản xuất 40 đơn vị lạp xưởng và 20 đơn vị chả giò. Chọn C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -74393,14 +74391,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $(x + 1)(mx + 2) = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
+      "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $\\frac{(x + 1)(mx + 2)}{x - 2} = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
       "options": [
         "A. 2",
         "B. 1",
         "C. 0",
         "D. 3"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Chọn A Điều kiện: 2 x \\ne . Phương trình có nghiệm duy nhất khi xảy ra hai trường hợp: TH 1: tử thức có đúng một nghiệm thỏa điều kiện, suy ra 2 0 2 m m - + = \\Leftrightarrow = . TH 2: tử thức có hai nghiệm và một nghiệm 2 x = , suy ra 2 2 0 1 m m + = \\Leftrightarrow = - . Vậy 2 n = .",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
@@ -74532,7 +74530,7 @@ export const QUESTIONS_DATA = {
         "C. Hiện tượng dẫn điện của kim loại.",
         "D. Hiện tượng điện phân."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Ánh sáng làm bật electron trong chất bán dẫn, tạo ra dòng điện — đây là hiện tượng quang điện trong. Đáp án đúng: B.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
@@ -74554,7 +74552,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. 4"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "(1) Sai - pin tạo ra dòng một chiều. (2) Đúng - ánh sáng mạnh hơn → nhiều electron được giải phóng → tăng công suất. (3) Sai - ghép nối tiếp mới làm tăng hiệu điện thế, ghép song song tăng dòng. (4) Đúng - hiệu suất phụ thuộc vào năng lượng vùng cấm của vật liệu bán dẫn. Có 2 phát biểu đúng. Đáp án đúng: B.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
@@ -75363,7 +75361,7 @@ export const QUESTIONS_DATA = {
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
       "passage": "Khôn ngoan mới biết thăng rồi giáng, Dại dột nào hay tiếu có dài. Đã khuất bao nhiêu rồi lại rỗi, Đạo trời lồng lộng chẳng hề sai. (Nguyễn Bỉnh Khiêm, Bài số 2, Bạch Vân quốc ngữ thi tập) Nhận định nào sau đây đúng nhất về phong cách thơ Nguyễn Bỉnh Khiêm thể hiện qua",
-      "question": "đoạn thơ trên?",
+      "question": "Nét đặc sắc nổi bật về nội dung và giọng điệu của đoạn thơ trên là gì?",
       "options": [
         "A. Thơ giàu cảm xúc trữ tình, thiên về bộc lộ tâm trạng cá nhân.",
         "B. Thơ mang giọng triết lí sâu sắc, bình thản chiêm nghiệm lẽ đời.",
@@ -76380,7 +76378,7 @@ export const QUESTIONS_DATA = {
         "A. They are gaining in popularity in different parts of the world.",
         "B. They are more economical and produce no pollution whatsoever.",
         "C. They have only been developed in technologically advanced nations.",
-        "D. They are eco-friendly structures that always include rooftop gardens. PHẦN 2. TOÁN HỌC"
+        "D. They are eco-friendly structures that always include rooftop gardens."
       ],
       "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 60] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -76661,14 +76659,14 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $(x + 1)(mx + 2) = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
+      "question": "Gọi $n$ là số các giá trị của tham số $m$ để phương trình $\\frac{(x + 1)(mx + 2)}{x - 2} = 0$ có nghiệm duy nhất trên $[-2; 2]$:",
       "options": [
         "A. 2",
         "B. 1",
         "C. 0",
         "D. 3"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Chọn A Điều kiện: 2 x \\ne . Phương trình có nghiệm duy nhất khi xảy ra hai trường hợp: TH 1: tử thức có đúng một nghiệm thỏa điều kiện, suy ra 2 0 2 m m - + = \\Leftrightarrow = . TH 2: tử thức có hai nghiệm và một nghiệm 2 x = , suy ra 2 2 0 1 m m + = \\Leftrightarrow = - . Vậy 2 n = .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
@@ -76731,10 +76729,10 @@ export const QUESTIONS_DATA = {
       "options": [
         "A. $u_n = \\frac{n^{2018} - (n - 1)^{2018}}{n^{2017}}$",
         "B. $u_n = \\sqrt{n^2 + 2018n} - \\sqrt{n^2 + 2016n}$",
-        "C. $u_n = \\frac{2017n + 1}{n + 2}$",
+        "C. $\\begin{cases} u_1 = 2017 \\\\ u_{n+1} = \\frac{u_n + 1}{2} \\end{cases}$",
         "D. $u_n = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\dots + \\frac{1}{n(n+1)}$"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "Chọn A Ta tính giới hạn của các dãy số trong từng đáp án: +) Đáp án A: ( ) ( ) 2018 2017 2017 2017 2017 2017 lim lim lim . 2018 2018 n n n n u n n n n [ ] - - - \\left( \\right) = = ] \\left( \\right) - \\left( \\right) - ] ] ] 2017 2017 1 2017 lim 1 1 2018 1 n n n [ ] \\left( \\right) - ] \\left( \\right) \\left( \\right) ] = - = - \\left( \\right) \\left( \\right) \\left( \\right) ] \\left( \\right) - ] \\left( \\right) ] ] . +) Đáp án B: ( ) ( )2 2 2 2 2 2 2018 2016 lim lim 2018 2016 lim 2018 2016 n n n n u n n n n n + - - = + - + = + + + 2 2 2 2 2 2 lim lim 1 2018 2016 2018 2016 1 1 n n n n n = = = + + + + + + . +) Đáp án C: Cách 1: Ta có ( ) 1 1 1 1 2 n n u u + - = - ( ) ( ) 1 1 1 1 1 1 1 ... 1 2 2 n n n u u u - - \\Rightarrow - = - = = - 1 2016 1 1 4032. 1 2 2 n n n n u u - \\left( \\right) \\Rightarrow = + \\Leftrightarrow = + \\left( \\right) \\left( \\right) lim 1 n u \\Rightarrow = . Cách 2: Bước 1: Ta chứng minh ( ) n u giảm và bị chặn dưới bởi 1. Thật vậy bằng quy nạp ta có 1 2017 1 u = > . Giả sử ( ) ( ) 1 1 1 1 1 1 1 1 2 2 n n n u u u + > \\Rightarrow = + > + = Vậy * 1 n u n > \\in \\infty . Hơn nữa ( ) 1 1 1 0 2 n n n u u u + - = - < nên ( ) n u là dãy giảm Suy ra ( ) n u có giới hạn lim n u a = Bước 2: Ta có ( ) 1 1 1 1 1 1 a lim lim lim 1 lim 2 2 2 2 2 n n n n u u u u a + = = = + = + = + 1 a \\Rightarrow = . +) Đáp án D: Ta có ( ) 1 1 1 1 1 1 1 1 1 1 ... 1 ... 1 1.2 2.3 3.4 1 2 2 3 1 1 1 n n u n n n n n n = + + + + = - + - + + - = - = + + + + lim lim 1 1 n n u n \\Rightarrow = = + .",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
@@ -76801,7 +76799,7 @@ export const QUESTIONS_DATA = {
         "D. $D = \\left(\\frac{1}{2}; +\\infty\\right)$"
       ],
       "correctAnswer": 3,
-      "explanation": "Chọn A Điều kiện: 3 6 2 1 0x - - > 3 6 0 x \\Leftrightarrow - > 1 2 x \\Leftrightarrow < .",
+      "explanation": "Hàm số xác định khi và chỉ khi $2x - 1 > 0 \\iff x > \\frac{1}{2}$. Vậy $D = \\left(\\frac{1}{2}; +\\infty\\right)$. Chọn D.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -76867,7 +76865,7 @@ export const QUESTIONS_DATA = {
         "D. 4"
       ],
       "correctAnswer": 2,
-      "explanation": "Chọn A TXĐ: \\{ \\} \\ 0; 2; 2 D = - \\mathbb{R} . 2 2 0 2 2 0 3 2 sin 0 1 lim lim .1 3.0 2 4 4 0 2 x x x x x y x x \\to \\to [ ] \\left( \\right) - + \\left( \\right) = = = - ] \\left( \\right) \\left( \\right) - \\left( - \\right) + \\right) \\left( ] - ] . ( ) ( ) ( )( ) ( ) ( ) 2 2 2 2 2 3 2 sin 1 2 sin 1 lim lim lim . 2 2 4 x x x x x x x x x y x x x x x \\pm \\pm \\pm \\to - \\to - \\to - [ ] - - + [ ] - - ] = = ] - + ] ] ] ] ] ( ) ( ) 2 1 sin 1 lim . 2 x x x x x \\pm \\to - [ ] - = ] + ] ] o Vì ( ) 2 1 sin 3 0 sin lim 2 2 x x x x + \\to - - [ ] = - ] ] < ] và ( ) 2 1 lim 2 x x + \\to - = + + \\infty nên 2 lim x y + \\to - = -\\infty o Vì ( ) 2 1 sin 3 0 sin lim 2 2 x x x x - \\to - - [ ] = - ] ] < ] và ( ) 2 1 lim 2 x x - \\to - = - + \\infty nên 2 lim x y - \\to - = +\\infty Vậy đường thẳng 2 x = - là tiệm cận đứng của đồ thị hàm số. ( ) ( ) 2 2 1 sin sin 2 lim lim 2 6 x x x x y x x \\to \\to - = = + . Vậy ĐTHS có 1 đường tiệm cận đứng.",
+      "explanation": "Ta có $y = \\frac{(x-1)(x-2)}{(x-2)\\sin(4x)} = \\frac{x-1}{\\sin(4x)}$ với mọi $x \\in (0; \\pi) \\setminus \\{2\\}$. Tại $x = 2$, $\\lim_{x \\to 2} y = \\frac{1}{\\sin 8} \\ne \\pm\\infty$ nên $x = 2$ không là tiệm cận đứng. Mẫu số $\\sin(4x) = 0 \\iff 4x = k\\pi \\iff x = \\frac{k\\pi}{4}$. Trên $(0; \\pi)$, ta có 3 nghiệm: $x = \\frac{\\pi}{4}, x = \\frac{\\pi}{2}, x = \\frac{3\\pi}{4}$ (đều khác 1 và khác 2). Do đó đồ thị có đúng 3 đường tiệm cận đứng. Đáp án đúng là C.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -77763,7 +77761,7 @@ export const QUESTIONS_DATA = {
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
       "passage": "Khôn ngoan mới biết thăng rồi giáng, Dại dột nào hay tiếu có dài. Đã khuất bao nhiêu rồi lại rỗi, Đạo trời lồng lộng chẳng hề sai. (Nguyễn Bỉnh Khiêm, Bài số 2, Bạch Vân quốc ngữ thi tập) Nhận định nào sau đây đúng nhất về phong cách thơ Nguyễn Bỉnh Khiêm thể hiện qua",
-      "question": "đoạn thơ trên?",
+      "question": "Nét đặc sắc nổi bật về nội dung và giọng điệu của đoạn thơ trên là gì?",
       "options": [
         "A. Thơ giàu cảm xúc trữ tình, thiên về bộc lộ tâm trạng cá nhân.",
         "B. Thơ mang giọng triết lí sâu sắc, bình thản chiêm nghiệm lẽ đời.",
@@ -78736,7 +78734,7 @@ export const QUESTIONS_DATA = {
         "A. They are gaining in popularity in different parts of the world.",
         "B. They are more economical and produce no pollution whatsoever.",
         "C. They have only been developed in technologically advanced nations.",
-        "D. They are eco-friendly structures that always include rooftop gardens. PHẦN 2. TOÁN HỌC"
+        "D. They are eco-friendly structures that always include rooftop gardens."
       ],
       "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 60] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -79069,7 +79067,7 @@ export const QUESTIONS_DATA = {
         "D. $D = \\left(\\frac{1}{2}; +\\infty\\right)$"
       ],
       "correctAnswer": 3,
-      "explanation": "Chọn A Điều kiện: 3 6 2 1 0x - - > 3 6 0 x \\Leftrightarrow - > 1 2 x \\Leftrightarrow < .",
+      "explanation": "Hàm số xác định khi và chỉ khi $2x - 1 > 0 \\iff x > \\frac{1}{2}$. Vậy $D = \\left(\\frac{1}{2}; +\\infty\\right)$. Chọn D.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -79135,7 +79133,7 @@ export const QUESTIONS_DATA = {
         "D. 4"
       ],
       "correctAnswer": 2,
-      "explanation": "Chọn A TXĐ: \\{ \\} \\ 0; 2; 2 D = - \\mathbb{R} . 2 2 0 2 2 0 3 2 sin 0 1 lim lim .1 3.0 2 4 4 0 2 x x x x x y x x \\to \\to [ ] \\left( \\right) - + \\left( \\right) = = = - ] \\left( \\right) \\left( \\right) - \\left( - \\right) + \\right) \\left( ] - ] . ( ) ( ) ( )( ) ( ) ( ) 2 2 2 2 2 3 2 sin 1 2 sin 1 lim lim lim . 2 2 4 x x x x x x x x x y x x x x x \\pm \\pm \\pm \\to - \\to - \\to - [ ] - - + [ ] - - ] = = ] - + ] ] ] ] ] ( ) ( ) 2 1 sin 1 lim . 2 x x x x x \\pm \\to - [ ] - = ] + ] ] o Vì ( ) 2 1 sin 3 0 sin lim 2 2 x x x x + \\to - - [ ] = - ] ] < ] và ( ) 2 1 lim 2 x x + \\to - = + + \\infty nên 2 lim x y + \\to - = -\\infty o Vì ( ) 2 1 sin 3 0 sin lim 2 2 x x x x - \\to - - [ ] = - ] ] < ] và ( ) 2 1 lim 2 x x - \\to - = - + \\infty nên 2 lim x y - \\to - = +\\infty Vậy đường thẳng 2 x = - là tiệm cận đứng của đồ thị hàm số. ( ) ( ) 2 2 1 sin sin 2 lim lim 2 6 x x x x y x x \\to \\to - = = + . Vậy ĐTHS có 1 đường tiệm cận đứng.",
+      "explanation": "Ta có $y = \\frac{(x-1)(x-2)}{(x-2)\\sin(4x)} = \\frac{x-1}{\\sin(4x)}$ với mọi $x \\in (0; \\pi) \\setminus \\{2\\}$. Tại $x = 2$, $\\lim_{x \\to 2} y = \\frac{1}{\\sin 8} \\ne \\pm\\infty$ nên $x = 2$ không là tiệm cận đứng. Mẫu số $\\sin(4x) = 0 \\iff 4x = k\\pi \\iff x = \\frac{k\\pi}{4}$. Trên $(0; \\pi)$, ta có 3 nghiệm: $x = \\frac{\\pi}{4}, x = \\frac{\\pi}{2}, x = \\frac{3\\pi}{4}$ (đều khác 1 và khác 2). Do đó đồ thị có đúng 3 đường tiệm cận đứng. Đáp án đúng là C.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -79962,16 +79960,16 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nCanada từ lâu được xem là hình mẫu về quốc gia chào đón người nhập cư. Với dân số chỉ khoảng 40 triệu người nhưng diện tích rộng gấp gần 30 lần Việt Nam, nước này cần thêm lao động để duy trì phát triển. Kế hoạch nhập cư giai đoạn 2025-2027 đặt mục tiêu thu hút hơn 1,5 triệu người, trong đó ưu tiên các nhóm lao động có kỹ năng thuộc lĩnh vực công nghệ thông tin, y tế, năng lượng sạch và xây dựng. Theo Bộ Di trú Canada, người nhập cư hiện chiếm 23% dân số và đóng góp tới 35% tăng trưởng GDP mỗi năm. Nhờ chính sách định cư thân thiện, nhiều người nhập cư đã trở thành doanh nhân, nhà khoa học và chuyên gia công nghệ nổi bật. Các thành phố lớn như Toronto, Vancouver hay Calgary ngày càng đa dạng văn hóa, tạo nên môi trường năng động và sáng tạo. Tuy nhiên, Canada cũng đối diện với những sức ép không nhỏ. Dân số tăng nhanh khiến giá nhà leo thang, hệ thống y tế và giáo dục công gặp quá tải, trong khi quá trình hòa nhập văn hóa giữa các cộng đồng chưa thật sự hài hòa. Một số ý kiến trong nước lo ngại “nhập cư quá mức” có thể ảnh hưởng đến bản sắc xã hội và thị trường lao động. Dù vậy, giới phân tích cho rằng trong bối cảnh dân số già hóa và năng suất lao động giảm, lực lượng nhập cư vẫn là “xương sống” cho tương lai kinh tế Canada. (Theo Tuổi Trẻ Online, 2025)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
       "question": "Phòng thí nghiệm nào đang tiến hành thí nghiệm Màu Đỏ?",
       "options": [
         "A. Phòng 1.",
         "B. Phòng 2.",
-        "C. Phòng 3.",
+        "C. Phòng 4.",
         "D. Phòng 5."
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án: A. Lập bảng tóm tắt các dữ kiện đã có như sau: Tên Phòng Màu chủ đạo Số mẫu vật P 5 Cam 11/15 Q 1 Đỏ 15/11 R 4 Vàng 13 S 2 Xanh Lá 17 T 3 Tím 19 Một số suy luận để lập nên bảng trên: Thí nghiệm dùng 13 mẫu vật ở phòng 4; Người ở có thí nghiệm màu Vàng dùng 13 mẫu vật; R là người tiến hành thí nghiệm Màu Vàng => Gộp lại những dữ kiện trên, ta biết: R thí nghiệm ở Phòng 4, màu sắc chủ đạo là màu Vàng và R dùng 13 mẫu vật. Có một nhà khoa học thực hiện thí nghiệm có màu cùng chữ cái đầu với người đó => Cặp T- Tím => T làm thí nghiệm có màu Tím. Nhà khoa học ở Phòng 3 làm thí nghiệm màu Tím. Thí nghiệm 19 mẫu vật được thực hiện bởi T => T thí nghiệm ở Phòng 3, làm thí nghiệm màu Tím và có 19 mẫu vật. Q không ở Phòng 2 hay Phòng 5 => Q ở Phòng 1/3/4. Tuy nhiên R ở Phòng 4 và T ở Phòng 3 => Q ở Phòng 1. P và S có thể ở Phòng 2 hoặc 5. Tuy nhiên P không ở Phòng 2 => P ở Phòng 5 và S ở Phòng 2. P và Q có thể có màu Cam hoặc Đỏ. Tuy nhiên thí nghiệm màu Đỏ không ở Phòng 5, và P ở Phòng 5 => Thí nghiệm màu Đỏ được thực hiện bởi Q ở Phòng 1.",
+      "explanation": "Dựa vào giả thiết: Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ. Do đó phòng thí nghiệm tiến hành Màu Đỏ là Phòng 1. Đáp án đúng là A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -79984,16 +79982,16 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nCanada từ lâu được xem là hình mẫu về quốc gia chào đón người nhập cư. Với dân số chỉ khoảng 40 triệu người nhưng diện tích rộng gấp gần 30 lần Việt Nam, nước này cần thêm lao động để duy trì phát triển. Kế hoạch nhập cư giai đoạn 2025-2027 đặt mục tiêu thu hút hơn 1,5 triệu người, trong đó ưu tiên các nhóm lao động có kỹ năng thuộc lĩnh vực công nghệ thông tin, y tế, năng lượng sạch và xây dựng. Theo Bộ Di trú Canada, người nhập cư hiện chiếm 23% dân số và đóng góp tới 35% tăng trưởng GDP mỗi năm. Nhờ chính sách định cư thân thiện, nhiều người nhập cư đã trở thành doanh nhân, nhà khoa học và chuyên gia công nghệ nổi bật. Các thành phố lớn như Toronto, Vancouver hay Calgary ngày càng đa dạng văn hóa, tạo nên môi trường năng động và sáng tạo. Tuy nhiên, Canada cũng đối diện với những sức ép không nhỏ. Dân số tăng nhanh khiến giá nhà leo thang, hệ thống y tế và giáo dục công gặp quá tải, trong khi quá trình hòa nhập văn hóa giữa các cộng đồng chưa thật sự hài hòa. Một số ý kiến trong nước lo ngại “nhập cư quá mức” có thể ảnh hưởng đến bản sắc xã hội và thị trường lao động. Dù vậy, giới phân tích cho rằng trong bối cảnh dân số già hóa và năng suất lao động giảm, lực lượng nhập cư vẫn là “xương sống” cho tương lai kinh tế Canada. (Theo Tuổi Trẻ Online, 2025)",
-      "question": "Lấy tổng số phòng thí nghiệm của người tiến hành thí nghiệm Màu Đỏ và Màu Cam. So sánh kết quả này với tổng số mẫu vật của người ở Phòng 2 và Phòng 4. Mối quan hệ nào sau đây là đúng?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
+      "question": "Lấy tổng số phòng thí nghiệm của người tiến hành thí nghiệm Màu Đỏ và Màu Cam. So sánh kết quả này với tổng số mẫu vật của người ở Phòng 2 và Phòng 4 thì:",
       "options": [
-        "A. Tổng số phòng lớn hơn tổng số mẫu vật.",
-        "B. Tổng số phòng bằng tổng số mẫu vật.",
+        "A. Tổng số mẫu vật bằng tổng số phòng.",
+        "B. Tổng số mẫu vật gấp 3 lần tổng số phòng.",
         "C. Tổng số mẫu vật gấp 5 lần tổng số phòng.",
-        "D. Tổng số mẫu vật gấp 3 lần tổng số phòng."
+        "D. Tổng số mẫu vật gấp 6 lần tổng số phòng."
       ],
       "correctAnswer": 2,
-      "explanation": "Đáp án: C. - Tổng số phòng của Đỏ và Cam: 1 + 5 = 6 - Tổng số mẫu vật của người ở Phòng 2 và Phòng 4: 17 + 13 = 30 => Tổng số mẫu vật gấp 5 lần tổng số phòng.",
+      "explanation": "Tổng số phòng của thí nghiệm Màu Đỏ (Phòng 1) và Màu Cam (Phòng 5) là: 1 + 5 = 6. Tổng số mẫu vật của Phòng 2 (17) và Phòng 4 (13) là: 17 + 13 = 30. Ta có 30 = 5 * 6. Vậy tổng số mẫu vật gấp 5 lần tổng số phòng. Đáp án đúng là C.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -80006,8 +80004,8 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 97 đến 105:\nCanada từ lâu được xem là hình mẫu về quốc gia chào đón người nhập cư. Với dân số chỉ khoảng 40 triệu người nhưng diện tích rộng gấp gần 30 lần Việt Nam, nước này cần thêm lao động để duy trì phát triển. Kế hoạch nhập cư giai đoạn 2025-2027 đặt mục tiêu thu hút hơn 1,5 triệu người, trong đó ưu tiên các nhóm lao động có kỹ năng thuộc lĩnh vực công nghệ thông tin, y tế, năng lượng sạch và xây dựng. Theo Bộ Di trú Canada, người nhập cư hiện chiếm 23% dân số và đóng góp tới 35% tăng trưởng GDP mỗi năm. Nhờ chính sách định cư thân thiện, nhiều người nhập cư đã trở thành doanh nhân, nhà khoa học và chuyên gia công nghệ nổi bật. Các thành phố lớn như Toronto, Vancouver hay Calgary ngày càng đa dạng văn hóa, tạo nên môi trường năng động và sáng tạo. Tuy nhiên, Canada cũng đối diện với những sức ép không nhỏ. Dân số tăng nhanh khiến giá nhà leo thang, hệ thống y tế và giáo dục công gặp quá tải, trong khi quá trình hòa nhập văn hóa giữa các cộng đồng chưa thật sự hài hòa. Một số ý kiến trong nước lo ngại “nhập cư quá mức” có thể ảnh hưởng đến bản sắc xã hội và thị trường lao động. Dù vậy, giới phân tích cho rằng trong bối cảnh dân số già hóa và năng suất lao động giảm, lực lượng nhập cư vẫn là “xương sống” cho tương lai kinh tế Canada. (Theo Tuổi Trẻ Online, 2025)",
-      "question": "Nếu số mãu vật của P chia hết cho số phòng thì Q dùng bao nhiêu mẫu vật?",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nNăm nhà khoa học P, Q, R, S, T làm việc tại 5 phòng thí nghiệm được đánh số từ 1 đến 5. Mỗi nhà khoa học nghiên cứu một thí nghiệm có màu sắc chủ đạo khác nhau (Màu Đỏ, Màu Cam, Màu Vàng, Màu Xanh Lá, Màu Tím) và sử dụng một số lượng mẫu vật nhất định (11, 13, 15, 17 mẫu vật, không có hai người nào có cùng số lượng mẫu vật ngoại trừ trường hợp một số lượng được dùng bởi 2 phòng).\nCác điều kiện sau đây được thỏa mãn:\n- Người ở Phòng 1 nghiên cứu thí nghiệm Màu Đỏ.\n- P làm việc ở Phòng 5 và tiến hành thí nghiệm Màu Cam.\n- R làm việc ở Phòng 4, tiến hành thí nghiệm Màu Vàng và sử dụng đúng 13 mẫu vật.\n- S làm việc ở Phòng 2, tiến hành thí nghiệm Màu Xanh Lá và sử dụng 17 mẫu vật.\n- T làm việc ở Phòng 3 và tiến hành thí nghiệm Màu Tím.\n- Người ở Phòng 2 và Phòng 4 có tổng số mẫu vật là $17 + 13 = 30$.",
+      "question": "Nếu số mẫu vật của P chia hết cho số phòng của P thì Q dùng bao nhiêu mẫu vật?",
       "options": [
         "A. 11",
         "B. 13",
@@ -80015,7 +80013,7 @@ export const QUESTIONS_DATA = {
         "D. 17"
       ],
       "correctAnswer": 0,
-      "explanation": "Đáp án: A. Số mẫu vật của P chia hết cho số phòng => Số mẫu vật là 15. Q có thể dùng 11 hoặc 15 mẫu vật => Q có 11 mẫu vật",
+      "explanation": "P ở Phòng 5, số mẫu vật của P chia hết cho 5 nên P có 15 mẫu vật. Vì S có 17, R có 13 mẫu vật, tập số mẫu vật là {11, 13, 15, 17}. Do đó Q và T phải chia nhau hai giá trị {11, 15}. Vì P đã dùng 15 mẫu vật nên Q dùng 11 mẫu vật. Đáp án đúng là A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -81092,7 +81090,7 @@ export const QUESTIONS_DATA = {
         "A. They are gaining in popularity in different parts of the world.",
         "B. They are more economical and produce no pollution whatsoever.",
         "C. They have only been developed in technologically advanced nations.",
-        "D. They are eco-friendly structures that always include rooftop gardens. PHẦN 2. TOÁN HỌC"
+        "D. They are eco-friendly structures that always include rooftop gardens."
       ],
       "correctAnswer": 0,
       "explanation": "[VnNO1 2026/2027 - Câu 60] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
@@ -85408,7 +85406,7 @@ export const QUESTIONS_DATA = {
         "C. Sự hấp thụ photon mặt trời.",
         "D. Tác dụng của từ trường Trái Đất."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Khi các ion được gia tốc và phóng ra phía sau, tên lửa chịu phản lực hướng về trước theo định luật bảo toàn động lượng. Đáp án đúng: B.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
@@ -85430,7 +85428,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. 4"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "(1) Sai - động cơ ion hoạt động tốt trong chân không. (2) Đúng - theo F mv = . (3) Đúng - pin mặt trời cung cấp năng lượng điện để ion hóa và gia tốc hạt. (4) Đúng - hiệu suất cao, tiêu thụ rất ít nhiên liệu. Có 3 phát biểu đúng. Đáp án đúng: C.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
@@ -87632,7 +87630,7 @@ export const QUESTIONS_DATA = {
         "C. Sự hấp thụ photon mặt trời.",
         "D. Tác dụng của từ trường Trái Đất."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Khi các ion được gia tốc và phóng ra phía sau, tên lửa chịu phản lực hướng về trước theo định luật bảo toàn động lượng. Đáp án đúng: B.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
@@ -87654,7 +87652,7 @@ export const QUESTIONS_DATA = {
         "C. 3",
         "D. 4"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "(1) Sai - động cơ ion hoạt động tốt trong chân không. (2) Đúng - theo F mv = . (3) Đúng - pin mặt trời cung cấp năng lượng điện để ion hóa và gia tốc hạt. (4) Đúng - hiệu suất cao, tiêu thụ rất ít nhiên liệu. Có 3 phát biểu đúng. Đáp án đúng: C.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
@@ -90517,7 +90515,7 @@ export const QUESTIONS_DATA = {
         "D. Sự va chạm đàn hồi giữa các hạt mang điện."
       ],
       "correctAnswer": 0,
-      "explanation": "Lực điện F qE = sinh ra từ hiệu điện thế giữa hai bản kim loại tạo gia tốc cho hạt. Đáp án đúng: C.",
+      "explanation": "Lực điện trường $F = qE$ sinh công dương làm tăng động năng của hạt mang điện khi đi qua hiệu điện thế giữa hai bản. Đáp án đúng: A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -90539,7 +90537,7 @@ export const QUESTIONS_DATA = {
         "D. Không thay đổi."
       ],
       "correctAnswer": 0,
-      "explanation": "Từ công thức 2qU v m = , ta thấy v U . Khi U tăng gấp đôi, v tăng 2 lần. Đáp án đúng: C.",
+      "explanation": "Áp dụng định lý biến thiên động năng: $\\frac{1}{2}mv^2 = qU \\implies v = \\sqrt{\\frac{2qU}{m}} \\propto \\sqrt{U}$. Khi $U$ tăng gấp đôi ($2U$), vận tốc $v$ tăng $\\sqrt{2}$ lần. Đáp án đúng: A.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,

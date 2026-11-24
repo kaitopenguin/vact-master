@@ -133,8 +133,13 @@
     --accent-bg-subtle: #e0f2fe;
   }
 
-  * {
-    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  body, button, input, select, textarea {
+    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  /* Preserve KaTeX specialized mathematical and symbol fonts */
+  .katex, .katex * {
+    font-family: KaTeX_Main, KaTeX_Math, KaTeX_Size1, KaTeX_Size2, KaTeX_Size3, KaTeX_Size4, KaTeX_AMS, 'Times New Roman', serif !important;
   }
 
   html, body {
@@ -460,8 +465,7 @@ body.font-scale-large {
   letter-spacing: 0.01em;
 }
 body.font-scale-large .vact-text-primary,
-body.font-scale-large p,
-body.font-scale-large .katex {
+body.font-scale-large p {
   font-weight: 600 !important;
 }
 
@@ -474,8 +478,7 @@ body.font-scale-xlarge {
   letter-spacing: 0.015em;
 }
 body.font-scale-xlarge .vact-text-primary,
-body.font-scale-xlarge p,
-body.font-scale-xlarge .katex {
+body.font-scale-xlarge p {
   font-weight: 700 !important;
 }
 
