@@ -81,12 +81,50 @@ export function cleanMathText(raw) {
 }
 
 /**
+ * Tự động xuống dòng trước các mục đánh số thứ tự (1., 2., 3., ...) bị dính liền trên cùng 1 dòng
+ * Đảm bảo không chạm vào công thức toán ($...$, $$...$$) và không làm hỏng font/bảng biểu.
+ */
+function formatNumberedListText(text) {
+  if (!text || typeof text !== 'string') return text;
+  if (!/(?:^|[\s:(\n])1\.\s+\S/.test(text) || !/\s2\.\s+\S/.test(text)) {
+    return text;
+  }
+
+  const mathTokens = [];
+  let masked = text.replace(/(\$\$[\s\S]*?\$\$|\$[^\$\n]+?\$)/g, (m) => {
+    const id = `@@MATH_${mathTokens.length}@@`;
+    mathTokens.push(m);
+    return id;
+  });
+
+  masked = masked.replace(/([:.?!])\s+(1\.\s+(?=\S))/g, '$1\n$2');
+
+  const skipPrefixRe = /(?:câu|trang|hình|bảng|mục|phần|tập|số|năm|tháng|ngày|lần|thế\s+kỷ|giai\s+đoạn|loại|bước|quy\s+tắc|điều|khoản|chương|bài|đề|thử\s+nghiệm|nhóm|lớp|tầng|mức|vị\s+trí|thứ)\s*$/i;
+
+  for (let n = 2; n <= 15; n++) {
+    const prevMarker = `${n - 1}.`;
+    if (!masked.includes(prevMarker)) break;
+
+    const re = new RegExp(`([^\\n])([ \\t]+)(${n}\\.\\s+(?=\\S))`, 'g');
+    masked = masked.replace(re, (full, prevChar, spaces, marker, offset) => {
+      const before = masked.slice(Math.max(0, offset - 25), offset + 1);
+      if (skipPrefixRe.test(before)) return full;
+      return `${prevChar}\n${marker}`;
+    });
+  }
+
+  masked = masked.replace(/([^\n])\s+(\*(?:Thứ tự|Lưu ý|Chú ý|Ghi chú|Biết rằng)[^\n*]*)/gi, '$1\n$2');
+
+  return masked.replace(/@@MATH_(\d+)@@/g, (_, idx) => mathTokens[Number(idx)]);
+}
+
+/**
  * Render an individual segment that may contain LaTeX math $...$ or $$...$$
  */
 function MathInline({ text, className = '' }) {
   const parts = useMemo(() => {
     if (!text) return [];
-    let sanitized = cleanMathText(text);
+    let sanitized = formatNumberedListText(cleanMathText(text));
 
     // Defensive auto-wrap for un-delimited LaTeX expressions or math formulas
     if (!sanitized.includes('$')) {
