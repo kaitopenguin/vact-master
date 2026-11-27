@@ -287,6 +287,26 @@ export function updatePassageRangeHeader(passageText, startNumber, endNumber) {
 }
 
 /**
+ * Kiểm tra xem ngữ liệu (passage) có đầy đủ và hợp lệ để đưa vào Đề thi Ngẫu nhiên không
+ * Loại bỏ các cụm bị cắt cụt (chỉ còn trích dẫn nguồn) hoặc phụ thuộc hình ảnh rời không có ảnh kèm theo.
+ */
+function isClusterPassageValid(passage, hasImage = false) {
+  if (!passage) return true; // Câu độc lập không có passage vẫn hợp lệ
+  const body = passage
+    .replace(/^Dựa vào (?:các )?thông tin [^\n:]*[:\n]*/i, '')
+    .trim();
+  // Quá ngắn (< 40 ký tự) hoặc chỉ là trích nguồn bị cắt cụt
+  if (body.length < 40) return false;
+  if (/^(?:Báo Người Lao Động|,\s*với\s+\$?[A-Z]?\$?\s*là nhiệt độ)/i.test(body)) return false;
+  if (/PMID:\s*\d+\)\.?$/i.test(body) && body.length < 250) return false;
+  // Phụ thuộc hình ảnh / đồ thị rời mà không có thuộc tính image
+  if (!hasImage && /\((?:xem\s+)?hình\s+(?:bên\s+)?(?:dưới|trên|sau|vẽ)\)|\b(?:hình vẽ|hình bên dưới|đồ thị dưới|biểu đồ dưới|như hình dưới)\b/i.test(body)) {
+    return false;
+  }
+  return true;
+}
+
+/**
  * HÀM TẠO ĐỀ THI NGẪU NHIÊN CHUẨN HOÁ TOÀN DIỆN
  */
 export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all' }) {
@@ -300,8 +320,9 @@ export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all
 
   for (const [, questions] of Object.entries(QUESTIONS_DATA)) {
     for (const q of questions) {
-      // Bỏ qua cụm dữ liệu khuyết bài đọc gốc (ví dụ Navigos Group thiếu ngữ liệu gốc)
+      // Bỏ qua cụm dữ liệu khuyết bài đọc gốc hoặc phụ thuộc hình ảnh rời
       if (q.clusterId === 'cluster_navigos_incomplete') continue;
+      if (!isClusterPassageValid(q.passage, Boolean(q.image || q.img))) continue;
       if (q.section === 'vietnamese') {
         sectionQuestions.vietnamese.push(q);
       } else if (q.section === 'english') {
