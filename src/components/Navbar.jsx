@@ -186,7 +186,7 @@ export default function Navbar({
             </div>
 
             {/* Right Accessibility Suite: Clean, Touch-Friendly 44px targets for iOS */}
-            <div className="flex items-center gap-1 sm:gap-2">
+            <div className="flex items-center flex-wrap justify-end gap-1 sm:gap-2 max-w-full min-w-0">
               {/* Font Size Scaler */}
               <div className="flex items-center p-0.5 sm:p-1 rounded-xl vact-card-subtle text-xs font-bold gap-0.5 sm:gap-1 border vact-border" title="Chỉnh cỡ chữ chống mỏi mắt cho người cận">
                 <span className="text-[10px] uppercase tracking-wider px-1 vact-text-muted hidden lg:inline">Cỡ:</span>

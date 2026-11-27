@@ -300,6 +300,8 @@ export function generateRandomExam(QUESTIONS_DATA, options = { sectionOnly: 'all
 
   for (const [, questions] of Object.entries(QUESTIONS_DATA)) {
     for (const q of questions) {
+      // Bỏ qua cụm dữ liệu khuyết bài đọc gốc (ví dụ Navigos Group thiếu ngữ liệu gốc)
+      if (q.clusterId === 'cluster_navigos_incomplete') continue;
       if (q.section === 'vietnamese') {
         sectionQuestions.vietnamese.push(q);
       } else if (q.section === 'english') {

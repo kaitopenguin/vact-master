@@ -3695,7 +3695,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_navigos_incomplete"
     },
     {
       "id": "vact-official-2025-q119",
@@ -3717,7 +3718,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_navigos_incomplete"
     },
     {
       "id": "vact-official-2025-q120",
@@ -3739,7 +3741,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
-      "weight": 15
+      "weight": 15,
+      "clusterId": "cluster_navigos_incomplete"
     }
   ],
   "vact-empire-de-04": [
@@ -5730,7 +5733,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n\\bullet A, B, C, D thuộc khối 1 \\bullet X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. \\bullet Nhóm S1 có 2 học sinh \\bullet Nhóm S2 có 2 học sinh \\bullet Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: \\bullet Mỗi học sinh chỉ thuộc đúng một nhóm. \\bullet Nhóm S2 bắt buộc phải có X \\bullet Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 \\bullet Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 \\bullet Nếu Y ở S3 thì D cũng phải ở S3",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n• A, B, C, D thuộc khối 1 • X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. • Nhóm S1 có 2 học sinh • Nhóm S2 có 2 học sinh • Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: • Mỗi học sinh chỉ thuộc đúng một nhóm. • Nhóm S2 bắt buộc phải có X • Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 • Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 • Nếu Y ở S3 thì D cũng phải ở S3",
       "question": "Nếu A được xếp vào S1 và Y thuộc S3, thì nhóm S3 có thể là phương án nào sau đây?",
       "options": [
         "A. X, C, Z",
@@ -5752,7 +5755,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n\\bullet A, B, C, D thuộc khối 1 \\bullet X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. \\bullet Nhóm S1 có 2 học sinh \\bullet Nhóm S2 có 2 học sinh \\bullet Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: \\bullet Mỗi học sinh chỉ thuộc đúng một nhóm. \\bullet Nhóm S2 bắt buộc phải có X \\bullet Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 \\bullet Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 \\bullet Nếu Y ở S3 thì D cũng phải ở S3",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n• A, B, C, D thuộc khối 1 • X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. • Nhóm S1 có 2 học sinh • Nhóm S2 có 2 học sinh • Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: • Mỗi học sinh chỉ thuộc đúng một nhóm. • Nhóm S2 bắt buộc phải có X • Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 • Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 • Nếu Y ở S3 thì D cũng phải ở S3",
       "question": "Nếu C và D ở S3, thì các học sinh ở trong nhóm S2 phải là:",
       "options": [
         "A. A và B",
@@ -5774,7 +5777,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n\\bullet A, B, C, D thuộc khối 1 \\bullet X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. \\bullet Nhóm S1 có 2 học sinh \\bullet Nhóm S2 có 2 học sinh \\bullet Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: \\bullet Mỗi học sinh chỉ thuộc đúng một nhóm. \\bullet Nhóm S2 bắt buộc phải có X \\bullet Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 \\bullet Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 \\bullet Nếu Y ở S3 thì D cũng phải ở S3",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n• A, B, C, D thuộc khối 1 • X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. • Nhóm S1 có 2 học sinh • Nhóm S2 có 2 học sinh • Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: • Mỗi học sinh chỉ thuộc đúng một nhóm. • Nhóm S2 bắt buộc phải có X • Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 • Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 • Nếu Y ở S3 thì D cũng phải ở S3",
       "question": "Cô giáo có thể chia 7 học sinh trên vào 3 nhóm một cách duy nhất nếu thêm những điều kiện sau đây, ngoại trừ?",
       "options": [
         "A. A ở S1 và C ở S2",
@@ -5796,7 +5799,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n\\bullet Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào \\bullet C và G là 2 quyển sách đặt cạnh nhau \\bullet A và B không được đặt cạnh nhau \\bullet Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng \\bullet Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư \\bullet Giữa quyển sách E và F có 2 quyển sách khác.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n• Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào • C và G là 2 quyển sách đặt cạnh nhau • A và B không được đặt cạnh nhau • Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng • Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư • Giữa quyển sách E và F có 2 quyển sách khác.",
       "question": "Nếu quyển sách B được đặt ở vị trí thứ hai và vị trí thứ ba không đặt sách Văn, khẳng định nào sau đây phải đúng?",
       "options": [
         "A. F nằm ở vị trí thứ tám.",
@@ -5818,7 +5821,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n\\bullet Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào \\bullet C và G là 2 quyển sách đặt cạnh nhau \\bullet A và B không được đặt cạnh nhau \\bullet Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng \\bullet Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư \\bullet Giữa quyển sách E và F có 2 quyển sách khác.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n• Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào • C và G là 2 quyển sách đặt cạnh nhau • A và B không được đặt cạnh nhau • Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng • Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư • Giữa quyển sách E và F có 2 quyển sách khác.",
       "question": "Giả sử quyển sách Tiếng Anh G nằm ở vị trí thứ sáu, khẳng định nào sau đây là sai?",
       "options": [
         "A. Quyển sách F nằm ở vị trí cuối cùng",
@@ -5840,7 +5843,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n\\bullet Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào \\bullet C và G là 2 quyển sách đặt cạnh nhau \\bullet A và B không được đặt cạnh nhau \\bullet Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng \\bullet Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư \\bullet Giữa quyển sách E và F có 2 quyển sách khác.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n• Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào • C và G là 2 quyển sách đặt cạnh nhau • A và B không được đặt cạnh nhau • Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng • Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư • Giữa quyển sách E và F có 2 quyển sách khác.",
       "question": "H và D có thể đặt cạnh nhau ở 2 vị trí nào sau đây?",
       "options": [
         "A. Vị trí 1 và 2",
@@ -5994,7 +5997,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nchuỗi alkyl dài ( 17 35 - C H ) là phần kị nước (hydrophobic), trong khi nhóm carboxylate ( - -COO ) là phần ưa nước (hydrophilic). Hình 1 Trong dung dịch, các anion stearate tự tập hợp thành các cấu trúc hình cầu gọi là micelle. Tùy vào môi trường, chúng có các định hướng khác nhau. Cho biết: \\bullet Với hình cầu bất kì: Thể tích 3 4 3 = V r \\pi ; Diện tích bề mặt 2 4 = S r \\pi \\bullet Khối lượng mol sodium stearate: 306,5 = M g/mol. \\bullet Khối lượng riêng của dầu: 0,92 = g/cm3 \\bullet Số Avogadro: 23 6,022 10 = \\times A N mol-1 (biểu thị số lượng hạt vi mô (nguyên tử, phân tử, ion hoặc electron) có trong 1 mol của một chất) \\bullet 1 nm2 14 10- = cm2; 1 dm3 1000 = cm3.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nchuỗi alkyl dài ( 17 35 - C H ) là phần kị nước (hydrophobic), trong khi nhóm carboxylate ( - -COO ) là phần ưa nước (hydrophilic). Hình 1 Trong dung dịch, các anion stearate tự tập hợp thành các cấu trúc hình cầu gọi là micelle. Tùy vào môi trường, chúng có các định hướng khác nhau. Cho biết: • Với hình cầu bất kì: Thể tích 3 4 3 = V r \\pi ; Diện tích bề mặt 2 4 = S r \\pi • Khối lượng mol sodium stearate: 306,5 = M g/mol. • Khối lượng riêng của dầu: 0,92 = g/cm3 • Số Avogadro: 23 6,022 10 = \\times A N mol-1 (biểu thị số lượng hạt vi mô (nguyên tử, phân tử, ion hoặc electron) có trong 1 mol của một chất) • 1 nm2 14 10- = cm2; 1 dm3 1000 = cm3.",
       "question": "Khi giặt rửa, các anion stearate giúp loại bỏ vết dầu mỡ bám trên vải bằng cách bao bọc chúng vào bên trong các micelle. Phát biểu nào sau đây mô tả đúng nhất sự định hướng của các anion này khi tiếp xúc với vết dầu trong môi trường nước?",
       "options": [
         "A. Đầu hydrophilic bám vào bề mặt vết dầu, đuôi hydrophobic hướng ra ngoài môi trường nước.",
@@ -6016,7 +6019,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nchuỗi alkyl dài ( 17 35 - C H ) là phần kị nước (hydrophobic), trong khi nhóm carboxylate ( - -COO ) là phần ưa nước (hydrophilic). Hình 1 Trong dung dịch, các anion stearate tự tập hợp thành các cấu trúc hình cầu gọi là micelle. Tùy vào môi trường, chúng có các định hướng khác nhau. Cho biết: \\bullet Với hình cầu bất kì: Thể tích 3 4 3 = V r \\pi ; Diện tích bề mặt 2 4 = S r \\pi \\bullet Khối lượng mol sodium stearate: 306,5 = M g/mol. \\bullet Khối lượng riêng của dầu: 0,92 = g/cm3 \\bullet Số Avogadro: 23 6,022 10 = \\times A N mol-1 (biểu thị số lượng hạt vi mô (nguyên tử, phân tử, ion hoặc electron) có trong 1 mol của một chất) \\bullet 1 nm2 14 10- = cm2; 1 dm3 1000 = cm3.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nchuỗi alkyl dài ( 17 35 - C H ) là phần kị nước (hydrophobic), trong khi nhóm carboxylate ( - -COO ) là phần ưa nước (hydrophilic). Hình 1 Trong dung dịch, các anion stearate tự tập hợp thành các cấu trúc hình cầu gọi là micelle. Tùy vào môi trường, chúng có các định hướng khác nhau. Cho biết: • Với hình cầu bất kì: Thể tích 3 4 3 = V r \\pi ; Diện tích bề mặt 2 4 = S r \\pi • Khối lượng mol sodium stearate: 306,5 = M g/mol. • Khối lượng riêng của dầu: 0,92 = g/cm3 • Số Avogadro: 23 6,022 10 = \\times A N mol-1 (biểu thị số lượng hạt vi mô (nguyên tử, phân tử, ion hoặc electron) có trong 1 mol của một chất) • 1 nm2 14 10- = cm2; 1 dm3 1000 = cm3.",
       "question": "Một hệ nhũ tương được tạo ra bằng cách phân tán 1,0 g dầu vào nước. Giả sử lượng dầu này được chia nhỏ thành các giọt hình cầu đồng nhất có đường kính $d = 100\\text{ nm}$. Khối lượng của mỗi giọt dầu là:",
       "options": [
         "A. $3{,}32 \\times 10^{-15}\\text{ g}$",
@@ -6038,7 +6041,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nchuỗi alkyl dài ( 17 35 - C H ) là phần kị nước (hydrophobic), trong khi nhóm carboxylate ( - -COO ) là phần ưa nước (hydrophilic). Hình 1 Trong dung dịch, các anion stearate tự tập hợp thành các cấu trúc hình cầu gọi là micelle. Tùy vào môi trường, chúng có các định hướng khác nhau. Cho biết: \\bullet Với hình cầu bất kì: Thể tích 3 4 3 = V r \\pi ; Diện tích bề mặt 2 4 = S r \\pi \\bullet Khối lượng mol sodium stearate: 306,5 = M g/mol. \\bullet Khối lượng riêng của dầu: 0,92 = g/cm3 \\bullet Số Avogadro: 23 6,022 10 = \\times A N mol-1 (biểu thị số lượng hạt vi mô (nguyên tử, phân tử, ion hoặc electron) có trong 1 mol của một chất) \\bullet 1 nm2 14 10- = cm2; 1 dm3 1000 = cm3.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\nchuỗi alkyl dài ( 17 35 - C H ) là phần kị nước (hydrophobic), trong khi nhóm carboxylate ( - -COO ) là phần ưa nước (hydrophilic). Hình 1 Trong dung dịch, các anion stearate tự tập hợp thành các cấu trúc hình cầu gọi là micelle. Tùy vào môi trường, chúng có các định hướng khác nhau. Cho biết: • Với hình cầu bất kì: Thể tích 3 4 3 = V r \\pi ; Diện tích bề mặt 2 4 = S r \\pi • Khối lượng mol sodium stearate: 306,5 = M g/mol. • Khối lượng riêng của dầu: 0,92 = g/cm3 • Số Avogadro: 23 6,022 10 = \\times A N mol-1 (biểu thị số lượng hạt vi mô (nguyên tử, phân tử, ion hoặc electron) có trong 1 mol của một chất) • 1 nm2 14 10- = cm2; 1 dm3 1000 = cm3.",
       "question": "Xét một bong bóng xà phòng hình cầu có thể tích $1{,}0\\text{ dm}^3$. Màng của bong bóng này được cấu tạo từ hai lớp (lớp trong và lớp ngoài) của các anion stearat. Khối lượng xà phòng tạo nên màng bong bóng xấp xỉ bằng:",
       "options": [
         "A. $2{,}46 \\times 10^{-5}\\text{ g}$",
@@ -6060,7 +6063,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n\\bullet Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . \\bullet Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: \\bullet Bình thủy tinh không nở đáng kể so với chất lỏng \\bullet Thang đo chia đều theo chiều cao",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n• Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . • Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: • Bình thủy tinh không nở đáng kể so với chất lỏng • Thang đo chia đều theo chiều cao",
       "question": "Từ mô tả trên, nhận định nào sau đây là phù hợp nhất?",
       "options": [
         "A. Mực chất lỏng tăng nhanh lúc đầu rồi chậm dần.",
@@ -6082,7 +6085,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n\\bullet Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . \\bullet Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: \\bullet Bình thủy tinh không nở đáng kể so với chất lỏng \\bullet Thang đo chia đều theo chiều cao",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n• Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . • Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: • Bình thủy tinh không nở đáng kể so với chất lỏng • Thang đo chia đều theo chiều cao",
       "question": "Nếu nhiệt độ của chất lỏng tăng từ 20 oC lên 50 oC , thì mực chất lỏng dâng lên thêm bao nhiêu mm so với ban đầu?",
       "options": [
         "A. 4 mm",
@@ -6104,7 +6107,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n\\bullet Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . \\bullet Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: \\bullet Bình thủy tinh không nở đáng kể so với chất lỏng \\bullet Thang đo chia đều theo chiều cao",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n• Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . • Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: • Bình thủy tinh không nở đáng kể so với chất lỏng • Thang đo chia đều theo chiều cao",
       "question": "Nếu học sinh thay bình thủy tinh bằng bình kim loại mỏng (có giãn nở đáng kể), nhưng giữ nguyên chất lỏng và cách đun, thì mực chất lỏng quan sát được sẽ:",
       "options": [
         "A. Dâng lên nhiều hơn so với trường hợp bình thủy tinh.",
@@ -10838,7 +10841,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Chọn ngẫu nhiên một lần đưa điện thoại lên để mở khóa. Xác suất để điện thoại mở khóa thành công là:",
       "options": [
         "A. 0,80",
@@ -10860,7 +10863,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Gọi A là biến cố: “lần mở khóa là do chính chủ thực hiện”, B là biến cố: “điện thoại mở khóa thành công”. Tính xác suất có điều kiện 𝑃(𝐴 ∣ 𝐵): “lần mở khóa đó là chính chủ, biết rằng điện thoại đã mở được khóa”.",
       "options": [
         "A. $\\frac{49}{50}$",
@@ -10882,7 +10885,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Trong nhật ký của hệ thống chỉ lưu lại các lần mở khóa thành công. Chọn ngẫu nhiên và độc lập 2 lần trong nhật ký này. Tính xác suất để trong hai lần được chọn có ít nhất một lần là do người lạ mở khóa (kết quả làm tròn đến hàng phần nghìn).",
       "options": [
         "A. 0,010",
@@ -16186,7 +16189,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Góc giữa đường thẳng $SA$ và mặt phẳng $(ABC)$ là:",
       "options": [
         "A. $45^{\\circ}$",
@@ -16208,7 +16211,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Tan của góc giữa hai mặt phẳng ( SAC ) và ( ABC ) bằng",
       "options": [
         "A. $\\frac{3}{2}$",
@@ -16230,7 +16233,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 85 đến 87:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Khoảng cách từ B đến mặt phẳng ( SAC ) là",
       "options": [
         "A. $\\frac{3a\\sqrt{39}}{13}$",
@@ -26353,7 +26356,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Chọn ngẫu nhiên một lần đưa điện thoại lên để mở khóa. Xác suất để điện thoại mở khóa thành công là:",
       "options": [
         "A. 0,80",
@@ -26375,7 +26378,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Gọi A là biến cố: “lần mở khóa là do chính chủ thực hiện”, B là biến cố: “điện thoại mở khóa thành công”. Tính xác suất có điều kiện 𝑃(𝐴 ∣ 𝐵): “lần mở khóa đó là chính chủ, biết rằng điện thoại đã mở được khóa”.",
       "options": [
         "A. $\\frac{49}{50}$",
@@ -26397,7 +26400,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Trong nhật ký của hệ thống chỉ lưu lại các lần mở khóa thành công. Chọn ngẫu nhiên và độc lập 2 lần trong nhật ký này. Tính xác suất để trong hai lần được chọn có ít nhất một lần là do người lạ mở khóa (kết quả làm tròn đến hàng phần nghìn).",
       "options": [
         "A. 0,010",
@@ -34546,7 +34549,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Góc giữa đường thẳng $SA$ và mặt phẳng $(ABC)$ là:",
       "options": [
         "A. $45^{\\circ}$",
@@ -34568,7 +34571,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Tan của góc giữa hai mặt phẳng ( SAC ) và ( ABC ) bằng",
       "options": [
         "A. $\\frac{3}{2}$",
@@ -34590,7 +34593,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 77 đến 79:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Khoảng cách từ B đến mặt phẳng ( SAC ) là",
       "options": [
         "A. $\\frac{3a\\sqrt{39}}{13}$",
@@ -48349,7 +48352,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n\\bullet Không có ai đứng giữa 2 người khác giới tính mình. \\bullet A đứng ở phía bên trái của M. \\bullet N đứng vị trí thứ 7.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n• Không có ai đứng giữa 2 người khác giới tính mình. • A đứng ở phía bên trái của M. • N đứng vị trí thứ 7.",
       "question": "Điều nào sau đây chắc chắn sai?",
       "options": [
         "A. B đứng vị trí 6",
@@ -48371,7 +48374,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n\\bullet Không có ai đứng giữa 2 người khác giới tính mình. \\bullet A đứng ở phía bên trái của M. \\bullet N đứng vị trí thứ 7.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n• Không có ai đứng giữa 2 người khác giới tính mình. • A đứng ở phía bên trái của M. • N đứng vị trí thứ 7.",
       "question": "Nếu P đứng vị trí 2, có 2 người ở giữa E và D thì cần điều kiện nào sau đây để có duy nhất 1 cách xếp?",
       "options": [
         "A. P cách B một vị trí",
@@ -48393,7 +48396,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n\\bullet Không có ai đứng giữa 2 người khác giới tính mình. \\bullet A đứng ở phía bên trái của M. \\bullet N đứng vị trí thứ 7.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 103 đến 105:\n• Không có ai đứng giữa 2 người khác giới tính mình. • A đứng ở phía bên trái của M. • N đứng vị trí thứ 7.",
       "question": "Nếu L đứng ngay bên trái B và D, E đứng cạnh nhau thì ai không thể đứng cạnh N?",
       "options": [
         "A. C",
@@ -53809,7 +53812,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 112:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi về khảo sát nhân sự Navigos Group (2023-2024):\n(Trích Báo Người Lao Động — Khảo sát xu hướng tuyển dụng và đào tạo nhân sự của Navigos Group giai đoạn 2023-2024).",
       "question": "Theo trích đoạn trên, tại sao nhiều doanh nghiệp chọn tăng cường đào tạo chuyên môn và kỹ năng mềm cho nhân viên?",
       "options": [
         "A. Để tiết kiệm chi phí tuyển dụng.",
@@ -53822,7 +53825,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_navigos_incomplete"
     },
     {
       "id": "vact-moon-de-11-q111",
@@ -53831,7 +53835,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 112:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi về khảo sát nhân sự Navigos Group (2023-2024):\n(Trích Báo Người Lao Động — Khảo sát xu hướng tuyển dụng và đào tạo nhân sự của Navigos Group giai đoạn 2023-2024).",
       "question": "Dựa trên khảo sát của Navigos Group, nhận định nào sau đây là chính xác nhất khi nói về cách tiếp cận xây dựng và phát triển nhân sự của doanh nghiệp trong giai đoạn 2023-2024?",
       "options": [
         "A. Doanh nghiệp đang điều chỉnh chiến lược để cân bằng giữa việc phát triển kỹ năng nội bộ và bổ sung nhân sự có kỹ năng cần thiết để đối phó với sự thay đổi trong thị trường.",
@@ -53844,7 +53848,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_navigos_incomplete"
     },
     {
       "id": "vact-moon-de-11-q112",
@@ -53853,7 +53858,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 110 đến 112:\nĐiều kiện chiếu sáng bổ sung Không chiếu sáng Số giờ chiếu sáng vào ban đêm (giờ) Chiếu sáng liên tục 0,5 1 2 3 4 5 Tỉ lệ ra hoa (%) 0 0 12 51 79 90 99 99",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi về khảo sát nhân sự Navigos Group (2023-2024):\n(Trích Báo Người Lao Động — Khảo sát xu hướng tuyển dụng và đào tạo nhân sự của Navigos Group giai đoạn 2023-2024).",
       "question": "Trong bối cảnh doanh nghiệp tiếp cận xây dựng và phát triển nhân sự theo cách đã phân tích và mô tả qua khảo sát của Navigos Group, bạn nên làm gì để tăng cơ hội được tuyển dụng?",
       "options": [
         "A. Tham gia các buổi tư vấn tuyển dụng của các công ti tư vấn nghề nghiệp.",
@@ -53866,7 +53871,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
-      "weight": 12
+      "weight": 12,
+      "clusterId": "cluster_navigos_incomplete"
     },
     {
       "id": "vact-moon-de-11-q113",
@@ -56033,7 +56039,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n\\bullet A, B, C, D thuộc khối 1 \\bullet X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. \\bullet Nhóm S1 có 2 học sinh \\bullet Nhóm S2 có 2 học sinh \\bullet Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: \\bullet Mỗi học sinh chỉ thuộc đúng một nhóm. \\bullet Nhóm S2 bắt buộc phải có X \\bullet Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 \\bullet Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 \\bullet Nếu Y ở S3 thì D cũng phải ở S3",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi về khảo sát nhân sự Navigos Group (2023-2024):\n(Trích Báo Người Lao Động — Khảo sát xu hướng tuyển dụng và đào tạo nhân sự của Navigos Group giai đoạn 2023-2024).",
       "question": "Theo trích đoạn trên, tại sao nhiều doanh nghiệp chọn tăng cường đào tạo chuyên môn và kỹ năng mềm cho nhân viên?",
       "options": [
         "A. Để tiết kiệm chi phí tuyển dụng.",
@@ -56046,7 +56052,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_navigos_incomplete"
     },
     {
       "id": "vact-moon-de-12-q92",
@@ -56055,7 +56062,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n\\bullet A, B, C, D thuộc khối 1 \\bullet X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. \\bullet Nhóm S1 có 2 học sinh \\bullet Nhóm S2 có 2 học sinh \\bullet Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: \\bullet Mỗi học sinh chỉ thuộc đúng một nhóm. \\bullet Nhóm S2 bắt buộc phải có X \\bullet Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 \\bullet Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 \\bullet Nếu Y ở S3 thì D cũng phải ở S3",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi về khảo sát nhân sự Navigos Group (2023-2024):\n(Trích Báo Người Lao Động — Khảo sát xu hướng tuyển dụng và đào tạo nhân sự của Navigos Group giai đoạn 2023-2024).",
       "question": "Dựa trên khảo sát của Navigos Group, nhận định nào sau đây là chính xác nhất khi nói về cách tiếp cận xây dựng và phát triển nhân sự của doanh nghiệp trong giai đoạn 2023-2024?",
       "options": [
         "A. Doanh nghiệp đang điều chỉnh chiến lược để cân bằng giữa việc phát triển kỹ năng nội bộ và bổ sung nhân sự có kỹ năng cần thiết để đối phó với sự thay đổi trong thị trường.",
@@ -56068,7 +56075,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_navigos_incomplete"
     },
     {
       "id": "vact-moon-de-12-q93",
@@ -56077,7 +56085,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 91 đến 93:\n\\bullet A, B, C, D thuộc khối 1 \\bullet X, Y, Z thuộc khối 2 Cô giáo chia 7 học sinh này vào 3 nhóm làm dự án: S1, S2, S3. \\bullet Nhóm S1 có 2 học sinh \\bullet Nhóm S2 có 2 học sinh \\bullet Nhóm S3 có 3 học sinh Việc chia nhóm phải thỏa mãn các điều kiện sau: \\bullet Mỗi học sinh chỉ thuộc đúng một nhóm. \\bullet Nhóm S2 bắt buộc phải có X \\bullet Mỗi nhóm phải có ít nhất một học sinh thuộc khối 1 \\bullet Nếu A ở S1 thì S1 không được có học sinh nào thuộc khối 2 \\bullet Nếu Y ở S3 thì D cũng phải ở S3",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu hỏi về khảo sát nhân sự Navigos Group (2023-2024):\n(Trích Báo Người Lao Động — Khảo sát xu hướng tuyển dụng và đào tạo nhân sự của Navigos Group giai đoạn 2023-2024).",
       "question": "Trong bối cảnh doanh nghiệp tiếp cận xây dựng và phát triển nhân sự theo cách đã phân tích và mô tả qua khảo sát của Navigos Group, bạn nên làm gì để tăng cơ hội được tuyển dụng?",
       "options": [
         "A. Tham gia các buổi tư vấn tuyển dụng của các công ti tư vấn nghề nghiệp.",
@@ -56090,7 +56098,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_navigos_incomplete"
     },
     {
       "id": "vact-moon-de-12-q94",
@@ -56099,7 +56108,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n\\bullet Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào \\bullet C và G là 2 quyển sách đặt cạnh nhau \\bullet A và B không được đặt cạnh nhau \\bullet Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng \\bullet Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư \\bullet Giữa quyển sách E và F có 2 quyển sách khác.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n• Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào • C và G là 2 quyển sách đặt cạnh nhau • A và B không được đặt cạnh nhau • Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng • Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư • Giữa quyển sách E và F có 2 quyển sách khác.",
       "question": "Nếu A được xếp vào S1 và Y thuộc S3, thì nhóm S3 có thể là phương án nào sau đây?",
       "options": [
         "A. X, C, Z",
@@ -56121,7 +56130,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n\\bullet Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào \\bullet C và G là 2 quyển sách đặt cạnh nhau \\bullet A và B không được đặt cạnh nhau \\bullet Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng \\bullet Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư \\bullet Giữa quyển sách E và F có 2 quyển sách khác.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n• Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào • C và G là 2 quyển sách đặt cạnh nhau • A và B không được đặt cạnh nhau • Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng • Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư • Giữa quyển sách E và F có 2 quyển sách khác.",
       "question": "Nếu C và D ở S3, thì các học sinh ở trong nhóm S2 phải là:",
       "options": [
         "A. A và B",
@@ -56143,7 +56152,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Tư duy Logic & Số liệu (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n\\bullet Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào \\bullet C và G là 2 quyển sách đặt cạnh nhau \\bullet A và B không được đặt cạnh nhau \\bullet Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng \\bullet Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư \\bullet Giữa quyển sách E và F có 2 quyển sách khác.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 94 đến 96:\n• Một quyển sách Văn không được đặt kẹp giữa hai quyển sách Toán nào • C và G là 2 quyển sách đặt cạnh nhau • A và B không được đặt cạnh nhau • Nếu quyển sách D đặt cạnh quyển sách H thì quyển sách F đặt ở vị trí cuối cùng • Quyển sách A được đặt ở vị trí thứ ba hoặc thứ tư • Giữa quyển sách E và F có 2 quyển sách khác.",
       "question": "Cô giáo có thể chia 7 học sinh trên vào 3 nhóm một cách duy nhất nếu thêm những điều kiện sau đây, ngoại trừ?",
       "options": [
         "A. A ở S1 và C ở S2",
@@ -56363,7 +56372,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n\\bullet Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . \\bullet Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: \\bullet Bình thủy tinh không nở đáng kể so với chất lỏng \\bullet Thang đo chia đều theo chiều cao",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n• Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . • Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: • Bình thủy tinh không nở đáng kể so với chất lỏng • Thang đo chia đều theo chiều cao",
       "question": "Khi giặt rửa, các anion stearate giúp loại bỏ vết dầu mỡ bám trên vải bằng cách bao bọc chúng vào bên trong các micelle. Phát biểu nào sau đây mô tả đúng nhất sự định hướng của các anion này khi tiếp xúc với vết dầu trong môi trường nước?",
       "options": [
         "A. Đầu hydrophilic bám vào bề mặt vết dầu, đuôi hydrophobic hướng ra ngoài môi trường nước.",
@@ -56385,7 +56394,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n\\bullet Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . \\bullet Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: \\bullet Bình thủy tinh không nở đáng kể so với chất lỏng \\bullet Thang đo chia đều theo chiều cao",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n• Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . • Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: • Bình thủy tinh không nở đáng kể so với chất lỏng • Thang đo chia đều theo chiều cao",
       "question": "Một hệ nhũ tương được tạo ra bằng cách phân tán 1,0 g dầu vào nước. Giả sử lượng dầu này được chia nhỏ thành các giọt hình cầu đồng nhất có đường kính $d = 100\\text{ nm}$. Khối lượng của mỗi giọt dầu là:",
       "options": [
         "A. $3{,}32 \\times 10^{-15}\\text{ g}$",
@@ -56407,7 +56416,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n\\bullet Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . \\bullet Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: \\bullet Bình thủy tinh không nở đáng kể so với chất lỏng \\bullet Thang đo chia đều theo chiều cao",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 106 đến 108:\n• Khi nhiệt độ tăng thêm 20 oC , mực chất lỏng dâng lên 4 mm . • Khi nhiệt độ tiếp tục tăng, mực chất lỏng vẫn dâng đều theo nhiệt độ. Giả sử: • Bình thủy tinh không nở đáng kể so với chất lỏng • Thang đo chia đều theo chiều cao",
       "question": "Xét một bong bóng xà phòng hình cầu có thể tích $1{,}0\\text{ dm}^3$. Màng của bong bóng này được cấu tạo từ hai lớp (lớp trong và lớp ngoài) của các anion stearat. Khối lượng xà phòng tạo nên màng bong bóng xấp xỉ bằng:",
       "options": [
         "A. $2{,}46 \\times 10^{-5}\\text{ g}$",
@@ -63925,7 +63934,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Chọn ngẫu nhiên một lần đưa điện thoại lên để mở khóa. Xác suất để điện thoại mở khóa thành công là:",
       "options": [
         "A. 0,80",
@@ -63947,7 +63956,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Gọi A là biến cố: “lần mở khóa là do chính chủ thực hiện”, B là biến cố: “điện thoại mở khóa thành công”. Tính xác suất có điều kiện 𝑃(𝐴 ∣ 𝐵): “lần mở khóa đó là chính chủ, biết rằng điện thoại đã mở được khóa”.",
       "options": [
         "A. $\\frac{49}{50}$",
@@ -66202,7 +66211,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Chọn ngẫu nhiên một lần đưa điện thoại lên để mở khóa. Xác suất để điện thoại mở khóa thành công là:",
       "options": [
         "A. 0,80",
@@ -66224,7 +66233,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Gọi A là biến cố: “lần mở khóa là do chính chủ thực hiện”, B là biến cố: “điện thoại mở khóa thành công”. Tính xác suất có điều kiện 𝑃(𝐴 ∣ 𝐵): “lần mở khóa đó là chính chủ, biết rằng điện thoại đã mở được khóa”.",
       "options": [
         "A. $\\frac{49}{50}$",
@@ -66246,7 +66255,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\n\\bullet Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). \\bullet Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. \\bullet Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 72 đến 74:\n• Trong tất cả các lần đưa điện thoại lên mở khóa: o 80% lượt là do chính chủ thực hiện. o 20% lượt là do người lạ (bạn bè thử nghịch, trẻ con bấm chơi, …). • Nếu là chính chủ, hệ thống nhận diện đúng và mở khóa với xác suất 0,98. • Nếu là người lạ, hệ thống nhận nhầm và vẫn mở khóa với xác suất 0,04 (ngược lại thì hệ thống từ chối và không mở). Giả sử các lần mở khóa là độc lập và các tỉ lệ trên ổn định trong thời gian dài.",
       "question": "Trong nhật ký của hệ thống chỉ lưu lại các lần mở khóa thành công. Chọn ngẫu nhiên và độc lập 2 lần trong nhật ký này. Tính xác suất để trong hai lần được chọn có ít nhất một lần là do người lạ mở khóa (kết quả làm tròn đến hàng phần nghìn).",
       "options": [
         "A. 0,010",
@@ -74396,7 +74405,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Góc giữa đường thẳng $SA$ và mặt phẳng $(ABC)$ là:",
       "options": [
         "A. $45^{\\circ}$",
@@ -74418,7 +74427,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Tan của góc giữa hai mặt phẳng ( SAC ) và ( ABC ) bằng",
       "options": [
         "A. $\\frac{3}{2}$",
@@ -74440,7 +74449,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 83 đến 85:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Khoảng cách từ B đến mặt phẳng ( SAC ) là",
       "options": [
         "A. $\\frac{3a\\sqrt{39}}{13}$",
@@ -76667,7 +76676,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Góc giữa đường thẳng $SA$ và mặt phẳng $(ABC)$ là:",
       "options": [
         "A. $45^{\\circ}$",
@@ -76689,7 +76698,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Tan của góc giữa hai mặt phẳng ( SAC ) và ( ABC ) bằng",
       "options": [
         "A. $\\frac{3}{2}$",
@@ -76711,7 +76720,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại \\bullet , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 66 đến 68:\nDựa vào thông tin dưới đây để trả lời các câu hỏi. Cho hình chóp . S ABC có đáy ABC là tam giác vuông tại • , 60 A ABC = ^{\\circ} , tam giác SBC là tam giác đều có bằng cạnh 2a và nằm trong mặt phẳng vuông với đáy. Gọi H là trung điểm của BC .",
       "question": "Khoảng cách từ B đến mặt phẳng ( SAC ) là",
       "options": [
         "A. $\\frac{3a\\sqrt{39}}{13}$",
@@ -80821,7 +80830,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 14 đến 16:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 14 đến 18:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
       "question": "Đoạn thơ trên được viết theo thể thơ nào?",
       "options": [
         "A. Thơ lục bát.",
@@ -80834,7 +80843,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_truyen_kieu_nguyen_du"
     },
     {
       "id": "vact-moon-de-22-q15",
@@ -80843,7 +80853,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 14 đến 16:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 14 đến 18:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
       "question": "Câu thơ “Mượn câu Kiều hóa thạch cuộc đời riêng” ngụ ý điều gì về mối quan hệ giữa Nguyễn Du và tác phẩm Truyện Kiều?",
       "options": [
         "A. Cuộc đời riêng của Nguyễn Du được kết tinh, bất tử hóa trong tác phẩm.",
@@ -80856,7 +80866,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_truyen_kieu_nguyen_du"
     },
     {
       "id": "vact-moon-de-22-q16",
@@ -80865,7 +80876,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 14 đến 16:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 14 đến 18:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
       "question": "Câu thơ “Tiếng súng đại phá quân Thanh còn phải ở bên ngoài” cho thấy đặc điểm gì trong bút pháp của Nguyễn Du khi viết Truyện Kiều?",
       "options": [
         "A. Đặt các sự kiện lịch sử trực tiếp vào trung tâm thế giới nghệ thuật.",
@@ -80878,7 +80889,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_truyen_kieu_nguyen_du"
     },
     {
       "id": "vact-moon-de-22-q17",
@@ -80887,7 +80899,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 14 đến 18:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
       "question": "Theo đoạn thơ, yếu tố nào đã tạo nên “châu ngọc” cho thơ Nguyễn Du?",
       "options": [
         "A. Những sóng gió dữ dội của cuộc đời và trải nghiệm nhân sinh sâu sắc.",
@@ -80900,7 +80912,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_truyen_kieu_nguyen_du"
     },
     {
       "id": "vact-moon-de-22-q18",
@@ -80909,7 +80922,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 14 đến 18:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
       "question": "Đáp án nào sau đây KHÔNG thể hiện nghệ thuật của đoạn thơ?",
       "options": [
         "A. Sử dụng hệ thống hình ảnh ẩn dụ giàu sức gợi và tầng nghĩa biểu tượng.",
@@ -80922,7 +80935,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
-      "weight": 10
+      "weight": 10,
+      "clusterId": "cluster_truyen_kieu_nguyen_du"
     },
     {
       "id": "vact-moon-de-22-q19",
@@ -83225,7 +83239,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 3 đến 5:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 3 đến 7:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
       "question": "Đoạn thơ trên được viết theo thể thơ nào?",
       "options": [
         "A. Thơ lục bát.",
@@ -83238,7 +83252,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_truyen_kieu_nguyen_du"
     },
     {
       "id": "vact-moon-de-23-q4",
@@ -83247,7 +83262,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 3 đến 5:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 3 đến 7:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
       "question": "Câu thơ “Mượn câu Kiều hóa thạch cuộc đời riêng” ngụ ý điều gì về mối quan hệ giữa Nguyễn Du và tác phẩm Truyện Kiều?",
       "options": [
         "A. Cuộc đời riêng của Nguyễn Du được kết tinh, bất tử hóa trong tác phẩm.",
@@ -83260,7 +83275,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_truyen_kieu_nguyen_du"
     },
     {
       "id": "vact-moon-de-23-q5",
@@ -83269,7 +83285,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 3 đến 5:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 3 đến 7:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
       "question": "Câu thơ “Tiếng súng đại phá quân Thanh còn phải ở bên ngoài” cho thấy đặc điểm gì trong bút pháp của Nguyễn Du khi viết Truyện Kiều?",
       "options": [
         "A. Đặt các sự kiện lịch sử trực tiếp vào trung tâm thế giới nghệ thuật.",
@@ -83282,7 +83298,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_truyen_kieu_nguyen_du"
     },
     {
       "id": "vact-moon-de-23-q6",
@@ -83291,7 +83308,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 3 đến 7:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
       "question": "Theo đoạn thơ, yếu tố nào đã tạo nên “châu ngọc” cho thơ Nguyễn Du?",
       "options": [
         "A. Những sóng gió dữ dội của cuộc đời và trải nghiệm nhân sinh sâu sắc.",
@@ -83304,7 +83321,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_truyen_kieu_nguyen_du"
     },
     {
       "id": "vact-moon-de-23-q7",
@@ -83313,7 +83331,7 @@ export const QUESTIONS_DATA = {
       "partId": "part1",
       "section": "vietnamese",
       "sectionName": "Sử dụng Tiếng Việt (300đ)",
-      "passage": null,
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 3 đến 7:\nAnh sinh vào thế kỷ nhiều tà huy mưa bụi\nQuờ tay ra không người đồng điệu nằm bên\nNỗi đau anh trùng với nỗi đau nhân loại\nMượn câu Kiều hoá thạch cuộc đời riêng\nCác triều đại bể dâu nhưng thi cảo trường tồn\nAnh lập công trên dòng ngôn ngữ ấy\nBạch Đằng anh cắm cọc vào thời gian nước chảy\nCho nghìn năm sau vầng trăng tiếng Việt mãi còn\nAnh nuôi hồn thơ như cô Tấm nuôi trong giếng sâu u tối\nCái con bống nôm na mách qué chả ai nhìn\nNào hay đâu khi lòng độc giả tri âm vẫy gọi\nThì câu Kiều như giọt máu đã trồi lên\nPhải ba triệu sóng gió của cuộc đời mới đúc nên châu ngọc\nKhốn nỗi, đã là ngọc ư, thì lại dễ xa đời\nCả một thế kỷ vào thơ anh bằng cửa chật\nTiếng súng đại phá quân Thanh còn phải ở bên ngoài\nVà anh vay làm chi núi sông phong cảnh quê người\nĐất nước thừa những con sông Tiền Đường định mệnh\nVà dù anh chia Nguyễn Du, Tố Như, Thanh Hiên máu thịt đời anh ra làm ba mảnh\nThì giọt lệ trang Kiều gom một mà thôi\nMột thế kỷ dễ hiểu Nguyễn ư? Ta có cần một thế kỷ đâu mà\nĐau khổ vì những hoàng hôn ta chóng hiểu cái hôn hoàng của Nguyễn\nTa yêu những hịch, những Bình Ngô gọi lòng ra hoả tuyến\nNhưng không quên ngọn lau trắng bên đường Kiều thổi lại tự xa xưa.\n(Chế Lan Viên, *Nghĩ thêm về Nguyễn*, Ta gửi cho mình, NXB Tác phẩm mới, Hà Nội, 1986)",
       "question": "Đáp án nào sau đây KHÔNG thể hiện nghệ thuật của đoạn thơ?",
       "options": [
         "A. Sử dụng hệ thống hình ảnh ẩn dụ giàu sức gợi và tầng nghĩa biểu tượng.",
@@ -83326,7 +83344,8 @@ export const QUESTIONS_DATA = {
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
-      "weight": 7.5
+      "weight": 7.5,
+      "clusterId": "cluster_truyen_kieu_nguyen_du"
     },
     {
       "id": "vact-moon-de-23-q8",
@@ -88213,7 +88232,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n\\bullet Không có ai đứng giữa 2 người khác giới tính mình. \\bullet A đứng ở phía bên trái của M. \\bullet N đứng vị trí thứ 7.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n• Không có ai đứng giữa 2 người khác giới tính mình. • A đứng ở phía bên trái của M. • N đứng vị trí thứ 7.",
       "question": "Điều nào sau đây chắc chắn sai?",
       "options": [
         "A. B đứng vị trí 6",
@@ -88235,7 +88254,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n\\bullet Không có ai đứng giữa 2 người khác giới tính mình. \\bullet A đứng ở phía bên trái của M. \\bullet N đứng vị trí thứ 7.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n• Không có ai đứng giữa 2 người khác giới tính mình. • A đứng ở phía bên trái của M. • N đứng vị trí thứ 7.",
       "question": "Nếu P đứng vị trí 2, có 2 người ở giữa E và D thì cần điều kiện nào sau đây để có duy nhất 1 cách xếp?",
       "options": [
         "A. P cách B một vị trí",
@@ -88257,7 +88276,7 @@ export const QUESTIONS_DATA = {
       "partId": "part3",
       "section": "science",
       "sectionName": "Suy luận khoa học (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n\\bullet Không có ai đứng giữa 2 người khác giới tính mình. \\bullet A đứng ở phía bên trái của M. \\bullet N đứng vị trí thứ 7.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 109 đến 111:\n• Không có ai đứng giữa 2 người khác giới tính mình. • A đứng ở phía bên trái của M. • N đứng vị trí thứ 7.",
       "question": "Nếu L đứng ngay bên trái B và D, E đứng cạnh nhau thì ai không thể đứng cạnh N?",
       "options": [
         "A. C",

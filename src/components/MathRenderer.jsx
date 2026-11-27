@@ -29,7 +29,8 @@ export function cleanMathText(raw) {
     .replace(//g, '^\\circ')
     .replace(/||/g, ']')
     .replace(/||/g, '\\}')
-    .replace(//g, '\\bullet')
+    .replace(//g, '•')
+    .replace(/\\bullet(?![a-zA-Z])/g, '•')
     .replace(//g, '\\alpha')
     .replace(//g, "'")
     .replace(//g, '\\eta')
@@ -170,7 +171,17 @@ function MathInline({ text, className = '' }) {
             />
           );
         }
-        return <span key={idx}>{part.value}</span>;
+        return (
+          <span key={idx}>
+            {part.value.split(/(\*[^*\n]+?\*)/g).map((seg, sIdx) =>
+              seg.startsWith('*') && seg.endsWith('*') && seg.length > 2 ? (
+                <em key={sIdx} className="italic">{seg.slice(1, -1)}</em>
+              ) : (
+                <React.Fragment key={sIdx}>{seg}</React.Fragment>
+              )
+            )}
+          </span>
+        );
       })}
     </span>
   );
@@ -196,32 +207,32 @@ function MarkdownTable({ lines }) {
   const dataRows = lines.slice(2).map(parseRow); // skip delimiter row |:--:|
 
   return (
-    <div className="overflow-x-auto my-3 rounded-2xl border vact-border bg-slate-50/70 dark:bg-slate-900/70 shadow-xs max-w-full">
-      <table className="min-w-full divide-y vact-border text-center text-xs sm:text-sm">
-        <thead className="bg-slate-100/90 dark:bg-slate-800/90">
+    <div className="w-full max-w-full overflow-x-auto my-3 rounded-2xl border vact-border bg-[var(--bg-card)] shadow-xs">
+      <table className="w-full min-w-full divide-y vact-border text-center text-[11px] sm:text-sm">
+        <thead className="bg-[var(--bg-card-subtle)]">
           <tr>
             {headers.map((h, i) => (
               <th
                 key={i}
-                className="py-2.5 px-3 font-black text-slate-800 dark:text-slate-100 border-r vact-border last:border-r-0"
+                className="py-2 px-1.5 sm:px-3 font-black vact-text-primary border-r vact-border last:border-r-0 break-words"
               >
                 <MathInline text={h} />
               </th>
             ))}
           </tr>
         </thead>
-        <tbody className="divide-y vact-border font-medium">
+        <tbody className="divide-y vact-border font-medium bg-[var(--bg-card)]">
           {dataRows.map((row, rIdx) => (
             <tr
               key={rIdx}
-              className="hover:bg-blue-50/40 dark:hover:bg-blue-950/20 transition-colors"
+              className="hover:bg-[var(--bg-card-subtle)] transition-colors"
             >
               {row.map((cell, cIdx) => (
                 <td
                   key={cIdx}
-                  className={`py-2 px-3 border-r vact-border last:border-r-0 ${
+                  className={`py-1.5 px-1.5 sm:px-3 border-r vact-border last:border-r-0 break-words ${
                     cIdx === 0
-                      ? 'font-bold bg-slate-100/40 dark:bg-slate-800/40 text-blue-600 dark:text-blue-400'
+                      ? 'font-bold bg-[var(--bg-card-subtle)] text-[var(--accent)]'
                       : 'vact-text-primary'
                   }`}
                 >
