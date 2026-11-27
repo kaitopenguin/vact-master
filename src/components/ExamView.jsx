@@ -30,6 +30,7 @@ import {
   Shuffle
 } from 'lucide-react';
 import { EXAM_LIST, QUESTIONS_DATA } from '../data/examData';
+import { KSCL_BANK_DATA } from '../data/ksclBankData';
 import confetti from 'canvas-confetti';
 import MathRenderer from './MathRenderer';
 import { calculateVactIrtScore } from '../utils/vactIrtScoring';
@@ -254,7 +255,8 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
 
   const handleStartRandomExam = (sectionOnly = 'all') => {
     playKittySparkle();
-    const generated = generateRandomExam(QUESTIONS_DATA, { sectionOnly });
+    const combinedBank = { ...QUESTIONS_DATA, ...KSCL_BANK_DATA };
+    const generated = generateRandomExam(combinedBank, { sectionOnly });
     setSelectedExamId(generated.id);
     setFilterSection(sectionOnly);
     setCurrentQuestions(generated.questions);

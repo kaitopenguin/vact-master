@@ -3012,7 +3012,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Khoảng cách từ điểm A đến mặt phẳng (P) bằng:",
       "options": [
         "A. 3",
@@ -3034,7 +3034,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Mặt phẳng đi qua $A$ và vuông góc với $(P)$ và $(Q)$ có phương trình:",
       "options": [
         "A. 6x + y - 4z - 2 = 0",
@@ -3056,7 +3056,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Gọi $d$ là đường thẳng đi qua $A$ và song song với $(P), (Q)$. Điểm $M$ nào sau đây thuộc $d$?",
       "options": [
         "A. M(1; 4; 7)",
@@ -50665,7 +50665,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Góc giữa hai đường thẳng SA và CD xấp xỉ bằng:",
       "options": [
         "A. 70°29'",
@@ -50687,7 +50687,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Khoảng cách từ điểm A đến mặt phẳng (P) bằng:",
       "options": [
         "A. 3",
@@ -50709,7 +50709,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu từ 88 đến 90:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Mặt phẳng đi qua $A$ và vuông góc với $(P)$ và $(Q)$ có phương trình:",
       "options": [
         "A. 6x + y - 4z - 2 = 0",
@@ -53341,7 +53341,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Giả sử con cá bắt được có màu vàng, tính xác suất để con cá màu vàng này không bị đánh dấu.(làm tròn kết quả 2 chữ số thập phân)",
       "options": [
         "A. 0,87",
@@ -53363,7 +53363,7 @@ export const QUESTIONS_DATA = {
       "partId": "part2",
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
-      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\n2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
+      "passage": "Dựa vào thông tin dưới đây để trả lời các câu 89 và 90:\nTrong không gian $Oxyz$, cho hai mặt phẳng $(P): 2x - y + 2z - 2 = 0$, $(Q): x + 2y - 2z + 1 = 0$.",
       "question": "Phương án thuê máy nào sau đây đáp ứng đủ số trang cần in và có chi phí thấp nhất?",
       "options": [
         "A. x = 8, y = 6",
