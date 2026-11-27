@@ -1,16 +1,16 @@
 // Tổng hợp Bí kíp & Chiến thuật thi từ các Thủ khoa ĐGNL (Điểm 1000+)
-// Tích hợp tinh hoa từ các nguồn uy tín: CPEN và VnNO1
+// Tích hợp chiến thuật giải nhanh chuẩn V-ACT
 
 export const EXAM_TIPS = [
   {
     id: 'tip-vnno1',
     category: '🧠 Tư duy Logic',
-    source: 'VnNO1 - Luyện thi ĐGNL',
+    source: 'V-ACT Master',
     title: 'Kỹ thuật Ma trận 2 Chiều giải quyết 12 câu Logic dưới 12 phút',
-    author: 'VnNO1 Master Team',
+    author: 'Ban Chuyên Môn V-ACT',
     tags: ['Ma trận đối ứng', 'Quy tắc dấu +/-', 'Mệnh đề đảo'],
     content: `
-Bí kíp độc quyền từ VnNO1 để không bị "ngợp" trước các bài toán logic xếp chỗ dài ngoằng:
+Bí kíp độc quyền chuyên sâu để không bị "ngợp" trước các bài toán logic xếp chỗ dài ngoằng:
 1. **Lập bảng đối ứng 2 chiều**: Cột là đối tượng cần gán (Thứ tự ghế 1..8, Phòng ban, Màu áo), Hàng là danh sách người (A, B, C, D, E, F...).
 2. **Quy tắc dấu (+) và (-)**: Khi xác định chắc chắn A ngồi ghế 3, đánh dấu (+) vào ô (A, 3), lập tức gạch dấu (-) toàn bộ hàng A và cột 3.
 3. **Nguyên tắc mệnh đề tương đương phản đảo**: Nếu dữ kiện cho "Nếu A tham gia thì B không tham gia" ($A \\implies \\neg B$), ta lập tức suy ra mệnh đề tương đương "Nếu B tham gia thì A chắc chắn không tham gia" ($B \\implies \\neg A$).
@@ -39,7 +39,7 @@ Trong phòng thi ĐGNL V-ACT, áp lực thời gian là kẻ thù lớn nhất (
   {
     id: 'tip-casio-580',
     category: '🔢 Kỹ năng Casio',
-    source: 'Thầy Đặng Thành Nam & VnNO1',
+    source: 'Chuyên Đề Toán V-ACT',
     title: '5 Tính năng thần thánh trên Casio 580VNX cứu nguy môn Toán',
     author: 'Chuyên gia Casio Vted',
     tags: ['Menu 8 Table', 'Shift Solve', 'Vector Oxyz', 'Hệ 4 ẩn'],
@@ -68,9 +68,9 @@ Khi gặp một câu hỏi hoàn toàn bí hoặc không đủ thời gian giả
   {
     id: 'tip-data-analysis',
     category: '📊 Phân tích số liệu',
-    source: 'VnNO1 - Ban Số Liệu',
+    source: 'Ban Số Liệu V-ACT',
     title: 'Tuyệt chiêu xử lý Biểu đồ & Bảng số liệu mà không cần bấm máy tính cồng kềnh',
-    author: 'VnNO1 Data Specialist',
+    author: 'Chuyên Gia Số Liệu V-ACT',
     tags: ['Tốc độ tăng trưởng', 'Ước lượng tỷ lệ', 'Làm tròn số'],
     content: `
 1. **Kỹ thuật làm tròn số có kiểm soát**: Thay vì chia số lẻ như $1.458.230 / 3.921.400$, hãy làm tròn thành $1.46 / 3.92 \\approx 1.5 / 4.0 = 37.5\\%$. Đối chiếu với 4 đáp án có khoảng cách xa nhau, bạn sẽ chọn ngay đáp án đúng trong 5 giây.
@@ -99,22 +99,22 @@ Khi gặp một câu hỏi hoàn toàn bí hoặc không đủ thời gian giả
   }
 ];
 
-// Danh sách Video bài giảng và Livestream giải đề uy tín (đặc biệt từ CPEN & VnNO1)
+// Danh sách Video bài giảng và Livestream giải đề V-ACT
 export const RECOMMENDED_VIDEOS = [
   {
     id: 'v-vnno1-01',
-    title: 'VnNO1 - Giải chi tiết Đề thi thử V-ACT 2026/2027 Lần 1 (Full 120 câu chuẩn IRT)',
-    channel: 'VnNO1 - Luyện thi ĐGNL',
+    title: 'Giải chi tiết Đề thi thử V-ACT 2026/2027 Lần 1 (Full 120 câu chuẩn IRT)',
+    channel: 'V-ACT Master',
     duration: '1:45:20',
     category: 'vnno1',
     videoUrl: 'https://www.youtube.com/results?search_query=vnno1+%C4%91%C3%A1nh+gi%C3%A1+n%C4%83ng+l%E1%BB%B1c+gi%E1%BA%A3i+%C4%91%E1%BB%81',
     thumbnail: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=60',
-    description: 'Video livestream chữa chi tiết từng câu trong Đề thi thử VnNO1 lần 1, phân tích bẫy và kỹ năng quản lý thời gian.'
+    description: 'Video livestream chữa chi tiết từng câu trong Đề thi thử V-ACT Master lần 1, phân tích bẫy và kỹ năng quản lý thời gian.'
   },
   {
     id: 'v-vnno1-02',
-    title: 'VnNO1 - Tuyệt chiêu giải quyết 12 câu Tư duy Logic & Phân tích số liệu',
-    channel: 'VnNO1 - Luyện thi ĐGNL',
+    title: 'Tuyệt chiêu giải quyết 12 câu Tư duy Logic & Phân tích số liệu',
+    channel: 'V-ACT Master',
     duration: '58:30',
     category: 'logic',
     videoUrl: 'https://www.youtube.com/results?search_query=vnno1+logic+%C4%91%C3%A1nh+gi%C3%A1+n%C4%83ng+l%E1%BB%B1c',
@@ -143,8 +143,8 @@ export const RECOMMENDED_VIDEOS = [
   },
   {
     id: 'v-vnno1-03',
-    title: 'VnNO1 - Mẹo bấm máy tính Casio 580VNX xử lý bài toán thực tế & Xác suất',
-    channel: 'VnNO1 - Luyện thi ĐGNL',
+    title: 'Mẹo bấm máy tính Casio 580VNX xử lý bài toán thực tế & Xác suất',
+    channel: 'V-ACT Master',
     duration: '42:50',
     category: 'math',
     videoUrl: 'https://www.youtube.com/results?search_query=vnno1+casio+%C4%91%C3%A1nh+gi%C3%A1+n%C4%83ng+l%E1%BB%B1c',
@@ -161,19 +161,19 @@ export const STUDY_ROADMAP = [
     time: 'Tuần 1 - 2',
     goal: 'Hiểu rõ đề thi, làm quen với 120 câu hỏi và phương pháp tính điểm IRT.',
     tasks: [
-      'Làm bài test chẩn đoán ban đầu (Đề minh họa 2025 hoặc Đề VnNO1 Lần 1).',
+      'Làm bài test chẩn đoán ban đầu (Đề minh họa 2025 hoặc Đề V-ACT Master Lần 1).',
       'Nắm vững ma trận đề thi V-ACT (Ngôn ngữ 60 câu, Toán 30 câu, Tư duy KH 30 câu).',
       'Cài đặt thời gian biểu học tập mỗi ngày 1.5 - 2 tiếng.'
     ]
   },
   {
     stage: 'Chặng 2',
-    title: 'Quét sạch Chuyên đề & Rèn Kỹ năng cốt lõi (CPEN & VnNO1)',
+    title: 'Quét sạch Chuyên đề & Rèn Kỹ năng cốt lõi (V-ACT Master)',
     time: 'Tuần 3 - 6',
     goal: 'Không để mất điểm ở các câu hỏi mức độ Nhận biết và Thông hiểu.',
     tasks: [
       'Học cẩm nang 45 dạng bẫy Tiếng Việt của CPEN và ngữ pháp Tiếng Anh trọng tâm.',
-      'Luyện kỹ thuật lập bảng ma trận đối ứng 2 chiều của VnNO1 cho các câu hỏi Logic.',
+      'Luyện kỹ thuật lập bảng ma trận đối ứng 2 chiều chuẩn V-ACT cho các câu hỏi Logic.',
       'Nắm vững các công thức số liệu biểu đồ (tốc độ tăng trưởng, tỷ trọng cơ cấu).',
       'Thành thạo các chức năng Table, Solve, Vector trên Casio 580VNX.'
     ]
@@ -184,7 +184,7 @@ export const STUDY_ROADMAP = [
     time: 'Tuần 7 - 10',
     goal: 'Rèn luyện áp lực thời gian, tốc độ làm bài và sự tập trung cao độ.',
     tasks: [
-      'Mỗi tuần giải từ 2 - 3 đề trong Tuyển tập 25 đề Moon.vn và bộ đề VnNO1.',
+      'Mỗi tuần giải từ 2 - 3 đề trong Tuyển tập 25 đề chuẩn hóa V-ACT.',
       'Ghi chép toàn bộ câu sai vào "Sổ tay lỗi sai" (Mistake Book).',
       'Rèn kỹ năng tô phiếu trắc nghiệm không bị lệch dòng theo chiến thuật 40-40-50-20.'
     ]

@@ -143,7 +143,7 @@ export const THEORY_ARTICLES = [
     id: 'logic-01',
     chapter: 'Chương 4',
     category: 'logic',
-    title: '4.1. Tuyệt Kỹ Kẻ Bảng Ma Trận 2 Chiều Phá Đảo 12 Câu Logic (VnNO1 & CPEN)',
+    title: '4.1. Tuyệt Kỹ Kẻ Bảng Ma Trận 2 Chiều Phá Đảo 12 Câu Logic (Chuẩn V-ACT)',
     readTime: '15 phút',
     summary: 'Phương pháp loại trừ biến độc lập, phân nhánh giả thiết và xử lý bài toán sắp xếp chỗ ngồi, phân công công việc.',
     sections: [

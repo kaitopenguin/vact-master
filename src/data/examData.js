@@ -33,13 +33,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-empire-de-04",
-    "title": "Đề Tiên Đoán V-ACT Chuẩn Hóa Số 04 (Empire Team)",
+    "title": "Đề Thực Chiến V-ACT Chuẩn Hóa Số 01",
     "year": "2025",
     "category": "latest",
     "type": "Đề Tiên Đoán Trọng Tâm",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 04 biên soạn bởi Empire Team, bám sát cấu trúc khảo thí mới, độ khó tương đương kỳ thi thật tại ĐHQG TP.HCM.",
+    "description": "Đề thi thực chiến số 01 bám sát cấu trúc khảo thí mới, độ khó tương đương kỳ thi thật với đầy đủ 120 câu chuẩn GDPT 2018.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -65,13 +65,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-vnno1-2027-lan1",
-    "title": "Đề Thi Thử V-ACT 2027 Lần 1 (Hệ Thống Khảo Thí VNno1)",
+    "title": "Đề Thi Thử V-ACT 2027 Chuẩn Hóa Số 02",
     "year": "2025",
     "category": "latest",
     "type": "Đề Thi Thử Định Kỳ",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi thử Lần 1 phát triển bởi VNno1, rèn luyện kỹ năng phân tích ma trận dữ liệu và suy luận khoa học thực nghiệm.",
+    "description": "Đề thi thử chuẩn hóa rèn luyện kỹ năng phân tích ma trận dữ liệu, giải toán thực tế và suy luận khoa học.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -289,13 +289,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-01",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 01 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 01",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Rèn luyện nền tảng",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 01 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 01 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -321,13 +321,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-02",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 02 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 02",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Rèn luyện nền tảng",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 02 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 02 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -353,13 +353,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-03",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 03 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 03",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Rèn luyện nền tảng",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 03 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 03 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -385,13 +385,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-04",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 04 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 04",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Rèn luyện nền tảng",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 04 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 04 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -417,13 +417,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-05",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 05 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 05",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Rèn luyện nền tảng",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 05 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 05 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -449,13 +449,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-06",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 06 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 06",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Rèn luyện nền tảng",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 06 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 06 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -481,13 +481,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-07",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 07 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 07",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Rèn luyện nền tảng",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 07 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 07 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -513,13 +513,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-08",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 08 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 08",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Rèn luyện nền tảng",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 08 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 08 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -545,13 +545,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-09",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 09 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 09",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Rèn luyện nền tảng",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 09 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 09 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -577,13 +577,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-10",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 10 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 10",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Rèn luyện nền tảng",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 10 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 10 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -609,13 +609,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-11",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 11 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 11",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Chuyên sâu 850+",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 11 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 11 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -641,13 +641,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-12",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 12 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 12",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Chuyên sâu 850+",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 12 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 12 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -673,13 +673,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-13",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 13 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 13",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Chuyên sâu 850+",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 13 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 13 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -705,13 +705,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-14",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 14 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 14",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Chuyên sâu 850+",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 14 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 14 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -737,13 +737,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-15",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 15 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 15",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Chuyên sâu 850+",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 15 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 15 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -769,13 +769,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-16",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 16 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 16",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Chuyên sâu 850+",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 16 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 16 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -801,13 +801,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-17",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 17 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 17",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Chuyên sâu 850+",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 17 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 17 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -833,13 +833,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-18",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 18 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 18",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Chuyên sâu 850+",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 18 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 18 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -865,13 +865,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-19",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 19 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 19",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Chuyên sâu 850+",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 19 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 19 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -897,13 +897,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-20",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 20 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 20",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Chuyên sâu 850+",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 20 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 20 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -929,13 +929,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-21",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 21 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 21",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Phân hóa 950+ Thủ khoa",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 21 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 21 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -961,13 +961,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-22",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 22 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 22",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Phân hóa 950+ Thủ khoa",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 22 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 22 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -993,13 +993,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-23",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 23 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 23",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Phân hóa 950+ Thủ khoa",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 23 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 23 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -1025,13 +1025,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-24",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 24 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 24",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Phân hóa 950+ Thủ khoa",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 24 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 24 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -1057,13 +1057,13 @@ export const EXAM_LIST = [
   },
   {
     "id": "vact-moon-de-25",
-    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 25 (Tuyển Tập 25 Đề Moon.vn)",
+    "title": "Đề Luyện Thi V-ACT Chuẩn Hóa Số 25",
     "year": "2025",
-    "category": "moon",
+    "category": "standard",
     "type": "Phân hóa 950+ Thủ khoa",
     "durationMinutes": 150,
     "totalQuestions": 120,
-    "description": "Đề thi số 25 trích xuất từ tuyển tập đề thi chuẩn hóa Moon.vn, bao gồm 120 câu hỏi độc lập được phân loại chuẩn theo cấu trúc khảo thí mới của ĐHQG TP.HCM.",
+    "description": "Đề thi chuẩn hóa số 25 thuộc tuyển tập 25 đề luyện thi V-ACT, bao gồm 120 câu hỏi được phân loại theo năng lực.",
     "sections": [
       {
         "name": "Tiếng Việt",
@@ -5118,7 +5118,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "[EMPIRE TEAM] Cho $a, b, c > 1$. Biết rằng biểu thức $P = \\log_a(bc) + \\log_b(ac) + 4\\log_c(ab)$ đạt giá trị nhỏ nhất $m$ khi $\\log_b c = n$. Tính giá trị $m + n$.",
+      "question": "Cho $a, b, c > 1$. Biết rằng biểu thức $P = \\log_a(bc) + \\log_b(ac) + 4\\log_c(ab)$ đạt giá trị nhỏ nhất $m$ khi $\\log_b c = n$. Tính giá trị $m + n$.",
       "options": [
         "A. m + n = 12",
         "B. $m + n = \\frac{25}{2}$",
@@ -6404,7 +6404,7 @@ export const QUESTIONS_DATA = {
         "D. So sánh, liệt kê."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 1] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -6426,7 +6426,7 @@ export const QUESTIONS_DATA = {
         "D. Truyện truyền kỳ."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 2] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -6448,7 +6448,7 @@ export const QUESTIONS_DATA = {
         "D. Đời sống cư dân thôn quê mang vẻ đẹp thanh bình, nhộn nhịp, miêu tả qua lối viết giàu nhạc tính."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 3] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -6470,7 +6470,7 @@ export const QUESTIONS_DATA = {
         "D. Cả bốn câu đều không niêm với nhau."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 4] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -6492,7 +6492,7 @@ export const QUESTIONS_DATA = {
         "D. Ca ngợi sự thưởng thức sành sỏi của người Hà Nội."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 5] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -6514,7 +6514,7 @@ export const QUESTIONS_DATA = {
         "D. Nỗi bi quan về mọi nỗ lực của con người đều vô nghĩa trước sự trôi chảy vô tận của thời gian."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 6] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -6536,7 +6536,7 @@ export const QUESTIONS_DATA = {
         "D. A-B-B-A."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 7] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -6558,7 +6558,7 @@ export const QUESTIONS_DATA = {
         "D. Các câu hỏi thể hiện nỗi trăn trở về vận nước của Nguyễn Trãi."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 8] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -6580,7 +6580,7 @@ export const QUESTIONS_DATA = {
         "D. Dòng sông gợi lên sự tàn phai và vô thường của cuộc đời."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 9] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -6602,7 +6602,7 @@ export const QUESTIONS_DATA = {
         "D. (5)-(6); (7)-(8)."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 10] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -6624,7 +6624,7 @@ export const QUESTIONS_DATA = {
         "D. Màu máu và sự hy sinh của những chiến sĩ nơi tiền tuyến."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 11] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -6646,7 +6646,7 @@ export const QUESTIONS_DATA = {
         "D. Ở Chiều xuân, bức tranh xuân mang nỗi buồn nhân thế trước dòng chảy thời gian; ở Cô gái xuân, mùa xuân mang nỗi tiếc nuối về cơ hội yêu đương đã vượt mất."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 12] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -6668,7 +6668,7 @@ export const QUESTIONS_DATA = {
         "D. Đọc giả."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 13] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -6690,7 +6690,7 @@ export const QUESTIONS_DATA = {
         "D. Bà cụ đã yếu lắm rồi, bà tìm tay tôi và nắm lấy như muốn trối trăng điều gì."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 14] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -6712,7 +6712,7 @@ export const QUESTIONS_DATA = {
         "D. Nguồn gốc, quê quán của một cá nhân."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 15] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -6734,7 +6734,7 @@ export const QUESTIONS_DATA = {
         "D. Cuộc tranh chấp bản quyền truyền hình vẫn chưa đi đến hồi kết, khi các bên đều cho rằng mình có lý và không ai chịu ai."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 16] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -6756,7 +6756,7 @@ export const QUESTIONS_DATA = {
         "D. Lạc chủ đề."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 17] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -6778,7 +6778,7 @@ export const QUESTIONS_DATA = {
         "D. Mặc dù vũ khí, trang bị hết sức thô sơ, nghĩa sĩ vẫn chiến đấu dũng cảm và nêu cao tinh thần hy sinh."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 18] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -6800,7 +6800,7 @@ export const QUESTIONS_DATA = {
         "D. không phù hợp với khả năng kết hợp của từ."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 19] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -6822,7 +6822,7 @@ export const QUESTIONS_DATA = {
         "D. sai cách dùng từ."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 20] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -6844,7 +6844,7 @@ export const QUESTIONS_DATA = {
         "D. Liệt kê, so sánh và đối chiếu."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 21] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -6866,7 +6866,7 @@ export const QUESTIONS_DATA = {
         "D. Cung cấp minh chứng cụ thể, đáng tin cậy cho thấy biểu hiện của thực trạng dân trí tài chính ở Việt Nam giai đoạn 2021-2023."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 22] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -6888,7 +6888,7 @@ export const QUESTIONS_DATA = {
         "D. Cảnh báo thực trạng người Việt có hiểu biết, kỹ năng và thái độ với lĩnh vực tài chính còn ở mức thấp và hệ quả."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 23] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -6910,7 +6910,7 @@ export const QUESTIONS_DATA = {
         "D. Cung cấp kết quả khảo sát thực tế, tạo tính xác thực, khách quan cho lập luận và dẫn dắt vào những lý do tiếp theo."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 24] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -6932,7 +6932,7 @@ export const QUESTIONS_DATA = {
         "D. Nâng cao nhận thức của người đọc về tầm quan trọng của việc giáo dục tài chính cho trẻ em."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 25] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -6954,7 +6954,7 @@ export const QUESTIONS_DATA = {
         "D. Miêu tả những người bất hạnh trong xã hội bệnh tật để tìm cách chạy chữa."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 26] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -6976,7 +6976,7 @@ export const QUESTIONS_DATA = {
         "D. Nhân vật trong tác phẩm không nên lấy từ một địa phương cụ thể."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 27] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -6998,7 +6998,7 @@ export const QUESTIONS_DATA = {
         "D. Là viết về những bất hạnh của người đời với mục đích chữa trị."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 28] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -7020,7 +7020,7 @@ export const QUESTIONS_DATA = {
         "D. Lãng mạn."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 29] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -7042,7 +7042,7 @@ export const QUESTIONS_DATA = {
         "D. Hiện thực được miêu tả đúng với ngoài đời, nhân vật là tổng hòa đặc điểm của nhiều nhân vật."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 30] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -7064,7 +7064,7 @@ export const QUESTIONS_DATA = {
         "D. who obsessed"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 31] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -7086,7 +7086,7 @@ export const QUESTIONS_DATA = {
         "D. has explained"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 32] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -7108,7 +7108,7 @@ export const QUESTIONS_DATA = {
         "D. can’t have been"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 33] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -7130,7 +7130,7 @@ export const QUESTIONS_DATA = {
         "D. infliction"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 34] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -7152,7 +7152,7 @@ export const QUESTIONS_DATA = {
         "D. push"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 35] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -7284,7 +7284,7 @@ export const QUESTIONS_DATA = {
         "D. To save for my old age, I am likely to buy a piece of land."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 41] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -7306,7 +7306,7 @@ export const QUESTIONS_DATA = {
         "D. Linda joined a swimming contest and tried to win the first prize."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 42] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -7328,7 +7328,7 @@ export const QUESTIONS_DATA = {
         "D. It is likely that Timmy is the smartest of all the kids in his group."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 43] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -7350,7 +7350,7 @@ export const QUESTIONS_DATA = {
         "D. My best friend was taken care of by me when getting sick."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 44] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -7372,7 +7372,7 @@ export const QUESTIONS_DATA = {
         "D. The doctor asked Jack to stay at home until Jack felt better."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 45] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -7394,7 +7394,7 @@ export const QUESTIONS_DATA = {
         "D. The reasons for the Masai’s popularity over other African tribes"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 46] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -7416,7 +7416,7 @@ export const QUESTIONS_DATA = {
         "D. travellers"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 47] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -7438,7 +7438,7 @@ export const QUESTIONS_DATA = {
         "D. the senior elders"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 48] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -7460,7 +7460,7 @@ export const QUESTIONS_DATA = {
         "D. Masai men"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 49] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -7482,7 +7482,7 @@ export const QUESTIONS_DATA = {
         "D. distinguish"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 50] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -7504,7 +7504,7 @@ export const QUESTIONS_DATA = {
         "D. Fight with other tribes"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 51] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -7526,7 +7526,7 @@ export const QUESTIONS_DATA = {
         "D. Eunoto is the ceremony for both Masai teenage boys and girls."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 52] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -7548,7 +7548,7 @@ export const QUESTIONS_DATA = {
         "D. An environmentally friendly approach to constructing buildings"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 53] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -7570,7 +7570,7 @@ export const QUESTIONS_DATA = {
         "D. Natural materials were abundant enough for conventional building construction."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 54] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -7592,7 +7592,7 @@ export const QUESTIONS_DATA = {
         "D. solar panels"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 55] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -7614,7 +7614,7 @@ export const QUESTIONS_DATA = {
         "D. materials that prevent heat loss and absorption"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 56] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -7636,7 +7636,7 @@ export const QUESTIONS_DATA = {
         "D. Both are residential complexes with specialized, non-polluting heating systems."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 57] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -7658,7 +7658,7 @@ export const QUESTIONS_DATA = {
         "D. being carried out"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 58] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -7680,7 +7680,7 @@ export const QUESTIONS_DATA = {
         "D. Increasing work productivity"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 59] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -7702,7 +7702,7 @@ export const QUESTIONS_DATA = {
         "D. They are eco-friendly structures that always include rooftop gardens."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 60] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -7724,7 +7724,7 @@ export const QUESTIONS_DATA = {
         "D. $[-4; 0] \\cup (4; +\\infty)$"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 61] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -7746,7 +7746,7 @@ export const QUESTIONS_DATA = {
         "D. $(-\\infty; 1]$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 62] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -7768,7 +7768,7 @@ export const QUESTIONS_DATA = {
         "D. 4"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 63] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -7790,7 +7790,7 @@ export const QUESTIONS_DATA = {
         "D. 18"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 64] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -7812,7 +7812,7 @@ export const QUESTIONS_DATA = {
         "D. 12"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 65] Đáp án đúng là A. Với $x = 2, y = 3 \\implies xy = 6$, thỏa mãn điều kiện bài toán.",
+      "explanation": "Đáp án đúng là A. Với $x = 2, y = 3 \\implies xy = 6$, thỏa mãn điều kiện bài toán.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -7834,7 +7834,7 @@ export const QUESTIONS_DATA = {
         "D. $m = 2$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 66] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -7856,7 +7856,7 @@ export const QUESTIONS_DATA = {
         "D. 24"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 67] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -7878,7 +7878,7 @@ export const QUESTIONS_DATA = {
         "D. $60^{\\circ}$"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 68] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -7900,7 +7900,7 @@ export const QUESTIONS_DATA = {
         "D. $m = 4$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 69] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -7922,7 +7922,7 @@ export const QUESTIONS_DATA = {
         "D. Hàm số không có tiệm cận nào."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 70] Đáp án đúng là C. Ta có $y = \\frac{2x^2 - 3x + 2}{x - 1} = 2x - 1 + \\frac{1}{x - 1}$. Khi $x \\to \\pm\\infty$, $\\lim [y - (2x - 1)] = 0$. Do đó hàm số có tiệm cận xiên là $y = 2x - 1$.",
+      "explanation": "Đáp án đúng là C. Ta có $y = \\frac{2x^2 - 3x + 2}{x - 1} = 2x - 1 + \\frac{1}{x - 1}$. Khi $x \\to \\pm\\infty$, $\\lim [y - (2x - 1)] = 0$. Do đó hàm số có tiệm cận xiên là $y = 2x - 1$.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -7944,7 +7944,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{1}{2}e^{2x} + C$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 71] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -7966,7 +7966,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{72\\pi}{7}$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 72] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -7988,7 +7988,7 @@ export const QUESTIONS_DATA = {
         "D. $m = \\frac{3}{2}$"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 73] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -8010,7 +8010,7 @@ export const QUESTIONS_DATA = {
         "D. $m = 1$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 74] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -8032,7 +8032,7 @@ export const QUESTIONS_DATA = {
         "D. $\\begin{cases} 2x + y \\le 40 \\\\ x + 2y \\le 36 \\\\ x > 0, y > 0 \\end{cases}$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 75] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -8054,7 +8054,7 @@ export const QUESTIONS_DATA = {
         "D. $440."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 76] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -8076,7 +8076,7 @@ export const QUESTIONS_DATA = {
         "D. 660"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 77] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -8098,7 +8098,7 @@ export const QUESTIONS_DATA = {
         "D. 1112"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 78] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -8120,7 +8120,7 @@ export const QUESTIONS_DATA = {
         "D. (x - 8)^2 + (y - 7)^2 = 13"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 79] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -8142,7 +8142,7 @@ export const QUESTIONS_DATA = {
         "D. 18"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 80] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -8164,7 +8164,7 @@ export const QUESTIONS_DATA = {
         "D. Điểm $R$ nằm ngoài đường tròn có đường kính $PQ$."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 81] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -8186,7 +8186,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{3}{4}$"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 82] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -8208,7 +8208,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{5}{12}$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 83] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -8230,7 +8230,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{5}{11}$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 84] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -8252,7 +8252,7 @@ export const QUESTIONS_DATA = {
         "D. 144"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 85] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -8274,7 +8274,7 @@ export const QUESTIONS_DATA = {
         "D. 36"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 86] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -8296,7 +8296,7 @@ export const QUESTIONS_DATA = {
         "D. 30,27°."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 87] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -8318,7 +8318,7 @@ export const QUESTIONS_DATA = {
         "D. 3"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 88] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -8340,7 +8340,7 @@ export const QUESTIONS_DATA = {
         "D. $\\text{Không tồn tại } m$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 89] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -8362,7 +8362,7 @@ export const QUESTIONS_DATA = {
         "D. m = 0"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 90] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -8384,7 +8384,7 @@ export const QUESTIONS_DATA = {
         "D. B, G, D, E, A, C, I, F, H."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 91] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -8406,7 +8406,7 @@ export const QUESTIONS_DATA = {
         "D. Thứ 8."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 92] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -8428,7 +8428,7 @@ export const QUESTIONS_DATA = {
         "D. G và H."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 93] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -8450,7 +8450,7 @@ export const QUESTIONS_DATA = {
         "D. I, III."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 94] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -8472,7 +8472,7 @@ export const QUESTIONS_DATA = {
         "D. J."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 95] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -8494,7 +8494,7 @@ export const QUESTIONS_DATA = {
         "D. J."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 96] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -8516,7 +8516,7 @@ export const QUESTIONS_DATA = {
         "D. 1954"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 97] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -8538,7 +8538,7 @@ export const QUESTIONS_DATA = {
         "D. 281,8%."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 98] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -8560,7 +8560,7 @@ export const QUESTIONS_DATA = {
         "D. Phần chi phí tự túc của Pháp giảm đi 169 tỷ phrăng."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 99] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -8582,7 +8582,7 @@ export const QUESTIONS_DATA = {
         "D. Giao thông vận tải."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 100] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -8604,7 +8604,7 @@ export const QUESTIONS_DATA = {
         "D. Giảm 82,2 điểm phần trăm."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 101] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -8626,7 +8626,7 @@ export const QUESTIONS_DATA = {
         "D. 92,6%."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 102] Đáp án đúng là B. Căn cứ vào tư liệu lịch sử về tổng số lần đánh phá giữa hai giai đoạn chiến tranh phá hoại.",
+      "explanation": "Đáp án đúng là B. Căn cứ vào tư liệu lịch sử về tổng số lần đánh phá giữa hai giai đoạn chiến tranh phá hoại.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -8648,7 +8648,7 @@ export const QUESTIONS_DATA = {
         "D. Dùng $\\text{K}_3\\text{PO}_4$ để làm kết tủa ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 103] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -8670,7 +8670,7 @@ export const QUESTIONS_DATA = {
         "D. Độ cứng của nước là 176 mg/l. Mẫu nước thuộc loại nước cứng."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 104] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -8692,7 +8692,7 @@ export const QUESTIONS_DATA = {
         "D. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách nung các hạt nhựa ở nhiệt độ cao để phân huỷ MgCO3."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 105] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -8714,7 +8714,7 @@ export const QUESTIONS_DATA = {
         "D. $C = \\frac{9}{5}F + 32$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 106] Đáp án đúng là A. Công thức chuyển đổi chuẩn giữa thang đo Celsius và Fahrenheit là $F = \\frac{9}{5}C + 32$.",
+      "explanation": "Đáp án đúng là A. Công thức chuyển đổi chuẩn giữa thang đo Celsius và Fahrenheit là $F = \\frac{9}{5}C + 32$.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -8736,7 +8736,7 @@ export const QUESTIONS_DATA = {
         "D. $40^{\\circ}$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 107] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -8758,7 +8758,7 @@ export const QUESTIONS_DATA = {
         "D. 100°C là nhiệt độ sôi của nước ở áp suất 1,5 atm."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 108] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -8780,7 +8780,7 @@ export const QUESTIONS_DATA = {
         "D. 5 giờ 10 phút."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 109] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -8802,7 +8802,7 @@ export const QUESTIONS_DATA = {
         "D. 19 giờ sáng/24 giờ."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 110] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -8824,7 +8824,7 @@ export const QUESTIONS_DATA = {
         "D. Cây cà chua có đủ 14 cặp lá có thể ra hoa khi chiếu sáng tối thiểu là 12 giờ hoặc nhiều hơn."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 111] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -8846,7 +8846,7 @@ export const QUESTIONS_DATA = {
         "D. Tỷ lệ thất nghiệp trong độ tuổi lao động quý II/2025 là 2,24%."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 112] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -8868,7 +8868,7 @@ export const QUESTIONS_DATA = {
         "D. Trong 9 tháng năm 2025, tỷ lệ thất nghiệp thanh niên ở khu vực nông thôn có xu hướng tăng so với cùng kỳ năm trước."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 113] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -8890,7 +8890,7 @@ export const QUESTIONS_DATA = {
         "D. Nhóm NEET chiếm tỷ trọng 8,38% trong tổng số thanh niên từ 15-24 tuổi trên cả nước."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 114] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -8912,7 +8912,7 @@ export const QUESTIONS_DATA = {
         "D. Liên minh quân sự."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 115] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -8934,7 +8934,7 @@ export const QUESTIONS_DATA = {
         "D. Cạnh tranh gay gắt giữa các quốc gia thành viên trong việc thu hút vốn đầu tư nước ngoài."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 116] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -8956,7 +8956,7 @@ export const QUESTIONS_DATA = {
         "D. Papua New Guinea."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 117] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -8978,7 +8978,7 @@ export const QUESTIONS_DATA = {
         "D. Trách nhiệm nhân văn."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 118] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -9000,7 +9000,7 @@ export const QUESTIONS_DATA = {
         "D. Quan hệ đối tác uy tín giúp tăng độ tin cậy của dự án."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 119] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -9022,7 +9022,7 @@ export const QUESTIONS_DATA = {
         "D. Tóm tắt tổng kết kế hoạch kinh doanh."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 120] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -53081,7 +53081,7 @@ export const QUESTIONS_DATA = {
       "section": "math",
       "sectionName": "Toán học & Định lượng (300đ)",
       "passage": null,
-      "question": "[EMPIRE TEAM] Cho $a, b, c > 1$. Biết rằng biểu thức $P = \\log_a(bc) + \\log_b(ac) + 4\\log_c(ab)$ đạt giá trị nhỏ nhất $m$ khi $\\log_b c = n$. Tính giá trị $m + n$.",
+      "question": "Cho $a, b, c > 1$. Biết rằng biểu thức $P = \\log_a(bc) + \\log_b(ac) + 4\\log_c(ab)$ đạt giá trị nhỏ nhất $m$ khi $\\log_b c = n$. Tính giá trị $m + n$.",
       "options": [
         "A. m + n = 12",
         "B. $m + n = \\frac{25}{2}$",
@@ -55982,7 +55982,7 @@ export const QUESTIONS_DATA = {
         "D. $[-4; 0] \\cup (4; +\\infty)$"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 61] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -56004,7 +56004,7 @@ export const QUESTIONS_DATA = {
         "D. $(-\\infty; 1]$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 62] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -56026,7 +56026,7 @@ export const QUESTIONS_DATA = {
         "D. 4"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 63] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -58253,7 +58253,7 @@ export const QUESTIONS_DATA = {
         "D. $[-4; 0] \\cup (4; +\\infty)$"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 61] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -58275,7 +58275,7 @@ export const QUESTIONS_DATA = {
         "D. $(-\\infty; 1]$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 62] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -58297,7 +58297,7 @@ export const QUESTIONS_DATA = {
         "D. 4"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 63] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -58319,7 +58319,7 @@ export const QUESTIONS_DATA = {
         "D. 18"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 64] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -58363,7 +58363,7 @@ export const QUESTIONS_DATA = {
         "D. $m = 2$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 66] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -58385,7 +58385,7 @@ export const QUESTIONS_DATA = {
         "D. 24"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 67] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -58407,7 +58407,7 @@ export const QUESTIONS_DATA = {
         "D. $60^{\\circ}$"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 68] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -58429,7 +58429,7 @@ export const QUESTIONS_DATA = {
         "D. $m = 4$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 69] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -58451,7 +58451,7 @@ export const QUESTIONS_DATA = {
         "D. Hàm số không có tiệm cận nào."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 70] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -58473,7 +58473,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{1}{2}e^{2x} + C$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 71] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -58495,7 +58495,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{72\\pi}{7}$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 72] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -58517,7 +58517,7 @@ export const QUESTIONS_DATA = {
         "D. $m = \\frac{3}{2}$"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 73] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -58539,7 +58539,7 @@ export const QUESTIONS_DATA = {
         "D. $m = 1$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 74] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -58561,7 +58561,7 @@ export const QUESTIONS_DATA = {
         "D. $\\begin{cases} 2x + y \\le 40 \\\\ x + 2y \\le 36 \\\\ x > 0, y > 0 \\end{cases}$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 75] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -58583,7 +58583,7 @@ export const QUESTIONS_DATA = {
         "D. $440."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 76] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -58605,7 +58605,7 @@ export const QUESTIONS_DATA = {
         "D. 660"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 77] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -58627,7 +58627,7 @@ export const QUESTIONS_DATA = {
         "D. 1112"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 78] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -58649,7 +58649,7 @@ export const QUESTIONS_DATA = {
         "D. (x - 8)^2 + (y - 7)^2 = 13"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 79] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -58671,7 +58671,7 @@ export const QUESTIONS_DATA = {
         "D. 18"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 80] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -59001,7 +59001,7 @@ export const QUESTIONS_DATA = {
         "D. B, G, D, E, A, C, I, F, H."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 91] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -59023,7 +59023,7 @@ export const QUESTIONS_DATA = {
         "D. Thứ 8."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 92] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -59045,7 +59045,7 @@ export const QUESTIONS_DATA = {
         "D. G và H."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 93] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -59067,7 +59067,7 @@ export const QUESTIONS_DATA = {
         "D. I, III."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 94] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -59089,7 +59089,7 @@ export const QUESTIONS_DATA = {
         "D. J."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 95] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -59111,7 +59111,7 @@ export const QUESTIONS_DATA = {
         "D. J."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 96] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -59133,7 +59133,7 @@ export const QUESTIONS_DATA = {
         "D. 1954"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 97] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -59155,7 +59155,7 @@ export const QUESTIONS_DATA = {
         "D. 281,8%."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 98] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -59177,7 +59177,7 @@ export const QUESTIONS_DATA = {
         "D. Phần chi phí tự túc của Pháp giảm đi 169 tỷ phrăng."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 99] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -59199,7 +59199,7 @@ export const QUESTIONS_DATA = {
         "D. Giao thông vận tải."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 100] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -59221,7 +59221,7 @@ export const QUESTIONS_DATA = {
         "D. Giảm 82,2 điểm phần trăm."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 101] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -59243,7 +59243,7 @@ export const QUESTIONS_DATA = {
         "D. 92,6%."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 102] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -59265,7 +59265,7 @@ export const QUESTIONS_DATA = {
         "D. Dùng $\\text{K}_3\\text{PO}_4$ để làm kết tủa ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 103] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -59287,7 +59287,7 @@ export const QUESTIONS_DATA = {
         "D. Dùng $\\text{K}_3\\text{PO}_4$ để làm kết tủa ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 104] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -59309,7 +59309,7 @@ export const QUESTIONS_DATA = {
         "D. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách nung các hạt nhựa ở nhiệt độ cao để phân huỷ MgCO3."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 105] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -59331,7 +59331,7 @@ export const QUESTIONS_DATA = {
         "D. $C = \\frac{9}{5}F + 32$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 106] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -60675,7 +60675,7 @@ export const QUESTIONS_DATA = {
         "D. $60^{\\circ}$"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 68] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -60697,7 +60697,7 @@ export const QUESTIONS_DATA = {
         "D. $m = 4$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 69] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -60719,7 +60719,7 @@ export const QUESTIONS_DATA = {
         "D. Hàm số không có tiệm cận nào."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 70] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -60741,7 +60741,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{1}{2}e^{2x} + C$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 71] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -60763,7 +60763,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{72\\pi}{7}$"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 72] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -60785,7 +60785,7 @@ export const QUESTIONS_DATA = {
         "D. $m = \\frac{3}{2}$"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 73] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -60807,7 +60807,7 @@ export const QUESTIONS_DATA = {
         "D. $m = 1$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 74] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -60829,7 +60829,7 @@ export const QUESTIONS_DATA = {
         "D. $\\begin{cases} 2x + y \\le 40 \\\\ x + 2y \\le 36 \\\\ x > 0, y > 0 \\end{cases}$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 75] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -60851,7 +60851,7 @@ export const QUESTIONS_DATA = {
         "D. $440."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 76] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -60873,7 +60873,7 @@ export const QUESTIONS_DATA = {
         "D. 660"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 77] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -60895,7 +60895,7 @@ export const QUESTIONS_DATA = {
         "D. 1112"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 78] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -60917,7 +60917,7 @@ export const QUESTIONS_DATA = {
         "D. (x - 8)^2 + (y - 7)^2 = 13"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 79] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -60939,7 +60939,7 @@ export const QUESTIONS_DATA = {
         "D. 18"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 80] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -60961,7 +60961,7 @@ export const QUESTIONS_DATA = {
         "D. Điểm $R$ nằm ngoài đường tròn có đường kính $PQ$."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 81] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -60983,7 +60983,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{3}{4}$"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 82] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -61005,7 +61005,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{5}{12}$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 83] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -61027,7 +61027,7 @@ export const QUESTIONS_DATA = {
         "D. $\\frac{5}{11}$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 84] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -61049,7 +61049,7 @@ export const QUESTIONS_DATA = {
         "D. 144"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 85] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -61071,7 +61071,7 @@ export const QUESTIONS_DATA = {
         "D. 36"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 86] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -61093,7 +61093,7 @@ export const QUESTIONS_DATA = {
         "D. 30,27°."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 87] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -61115,7 +61115,7 @@ export const QUESTIONS_DATA = {
         "D. 3"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 88] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -61137,7 +61137,7 @@ export const QUESTIONS_DATA = {
         "D. $\\text{Không tồn tại } m$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 89] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -61159,7 +61159,7 @@ export const QUESTIONS_DATA = {
         "D. m = 0"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 90] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -61335,7 +61335,7 @@ export const QUESTIONS_DATA = {
         "D. B, G, D, E, A, C, I, F, H."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 96] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -61357,7 +61357,7 @@ export const QUESTIONS_DATA = {
         "D. Thứ 8."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 97] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -61379,7 +61379,7 @@ export const QUESTIONS_DATA = {
         "D. G và H."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 98] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -61401,7 +61401,7 @@ export const QUESTIONS_DATA = {
         "D. 1954"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 99] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -61423,7 +61423,7 @@ export const QUESTIONS_DATA = {
         "D. 281,8%."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 100] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -61445,7 +61445,7 @@ export const QUESTIONS_DATA = {
         "D. Phần chi phí tự túc của Pháp giảm đi 169 tỷ phrăng."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 101] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -61467,7 +61467,7 @@ export const QUESTIONS_DATA = {
         "D. Giao thông vận tải."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 102] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -61489,7 +61489,7 @@ export const QUESTIONS_DATA = {
         "D. Giảm 82,2 điểm phần trăm."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 103] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -61511,7 +61511,7 @@ export const QUESTIONS_DATA = {
         "D. 92,6%."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 104] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -61533,7 +61533,7 @@ export const QUESTIONS_DATA = {
         "D. Dùng $\\text{K}_3\\text{PO}_4$ để làm kết tủa ion $\\text{Ca}^{2+}$ và $\\text{Mg}^{2+}$."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 105] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -61555,7 +61555,7 @@ export const QUESTIONS_DATA = {
         "D. Độ cứng của nước là 176 mg/l. Mẫu nước thuộc loại nước cứng."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 106] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -61577,7 +61577,7 @@ export const QUESTIONS_DATA = {
         "D. Ion Mg2+ tạo kết tủa MgCO3 phủ kín các lỗ trống của nhựa. Khắc phục bằng cách nung các hạt nhựa ở nhiệt độ cao để phân huỷ MgCO3."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 107] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -61599,7 +61599,7 @@ export const QUESTIONS_DATA = {
         "D. $C = \\frac{9}{5}F + 32$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 108] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -61621,7 +61621,7 @@ export const QUESTIONS_DATA = {
         "D. $40^{\\circ}$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 109] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -61643,7 +61643,7 @@ export const QUESTIONS_DATA = {
         "D. 100°C là nhiệt độ sôi của nước ở áp suất 1,5 atm."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 110] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -61665,7 +61665,7 @@ export const QUESTIONS_DATA = {
         "D. 5 giờ 10 phút."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 111] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -61687,7 +61687,7 @@ export const QUESTIONS_DATA = {
         "D. 19 giờ sáng/24 giờ."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 112] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -61709,7 +61709,7 @@ export const QUESTIONS_DATA = {
         "D. Cây cà chua có đủ 14 cặp lá có thể ra hoa khi chiếu sáng tối thiểu là 12 giờ hoặc nhiều hơn."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 113] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -61731,7 +61731,7 @@ export const QUESTIONS_DATA = {
         "D. Nhóm NEET chiếm tỷ trọng 8,38% trong tổng số thanh niên từ 15-24 tuổi trên cả nước."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 114] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -61753,7 +61753,7 @@ export const QUESTIONS_DATA = {
         "D. Liên minh quân sự."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 115] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -61775,7 +61775,7 @@ export const QUESTIONS_DATA = {
         "D. Cạnh tranh gay gắt giữa các quốc gia thành viên trong việc thu hút vốn đầu tư nước ngoài."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 116] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -61797,7 +61797,7 @@ export const QUESTIONS_DATA = {
         "D. Papua New Guinea."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 117] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -61819,7 +61819,7 @@ export const QUESTIONS_DATA = {
         "D. Trách nhiệm nhân văn."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 118] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -61841,7 +61841,7 @@ export const QUESTIONS_DATA = {
         "D. Quan hệ đối tác uy tín giúp tăng độ tin cậy của dự án."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 119] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -61863,7 +61863,7 @@ export const QUESTIONS_DATA = {
         "D. Tóm tắt tổng kết kế hoạch kinh doanh."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 120] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -63327,7 +63327,7 @@ export const QUESTIONS_DATA = {
         "D. 144"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 85] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -63349,7 +63349,7 @@ export const QUESTIONS_DATA = {
         "D. 36"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 86] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -63371,7 +63371,7 @@ export const QUESTIONS_DATA = {
         "D. 30,27°."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 87] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -63393,7 +63393,7 @@ export const QUESTIONS_DATA = {
         "D. 3"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 88] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -63415,7 +63415,7 @@ export const QUESTIONS_DATA = {
         "D. $\\text{Không tồn tại } m$"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 89] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -63437,7 +63437,7 @@ export const QUESTIONS_DATA = {
         "D. m = 0"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 90] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -63987,7 +63987,7 @@ export const QUESTIONS_DATA = {
         "D. Liên minh quân sự."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 115] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -64009,7 +64009,7 @@ export const QUESTIONS_DATA = {
         "D. Cạnh tranh gay gắt giữa các quốc gia thành viên trong việc thu hút vốn đầu tư nước ngoài."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 116] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -64031,7 +64031,7 @@ export const QUESTIONS_DATA = {
         "D. Papua New Guinea."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 117] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -64053,7 +64053,7 @@ export const QUESTIONS_DATA = {
         "D. Trách nhiệm nhân văn."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 118] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -64075,7 +64075,7 @@ export const QUESTIONS_DATA = {
         "D. Quan hệ đối tác uy tín giúp tăng độ tin cậy của dự án."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 119] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -64097,7 +64097,7 @@ export const QUESTIONS_DATA = {
         "D. Tóm tắt tổng kết kế hoạch kinh doanh."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 120] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -71197,7 +71197,7 @@ export const QUESTIONS_DATA = {
         "D. who obsessed"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 31] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -71219,7 +71219,7 @@ export const QUESTIONS_DATA = {
         "D. has explained"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 32] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -71241,7 +71241,7 @@ export const QUESTIONS_DATA = {
         "D. can’t have been"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 33] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -71263,7 +71263,7 @@ export const QUESTIONS_DATA = {
         "D. infliction"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 34] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -73556,7 +73556,7 @@ export const QUESTIONS_DATA = {
         "D. who obsessed"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 31] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -73578,7 +73578,7 @@ export const QUESTIONS_DATA = {
         "D. has explained"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 32] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -73600,7 +73600,7 @@ export const QUESTIONS_DATA = {
         "D. can’t have been"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 33] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -73622,7 +73622,7 @@ export const QUESTIONS_DATA = {
         "D. infliction"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 34] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -73644,7 +73644,7 @@ export const QUESTIONS_DATA = {
         "D. push"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 35] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -73776,7 +73776,7 @@ export const QUESTIONS_DATA = {
         "D. To save for my old age, I am likely to buy a piece of land."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 41] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -73798,7 +73798,7 @@ export const QUESTIONS_DATA = {
         "D. Linda joined a swimming contest and tried to win the first prize."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 42] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -73820,7 +73820,7 @@ export const QUESTIONS_DATA = {
         "D. It is likely that Timmy is the smartest of all the kids in his group."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 43] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -73842,7 +73842,7 @@ export const QUESTIONS_DATA = {
         "D. My best friend was taken care of by me when getting sick."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 44] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -73864,7 +73864,7 @@ export const QUESTIONS_DATA = {
         "D. The doctor asked Jack to stay at home until Jack felt better."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 45] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -73886,7 +73886,7 @@ export const QUESTIONS_DATA = {
         "D. The reasons for the Masai’s popularity over other African tribes"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 46] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -73908,7 +73908,7 @@ export const QUESTIONS_DATA = {
         "D. travellers"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 47] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -75915,7 +75915,7 @@ export const QUESTIONS_DATA = {
         "D. who obsessed"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 31] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -75937,7 +75937,7 @@ export const QUESTIONS_DATA = {
         "D. has explained"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 32] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -75959,7 +75959,7 @@ export const QUESTIONS_DATA = {
         "D. can’t have been"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 33] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -75981,7 +75981,7 @@ export const QUESTIONS_DATA = {
         "D. infliction"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 34] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -76003,7 +76003,7 @@ export const QUESTIONS_DATA = {
         "D. push"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 35] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -76135,7 +76135,7 @@ export const QUESTIONS_DATA = {
         "D. To save for my old age, I am likely to buy a piece of land."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 41] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -76157,7 +76157,7 @@ export const QUESTIONS_DATA = {
         "D. Linda joined a swimming contest and tried to win the first prize."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 42] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -76179,7 +76179,7 @@ export const QUESTIONS_DATA = {
         "D. It is likely that Timmy is the smartest of all the kids in his group."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 43] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -76201,7 +76201,7 @@ export const QUESTIONS_DATA = {
         "D. My best friend was taken care of by me when getting sick."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 44] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -76223,7 +76223,7 @@ export const QUESTIONS_DATA = {
         "D. The doctor asked Jack to stay at home until Jack felt better."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 45] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -76245,7 +76245,7 @@ export const QUESTIONS_DATA = {
         "D. The reasons for the Masai’s popularity over other African tribes"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 46] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -76267,7 +76267,7 @@ export const QUESTIONS_DATA = {
         "D. travellers"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 47] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -76289,7 +76289,7 @@ export const QUESTIONS_DATA = {
         "D. the senior elders"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 48] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -76311,7 +76311,7 @@ export const QUESTIONS_DATA = {
         "D. Masai men"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 49] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -76333,7 +76333,7 @@ export const QUESTIONS_DATA = {
         "D. distinguish"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 50] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -76355,7 +76355,7 @@ export const QUESTIONS_DATA = {
         "D. Fight with other tribes"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 51] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -76377,7 +76377,7 @@ export const QUESTIONS_DATA = {
         "D. Eunoto is the ceremony for both Masai teenage boys and girls."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 52] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -76399,7 +76399,7 @@ export const QUESTIONS_DATA = {
         "D. An environmentally friendly approach to constructing buildings"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 53] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -76421,7 +76421,7 @@ export const QUESTIONS_DATA = {
         "D. Natural materials were abundant enough for conventional building construction."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 54] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -76443,7 +76443,7 @@ export const QUESTIONS_DATA = {
         "D. solar panels"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 55] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -76465,7 +76465,7 @@ export const QUESTIONS_DATA = {
         "D. materials that prevent heat loss and absorption"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 56] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -76487,7 +76487,7 @@ export const QUESTIONS_DATA = {
         "D. Both are residential complexes with specialized, non-polluting heating systems."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 57] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -76509,7 +76509,7 @@ export const QUESTIONS_DATA = {
         "D. being carried out"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 58] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -76531,7 +76531,7 @@ export const QUESTIONS_DATA = {
         "D. Increasing work productivity"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 59] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -76553,7 +76553,7 @@ export const QUESTIONS_DATA = {
         "D. They are eco-friendly structures that always include rooftop gardens."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 60] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -78541,7 +78541,7 @@ export const QUESTIONS_DATA = {
         "D. So sánh, liệt kê."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 1] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -78563,7 +78563,7 @@ export const QUESTIONS_DATA = {
         "D. My best friend was taken care of by me when getting sick."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 44] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -78585,7 +78585,7 @@ export const QUESTIONS_DATA = {
         "D. The doctor asked Jack to stay at home until Jack felt better."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 45] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -78607,7 +78607,7 @@ export const QUESTIONS_DATA = {
         "D. The reasons for the Masai’s popularity over other African tribes"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 46] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -78629,7 +78629,7 @@ export const QUESTIONS_DATA = {
         "D. travellers"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 47] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -78651,7 +78651,7 @@ export const QUESTIONS_DATA = {
         "D. the senior elders"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 48] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -78673,7 +78673,7 @@ export const QUESTIONS_DATA = {
         "D. Masai men"
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 49] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -78696,7 +78696,7 @@ export const QUESTIONS_DATA = {
         "D. distinguish"
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 50] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -78719,7 +78719,7 @@ export const QUESTIONS_DATA = {
         "D. Fight with other tribes"
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 51] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -78742,7 +78742,7 @@ export const QUESTIONS_DATA = {
         "D. Eunoto is the ceremony for both Masai teenage boys and girls."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 52] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -78765,7 +78765,7 @@ export const QUESTIONS_DATA = {
         "D. An environmentally friendly approach to constructing buildings"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 53] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -78788,7 +78788,7 @@ export const QUESTIONS_DATA = {
         "D. Natural materials were abundant enough for conventional building construction."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 54] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -78810,7 +78810,7 @@ export const QUESTIONS_DATA = {
         "D. solar panels"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 55] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -78832,7 +78832,7 @@ export const QUESTIONS_DATA = {
         "D. materials that prevent heat loss and absorption"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 56] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -78854,7 +78854,7 @@ export const QUESTIONS_DATA = {
         "D. Both are residential complexes with specialized, non-polluting heating systems."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 57] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -78876,7 +78876,7 @@ export const QUESTIONS_DATA = {
         "D. being carried out"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 58] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -78898,7 +78898,7 @@ export const QUESTIONS_DATA = {
         "D. Increasing work productivity"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 59] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -78920,7 +78920,7 @@ export const QUESTIONS_DATA = {
         "D. They are eco-friendly structures that always include rooftop gardens."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 60] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -80954,7 +80954,7 @@ export const QUESTIONS_DATA = {
         "D. So sánh, liệt kê."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 1] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -80976,7 +80976,7 @@ export const QUESTIONS_DATA = {
         "D. Truyện truyền kỳ."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 2] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -80998,7 +80998,7 @@ export const QUESTIONS_DATA = {
         "D. Đời sống cư dân thôn quê mang vẻ đẹp thanh bình, nhộn nhịp, miêu tả qua lối viết giàu nhạc tính."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 3] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -81020,7 +81020,7 @@ export const QUESTIONS_DATA = {
         "D. Cả bốn câu đều không niêm với nhau."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 4] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -81042,7 +81042,7 @@ export const QUESTIONS_DATA = {
         "D. Ca ngợi sự thưởng thức sành sỏi của người Hà Nội."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 5] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -81064,7 +81064,7 @@ export const QUESTIONS_DATA = {
         "D. Nỗi bi quan về mọi nỗ lực của con người đều vô nghĩa trước sự trôi chảy vô tận của thời gian."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 6] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -81086,7 +81086,7 @@ export const QUESTIONS_DATA = {
         "D. A-B-B-A."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 7] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -81108,7 +81108,7 @@ export const QUESTIONS_DATA = {
         "D. Các câu hỏi thể hiện nỗi trăn trở về vận nước của Nguyễn Trãi."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 8] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -81130,7 +81130,7 @@ export const QUESTIONS_DATA = {
         "D. Dòng sông gợi lên sự tàn phai và vô thường của cuộc đời."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 9] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -81152,7 +81152,7 @@ export const QUESTIONS_DATA = {
         "D. (5)-(6); (7)-(8)."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 10] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -81174,7 +81174,7 @@ export const QUESTIONS_DATA = {
         "D. Màu máu và sự hy sinh của những chiến sĩ nơi tiền tuyến."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 11] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -81196,7 +81196,7 @@ export const QUESTIONS_DATA = {
         "D. Ở Chiều xuân, bức tranh xuân mang nỗi buồn nhân thế trước dòng chảy thời gian; ở Cô gái xuân, mùa xuân mang nỗi tiếc nuối về cơ hội yêu đương đã vượt mất."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 12] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -81218,7 +81218,7 @@ export const QUESTIONS_DATA = {
         "D. Both are residential complexes with specialized, non-polluting heating systems."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 57] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -81241,7 +81241,7 @@ export const QUESTIONS_DATA = {
         "D. being carried out"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 58] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -81264,7 +81264,7 @@ export const QUESTIONS_DATA = {
         "D. Increasing work productivity"
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 59] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -81287,7 +81287,7 @@ export const QUESTIONS_DATA = {
         "D. They are eco-friendly structures that always include rooftop gardens."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 60] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -83363,7 +83363,7 @@ export const QUESTIONS_DATA = {
         "D. So sánh, liệt kê."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 1] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -83385,7 +83385,7 @@ export const QUESTIONS_DATA = {
         "D. Truyện truyền kỳ."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 2] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -83407,7 +83407,7 @@ export const QUESTIONS_DATA = {
         "D. Đời sống cư dân thôn quê mang vẻ đẹp thanh bình, nhộn nhịp, miêu tả qua lối viết giàu nhạc tính."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 3] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -83429,7 +83429,7 @@ export const QUESTIONS_DATA = {
         "D. Cả bốn câu đều không niêm với nhau."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 4] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -83451,7 +83451,7 @@ export const QUESTIONS_DATA = {
         "D. Ca ngợi sự thưởng thức sành sỏi của người Hà Nội."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 5] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -83473,7 +83473,7 @@ export const QUESTIONS_DATA = {
         "D. Nỗi bi quan về mọi nỗ lực của con người đều vô nghĩa trước sự trôi chảy vô tận của thời gian."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 6] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -83495,7 +83495,7 @@ export const QUESTIONS_DATA = {
         "D. A-B-B-A."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 7] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -83517,7 +83517,7 @@ export const QUESTIONS_DATA = {
         "D. Các câu hỏi thể hiện nỗi trăn trở về vận nước của Nguyễn Trãi."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 8] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -83539,7 +83539,7 @@ export const QUESTIONS_DATA = {
         "D. Dòng sông gợi lên sự tàn phai và vô thường của cuộc đời."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 9] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -83561,7 +83561,7 @@ export const QUESTIONS_DATA = {
         "D. (5)-(6); (7)-(8)."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 10] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -83583,7 +83583,7 @@ export const QUESTIONS_DATA = {
         "D. Màu máu và sự hy sinh của những chiến sĩ nơi tiền tuyến."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 11] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -83605,7 +83605,7 @@ export const QUESTIONS_DATA = {
         "D. Ở Chiều xuân, bức tranh xuân mang nỗi buồn nhân thế trước dòng chảy thời gian; ở Cô gái xuân, mùa xuân mang nỗi tiếc nuối về cơ hội yêu đương đã vượt mất."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 12] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -83627,7 +83627,7 @@ export const QUESTIONS_DATA = {
         "D. Đọc giả."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 13] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -83649,7 +83649,7 @@ export const QUESTIONS_DATA = {
         "D. Bà cụ đã yếu lắm rồi, bà tìm tay tôi và nắm lấy như muốn trối trăng điều gì."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 14] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -83671,7 +83671,7 @@ export const QUESTIONS_DATA = {
         "D. Nguồn gốc, quê quán của một cá nhân."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 15] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -83693,7 +83693,7 @@ export const QUESTIONS_DATA = {
         "D. Cuộc tranh chấp bản quyền truyền hình vẫn chưa đi đến hồi kết, khi các bên đều cho rằng mình có lý và không ai chịu ai."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 16] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -83715,7 +83715,7 @@ export const QUESTIONS_DATA = {
         "D. Lạc chủ đề."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 17] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -83737,7 +83737,7 @@ export const QUESTIONS_DATA = {
         "D. Mặc dù vũ khí, trang bị hết sức thô sơ, nghĩa sĩ vẫn chiến đấu dũng cảm và nêu cao tinh thần hy sinh."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 18] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -83759,7 +83759,7 @@ export const QUESTIONS_DATA = {
         "D. không phù hợp với khả năng kết hợp của từ."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 19] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -83781,7 +83781,7 @@ export const QUESTIONS_DATA = {
         "D. sai cách dùng từ."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 20] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 1.95,
       "discrimination_a": 2,
@@ -83803,7 +83803,7 @@ export const QUESTIONS_DATA = {
         "D. Liệt kê, so sánh và đối chiếu."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 21] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.1,
       "discrimination_a": 2,
@@ -83825,7 +83825,7 @@ export const QUESTIONS_DATA = {
         "D. Cung cấp minh chứng cụ thể, đáng tin cậy cho thấy biểu hiện của thực trạng dân trí tài chính ở Việt Nam giai đoạn 2021-2023."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 22] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": 2.25,
       "discrimination_a": 2,
@@ -83847,7 +83847,7 @@ export const QUESTIONS_DATA = {
         "D. Cảnh báo thực trạng người Việt có hiểu biết, kỹ năng và thái độ với lĩnh vực tài chính còn ở mức thấp và hệ quả."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 23] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "advanced",
       "difficulty_b": -2.1,
       "discrimination_a": 2,
@@ -85862,7 +85862,7 @@ export const QUESTIONS_DATA = {
         "D. Ca ngợi sự thưởng thức sành sỏi của người Hà Nội."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 5] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -85884,7 +85884,7 @@ export const QUESTIONS_DATA = {
         "D. Nỗi bi quan về mọi nỗ lực của con người đều vô nghĩa trước sự trôi chảy vô tận của thời gian."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 6] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -85906,7 +85906,7 @@ export const QUESTIONS_DATA = {
         "D. A-B-B-A."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 7] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -85928,7 +85928,7 @@ export const QUESTIONS_DATA = {
         "D. Các câu hỏi thể hiện nỗi trăn trở về vận nước của Nguyễn Trãi."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 8] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -85950,7 +85950,7 @@ export const QUESTIONS_DATA = {
         "D. Dòng sông gợi lên sự tàn phai và vô thường của cuộc đời."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 9] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -85972,7 +85972,7 @@ export const QUESTIONS_DATA = {
         "D. (5)-(6); (7)-(8)."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 10] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -85994,7 +85994,7 @@ export const QUESTIONS_DATA = {
         "D. Màu máu và sự hy sinh của những chiến sĩ nơi tiền tuyến."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 11] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -86016,7 +86016,7 @@ export const QUESTIONS_DATA = {
         "D. Ở Chiều xuân, bức tranh xuân mang nỗi buồn nhân thế trước dòng chảy thời gian; ở Cô gái xuân, mùa xuân mang nỗi tiếc nuối về cơ hội yêu đương đã vượt mất."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 12] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -86038,7 +86038,7 @@ export const QUESTIONS_DATA = {
         "D. Đọc giả."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 13] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -86060,7 +86060,7 @@ export const QUESTIONS_DATA = {
         "D. Bà cụ đã yếu lắm rồi, bà tìm tay tôi và nắm lấy như muốn trối trăng điều gì."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 14] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -86082,7 +86082,7 @@ export const QUESTIONS_DATA = {
         "D. Nguồn gốc, quê quán của một cá nhân."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 15] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -86104,7 +86104,7 @@ export const QUESTIONS_DATA = {
         "D. Cuộc tranh chấp bản quyền truyền hình vẫn chưa đi đến hồi kết, khi các bên đều cho rằng mình có lý và không ai chịu ai."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 16] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -86126,7 +86126,7 @@ export const QUESTIONS_DATA = {
         "D. Lạc chủ đề."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 17] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -86148,7 +86148,7 @@ export const QUESTIONS_DATA = {
         "D. Mặc dù vũ khí, trang bị hết sức thô sơ, nghĩa sĩ vẫn chiến đấu dũng cảm và nêu cao tinh thần hy sinh."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 18] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -86170,7 +86170,7 @@ export const QUESTIONS_DATA = {
         "D. không phù hợp với khả năng kết hợp của từ."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 19] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,
@@ -86192,7 +86192,7 @@ export const QUESTIONS_DATA = {
         "D. sai cách dùng từ."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 20] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.3,
       "discrimination_a": 1.35,
@@ -86214,7 +86214,7 @@ export const QUESTIONS_DATA = {
         "D. Liệt kê, so sánh và đối chiếu."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 21] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.4,
       "discrimination_a": 1.35,
@@ -86236,7 +86236,7 @@ export const QUESTIONS_DATA = {
         "D. Cung cấp minh chứng cụ thể, đáng tin cậy cho thấy biểu hiện của thực trạng dân trí tài chính ở Việt Nam giai đoạn 2021-2023."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 22] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.5,
       "discrimination_a": 1.35,
@@ -86258,7 +86258,7 @@ export const QUESTIONS_DATA = {
         "D. Cảnh báo thực trạng người Việt có hiểu biết, kỹ năng và thái độ với lĩnh vực tài chính còn ở mức thấp và hệ quả."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 23] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.6,
       "discrimination_a": 1.35,
@@ -86280,7 +86280,7 @@ export const QUESTIONS_DATA = {
         "D. Cung cấp kết quả khảo sát thực tế, tạo tính xác thực, khách quan cho lập luận và dẫn dắt vào những lý do tiếp theo."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 24] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.7,
       "discrimination_a": 1.35,
@@ -86302,7 +86302,7 @@ export const QUESTIONS_DATA = {
         "D. Nâng cao nhận thức của người đọc về tầm quan trọng của việc giáo dục tài chính cho trẻ em."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 25] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 0.92,
       "discrimination_a": 1.65,
@@ -86324,7 +86324,7 @@ export const QUESTIONS_DATA = {
         "D. Miêu tả những người bất hạnh trong xã hội bệnh tật để tìm cách chạy chữa."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 26] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.04,
       "discrimination_a": 1.65,
@@ -86346,7 +86346,7 @@ export const QUESTIONS_DATA = {
         "D. Nhân vật trong tác phẩm không nên lấy từ một địa phương cụ thể."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 27] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.16,
       "discrimination_a": 1.65,
@@ -86368,7 +86368,7 @@ export const QUESTIONS_DATA = {
         "D. Là viết về những bất hạnh của người đời với mục đích chữa trị."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 28] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.28,
       "discrimination_a": 1.65,
@@ -86390,7 +86390,7 @@ export const QUESTIONS_DATA = {
         "D. Lãng mạn."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 29] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.4,
       "discrimination_a": 1.65,
@@ -86412,7 +86412,7 @@ export const QUESTIONS_DATA = {
         "D. Hiện thực được miêu tả đúng với ngoài đời, nhân vật là tổng hòa đặc điểm của nhiều nhân vật."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 30] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "application",
       "difficulty_b": 1.52,
       "discrimination_a": 1.65,
@@ -88511,7 +88511,7 @@ export const QUESTIONS_DATA = {
         "D. Cuộc tranh chấp bản quyền truyền hình vẫn chưa đi đến hồi kết, khi các bên đều cho rằng mình có lý và không ai chịu ai."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 16] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.12,
       "discrimination_a": 1,
@@ -88533,7 +88533,7 @@ export const QUESTIONS_DATA = {
         "D. Lạc chủ đề."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 17] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -1.04,
       "discrimination_a": 1,
@@ -88555,7 +88555,7 @@ export const QUESTIONS_DATA = {
         "D. Mặc dù vũ khí, trang bị hết sức thô sơ, nghĩa sĩ vẫn chiến đấu dũng cảm và nêu cao tinh thần hy sinh."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 18] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.96,
       "discrimination_a": 1,
@@ -88577,7 +88577,7 @@ export const QUESTIONS_DATA = {
         "D. không phù hợp với khả năng kết hợp của từ."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 19] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.88,
       "discrimination_a": 1,
@@ -88599,7 +88599,7 @@ export const QUESTIONS_DATA = {
         "D. sai cách dùng từ."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 20] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.8,
       "discrimination_a": 1,
@@ -88621,7 +88621,7 @@ export const QUESTIONS_DATA = {
         "D. Liệt kê, so sánh và đối chiếu."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 21] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.72,
       "discrimination_a": 1,
@@ -88643,7 +88643,7 @@ export const QUESTIONS_DATA = {
         "D. Cung cấp minh chứng cụ thể, đáng tin cậy cho thấy biểu hiện của thực trạng dân trí tài chính ở Việt Nam giai đoạn 2021-2023."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 22] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.64,
       "discrimination_a": 1,
@@ -88665,7 +88665,7 @@ export const QUESTIONS_DATA = {
         "D. Cảnh báo thực trạng người Việt có hiểu biết, kỹ năng và thái độ với lĩnh vực tài chính còn ở mức thấp và hệ quả."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 23] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.56,
       "discrimination_a": 1,
@@ -88687,7 +88687,7 @@ export const QUESTIONS_DATA = {
         "D. Cung cấp kết quả khảo sát thực tế, tạo tính xác thực, khách quan cho lập luận và dẫn dắt vào những lý do tiếp theo."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 24] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.48,
       "discrimination_a": 1,
@@ -88709,7 +88709,7 @@ export const QUESTIONS_DATA = {
         "D. Nâng cao nhận thức của người đọc về tầm quan trọng của việc giáo dục tài chính cho trẻ em."
       ],
       "correctAnswer": 2,
-      "explanation": "[VnNO1 2026/2027 - Câu 25] Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là C. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "recognition",
       "difficulty_b": -0.4,
       "discrimination_a": 1,
@@ -88731,7 +88731,7 @@ export const QUESTIONS_DATA = {
         "D. Miêu tả những người bất hạnh trong xã hội bệnh tật để tìm cách chạy chữa."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 26] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.2,
       "discrimination_a": 1.35,
@@ -88753,7 +88753,7 @@ export const QUESTIONS_DATA = {
         "D. Nhân vật trong tác phẩm không nên lấy từ một địa phương cụ thể."
       ],
       "correctAnswer": 0,
-      "explanation": "[VnNO1 2026/2027 - Câu 27] Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là A. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": -0.1,
       "discrimination_a": 1.35,
@@ -88775,7 +88775,7 @@ export const QUESTIONS_DATA = {
         "D. Là viết về những bất hạnh của người đời với mục đích chữa trị."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 28] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0,
       "discrimination_a": 1.35,
@@ -88797,7 +88797,7 @@ export const QUESTIONS_DATA = {
         "D. Lãng mạn."
       ],
       "correctAnswer": 1,
-      "explanation": "[VnNO1 2026/2027 - Câu 29] Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là B. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.1,
       "discrimination_a": 1.35,
@@ -88819,7 +88819,7 @@ export const QUESTIONS_DATA = {
         "D. Hiện thực được miêu tả đúng với ngoài đời, nhân vật là tổng hòa đặc điểm của nhiều nhân vật."
       ],
       "correctAnswer": 3,
-      "explanation": "[VnNO1 2026/2027 - Câu 30] Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn VnNO1 để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
+      "explanation": "Đáp án đúng là D. Áp dụng phương pháp giải tư duy chuẩn V-ACT để đối chiếu trực tiếp dữ kiện đề bài và suy luận đáp án chính xác.",
       "cognitiveLevel": "understanding",
       "difficulty_b": 0.2,
       "discrimination_a": 1.35,

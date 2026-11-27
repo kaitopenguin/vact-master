@@ -170,17 +170,17 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
   if (filterCategory === 'official') {
     filteredExams = EXAM_LIST.filter(e => e.category === 'official');
   } else if (filterCategory === 'latest') {
-    filteredExams = EXAM_LIST.filter(e => e.category === 'latest' || e.category === 'empire' || e.category === 'vnno1');
+    filteredExams = EXAM_LIST.filter(e => e.category === 'latest');
   } else if (filterCategory === 'bank') {
     filteredExams = EXAM_LIST.filter(e => e.category === 'bank');
-  } else if (filterCategory === 'moon') {
-    filteredExams = EXAM_LIST.filter(e => e.category === 'moon');
-  } else if (filterCategory === 'moon_1_10') {
+  } else if (filterCategory === 'standard') {
+    filteredExams = EXAM_LIST.filter(e => e.category === 'standard');
+  } else if (filterCategory === 'standard_1_10') {
     filteredExams = EXAM_LIST.filter(e => {
       const match = e.id.match(/vact-moon-de-(\d+)/);
       return match && parseInt(match[1]) <= 10;
     });
-  } else if (filterCategory === 'moon_11_25') {
+  } else if (filterCategory === 'standard_11_25') {
     filteredExams = EXAM_LIST.filter(e => {
       const match = e.id.match(/vact-moon-de-(\d+)/);
       return match && parseInt(match[1]) > 10;
@@ -495,12 +495,12 @@ export default function ExamView({ onSaveMistake, savedMistakeIds = [], fontSize
           </span>
           {[
             { id: 'all', label: `Tất cả (${EXAM_LIST.length} đề)` },
-            { id: 'latest', label: '⭐ Đề Mới (Empire & VnNO1)' },
+            { id: 'latest', label: '⭐ Đề Thi Thử Trọng Tâm' },
             { id: 'bank', label: '🔥 Tuyển Chọn Bộ 200 Đề' },
             { id: 'official', label: 'Đề Mẫu ĐHQG-HCM' },
-            { id: 'moon', label: 'Toàn bộ 25 đề Moon.vn' },
-            { id: 'moon_1_10', label: 'Đề 01 - 10 (Nền tảng)' },
-            { id: 'moon_11_25', label: 'Đề 11 - 25 (Phân hóa 950+)' },
+            { id: 'standard', label: 'Tuyển tập 25 đề chuẩn hóa' },
+            { id: 'standard_1_10', label: 'Đề 01 - 10 (Nền tảng)' },
+            { id: 'standard_11_25', label: 'Đề 11 - 25 (Phân hóa 950+)' },
           ].map(cat => (
             <button
               key={cat.id}

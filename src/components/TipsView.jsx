@@ -69,7 +69,7 @@ export default function TipsView({ fontSize = 'normal' }) {
       <div className="mb-6 sm:mb-8 border-b vact-border pb-6">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-black bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-200 mb-3 border border-amber-300 dark:border-amber-800">
           <Lightbulb className="w-4 h-4 text-amber-600" />
-          Kinh Nghiệm Thực Chiến Từ Thủ Khoa 1000+ (CPEN & VnNO1)
+          Kinh Nghiệm Thực Chiến Từ Thủ Khoa 1000+ V-ACT
         </div>
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>

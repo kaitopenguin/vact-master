@@ -1,4 +1,4 @@
-// Ngân hàng câu hỏi bổ sung từ 10 Đề KSCL V-ACT đầu năm (Empire Team)
+// Ngân hàng câu hỏi bổ sung từ 10 Đề KSCL V-ACT đầu năm (Chuẩn hóa V-ACT)
 // Đã được rà soát 100% tính nguyên tử của cụm ngữ liệu, đáp án và loại bỏ câu phụ thuộc hình ảnh rời.
 export const KSCL_BANK_DATA = {
   "vact-kscl-vietnamese": [

@@ -4,8 +4,8 @@ import { BookOpen, Download, ExternalLink, FileText, CheckCircle, Search, Eye, K
 export const BOOKS_DATA = [
   {
     id: 'book-de4',
-    title: 'Đề Tiên Đoán V-ACT Số 4 Chuẩn ĐHQG-HCM (Empire Team - Có Đáp Án & Lời Giải)',
-    author: 'Empire Team Khảo Thí & Biên Soạn',
+    title: 'Đề Thực Chiến V-ACT Số 01 Chuẩn ĐHQG-HCM (Có Đáp Án & Lời Giải)',
+    author: 'Ban Chuyên Môn V-ACT Master',
     year: '2025 - 2026',
     format: 'Chuẩn V-ACT 120 câu / 150 phút (1.200đ)',
     fileSize: '2.9 MB',
@@ -23,7 +23,7 @@ export const BOOKS_DATA = [
   {
     id: 'book-200-tv',
     title: 'Tuyển Tập 200 Câu Tiếng Việt ĐGNL V-ACT (Kèm Đáp Án & Lời Giải Chi Tiết)',
-    author: 'Empire Team Chinh Phục Mọi Miền Kiến Thức',
+    author: 'Ban Chuyên Môn V-ACT Master',
     year: '2025 - 2026',
     format: 'Ngân hàng 200 câu trắc nghiệm ngôn ngữ',
     fileSize: '3.2 MB',
@@ -41,7 +41,7 @@ export const BOOKS_DATA = [
   {
     id: 'book-200-ta',
     title: 'Tuyển Tập 200 Câu Tiếng Anh ĐGNL V-ACT (Kèm Đáp Án & Phân Tích Ngữ Pháp)',
-    author: 'Empire Team Chinh Phục Mọi Miền Kiến Thức',
+    author: 'Ban Chuyên Môn V-ACT Master',
     year: '2025 - 2026',
     format: 'Ngân hàng 200 câu đọc hiểu & ngữ pháp',
     fileSize: '5.6 MB',
@@ -59,7 +59,7 @@ export const BOOKS_DATA = [
   {
     id: 'book-200-toan',
     title: 'Tuyển Tập 200 Câu Toán Học & Tư Duy Định Lượng (Kèm Lời Giải Chi Tiết)',
-    author: 'Empire Team Chinh Phục Mọi Miền Kiến Thức',
+    author: 'Ban Chuyên Môn V-ACT Master',
     year: '2025 - 2026',
     format: 'Ngân hàng 200 câu Toán thực tế & giải tích',
     fileSize: '4.0 MB',
@@ -77,7 +77,7 @@ export const BOOKS_DATA = [
   {
     id: 'book-200-tdkh',
     title: 'Tuyển Tập 200 Câu Tư Duy Khoa Học: Logic, Số Liệu & Tình Huống KHTN - KHXH',
-    author: 'Empire Team Chinh Phục Mọi Miền Kiến Thức',
+    author: 'Ban Chuyên Môn V-ACT Master',
     year: '2025 - 2026',
     format: 'Ngân hàng 200 câu Logic & Khoa học',
     fileSize: '5.2 MB',
@@ -113,15 +113,15 @@ export const BOOKS_DATA = [
   },
   {
     id: 'book-02',
-    title: '25 Đề Luyện Thi V-ACT 2025 Chuyên Sâu (Moon.vn)',
-    author: 'Hệ thống Giáo dục Moon.vn',
+    title: '25 Đề Luyện Thi V-ACT 2025 Chuyên Sâu',
+    author: 'Ngân Hàng Đề Chuẩn Hóa V-ACT',
     year: '2025',
     format: 'Bộ sách luyện đề toàn diện',
     fileSize: '96.5 MB',
     pages: '616 trang',
     driveUrl: 'https://drive.google.com/file/d/1xUbhkdrBPPZDNZbIOPXbm0Z0fqStQIoe/view',
     embedUrl: 'https://drive.google.com/file/d/1xUbhkdrBPPZDNZbIOPXbm0Z0fqStQIoe/preview',
-    badge: 'Bộ đề Moon.vn tuyển chọn',
+    badge: 'Bộ đề chuẩn hóa tuyển chọn',
     badgeColor: 'bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200 border border-blue-300 dark:border-blue-800',
     description: 'Tuyển tập 25 đề thi thử bám sát định dạng V-ACT với lời giải phân tích chi tiết từng câu hỏi, giúp thí sinh làm quen với mọi dạng bẫy.',
     highlights: [
@@ -173,7 +173,7 @@ export default function BooksView({ onStartPracticeOfficial }) {
           Sách & Bộ Đề Thi Gốc V-ACT 2025 - 2027
         </h1>
         <p className="mt-2 text-sm sm:text-base vact-text-secondary max-w-3xl leading-relaxed">
-          Toàn bộ tài liệu PDF chính thống từ ĐHQG TP.HCM, tuyển tập bộ 200 đề 4 phân môn có đáp án, Đề Tiên Đoán Số 4 (Empire Team) và các bộ đề thực chiến VnNO1. Bạn có thể xem trực tiếp hoặc tải về máy hoàn toàn miễn phí.
+          Toàn bộ tài liệu PDF chính thống từ ĐHQG TP.HCM, tuyển tập bộ 200 câu 4 phân môn có đáp án và các bộ đề thực chiến chuẩn hóa. Bạn có thể xem trực tiếp hoặc tải về máy hoàn toàn miễn phí.
         </p>
       </div>
 
@@ -184,7 +184,7 @@ export default function BooksView({ onStartPracticeOfficial }) {
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Tìm kiếm theo tên đề, sách, tác giả (ĐHQG, Empire Team, Moon.vn, VnNO1...)"
+          placeholder="Tìm kiếm theo tên đề, sách, chuyên đề (ĐHQG, Toán, Tiếng Việt, Tư duy Khoa học...)"
           className="w-full pl-12 pr-4 py-3.5 rounded-2xl vact-card border vact-border vact-text-primary placeholder:text-slate-400 focus:outline-hidden focus:ring-2 focus:ring-blue-500 text-sm font-medium shadow-xs"
         />
       </div>
